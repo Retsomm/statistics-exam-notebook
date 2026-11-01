@@ -100,7 +100,27 @@ function optionExplanation(question,option,correct,topic){
  }
  return `（${option.letter}）不選。${concept||`「${optionText}」沒有得到題幹條件支持；依題意應選「${correctText}」。`}本題問的結論是「${correctText}」，不能只看名詞相近就選它。`;
 }
+const checkedCalculations={
+ '115-2s-25':{
+  summary:'先算三組平均數：A 組 23、B 組 27.25、C 組 20.75；全部 12 筆資料的總平均為 23.67。處理間平方和 SSTR = 4×[(23−23.67)²+(27.25−23.67)²+(20.75−23.67)²]，約為 87.17。三組的處理自由度為 3−1=2，因此處理間均方 MSTR = 87.17÷2，約為 43.58，選 A。',
+  options:{A:'43.58 是處理間平方和約 87.17 除以自由度 2 的結果。',B:'7.33 不是由三組平均數計得的處理間均方。',C:'5.94 不符合以組間平方和除以 2 的結果。',D:'53.51 不是本題組間均方；計算時須先將各組平均與總平均的差平方，再乘各組樣本數。'}
+ },
+ '115-2s-26':{
+  summary:'信賴區間總寬度不超過 0.10，因此單側誤差不得超過 0.05。90% 信賴水準取 z ≈ 1.645，已知瑕疵比例 p = 0.10。代入 n ≥ z²p(1−p)/E²，得到 1.645²×0.1×0.9÷0.05² ≈ 97.42；樣本數要向上取整，至少 98，選 D。',
+  options:{A:'45 人不足以把總寬度控制在 0.10 以內。',B:'68 人小於向上取整所需的 98 人。',C:'78 人仍小於 98 人，不能滿足要求。',D:'98 人是將約 97.42 向上取整後的最少樣本數。'}
+ },
+ '106-2s-8':{
+  summary:'莖葉圖例如 6｜2 代表 62 分。將 50 筆資料按大小排列，前 25 筆的中位數是第 13 筆 62，後 25 筆的中位數是第 38 筆 79。因此四分位距為 Q3−Q1=79−62=17，選 C。',
+  options:{A:'13 不是上四分位數 79 與下四分位數 62 的差。',B:'15 不是 79−62 的結果。',C:'上四分位數 79 減下四分位數 62，四分位距為 17。',D:'19 與原卷莖葉圖計算出的四分位距 17 不符。'}
+ },
+ '107-2s-1':{
+  summary:'先由條件機率算 P(A ∩ B)=P(A | B)P(B)=0.4×0.6=0.24。已知 P(A ∩ Bᶜ)=0.2，因此 A 在 B 外的部分為 0.2；聯集可視為整個 B 加上 A 在 B 外的部分，P(A ∪ B)=0.6+0.2=0.8，選 C。',
+  options:{A:'0.6 只算了事件 B，漏掉 A 在 B 之外的 0.2。',B:'0.7 不是 0.6 加 0.2 的結果。',C:'聯集為 P(B)+P(A ∩ Bᶜ)=0.6+0.2=0.8。',D:'0.9 高於依題意算出的聯集機率 0.8。'}
+ },
+};
 function explanationFor(question,exam){
+ const checked=checkedCalculations[question.id];
+ if(checked)return {summary:checked.summary.replace('。','。\n\n'),options:checked.options,optionVerdicts:Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)?'可以選。':'不選。'])),sources:[{title:`${exam.year} 年初等考試統計學大意官方試題與答案`,url:exam.source}]};
  const topic=topicFor(question),correct=question.options.find(option=>question.accepted.includes(option.letter));
  if(!correct)throw Error(`Missing answer for ${question.id}`);
  const calculation=calculationNote(question,correct,topic),visualNote=question.hasVisual?'\n\n題目含表格、圖形或公式時，請同時開啟官方原卷核對原始版面與數值。':'';

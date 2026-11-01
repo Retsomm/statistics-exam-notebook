@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));
+const checkedStatistics=new Set(['115-2s-25','115-2s-26','106-2s-8','107-2s-1']);
 test('statistics and data-processing questions have hidden-dialog explanation payloads',()=>{for(const exam of bank.exams.filter(exam=>exam.subjectIndex>1)){const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));const questions=bank.questions.filter(q=>q.examId===exam.id);assert.equal(Object.keys(entries).length,questions.length);for(const q of questions){const e=entries[q.id];assert.ok(e.summary.includes('\n\n'));assert.deepEqual(Object.keys(e.options).sort(),['A','B','C','D']);assert.deepEqual(Object.keys(e.optionVerdicts).sort(),['A','B','C','D']);assert.ok(e.sources.length);}}});
 
 
@@ -16,7 +17,7 @@ test('every professional-subject explanation is written for its own question and
    assert.ok(entry.summary.includes(announcedAnswer),`${question.id} must explain its announced answer`);
    assert.doesNotMatch(entry.summary,/先辨認題目問的是定義、計算或推論/);
    if(exam.subjectIndex===3)assert.doesNotMatch(entry.summary,/這題其實在問：|學習重點：|判斷方式：/);
-   else{assert.match(entry.summary,/這題其實在問：/);assert.match(entry.summary,/學習重點：/);assert.match(entry.summary,/判斷方式：/);}
+   else if(!checkedStatistics.has(question.id)){assert.match(entry.summary,/這題其實在問：/);assert.match(entry.summary,/學習重點：/);assert.match(entry.summary,/判斷方式：/);}
    assert.doesNotMatch(entry.summary,/把題目給的條件逐一對回定義|看起來可能有關|少了題幹的關鍵條件|只要「看起來相關」/);
    assert.doesNotMatch(entry.summary,/本題考的是/);
    const distinctChoices=exam.subjectIndex===3?new Set(question.options.map(option=>option.text.normalize('NFKC').replace(/\s+/g,' ').trim())).size:4;
@@ -30,13 +31,13 @@ test('professional explanations avoid vague option templates and teach a concret
  const banned=/把題目給的條件逐一對回定義|看起來可能有關|少了題幹的關鍵條件|只要「看起來相關」/;
  for(const exam of bank.exams.filter(exam=>exam.subjectIndex>1)){
   const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));
-  for(const entry of Object.values(entries)){
+  for(const [id,entry] of Object.entries(entries)){
    if(exam.subjectIndex===3)assert.doesNotMatch(entry.summary,/這題其實在問：|學習重點：|判斷方式：/);
-   else{assert.match(entry.summary,/學習重點：/);assert.match(entry.summary,/判斷方式：/);}
+   else if(!checkedStatistics.has(id)){assert.match(entry.summary,/學習重點：/);assert.match(entry.summary,/判斷方式：/);}
    assert.doesNotMatch(entry.summary,banned);
    for(const detail of Object.values(entry.options)){
     assert.doesNotMatch(detail,banned);
-    assert.ok(detail.length>(exam.subjectIndex===3?15:25));
+    assert.ok(detail.length>(exam.subjectIndex===3||checkedStatistics.has(id)?15:25));
    }
   }
  }

@@ -12,7 +12,7 @@ test('107 Chinese question 34 starts with the official question and preserves al
  assert.deepEqual(q.accepted,['D']);
 });
 test('verified stray fragments and repeated question numbers are removed from affected questions',()=>{
- const ids=[...Array.from({length:10},(_,i)=>`107-0-${26+i}`),...[3,4,6,7,9,10,12].map(n=>`108-1-${n}`),'113-1-6'];
+ const ids=[...Array.from({length:10},(_,i)=>`107-0-${26+i}`),...[3,4,6,7,9,10,12].map(n=>`108-1-${n}`),...[6,37,38,40].map(n=>`113-1-${n}`)];
  for(const id of ids){const before=original.questions.find(q=>q.id===id),after=bank.questions.find(q=>q.id===id);const marker=new RegExp(`\\n\\s*${before.number}\\s+`);assert.match(before.stem,marker,id);assert.equal(after.stem,before.stem.slice(before.stem.search(marker)).replace(marker,''),id);assert.deepEqual(after.options,before.options,id);}
 });
 test('supplementary statistical distribution tables are not part of the final choice',()=>{
@@ -22,4 +22,9 @@ test('supplementary statistical distribution tables are not part of the final ch
 });
 test('unreviewed question text is preserved and numeric question content is not stripped',()=>{
  const q=bank.questions.find(item=>item.id==='111-3d-29');assert.match(q.stem,/^10 進位/);assert.deepEqual(cleanExamQuestion(q),q);
+});
+
+test('statistics formulas with unrecovered symbol-font glyphs expose their official page',()=>{
+ const q=bank.questions.find(item=>item.id==='114-2s-9');
+ assert.match(q.stem,/[\uE000-\uF8FF]/u);assert.equal(q.hasVisual,true);
 });
