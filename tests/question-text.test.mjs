@@ -23,3 +23,14 @@ test('non-keyword C statements ending in semicolons remain code',()=>{
  const layout=questionLayout('下列程式輸出為何？\nprocessArray(arr + 2, 3);\nfoo();');
  assert.deepEqual(layout.filter(block=>block.type==='code').map(block=>block.lines.join('\n')),['processArray(arr + 2, 3);\nfoo();']);
 });
+
+import {prepareQuestionText} from '../lib/question-text.mjs';
+test('108 civics question 31 keeps each year aligned with country and data',()=>{
+ const q=prepareQuestionText(bank.questions.find(q=>q.id==='108-1-31'));
+ const table=questionLayout(q.stem).find(block=>block.type==='table');
+ assert.deepEqual(table.rows,[['國家','2013 年','2014 年','2015 年'],['甲國','100','125','155'],['乙國','100','160','200'],['丙國','100','175','229'],['丁國','100','110','143']]);
+});
+test('ambiguous missing cells do not become a misleading table',()=>{
+ const q=prepareQuestionText(bank.questions.find(q=>q.id==='111-1-25'));
+ assert.equal(questionLayout(q.stem).some(block=>block.type==='table'),false);
+});
