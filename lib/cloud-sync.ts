@@ -2,7 +2,7 @@
 import { collection, doc, getFirestore, getDocsFromServer, getDocFromServer, onSnapshot, runTransaction, serverTimestamp, type Firestore, type Unsubscribe } from 'firebase/firestore';
 import { mergeAttempts } from './attempts.mjs';
 import { firebaseAuth } from './firebase-client';
-import {applyStudyMutation,vocabularyMigration,bookmarkMigration,applyQuestionMutation,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
+import {applyStudyMutation,vocabularyMigration,bookmarkMigration,applyQuestionMutation,canCoalesceStudyMutations,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
 import {syncErrorMessage} from './sync-errors.mjs';
 import type {Question,StudyState} from './types';
 export type SyncStatus='connecting'|'synced'|'saving'|'offline'|'error';
@@ -56,8 +56,8 @@ export class CloudSync {
  enqueue(changes:Omit<Mutation,'id'>[]){
   if(this.disposed)return;
   for(const change of changes){
-   const previous=[...this.queue].reverse().find(m=>m.docId===change.docId&&m.mode===change.mode&&!this.inflight.has(m.id));
-   if(previous){previous.patch={...previous.patch,...change.patch,...(Object.hasOwn(previous.patch,'baseSessionJSON')?{baseSessionJSON:previous.patch.baseSessionJSON}:{}),...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
+   const previous=[...this.queue].reverse().find(m=>m.docId===change.docId);
+   if(previous&&previous.mode===change.mode&&!this.inflight.has(previous.id)&&(change.docId!=='_session'||canCoalesceStudyMutations(previous.patch,change.patch))){previous.patch={...previous.patch,...change.patch,...(Object.hasOwn(previous.patch,'baseSessionJSON')?{baseSessionJSON:previous.patch.baseSessionJSON}:{}),...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
    else this.queue.push({...change,id:crypto.randomUUID()});
   }
   if(changes.length){this.persist();this.status(navigator.onLine?'saving':'offline');this.schedule();}

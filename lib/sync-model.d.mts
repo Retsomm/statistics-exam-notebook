@@ -3,6 +3,7 @@ export type CloudQuestion={revision?:number;bookmark?:boolean;explanationBookmar
 export type Mutation={id:string;docId:string;patch:CloudQuestion&{attempts?:StudyState['attempts'];sessionJSON?:string;baseSessionJSON?:string;vocabularyBookmarks?:Record<string,boolean>;idiomBookmarks?:Record<string,boolean>};mode:'update'|'migrate'};
 export function mergeHistory(a?:History[],b?:History[]):History[];
 export function stateChanges(before:StudyState,after:StudyState):Omit<Mutation,'id'>[];
+export function canCoalesceStudyMutations(previous:Mutation['patch'],next:Mutation['patch']):boolean;
 export function migrationChanges(local:StudyState,remote:Map<string,CloudQuestion>,sessionExists:boolean):Omit<Mutation,'id'>[];
 export function applyQuestionMutation(current:CloudQuestion|undefined,mutation:Mutation):CloudQuestion;
 export function cloudState(remote:Map<string,CloudQuestion>,sessionJSON:string|undefined,questions:Question[],queue?:Mutation[]):StudyState;
