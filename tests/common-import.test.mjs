@@ -6,6 +6,8 @@ import {prepareQuestionText} from '../lib/question-text.mjs';
 import {cleanExamQuestion} from '../lib/exam-text-cleanup.mjs';
 import {questionScore} from '../lib/scoring.mjs';
 import {questionLayout} from '../lib/question-layout.mjs';
+import {completeAttempt,validAttempt} from '../lib/attempts.mjs';
+import {emptyState,validateBackup} from '../lib/study.mjs';
 const read=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url)));
 const bank=read('bank.json'),meta=read('common-bank-meta.json');
 const importedIds=new Set(meta.exams.map(e=>e.id));
@@ -67,5 +69,16 @@ test('historical Chinese test-only sections remain 20 points and link to their r
   const table=questionLayout(prepareQuestionText(get(id)).stem).find(block=>block.type==='table');
   assert.ok(table,id);assert.deepEqual(table.rows[0],header);
   assert.ok(table.rows.every(row=>row.length===3),id);
+ }
+});
+test('completed historical Chinese sections preserve scores through backup validation',()=>{
+ for(const examId of ['097-0','098-0']){
+  const qs=questions.filter(q=>q.examId===examId),state=emptyState();
+  state.session={attemptId:'11111111-1111-4111-8111-111111111111',examId,startedAt:'2026-11-02T00:00:00Z',ids:qs.map(q=>q.id),index:9,title:examId,choices:Object.fromEntries(qs.map(q=>[q.id,q.accepted[0].split('')])),checked:Object.fromEntries(qs.map(q=>[q.id,true]))};
+  completeAttempt(state,new Map(bank.questions.map(q=>[q.id,q])),bank.exams,'2026-11-02T00:10:00Z');
+  assert.equal(state.attempts.length,1);assert.equal(state.attempts[0].score,20);assert.equal(state.attempts[0].max,20);
+  assert.equal(validAttempt(state.attempts[0]),true);
+  assert.equal(validAttempt({...state.attempts[0],examId:'115-0'}),false);
+  assert.equal(validateBackup(state,new Set(bank.questions.map(q=>q.id))).attempts.length,1);
  }
 });
