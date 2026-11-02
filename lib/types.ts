@@ -13,4 +13,4 @@ export type CollectionTab = 'wrong'|'questions'|'explanations'|'idioms'|'words';
 export type Vocabulary = {word:string;partOfSpeech:string;meaning:string;usage:string};
 export type SavedVocabulary = Vocabulary & {questionId:string;questionIds:string[];legacyIds:string[]};
 export type ExplanationDiagram = {kind:'binary-tree';title:string;description:string;nodes:{id:string;label:string;x:number;y:number;step?:number}[];edges:[string,string][];sequence:string[]};
-export type QuestionExplanation = {summary:string;options:Record<string,string>;optionVerdicts?:Record<string,string>;diagram?:ExplanationDiagram;vocabulary?:Vocabulary[];questionVocabulary?:Vocabulary[];passageTranslation?:{paragraphs:string[];note:string};sources?:{title:string;url:string}[]};
+export type QuestionExplanation = {summary:string;options:Record<string,string>;optionVerdicts?:Record<string,string>;diagram?:ExplanationDiagram;vocabulary?:Vocabulary[];questionVocabulary?:Vocabulary[];passageTranslation?:{paragraphs:string[];note:string};classical?:{translation:string;vocabulary:string;optionTranslations?:Record<string,string>};sources?:{title:string;url:string}[]};
