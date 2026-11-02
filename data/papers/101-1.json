@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "101-1-1",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依我國憲法第 81 條規定，「法官為終身職，非受刑事或懲戒處分，或禁治產之宣告，不得免職。非依法律，\n     不得停職、轉任或減俸。」試問此一條文的立法原意，主要是希望落實下列那一項理念？\n(A) 政治平等\n(B) 司法獨立\n(C) 責任政治\n(D) 主權在民",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依我國憲法第 81 條規定，「法官為終身職，非受刑事或懲戒處分，或禁治產之宣告，不得免職。非依法律，\n     不得停職、轉任或減俸。」試問此一條文的立法原意，主要是希望落實下列那一項理念？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "政治平等"
+      },
+      {
+        "letter": "B",
+        "text": "司法獨立"
+      },
+      {
+        "letter": "C",
+        "text": "責任政治"
+      },
+      {
+        "letter": "D",
+        "text": "主權在民"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-2",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列關於內閣制的敘述，何者正確？\n(A) 閣揆由總統直接任命產生\n(B) 行政權和立法權分權制衡\n(C) 國會可對元首提不信任案\n(D) 國會議員得兼任內閣閣員",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列關於內閣制的敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "閣揆由總統直接任命產生"
+      },
+      {
+        "letter": "B",
+        "text": "行政權和立法權分權制衡"
+      },
+      {
+        "letter": "C",
+        "text": "國會可對元首提不信任案"
+      },
+      {
+        "letter": "D",
+        "text": "國會議員得兼任內閣閣員"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-3",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "一個人自出生開始，在成長的過程中，持續受到來自家庭、學校、同儕團體與傳播媒體的影響，不斷地\n     學習表現出符合社會期待的行為。上述這種學習的過程，我們稱其為下列何者？\n(A) 在地化\n(B) 社會化\n(C) 全球化\n(D) 階層化",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一個人自出生開始，在成長的過程中，持續受到來自家庭、學校、同儕團體與傳播媒體的影響，不斷地\n     學習表現出符合社會期待的行為。上述這種學習的過程，我們稱其為下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "在地化"
+      },
+      {
+        "letter": "B",
+        "text": "社會化"
+      },
+      {
+        "letter": "C",
+        "text": "全球化"
+      },
+      {
+        "letter": "D",
+        "text": "階層化"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-4",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "有關民事訴訟與刑事訴訟的概念，下列那一項敘述是正確的？\n(A) 所有的民事訴訟都可以上訴至最高法院\n(B) 所有的刑事訴訟都可以上訴至最高法院\n(C) 民事和刑事訴訟的受害者都可提起訴訟\n(D) 民事和刑事訴訟都可請檢察官提起訴訟",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關民事訴訟與刑事訴訟的概念，下列那一項敘述是正確的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "所有的民事訴訟都可以上訴至最高法院"
+      },
+      {
+        "letter": "B",
+        "text": "所有的刑事訴訟都可以上訴至最高法院"
+      },
+      {
+        "letter": "C",
+        "text": "民事和刑事訴訟的受害者都可提起訴訟"
+      },
+      {
+        "letter": "D",
+        "text": "民事和刑事訴訟都可請檢察官提起訴訟"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-5",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據中央法規標準法規定，下列何者屬於狹義法律的範疇？\n(A) 細則\n(B) 辦法\n(C) 綱要\n(D) 條例",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "依據中央法規標準法規定，下列何者屬於狹義法律的範疇？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "細則"
+      },
+      {
+        "letter": "B",
+        "text": "辦法"
+      },
+      {
+        "letter": "C",
+        "text": "綱要"
+      },
+      {
+        "letter": "D",
+        "text": "條例"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-6",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "新竹誠正中學，這所矯正學校主要是收容受到那些處分的少年？①假日生活輔導 ②保護管束 ③感化教育\n     ④判處徒刑\n(A) ①②\n(B) ②③\n(C) ③④\n(D) ①④",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "新竹誠正中學，這所矯正學校主要是收容受到那些處分的少年？①假日生活輔導 ②保護管束 ③感化教育\n     ④判處徒刑",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "②③"
+      },
+      {
+        "letter": "C",
+        "text": "③④"
+      },
+      {
+        "letter": "D",
+        "text": "①④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-7",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "技安向相關單位陳情，任公職的大雄違法和失職的具體行為，經監察院彈劾，並移送公務員懲戒委員會\n     懲戒。此種作法最符合民主政治的那一項特色？\n(A) 責任政治\n(B) 法治政治\n(C) 政黨政治\n(D) 民意政治",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "技安向相關單位陳情，任公職的大雄違法和失職的具體行為，經監察院彈劾，並移送公務員懲戒委員會\n     懲戒。此種作法最符合民主政治的那一項特色？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "責任政治"
+      },
+      {
+        "letter": "B",
+        "text": "法治政治"
+      },
+      {
+        "letter": "C",
+        "text": "政黨政治"
+      },
+      {
+        "letter": "D",
+        "text": "民意政治"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-8",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "臺灣相較於大陸或東南亞國家，由於地價上漲、工資高昂，並不適合發展勞力密集性產業，然而臺灣教育\n     普及，人民知識水準較高，利於發展技術密集產業和知識經濟為主，請問此一現象是根據何種經濟原理？\n(A) 稀少性\n(B) 比較利益\n(C) 供需法則\n(D) 收支平衡",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "臺灣相較於大陸或東南亞國家，由於地價上漲、工資高昂，並不適合發展勞力密集性產業，然而臺灣教育\n     普及，人民知識水準較高，利於發展技術密集產業和知識經濟為主，請問此一現象是根據何種經濟原理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "稀少性"
+      },
+      {
+        "letter": "B",
+        "text": "比較利益"
+      },
+      {
+        "letter": "C",
+        "text": "供需法則"
+      },
+      {
+        "letter": "D",
+        "text": "收支平衡"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-9",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「只要我喜歡，有什麼不可以！」這種忠於人類原始衝動並強調立即滿足的傾向，主要呈現佛洛伊德分析\n     之人格結構中那一個部分的特質？\n(A) 超我\n(B) 自我\n(C) 主我\n(D) 本我",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "「只要我喜歡，有什麼不可以！」這種忠於人類原始衝動並強調立即滿足的傾向，主要呈現佛洛伊德分析\n     之人格結構中那一個部分的特質？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "超我"
+      },
+      {
+        "letter": "B",
+        "text": "自我"
+      },
+      {
+        "letter": "C",
+        "text": "主我"
+      },
+      {
+        "letter": "D",
+        "text": "本我"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-10",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據中華民國憲法第 1 條規定：「中華民國基於三民主義，為民有、民治、民享之民主共和國」，由此項\n     立法精神的概念，可以推知下列那一項為我國的政治特徵？\n(A) 我國政府體制屬總統制\n(B) 我國為民主政體\n(C) 我國為宗教自由的國家\n(D) 我國為多黨制國家",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依據中華民國憲法第 1 條規定：「中華民國基於三民主義，為民有、民治、民享之民主共和國」，由此項\n     立法精神的概念，可以推知下列那一項為我國的政治特徵？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "我國政府體制屬總統制"
+      },
+      {
+        "letter": "B",
+        "text": "我國為民主政體"
+      },
+      {
+        "letter": "C",
+        "text": "我國為宗教自由的國家"
+      },
+      {
+        "letter": "D",
+        "text": "我國為多黨制國家"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-11",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "報載金融海嘯以來，臺灣女性的勞動參與率增長至 50%，但這仍是亞洲四小龍中最低的。這個數值應該是\n     從那一種市場中得知的？\n(A) 金融市場\n(B) 商品市場\n(C) 要素市場\n(D) 股票市場",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "報載金融海嘯以來，臺灣女性的勞動參與率增長至 50%，但這仍是亞洲四小龍中最低的。這個數值應該是\n     從那一種市場中得知的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "金融市場"
+      },
+      {
+        "letter": "B",
+        "text": "商品市場"
+      },
+      {
+        "letter": "C",
+        "text": "要素市場"
+      },
+      {
+        "letter": "D",
+        "text": "股票市場"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-12",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "從經濟學理與歷史經驗看來，嚴重的物價膨脹最常發生在下列那種情況？\n(A) 泡沫經濟結束以後\n(B) 石油供給危機以及戰後\n(C) 一國的失業率開始急速增加的時候\n(D) 全球的投機型投資客大舉進入股市以後",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "從經濟學理與歷史經驗看來，嚴重的物價膨脹最常發生在下列那種情況？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "泡沫經濟結束以後"
+      },
+      {
+        "letter": "B",
+        "text": "石油供給危機以及戰後"
+      },
+      {
+        "letter": "C",
+        "text": "一國的失業率開始急速增加的時候"
+      },
+      {
+        "letter": "D",
+        "text": "全球的投機型投資客大舉進入股市以後"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-13",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "行政院青年輔導委員會與各地非營利組織合作推行「遊學臺灣」活動，鼓勵 15 到 30 歲的青年以多元方式認\n     識鄉土，培養對臺灣這塊土地的熱情與關懷。請問行政院青年輔導委員會是企圖透過那一種方式來培養青年\n     的公民素養？\n(A) 公民自治\n(B) 公民美學\n(C) 公民參與\n(D) 公民投票",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "行政院青年輔導委員會與各地非營利組織合作推行「遊學臺灣」活動，鼓勵 15 到 30 歲的青年以多元方式認\n     識鄉土，培養對臺灣這塊土地的熱情與關懷。請問行政院青年輔導委員會是企圖透過那一種方式來培養青年\n     的公民素養？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "公民自治"
+      },
+      {
+        "letter": "B",
+        "text": "公民美學"
+      },
+      {
+        "letter": "C",
+        "text": "公民參與"
+      },
+      {
+        "letter": "D",
+        "text": "公民投票"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-14",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在計算我國的國民生產毛額（GNP）時，下列那一項應包括在內？\n(A) 阿福在臺北東區路邊擺地攤所賺得的收入\n(B) 外商公司在我國的營業收入\n(C) 阿春在高雄二手車市場所賺得的薪水\n(D) 小山給予媽媽帶小孩的費用",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在計算我國的國民生產毛額（GNP）時，下列那一項應包括在內？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "阿福在臺北東區路邊擺地攤所賺得的收入"
+      },
+      {
+        "letter": "B",
+        "text": "外商公司在我國的營業收入"
+      },
+      {
+        "letter": "C",
+        "text": "阿春在高雄二手車市場所賺得的薪水"
+      },
+      {
+        "letter": "D",
+        "text": "小山給予媽媽帶小孩的費用"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-15",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "關於我國刑事訴訟法的相關條文規定，下列敘述何者正確？\n(A) 檢察官主動偵查犯罪行為後，認為必要時可向法院提起告發\n(B) 當有任何人知道犯罪事實時，均可向偵查機關報告，此即為自訴\n(C) 告訴乃論之罪，若無人提出告訴，則檢察官不得偵查起訴\n(D) 公訴是指犯罪被害人向地方法院提起訴訟，請求法院判決被告有罪之謂",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "關於我國刑事訴訟法的相關條文規定，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "檢察官主動偵查犯罪行為後，認為必要時可向法院提起告發"
+      },
+      {
+        "letter": "B",
+        "text": "當有任何人知道犯罪事實時，均可向偵查機關報告，此即為自訴"
+      },
+      {
+        "letter": "C",
+        "text": "告訴乃論之罪，若無人提出告訴，則檢察官不得偵查起訴"
+      },
+      {
+        "letter": "D",
+        "text": "公訴是指犯罪被害人向地方法院提起訴訟，請求法院判決被告有罪之謂"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-16",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種供需方式是以市場機能來調節供給與需求，對生產者與消費者都同時最有利？\n(A) 拍賣網站上的自由競標銷售\n(B) 新臺幣升值嚴重，中央銀行釋出新臺幣\n(C) 颱風期間政府保證最低農產品收購價格\n(D) 臺灣口罩價格飆高，政府提供平價口罩",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那一種供需方式是以市場機能來調節供給與需求，對生產者與消費者都同時最有利？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "拍賣網站上的自由競標銷售"
+      },
+      {
+        "letter": "B",
+        "text": "新臺幣升值嚴重，中央銀行釋出新臺幣"
+      },
+      {
+        "letter": "C",
+        "text": "颱風期間政府保證最低農產品收購價格"
+      },
+      {
+        "letter": "D",
+        "text": "臺灣口罩價格飆高，政府提供平價口罩"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-17",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國刑法中關於「罪刑法定主義」原則的敘述，下列何者正確？\n(A) 為匡正社會秩序，某些行為若已違反風俗習慣，法官即應判定犯法\n(B) 為因應時代潮流，法官可援引他國判例來認定犯罪行為並加以量刑\n(C) 若立法院在行為人作出某行為後，始立法通過認定該行為觸法，則該行為人亦須受到刑罰\n(D) 法律無明文規定處罰的行為，不得任意處罰之",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "我國刑法中關於「罪刑法定主義」原則的敘述，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "為匡正社會秩序，某些行為若已違反風俗習慣，法官即應判定犯法"
+      },
+      {
+        "letter": "B",
+        "text": "為因應時代潮流，法官可援引他國判例來認定犯罪行為並加以量刑"
+      },
+      {
+        "letter": "C",
+        "text": "若立法院在行為人作出某行為後，始立法通過認定該行為觸法，則該行為人亦須受到刑罰"
+      },
+      {
+        "letter": "D",
+        "text": "法律無明文規定處罰的行為，不得任意處罰之"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-18",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請問在以下四人的言談中，何者的說法符合我國現行的民刑事訴訟制度的規定？\n(A) 阿密：「民事紛爭一旦進入法院訴訟程序後，就不能再進行調解或和解了！」\n(B) 小光：「其實當碰到重大犯罪被告或嫌疑人有串證、逃亡之虞時，檢察官就可自行決定，直接將他們逕行\n羈押的喔！」\n(C) 雯雯：「雖然我國的民事與刑事訴訟原則採三級三審制，但均另有上訴第三審的限制。」\n(D) 美美：「當有警方或社工通報而知悉有犯罪嫌疑者時，法官即可主動進行審理及判決。」",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請問在以下四人的言談中，何者的說法符合我國現行的民刑事訴訟制度的規定？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "阿密：「民事紛爭一旦進入法院訴訟程序後，就不能再進行調解或和解了！」"
+      },
+      {
+        "letter": "B",
+        "text": "小光：「其實當碰到重大犯罪被告或嫌疑人有串證、逃亡之虞時，檢察官就可自行決定，直接將他們逕行\n羈押的喔！」"
+      },
+      {
+        "letter": "C",
+        "text": "雯雯：「雖然我國的民事與刑事訴訟原則採三級三審制，但均另有上訴第三審的限制。」"
+      },
+      {
+        "letter": "D",
+        "text": "美美：「當有警方或社工通報而知悉有犯罪嫌疑者時，法官即可主動進行審理及判決。」"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-19",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列關於家庭暴力的敘述，那一項是正確的？\n(A) 社經地位較低者才會用暴力解決問題\n(B) 有偏差行為的家庭成員才會被施暴\n(C) 精神虐待不構成家庭暴力\n(D) 言語恐嚇也算是家庭暴力",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列關於家庭暴力的敘述，那一項是正確的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "社經地位較低者才會用暴力解決問題"
+      },
+      {
+        "letter": "B",
+        "text": "有偏差行為的家庭成員才會被施暴"
+      },
+      {
+        "letter": "C",
+        "text": "精神虐待不構成家庭暴力"
+      },
+      {
+        "letter": "D",
+        "text": "言語恐嚇也算是家庭暴力"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-20",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小敏是一位關心臺灣環境保護問題的家庭主婦，多年來她熱心擔任環保志工，多次參與由不同環保團體\n     所舉辦的遊行請願與推廣教育活動。這些環保團體的參與成員，彼此基於自由意志，願意為了追求環保理念\n     的落實，自動自發的支持團體的目標與價值。請問我們稱這些團體為下列何者？\n(A) 職業團體\n(B) 志願團體\n(C) 非志願團體\n(D) 宗教團體",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "小敏是一位關心臺灣環境保護問題的家庭主婦，多年來她熱心擔任環保志工，多次參與由不同環保團體\n     所舉辦的遊行請願與推廣教育活動。這些環保團體的參與成員，彼此基於自由意志，願意為了追求環保理念\n     的落實，自動自發的支持團體的目標與價值。請問我們稱這些團體為下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "職業團體"
+      },
+      {
+        "letter": "B",
+        "text": "志願團體"
+      },
+      {
+        "letter": "C",
+        "text": "非志願團體"
+      },
+      {
+        "letter": "D",
+        "text": "宗教團體"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-21",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列關於文化交流的敘述何者正確？\n(A) 文化交流的影響都是正面的\n(B) 文化交流會促進世界大一統文化\n(C) 文化交流是從工業革命後開始存在\n(D) 文化交流會豐富本土文化的內涵",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列關於文化交流的敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "文化交流的影響都是正面的"
+      },
+      {
+        "letter": "B",
+        "text": "文化交流會促進世界大一統文化"
+      },
+      {
+        "letter": "C",
+        "text": "文化交流是從工業革命後開始存在"
+      },
+      {
+        "letter": "D",
+        "text": "文化交流會豐富本土文化的內涵"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-22",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "臺灣的大眾文化深受歐、美、日本等影響，但臺灣在地文化也逐漸興起，藉由重新包裝和創新等途徑，\n     使傳統的茶藝、歌仔戲與布袋戲等都得以再度成為流行風潮。下列何者最足以解釋上述現象？\n(A) 臺灣傳統文化成為全球主流文化\n(B) 跨國企業影響各地休閒生活型態\n(C) 全球文化與本土文化的共存融合\n(D) 全球化促使文化發展趨向單一化",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "臺灣的大眾文化深受歐、美、日本等影響，但臺灣在地文化也逐漸興起，藉由重新包裝和創新等途徑，\n     使傳統的茶藝、歌仔戲與布袋戲等都得以再度成為流行風潮。下列何者最足以解釋上述現象？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "臺灣傳統文化成為全球主流文化"
+      },
+      {
+        "letter": "B",
+        "text": "跨國企業影響各地休閒生活型態"
+      },
+      {
+        "letter": "C",
+        "text": "全球文化與本土文化的共存融合"
+      },
+      {
+        "letter": "D",
+        "text": "全球化促使文化發展趨向單一化"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-23",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國法律規定檢察總長的產生方式和下列何者相同？\n(A) 法官\n(B) 大法官\n(C) 立法委員\n(D) 立法院院長",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依據我國法律規定檢察總長的產生方式和下列何者相同？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "法官"
+      },
+      {
+        "letter": "B",
+        "text": "大法官"
+      },
+      {
+        "letter": "C",
+        "text": "立法委員"
+      },
+      {
+        "letter": "D",
+        "text": "立法院院長"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-24",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "雅君一家為低收入戶，她的家庭可以向政府請領生活津貼，以維持生計。根據上述判斷，這屬於政府的\n     那一項重要工作？\n(A) 教育文化\n(B) 社會服務\n(C) 經濟發展\n(D) 安全衛生",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "雅君一家為低收入戶，她的家庭可以向政府請領生活津貼，以維持生計。根據上述判斷，這屬於政府的\n     那一項重要工作？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "教育文化"
+      },
+      {
+        "letter": "B",
+        "text": "社會服務"
+      },
+      {
+        "letter": "C",
+        "text": "經濟發展"
+      },
+      {
+        "letter": "D",
+        "text": "安全衛生"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-25",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "以下何種行為的處分，屬於「刑罰」？\n(A) 遭判決拘役 20 天\n(B) 遭裁定拘留 3 天\n(C) 遭罰鍰新臺幣 1000 元\n(D) 遭勒令停業一星期",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "以下何種行為的處分，屬於「刑罰」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "遭判決拘役 20 天"
+      },
+      {
+        "letter": "B",
+        "text": "遭裁定拘留 3 天"
+      },
+      {
+        "letter": "C",
+        "text": "遭罰鍰新臺幣 1000 元"
+      },
+      {
+        "letter": "D",
+        "text": "遭勒令停業一星期"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-26",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列何者指的是「一國以低於生產成本或國內售價，或是在政府資助下，低價將其產品外銷到他國」的\n     行為？\n(A) 補貼\n(B) 傾銷\n(C) 設限\n(D) 保護",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者指的是「一國以低於生產成本或國內售價，或是在政府資助下，低價將其產品外銷到他國」的\n     行為？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "補貼"
+      },
+      {
+        "letter": "B",
+        "text": "傾銷"
+      },
+      {
+        "letter": "C",
+        "text": "設限"
+      },
+      {
+        "letter": "D",
+        "text": "保護"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-27",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "根據我國相關法律的規定，以下那一情況不得聲請調解？\n(A) 誹謗罪\n(B) 過失傷害罪\n(C) 妨害名譽罪\n(D) 妨害性自主罪",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "根據我國相關法律的規定，以下那一情況不得聲請調解？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "誹謗罪"
+      },
+      {
+        "letter": "B",
+        "text": "過失傷害罪"
+      },
+      {
+        "letter": "C",
+        "text": "妨害名譽罪"
+      },
+      {
+        "letter": "D",
+        "text": "妨害性自主罪"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-28",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "中央政府總預算案，是由①提出，交由②審議；中央政府之決算，是由③審核，交由④審議。依法律規定，\n     ①②③④依序為：\n(A) 立法院、行政院、監察院審計部、立法院\n(B) 行政院、立法院、監察院審計部、立法院\n(C) 行政院、立法院、司法院審計部、司法院\n(D) 行政院、立法院、立法院、監察院審計部",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "中央政府總預算案，是由①提出，交由②審議；中央政府之決算，是由③審核，交由④審議。依法律規定，\n     ①②③④依序為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "立法院、行政院、監察院審計部、立法院"
+      },
+      {
+        "letter": "B",
+        "text": "行政院、立法院、監察院審計部、立法院"
+      },
+      {
+        "letter": "C",
+        "text": "行政院、立法院、司法院審計部、司法院"
+      },
+      {
+        "letter": "D",
+        "text": "行政院、立法院、立法院、監察院審計部"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-29",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小白向某汽車經銷商購買一部休旅車，開車上路 3 個月後卻發現車上冷氣系統故障，小白隨即以新車瑕疵\n     為由，要求車廠免費更換相關零件，不過商家卻回覆，此故障純屬個人使用習慣不當，故無法提供免費更換\n     服務。請問小白此時可透過下列那一種法律途徑，來主張自己的權益？\n(A) 行政訴訟\n(B) 刑事訴訟\n(C) 民事訴訟\n(D) 抗告",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小白向某汽車經銷商購買一部休旅車，開車上路 3 個月後卻發現車上冷氣系統故障，小白隨即以新車瑕疵\n     為由，要求車廠免費更換相關零件，不過商家卻回覆，此故障純屬個人使用習慣不當，故無法提供免費更換\n     服務。請問小白此時可透過下列那一種法律途徑，來主張自己的權益？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行政訴訟"
+      },
+      {
+        "letter": "B",
+        "text": "刑事訴訟"
+      },
+      {
+        "letter": "C",
+        "text": "民事訴訟"
+      },
+      {
+        "letter": "D",
+        "text": "抗告"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-30",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "學者常謂：「一個人自母體受胎開始，終其一生皆和民法發生關係，直到死亡才和民法脫離。」是故，民\n     法的規定相當廣泛且細瑣。在我國民法法典中，屬於身分法的編章有那些？①物權編                                                             ②債編      ③繼承編\n     ④親屬編\n(A) ①②\n(B) ①③\n(C) ②③\n(D) ③④",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "學者常謂：「一個人自母體受胎開始，終其一生皆和民法發生關係，直到死亡才和民法脫離。」是故，民\n     法的規定相當廣泛且細瑣。在我國民法法典中，屬於身分法的編章有那些？①物權編                                                             ②債編      ③繼承編\n     ④親屬編",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①③"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-31",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在民主國家中，被視為行政、立法、司法權以外的「第四權」是指下列那一項？\n(A) 傳播媒體\n(B) 非政府組織\n(C) 社區組織\n(D) 政黨團體",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在民主國家中，被視為行政、立法、司法權以外的「第四權」是指下列那一項？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "傳播媒體"
+      },
+      {
+        "letter": "B",
+        "text": "非政府組織"
+      },
+      {
+        "letter": "C",
+        "text": "社區組織"
+      },
+      {
+        "letter": "D",
+        "text": "政黨團體"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-32",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依憲法和相關法律的規定，選舉資格中有包括選區戶籍登記時間的限制，亦即候選人戶籍必須登記在該選\n     區 4 個月以上。請問：下列那一種選舉與上述規定的戶籍登記時間不同？\n(A) 總統、副總統\n(B) 臺北市市長\n(C) 屏東縣縣議員\n(D) 三星鄉鄉民代表",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "依憲法和相關法律的規定，選舉資格中有包括選區戶籍登記時間的限制，亦即候選人戶籍必須登記在該選\n     區 4 個月以上。請問：下列那一種選舉與上述規定的戶籍登記時間不同？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "總統、副總統"
+      },
+      {
+        "letter": "B",
+        "text": "臺北市市長"
+      },
+      {
+        "letter": "C",
+        "text": "屏東縣縣議員"
+      },
+      {
+        "letter": "D",
+        "text": "三星鄉鄉民代表"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-33",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國訴訟制度採二元訴訟制，若發生爭議則由大法官會議統一解釋。此「二元」制度所指為何？\n(A) 事實審、書面法律審\n(B) 普通法院、行政法院\n(C) 民事訴訟、刑事訴訟\n(D) 一般法院、專業法院",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "我國訴訟制度採二元訴訟制，若發生爭議則由大法官會議統一解釋。此「二元」制度所指為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "事實審、書面法律審"
+      },
+      {
+        "letter": "B",
+        "text": "普通法院、行政法院"
+      },
+      {
+        "letter": "C",
+        "text": "民事訴訟、刑事訴訟"
+      },
+      {
+        "letter": "D",
+        "text": "一般法院、專業法院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-34",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "大雄在公民課時認識了各種團體的類型與性質，請選出下列何者都屬於「壓力團體」？\n(A) 教會/公會\n(B) 公會/工會\n(C) 學校/政黨\n(D) 同鄉會/同業公會",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "大雄在公民課時認識了各種團體的類型與性質，請選出下列何者都屬於「壓力團體」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "教會/公會"
+      },
+      {
+        "letter": "B",
+        "text": "公會/工會"
+      },
+      {
+        "letter": "C",
+        "text": "學校/政黨"
+      },
+      {
+        "letter": "D",
+        "text": "同鄉會/同業公會"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-35",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "根據我國憲法規定，下列那一機關受理人民的陳情並糾正行政機關的不當施政？\n(A) 行政院\n(B) 立法院\n(C) 監察院\n(D) 司法院",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "根據我國憲法規定，下列那一機關受理人民的陳情並糾正行政機關的不當施政？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行政院"
+      },
+      {
+        "letter": "B",
+        "text": "立法院"
+      },
+      {
+        "letter": "C",
+        "text": "監察院"
+      },
+      {
+        "letter": "D",
+        "text": "司法院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-1-36",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Mr. Wang’s lawyer argued strongly that his rights had been               because the police had illegally searched his\n     apartment.\n(A) produced\n(B) misled\n(C) violated\n(D) implied",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "Mr. Wang’s lawyer argued strongly that his rights had been               because the police had illegally searched his\n     apartment.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "produced"
+      },
+      {
+        "letter": "B",
+        "text": "misled"
+      },
+      {
+        "letter": "C",
+        "text": "violated"
+      },
+      {
+        "letter": "D",
+        "text": "implied"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "101-1-37",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Tina has been           from diabetes for several years, and she has to go to see a doctor every month.\n(A) affecting\n(B) catching\n(C) inflicting\n(D) suffering",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "Tina has been           from diabetes for several years, and she has to go to see a doctor every month.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "affecting"
+      },
+      {
+        "letter": "B",
+        "text": "catching"
+      },
+      {
+        "letter": "C",
+        "text": "inflicting"
+      },
+      {
+        "letter": "D",
+        "text": "suffering"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "101-1-38",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Mary experienced a great           and couldn’t speak when she heard the news.\n(A) sample\n(B) secret\n(C) shock\n(D) similarity",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "Mary experienced a great           and couldn’t speak when she heard the news.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "sample"
+      },
+      {
+        "letter": "B",
+        "text": "secret"
+      },
+      {
+        "letter": "C",
+        "text": "shock"
+      },
+      {
+        "letter": "D",
+        "text": "similarity"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "101-1-39",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Could you please go to the post office and send this          out for me?\n(A) letter\n(B) speech\n(C) stamp\n(D) word",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "Could you please go to the post office and send this          out for me?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "letter"
+      },
+      {
+        "letter": "B",
+        "text": "speech"
+      },
+      {
+        "letter": "C",
+        "text": "stamp"
+      },
+      {
+        "letter": "D",
+        "text": "word"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "101-1-40",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Jack gave me a big           on my birthday last year. I was really touched.\n(A) accident\n(B) interest\n(C) surprise\n(D) trouble",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "Jack gave me a big           on my birthday last year. I was really touched.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "accident"
+      },
+      {
+        "letter": "B",
+        "text": "interest"
+      },
+      {
+        "letter": "C",
+        "text": "surprise"
+      },
+      {
+        "letter": "D",
+        "text": "trouble"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "101-1-41",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The 30-Hour Famine was started so that people around the world could               .\n(A) improve children’s lives\n(B) participate in more volunteering work\n(C) help poor countries do soil management\n(D) gain a better understanding of what hunger means",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "The 30-Hour Famine was started so that people around the world could               .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "improve children’s lives"
+      },
+      {
+        "letter": "B",
+        "text": "participate in more volunteering work"
+      },
+      {
+        "letter": "C",
+        "text": "help poor countries do soil management"
+      },
+      {
+        "letter": "D",
+        "text": "gain a better understanding of what hunger means"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The 30-Hour Famine is a program of World Vision, an international Christian relief and development organization\nestablished in the 1950s and dedicated to helping children in the world, because “when children have food, shelter and\nschooling and are protected, valued and loved, a community thrives.”\n     Each year, World Vision decides which countries will receive funding from the 30-Hour Famine. In 2001, for\nexample, the money went to Rwanda, India, Ethiopia, Kenya, Sudan, Guatemala, Mali, Tanzania and the fund raising\ncountries. In India, the money is being used to rescue children from sweatshops. In Ethiopia, where a drought has swept\nthe land and robbed it of its vegetation, the money is being used for reforestation and soil management programs. Eighty\nper cent of all money raised goes to help children, with the other 20 per cent spent on staff salaries and marketing to\nincrease awareness of world hunger.\n     Now that you know about the 30-Hour Famine and the difference it can make for children around the world, what\nare you going to do? You can visit <www.wvi.org and www.30hrfamine.com>, learn about the campaigns in your\ncountry, register to participate in a 30-Hour Famine and plunge whole-heartedly into your hunger!",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "101-1-42",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "“Drought” in the second paragraph refers to            .\n(A) flood\n(B) earthquake\n(C) terrible fire\n(D) shortage of water",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "“Drought” in the second paragraph refers to            .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "flood"
+      },
+      {
+        "letter": "B",
+        "text": "earthquake"
+      },
+      {
+        "letter": "C",
+        "text": "terrible fire"
+      },
+      {
+        "letter": "D",
+        "text": "shortage of water"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The 30-Hour Famine is a program of World Vision, an international Christian relief and development organization\nestablished in the 1950s and dedicated to helping children in the world, because “when children have food, shelter and\nschooling and are protected, valued and loved, a community thrives.”\n     Each year, World Vision decides which countries will receive funding from the 30-Hour Famine. In 2001, for\nexample, the money went to Rwanda, India, Ethiopia, Kenya, Sudan, Guatemala, Mali, Tanzania and the fund raising\ncountries. In India, the money is being used to rescue children from sweatshops. In Ethiopia, where a drought has swept\nthe land and robbed it of its vegetation, the money is being used for reforestation and soil management programs. Eighty\nper cent of all money raised goes to help children, with the other 20 per cent spent on staff salaries and marketing to\nincrease awareness of world hunger.\n     Now that you know about the 30-Hour Famine and the difference it can make for children around the world, what\nare you going to do? You can visit <www.wvi.org and www.30hrfamine.com>, learn about the campaigns in your\ncountry, register to participate in a 30-Hour Famine and plunge whole-heartedly into your hunger!",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "101-1-43",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What does the second paragraph center on?\n(A) How the 30-Hour Famine works.\n(B) How the money raised by the Famine is used.\n(C) How the writer learned about the 30-Hour Famine.\n(D) How many children die from diseases related to famine.",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "What does the second paragraph center on?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "How the 30-Hour Famine works."
+      },
+      {
+        "letter": "B",
+        "text": "How the money raised by the Famine is used."
+      },
+      {
+        "letter": "C",
+        "text": "How the writer learned about the 30-Hour Famine."
+      },
+      {
+        "letter": "D",
+        "text": "How many children die from diseases related to famine."
+      }
+    ],
+    "textFallback": false,
+    "passage": "The 30-Hour Famine is a program of World Vision, an international Christian relief and development organization\nestablished in the 1950s and dedicated to helping children in the world, because “when children have food, shelter and\nschooling and are protected, valued and loved, a community thrives.”\n     Each year, World Vision decides which countries will receive funding from the 30-Hour Famine. In 2001, for\nexample, the money went to Rwanda, India, Ethiopia, Kenya, Sudan, Guatemala, Mali, Tanzania and the fund raising\ncountries. In India, the money is being used to rescue children from sweatshops. In Ethiopia, where a drought has swept\nthe land and robbed it of its vegetation, the money is being used for reforestation and soil management programs. Eighty\nper cent of all money raised goes to help children, with the other 20 per cent spent on staff salaries and marketing to\nincrease awareness of world hunger.\n     Now that you know about the 30-Hour Famine and the difference it can make for children around the world, what\nare you going to do? You can visit <www.wvi.org and www.30hrfamine.com>, learn about the campaigns in your\ncountry, register to participate in a 30-Hour Famine and plunge whole-heartedly into your hunger!",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "101-1-44",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Which of the following statements is TRUE according to the article?\n(A) World Vision decides which countries will receive funding.\n(B) Each country in need sends in a proposal to apply for sponsorship.\n(C) The 30-Hour Famine Program runs the organization of World Vision.\n(D) 20 per cent of all money is being used for reforestation and soil management programs.",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "Which of the following statements is TRUE according to the article?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "World Vision decides which countries will receive funding."
+      },
+      {
+        "letter": "B",
+        "text": "Each country in need sends in a proposal to apply for sponsorship."
+      },
+      {
+        "letter": "C",
+        "text": "The 30-Hour Famine Program runs the organization of World Vision."
+      },
+      {
+        "letter": "D",
+        "text": "20 per cent of all money is being used for reforestation and soil management programs."
+      }
+    ],
+    "textFallback": false,
+    "passage": "The 30-Hour Famine is a program of World Vision, an international Christian relief and development organization\nestablished in the 1950s and dedicated to helping children in the world, because “when children have food, shelter and\nschooling and are protected, valued and loved, a community thrives.”\n     Each year, World Vision decides which countries will receive funding from the 30-Hour Famine. In 2001, for\nexample, the money went to Rwanda, India, Ethiopia, Kenya, Sudan, Guatemala, Mali, Tanzania and the fund raising\ncountries. In India, the money is being used to rescue children from sweatshops. In Ethiopia, where a drought has swept\nthe land and robbed it of its vegetation, the money is being used for reforestation and soil management programs. Eighty\nper cent of all money raised goes to help children, with the other 20 per cent spent on staff salaries and marketing to\nincrease awareness of world hunger.\n     Now that you know about the 30-Hour Famine and the difference it can make for children around the world, what\nare you going to do? You can visit <www.wvi.org and www.30hrfamine.com>, learn about the campaigns in your\ncountry, register to participate in a 30-Hour Famine and plunge whole-heartedly into your hunger!",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "101-1-45",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the article, we can infer that          .\n(A) charitable actions make no difference in the world\n(B) we will enjoy starving if we participate in a 30-Hour Famine\n(C) the 30-Hour Famine Program is about helping children in need\n(D) the volunteers go through a starvation process for their salaries",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "According to the article, we can infer that          .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "charitable actions make no difference in the world"
+      },
+      {
+        "letter": "B",
+        "text": "we will enjoy starving if we participate in a 30-Hour Famine"
+      },
+      {
+        "letter": "C",
+        "text": "the 30-Hour Famine Program is about helping children in need"
+      },
+      {
+        "letter": "D",
+        "text": "the volunteers go through a starvation process for their salaries"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The 30-Hour Famine is a program of World Vision, an international Christian relief and development organization\nestablished in the 1950s and dedicated to helping children in the world, because “when children have food, shelter and\nschooling and are protected, valued and loved, a community thrives.”\n     Each year, World Vision decides which countries will receive funding from the 30-Hour Famine. In 2001, for\nexample, the money went to Rwanda, India, Ethiopia, Kenya, Sudan, Guatemala, Mali, Tanzania and the fund raising\ncountries. In India, the money is being used to rescue children from sweatshops. In Ethiopia, where a drought has swept\nthe land and robbed it of its vegetation, the money is being used for reforestation and soil management programs. Eighty\nper cent of all money raised goes to help children, with the other 20 per cent spent on staff salaries and marketing to\nincrease awareness of world hunger.\n     Now that you know about the 30-Hour Famine and the difference it can make for children around the world, what\nare you going to do? You can visit <www.wvi.org and www.30hrfamine.com>, learn about the campaigns in your\ncountry, register to participate in a 30-Hour Famine and plunge whole-heartedly into your hunger!",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "101-1-46",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 46 空格最合適的答案。\n(A) as well as\n(B) no better than\n(C) rather than\n(D) except for",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 46 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "as well as"
+      },
+      {
+        "letter": "B",
+        "text": "no better than"
+      },
+      {
+        "letter": "C",
+        "text": "rather than"
+      },
+      {
+        "letter": "D",
+        "text": "except for"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Leonardo da Vinci possessed one of history’s most searching minds. He was a scientist            46   an artist. His\nnotebooks of more than 4,000 pages are an insight      47    his intellectual curiosity. He is perhaps best    48     his\nportrait Mona Lisa (1503). The identity of the Mona Lisa has long been a mystery for art scholars. In 1986 a computer\nanalyst, Lillian Schwartz, asserted that Mona Lisa was really Leonardo himself.           49    that the painter was a\nhomosexual and that he liked to trick people with riddles. Then in early 1987 another computer analyst came up with\n“evidence” that the smiling lady wore no necklace and     50    before a distant mountain range. In short, this painting\nmay be the most controversial ever done.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "id": "101-1-47",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 47 空格最合適的答案。\n(A) into\n(B) upon\n(C) through\n(D) by",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 47 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "into"
+      },
+      {
+        "letter": "B",
+        "text": "upon"
+      },
+      {
+        "letter": "C",
+        "text": "through"
+      },
+      {
+        "letter": "D",
+        "text": "by"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Leonardo da Vinci possessed one of history’s most searching minds. He was a scientist            46   an artist. His\nnotebooks of more than 4,000 pages are an insight      47    his intellectual curiosity. He is perhaps best    48     his\nportrait Mona Lisa (1503). The identity of the Mona Lisa has long been a mystery for art scholars. In 1986 a computer\nanalyst, Lillian Schwartz, asserted that Mona Lisa was really Leonardo himself.           49    that the painter was a\nhomosexual and that he liked to trick people with riddles. Then in early 1987 another computer analyst came up with\n“evidence” that the smiling lady wore no necklace and     50    before a distant mountain range. In short, this painting\nmay be the most controversial ever done.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "id": "101-1-48",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 48 空格最合適的答案。\n(A) familiar with\n(B) familiar to\n(C) known with\n(D) known for",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 48 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "familiar with"
+      },
+      {
+        "letter": "B",
+        "text": "familiar to"
+      },
+      {
+        "letter": "C",
+        "text": "known with"
+      },
+      {
+        "letter": "D",
+        "text": "known for"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Leonardo da Vinci possessed one of history’s most searching minds. He was a scientist            46   an artist. His\nnotebooks of more than 4,000 pages are an insight      47    his intellectual curiosity. He is perhaps best    48     his\nportrait Mona Lisa (1503). The identity of the Mona Lisa has long been a mystery for art scholars. In 1986 a computer\nanalyst, Lillian Schwartz, asserted that Mona Lisa was really Leonardo himself.           49    that the painter was a\nhomosexual and that he liked to trick people with riddles. Then in early 1987 another computer analyst came up with\n“evidence” that the smiling lady wore no necklace and     50    before a distant mountain range. In short, this painting\nmay be the most controversial ever done.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "id": "101-1-49",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 49 空格最合適的答案。\n(A) It is hoped\n(B) It is wished\n(C) It is believed\n(D) It is counted",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 49 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "It is hoped"
+      },
+      {
+        "letter": "B",
+        "text": "It is wished"
+      },
+      {
+        "letter": "C",
+        "text": "It is believed"
+      },
+      {
+        "letter": "D",
+        "text": "It is counted"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Leonardo da Vinci possessed one of history’s most searching minds. He was a scientist            46   an artist. His\nnotebooks of more than 4,000 pages are an insight      47    his intellectual curiosity. He is perhaps best    48     his\nportrait Mona Lisa (1503). The identity of the Mona Lisa has long been a mystery for art scholars. In 1986 a computer\nanalyst, Lillian Schwartz, asserted that Mona Lisa was really Leonardo himself.           49    that the painter was a\nhomosexual and that he liked to trick people with riddles. Then in early 1987 another computer analyst came up with\n“evidence” that the smiling lady wore no necklace and     50    before a distant mountain range. In short, this painting\nmay be the most controversial ever done.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  },
+  {
+    "id": "101-1-50",
+    "examId": "101-1",
+    "year": 101,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 50 空格最合適的答案。\n(A) stand\n(B) stood\n(C) standing\n(D) stands",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 50 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "stand"
+      },
+      {
+        "letter": "B",
+        "text": "stood"
+      },
+      {
+        "letter": "C",
+        "text": "standing"
+      },
+      {
+        "letter": "D",
+        "text": "stands"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Leonardo da Vinci possessed one of history’s most searching minds. He was a scientist            46   an artist. His\nnotebooks of more than 4,000 pages are an insight      47    his intellectual curiosity. He is perhaps best    48     his\nportrait Mona Lisa (1503). The identity of the Mona Lisa has long been a mystery for art scholars. In 1986 a computer\nanalyst, Lillian Schwartz, asserted that Mona Lisa was really Leonardo himself.           49    that the painter was a\nhomosexual and that he liked to trick people with riddles. Then in early 1987 another computer analyst came up with\n“evidence” that the smiling lady wore no necklace and     50    before a distant mountain range. In short, this painting\nmay be the most controversial ever done.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      46,
+      47,
+      48,
+      49,
+      50
+    ]
+  }
+]

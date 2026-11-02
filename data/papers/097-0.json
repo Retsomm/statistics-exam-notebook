@@ -1,0 +1,392 @@
+[
+  {
+    "id": "097-0-1",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列為一節現代散文，請依文意選出排列順序最恰當的選項：\n   「你若曾是江南採蓮的女子 ①你若曾是那個逃學的頑童 ②我必是從\n    你袋中掉落的那顆嶄新的彈珠 ③在路旁草叢裡 ④我必是你皓腕下\n    錯過的那一朵  目送你毫不知情地遠去」\n(A) ②①④③\n(B) ②③①④\n(C) ④①②③\n(D) ④③①②",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列為一節現代散文，請依文意選出排列順序最恰當的選項：\n   「你若曾是江南採蓮的女子 ①你若曾是那個逃學的頑童 ②我必是從\n    你袋中掉落的那顆嶄新的彈珠 ③在路旁草叢裡 ④我必是你皓腕下\n    錯過的那一朵  目送你毫不知情地遠去」",
+    "options": [
+      {
+        "letter": "A",
+        "text": "②①④③"
+      },
+      {
+        "letter": "B",
+        "text": "②③①④"
+      },
+      {
+        "letter": "C",
+        "text": "④①②③"
+      },
+      {
+        "letter": "D",
+        "text": "④③①②"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-2",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "徐志摩〈朝霧裡的小草花〉：「我此時在這蔓草叢中過路，／無端的內\n   感，惘悵與驚訝，／在這迷霧裡，在這岩壁下，／思忖著，淚怦怦的，\n   人生與朝露」，詩中「人生與朝露」一句指的是人生如朝露般：\n(A) 清新晶瑩\n(B) 短暫易逝\n(C) 圓滿自在\n(D) 冷暖自知",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "徐志摩〈朝霧裡的小草花〉：「我此時在這蔓草叢中過路，／無端的內\n   感，惘悵與驚訝，／在這迷霧裡，在這岩壁下，／思忖著，淚怦怦的，\n   人生與朝露」，詩中「人生與朝露」一句指的是人生如朝露般：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "清新晶瑩"
+      },
+      {
+        "letter": "B",
+        "text": "短暫易逝"
+      },
+      {
+        "letter": "C",
+        "text": "圓滿自在"
+      },
+      {
+        "letter": "D",
+        "text": "冷暖自知"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-3",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "沈從文〈蕭蕭〉：「揮搖蒲扇，看天上的星同屋角的螢，聽南瓜棚上紡\n   織娘子咯咯咯拖長聲音紡車，遠近聲音繁密如落雨，禾花風悠悠吹到臉\n   上，正是讓人在各種方便中說笑話的時候」，這一段敘述是描寫那一種\n   夜景？\n(A) 春\n(B) 夏\n(C) 秋\n(D) 冬",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "沈從文〈蕭蕭〉：「揮搖蒲扇，看天上的星同屋角的螢，聽南瓜棚上紡\n   織娘子咯咯咯拖長聲音紡車，遠近聲音繁密如落雨，禾花風悠悠吹到臉\n   上，正是讓人在各種方便中說笑話的時候」，這一段敘述是描寫那一種\n   夜景？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "春"
+      },
+      {
+        "letter": "B",
+        "text": "夏"
+      },
+      {
+        "letter": "C",
+        "text": "秋"
+      },
+      {
+        "letter": "D",
+        "text": "冬"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-4",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "古詩：「客從遠方來，遺我雙鯉魚」的「鯉魚」，是指：\n(A) 首飾\n(B) 書信\n(C) 織品\n(D) 魚名",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "古詩：「客從遠方來，遺我雙鯉魚」的「鯉魚」，是指：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "首飾"
+      },
+      {
+        "letter": "B",
+        "text": "書信"
+      },
+      {
+        "letter": "C",
+        "text": "織品"
+      },
+      {
+        "letter": "D",
+        "text": "魚名"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-5",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列詞語，不能形容貧窮的是：\n(A) 家徒四壁\n(B) 身無長物\n(C) 器小易盈\n(D) 阮囊羞澀",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列詞語，不能形容貧窮的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "家徒四壁"
+      },
+      {
+        "letter": "B",
+        "text": "身無長物"
+      },
+      {
+        "letter": "C",
+        "text": "器小易盈"
+      },
+      {
+        "letter": "D",
+        "text": "阮囊羞澀"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-6",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "詞彙改變其原來的詞性，而以另一種詞性出現，稱為「轉品」。下列「」\n   中的詞，使用這種修辭法的是：\n(A) 長河靜靜地「躺」在大地上\n(B) 莫等閒，「白」了少年頭\n(C) 燕子「去」了，有再來的時候\n(D) 草木為之「含」悲，風雲因而變色",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "詞彙改變其原來的詞性，而以另一種詞性出現，稱為「轉品」。下列「」\n   中的詞，使用這種修辭法的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "長河靜靜地「躺」在大地上"
+      },
+      {
+        "letter": "B",
+        "text": "莫等閒，「白」了少年頭"
+      },
+      {
+        "letter": "C",
+        "text": "燕子「去」了，有再來的時候"
+      },
+      {
+        "letter": "D",
+        "text": "草木為之「含」悲，風雲因而變色"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-7",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列詩句，不屬對仗句的是：\n(A) 江流石不轉，遺恨失吞吳\n(B) 野寺人來少，雲峰水隔深\n(C) 晴川歷歷漢陽樹，芳草萋萋鸚鵡洲\n(D) 盤飧市遠無兼味，樽酒家貧只舊醅",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列詩句，不屬對仗句的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "江流石不轉，遺恨失吞吳"
+      },
+      {
+        "letter": "B",
+        "text": "野寺人來少，雲峰水隔深"
+      },
+      {
+        "letter": "C",
+        "text": "晴川歷歷漢陽樹，芳草萋萋鸚鵡洲"
+      },
+      {
+        "letter": "D",
+        "text": "盤飧市遠無兼味，樽酒家貧只舊醅"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-8",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "①傳家有道惟忠厚   ②創業維艱宜節儉   ③守成不易戒奢華     ④處世無\n   奇但率真。上列楹聯配對，何者正確？\n(A) ①／②；③／④\n(B) ①／③；②／④\n(C) ③／②；④／①\n(D) ①／④；②／③",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "①傳家有道惟忠厚   ②創業維艱宜節儉   ③守成不易戒奢華     ④處世無\n   奇但率真。上列楹聯配對，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①／②；③／④"
+      },
+      {
+        "letter": "B",
+        "text": "①／③；②／④"
+      },
+      {
+        "letter": "C",
+        "text": "③／②；④／①"
+      },
+      {
+        "letter": "D",
+        "text": "①／④；②／③"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-9",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "以下題辭，不適用於賀人生兒子的是：\n(A) 弄璋之喜\n(B) 喜獲麟兒\n(C) 弄瓦徵祥\n(D) 熊夢徵祥",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "以下題辭，不適用於賀人生兒子的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "弄璋之喜"
+      },
+      {
+        "letter": "B",
+        "text": "喜獲麟兒"
+      },
+      {
+        "letter": "C",
+        "text": "弄瓦徵祥"
+      },
+      {
+        "letter": "D",
+        "text": "熊夢徵祥"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-0-10",
+    "examId": "097-0",
+    "year": 97,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「多少個夜裡，她只捧著這只杯子，□□著滾燙的即溶咖啡，憑窗□□\n   松山機場起落的飛機，這幾乎是她在此地最愜意的回憶」。上列文句空\n   格內最適合填入的詞語，依序是：\n(A) 啜飲／眺望\n(B) 吞嚥／端詳\n(C) 吸吮／凝視\n(D) 咀嚼／注目",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "「多少個夜裡，她只捧著這只杯子，□□著滾燙的即溶咖啡，憑窗□□\n   松山機場起落的飛機，這幾乎是她在此地最愜意的回憶」。上列文句空\n   格內最適合填入的詞語，依序是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "啜飲／眺望"
+      },
+      {
+        "letter": "B",
+        "text": "吞嚥／端詳"
+      },
+      {
+        "letter": "C",
+        "text": "吸吮／凝視"
+      },
+      {
+        "letter": "D",
+        "text": "咀嚼／注目"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

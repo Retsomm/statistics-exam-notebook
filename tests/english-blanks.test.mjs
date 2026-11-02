@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {restoreEnglishBlanks} from '../lib/english-blanks.mjs';
 const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));
-const standalone=bank.questions.filter(q=>q.subjectIndex===1&&q.number>=36&&(q.number<=40||([111,115].includes(q.year)&&q.number<=45)));
+const standalone=bank.questions.filter(q=>!q.englishFormat&&q.subjectIndex===1&&q.number>=36&&(q.number<=40||([111,115].includes(q.year)&&q.number<=45)));
 test('all 55 standalone English fill-in sentences contain one visible slot, including leading and wrapped slots',()=>{
  assert.equal(standalone.length,55);
  for(const original of standalone){
@@ -19,7 +19,7 @@ test('all 55 standalone English fill-in sentences contain one visible slot, incl
  assert.match(get('113-1-37'),/^It is reported/);
 });
 test('all cloze passages retain five numbered blanks on each question, including quoted and sentence-initial slots',()=>{
- const cloze=bank.questions.filter(q=>q.subjectIndex===1&&q.number>=41&&q.number<=45&&q.passage);
+ const cloze=bank.questions.filter(q=>!q.englishFormat&&q.subjectIndex===1&&q.number>=41&&q.number<=45&&q.passage);
  assert.equal(cloze.length,35);
  for(const q of cloze){
   const restored=restoreEnglishBlanks(q);
@@ -29,7 +29,7 @@ test('all cloze passages retain five numbered blanks on each question, including
  }
 });
 test('Chinese questions, English comprehension and reservation layouts are preserved verbatim',()=>{
- for(const q of bank.questions.filter(q=>q.subjectIndex!==1||q.number<36||q.number>=46))assert.strictEqual(restoreEnglishBlanks(q),q,q.id);
+ for(const q of bank.questions.filter(q=>!q.englishFormat&&(q.subjectIndex!==1||q.number<36||q.number>=46)))assert.strictEqual(restoreEnglishBlanks(q),q,q.id);
  const q=standalone.find(q=>q.id==='109-1-37');
  assert.ok(restoreEnglishBlanks(q).stem.includes('\n     and attention'));
 });

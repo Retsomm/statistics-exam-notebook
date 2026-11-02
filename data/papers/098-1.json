@@ -1,0 +1,2006 @@
+[
+  {
+    "id": "098-1-1",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "就我國現行憲法及憲法增修條文中，有關中央政府組織與職權的規定，若要解釋法律與命令，應透過大法\n     官會議行使其職權。大法官會議隸屬於下列那一機關？\n(A) 考試院\n(B) 監察院\n(C) 司法院\n(D) 行政院",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "就我國現行憲法及憲法增修條文中，有關中央政府組織與職權的規定，若要解釋法律與命令，應透過大法\n     官會議行使其職權。大法官會議隸屬於下列那一機關？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "考試院"
+      },
+      {
+        "letter": "B",
+        "text": "監察院"
+      },
+      {
+        "letter": "C",
+        "text": "司法院"
+      },
+      {
+        "letter": "D",
+        "text": "行政院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-2",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "一部合宜的憲法，除了能完整的保障人權，有完善的政府組織，更須具時代性與社會性，以適應環境的變\n     遷。民國 80 年後，我國憲法經多次修改，下列那些為現今憲法的重要規定？①立法委員的員額自第七屆起\n     改為一百一十三人，任期四年 ②監察委員的選舉依比例代表制產生 ③行政院院長由總統提名，經立法\n     院同意後任命 ④立法委員選舉改為單一選區兩票制\n(A) ①②\n(B) ①④\n(C) ②③\n(D) ②④",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一部合宜的憲法，除了能完整的保障人權，有完善的政府組織，更須具時代性與社會性，以適應環境的變\n     遷。民國 80 年後，我國憲法經多次修改，下列那些為現今憲法的重要規定？①立法委員的員額自第七屆起\n     改為一百一十三人，任期四年 ②監察委員的選舉依比例代表制產生 ③行政院院長由總統提名，經立法\n     院同意後任命 ④立法委員選舉改為單一選區兩票制",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "②④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-3",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國刑事訴訟法，檢察官詢問被告取得自白時，下列相關規定何者正確？\n(A) 被告之自白需出於自由意志\n(B) 詢問過程中辯護人不得在場\n(C) 詢問過程中，被告不得拒絕回答問題\n(D) 被告自白得作為有罪判決之唯一證據",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "依據我國刑事訴訟法，檢察官詢問被告取得自白時，下列相關規定何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "被告之自白需出於自由意志"
+      },
+      {
+        "letter": "B",
+        "text": "詢問過程中辯護人不得在場"
+      },
+      {
+        "letter": "C",
+        "text": "詢問過程中，被告不得拒絕回答問題"
+      },
+      {
+        "letter": "D",
+        "text": "被告自白得作為有罪判決之唯一證據"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-4",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "現今的社會是一個多元開放的時代，只要有任何意見想表達，皆可透過各式各樣的管道加以抒發。請問：\n     下列那些是積極參與社會事務的「合法」管道？①每天早上到公園練外丹功，鍛鍊體魄 ②投稿報章雜誌\n     發表意見 ③利用政府的網站抒發民意 ④只要一有不同的意見，就走上街頭示威抗議 ⑤加入合法立案\n     的團體，表達團體共同的訴求與主張\n(A) ①②③\n(B) ①③④\n(C) ②③⑤\n(D) ③④⑤",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "現今的社會是一個多元開放的時代，只要有任何意見想表達，皆可透過各式各樣的管道加以抒發。請問：\n     下列那些是積極參與社會事務的「合法」管道？①每天早上到公園練外丹功，鍛鍊體魄 ②投稿報章雜誌\n     發表意見 ③利用政府的網站抒發民意 ④只要一有不同的意見，就走上街頭示威抗議 ⑤加入合法立案\n     的團體，表達團體共同的訴求與主張",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②③"
+      },
+      {
+        "letter": "B",
+        "text": "①③④"
+      },
+      {
+        "letter": "C",
+        "text": "②③⑤"
+      },
+      {
+        "letter": "D",
+        "text": "③④⑤"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-5",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "早期臺灣是一個純樸的農業社會，後來逐漸發展成為工商業社會，現在則進入資訊、服務社會。這種有關\n     社會生活層面發生改變的現象，一般稱為：\n(A) 社會變遷\n(B) 社會偏差\n(C) 社會解組\n(D) 社會流動",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "早期臺灣是一個純樸的農業社會，後來逐漸發展成為工商業社會，現在則進入資訊、服務社會。這種有關\n     社會生活層面發生改變的現象，一般稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "社會變遷"
+      },
+      {
+        "letter": "B",
+        "text": "社會偏差"
+      },
+      {
+        "letter": "C",
+        "text": "社會解組"
+      },
+      {
+        "letter": "D",
+        "text": "社會流動"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-6",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "目前在臺灣自由戀愛結婚的比例遠遠高過媒妁之言的婚姻，但另一個狀況是，我們的離婚率也直線上升。\n     請問這代表下列那一種現象？\n(A) 婚姻已成為個人自主的選擇\n(B) 以責任、承諾為基礎的婚姻越來越多\n(C) 婚姻仍講求門當戶對\n(D) 婚姻是家庭的事",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "目前在臺灣自由戀愛結婚的比例遠遠高過媒妁之言的婚姻，但另一個狀況是，我們的離婚率也直線上升。\n     請問這代表下列那一種現象？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "婚姻已成為個人自主的選擇"
+      },
+      {
+        "letter": "B",
+        "text": "以責任、承諾為基礎的婚姻越來越多"
+      },
+      {
+        "letter": "C",
+        "text": "婚姻仍講求門當戶對"
+      },
+      {
+        "letter": "D",
+        "text": "婚姻是家庭的事"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-7",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小蓮認為一張CD賣 250 元，但每張都只有主打歌曲好聽，所以把多首主打歌燒錄在一張CD上，再加以複製\n     便宜賣給同學。請問：有關小蓮的行為，下列敘述何者正確？\n(A) 不知者就不違法\n(B) 已違反出版法\n(C) 所賺有限不違法\n(D) 已違反著作權法",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小蓮認為一張CD賣 250 元，但每張都只有主打歌曲好聽，所以把多首主打歌燒錄在一張CD上，再加以複製\n     便宜賣給同學。請問：有關小蓮的行為，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不知者就不違法"
+      },
+      {
+        "letter": "B",
+        "text": "已違反出版法"
+      },
+      {
+        "letter": "C",
+        "text": "所賺有限不違法"
+      },
+      {
+        "letter": "D",
+        "text": "已違反著作權法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-8",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小昕和小雯聊天時談到：「天啊！現在電視竟然出現由男藝人代言衛生棉和口紅的廣告，看起來好奇怪，\n     真是不習慣，廣告效果應該很不好吧！」請問：上述兩人的對話內容，最能顯示出受到何種觀念的影響？\n(A) 多元社會價值\n(B) 青少年次文化\n(C) 性別刻板印象\n(D) 傳統倫理道德",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小昕和小雯聊天時談到：「天啊！現在電視竟然出現由男藝人代言衛生棉和口紅的廣告，看起來好奇怪，\n     真是不習慣，廣告效果應該很不好吧！」請問：上述兩人的對話內容，最能顯示出受到何種觀念的影響？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "多元社會價值"
+      },
+      {
+        "letter": "B",
+        "text": "青少年次文化"
+      },
+      {
+        "letter": "C",
+        "text": "性別刻板印象"
+      },
+      {
+        "letter": "D",
+        "text": "傳統倫理道德"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-9",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "資本是生產活動的要素之一，以資本的特性而言，下列那一項交通工具屬於生產活動中所投入的「資本」？\n(A) 小明營業時所開的計程車\n(B) 大華上街購物時騎的機車\n(C) 小芳外出旅遊搭乘的火車\n(D) 阿麗上學時所騎的腳踏車",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "資本是生產活動的要素之一，以資本的特性而言，下列那一項交通工具屬於生產活動中所投入的「資本」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "小明營業時所開的計程車"
+      },
+      {
+        "letter": "B",
+        "text": "大華上街購物時騎的機車"
+      },
+      {
+        "letter": "C",
+        "text": "小芳外出旅遊搭乘的火車"
+      },
+      {
+        "letter": "D",
+        "text": "阿麗上學時所騎的腳踏車"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-10",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小張、小陳和阿文三人相約到鄰居家去偷竊，小張負責把風，小陳破壞門窗，由阿文去偷取財物。請問：\n     有關上述三人的行為，下列敘述何者正確？\n(A) 小張只是把風，所以不犯罪\n(B) 小陳只須負擔民事賠償責任\n(C) 阿文下手偷竊，所以罪最重\n(D) 三人共謀所以應負罪責相同",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小張、小陳和阿文三人相約到鄰居家去偷竊，小張負責把風，小陳破壞門窗，由阿文去偷取財物。請問：\n     有關上述三人的行為，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "小張只是把風，所以不犯罪"
+      },
+      {
+        "letter": "B",
+        "text": "小陳只須負擔民事賠償責任"
+      },
+      {
+        "letter": "C",
+        "text": "阿文下手偷竊，所以罪最重"
+      },
+      {
+        "letter": "D",
+        "text": "三人共謀所以應負罪責相同"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-11",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "以政黨的權力來源區分，下列何者基本上屬「內造政黨」？\n(A) 英國的工黨\n(B) 英國的保守黨\n(C) 中國國民黨\n(D) 民主進步黨",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "以政黨的權力來源區分，下列何者基本上屬「內造政黨」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "英國的工黨"
+      },
+      {
+        "letter": "B",
+        "text": "英國的保守黨"
+      },
+      {
+        "letter": "C",
+        "text": "中國國民黨"
+      },
+      {
+        "letter": "D",
+        "text": "民主進步黨"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-12",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "美美從小就與祖父母、父母、叔叔、嬸嬸和堂弟們住在一座很大的四合院內，加上街坊鄰居的互動頻繁，\n     因而每天相處的人非常多，使得美美由長輩處學習到許多待人接物的處事原則和生活能力，上述所言即是\n     下列那一種家庭功能的發揮？\n(A) 生育功能\n(B) 教育功能\n(C) 經濟功能\n(D) 心理功能",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "美美從小就與祖父母、父母、叔叔、嬸嬸和堂弟們住在一座很大的四合院內，加上街坊鄰居的互動頻繁，\n     因而每天相處的人非常多，使得美美由長輩處學習到許多待人接物的處事原則和生活能力，上述所言即是\n     下列那一種家庭功能的發揮？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "生育功能"
+      },
+      {
+        "letter": "B",
+        "text": "教育功能"
+      },
+      {
+        "letter": "C",
+        "text": "經濟功能"
+      },
+      {
+        "letter": "D",
+        "text": "心理功能"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-13",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "就一般投資而言，高報酬通常伴隨高風險，今天社會投資工具多元化，下列何者風險相對最高？\n(A) 債券\n(B) 股票\n(C) 基金\n(D) 期貨",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "就一般投資而言，高報酬通常伴隨高風險，今天社會投資工具多元化，下列何者風險相對最高？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "債券"
+      },
+      {
+        "letter": "B",
+        "text": "股票"
+      },
+      {
+        "letter": "C",
+        "text": "基金"
+      },
+      {
+        "letter": "D",
+        "text": "期貨"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-14",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "民國 95 年，隨著國際油價上漲，李先生到超級市場購物時，發現許多物品價格均已調高。試問：在薪水未被\n     相對調整下，李先生可能將面對下列那些情況？①通貨膨脹 ②通貨緊縮 ③實質收入降低 ④購買力增加\n(A) ①③\n(B) ①④\n(C) ②③\n(D) ②④",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "民國 95 年，隨著國際油價上漲，李先生到超級市場購物時，發現許多物品價格均已調高。試問：在薪水未被\n     相對調整下，李先生可能將面對下列那些情況？①通貨膨脹 ②通貨緊縮 ③實質收入降低 ④購買力增加",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①③"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "②④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-15",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "法國思想家伏爾泰說：「我不同意你說的每一句話，但我要誓死捍衛你有講那些話的權利。」請問這句話\n     最符合現代社會之何項精神？\n(A) 科學精神\n(B) 平等精神\n(C) 民主精神\n(D) 自主精神",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "法國思想家伏爾泰說：「我不同意你說的每一句話，但我要誓死捍衛你有講那些話的權利。」請問這句話\n     最符合現代社會之何項精神？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "科學精神"
+      },
+      {
+        "letter": "B",
+        "text": "平等精神"
+      },
+      {
+        "letter": "C",
+        "text": "民主精神"
+      },
+      {
+        "letter": "D",
+        "text": "自主精神"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-16",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "一般民主國家如果任何一個政黨，均無法在國會選舉中獲得過半數的席位。在這種情況下獲得最多席位的\n     政黨，必須與其他小黨結盟，達到過半數的席位，才能獲得執政權。請問政治學者通常如何稱呼以這個方\n     式所組成的政府？\n(A) 看守政府\n(B) 責任政府\n(C) 跛腳政府\n(D) 聯合政府",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "一般民主國家如果任何一個政黨，均無法在國會選舉中獲得過半數的席位。在這種情況下獲得最多席位的\n     政黨，必須與其他小黨結盟，達到過半數的席位，才能獲得執政權。請問政治學者通常如何稱呼以這個方\n     式所組成的政府？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "看守政府"
+      },
+      {
+        "letter": "B",
+        "text": "責任政府"
+      },
+      {
+        "letter": "C",
+        "text": "跛腳政府"
+      },
+      {
+        "letter": "D",
+        "text": "聯合政府"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-17",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關我國「社區總體營造」的敘述，那些正確？①由行政院經濟建設委員會提倡           ②最主要的目的在\n     提振地方經濟   ③激發居民的社區文化意識      ④提升居民對社區事務的參與感\n(A) ①②\n(B) ①④\n(C) ②③\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列有關我國「社區總體營造」的敘述，那些正確？①由行政院經濟建設委員會提倡           ②最主要的目的在\n     提振地方經濟   ③激發居民的社區文化意識      ④提升居民對社區事務的參與感",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-18",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "因外籍勞工抗爭事件，行政院勞工委員會主任委員辭職以示負責，這最符合那一項民主政治要素的表現？\n(A) 民意政治\n(B) 法治政治\n(C) 責任政治\n(D) 政黨政治",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "因外籍勞工抗爭事件，行政院勞工委員會主任委員辭職以示負責，這最符合那一項民主政治要素的表現？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "民意政治"
+      },
+      {
+        "letter": "B",
+        "text": "法治政治"
+      },
+      {
+        "letter": "C",
+        "text": "責任政治"
+      },
+      {
+        "letter": "D",
+        "text": "政黨政治"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-19",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "通常我們用「物價指數」來表示物價水準的高低，當物價水準呈現持續大幅上升現象時，就是所謂的「通\n     貨膨脹」，在這種情況下，我們的生活會產生那些變化？①日常必需品的支出會增加           ②對債權人的權益\n     比較有利 ③收入固定的人購買力會降低      ④人民對貨幣價值的信心會增加\n(A) ①②\n(B) ①③\n(C) ②④\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "通常我們用「物價指數」來表示物價水準的高低，當物價水準呈現持續大幅上升現象時，就是所謂的「通\n     貨膨脹」，在這種情況下，我們的生活會產生那些變化？①日常必需品的支出會增加           ②對債權人的權益\n     比較有利 ③收入固定的人購買力會降低      ④人民對貨幣價值的信心會增加",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①③"
+      },
+      {
+        "letter": "C",
+        "text": "②④"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-20",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關少年事件處理法的敘述，何者正確？\n(A) 「少年」是指 12 歲以上，未滿 18 歲的人\n(B) 少年若因案件被裁定感化教育時，期限最長為 4 年\n(C) 少年管訓事件的處分包括訓誡、保護管束及有期徒刑\n(D) 針對少年的刑事案件原則上交由簡易法庭審理",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列有關少年事件處理法的敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "「少年」是指 12 歲以上，未滿 18 歲的人"
+      },
+      {
+        "letter": "B",
+        "text": "少年若因案件被裁定感化教育時，期限最長為 4 年"
+      },
+      {
+        "letter": "C",
+        "text": "少年管訓事件的處分包括訓誡、保護管束及有期徒刑"
+      },
+      {
+        "letter": "D",
+        "text": "針對少年的刑事案件原則上交由簡易法庭審理"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-21",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "民主社會中，凡是公共事務的決定，都是透過開會以及投票的方式來進行，下列那一項敘述最符合民意政\n     治的精神？\n(A) 有意見者決定\n(B) 意見領袖做主\n(C) 少數服從多數\n(D) 多數聽從少數",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "民主社會中，凡是公共事務的決定，都是透過開會以及投票的方式來進行，下列那一項敘述最符合民意政\n     治的精神？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "有意見者決定"
+      },
+      {
+        "letter": "B",
+        "text": "意見領袖做主"
+      },
+      {
+        "letter": "C",
+        "text": "少數服從多數"
+      },
+      {
+        "letter": "D",
+        "text": "多數聽從少數"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-22",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「天有不測風雲，人有旦夕禍福。」這句話主要的意義是提醒人們要如何因應外在世界的變化？\n(A) 簽注樂透彩，貴能持之以恆\n(B) 出門要看天色，進門要看臉色\n(C) 死生有命富貴在天，何妨及時行樂\n(D) 平日未雨綢繆，緩急才有憑恃",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "「天有不測風雲，人有旦夕禍福。」這句話主要的意義是提醒人們要如何因應外在世界的變化？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "簽注樂透彩，貴能持之以恆"
+      },
+      {
+        "letter": "B",
+        "text": "出門要看天色，進門要看臉色"
+      },
+      {
+        "letter": "C",
+        "text": "死生有命富貴在天，何妨及時行樂"
+      },
+      {
+        "letter": "D",
+        "text": "平日未雨綢繆，緩急才有憑恃"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-23",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「法律只能適用於實施之後所發生的事項；不能適用於實施之前所發生的事項。」這就是：\n(A) 罪刑法定主義\n(B) 不告不理原則\n(C) 法律不溯及既往原則\n(D) 特別法優於普通法原則",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "「法律只能適用於實施之後所發生的事項；不能適用於實施之前所發生的事項。」這就是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "罪刑法定主義"
+      },
+      {
+        "letter": "B",
+        "text": "不告不理原則"
+      },
+      {
+        "letter": "C",
+        "text": "法律不溯及既往原則"
+      },
+      {
+        "letter": "D",
+        "text": "特別法優於普通法原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-24",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在高檔的餐廳絕對沒有客人排隊的情形，而大排長龍的餐廳通常都是大眾化的餐廳。請問影響此種消費行\n     為的主要因素為何？\n(A) 所得水準\n(B) 時間因素\n(C) 個人嗜好\n(D) 價格高低",
+    "page": 1,
+    "accepted": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correction": "依考選部更正公告，接受答案：A、B、C、D。",
+    "stem": "在高檔的餐廳絕對沒有客人排隊的情形，而大排長龍的餐廳通常都是大眾化的餐廳。請問影響此種消費行\n     為的主要因素為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "所得水準"
+      },
+      {
+        "letter": "B",
+        "text": "時間因素"
+      },
+      {
+        "letter": "C",
+        "text": "個人嗜好"
+      },
+      {
+        "letter": "D",
+        "text": "價格高低"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-25",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在民主政治中，人民授權政府來管理政事，也同時要求公務人員要自律，因而有約束公務人員的機構產生，\n     在我國掌理各級公務人員之彈劾、糾舉、糾正及經費決算等事宜的是中央的那一機關？\n(A) 立法院\n(B) 司法院\n(C) 考試院\n(D) 監察院",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "在民主政治中，人民授權政府來管理政事，也同時要求公務人員要自律，因而有約束公務人員的機構產生，\n     在我國掌理各級公務人員之彈劾、糾舉、糾正及經費決算等事宜的是中央的那一機關？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "立法院"
+      },
+      {
+        "letter": "B",
+        "text": "司法院"
+      },
+      {
+        "letter": "C",
+        "text": "考試院"
+      },
+      {
+        "letter": "D",
+        "text": "監察院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-26",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國現行憲法之規定，下列那一選項所列人員的產生方式是相同的？\n(A) 不分區立法委員、司法院院長\n(B) 監察院院長、立法院院長\n(C) 大法官、考試委員\n(D) 檢察總長、法官",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "依據我國現行憲法之規定，下列那一選項所列人員的產生方式是相同的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不分區立法委員、司法院院長"
+      },
+      {
+        "letter": "B",
+        "text": "監察院院長、立法院院長"
+      },
+      {
+        "letter": "C",
+        "text": "大法官、考試委員"
+      },
+      {
+        "letter": "D",
+        "text": "檢察總長、法官"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-27",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "宜靜因快樂縣平安鄉地政機關違法的行政處分，造成其權益嚴重損害，於是向快樂縣政府提出訴願，但對\n     於該縣訴願委員會的判定不服，依法定程序，宜靜可以向那一機關提出權利救濟？\n(A) 地方法院\n(B) 高等法院\n(C) 高等行政法院\n(D) 最高行政法院",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "宜靜因快樂縣平安鄉地政機關違法的行政處分，造成其權益嚴重損害，於是向快樂縣政府提出訴願，但對\n     於該縣訴願委員會的判定不服，依法定程序，宜靜可以向那一機關提出權利救濟？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "地方法院"
+      },
+      {
+        "letter": "B",
+        "text": "高等法院"
+      },
+      {
+        "letter": "C",
+        "text": "高等行政法院"
+      },
+      {
+        "letter": "D",
+        "text": "最高行政法院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-28",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國中央法規標準法的規定，法律可定名為：\n(A) 規則\n(B) 通則\n(C) 細則\n(D) 準則",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依據我國中央法規標準法的規定，法律可定名為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "規則"
+      },
+      {
+        "letter": "B",
+        "text": "通則"
+      },
+      {
+        "letter": "C",
+        "text": "細則"
+      },
+      {
+        "letter": "D",
+        "text": "準則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-29",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國憲法規定，年滿 20 歲的公民才有選舉權，曉雲是嘉義市的公民，請問她無法選舉下列何種公職\n     人員？\n(A) 嘉義市長\n(B) 嘉義縣長\n(C) 總統\n(D) 立法委員",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依據我國憲法規定，年滿 20 歲的公民才有選舉權，曉雲是嘉義市的公民，請問她無法選舉下列何種公職\n     人員？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "嘉義市長"
+      },
+      {
+        "letter": "B",
+        "text": "嘉義縣長"
+      },
+      {
+        "letter": "C",
+        "text": "總統"
+      },
+      {
+        "letter": "D",
+        "text": "立法委員"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-30",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據現行國際法相關規定，一個國家的領土包括領陸、領海及領空。請問：一般而言，領海是由領陸向外\n     延伸多少距離的海域範圍？\n(A) 12 浬\n(B) 20 浬\n(C) 120 浬\n(D) 200 浬",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "依據現行國際法相關規定，一個國家的領土包括領陸、領海及領空。請問：一般而言，領海是由領陸向外\n     延伸多少距離的海域範圍？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "12 浬"
+      },
+      {
+        "letter": "B",
+        "text": "20 浬"
+      },
+      {
+        "letter": "C",
+        "text": "120 浬"
+      },
+      {
+        "letter": "D",
+        "text": "200 浬"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-31",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國目前關於中央與地方權限的劃分，若有爭議時，應依據下列那些法律來處理？①省縣自治法                                                                  ②憲法\n     ③省縣自治通則 ④地方制度法\n(A) ①②\n(B) ②③\n(C) ②④\n(D) ③④",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "我國目前關於中央與地方權限的劃分，若有爭議時，應依據下列那些法律來處理？①省縣自治法                                                                  ②憲法\n     ③省縣自治通則 ④地方制度法",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "②③"
+      },
+      {
+        "letter": "C",
+        "text": "②④"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-32",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "春嬌和志明開了一家泡沫紅茶店，為了獲取更多的利潤，兩人決定各依所長，分工合作，下表是他們每小\n     時可做的杯數，請問：他們兩人應如何分工最符合經濟效益？\n飲品（杯／小時）  春嬌  志明\n珍珠奶茶  60  30\n檸檬蘆薈  20  15\n(A) 春嬌負責珍珠奶茶，志明負責檸檬蘆薈\n(B) 春嬌負責檸檬蘆薈，志明負責珍珠奶茶\n(C) 全部由春嬌負責\n(D) 全部由志明負責",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "春嬌和志明開了一家泡沫紅茶店，為了獲取更多的利潤，兩人決定各依所長，分工合作，下表是他們每小\n     時可做的杯數，請問：他們兩人應如何分工最符合經濟效益？\n飲品（杯／小時）  春嬌  志明\n珍珠奶茶  60  30\n檸檬蘆薈  20  15",
+    "options": [
+      {
+        "letter": "A",
+        "text": "春嬌負責珍珠奶茶，志明負責檸檬蘆薈"
+      },
+      {
+        "letter": "B",
+        "text": "春嬌負責檸檬蘆薈，志明負責珍珠奶茶"
+      },
+      {
+        "letter": "C",
+        "text": "全部由春嬌負責"
+      },
+      {
+        "letter": "D",
+        "text": "全部由志明負責"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "098-1-33",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "錄影帶出租店，自行拷貝票房很好的院線片出租給顧客，這種行為是侵犯那一種權利？\n(A) 商標權\n(B) 專利權\n(C) 所有權\n(D) 著作權",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "錄影帶出租店，自行拷貝票房很好的院線片出租給顧客，這種行為是侵犯那一種權利？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "商標權"
+      },
+      {
+        "letter": "B",
+        "text": "專利權"
+      },
+      {
+        "letter": "C",
+        "text": "所有權"
+      },
+      {
+        "letter": "D",
+        "text": "著作權"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-34",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "近日趙小姐找到四份工作，月薪分別是 18000 元、20000 元、21000 元和 23000 元，最後她選擇了月薪 20000\n     元的工作。此時她選擇該份工作的機會成本是多少元？\n(A) 18000\n(B) 20000\n(C) 21000\n(D) 23000",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "近日趙小姐找到四份工作，月薪分別是 18000 元、20000 元、21000 元和 23000 元，最後她選擇了月薪 20000\n     元的工作。此時她選擇該份工作的機會成本是多少元？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "18000"
+      },
+      {
+        "letter": "B",
+        "text": "20000"
+      },
+      {
+        "letter": "C",
+        "text": "21000"
+      },
+      {
+        "letter": "D",
+        "text": "23000"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-35",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "行政院為我國最高行政機關，依憲法規定行政院院長的職權，下列敘述何者正確？\n(A) 依法可自行任命副院長及各部會的首長\n(B) 依法對人民負責並參與立法院法案審查\n(C) 依法須向立法院提施政報告並接受質詢\n(D) 若與立法院意見不合可依法解散立法院",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "行政院為我國最高行政機關，依憲法規定行政院院長的職權，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "依法可自行任命副院長及各部會的首長"
+      },
+      {
+        "letter": "B",
+        "text": "依法對人民負責並參與立法院法案審查"
+      },
+      {
+        "letter": "C",
+        "text": "依法須向立法院提施政報告並接受質詢"
+      },
+      {
+        "letter": "D",
+        "text": "若與立法院意見不合可依法解散立法院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-1-36",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "On Sundays, Mark usually              to my house for dinner and chats with me. I always enjoy his visit.\n(A) comes over\n(B) drops off\n(C) gets along\n(D) takes off",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "On Sundays, Mark usually              to my house for dinner and chats with me. I always enjoy his visit.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "comes over"
+      },
+      {
+        "letter": "B",
+        "text": "drops off"
+      },
+      {
+        "letter": "C",
+        "text": "gets along"
+      },
+      {
+        "letter": "D",
+        "text": "takes off"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "098-1-37",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "He is very          . He always looks on the bright side of life.\n(A) pessimistic\n(B) optimistic\n(C) imaginary\n(D) inventive",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "He is very          . He always looks on the bright side of life.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "pessimistic"
+      },
+      {
+        "letter": "B",
+        "text": "optimistic"
+      },
+      {
+        "letter": "C",
+        "text": "imaginary"
+      },
+      {
+        "letter": "D",
+        "text": "inventive"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "098-1-38",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Betty: You haven’t forgotten about the picnic,           ?\n     Charlene: No, I’m looking forward to it.\n(A) have you\n(B) did you\n(C) hadn’t you\n(D) are you",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "Betty: You haven’t forgotten about the picnic,           ?\n     Charlene: No, I’m looking forward to it.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "have you"
+      },
+      {
+        "letter": "B",
+        "text": "did you"
+      },
+      {
+        "letter": "C",
+        "text": "hadn’t you"
+      },
+      {
+        "letter": "D",
+        "text": "are you"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "098-1-39",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "We will go for a walk if the weather             warmer tomorrow.\n(A) became\n(B) has become\n(C) is becoming\n(D) becomes",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "We will go for a walk if the weather             warmer tomorrow.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "became"
+      },
+      {
+        "letter": "B",
+        "text": "has become"
+      },
+      {
+        "letter": "C",
+        "text": "is becoming"
+      },
+      {
+        "letter": "D",
+        "text": "becomes"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "098-1-40",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "George’s life would have been really different if he               Terrisa years ago.\n(A) was not meeting\n(B) did not meet\n(C) had not met\n(D) has not met",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "George’s life would have been really different if he               Terrisa years ago.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "was not meeting"
+      },
+      {
+        "letter": "B",
+        "text": "did not meet"
+      },
+      {
+        "letter": "C",
+        "text": "had not met"
+      },
+      {
+        "letter": "D",
+        "text": "has not met"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "098-1-41",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 41 空格最合適的答案。\n(A) rejected\n(B) regarded\n(C) valued\n(D) trusted",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 41 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "rejected"
+      },
+      {
+        "letter": "B",
+        "text": "regarded"
+      },
+      {
+        "letter": "C",
+        "text": "valued"
+      },
+      {
+        "letter": "D",
+        "text": "trusted"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The original Monopoly, which came out in 1935, almost did not make it to market. In the 1930s when the\n     economy in the US was pretty bad, Charles B. Darrow of German-town, Pennsylvania, showed a game he called\n     Monopoly to the manager at Parker Brothers. Parker Brothers             41     the game at first, pointing out “fifty-two\n     design errors.” But Mr. Darrow did not give up.         42      many other Americans, he was unemployed at the time,\n     and his dream that the game could bring his fame and fortune gave him the idea to produce it on his own.\n          With help from a friend who was a printer, Mr. Darrow sold five thousand handmade sets of the game to a\n     Philadelphia department store. People loved it! But as the requests grew, he couldn’t           43     all the orders and\n     went to talk to Parker Brothers again. This time he met with success. During its first year on the market, Monopoly\n     was the best-selling game in America. And         44      its sixty-five-year history, about five hundred million people\n     have played the game. It is the best-selling board game in the world,         45     in eighty countries and produced in\n     twenty-six languages.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "098-1-42",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 42 空格最合適的答案。\n(A) With\n(B) Like\n(C) To\n(D) For",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 42 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "With"
+      },
+      {
+        "letter": "B",
+        "text": "Like"
+      },
+      {
+        "letter": "C",
+        "text": "To"
+      },
+      {
+        "letter": "D",
+        "text": "For"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The original Monopoly, which came out in 1935, almost did not make it to market. In the 1930s when the\n     economy in the US was pretty bad, Charles B. Darrow of German-town, Pennsylvania, showed a game he called\n     Monopoly to the manager at Parker Brothers. Parker Brothers             41     the game at first, pointing out “fifty-two\n     design errors.” But Mr. Darrow did not give up.         42      many other Americans, he was unemployed at the time,\n     and his dream that the game could bring his fame and fortune gave him the idea to produce it on his own.\n          With help from a friend who was a printer, Mr. Darrow sold five thousand handmade sets of the game to a\n     Philadelphia department store. People loved it! But as the requests grew, he couldn’t           43     all the orders and\n     went to talk to Parker Brothers again. This time he met with success. During its first year on the market, Monopoly\n     was the best-selling game in America. And         44      its sixty-five-year history, about five hundred million people\n     have played the game. It is the best-selling board game in the world,         45     in eighty countries and produced in\n     twenty-six languages.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "098-1-43",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 43 空格最合適的答案。\n(A) get away with\n(B) make use of\n(C) keep up with\n(D) turn upside down",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 43 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "get away with"
+      },
+      {
+        "letter": "B",
+        "text": "make use of"
+      },
+      {
+        "letter": "C",
+        "text": "keep up with"
+      },
+      {
+        "letter": "D",
+        "text": "turn upside down"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The original Monopoly, which came out in 1935, almost did not make it to market. In the 1930s when the\n     economy in the US was pretty bad, Charles B. Darrow of German-town, Pennsylvania, showed a game he called\n     Monopoly to the manager at Parker Brothers. Parker Brothers             41     the game at first, pointing out “fifty-two\n     design errors.” But Mr. Darrow did not give up.         42      many other Americans, he was unemployed at the time,\n     and his dream that the game could bring his fame and fortune gave him the idea to produce it on his own.\n          With help from a friend who was a printer, Mr. Darrow sold five thousand handmade sets of the game to a\n     Philadelphia department store. People loved it! But as the requests grew, he couldn’t           43     all the orders and\n     went to talk to Parker Brothers again. This time he met with success. During its first year on the market, Monopoly\n     was the best-selling game in America. And         44      its sixty-five-year history, about five hundred million people\n     have played the game. It is the best-selling board game in the world,         45     in eighty countries and produced in\n     twenty-six languages.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "098-1-44",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 44 空格最合適的答案。\n(A) beyond\n(B) under\n(C) among\n(D) over",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 44 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "beyond"
+      },
+      {
+        "letter": "B",
+        "text": "under"
+      },
+      {
+        "letter": "C",
+        "text": "among"
+      },
+      {
+        "letter": "D",
+        "text": "over"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The original Monopoly, which came out in 1935, almost did not make it to market. In the 1930s when the\n     economy in the US was pretty bad, Charles B. Darrow of German-town, Pennsylvania, showed a game he called\n     Monopoly to the manager at Parker Brothers. Parker Brothers             41     the game at first, pointing out “fifty-two\n     design errors.” But Mr. Darrow did not give up.         42      many other Americans, he was unemployed at the time,\n     and his dream that the game could bring his fame and fortune gave him the idea to produce it on his own.\n          With help from a friend who was a printer, Mr. Darrow sold five thousand handmade sets of the game to a\n     Philadelphia department store. People loved it! But as the requests grew, he couldn’t           43     all the orders and\n     went to talk to Parker Brothers again. This time he met with success. During its first year on the market, Monopoly\n     was the best-selling game in America. And         44      its sixty-five-year history, about five hundred million people\n     have played the game. It is the best-selling board game in the world,         45     in eighty countries and produced in\n     twenty-six languages.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "098-1-45",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 45 空格最合適的答案。\n(A) sold\n(B) sell\n(C) sale\n(D) selling",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 45 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "sold"
+      },
+      {
+        "letter": "B",
+        "text": "sell"
+      },
+      {
+        "letter": "C",
+        "text": "sale"
+      },
+      {
+        "letter": "D",
+        "text": "selling"
+      }
+    ],
+    "textFallback": false,
+    "passage": "The original Monopoly, which came out in 1935, almost did not make it to market. In the 1930s when the\n     economy in the US was pretty bad, Charles B. Darrow of German-town, Pennsylvania, showed a game he called\n     Monopoly to the manager at Parker Brothers. Parker Brothers             41     the game at first, pointing out “fifty-two\n     design errors.” But Mr. Darrow did not give up.         42      many other Americans, he was unemployed at the time,\n     and his dream that the game could bring his fame and fortune gave him the idea to produce it on his own.\n          With help from a friend who was a printer, Mr. Darrow sold five thousand handmade sets of the game to a\n     Philadelphia department store. People loved it! But as the requests grew, he couldn’t           43     all the orders and\n     went to talk to Parker Brothers again. This time he met with success. During its first year on the market, Monopoly\n     was the best-selling game in America. And         44      its sixty-five-year history, about five hundred million people\n     have played the game. It is the best-selling board game in the world,         45     in eighty countries and produced in\n     twenty-six languages.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "098-1-46",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What is the relationship between Susan and Rebecca? They are             .\n(A) families\n(B) co-workers\n(C) classmates\n(D) lovers",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "What is the relationship between Susan and Rebecca? They are             .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "families"
+      },
+      {
+        "letter": "B",
+        "text": "co-workers"
+      },
+      {
+        "letter": "C",
+        "text": "classmates"
+      },
+      {
+        "letter": "D",
+        "text": "lovers"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Dear Agnes:\n          Please help. My best friend in the class, Rebecca, told me today that she is going to drop out of school!! She\n     says that she has put off doing work for every class and no longer has enough time or energy to finish. She thinks\n     her only choice is to quit. I know that she puts off a lot, and that this was a big problem, but I didn’t know it was so\n     serious. Rebecca was going to talk to our teacher today about this problem, but she also postponed that meeting! I\n     know she is feeling very anxious, but I’m worried she’s making a huge mistake. How can I help her with this\n     serious problem? I don’t want her to leave school.\n\n     Worried Friend\n     Susan Brown, Seattle",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "098-1-47",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What does “put off” mean?\n(A) equal\n(B) postpone\n(C) crash\n(D) launch",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "What does “put off” mean?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "equal"
+      },
+      {
+        "letter": "B",
+        "text": "postpone"
+      },
+      {
+        "letter": "C",
+        "text": "crash"
+      },
+      {
+        "letter": "D",
+        "text": "launch"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Dear Agnes:\n          Please help. My best friend in the class, Rebecca, told me today that she is going to drop out of school!! She\n     says that she has put off doing work for every class and no longer has enough time or energy to finish. She thinks\n     her only choice is to quit. I know that she puts off a lot, and that this was a big problem, but I didn’t know it was so\n     serious. Rebecca was going to talk to our teacher today about this problem, but she also postponed that meeting! I\n     know she is feeling very anxious, but I’m worried she’s making a huge mistake. How can I help her with this\n     serious problem? I don’t want her to leave school.\n\n     Worried Friend\n     Susan Brown, Seattle",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "098-1-48",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What is Rebecca’s problem?\n(A) She has no money to pay for tuition fee.\n(B) She has the habit of putting off things and now there’s too much to do.\n(C) She has health problem.\n(D) She fails all the examinations in school.",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "What is Rebecca’s problem?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "She has no money to pay for tuition fee."
+      },
+      {
+        "letter": "B",
+        "text": "She has the habit of putting off things and now there’s too much to do."
+      },
+      {
+        "letter": "C",
+        "text": "She has health problem."
+      },
+      {
+        "letter": "D",
+        "text": "She fails all the examinations in school."
+      }
+    ],
+    "textFallback": false,
+    "passage": "Dear Agnes:\n          Please help. My best friend in the class, Rebecca, told me today that she is going to drop out of school!! She\n     says that she has put off doing work for every class and no longer has enough time or energy to finish. She thinks\n     her only choice is to quit. I know that she puts off a lot, and that this was a big problem, but I didn’t know it was so\n     serious. Rebecca was going to talk to our teacher today about this problem, but she also postponed that meeting! I\n     know she is feeling very anxious, but I’m worried she’s making a huge mistake. How can I help her with this\n     serious problem? I don’t want her to leave school.\n\n     Worried Friend\n     Susan Brown, Seattle",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "098-1-49",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What does Rebecca think she will have to do, as a result of her problem?\n(A) She thinks she is alright and she does not have to do anything.\n(B) She thinks she has to take more courses.\n(C) She thinks she has to have a part-time job.\n(D) She thinks she has to leave school.",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "What does Rebecca think she will have to do, as a result of her problem?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "She thinks she is alright and she does not have to do anything."
+      },
+      {
+        "letter": "B",
+        "text": "She thinks she has to take more courses."
+      },
+      {
+        "letter": "C",
+        "text": "She thinks she has to have a part-time job."
+      },
+      {
+        "letter": "D",
+        "text": "She thinks she has to leave school."
+      }
+    ],
+    "textFallback": false,
+    "passage": "Dear Agnes:\n          Please help. My best friend in the class, Rebecca, told me today that she is going to drop out of school!! She\n     says that she has put off doing work for every class and no longer has enough time or energy to finish. She thinks\n     her only choice is to quit. I know that she puts off a lot, and that this was a big problem, but I didn’t know it was so\n     serious. Rebecca was going to talk to our teacher today about this problem, but she also postponed that meeting! I\n     know she is feeling very anxious, but I’m worried she’s making a huge mistake. How can I help her with this\n     serious problem? I don’t want her to leave school.\n\n     Worried Friend\n     Susan Brown, Seattle",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "098-1-50",
+    "examId": "098-1",
+    "year": 98,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Where is Susan from?\n(A) Los Angeles\n(B) Chicago\n(C) Seattle\n(D) We don’t know.",
+    "page": 3,
+    "accepted": [
+      "C",
+      "D"
+    ],
+    "correction": "依考選部更正公告，接受答案：C、D。",
+    "stem": "Where is Susan from?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Los Angeles"
+      },
+      {
+        "letter": "B",
+        "text": "Chicago"
+      },
+      {
+        "letter": "C",
+        "text": "Seattle"
+      },
+      {
+        "letter": "D",
+        "text": "We don’t know."
+      }
+    ],
+    "textFallback": false,
+    "passage": "Dear Agnes:\n          Please help. My best friend in the class, Rebecca, told me today that she is going to drop out of school!! She\n     says that she has put off doing work for every class and no longer has enough time or energy to finish. She thinks\n     her only choice is to quit. I know that she puts off a lot, and that this was a big problem, but I didn’t know it was so\n     serious. Rebecca was going to talk to our teacher today about this problem, but she also postponed that meeting! I\n     know she is feeling very anxious, but I’m worried she’s making a huge mistake. How can I help her with this\n     serious problem? I don’t want her to leave school.\n\n     Worried Friend\n     Susan Brown, Seattle",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  }
+]

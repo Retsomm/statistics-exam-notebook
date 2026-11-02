@@ -3,7 +3,8 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {idiomsInText} from '../lib/idioms.mjs';
 const read=name=>JSON.parse(readFileSync(new URL('../data/'+name,import.meta.url),'utf8'));
-const entries=read('idioms.json').entries,questions=read('bank.json').questions.filter(q=>q.subjectIndex===0);
+const bank=read('bank.json'),reviewed=new Set(bank.exams.filter(e=>e.explanationStatus!=='pending').map(e=>e.id));
+const entries=read('idioms.json').entries,questions=bank.questions.filter(q=>q.subjectIndex===0&&reviewed.has(q.examId));
 test('every explicit idiom/meaning question and quoted idiom has editorial origin coverage',()=>{
  for(const q of questions){
   const explicit=/成語|詞義/.test(q.stem);

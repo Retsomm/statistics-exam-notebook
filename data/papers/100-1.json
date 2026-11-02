@@ -1,0 +1,2006 @@
+[
+  {
+    "id": "100-1-1",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小傑育有三女，太太過世後，經友人介紹與小琳結婚，小琳有一個未婚生下的女兒，也帶過來一起生活。\n     此時小傑的家庭是屬於何種家庭型態？\n(A) 單親家庭\n(B) 頂客家庭\n(C) 隔代家庭\n(D) 重組家庭",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小傑育有三女，太太過世後，經友人介紹與小琳結婚，小琳有一個未婚生下的女兒，也帶過來一起生活。\n     此時小傑的家庭是屬於何種家庭型態？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "單親家庭"
+      },
+      {
+        "letter": "B",
+        "text": "頂客家庭"
+      },
+      {
+        "letter": "C",
+        "text": "隔代家庭"
+      },
+      {
+        "letter": "D",
+        "text": "重組家庭"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-2",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國相關法律的規定，下列何種職務「不須」經由國家考試取得？\n(A) 警察\n(B) 法官\n(C) 大法官\n(D) 關稅人員",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "依據我國相關法律的規定，下列何種職務「不須」經由國家考試取得？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "警察"
+      },
+      {
+        "letter": "B",
+        "text": "法官"
+      },
+      {
+        "letter": "C",
+        "text": "大法官"
+      },
+      {
+        "letter": "D",
+        "text": "關稅人員"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-3",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在釣魚的張三、李四兩人同時遭大浪打落海中，張三與李四爭奪唯一的救生圈，導致李四因而溺斃，請問\n     張三的行為，依《刑法》「阻卻違法」事由之那一項，不會構成殺人罪？\n(A) 依法令的行為\n(B) 業務上的正當行為\n(C) 正當防衛\n(D) 緊急避難",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "在釣魚的張三、李四兩人同時遭大浪打落海中，張三與李四爭奪唯一的救生圈，導致李四因而溺斃，請問\n     張三的行為，依《刑法》「阻卻違法」事由之那一項，不會構成殺人罪？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "依法令的行為"
+      },
+      {
+        "letter": "B",
+        "text": "業務上的正當行為"
+      },
+      {
+        "letter": "C",
+        "text": "正當防衛"
+      },
+      {
+        "letter": "D",
+        "text": "緊急避難"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-4",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "如茹將網路上介紹美食的資料及圖片下載印出，繳交家政課作業，並且把它放到個人部落格上，供網友點\n     閱。這種作法最主要侵犯了他人那種權利？\n(A) 隱私權\n(B) 人格權\n(C) 智慧財產權\n(D) 人身自由權",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "如茹將網路上介紹美食的資料及圖片下載印出，繳交家政課作業，並且把它放到個人部落格上，供網友點\n     閱。這種作法最主要侵犯了他人那種權利？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "隱私權"
+      },
+      {
+        "letter": "B",
+        "text": "人格權"
+      },
+      {
+        "letter": "C",
+        "text": "智慧財產權"
+      },
+      {
+        "letter": "D",
+        "text": "人身自由權"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-5",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "民國 88 年發生 921 大地震後，為了有效展開救災工作，依法由總統發布緊急命令，為必要之處置。但須於\n     發布緊急命令後十日內提交下列那一機關追認？\n(A) 行政院\n(B) 立法院\n(C) 司法院\n(D) 監察院",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "民國 88 年發生 921 大地震後，為了有效展開救災工作，依法由總統發布緊急命令，為必要之處置。但須於\n     發布緊急命令後十日內提交下列那一機關追認？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行政院"
+      },
+      {
+        "letter": "B",
+        "text": "立法院"
+      },
+      {
+        "letter": "C",
+        "text": "司法院"
+      },
+      {
+        "letter": "D",
+        "text": "監察院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-6",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "根據中華民國憲法增修條文規定，總統、副總統罷免案應由下列那一機關提出？\n(A) 大法官\n(B) 行政院\n(C) 立法院\n(D) 監察院",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "根據中華民國憲法增修條文規定，總統、副總統罷免案應由下列那一機關提出？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "大法官"
+      },
+      {
+        "letter": "B",
+        "text": "行政院"
+      },
+      {
+        "letter": "C",
+        "text": "立法院"
+      },
+      {
+        "letter": "D",
+        "text": "監察院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-7",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某位藝人因遭八卦雜誌影射有婚外情，憤而到臺北地方法院檢察署按鈴申告，請問「按鈴申告」是那一種\n     權利救濟的方式？\n(A) 告訴\n(B) 告發\n(C) 自訴\n(D) 公訴",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "某位藝人因遭八卦雜誌影射有婚外情，憤而到臺北地方法院檢察署按鈴申告，請問「按鈴申告」是那一種\n     權利救濟的方式？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "告訴"
+      },
+      {
+        "letter": "B",
+        "text": "告發"
+      },
+      {
+        "letter": "C",
+        "text": "自訴"
+      },
+      {
+        "letter": "D",
+        "text": "公訴"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-8",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "《民法》第 982 條於民國 96 年 5 月 23 日修正公布，並於民國 97 年 5 月 23 日起施行。經修正後的結婚形\n     式要件包含下列那幾項？①公開儀式 ②兩人以上證人 ③書面形式 ④戶政機關登記\n(A) ①②\n(B) ①②④\n(C) ②③④\n(D) ①②③④",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "《民法》第 982 條於民國 96 年 5 月 23 日修正公布，並於民國 97 年 5 月 23 日起施行。經修正後的結婚形\n     式要件包含下列那幾項？①公開儀式 ②兩人以上證人 ③書面形式 ④戶政機關登記",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①②④"
+      },
+      {
+        "letter": "C",
+        "text": "②③④"
+      },
+      {
+        "letter": "D",
+        "text": "①②③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-9",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "根據中華民國憲法增修條文的規定，下列何者為我國修憲的程序？\n(A) 立法院提出憲法修正案，由總統公布\n(B) 立法院提出憲法修正案，公民投票通過\n(C) 立法院提出憲法修正案，由任務型國代通過\n(D) 立法院提出憲法修正案，由行政院院會通過",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "根據中華民國憲法增修條文的規定，下列何者為我國修憲的程序？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "立法院提出憲法修正案，由總統公布"
+      },
+      {
+        "letter": "B",
+        "text": "立法院提出憲法修正案，公民投票通過"
+      },
+      {
+        "letter": "C",
+        "text": "立法院提出憲法修正案，由任務型國代通過"
+      },
+      {
+        "letter": "D",
+        "text": "立法院提出憲法修正案，由行政院院會通過"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-10",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "老王因細故與小李發生爭執，進而對小李動手，造成小李左肩瘀青腫痛。事後老王請里長陪同向小李道歉，\n     並約定由老王負擔醫藥費，而小李則放棄對老王提起刑事訴訟。依上述內容判斷，雙方的約定在法律上稱\n     為什麼？\n(A) 調解\n(B) 仲裁\n(C) 和解\n(D) 訴願",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "老王因細故與小李發生爭執，進而對小李動手，造成小李左肩瘀青腫痛。事後老王請里長陪同向小李道歉，\n     並約定由老王負擔醫藥費，而小李則放棄對老王提起刑事訴訟。依上述內容判斷，雙方的約定在法律上稱\n     為什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "調解"
+      },
+      {
+        "letter": "B",
+        "text": "仲裁"
+      },
+      {
+        "letter": "C",
+        "text": "和解"
+      },
+      {
+        "letter": "D",
+        "text": "訴願"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-11",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某地方政府，針對公共設施用地「B 土地」實施徵收，並且對當地居民承諾：會先妥為安置，再行拆遷房屋。\n     然而該政府並未履行此一「先安置、後拆遷」之承諾，即動手拆屋。此作法有違下列那一項原則？\n(A) 比例原則\n(B) 明確原則\n(C) 平等原則\n(D) 誠信原則",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "某地方政府，針對公共設施用地「B 土地」實施徵收，並且對當地居民承諾：會先妥為安置，再行拆遷房屋。\n     然而該政府並未履行此一「先安置、後拆遷」之承諾，即動手拆屋。此作法有違下列那一項原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "比例原則"
+      },
+      {
+        "letter": "B",
+        "text": "明確原則"
+      },
+      {
+        "letter": "C",
+        "text": "平等原則"
+      },
+      {
+        "letter": "D",
+        "text": "誠信原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-12",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依《民事訴訟法》第 466 條第 3 項之規定，目前財產權涉訟案件，當事人如不服第二審法院民事判決，而\n     上訴所得受利益未超過新臺幣多少元，依法不得上訴第三審法院？\n(A) 50 萬元\n(B) 100 萬元\n(C) 150 萬元\n(D) 200 萬元",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "依《民事訴訟法》第 466 條第 3 項之規定，目前財產權涉訟案件，當事人如不服第二審法院民事判決，而\n     上訴所得受利益未超過新臺幣多少元，依法不得上訴第三審法院？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "50 萬元"
+      },
+      {
+        "letter": "B",
+        "text": "100 萬元"
+      },
+      {
+        "letter": "C",
+        "text": "150 萬元"
+      },
+      {
+        "letter": "D",
+        "text": "200 萬元"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-13",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "倩倩開了一家美妝店，遭顧客上門投訴她賣的洗面乳因包裝受損，洗後臉上長出紅疹，但倩倩以店外張貼\n     「貨物出門，概不退換」之告示，拒絕退、換貨或賠償。請問，倩倩這種作法違反了《民法》那一項原則？\n(A) 私法自治原則\n(B) 契約自由原則\n(C) 誠實信用原則\n(D) 權利禁止濫用原則",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "倩倩開了一家美妝店，遭顧客上門投訴她賣的洗面乳因包裝受損，洗後臉上長出紅疹，但倩倩以店外張貼\n     「貨物出門，概不退換」之告示，拒絕退、換貨或賠償。請問，倩倩這種作法違反了《民法》那一項原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "私法自治原則"
+      },
+      {
+        "letter": "B",
+        "text": "契約自由原則"
+      },
+      {
+        "letter": "C",
+        "text": "誠實信用原則"
+      },
+      {
+        "letter": "D",
+        "text": "權利禁止濫用原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-14",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "根據中華民國憲法規定：「法律與憲法牴觸者無效」、「命令與憲法或法律牴觸者無效」。這是顯示《憲法》\n     的何種特性？\n(A) 最高性\n(B) 原則性\n(C) 穩定性\n(D) 固定性",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "根據中華民國憲法規定：「法律與憲法牴觸者無效」、「命令與憲法或法律牴觸者無效」。這是顯示《憲法》\n     的何種特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "最高性"
+      },
+      {
+        "letter": "B",
+        "text": "原則性"
+      },
+      {
+        "letter": "C",
+        "text": "穩定性"
+      },
+      {
+        "letter": "D",
+        "text": "固定性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-15",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "中華民國憲法增修條文第 5 條規定，政黨之目的或其行為，危害中華民國之存在或自由民主之憲政秩序者\n     為違憲。而政黨違憲之解散事項，應交由下列何者審理之？\n(A) 行政法院\n(B) 憲法法庭\n(C) 大法官會議\n(D) 公務員懲戒委員會",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "中華民國憲法增修條文第 5 條規定，政黨之目的或其行為，危害中華民國之存在或自由民主之憲政秩序者\n     為違憲。而政黨違憲之解散事項，應交由下列何者審理之？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行政法院"
+      },
+      {
+        "letter": "B",
+        "text": "憲法法庭"
+      },
+      {
+        "letter": "C",
+        "text": "大法官會議"
+      },
+      {
+        "letter": "D",
+        "text": "公務員懲戒委員會"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-16",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據三權分立的原則，中央政府的行政機關應如何行政，以符合民主憲政的精神？\n(A) 依執政黨的黨綱行政\n(B) 依民意調查的結果行政\n(C) 依執政黨黨揆的意志行政\n(D) 依國會通過的法律行政",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "依據三權分立的原則，中央政府的行政機關應如何行政，以符合民主憲政的精神？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "依執政黨的黨綱行政"
+      },
+      {
+        "letter": "B",
+        "text": "依民意調查的結果行政"
+      },
+      {
+        "letter": "C",
+        "text": "依執政黨黨揆的意志行政"
+      },
+      {
+        "letter": "D",
+        "text": "依國會通過的法律行政"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-17",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在政見發表會中，某政黨的候選人不斷提醒臺下的觀眾投票當天一定要記得帶身分證去投票，而且不能用\n     自己的私章蓋在選票上。由此可知政黨也會提供以下何種功能？\n(A) 匯集民意\n(B) 提名候選人\n(C) 教育民眾\n(D) 組織政府",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在政見發表會中，某政黨的候選人不斷提醒臺下的觀眾投票當天一定要記得帶身分證去投票，而且不能用\n     自己的私章蓋在選票上。由此可知政黨也會提供以下何種功能？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "匯集民意"
+      },
+      {
+        "letter": "B",
+        "text": "提名候選人"
+      },
+      {
+        "letter": "C",
+        "text": "教育民眾"
+      },
+      {
+        "letter": "D",
+        "text": "組織政府"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-18",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "關於我國法律適用的優先順序原則，下列那幾項是正確的？①公法優於私法        ②實體法優於程序法   ③特\n     別法優於普通法   ④條例優於自治法規\n(A) ①②\n(B) ①③\n(C) ②④\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "關於我國法律適用的優先順序原則，下列那幾項是正確的？①公法優於私法        ②實體法優於程序法   ③特\n     別法優於普通法   ④條例優於自治法規",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①③"
+      },
+      {
+        "letter": "C",
+        "text": "②④"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-19",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "立法委員的組成有許多種類，包括①區域立委   ②不分區立委   ③原住民立委    ④僑選立委，其中採政黨\n     比例方式選出的立委，為那兩類立委？\n(A) ②③\n(B) ②④\n(C) ①②\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "立法委員的組成有許多種類，包括①區域立委   ②不分區立委   ③原住民立委    ④僑選立委，其中採政黨\n     比例方式選出的立委，為那兩類立委？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "②③"
+      },
+      {
+        "letter": "B",
+        "text": "②④"
+      },
+      {
+        "letter": "C",
+        "text": "①②"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-20",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "有些威權國家因擔心國外政治社會動亂的新聞影響到國內的政治安定，而對此類新聞報導內容進行審查，\n     此項措施明顯違反下列那種國家存在的目的？\n(A) 維護國家安全\n(B) 維持社會秩序\n(C) 落實社會正義\n(D) 保障人民權利",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有些威權國家因擔心國外政治社會動亂的新聞影響到國內的政治安定，而對此類新聞報導內容進行審查，\n     此項措施明顯違反下列那種國家存在的目的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "維護國家安全"
+      },
+      {
+        "letter": "B",
+        "text": "維持社會秩序"
+      },
+      {
+        "letter": "C",
+        "text": "落實社會正義"
+      },
+      {
+        "letter": "D",
+        "text": "保障人民權利"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-21",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那一國的元首是透過選舉產生的？\n(A) 日本\n(B) 英國\n(C) 南非\n(D) 澳洲",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列那一國的元首是透過選舉產生的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "日本"
+      },
+      {
+        "letter": "B",
+        "text": "英國"
+      },
+      {
+        "letter": "C",
+        "text": "南非"
+      },
+      {
+        "letter": "D",
+        "text": "澳洲"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-22",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "內政部研擬修改社會救助法，修正重點包括：調整貧窮線定義、納入近貧家庭、增訂低收入戶通報機制等，\n     可說是積極實現那一項國家組成的目的？\n(A) 安全\n(B) 福利\n(C) 自由\n(D) 秩序",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "內政部研擬修改社會救助法，修正重點包括：調整貧窮線定義、納入近貧家庭、增訂低收入戶通報機制等，\n     可說是積極實現那一項國家組成的目的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "安全"
+      },
+      {
+        "letter": "B",
+        "text": "福利"
+      },
+      {
+        "letter": "C",
+        "text": "自由"
+      },
+      {
+        "letter": "D",
+        "text": "秩序"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-23",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某學者謂：「政府的權威只能建立在被統治者信賴的基礎之上，所以政府的統治權力必須透過被統治者的同\n     意才能存在，而選舉活動正是賦予政府正當性與合法性的重要程序。」上述這段話最能反映下列何項概念？\n(A) 三權分立\n(B) 人民主權\n(C) 政黨政治\n(D) 依法行政",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "某學者謂：「政府的權威只能建立在被統治者信賴的基礎之上，所以政府的統治權力必須透過被統治者的同\n     意才能存在，而選舉活動正是賦予政府正當性與合法性的重要程序。」上述這段話最能反映下列何項概念？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "三權分立"
+      },
+      {
+        "letter": "B",
+        "text": "人民主權"
+      },
+      {
+        "letter": "C",
+        "text": "政黨政治"
+      },
+      {
+        "letter": "D",
+        "text": "依法行政"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-24",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "香雞排太香、臭豆腐夠臭，讓不少饕客趨之若鶩；然而業者所製造的油煙味，影響空氣品質，也成為環保\n     人員稽查的標的。政府應如何將其「外部效果內部化」？\n(A) 補貼業者，降低生產成本\n(B) 勒令停工，併入公營事業\n(C) 徵收汙染稅，罰款限期改善\n(D) 放寬汙染標準，鼓勵產品出口",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "香雞排太香、臭豆腐夠臭，讓不少饕客趨之若鶩；然而業者所製造的油煙味，影響空氣品質，也成為環保\n     人員稽查的標的。政府應如何將其「外部效果內部化」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "補貼業者，降低生產成本"
+      },
+      {
+        "letter": "B",
+        "text": "勒令停工，併入公營事業"
+      },
+      {
+        "letter": "C",
+        "text": "徵收汙染稅，罰款限期改善"
+      },
+      {
+        "letter": "D",
+        "text": "放寬汙染標準，鼓勵產品出口"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-25",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "立法院正在著手修定《菸害防制法》，其中有立委建議應對邊走邊抽菸者開罰，引起不少癮君子抗議。此\n     種透過立法取締抽菸的動作是屬於政府的那一項功能？\n(A) 提供公共財\n(B) 處理外部效果\n(C) 維持公平交易\n(D) 改善所得分配",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "立法院正在著手修定《菸害防制法》，其中有立委建議應對邊走邊抽菸者開罰，引起不少癮君子抗議。此\n     種透過立法取締抽菸的動作是屬於政府的那一項功能？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "提供公共財"
+      },
+      {
+        "letter": "B",
+        "text": "處理外部效果"
+      },
+      {
+        "letter": "C",
+        "text": "維持公平交易"
+      },
+      {
+        "letter": "D",
+        "text": "改善所得分配"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-26",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在國際貿易過程中，買賣雙方都會準備國際上普遍接受的貨幣來進行交易；目前在國際上最普遍接受的貨\n     幣為何？\n(A) 歐元\n(B) 美元\n(C) 日幣\n(D) 人民幣",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在國際貿易過程中，買賣雙方都會準備國際上普遍接受的貨幣來進行交易；目前在國際上最普遍接受的貨\n     幣為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "歐元"
+      },
+      {
+        "letter": "B",
+        "text": "美元"
+      },
+      {
+        "letter": "C",
+        "text": "日幣"
+      },
+      {
+        "letter": "D",
+        "text": "人民幣"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-27",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下表為某個市場上週對雞肉之需求和供給的價格和數量，以下何者為此一市場的均衡價格（P）和均衡數量\n     （Q）？\n        價格（元／斤）             需求（斤／週）             供給（斤／週）\n              90                 50                 70\n              80                 60                 60\n              60                 80                 40\n(A) P＝60，Q＝40\n(B) P＝80，Q＝60\n(C) P＝90，Q＝70\n(D) P＝90，Q＝50",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下表為某個市場上週對雞肉之需求和供給的價格和數量，以下何者為此一市場的均衡價格（P）和均衡數量\n     （Q）？\n        價格（元／斤）             需求（斤／週）             供給（斤／週）\n              90                 50                 70\n              80                 60                 60\n              60                 80                 40",
+    "options": [
+      {
+        "letter": "A",
+        "text": "P＝60，Q＝40"
+      },
+      {
+        "letter": "B",
+        "text": "P＝80，Q＝60"
+      },
+      {
+        "letter": "C",
+        "text": "P＝90，Q＝70"
+      },
+      {
+        "letter": "D",
+        "text": "P＝90，Q＝50"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "100-1-28",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "工廠製造的廢水、空氣汙染、噪音等問題，如果沒有妥善處理，將影響並降低附近住戶的生活品質，這是\n     符合經濟學上的那一種概念？\n(A) 外部成本\n(B) 外部效益\n(C) 負擔能力原則\n(D) 比較利益原則",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "工廠製造的廢水、空氣汙染、噪音等問題，如果沒有妥善處理，將影響並降低附近住戶的生活品質，這是\n     符合經濟學上的那一種概念？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "外部成本"
+      },
+      {
+        "letter": "B",
+        "text": "外部效益"
+      },
+      {
+        "letter": "C",
+        "text": "負擔能力原則"
+      },
+      {
+        "letter": "D",
+        "text": "比較利益原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-29",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依照馬斯洛（A. Maslow）早期的人類需求階層理論，人的重要需求依順序共有五個階層。依其理論，在安\n     全的需求被滿足之後，人們會進一層產生何種需求？\n(A) 生理的需求\n(B) 受尊重的需求\n(C) 自我實現的需求\n(D) 愛與歸屬感的需求",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "依照馬斯洛（A. Maslow）早期的人類需求階層理論，人的重要需求依順序共有五個階層。依其理論，在安\n     全的需求被滿足之後，人們會進一層產生何種需求？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "生理的需求"
+      },
+      {
+        "letter": "B",
+        "text": "受尊重的需求"
+      },
+      {
+        "letter": "C",
+        "text": "自我實現的需求"
+      },
+      {
+        "letter": "D",
+        "text": "愛與歸屬感的需求"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-30",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "俗話說：「天下沒有白吃的午餐」，這表示任何一種經濟行為都必須支付代價。這是經濟學上的那一種概\n     念？\n(A) 外部效果\n(B) 機會成本\n(C) 欲望無窮\n(D) 能力負擔",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "俗話說：「天下沒有白吃的午餐」，這表示任何一種經濟行為都必須支付代價。這是經濟學上的那一種概\n     念？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "外部效果"
+      },
+      {
+        "letter": "B",
+        "text": "機會成本"
+      },
+      {
+        "letter": "C",
+        "text": "欲望無窮"
+      },
+      {
+        "letter": "D",
+        "text": "能力負擔"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-31",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "經濟學者凱因斯主張以政府的力量解決經濟及社會問題，其所持的最主要理由是什麼？\n(A) 市場經濟會製造社會問題\n(B) 市場經濟會危害國家安全\n(C) 市場經濟可縮小貧富差距\n(D) 市場經濟有時無經濟效率",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "經濟學者凱因斯主張以政府的力量解決經濟及社會問題，其所持的最主要理由是什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "市場經濟會製造社會問題"
+      },
+      {
+        "letter": "B",
+        "text": "市場經濟會危害國家安全"
+      },
+      {
+        "letter": "C",
+        "text": "市場經濟可縮小貧富差距"
+      },
+      {
+        "letter": "D",
+        "text": "市場經濟有時無經濟效率"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-32",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "曉明、筱梅是鄰居，她們都在 MM 服飾工廠上班，下表呈現兩人生產衣服及襪子的機會成本；則 MM 廠的\n     老闆應該如何分配她們工作，產量組合才會最理想？\n                    機會成本比較表\n產品  曉明  筱梅\n衣服  0.5 雙襪子  2 雙襪子\n襪子  2 件衣服  0.5 件衣服\n(A) 曉明專門做衣服，筱梅專門做襪子\n(B) 曉明專門做襪子，筱梅專門做衣服\n(C) 曉明做衣服、襪子各半個月，筱梅專門做襪子\n(D) 曉明專門做衣服，筱梅做襪子、衣服各半個月",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "曉明、筱梅是鄰居，她們都在 MM 服飾工廠上班，下表呈現兩人生產衣服及襪子的機會成本；則 MM 廠的\n     老闆應該如何分配她們工作，產量組合才會最理想？\n                    機會成本比較表\n產品  曉明  筱梅\n衣服  0.5 雙襪子  2 雙襪子\n襪子  2 件衣服  0.5 件衣服",
+    "options": [
+      {
+        "letter": "A",
+        "text": "曉明專門做衣服，筱梅專門做襪子"
+      },
+      {
+        "letter": "B",
+        "text": "曉明專門做襪子，筱梅專門做衣服"
+      },
+      {
+        "letter": "C",
+        "text": "曉明做衣服、襪子各半個月，筱梅專門做襪子"
+      },
+      {
+        "letter": "D",
+        "text": "曉明專門做衣服，筱梅做襪子、衣服各半個月"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "100-1-33",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "有關債券的敘述，下列何者正確？\n(A) 公債是由公司發行的債券\n(B) 公債的風險通常大於公司債\n(C) 大公司的倒債風險小於政府\n(D) 公債報酬率通常小於公司債",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關債券的敘述，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "公債是由公司發行的債券"
+      },
+      {
+        "letter": "B",
+        "text": "公債的風險通常大於公司債"
+      },
+      {
+        "letter": "C",
+        "text": "大公司的倒債風險小於政府"
+      },
+      {
+        "letter": "D",
+        "text": "公債報酬率通常小於公司債"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-34",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "相較於其它經濟制度，下列何者是市場經濟制度下可能產生的現象？\n(A) 容易產生貧富差距擴大\n(B) 較不會產生資本家剝削勞動階級\n(C) 容易導致生產資源的浪費及生產效率不彰\n(D) 較不會有資源分配不均的問題",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "相較於其它經濟制度，下列何者是市場經濟制度下可能產生的現象？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "容易產生貧富差距擴大"
+      },
+      {
+        "letter": "B",
+        "text": "較不會產生資本家剝削勞動階級"
+      },
+      {
+        "letter": "C",
+        "text": "容易導致生產資源的浪費及生產效率不彰"
+      },
+      {
+        "letter": "D",
+        "text": "較不會有資源分配不均的問題"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-35",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "如果讓每個人都去做對自己最有利的買賣，則「有一隻看不見的手」，促使資源做最有效率的分配與運用。\n     此「看不見的手」是指什麼？\n(A) 政府\n(B) 企業\n(C) 消費者\n(D) 市場機能",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "如果讓每個人都去做對自己最有利的買賣，則「有一隻看不見的手」，促使資源做最有效率的分配與運用。\n     此「看不見的手」是指什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "政府"
+      },
+      {
+        "letter": "B",
+        "text": "企業"
+      },
+      {
+        "letter": "C",
+        "text": "消費者"
+      },
+      {
+        "letter": "D",
+        "text": "市場機能"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "100-1-36",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "I can’t find my wallet. Can you           me some money?\n(A) lend\n(B) help\n(C) borrow\n(D) show",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "I can’t find my wallet. Can you           me some money?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "lend"
+      },
+      {
+        "letter": "B",
+        "text": "help"
+      },
+      {
+        "letter": "C",
+        "text": "borrow"
+      },
+      {
+        "letter": "D",
+        "text": "show"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "100-1-37",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What’s the          today? It is so cold.\n(A) feeling\n(B) suggestion\n(C) tempo\n(D) temperature",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "What’s the          today? It is so cold.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "feeling"
+      },
+      {
+        "letter": "B",
+        "text": "suggestion"
+      },
+      {
+        "letter": "C",
+        "text": "tempo"
+      },
+      {
+        "letter": "D",
+        "text": "temperature"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "100-1-38",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "This expensive motorcycle            a rich friend of mine.\n(A) belongs to\n(B) looks after\n(C) is used to\n(D) runs after",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "This expensive motorcycle            a rich friend of mine.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "belongs to"
+      },
+      {
+        "letter": "B",
+        "text": "looks after"
+      },
+      {
+        "letter": "C",
+        "text": "is used to"
+      },
+      {
+        "letter": "D",
+        "text": "runs after"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "100-1-39",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "When I woke up early this morning, I heard a dog            downstairs.\n(A) to bark\n(B) barked\n(C) barking\n(D) has barked",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "When I woke up early this morning, I heard a dog            downstairs.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "to bark"
+      },
+      {
+        "letter": "B",
+        "text": "barked"
+      },
+      {
+        "letter": "C",
+        "text": "barking"
+      },
+      {
+        "letter": "D",
+        "text": "has barked"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "100-1-40",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The project needs to be finished soon,        our boss wants to know the result.\n(A) because\n(B) yet\n(C) but\n(D) so",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "The project needs to be finished soon,        our boss wants to know the result.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "because"
+      },
+      {
+        "letter": "B",
+        "text": "yet"
+      },
+      {
+        "letter": "C",
+        "text": "but"
+      },
+      {
+        "letter": "D",
+        "text": "so"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "100-1-41",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 41 空格最合適的答案。\n(A) bad\n(B) true\n(C) fast\n(D) same",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 41 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "bad"
+      },
+      {
+        "letter": "B",
+        "text": "true"
+      },
+      {
+        "letter": "C",
+        "text": "fast"
+      },
+      {
+        "letter": "D",
+        "text": "same"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Lots of people believe that their memory gets worse as they get older. But this doesn’t have to be    41 for\n    you. Research shows there are some things you can do to help keep your brain active and your memory sharp as\n    you age.       42   physical exercise and mental exercise will help your memory. Physical exercise improves\n    circulation of the blood. This helps your brain function      43 . Keep your body active by walking, going to the\n    gym, swimming, or riding your bike. Your brain, like your muscles, also needs           44     to stay in shape. Try\n    to challenge yourself by doing mental exercises. Do crossword puzzles, read a lot, and play games that require\n       45    ---- games like chess. All of these mental exercises will help improve your memory. Remember, memory is\n    like a muscle. The more you use it, the better it gets.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "100-1-42",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 42 空格最合適的答案。\n(A) No\n(B) All\n(C) Both\n(D) Either",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 42 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "No"
+      },
+      {
+        "letter": "B",
+        "text": "All"
+      },
+      {
+        "letter": "C",
+        "text": "Both"
+      },
+      {
+        "letter": "D",
+        "text": "Either"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Lots of people believe that their memory gets worse as they get older. But this doesn’t have to be    41 for\n    you. Research shows there are some things you can do to help keep your brain active and your memory sharp as\n    you age.       42   physical exercise and mental exercise will help your memory. Physical exercise improves\n    circulation of the blood. This helps your brain function      43 . Keep your body active by walking, going to the\n    gym, swimming, or riding your bike. Your brain, like your muscles, also needs           44     to stay in shape. Try\n    to challenge yourself by doing mental exercises. Do crossword puzzles, read a lot, and play games that require\n       45    ---- games like chess. All of these mental exercises will help improve your memory. Remember, memory is\n    like a muscle. The more you use it, the better it gets.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "100-1-43",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 43 空格最合適的答案。\n(A) good\n(B) bad\n(C) better\n(D) worse",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 43 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "good"
+      },
+      {
+        "letter": "B",
+        "text": "bad"
+      },
+      {
+        "letter": "C",
+        "text": "better"
+      },
+      {
+        "letter": "D",
+        "text": "worse"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Lots of people believe that their memory gets worse as they get older. But this doesn’t have to be    41 for\n    you. Research shows there are some things you can do to help keep your brain active and your memory sharp as\n    you age.       42   physical exercise and mental exercise will help your memory. Physical exercise improves\n    circulation of the blood. This helps your brain function      43 . Keep your body active by walking, going to the\n    gym, swimming, or riding your bike. Your brain, like your muscles, also needs           44     to stay in shape. Try\n    to challenge yourself by doing mental exercises. Do crossword puzzles, read a lot, and play games that require\n       45    ---- games like chess. All of these mental exercises will help improve your memory. Remember, memory is\n    like a muscle. The more you use it, the better it gets.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "100-1-44",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 44 空格最合適的答案。\n(A) memory\n(B) research\n(C) jogging\n(D) exercise",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 44 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "memory"
+      },
+      {
+        "letter": "B",
+        "text": "research"
+      },
+      {
+        "letter": "C",
+        "text": "jogging"
+      },
+      {
+        "letter": "D",
+        "text": "exercise"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Lots of people believe that their memory gets worse as they get older. But this doesn’t have to be    41 for\n    you. Research shows there are some things you can do to help keep your brain active and your memory sharp as\n    you age.       42   physical exercise and mental exercise will help your memory. Physical exercise improves\n    circulation of the blood. This helps your brain function      43 . Keep your body active by walking, going to the\n    gym, swimming, or riding your bike. Your brain, like your muscles, also needs           44     to stay in shape. Try\n    to challenge yourself by doing mental exercises. Do crossword puzzles, read a lot, and play games that require\n       45    ---- games like chess. All of these mental exercises will help improve your memory. Remember, memory is\n    like a muscle. The more you use it, the better it gets.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "100-1-45",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 45 空格最合適的答案。\n(A) sitting\n(B) making\n(C) dancing\n(D) thinking",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 45 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "sitting"
+      },
+      {
+        "letter": "B",
+        "text": "making"
+      },
+      {
+        "letter": "C",
+        "text": "dancing"
+      },
+      {
+        "letter": "D",
+        "text": "thinking"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Lots of people believe that their memory gets worse as they get older. But this doesn’t have to be    41 for\n    you. Research shows there are some things you can do to help keep your brain active and your memory sharp as\n    you age.       42   physical exercise and mental exercise will help your memory. Physical exercise improves\n    circulation of the blood. This helps your brain function      43 . Keep your body active by walking, going to the\n    gym, swimming, or riding your bike. Your brain, like your muscles, also needs           44     to stay in shape. Try\n    to challenge yourself by doing mental exercises. Do crossword puzzles, read a lot, and play games that require\n       45    ---- games like chess. All of these mental exercises will help improve your memory. Remember, memory is\n    like a muscle. The more you use it, the better it gets.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "100-1-46",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What does “affected” in the sentence --“Over 15 million people live in the affected area”-- mean?\n(A) Influenced\n(B) Infected\n(C) Validated\n(D) Affective",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "What does “affected” in the sentence --“Over 15 million people live in the affected area”-- mean?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Influenced"
+      },
+      {
+        "letter": "B",
+        "text": "Infected"
+      },
+      {
+        "letter": "C",
+        "text": "Validated"
+      },
+      {
+        "letter": "D",
+        "text": "Affective"
+      }
+    ],
+    "textFallback": false,
+    "passage": "On the afternoon of May 12, 2008, an earthquake measuring 7.9 on the Richter scale hit Sichuan Province, a\n    mountainous region in Western China. By the next day, the death toll stood at 12,000, with another 18,000 still\n    missing. Over 15 million people live in the affected area, including almost 4 million in the city of Chengdu. Nearly\n    2,000 of the dead were students and teachers caught in schools that collapsed.\n         Since the Tangshan earthquake in 1976, which killed over 240,000 people, China has required that new\n    structures withstand major quakes. But the collapse of schools, hospitals and factories in several different areas\n    around Sichuan may raise questions about how rigorously such codes have been enforced during China’s recent,\n    epic building boom.\n         Many parents have said their children were crushed in shoddy school buildings that toppled while nearby\n    apartments and government offices stayed upright.\n【Please answer questions 46-50 according to your understanding of the above passage.】",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "100-1-47",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the article,        .\n(A) China had enforced rigorous building codes\n(B) Buildings collapsed because of lack of rigorous building codes\n(C) Rigorous codes had helped China’s recent building boom\n(D) China’s recent building boom had been praised",
+    "page": 3,
+    "accepted": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correction": "依考選部更正公告，本題一律給分。",
+    "stem": "According to the article,        .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "China had enforced rigorous building codes"
+      },
+      {
+        "letter": "B",
+        "text": "Buildings collapsed because of lack of rigorous building codes"
+      },
+      {
+        "letter": "C",
+        "text": "Rigorous codes had helped China’s recent building boom"
+      },
+      {
+        "letter": "D",
+        "text": "China’s recent building boom had been praised"
+      }
+    ],
+    "textFallback": false,
+    "passage": "On the afternoon of May 12, 2008, an earthquake measuring 7.9 on the Richter scale hit Sichuan Province, a\n    mountainous region in Western China. By the next day, the death toll stood at 12,000, with another 18,000 still\n    missing. Over 15 million people live in the affected area, including almost 4 million in the city of Chengdu. Nearly\n    2,000 of the dead were students and teachers caught in schools that collapsed.\n         Since the Tangshan earthquake in 1976, which killed over 240,000 people, China has required that new\n    structures withstand major quakes. But the collapse of schools, hospitals and factories in several different areas\n    around Sichuan may raise questions about how rigorously such codes have been enforced during China’s recent,\n    epic building boom.\n         Many parents have said their children were crushed in shoddy school buildings that toppled while nearby\n    apartments and government offices stayed upright.\n【Please answer questions 46-50 according to your understanding of the above passage.】",
+    "hasVisual": false,
+    "englishFormat": "reading",
+    "allCredit": true
+  },
+  {
+    "id": "100-1-48",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the article, which one of the following statements is NOT true?\n(A) The Tangshan earthquake killed over 240,000 people.\n(B) Many people died because of the collapse of schools, hospitals, and factories.\n(C) About 30,000 people were dead or missing when the news came out.\n(D) China has required that new structures withstand major quakes only after the Sichuan earthquake.",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "According to the article, which one of the following statements is NOT true?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "The Tangshan earthquake killed over 240,000 people."
+      },
+      {
+        "letter": "B",
+        "text": "Many people died because of the collapse of schools, hospitals, and factories."
+      },
+      {
+        "letter": "C",
+        "text": "About 30,000 people were dead or missing when the news came out."
+      },
+      {
+        "letter": "D",
+        "text": "China has required that new structures withstand major quakes only after the Sichuan earthquake."
+      }
+    ],
+    "textFallback": false,
+    "passage": "On the afternoon of May 12, 2008, an earthquake measuring 7.9 on the Richter scale hit Sichuan Province, a\n    mountainous region in Western China. By the next day, the death toll stood at 12,000, with another 18,000 still\n    missing. Over 15 million people live in the affected area, including almost 4 million in the city of Chengdu. Nearly\n    2,000 of the dead were students and teachers caught in schools that collapsed.\n         Since the Tangshan earthquake in 1976, which killed over 240,000 people, China has required that new\n    structures withstand major quakes. But the collapse of schools, hospitals and factories in several different areas\n    around Sichuan may raise questions about how rigorously such codes have been enforced during China’s recent,\n    epic building boom.\n         Many parents have said their children were crushed in shoddy school buildings that toppled while nearby\n    apartments and government offices stayed upright.\n【Please answer questions 46-50 according to your understanding of the above passage.】",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "100-1-49",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to this article, how many people were killed by the Sichuan earthquake?\n(A) 12,000\n(B) 18,000\n(C) 2,000\n(D) 240,000",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "According to this article, how many people were killed by the Sichuan earthquake?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "12,000"
+      },
+      {
+        "letter": "B",
+        "text": "18,000"
+      },
+      {
+        "letter": "C",
+        "text": "2,000"
+      },
+      {
+        "letter": "D",
+        "text": "240,000"
+      }
+    ],
+    "textFallback": false,
+    "passage": "On the afternoon of May 12, 2008, an earthquake measuring 7.9 on the Richter scale hit Sichuan Province, a\n    mountainous region in Western China. By the next day, the death toll stood at 12,000, with another 18,000 still\n    missing. Over 15 million people live in the affected area, including almost 4 million in the city of Chengdu. Nearly\n    2,000 of the dead were students and teachers caught in schools that collapsed.\n         Since the Tangshan earthquake in 1976, which killed over 240,000 people, China has required that new\n    structures withstand major quakes. But the collapse of schools, hospitals and factories in several different areas\n    around Sichuan may raise questions about how rigorously such codes have been enforced during China’s recent,\n    epic building boom.\n         Many parents have said their children were crushed in shoddy school buildings that toppled while nearby\n    apartments and government offices stayed upright.\n【Please answer questions 46-50 according to your understanding of the above passage.】",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "100-1-50",
+    "examId": "100-1",
+    "year": 100,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the article, “epic building boom” refers to         .\n(A) the bombing of buildings\n(B) the collapse of buildings\n(C) the fast construction of buildings\n(D) the booming sound of buildings",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "According to the article, “epic building boom” refers to         .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "the bombing of buildings"
+      },
+      {
+        "letter": "B",
+        "text": "the collapse of buildings"
+      },
+      {
+        "letter": "C",
+        "text": "the fast construction of buildings"
+      },
+      {
+        "letter": "D",
+        "text": "the booming sound of buildings"
+      }
+    ],
+    "textFallback": false,
+    "passage": "On the afternoon of May 12, 2008, an earthquake measuring 7.9 on the Richter scale hit Sichuan Province, a\n    mountainous region in Western China. By the next day, the death toll stood at 12,000, with another 18,000 still\n    missing. Over 15 million people live in the affected area, including almost 4 million in the city of Chengdu. Nearly\n    2,000 of the dead were students and teachers caught in schools that collapsed.\n         Since the Tangshan earthquake in 1976, which killed over 240,000 people, China has required that new\n    structures withstand major quakes. But the collapse of schools, hospitals and factories in several different areas\n    around Sichuan may raise questions about how rigorously such codes have been enforced during China’s recent,\n    epic building boom.\n         Many parents have said their children were crushed in shoddy school buildings that toppled while nearby\n    apartments and government offices stayed upright.\n【Please answer questions 46-50 according to your understanding of the above passage.】",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  }
+]

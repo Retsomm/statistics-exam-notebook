@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   fetch_sources:
+    if: github.ref == 'refs/heads/codex/common-paper-import'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
