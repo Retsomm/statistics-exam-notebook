@@ -36,20 +36,26 @@ def get(url):
 def paper_links(page):
     soup = BeautifulSoup(page, 'html.parser')
     category = ''
+    subject = None
     found = []
     for element in soup.descendants:
         if isinstance(element, NavigableString):
             label = str(element).strip()
             if re.search(r'初等考試[_＿].+', label):
                 category = label
+                subject = None
+            elif len(label) < 80 and re.match(r'^國\s*文', label):
+                subject = 0
+            elif len(label) < 80 and re.match(r'^公民[與与]英文', label):
+                subject = 1
         elif isinstance(element, Tag) and element.name == 'a':
             raw = html.unescape(element.get('href', ''))
             match = re.search(r'(?:https?://[^\s\'"<>]+/)?wHandExamQandA_File\.ashx\?[^\s\'"<>)]+', raw, re.I)
             if match:
                 url = urljoin(ROOT, match.group())
                 query = {key.lower(): value[0] for key, value in parse_qs(urlparse(url).query).items()}
-                if '統計' in category and query.get('s') in ['0101', '0102']:
-                    found.append({'category': category, 'url': url, 'subjectIndex': 0 if query['s'] == '0101' else 1, 'type': query.get('t', '').upper()})
+                if '統計' in category and subject is not None:
+                    found.append({'category': category, 'url': url, 'subjectIndex': subject, 'type': query.get('t', '').upper()})
     return found
 
 
@@ -81,5 +87,12 @@ def fetch_year(year):
 
 if __name__ == '__main__':
     OUTPUT.mkdir(parents=True, exist_ok=True)
+    failures = []
     with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
-        list(pool.map(fetch_year, YEARS))
+        for year, future in zip(YEARS, [pool.submit(fetch_year, year) for year in YEARS]):
+            try:
+                future.result()
+            except Exception as error:
+                failures.append(f'{year}: {error}')
+    if failures:
+        raise ValueError('\n'.join(failures))

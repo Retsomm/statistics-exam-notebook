@@ -25,6 +25,7 @@ jobs:
       - name: Fetch official papers and extract text for review
         run: python scripts/common-import/fetch-sources.py
       - name: Save text-only review files on the import branch
+        if: always()
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
