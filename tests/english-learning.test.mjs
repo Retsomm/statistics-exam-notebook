@@ -10,16 +10,16 @@ const bank={...fullBank,exams:fullBank.exams.filter(e=>reviewed.has(e.id)),quest
 const original=Object.fromEntries(bank.exams.map(e=>[e.id,read('explanations/'+e.id+'.json')]));
 const enriched=Object.fromEntries(bank.exams.map(e=>[e.id,Object.fromEntries(bank.questions.filter(q=>q.examId===e.id).map(q=>[q.id,enrichEnglishExplanation(q,original[q.examId][q.id],passages,lexicon)]))]));
 const index=buildVocabularyIndex(bank.questions,enriched);
-test('all 80 passage questions receive the full shared translation, including cloze and reservation details',()=>{
- const questions=bank.questions.filter(q=>q.subjectIndex===1&&q.passage);
- assert.equal(questions.length,80);assert.equal(Object.keys(passages).length,16);
- const linked=Object.values(passages).flatMap(g=>g.questionIds);assert.deepEqual(new Set(linked),new Set(questions.map(q=>q.id)));assert.equal(linked.length,80);
+test('all 172 passage questions receive the full shared translation, including cloze and reservation details',()=>{
+ const questions=bank.questions.filter(q=>q.subjectIndex===1&&q.number>=36&&q.passage);
+ assert.equal(questions.length,172);assert.equal(Object.keys(passages).length,35);
+ const linked=Object.values(passages).flatMap(g=>g.questionIds);assert.deepEqual(new Set(linked),new Set(questions.map(q=>q.id)));assert.equal(linked.length,172);
  for(const group of Object.values(passages)){
   assert.ok(group.paragraphs.every(p=>p.trim().length>0));
   const originals=group.questionIds.map(id=>bank.questions.find(q=>q.id===id).passage);assert.equal(new Set(originals).size,1);
   for(const id of group.questionIds){const q=bank.questions.find(q=>q.id===id);assert.deepEqual(enriched[q.examId][id].passageTranslation.paragraphs,group.paragraphs);}
  }
- for(const [id,group] of Object.entries(passages))if(id.endsWith('-41'))for(let n=41;n<=45;n++)assert.ok(group.paragraphs.join('').includes(`〔${n}〕`),id);
+ for(const [id,group] of Object.entries(passages))if(bank.questions.find(q=>q.id===group.questionIds[0]).stem.includes('第 41 空格'))for(let n=41;n<=45;n++)assert.ok(group.paragraphs.join('').includes(`〔${n}〕`),id);
  assert.match(passages['111-1-46'].paragraphs.join(''),/09:46.*10:46/);
  assert.match(passages['106-1-46'].paragraphs.join(''),/題組原文將年份寫為/);
 });

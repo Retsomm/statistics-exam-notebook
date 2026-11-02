@@ -1,1 +1,2454 @@
-{}
+{
+  "103-1-1": {
+    "summary": "顧里的鏡中自我是透過想像他人如何評價自己形成自我看法；穿衣後因沒獲讚賞改變選擇符合此歷程。",
+    "options": {
+      "A": "重要他人重影響個人發展的關鍵人物，題中並未指定某位關鍵人物。",
+      "B": "把他人反應當鏡子反看自己，是鏡中自我。",
+      "C": "自我實現重發揮潛能，非從評價調整自我形象。",
+      "D": "自我認同重對自身持續身分的整合，這裡更具體是他人評價機制。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-2": {
+    "summary": "記者調查揭露政府濫權，迫使執政者接受公共問責，最直接是監督政府。",
+    "options": {
+      "A": "正義是可能結果，未如監督政府直接指出媒體功能。",
+      "B": "追查總統違失與揭露，是對公權力的監督。",
+      "C": "不只測量民意支持，而是主動調查權力運用。",
+      "D": "媒體不能取代法院判罪，第四權是比喻監督不是審判權。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-3": {
+    "summary": "題目把個人效用加總為公共幸福，最接近邊沁功利主義；不表示任何自私行為都必然增進社會福祉。",
+    "options": {
+      "A": "馬克斯著重階級、勞動與資本關係，非此個人效用加總論。",
+      "B": "邊沁以整體幸福為衡量，從個人的苦樂利益考量社會效用。",
+      "C": "沈岱爾批評只用個人利益或市場尺度衡量公共生活。",
+      "D": "羅爾斯強調公平基本結構及最不利者，不以單純效用總和為原則。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-4": {
+    "summary": "與雪冰生活密切，語彙便可反映需要辨識的差異；題目用此表達語言與文化環境關聯。",
+    "options": {
+      "A": "溝通工具是一般功能，未解釋何以冰雪詞彙特別豐富。",
+      "B": "詞彙多寡不能排出文化高低優劣。",
+      "C": "文化背景與生活需求影響語言分類，直接對應案例。",
+      "D": "未比較同一語言跨時期變化，不能把地區差異當時間演變。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-5": {
+    "summary": "把男女使用廁所需求納入政策設計，是性別主流化；實質平等不等於所有設備數量必相同。",
+    "options": {
+      "A": "依合理需求作差別配置不當然違反平等。",
+      "B": "補正使用需求差異可促實質平等，不是其反面。",
+      "C": "多設女廁不必是貶低女性，而可減少排隊不利。",
+      "D": "政策各階段檢視性別影響，符合性別主流化。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-6": {
+    "summary": "政黨得票門檻與依票分席次，是全國不分區比例代表的線索。",
+    "options": {
+      "A": "單一區候選人得票決一席，不以全國政黨票門檻分席。",
+      "B": "複數區地域候選人選舉非題述政黨名單門檻。",
+      "C": "不分區按政黨票及法定門檻分配席次，影響小黨代表。",
+      "D": "原住民立委依專設選區候選人得票產生，非同套名單門檻。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-7": {
+    "summary": "刻意扭曲選區邊界以讓特定政黨有利，稱傑利蠑螈或gerrymandering。",
+    "options": {
+      "A": "名稱源自刻意劃區影響席次的現象，符合題意。",
+      "B": "大池小魚描述比較環境影響自我評價，非選區操弄。",
+      "C": "霍桑效應重受觀察而改變表現，非選區安排。",
+      "D": "鄰避迎臂談居民排斥或歡迎設施，與劃區選舉不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-8": {
+    "summary": "公投可創制法律的立法原則，不直接創制詳細法律條文；人事、租稅等有法定排除。",
+    "options": {
+      "A": "詳細法條創制不是此制度許可的立法原則創制。",
+      "B": "大法官人選屬人事案，不能用公投取代提名同意。",
+      "C": "保護傳統產業的立法原則可依法提案，符合範圍。",
+      "D": "租稅事項依法受排除，不能因不滿稅率就一律公投。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "公民投票法（舊卷門檻依當時規定）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0020050"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-9": {
+    "summary": "都市重劃區道路、公共設施是地方建設自治事項；國防兵役等屬中央權限，即使地方協助執行也不變。",
+    "options": {
+      "A": "國際機場擴建涉及中央交通建設，非典型市自治事項。",
+      "B": "地方都市規劃道路公共設施，符合市自治權責。",
+      "C": "十二年國教制度與入學方案含中央規範及授權安排，非此題最明確地方自治例。",
+      "D": "地方辦兵役多是受託執行中央事項，不能因在市府辦就算自治。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-10": {
+    "summary": "保有總統、選舉等共和外形，卻長期壟斷並欲傳子，最接近獨裁共和國。",
+    "options": {
+      "A": "沒有世襲君主稱號與制度，不能只因欲傳子就判君主國。",
+      "B": "共和名義不保證民主，長期權力壟斷可形成獨裁共和。",
+      "C": "僅有選舉形式不足證明自由公平與權力競爭。",
+      "D": "君主立憲保有君主並依法限權，與總統獨攬權力不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-11": {
+    "summary": "國際特赦組織以民間人權倡議為主，非會員政府共同成立的政府間組織。",
+    "options": {
+      "A": "WTO由會員政府參與形成貿易規則，屬政府間組織，不是民間倡議團體。",
+      "B": "國際特赦組織為國際非政府組織，關注人權。",
+      "C": "IMF是會員國組成的國際金融組織。",
+      "D": "北約為政府間的集體安全與軍事同盟。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-12": {
+    "summary": "虛位元首形式簽署，實際由行政首長與部長副署承擔責任，避免有名義權力卻無人負責。",
+    "options": {
+      "A": "國會、元首與內閣各有職責，不是三者共同負相同政治責任。",
+      "B": "副署不是把元首不喜歡的法案送回重審的程序。",
+      "C": "閣揆與閣員就實際決策副署負責，切合責任內閣原理。",
+      "D": "副署者是相關行政首長，不是說國王替自己副署負責。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-13": {
+    "summary": "立法院長、副院長由立委互選；立委113人，選制多元，言論免責僅在法定議事範圍。",
+    "options": {
+      "A": "225人是改革前員額，現為113。",
+      "B": "院長由委員互選，非人民直接選或總統任命。",
+      "C": "區域單一選區、政黨比例、原住民專設選區不同，不能說全採複數多數。",
+      "D": "院內言論表決保障不等於任何民刑事行為全免責。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-14": {
+    "summary": "參政權使人民授權、監督並依法更換統治者，落實人民為國家權力來源。",
+    "options": {
+      "A": "卸任不代表永久喪失參政權，仍看法定資格。",
+      "B": "尚有創制、複決等，不僅選舉罷免。",
+      "C": "人民參與公共決定與選擇執政者，體現主權在民。",
+      "D": "褫奪公權範圍依法定，不等於所有參政權一概消失。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-15": {
+    "summary": "江陳會談是臺灣海基會與中國大陸海協會間的協商，陸委會為臺灣兩岸政策主管。",
+    "options": {
+      "A": "海峽交流基金會是臺灣方受委託處理協商的機構。",
+      "B": "海協會是中國大陸方，不是題問我國方。",
+      "C": "陸委會負政策規劃協調，但不是江陳會談的海基會代表機構。",
+      "D": "國臺辦屬中國大陸方，非臺灣談判機構。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-16": {
+    "summary": "杭廷頓的兩次輪替檢驗看執政權是否能和平轉手、再轉手；臺灣2000與2008兩次輪替符合本題指標，但不代表民主從此無風險。",
+    "options": {
+      "A": "解嚴是自由化重要一步，尚未完成兩次選舉輪替。",
+      "B": "開放組黨有利競爭，但不是兩次輪替標準。",
+      "C": "終止動員戡亂是制度改革，仍早於兩次輪替。",
+      "D": "2008完成第二次和平政黨輪替，符合所問操作指標。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-17": {
+    "summary": "國賠原則先向賠償義務機關書面請求協議，不是訴願先行。本題問錯誤，所以選A。",
+    "options": {
+      "A": "把協議程序誤成訴願，二者目的及法律途徑不同。",
+      "B": "公共設施設置管理欠缺可能生國賠責任，符合事由。",
+      "C": "原則金錢賠償，適當時可回復原狀，敘述相符。",
+      "D": "公務員執行職務故意過失違法侵害權利，是典型國賠事由，仍須各法定要件。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "國家賠償法：先行書面請求與協議",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020004"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-18": {
+    "summary": "個別規範針對特定案件或當事人；自治條例對一般人反覆適用，屬一般規範。",
+    "options": {
+      "A": "行政處分對具體事件作公權力決定，屬個別規範。",
+      "B": "自治條例具有一般抽象性，故是本題要選的非個別規範。",
+      "C": "判決確定具體案件權利義務，符合個別規範。",
+      "D": "契約約定特定當事人權義，於題目框架屬個別規範。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-19": {
+    "summary": "官方更正接受C、D或CD。新移民不因無身分證失權利能力；胎兒為其個人利益並以將來非死產為條件，法律視為已出生。",
+    "options": {
+      "A": "大樓是權利客體，不是享權負義務的主體。",
+      "B": "校內社團未必具法人資格；有訴訟當事人能力也不等同完整民事權利主體。",
+      "C": "胎兒有民法附條件保護，不能簡化成完全沒有權利，故更正接受。",
+      "D": "自然人自出生即有權利能力，不以本國身分證為條件。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "官方更正：此選項給分。",
+      "D": "官方更正：此選項給分。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-20": {
+    "summary": "精神疾病不消滅權利能力或繼承資格；是否受監護影響行為能力，仍可依法由代理人處理。",
+    "options": {
+      "A": "權利能力自出生至死亡，罹病不會喪失。",
+      "B": "配偶繼承地位不因疾病本身被剝奪。",
+      "C": "不須等康復才取得或回復繼承權。",
+      "D": "行為能力與享有繼承權不同，且罹病不等於當然無行為能力。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-21": {
+    "summary": "一般已交付的租賃符合民法買賣不破租賃，房屋轉讓後買受人承接出租地位；長期未公證等法定例外另論。",
+    "options": {
+      "A": "私人售屋租約爭議不是行政訴願事項。",
+      "B": "符合原租約對買受人有效條件時，不須重簽才得住。",
+      "C": "售屋不當然侵害人格權，不能直接請求精神慰撫。",
+      "D": "原租賃依法持續約束新屋主，可依約住到期滿。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-22": {
+    "summary": "暫時保護令可書面聲請，法院得不經完整審理程序先核發；緊急保護令由法定機關聲請，不是被害人自己直接聲請。",
+    "options": {
+      "A": "保護令主要限制相對人侵害被害人，不是反過來保護加害人。",
+      "B": "通常保護令原則須踐行審理保障，不能概括不通知相對人。",
+      "C": "暫時保護令可為即時保護而不經審理核發，符合規定。",
+      "D": "夜間可核發屬實，但緊急令聲請人須為檢察官、警察或地方主管機關等法定者。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "家庭暴力防治法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050071"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-23": {
+    "summary": "緩起訴是檢察官作的處分，不是法官判決；所以感謝法官、尊重判決的④用語錯誤。",
+    "options": {
+      "A": "檢察官可依法附繳公益金等緩起訴條件，非必然違法。",
+      "B": "上級檢察機關可依法審查、撤銷發回，屬檢察內部救濟。",
+      "C": "地檢再調查後仍可依法作緩起訴處分。",
+      "D": "把檢察官、處分錯稱法官、判決，混淆偵查與審判。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-24": {
+    "summary": "緩刑是暫不執行已宣告刑，期間依法未撤銷而期滿，刑宣告失效。D為官方近似說法，「等同服完」不是實際入監服刑。",
+    "options": {
+      "A": "不是把5個月與3年相加坐牢。",
+      "B": "假釋針對入監服刑者，緩刑不是服刑過半。",
+      "C": "緩刑年限不自動變更民事和解付款期限。",
+      "D": "一般不須入監，期滿未被撤銷產生法定失效效果，但須注意法定撤銷例外。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑法（緊急避難、緩刑等）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-25": {
+    "summary": "官方更正各選項皆給分。本題是101年9月起的舊行政訴訟改革；112年8月又改制，應分清歷史階段。",
+    "options": {
+      "A": "當時交通裁決由地院行政訴訟庭承辦，但「由行政法院改隸」簡化過渡歷史，後來又轉高院地方庭。",
+      "B": "當時簡易第一審主要在地院行政庭，非高等行政法院。",
+      "C": "高院終局判決依法仍可能上訴最高行政法院，不是一概不得。",
+      "D": "當時地院行政庭上訴通常到高等行政法院，非直接最高行政法院。"
+    },
+    "optionVerdicts": {
+      "A": "官方更正：任一選項皆給分。",
+      "B": "官方更正：任一選項皆給分。",
+      "C": "官方更正：任一選項皆給分。",
+      "D": "官方更正：任一選項皆給分。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "行政訴訟法（留意112年新制與歷史分工）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+      },
+      {
+        "title": "司法院：112年行政訴訟改制說明",
+        "url": "https://www.judicial.gov.tw/tw/dl-228564-20684aa5cada418abf2f8a0bd9b1aee3.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-26": {
+    "summary": "少年紀錄有依法塗銷制度，減少標籤，促進復歸；並非所有紀錄立刻自動消除。",
+    "options": {
+      "A": "少年保護審理原則不公開，以保護隱私與健全成長。",
+      "B": "不是一律由5名法官合議，保護事件通常依法由法官處理。",
+      "C": "符合條件可塗銷相關紀錄，讓少年改過自新。",
+      "D": "103年尚有虞犯制度；後改曝險少年與行政輔導機制，不能用現制倒推舊題。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "少年事件處理法（留意歷史版本）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-27": {
+    "summary": "當年領取高額統一發票獎金有所得稅扣繳及領據印花稅，故①②；領獎方式符合免貼花條件時另論。",
+    "options": {
+      "A": "①領獎收據印花稅、②中獎所得扣繳符合題意。",
+      "B": "①可，④貨物稅是對特定貨物課徵，不因中獎領現金發生。",
+      "C": "②可，③契稅涉及不動產移轉，與獎金不同。",
+      "D": "③④都不是單純領此獎金發生的稅。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "財政部：領獎印花稅及免納條件",
+        "url": "https://www.etax.nat.gov.tw/etwmain/announcement/news/k3JGKEe"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-28": {
+    "summary": "失業率是失業者除以勞動力。原失業學生出國就學退出勞動力，分子分母同減，通常使失業率下降，非就業真的改善。",
+    "options": {
+      "A": "失業者不再求職而留學，退出勞動力，失業率可下降。",
+      "B": "原受僱者退出就業，分母減少而失業人數未減，不會依此降低率。",
+      "C": "就業者入伍退出勞動力，與失業者退出效果不同。",
+      "D": "有工作者辭職不再找工作也是減就業分母，非降低失業人數。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-29": {
+    "summary": "以基期購買力換算：實質月薪＝22000除以104再乘100，約21153.85元。",
+    "options": {
+      "A": "22880是把22000乘1.04，變成往上加物價，不是除去物價。",
+      "B": "22104只是將104直接加薪資，單位與算法皆錯。",
+      "C": "21986未依物價指數104作比例換算。",
+      "D": "約21154元，表示同名目薪資在物價上漲後購買力降低。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-30": {
+    "summary": "尖峰汽車造成他人塞車與污染成本，擁擠稅使駕駛決策納入外部損失。",
+    "options": {
+      "A": "把原由別人承擔的損害轉入使用者成本，為外部成本內部化。",
+      "B": "不是他人獲得好處的正外部性。",
+      "C": "外部化是把負擔丟給外人，與課稅方向相反。",
+      "D": "既非正效益，也不是再將其外部化。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-31": {
+    "summary": "在競爭勞動市場簡化模型，最低工資若高於均衡，勞動需求可能小於供給，部分人找不到工作；非所有現實調薪必造成失業。",
+    "options": {
+      "A": "總福利是否增加須衡量薪資、就業等多面影響，不可保證。",
+      "B": "工資上升增加用人成本，不是減少。",
+      "C": "勞動供給可能增加，但「大幅」無依據，且未抓住需求減少的風險。",
+      "D": "具約束力的最低價可能造成超額勞動供給，是題目模型答案。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-32": {
+    "summary": "12元是農民願意供應的售價，屬供給價格；不因他願賣便自動成為市場均衡。",
+    "options": {
+      "A": "生產者願提供商品的價格，即供給價格。",
+      "B": "需求價格是買方願付價格，題中發言者為賣方。",
+      "C": "成本題中為10元，12元還包含期望報酬，不是純成本。",
+      "D": "沒給買方需求，不能確認12元使供需相等。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-33": {
+    "summary": "情人節前預期節日需求、價格上升而提前搶購，選項中最貼近未來預期；節日偏好本身也可能影響需求。",
+    "options": {
+      "A": "未說所得增加，不能把搶購歸薪水改變。",
+      "B": "預期即將到來的節日需求，推動提前購買。",
+      "C": "要素供給談栽種勞動土地等，題中主要為消費者購買。",
+      "D": "沒提替代品或互補品價格變，不能自行推此原因。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-34": {
+    "summary": "出口國開放貿易後國內價格通常升向國際價，生產者受益、消費者受損；進口國則相反。",
+    "options": {
+      "A": "甲出口價上升通常使甲消費者剩餘減少，不是增加。",
+      "B": "甲生產者賣得較高價、擴產，剩餘增加，符合出口國效果。",
+      "C": "乙進口後價格下降，乙生產者剩餘通常下降。",
+      "D": "乙消費者以較低價格購買，剩餘增加，方向寫反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-35": {
+    "summary": "官方圖中A、B在原生產邊界，C在外側，D在內側。內戰使資源受損或閒置，原邊界內的D最能表示兩類產出低於戰前E。",
+    "options": {
+      "A": "A仍在原邊界且Y較多，主要是資源轉配，未表整體戰損。",
+      "B": "B仍在原邊界且X較多，也非原產能未充分使用的內側點。",
+      "C": "C位在原邊界外，原資源技術不能達到，更不符合戰亂衰退。",
+      "D": "D位原曲線內，X與Y皆少於E，可表閒置或受損後產出下降；圖形位置請對照官方原卷。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "103-1-36": {
+    "summary": "整句白話：這台光碟播放機比店裡其他任何一台都貴。\n\n同一店內拿這台與其他任何一台比，any other可省略已知的CD player，避免將自己也列入比較。",
+    "options": {
+      "A": "all together一起，不是表比較對象的代名片語。",
+      "B": "any other指其他任一台，與單台比較的語意相合。",
+      "C": "others雖指其他多個，標準表達會用the others或all the others表示其餘全部。",
+      "D": "all把自身也包進全部，且少了明確其他者的界定。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "expensive",
+        "partOfSpeech": "adj.",
+        "meaning": "昂貴的",
+        "usage": "more expensive than比較價格更高，不是比較品質必更好。"
+      },
+      {
+        "word": "any other",
+        "partOfSpeech": "限定片語",
+        "meaning": "其他任一個",
+        "usage": "單一物與同群其他者比較，用other排除自己。"
+      },
+      {
+        "word": "CD player",
+        "partOfSpeech": "n.",
+        "meaning": "光碟播放機",
+        "usage": "前面已提CD player時，後面any other可依語境省略同一名詞。"
+      }
+    ]
+  },
+  "103-1-37": {
+    "summary": "整句白話：Henry很聰明，他知道如何處理這個難題。\n\n聰明並知道怎麼處理難題，deal with a problem就是處理問題。",
+    "options": {
+      "A": "burn up燒毀、消耗，不是解決抽象難題的通常搭配。",
+      "B": "deal with處理、應付，與problem自然搭配。",
+      "C": "stop by順道拜訪，不是解題。",
+      "D": "wake up醒來、喚醒，不是應對難題。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "deal with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "處理；應付",
+        "usage": "deal with a problem是應對難題，不是去拜訪。"
+      },
+      {
+        "word": "stop by",
+        "partOfSpeech": "動詞片語",
+        "meaning": "順道拜訪",
+        "usage": "stop by a place表示短暫拜訪，與解決問題不同。"
+      },
+      {
+        "word": "burn up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "燒毀；耗盡",
+        "usage": "burn up常指燃燒、消耗，不是處理抽象難題的自然用法。"
+      }
+    ]
+  },
+  "103-1-38": {
+    "summary": "整句白話：因為Linda想減重，她盡可能避免吃甜點。\n\n因想減重，她盡量避免甜點，avoids形成自然的因果關係。",
+    "options": {
+      "A": "enjoys享受會與後面盡量避免的動機不合。",
+      "B": "avoids避免，說她為目標減少吃甜點。",
+      "C": "loves喜愛本身不表控制攝取，與因果線索不合。",
+      "D": "purchases購買會變盡量購買甜點，與題定減重行為相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "avoid",
+        "partOfSpeech": "v.",
+        "meaning": "避免",
+        "usage": "avoid desserts指少碰甜點；avoid後也可接動名詞。"
+      },
+      {
+        "word": "dessert",
+        "partOfSpeech": "n.",
+        "meaning": "甜點",
+        "usage": "dessert有兩個s，與desert沙漠拼字不同。"
+      },
+      {
+        "word": "lose weight",
+        "partOfSpeech": "動詞片語",
+        "meaning": "減重",
+        "usage": "try to lose weight說明她避免甜點的動機。"
+      }
+    ]
+  },
+  "103-1-39": {
+    "summary": "整句白話：只要兩位政府領袖無法達成協議，和平的可能性仍然渺茫。（原句could與are時態有不一致之處。）\n\nAs long as表示只要，在領袖無法協議的條件持續時，和平前景仍渺茫。原句could not屬過去視角，與are有時態張力，重點仍為固定連接語。",
+    "options": {
+      "A": "As long加後面的as形成只要，表條件持續。",
+      "B": "As much as雖可表示儘管或程度，不是此處和平受條件限制的最佳語意。",
+      "C": "As soon as一……就……，會改成時間觸發而非持續條件。",
+      "D": "As many as表多達，通常接可數數量，無法接此完整條件句。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "as long as",
+        "partOfSpeech": "連接片語",
+        "meaning": "只要；在……期間",
+        "usage": "本題只要無法協議，和平前景仍渺茫，表示條件。"
+      },
+      {
+        "word": "agreement",
+        "partOfSpeech": "n.",
+        "meaning": "協議；共識",
+        "usage": "reach an agreement達成協議，是固定動詞搭配。"
+      },
+      {
+        "word": "remote",
+        "partOfSpeech": "adj.",
+        "meaning": "渺茫的；遙遠的",
+        "usage": "possibilities are remote在此是機會很小，不是物理距離。"
+      }
+    ]
+  },
+  "103-1-40": {
+    "summary": "整句白話：有些人認為BMI太過籠統，難以真正派上用場。儘管受到批評，它仍有明顯優點。\n\n有人批評BMI過於概括，但仍有優點。Despite後應承接批評criticism，不是突然引入危機。",
+    "options": {
+      "A": "crisis危機，前句沒有描述重大危機。",
+      "B": "conflict衝突通常需雙方對立，原文只是有人批評。",
+      "C": "climate氣候或氛圍，與指數用途無關。",
+      "D": "criticism批評，承接too general to be useful的負面看法。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "criticism",
+        "partOfSpeech": "n.",
+        "meaning": "批評",
+        "usage": "despite the criticism表示儘管受到前述負評。"
+      },
+      {
+        "word": "despite",
+        "partOfSpeech": "prep.",
+        "meaning": "儘管",
+        "usage": "despite後接名詞或動名詞，不直接接完整主詞動詞子句。"
+      },
+      {
+        "word": "general",
+        "partOfSpeech": "adj.",
+        "meaning": "概括的；一般的",
+        "usage": "too general to be useful表示過於籠統而不夠實用。"
+      }
+    ]
+  },
+  "103-1-41": {
+    "summary": "play an important part in表示在……中扮演重要角色，說狼是生態系關鍵一環。",
+    "options": {
+      "A": "use使用，不能與an important part in形成扮演角色搭配。",
+      "B": "play a part in是固定片語，part可用role替代。",
+      "C": "give a part是給一部分，非生態角色。",
+      "D": "worth是值得的，不能直接當主詞後動詞接此受詞。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "in favor of",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "贊成；支持",
+        "usage": "in favor of bringing wolves back指支持將狼引回。"
+      },
+      {
+        "word": "biologist",
+        "partOfSpeech": "n.",
+        "meaning": "生物學家",
+        "usage": "biologists在文中解釋狼與獵物族群的生態關係。"
+      },
+      {
+        "word": "play a part in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "在……中扮演角色",
+        "usage": "play an important part in為固定搭配，不能以use代替play。"
+      },
+      {
+        "word": "ecosystem",
+        "partOfSpeech": "n.",
+        "meaning": "生態系",
+        "usage": "ecosystem包含不同生物及環境的相互關係。"
+      },
+      {
+        "word": "wilderness",
+        "partOfSpeech": "n.",
+        "meaning": "荒野",
+        "usage": "wilderness area指保有自然樣貌的地區。"
+      },
+      {
+        "word": "hunting",
+        "partOfSpeech": "n.",
+        "meaning": "獵食；狩獵",
+        "usage": "through hunting說狼藉捕食影響鹿群組成。"
+      },
+      {
+        "word": "diseased",
+        "partOfSpeech": "adj.",
+        "meaning": "患病的",
+        "usage": "weak and diseased members是虛弱或生病的鹿群個體。"
+      },
+      {
+        "word": "population",
+        "partOfSpeech": "n.",
+        "meaning": "族群；人口",
+        "usage": "本文population指鹿群數量，不是只指人類人口。"
+      },
+      {
+        "word": "keep ... from",
+        "partOfSpeech": "動詞句型",
+        "meaning": "防止……",
+        "usage": "keep population from growing阻止族群增長過量，from後動名詞。"
+      },
+      {
+        "word": "essential",
+        "partOfSpeech": "adj.",
+        "meaning": "必要的；極重要的",
+        "usage": "an essential part表示在倡議者眼中是必要成員。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "缺少的",
+        "usage": "missing from Yellowstone說明文章當時狼不在該區的狀態。"
+      },
+      {
+        "word": "restore",
+        "partOfSpeech": "v.",
+        "meaning": "修復",
+        "usage": "restore to the way it was是恢復成過往樣貌。"
+      },
+      {
+        "word": "howl",
+        "partOfSpeech": "v.",
+        "meaning": "嚎叫",
+        "usage": "hearing wolves howl表示聽見狼嚎，感官動詞後接原形。"
+      }
+    ]
+  },
+  "103-1-42": {
+    "summary": "狼透過捕獵淘汰鹿群弱病個體，因此為hunting。",
+    "options": {
+      "A": "mating交配繁殖，不是除去鹿群弱病個體的方式。",
+      "B": "hunting獵食，與移除弱病獵物的敘述相合。",
+      "C": "growing成長，未直接說明狼如何捕捉鹿。",
+      "D": "bombing轟炸屬人造武力，非狼行為。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "in favor of",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "贊成；支持",
+        "usage": "in favor of bringing wolves back指支持將狼引回。"
+      },
+      {
+        "word": "biologist",
+        "partOfSpeech": "n.",
+        "meaning": "生物學家",
+        "usage": "biologists在文中解釋狼與獵物族群的生態關係。"
+      },
+      {
+        "word": "play a part in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "在……中扮演角色",
+        "usage": "play an important part in為固定搭配，不能以use代替play。"
+      },
+      {
+        "word": "ecosystem",
+        "partOfSpeech": "n.",
+        "meaning": "生態系",
+        "usage": "ecosystem包含不同生物及環境的相互關係。"
+      },
+      {
+        "word": "wilderness",
+        "partOfSpeech": "n.",
+        "meaning": "荒野",
+        "usage": "wilderness area指保有自然樣貌的地區。"
+      },
+      {
+        "word": "hunting",
+        "partOfSpeech": "n.",
+        "meaning": "獵食；狩獵",
+        "usage": "through hunting說狼藉捕食影響鹿群組成。"
+      },
+      {
+        "word": "diseased",
+        "partOfSpeech": "adj.",
+        "meaning": "患病的",
+        "usage": "weak and diseased members是虛弱或生病的鹿群個體。"
+      },
+      {
+        "word": "population",
+        "partOfSpeech": "n.",
+        "meaning": "族群；人口",
+        "usage": "本文population指鹿群數量，不是只指人類人口。"
+      },
+      {
+        "word": "keep ... from",
+        "partOfSpeech": "動詞句型",
+        "meaning": "防止……",
+        "usage": "keep population from growing阻止族群增長過量，from後動名詞。"
+      },
+      {
+        "word": "essential",
+        "partOfSpeech": "adj.",
+        "meaning": "必要的；極重要的",
+        "usage": "an essential part表示在倡議者眼中是必要成員。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "缺少的",
+        "usage": "missing from Yellowstone說明文章當時狼不在該區的狀態。"
+      },
+      {
+        "word": "restore",
+        "partOfSpeech": "v.",
+        "meaning": "修復",
+        "usage": "restore to the way it was是恢復成過往樣貌。"
+      },
+      {
+        "word": "howl",
+        "partOfSpeech": "v.",
+        "meaning": "嚎叫",
+        "usage": "hearing wolves howl表示聽見狼嚎，感官動詞後接原形。"
+      }
+    ]
+  },
+  "103-1-43": {
+    "summary": "keep A from V-ing表示防止A做某事，狼防止鹿群數量長得過多。",
+    "options": {
+      "A": "to不是keep population from growing的搭配。",
+      "B": "on會接成持續做，與限制過量成長方向相反。",
+      "C": "out若表示阻止進入通常須of，且非此動名詞結構。",
+      "D": "from與keep搭配，表示阻止、避免其成長過量。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "in favor of",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "贊成；支持",
+        "usage": "in favor of bringing wolves back指支持將狼引回。"
+      },
+      {
+        "word": "biologist",
+        "partOfSpeech": "n.",
+        "meaning": "生物學家",
+        "usage": "biologists在文中解釋狼與獵物族群的生態關係。"
+      },
+      {
+        "word": "play a part in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "在……中扮演角色",
+        "usage": "play an important part in為固定搭配，不能以use代替play。"
+      },
+      {
+        "word": "ecosystem",
+        "partOfSpeech": "n.",
+        "meaning": "生態系",
+        "usage": "ecosystem包含不同生物及環境的相互關係。"
+      },
+      {
+        "word": "wilderness",
+        "partOfSpeech": "n.",
+        "meaning": "荒野",
+        "usage": "wilderness area指保有自然樣貌的地區。"
+      },
+      {
+        "word": "hunting",
+        "partOfSpeech": "n.",
+        "meaning": "獵食；狩獵",
+        "usage": "through hunting說狼藉捕食影響鹿群組成。"
+      },
+      {
+        "word": "diseased",
+        "partOfSpeech": "adj.",
+        "meaning": "患病的",
+        "usage": "weak and diseased members是虛弱或生病的鹿群個體。"
+      },
+      {
+        "word": "population",
+        "partOfSpeech": "n.",
+        "meaning": "族群；人口",
+        "usage": "本文population指鹿群數量，不是只指人類人口。"
+      },
+      {
+        "word": "keep ... from",
+        "partOfSpeech": "動詞句型",
+        "meaning": "防止……",
+        "usage": "keep population from growing阻止族群增長過量，from後動名詞。"
+      },
+      {
+        "word": "essential",
+        "partOfSpeech": "adj.",
+        "meaning": "必要的；極重要的",
+        "usage": "an essential part表示在倡議者眼中是必要成員。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "缺少的",
+        "usage": "missing from Yellowstone說明文章當時狼不在該區的狀態。"
+      },
+      {
+        "word": "restore",
+        "partOfSpeech": "v.",
+        "meaning": "修復",
+        "usage": "restore to the way it was是恢復成過往樣貌。"
+      },
+      {
+        "word": "howl",
+        "partOfSpeech": "v.",
+        "meaning": "嚎叫",
+        "usage": "hearing wolves howl表示聽見狼嚎，感官動詞後接原形。"
+      }
+    ]
+  },
+  "103-1-44": {
+    "summary": "be missing from表示從某地缺少、消失，狼是該地生態中缺少的一環。",
+    "options": {
+      "A": "to miss是主動不定詞，不表示狼在此區缺席的狀態。",
+      "B": "missed通常表被思念、錯過，非此缺失搭配。",
+      "C": "missing形容缺少，接from the area符合語意。",
+      "D": "to be missed將表示將被錯過，不是目前生態缺少成員。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "in favor of",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "贊成；支持",
+        "usage": "in favor of bringing wolves back指支持將狼引回。"
+      },
+      {
+        "word": "biologist",
+        "partOfSpeech": "n.",
+        "meaning": "生物學家",
+        "usage": "biologists在文中解釋狼與獵物族群的生態關係。"
+      },
+      {
+        "word": "play a part in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "在……中扮演角色",
+        "usage": "play an important part in為固定搭配，不能以use代替play。"
+      },
+      {
+        "word": "ecosystem",
+        "partOfSpeech": "n.",
+        "meaning": "生態系",
+        "usage": "ecosystem包含不同生物及環境的相互關係。"
+      },
+      {
+        "word": "wilderness",
+        "partOfSpeech": "n.",
+        "meaning": "荒野",
+        "usage": "wilderness area指保有自然樣貌的地區。"
+      },
+      {
+        "word": "hunting",
+        "partOfSpeech": "n.",
+        "meaning": "獵食；狩獵",
+        "usage": "through hunting說狼藉捕食影響鹿群組成。"
+      },
+      {
+        "word": "diseased",
+        "partOfSpeech": "adj.",
+        "meaning": "患病的",
+        "usage": "weak and diseased members是虛弱或生病的鹿群個體。"
+      },
+      {
+        "word": "population",
+        "partOfSpeech": "n.",
+        "meaning": "族群；人口",
+        "usage": "本文population指鹿群數量，不是只指人類人口。"
+      },
+      {
+        "word": "keep ... from",
+        "partOfSpeech": "動詞句型",
+        "meaning": "防止……",
+        "usage": "keep population from growing阻止族群增長過量，from後動名詞。"
+      },
+      {
+        "word": "essential",
+        "partOfSpeech": "adj.",
+        "meaning": "必要的；極重要的",
+        "usage": "an essential part表示在倡議者眼中是必要成員。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "缺少的",
+        "usage": "missing from Yellowstone說明文章當時狼不在該區的狀態。"
+      },
+      {
+        "word": "restore",
+        "partOfSpeech": "v.",
+        "meaning": "修復",
+        "usage": "restore to the way it was是恢復成過往樣貌。"
+      },
+      {
+        "word": "howl",
+        "partOfSpeech": "v.",
+        "meaning": "嚎叫",
+        "usage": "hearing wolves howl表示聽見狼嚎，感官動詞後接原形。"
+      }
+    ]
+  },
+  "103-1-45": {
+    "summary": "回復成1492年前原本的樣子，過去時間用was；主詞it指Yellowstone單數。",
+    "options": {
+      "A": "is現在式，與before Columbus在過去的時間不合。",
+      "B": "was單數過去式，指當年公園環境狀態。",
+      "C": "were是複數或特定假設式，此處為歷史單數直述。",
+      "D": "has been現在完成不能自然對應這個明確過去之前的狀態。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "in favor of",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "贊成；支持",
+        "usage": "in favor of bringing wolves back指支持將狼引回。"
+      },
+      {
+        "word": "biologist",
+        "partOfSpeech": "n.",
+        "meaning": "生物學家",
+        "usage": "biologists在文中解釋狼與獵物族群的生態關係。"
+      },
+      {
+        "word": "play a part in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "在……中扮演角色",
+        "usage": "play an important part in為固定搭配，不能以use代替play。"
+      },
+      {
+        "word": "ecosystem",
+        "partOfSpeech": "n.",
+        "meaning": "生態系",
+        "usage": "ecosystem包含不同生物及環境的相互關係。"
+      },
+      {
+        "word": "wilderness",
+        "partOfSpeech": "n.",
+        "meaning": "荒野",
+        "usage": "wilderness area指保有自然樣貌的地區。"
+      },
+      {
+        "word": "hunting",
+        "partOfSpeech": "n.",
+        "meaning": "獵食；狩獵",
+        "usage": "through hunting說狼藉捕食影響鹿群組成。"
+      },
+      {
+        "word": "diseased",
+        "partOfSpeech": "adj.",
+        "meaning": "患病的",
+        "usage": "weak and diseased members是虛弱或生病的鹿群個體。"
+      },
+      {
+        "word": "population",
+        "partOfSpeech": "n.",
+        "meaning": "族群；人口",
+        "usage": "本文population指鹿群數量，不是只指人類人口。"
+      },
+      {
+        "word": "keep ... from",
+        "partOfSpeech": "動詞句型",
+        "meaning": "防止……",
+        "usage": "keep population from growing阻止族群增長過量，from後動名詞。"
+      },
+      {
+        "word": "essential",
+        "partOfSpeech": "adj.",
+        "meaning": "必要的；極重要的",
+        "usage": "an essential part表示在倡議者眼中是必要成員。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "缺少的",
+        "usage": "missing from Yellowstone說明文章當時狼不在該區的狀態。"
+      },
+      {
+        "word": "restore",
+        "partOfSpeech": "v.",
+        "meaning": "修復",
+        "usage": "restore to the way it was是恢復成過往樣貌。"
+      },
+      {
+        "word": "howl",
+        "partOfSpeech": "v.",
+        "meaning": "嚎叫",
+        "usage": "hearing wolves howl表示聽見狼嚎，感官動詞後接原形。"
+      }
+    ]
+  },
+  "103-1-46": {
+    "summary": "開頭When people get married, they usually plan to have children直接說依本文一般夫妻想有孩子；不是對所有婚姻的規範要求。",
+    "options": {
+      "A": "have children有孩子，與第一句字面相合。",
+      "B": "周遊世界未在文中作結婚願望。",
+      "C": "buy a car是買車，文章只談生育、收養意願，沒有此項結婚願望的依據。",
+      "D": "make a fortune發大財，非文章討論的收養動機。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "adopt",
+        "partOfSpeech": "v.",
+        "meaning": "收養",
+        "usage": "adopt a child是依法或制度上接納孩子為子女，不是生育。"
+      },
+      {
+        "word": "infant",
+        "partOfSpeech": "n.",
+        "meaning": "嬰兒",
+        "usage": "infants與older children對照收養年齡不同。"
+      },
+      {
+        "word": "race",
+        "partOfSpeech": "n.",
+        "meaning": "種族",
+        "usage": "same race與different races在此指族群背景，非比賽。"
+      },
+      {
+        "word": "adoptee",
+        "partOfSpeech": "n.",
+        "meaning": "被收養者",
+        "usage": "字尾-ee在此標示被收養的人，不是養父母。"
+      },
+      {
+        "word": "adopted child",
+        "partOfSpeech": "n.",
+        "meaning": "被收養的孩子",
+        "usage": "adopted children與adoptees為本題同義表達。"
+      },
+      {
+        "word": "biological parent",
+        "partOfSpeech": "n.",
+        "meaning": "親生父母",
+        "usage": "biological指生物血緣，與養育關係的adoptive相對。"
+      },
+      {
+        "word": "birth parent",
+        "partOfSpeech": "n.",
+        "meaning": "生父母",
+        "usage": "birth parents與natural parents在本文指同一身分。"
+      },
+      {
+        "word": "seal",
+        "partOfSpeech": "v.",
+        "meaning": "封存",
+        "usage": "birth records are sealed表示出生紀錄非一般公開資料。"
+      },
+      {
+        "word": "confidential",
+        "partOfSpeech": "adj.",
+        "meaning": "機密的；須保密的",
+        "usage": "confidential information指存取受限制的資訊。"
+      },
+      {
+        "word": "document",
+        "partOfSpeech": "n.",
+        "meaning": "文件",
+        "usage": "in a document 表在文件中，可能有多行文字可統計。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists提供意見，不等於被收養者adoptees。"
+      },
+      {
+        "word": "adoptive parent",
+        "partOfSpeech": "n.",
+        "meaning": "養父母",
+        "usage": "adoptive parents收養孩子，與adopted children角色相反。"
+      },
+      {
+        "word": "secret",
+        "partOfSpeech": "adj. / n.",
+        "meaning": "秘密的；秘密",
+        "usage": "本題secret對應confidential保密，而非confusing令人困惑。"
+      }
+    ]
+  },
+  "103-1-47": {
+    "summary": "文章說有人收養嬰兒、有人收養較大孩子，顯示收養年齡不同。",
+    "options": {
+      "A": "some不是usually，未證明大多數偏好嬰兒。",
+      "B": "文中說有些跨種族收養，未提供few很少的比例。",
+      "C": "未區分young couples，加入年齡限制超出原文。",
+      "D": "infants與older children並列，直接支持不同年齡收養。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "adopt",
+        "partOfSpeech": "v.",
+        "meaning": "收養",
+        "usage": "adopt a child是依法或制度上接納孩子為子女，不是生育。"
+      },
+      {
+        "word": "infant",
+        "partOfSpeech": "n.",
+        "meaning": "嬰兒",
+        "usage": "infants與older children對照收養年齡不同。"
+      },
+      {
+        "word": "race",
+        "partOfSpeech": "n.",
+        "meaning": "種族",
+        "usage": "same race與different races在此指族群背景，非比賽。"
+      },
+      {
+        "word": "adoptee",
+        "partOfSpeech": "n.",
+        "meaning": "被收養者",
+        "usage": "字尾-ee在此標示被收養的人，不是養父母。"
+      },
+      {
+        "word": "adopted child",
+        "partOfSpeech": "n.",
+        "meaning": "被收養的孩子",
+        "usage": "adopted children與adoptees為本題同義表達。"
+      },
+      {
+        "word": "biological parent",
+        "partOfSpeech": "n.",
+        "meaning": "親生父母",
+        "usage": "biological指生物血緣，與養育關係的adoptive相對。"
+      },
+      {
+        "word": "birth parent",
+        "partOfSpeech": "n.",
+        "meaning": "生父母",
+        "usage": "birth parents與natural parents在本文指同一身分。"
+      },
+      {
+        "word": "seal",
+        "partOfSpeech": "v.",
+        "meaning": "封存",
+        "usage": "birth records are sealed表示出生紀錄非一般公開資料。"
+      },
+      {
+        "word": "confidential",
+        "partOfSpeech": "adj.",
+        "meaning": "機密的；須保密的",
+        "usage": "confidential information指存取受限制的資訊。"
+      },
+      {
+        "word": "document",
+        "partOfSpeech": "n.",
+        "meaning": "文件",
+        "usage": "in a document 表在文件中，可能有多行文字可統計。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists提供意見，不等於被收養者adoptees。"
+      },
+      {
+        "word": "adoptive parent",
+        "partOfSpeech": "n.",
+        "meaning": "養父母",
+        "usage": "adoptive parents收養孩子，與adopted children角色相反。"
+      },
+      {
+        "word": "secret",
+        "partOfSpeech": "adj. / n.",
+        "meaning": "秘密的；秘密",
+        "usage": "本題secret對應confidential保密，而非confusing令人困惑。"
+      }
+    ]
+  },
+  "103-1-48": {
+    "summary": "adoptee字尾-ee常表示接受動作者，此處就是被收養的孩子，不是收養父母。",
+    "options": {
+      "A": "child psychologists是兒童心理學家，文中提供意見的專家。",
+      "B": "adopted children被收養者，與前後句同義。",
+      "C": "child care experts是照顧專家，不是被收養當事人。",
+      "D": "adoptive parents是養父母，角色方向相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "adopt",
+        "partOfSpeech": "v.",
+        "meaning": "收養",
+        "usage": "adopt a child是依法或制度上接納孩子為子女，不是生育。"
+      },
+      {
+        "word": "infant",
+        "partOfSpeech": "n.",
+        "meaning": "嬰兒",
+        "usage": "infants與older children對照收養年齡不同。"
+      },
+      {
+        "word": "race",
+        "partOfSpeech": "n.",
+        "meaning": "種族",
+        "usage": "same race與different races在此指族群背景，非比賽。"
+      },
+      {
+        "word": "adoptee",
+        "partOfSpeech": "n.",
+        "meaning": "被收養者",
+        "usage": "字尾-ee在此標示被收養的人，不是養父母。"
+      },
+      {
+        "word": "adopted child",
+        "partOfSpeech": "n.",
+        "meaning": "被收養的孩子",
+        "usage": "adopted children與adoptees為本題同義表達。"
+      },
+      {
+        "word": "biological parent",
+        "partOfSpeech": "n.",
+        "meaning": "親生父母",
+        "usage": "biological指生物血緣，與養育關係的adoptive相對。"
+      },
+      {
+        "word": "birth parent",
+        "partOfSpeech": "n.",
+        "meaning": "生父母",
+        "usage": "birth parents與natural parents在本文指同一身分。"
+      },
+      {
+        "word": "seal",
+        "partOfSpeech": "v.",
+        "meaning": "封存",
+        "usage": "birth records are sealed表示出生紀錄非一般公開資料。"
+      },
+      {
+        "word": "confidential",
+        "partOfSpeech": "adj.",
+        "meaning": "機密的；須保密的",
+        "usage": "confidential information指存取受限制的資訊。"
+      },
+      {
+        "word": "document",
+        "partOfSpeech": "n.",
+        "meaning": "文件",
+        "usage": "in a document 表在文件中，可能有多行文字可統計。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists提供意見，不等於被收養者adoptees。"
+      },
+      {
+        "word": "adoptive parent",
+        "partOfSpeech": "n.",
+        "meaning": "養父母",
+        "usage": "adoptive parents收養孩子，與adopted children角色相反。"
+      },
+      {
+        "word": "secret",
+        "partOfSpeech": "adj. / n.",
+        "meaning": "秘密的；秘密",
+        "usage": "本題secret對應confidential保密，而非confusing令人困惑。"
+      }
+    ]
+  },
+  "103-1-49": {
+    "summary": "同段biological mother and father、birth parents、natural parents指同一群親生父母。",
+    "options": {
+      "A": "related只泛指有關係，不如生物親緣精確。",
+      "B": "biological parents生父母，與文中birth parents相同。",
+      "C": "loving有愛心的不是natural的此處意思。",
+      "D": "lucky幸運的，也與血緣身分無關。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "adopt",
+        "partOfSpeech": "v.",
+        "meaning": "收養",
+        "usage": "adopt a child是依法或制度上接納孩子為子女，不是生育。"
+      },
+      {
+        "word": "infant",
+        "partOfSpeech": "n.",
+        "meaning": "嬰兒",
+        "usage": "infants與older children對照收養年齡不同。"
+      },
+      {
+        "word": "race",
+        "partOfSpeech": "n.",
+        "meaning": "種族",
+        "usage": "same race與different races在此指族群背景，非比賽。"
+      },
+      {
+        "word": "adoptee",
+        "partOfSpeech": "n.",
+        "meaning": "被收養者",
+        "usage": "字尾-ee在此標示被收養的人，不是養父母。"
+      },
+      {
+        "word": "adopted child",
+        "partOfSpeech": "n.",
+        "meaning": "被收養的孩子",
+        "usage": "adopted children與adoptees為本題同義表達。"
+      },
+      {
+        "word": "biological parent",
+        "partOfSpeech": "n.",
+        "meaning": "親生父母",
+        "usage": "biological指生物血緣，與養育關係的adoptive相對。"
+      },
+      {
+        "word": "birth parent",
+        "partOfSpeech": "n.",
+        "meaning": "生父母",
+        "usage": "birth parents與natural parents在本文指同一身分。"
+      },
+      {
+        "word": "seal",
+        "partOfSpeech": "v.",
+        "meaning": "封存",
+        "usage": "birth records are sealed表示出生紀錄非一般公開資料。"
+      },
+      {
+        "word": "confidential",
+        "partOfSpeech": "adj.",
+        "meaning": "機密的；須保密的",
+        "usage": "confidential information指存取受限制的資訊。"
+      },
+      {
+        "word": "document",
+        "partOfSpeech": "n.",
+        "meaning": "文件",
+        "usage": "in a document 表在文件中，可能有多行文字可統計。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists提供意見，不等於被收養者adoptees。"
+      },
+      {
+        "word": "adoptive parent",
+        "partOfSpeech": "n.",
+        "meaning": "養父母",
+        "usage": "adoptive parents收養孩子，與adopted children角色相反。"
+      },
+      {
+        "word": "secret",
+        "partOfSpeech": "adj. / n.",
+        "meaning": "秘密的；秘密",
+        "usage": "本題secret對應confidential保密，而非confusing令人困惑。"
+      }
+    ]
+  },
+  "103-1-50": {
+    "summary": "sealed紀錄封存、confidential保密，表示不對外開放，故secret。",
+    "options": {
+      "A": "offensive冒犯的，不是資料存取狀態。",
+      "B": "confusing令人困惑，非保密目的。",
+      "C": "secret秘密的，與no one can see it相合。",
+      "D": "open開放的與sealed封存正相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "103 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=103010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "adopt",
+        "partOfSpeech": "v.",
+        "meaning": "收養",
+        "usage": "adopt a child是依法或制度上接納孩子為子女，不是生育。"
+      },
+      {
+        "word": "infant",
+        "partOfSpeech": "n.",
+        "meaning": "嬰兒",
+        "usage": "infants與older children對照收養年齡不同。"
+      },
+      {
+        "word": "race",
+        "partOfSpeech": "n.",
+        "meaning": "種族",
+        "usage": "same race與different races在此指族群背景，非比賽。"
+      },
+      {
+        "word": "adoptee",
+        "partOfSpeech": "n.",
+        "meaning": "被收養者",
+        "usage": "字尾-ee在此標示被收養的人，不是養父母。"
+      },
+      {
+        "word": "adopted child",
+        "partOfSpeech": "n.",
+        "meaning": "被收養的孩子",
+        "usage": "adopted children與adoptees為本題同義表達。"
+      },
+      {
+        "word": "biological parent",
+        "partOfSpeech": "n.",
+        "meaning": "親生父母",
+        "usage": "biological指生物血緣，與養育關係的adoptive相對。"
+      },
+      {
+        "word": "birth parent",
+        "partOfSpeech": "n.",
+        "meaning": "生父母",
+        "usage": "birth parents與natural parents在本文指同一身分。"
+      },
+      {
+        "word": "seal",
+        "partOfSpeech": "v.",
+        "meaning": "封存",
+        "usage": "birth records are sealed表示出生紀錄非一般公開資料。"
+      },
+      {
+        "word": "confidential",
+        "partOfSpeech": "adj.",
+        "meaning": "機密的；須保密的",
+        "usage": "confidential information指存取受限制的資訊。"
+      },
+      {
+        "word": "document",
+        "partOfSpeech": "n.",
+        "meaning": "文件",
+        "usage": "in a document 表在文件中，可能有多行文字可統計。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists提供意見，不等於被收養者adoptees。"
+      },
+      {
+        "word": "adoptive parent",
+        "partOfSpeech": "n.",
+        "meaning": "養父母",
+        "usage": "adoptive parents收養孩子，與adopted children角色相反。"
+      },
+      {
+        "word": "secret",
+        "partOfSpeech": "adj. / n.",
+        "meaning": "秘密的；秘密",
+        "usage": "本題secret對應confidential保密，而非confusing令人困惑。"
+      }
+    ]
+  }
+}

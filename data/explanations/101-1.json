@@ -1,1 +1,2254 @@
-{}
+{
+  "101-1-1": {
+    "summary": "保障法官身分與薪俸，使其不因判決不合政治期待就被任意免職，核心是司法獨立。憲法原文禁治產為歷史用語，現法已改監護。",
+    "options": {
+      "A": "政治平等談公民參政機會，不是法官職位保障的直接目的。",
+      "B": "讓法官免受外界任意報復，能依法律獨立審判。",
+      "C": "責任政治重施政者受課責，與避免任意免職的重點不同。",
+      "D": "主權在民是國家權力來源，非此身分保障的直接理念。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-2": {
+    "summary": "內閣制行政與國會多數相連，議員通常可兼任閣員，和總統制嚴格職務分立不同。",
+    "options": {
+      "A": "內閣制未必有總統，閣揆須有國會支持，非元首可任意指定。",
+      "B": "分權制衡是廣義原則，但此處嚴格行政立法分立是總統制典型。",
+      "C": "不信任案針對內閣政府，不是虛位元首。",
+      "D": "國會議員可兼閣員，呈現行政立法融合特色。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-3": {
+    "summary": "個人學會語言、規範、角色及社會期待的持續過程稱社會化，不限兒童期。",
+    "options": {
+      "A": "在地化是配合當地環境文化調整，不是學會一般社會角色的總稱。",
+      "B": "家庭、學校、同儕、媒體都是社會化重要媒介。",
+      "C": "全球化談跨國連結增加，不是個人成長學習本身。",
+      "D": "階層化是社會資源地位分層，不是習得規範過程。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-4": {
+    "summary": "民事被害人可起訴求償，刑事被害人於法定條件可自訴或提出告訴；不代表任何刑案都能自訴。",
+    "options": {
+      "A": "財產案件有上訴利益等限制，非一律可到最高法院。",
+      "B": "刑事亦有不得上訴第三審等法定限制。",
+      "C": "兩類都有由受害者發動救濟的途徑，仍須遵守起訴或自訴要件。",
+      "D": "檢察官不是一般私人債務等民事訴訟的代理起訴機關。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-5": {
+    "summary": "狹義法律是立法院通過、總統公布的法規，名稱可用法、律、條例、通則。",
+    "options": {
+      "A": "細則是行政命令名稱，例如施行細則，不是經立法院通過的狹義法律名稱。",
+      "B": "辦法亦屬命令名稱，不因重要就成狹義法律。",
+      "C": "綱要列為命令名稱，非法律四種名稱。",
+      "D": "條例屬狹義法律的法定名稱之一。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "中央法規標準法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030133"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-6": {
+    "summary": "矯正學校承接需機構內矯正教育的少年，包括感化教育與徒刑執行，不是一般假日輔導或社區保護管束。",
+    "options": {
+      "A": "①②主要為非此種長期機構收容處分。",
+      "B": "③可，但②保護管束通常在社區接受督導，不等同入矯正學校。",
+      "C": "③感化教育、④徒刑屬題定機構矯正對象。",
+      "D": "④可，①假日生活輔導卻非同類收容依據。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "少年事件處理法（留意歷史版本）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-7": {
+    "summary": "題目強調依法律、由監察彈劾再移送法定懲戒程序，選法治政治；與主管為政策失敗辭職的政治責任有別。",
+    "options": {
+      "A": "責任政治亦有關，但本題具體重法律責任與法定程序。",
+      "B": "公務員違法失職須循法定程序處理，體現法治。",
+      "C": "未涉及政黨競選、輪替或組閣。",
+      "D": "民眾陳情是開端，主要判準仍是後續依法彈劾懲戒。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-8": {
+    "summary": "依各地資源與機會成本選擇較有相對優勢的產業，是比較利益，而不只比誰工資便宜。",
+    "options": {
+      "A": "稀少性是選擇的基本背景，未直接說明產業分工方向。",
+      "B": "高知識條件使技術產業相對有利，符合比較利益。",
+      "C": "供需法則解釋價量變動，非此專業化的核心理論。",
+      "D": "收支平衡重收入等於支出，與產業成本優勢不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-9": {
+    "summary": "佛洛伊德本我依快樂原則追求衝動立即滿足；自我協調現實，超我代表道德規範。",
+    "options": {
+      "A": "超我要求符合良心與理想，會限制衝動。",
+      "B": "自我依現實條件調節，不是只要喜歡就做。",
+      "C": "主我是其他自我理論的用語，不是此三分人格結構。",
+      "D": "本我追求即刻快樂與欲望滿足，切合引句。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-10": {
+    "summary": "民有、民治、民享直接表達民主政體及人民參與統治，無法單憑此句決定總統或內閣制。",
+    "options": {
+      "A": "民主可採多種政府體制，此句未指定總統制。",
+      "B": "明言民主共和國，直接支持民主政體。",
+      "C": "宗教自由另受憲法保障，但不是這一條直接談的政治分類。",
+      "D": "民主不只一種政黨體系，不能由此句必然推出多黨制。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-11": {
+    "summary": "勞動是生產要素，勞動參與率反映人力進入勞動市場，屬要素市場資訊；50%是題目當年資料。",
+    "options": {
+      "A": "金融市場處理資金借貸與金融資產，不是勞動供給。",
+      "B": "商品市場交易最終商品服務，非勞動本身。",
+      "C": "勞動市場是生產要素市場的一種。",
+      "D": "股票市場交易股權，不以女性是否就業求職為主要統計。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-12": {
+    "summary": "石油供給中斷推高生產成本，戰後供給破壞及貨幣財政失衡也可能引發嚴重通膨。",
+    "options": {
+      "A": "泡沫破裂常伴需求衰退與通縮壓力，非最典型嚴重通膨情況。",
+      "B": "油價成本衝擊及戰後失衡，都是本題較直接的物價暴漲背景。",
+      "C": "失業增加常見於需求不足，但仍可能與停滯性通膨共存，不能單憑失業斷定。",
+      "D": "資金入股市可推資產價格，不必然等於一般商品嚴重通膨。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-13": {
+    "summary": "青年透過在地活動接觸公共生活、關心鄉土，是參與中學習公民素養。",
+    "options": {
+      "A": "公民自治重居民自主治理，不是此遊學活動主要程序。",
+      "B": "公民美學重公共空間等美感，不足概括鄉土參與。",
+      "C": "實際參與、理解土地及社群，可培養公共關懷。",
+      "D": "並未辦理議題投票，不是公民投票。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-14": {
+    "summary": "官方選C：二手車本身不重算新產出，但本期提供交易服務的薪資計入。A若真是本期市場生產所得，概念上也應計入，不能把地攤一概排除；此題常以未登記難統計作隱含前提。",
+    "options": {
+      "A": "合法與否或是否登記不改變生產概念；非正式交易可能難統計，題目未明說，須留意疑義。",
+      "B": "外商在臺產出先屬GDP，其歸外國居民的要素所得不直接算我國GNP；也不能把營業收入全當附加價值。",
+      "C": "薪水來自本期二手車交易服務，是新創造服務，與舊車售價不同。",
+      "D": "家人內部給付的照顧費通常按教材視為家庭內轉移，非正式市場新增產值；實際須看是否真屬有償服務。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "主計總處：GDP與GNI衡量生產附加價值及要素所得",
+        "url": "https://www.dgbas.gov.tw/News_Content.aspx?n=3988&s=102973"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-15": {
+    "summary": "官方選C考告訴乃論須有合法告訴才可起訴。但「不得偵查」過度簡化：為釐清案情、保全證據仍可能偵查，未告訴非一概禁查。",
+    "options": {
+      "A": "檢察官認應追訴時向法院起訴，名稱是公訴，非告發。",
+      "B": "任何人向偵查機關報案通常稱告發，不是直接向法院自訴。",
+      "C": "有合法告訴是告訴乃論罪起訴的重要條件；此項偵查部分不宜當絕對規則背誦。",
+      "D": "被害人依法直接向法院起訴是自訴；公訴由檢察官提起。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      },
+      {
+        "title": "司法院用語辭典：告訴乃論與起訴條件",
+        "url": "https://terms.judicial.gov.tw/TermContent.aspx?SYS=M&TRMTERM=%E5%91%8A%E8%A8%B4%E4%B9%83%E8%AB%96"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-16": {
+    "summary": "拍賣競標透過買賣雙方出價協調交易，最直接運用市場價格機能；實際效率仍須資訊及競爭等條件。",
+    "options": {
+      "A": "自由競價由市場形成交易價格，符合題意。",
+      "B": "央行釋幣是貨幣政策介入，非純市場交易。",
+      "C": "保證最低收購價是政府價格支持。",
+      "D": "政府供應平價品是政策供給，不是讓價格自由調節。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-17": {
+    "summary": "罪刑法定要求事前法律明文，不能僅憑習俗、外國案例或事後立法新增刑罰。",
+    "options": {
+      "A": "不合習俗不當然是犯罪，須有法律構成要件。",
+      "B": "外國案例可供研究，不能代替我國事前刑法定罪依據。",
+      "C": "事後才訂為犯罪，原則不得回溯處罰先前行為。",
+      "D": "無法律明定罪刑即不得任意處罰，是核心要求。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-18": {
+    "summary": "民刑事雖以三級三審為一般架構，第三審均有上訴限制；羈押須法院決定，法院亦不能任意自行起訴。",
+    "options": {
+      "A": "訴訟中仍可依法調解、和解，並非進法院就禁止。",
+      "B": "羈押是法院裁定，檢察官可聲請但不能自行逕押。",
+      "C": "兩類均有第三審限制，非每案可一路上訴。",
+      "D": "審判須有合法起訴等程序，警方通報不讓法官直接主動判罪。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-19": {
+    "summary": "家庭暴力不限身體傷害，也包含精神上的恐嚇、控制與虐待；不分社經地位都可能發生。",
+    "options": {
+      "A": "高社經家庭也可能施暴，不能以階級刻板印象判斷。",
+      "B": "受暴不是被害人有偏差才發生，不應責怪受害者。",
+      "C": "精神虐待也是家庭暴力可能形式。",
+      "D": "言語恐嚇若符合家庭暴力的關係與行為要件，可構成家暴。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "家庭暴力防治法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050071"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-20": {
+    "summary": "依自由意志為共同理念參與，是志願團體；不能把志工和特定職業團體混淆。",
+    "options": {
+      "A": "職業團體以職業或產業成員為基礎，這裡依環保理念加入。",
+      "B": "自願認同目標、主動參與，符合志願團體。",
+      "C": "非志願團體指非出於個人選擇加入者，與題意相反。",
+      "D": "宗教團體以信仰為中心，本文未說環保團體有宗教目的。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-21": {
+    "summary": "文化接觸可引入新觀念與形式，豐富本土內涵，但也可能有衝突，非一律正面或消除差異。",
+    "options": {
+      "A": "「都是正面」忽略衝突、強勢文化壓力等。",
+      "B": "交流不必造成世界只剩同一文化。",
+      "C": "古代遷徙與貿易早有文化交流，非工業革命才開始。",
+      "D": "吸收外來元素並在地轉化，可增加本土文化多樣性。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-22": {
+    "summary": "在全球流行影響下，本土戲藝仍能創新流行，說明全球與在地可共存融合。",
+    "options": {
+      "A": "本文未證明臺灣傳統已成世界主流。",
+      "B": "沒有交代由跨國企業主導，不能自行加入因果。",
+      "C": "外來影響與傳統創新並存，符合全球在地融合。",
+      "D": "題目呈現傳統新生與多樣，非單一化。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-23": {
+    "summary": "檢察總長和大法官均採總統提名、立法院同意任命；職務不同但產生程序相似。",
+    "options": {
+      "A": "一般法官不逐一經立法院同意任命。",
+      "B": "大法官有同樣提名與國會同意程序。",
+      "C": "立委由選舉產生，非總統提名任命。",
+      "D": "立法院長由立委互選，非總統提名。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-24": {
+    "summary": "政府提供低收入家庭津貼，屬社會救助與社會服務，協助維持基本生活。",
+    "options": {
+      "A": "未以學校、文化活動為直接目的。",
+      "B": "生活津貼是扶助弱勢的社會服務。",
+      "C": "可能間接影響經濟，核心非提升產業產出。",
+      "D": "安全衛生著重治安、防災與公共衛生，非本題救助分類。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-25": {
+    "summary": "拘役是刑法主刑；拘留、罰鍰與停業在題意屬行政制裁，不要被名稱相近誤導。",
+    "options": {
+      "A": "法院判處拘役20天屬刑事刑罰。",
+      "B": "拘留與刑法拘役名稱不同，題意為秩序法上的行政處罰。",
+      "C": "罰鍰是行政罰，刑罰金錢制裁稱罰金。",
+      "D": "勒令停業是行政措施或行政處罰，非刑法主刑。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-26": {
+    "summary": "將出口售價壓低於正常價值銷售，是傾銷的教材描述；補貼與傾銷是不同法律概念，不能只見政府資助就當必然傾銷。",
+    "options": {
+      "A": "補貼是政府提供財務利益，可助低價但不等同傾銷本身。",
+      "B": "低於正常價值出口是傾銷重點，是否構成須依貿易規則認定。",
+      "C": "設限是配額、限制進口等，不是主動低價出口。",
+      "D": "保護是扶助本國產業的政策總稱，非此特定價格行為。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-27": {
+    "summary": "本題依鄉鎮市調解可處理告訴乃論刑事案件作比較，一般妨害性自主犯罪不能以調解取代追訴；不能概括所有相關民事爭議也禁止協議。",
+    "options": {
+      "A": "誹謗通常告訴乃論，可依法聲請調解。",
+      "B": "過失傷害通常告訴乃論，可調解相關爭議。",
+      "C": "妨害名譽通常屬可調解類型，仍看個別罪。",
+      "D": "一般妨害性自主屬非告訴乃論，非此題鄉鎮市調解處理的刑事類型；法有特殊例外。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "鄉鎮市調解條例：民事與告訴乃論刑事事件",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=I0020003"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-28": {
+    "summary": "行政院編總預算，立院審；決算由監院審計部審核，再送立院審議，注意預算與決算的時間不同。",
+    "options": {
+      "A": "預算應由行政院提出、立法院審議，此項將前兩個機關的工作倒置。",
+      "B": "行政、立法、審計、立法的順序符合分工。",
+      "C": "審計部隸監察院，不是司法院。",
+      "D": "決算先由審計機關審核，不是立院審後交審計部。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-29": {
+    "summary": "買賣瑕疵修理、保固責任是私人間契約爭議，可提民事訴訟；須釐清瑕疵或不當使用的證據。",
+    "options": {
+      "A": "非對行政機關公權力處分不服，不走行政訴訟。",
+      "B": "題中未顯示詐欺等犯罪，單純保固爭議不以刑事為主要途徑。",
+      "C": "可依契約與瑕疵擔保等民事請求主張權益。",
+      "D": "抗告是對法院裁定的救濟，不是向商家起訴的名稱。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-30": {
+    "summary": "民法身分法通常指親屬與繼承；物權、債以財產關係為主，故③④。",
+    "options": {
+      "A": "物權規範對物的支配、債規範請求給付，①②都是財產法主要編章。",
+      "B": "③可，但①物權重物的支配。",
+      "C": "③可，但②債重請求給付等財產法律關係。",
+      "D": "③繼承與④親屬為民法身分法分類。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-31": {
+    "summary": "媒體監督政府、揭露公共問題，常被比喻為第四權；不是正式憲法增設一個政府權力。",
+    "options": {
+      "A": "傳播媒體的公共監督功能，正是此稱呼來源。",
+      "B": "NGO也能監督，但第四權的通常特指媒體。",
+      "C": "社區組織參與地方事務，非此慣稱對象。",
+      "D": "政黨影響政府組成，非三權之外第四權的通常稱呼。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-32": {
+    "summary": "總統選舉的居住資格與一般地方公職4個月規定不同。題幹混稱選民與候選人條件，須分清兩者，不能將4個月套所有資格。",
+    "options": {
+      "A": "總統選舉人通常看自由地區繼續居住6個月等條件；候選人另有年齡與居住規定。",
+      "B": "市長依地方公職選罷制度判選區居住，不適用總統選舉的同一套條件。",
+      "C": "縣議員屬地方公職，按一般公職選區資格判斷。",
+      "D": "鄉民代表亦屬地方公職，不是總統選舉特別制度。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "公職人員選舉罷免法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-33": {
+    "summary": "二元司法在此指普通法院處民刑事、行政法院處行政訴訟，非把民事與刑事各算一元。",
+    "options": {
+      "A": "事實審、法律審是審級職能區分，不是法院體系二元。",
+      "B": "普通與行政法院分工，就是題定二元。",
+      "C": "民刑事同在普通法院，不能當兩套司法體系。",
+      "D": "一般與專業法庭也可能都屬同一體系，非此用語。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-34": {
+    "summary": "壓力團體為維護會員或共同利益影響政策；公會與工會最直接代表產業或勞工利益。",
+    "options": {
+      "A": "教會主要以信仰活動為目的，未必以政策施壓為核心。",
+      "B": "公會代表專業產業、工會代表勞工，均典型利益壓力團體。",
+      "C": "學校為教育機構，政黨以爭取執政為目標，不同於利益團體。",
+      "D": "同鄉會主要聯誼互助，不一定是典型政策壓力團體。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-35": {
+    "summary": "監察院可受理人民陳情、調查違失，並對行政機關提糾正；糾正針對機關，不是法院判決。",
+    "options": {
+      "A": "行政院可處陳情，但不是憲法監察糾正權機關。",
+      "B": "立法院監督施政，卻不行使監院的糾正權。",
+      "C": "監察院的調查與糾正符合題述。",
+      "D": "司法院透過審判救濟，不以監察糾正行使職權。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "101-1-36": {
+    "summary": "整句白話：王先生的律師強烈主張，他的權利遭到侵犯，因為警方違法搜索他的公寓。\n\n律師主張警方非法搜索侵害權利，rights are violated即權利遭侵犯。",
+    "options": {
+      "A": "produced生產、製造，不是對權利侵害。",
+      "B": "misled誤導，通常指人被帶錯方向，不是權利遭違反。",
+      "C": "violated侵犯、違反，可搭rights或law。",
+      "D": "implied暗示、含意，不能描述非法搜索的侵權。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "violate",
+        "partOfSpeech": "v.",
+        "meaning": "侵犯；違反",
+        "usage": "violate rights指侵犯權利；本題用had been violated表被動。"
+      },
+      {
+        "word": "illegally",
+        "partOfSpeech": "adv.",
+        "meaning": "違法地",
+        "usage": "illegally searched說搜索方式欠合法性，是律師主張侵權的依據。"
+      },
+      {
+        "word": "lawyer",
+        "partOfSpeech": "n.",
+        "meaning": "律師",
+        "usage": "lawyer替當事人提出法律論證，與警察不同角色。"
+      }
+    ]
+  },
+  "101-1-37": {
+    "summary": "整句白話：Tina罹患糖尿病已有數年，每個月都必須去看醫生。\n\nsuffer from a disease是患有疾病，句意Tina多年受糖尿病所苦，需每月看醫生。",
+    "options": {
+      "A": "affect通常直接接受影響對象，不接from表罹病。",
+      "B": "catch a disease為染上疾病，不用catch from在此表多年病況。",
+      "C": "inflict使他人遭受，常為inflict something on someone。",
+      "D": "suffering from為長期受某疾病困擾的自然搭配。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "suffer from",
+        "partOfSpeech": "動詞片語",
+        "meaning": "受……所苦；患有",
+        "usage": "suffer from diabetes表示患糖尿病，不用catching from。"
+      },
+      {
+        "word": "diabetes",
+        "partOfSpeech": "n.",
+        "meaning": "糖尿病",
+        "usage": "diabetes是疾病名稱，本句搭配多年病況與定期回診。"
+      },
+      {
+        "word": "inflict",
+        "partOfSpeech": "v.",
+        "meaning": "使遭受",
+        "usage": "inflict harm on someone是使某人受害，與本人患病不同。"
+      }
+    ]
+  },
+  "101-1-38": {
+    "summary": "整句白話：Mary聽到消息時大受震驚，說不出話來。\n\n聽到消息震驚到說不出話，experience a shock指受到衝擊。",
+    "options": {
+      "A": "sample樣本，與無法說話的情緒反應不合。",
+      "B": "secret秘密，不能在此搭配a great secret表震驚反應。",
+      "C": "shock震驚，解釋為何couldn't speak。",
+      "D": "similarity相似處，不是聽消息的劇烈反應。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "shock",
+        "partOfSpeech": "n.",
+        "meaning": "震驚；衝擊",
+        "usage": "experience a shock指遭遇強烈驚愕，解釋說不出話。"
+      },
+      {
+        "word": "similarity",
+        "partOfSpeech": "n.",
+        "meaning": "相似處",
+        "usage": "similarity描述兩者共同點，非對消息的情緒反應。"
+      },
+      {
+        "word": "secret",
+        "partOfSpeech": "n.",
+        "meaning": "秘密",
+        "usage": "a secret指未公開資訊，不等於接到消息時的震驚。"
+      }
+    ]
+  },
+  "101-1-39": {
+    "summary": "整句白話：可以請你到郵局幫我寄出這封信嗎？\n\n到郵局寄出去的是信letter，send this letter out為寄出這封信。",
+    "options": {
+      "A": "letter信件，是郵局寄送的自然受詞。",
+      "B": "speech演說，不是一般拿到郵局寄送之物。",
+      "C": "stamp郵票通常貼在信上，非本題主要寄送物。",
+      "D": "word單字或消息，send word為傳話但不合this word去郵局的情境。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "letter",
+        "partOfSpeech": "n.",
+        "meaning": "信件",
+        "usage": "send a letter是寄信，郵局是合理寄送地點。"
+      },
+      {
+        "word": "post office",
+        "partOfSpeech": "n.",
+        "meaning": "郵局",
+        "usage": "go to the post office是到郵局辦郵務。"
+      },
+      {
+        "word": "stamp",
+        "partOfSpeech": "n.",
+        "meaning": "郵票",
+        "usage": "stamp貼在郵件上表示郵資，與信件本身不同。"
+      }
+    ]
+  },
+  "101-1-40": {
+    "summary": "整句白話：Jack去年在我生日當天給了我一個大驚喜，我真的很感動。\n\n生日收到驚喜而感動，give someone a big surprise是讓某人大吃一驚的慣用搭配。",
+    "options": {
+      "A": "accident意外事故，多屬負面且不是生日禮遇搭配。",
+      "B": "interest興趣、利息，不能組成此生日驚喜的表達。",
+      "C": "surprise驚喜，與was really touched感動相合。",
+      "D": "trouble麻煩，會改成造成困擾，與感動的正向語境不合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "surprise",
+        "partOfSpeech": "n.",
+        "meaning": "驚喜；意外",
+        "usage": "give someone a surprise是使人驚訝，此處生日為正向驚喜。"
+      },
+      {
+        "word": "touched",
+        "partOfSpeech": "adj.",
+        "meaning": "感動的",
+        "usage": "be touched表示內心受感動，不是身體被碰觸的唯一意思。"
+      },
+      {
+        "word": "trouble",
+        "partOfSpeech": "n.",
+        "meaning": "麻煩",
+        "usage": "give someone trouble表示造成困擾，與生日驚喜不同。"
+      }
+    ]
+  },
+  "101-1-41": {
+    "summary": "第一段明說組織致力幫助兒童，活動目的是改善生活；體驗飢餓是方式或參與經驗，不是最完整宗旨。",
+    "options": {
+      "A": "improve children's lives改善兒童生活，涵蓋食物、住所、教育與保護。",
+      "B": "更多志工工作是可能方式，未指出服務兒童的核心。",
+      "C": "土壤管理只是衣索比亞其中一項用途，不能概括所有活動。",
+      "D": "理解飢餓相關但不足涵蓋救助兒童的主要目的，故非最佳。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "famine",
+        "partOfSpeech": "n.",
+        "meaning": "饑荒",
+        "usage": "30-Hour Famine是文中活動名稱，主旨為扶助兒童。"
+      },
+      {
+        "word": "relief",
+        "partOfSpeech": "n.",
+        "meaning": "救濟；救援",
+        "usage": "relief organization表示提供災害及困境援助的組織。"
+      },
+      {
+        "word": "dedicated to",
+        "partOfSpeech": "形容片語",
+        "meaning": "致力於",
+        "usage": "dedicated to helping的to為介系詞，後接動名詞。"
+      },
+      {
+        "word": "shelter",
+        "partOfSpeech": "n.",
+        "meaning": "住所；庇護",
+        "usage": "food, shelter and schooling列兒童的基本生活條件。"
+      },
+      {
+        "word": "thrive",
+        "partOfSpeech": "v.",
+        "meaning": "繁榮；蓬勃發展",
+        "usage": "a community thrives描述兒童獲照顧後社區發展。"
+      },
+      {
+        "word": "funding",
+        "partOfSpeech": "n.",
+        "meaning": "資金；補助",
+        "usage": "receive funding表示獲資助，不一定指向銀行借貸。"
+      },
+      {
+        "word": "sweatshop",
+        "partOfSpeech": "n.",
+        "meaning": "血汗工廠",
+        "usage": "rescue children from sweatshops指使童工脫離惡劣勞動環境。"
+      },
+      {
+        "word": "drought",
+        "partOfSpeech": "n.",
+        "meaning": "乾旱",
+        "usage": "drought造成缺水、植被消失，不是洪水。"
+      },
+      {
+        "word": "vegetation",
+        "partOfSpeech": "n.",
+        "meaning": "植被",
+        "usage": "robbed land of vegetation表示土地失去植物覆蓋。"
+      },
+      {
+        "word": "reforestation",
+        "partOfSpeech": "n.",
+        "meaning": "重新造林",
+        "usage": "reforestation是衣索比亞方案的一種資金用途。"
+      },
+      {
+        "word": "awareness",
+        "partOfSpeech": "n.",
+        "meaning": "意識；認知",
+        "usage": "increase awareness of hunger是提高大眾對饑餓問題的認識。"
+      },
+      {
+        "word": "register",
+        "partOfSpeech": "v.",
+        "meaning": "登記；報名",
+        "usage": "register to participate表示報名參加活動。"
+      },
+      {
+        "word": "in need",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "有需要的、處境困難的",
+        "usage": "children in need指需外界援助的兒童。"
+      }
+    ]
+  },
+  "101-1-42": {
+    "summary": "drought使土地失去植被，語境是缺水乾旱，不是水災。",
+    "options": {
+      "A": "flood洪水，水太多而非太少。",
+      "B": "earthquake地震，非此植被因乾旱消失的原因。",
+      "C": "terrible fire大火，文章沒有以火災解釋此詞。",
+      "D": "shortage of water水不足，是drought乾旱的核心意思。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "famine",
+        "partOfSpeech": "n.",
+        "meaning": "饑荒",
+        "usage": "30-Hour Famine是文中活動名稱，主旨為扶助兒童。"
+      },
+      {
+        "word": "relief",
+        "partOfSpeech": "n.",
+        "meaning": "救濟；救援",
+        "usage": "relief organization表示提供災害及困境援助的組織。"
+      },
+      {
+        "word": "dedicated to",
+        "partOfSpeech": "形容片語",
+        "meaning": "致力於",
+        "usage": "dedicated to helping的to為介系詞，後接動名詞。"
+      },
+      {
+        "word": "shelter",
+        "partOfSpeech": "n.",
+        "meaning": "住所；庇護",
+        "usage": "food, shelter and schooling列兒童的基本生活條件。"
+      },
+      {
+        "word": "thrive",
+        "partOfSpeech": "v.",
+        "meaning": "繁榮；蓬勃發展",
+        "usage": "a community thrives描述兒童獲照顧後社區發展。"
+      },
+      {
+        "word": "funding",
+        "partOfSpeech": "n.",
+        "meaning": "資金；補助",
+        "usage": "receive funding表示獲資助，不一定指向銀行借貸。"
+      },
+      {
+        "word": "sweatshop",
+        "partOfSpeech": "n.",
+        "meaning": "血汗工廠",
+        "usage": "rescue children from sweatshops指使童工脫離惡劣勞動環境。"
+      },
+      {
+        "word": "drought",
+        "partOfSpeech": "n.",
+        "meaning": "乾旱",
+        "usage": "drought造成缺水、植被消失，不是洪水。"
+      },
+      {
+        "word": "vegetation",
+        "partOfSpeech": "n.",
+        "meaning": "植被",
+        "usage": "robbed land of vegetation表示土地失去植物覆蓋。"
+      },
+      {
+        "word": "reforestation",
+        "partOfSpeech": "n.",
+        "meaning": "重新造林",
+        "usage": "reforestation是衣索比亞方案的一種資金用途。"
+      },
+      {
+        "word": "awareness",
+        "partOfSpeech": "n.",
+        "meaning": "意識；認知",
+        "usage": "increase awareness of hunger是提高大眾對饑餓問題的認識。"
+      },
+      {
+        "word": "register",
+        "partOfSpeech": "v.",
+        "meaning": "登記；報名",
+        "usage": "register to participate表示報名參加活動。"
+      },
+      {
+        "word": "in need",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "有需要的、處境困難的",
+        "usage": "children in need指需外界援助的兒童。"
+      }
+    ]
+  },
+  "101-1-43": {
+    "summary": "第二段從受款國、印度救童工、衣索比亞復育到80/20分配，都在說募款用途。",
+    "options": {
+      "A": "活動如何進行範圍較廣，本段未詳述參加流程。",
+      "B": "資金如何使用完整涵蓋各例及百分比。",
+      "C": "未談作者如何得知活動，不能把敘述者經歷加進去。",
+      "D": "沒有統計疾病死亡兒童人數，不能據饑荒推此主旨。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "famine",
+        "partOfSpeech": "n.",
+        "meaning": "饑荒",
+        "usage": "30-Hour Famine是文中活動名稱，主旨為扶助兒童。"
+      },
+      {
+        "word": "relief",
+        "partOfSpeech": "n.",
+        "meaning": "救濟；救援",
+        "usage": "relief organization表示提供災害及困境援助的組織。"
+      },
+      {
+        "word": "dedicated to",
+        "partOfSpeech": "形容片語",
+        "meaning": "致力於",
+        "usage": "dedicated to helping的to為介系詞，後接動名詞。"
+      },
+      {
+        "word": "shelter",
+        "partOfSpeech": "n.",
+        "meaning": "住所；庇護",
+        "usage": "food, shelter and schooling列兒童的基本生活條件。"
+      },
+      {
+        "word": "thrive",
+        "partOfSpeech": "v.",
+        "meaning": "繁榮；蓬勃發展",
+        "usage": "a community thrives描述兒童獲照顧後社區發展。"
+      },
+      {
+        "word": "funding",
+        "partOfSpeech": "n.",
+        "meaning": "資金；補助",
+        "usage": "receive funding表示獲資助，不一定指向銀行借貸。"
+      },
+      {
+        "word": "sweatshop",
+        "partOfSpeech": "n.",
+        "meaning": "血汗工廠",
+        "usage": "rescue children from sweatshops指使童工脫離惡劣勞動環境。"
+      },
+      {
+        "word": "drought",
+        "partOfSpeech": "n.",
+        "meaning": "乾旱",
+        "usage": "drought造成缺水、植被消失，不是洪水。"
+      },
+      {
+        "word": "vegetation",
+        "partOfSpeech": "n.",
+        "meaning": "植被",
+        "usage": "robbed land of vegetation表示土地失去植物覆蓋。"
+      },
+      {
+        "word": "reforestation",
+        "partOfSpeech": "n.",
+        "meaning": "重新造林",
+        "usage": "reforestation是衣索比亞方案的一種資金用途。"
+      },
+      {
+        "word": "awareness",
+        "partOfSpeech": "n.",
+        "meaning": "意識；認知",
+        "usage": "increase awareness of hunger是提高大眾對饑餓問題的認識。"
+      },
+      {
+        "word": "register",
+        "partOfSpeech": "v.",
+        "meaning": "登記；報名",
+        "usage": "register to participate表示報名參加活動。"
+      },
+      {
+        "word": "in need",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "有需要的、處境困難的",
+        "usage": "children in need指需外界援助的兒童。"
+      }
+    ]
+  },
+  "101-1-44": {
+    "summary": "第二段首句World Vision decides直接說由世界展望會決定哪些國家獲款。",
+    "options": {
+      "A": "由World Vision決定受助國，與原文一致。",
+      "B": "未說每國必須先送提案，不能補上申請程序。",
+      "C": "活動是組織的一項program，不是活動管理整個組織，主從顛倒。",
+      "D": "20%用薪資與行銷，復育是受助用途之一，不能把百分比換過去。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "famine",
+        "partOfSpeech": "n.",
+        "meaning": "饑荒",
+        "usage": "30-Hour Famine是文中活動名稱，主旨為扶助兒童。"
+      },
+      {
+        "word": "relief",
+        "partOfSpeech": "n.",
+        "meaning": "救濟；救援",
+        "usage": "relief organization表示提供災害及困境援助的組織。"
+      },
+      {
+        "word": "dedicated to",
+        "partOfSpeech": "形容片語",
+        "meaning": "致力於",
+        "usage": "dedicated to helping的to為介系詞，後接動名詞。"
+      },
+      {
+        "word": "shelter",
+        "partOfSpeech": "n.",
+        "meaning": "住所；庇護",
+        "usage": "food, shelter and schooling列兒童的基本生活條件。"
+      },
+      {
+        "word": "thrive",
+        "partOfSpeech": "v.",
+        "meaning": "繁榮；蓬勃發展",
+        "usage": "a community thrives描述兒童獲照顧後社區發展。"
+      },
+      {
+        "word": "funding",
+        "partOfSpeech": "n.",
+        "meaning": "資金；補助",
+        "usage": "receive funding表示獲資助，不一定指向銀行借貸。"
+      },
+      {
+        "word": "sweatshop",
+        "partOfSpeech": "n.",
+        "meaning": "血汗工廠",
+        "usage": "rescue children from sweatshops指使童工脫離惡劣勞動環境。"
+      },
+      {
+        "word": "drought",
+        "partOfSpeech": "n.",
+        "meaning": "乾旱",
+        "usage": "drought造成缺水、植被消失，不是洪水。"
+      },
+      {
+        "word": "vegetation",
+        "partOfSpeech": "n.",
+        "meaning": "植被",
+        "usage": "robbed land of vegetation表示土地失去植物覆蓋。"
+      },
+      {
+        "word": "reforestation",
+        "partOfSpeech": "n.",
+        "meaning": "重新造林",
+        "usage": "reforestation是衣索比亞方案的一種資金用途。"
+      },
+      {
+        "word": "awareness",
+        "partOfSpeech": "n.",
+        "meaning": "意識；認知",
+        "usage": "increase awareness of hunger是提高大眾對饑餓問題的認識。"
+      },
+      {
+        "word": "register",
+        "partOfSpeech": "v.",
+        "meaning": "登記；報名",
+        "usage": "register to participate表示報名參加活動。"
+      },
+      {
+        "word": "in need",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "有需要的、處境困難的",
+        "usage": "children in need指需外界援助的兒童。"
+      }
+    ]
+  },
+  "101-1-45": {
+    "summary": "全文反覆談募款與兒童生活改善，可推活動關注弱勢兒童，而非志工拿薪資或享受挨餓。",
+    "options": {
+      "A": "文章說can make a difference，與毫無改變相反。",
+      "B": "結尾鼓勵投入活動，不等於保證飢餓過程令人愉快。",
+      "C": "helping children in need概括組織使命與資金用途。",
+      "D": "20%員工薪資不等於所有參加者為薪資挨餓，混淆staff與volunteers。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "famine",
+        "partOfSpeech": "n.",
+        "meaning": "饑荒",
+        "usage": "30-Hour Famine是文中活動名稱，主旨為扶助兒童。"
+      },
+      {
+        "word": "relief",
+        "partOfSpeech": "n.",
+        "meaning": "救濟；救援",
+        "usage": "relief organization表示提供災害及困境援助的組織。"
+      },
+      {
+        "word": "dedicated to",
+        "partOfSpeech": "形容片語",
+        "meaning": "致力於",
+        "usage": "dedicated to helping的to為介系詞，後接動名詞。"
+      },
+      {
+        "word": "shelter",
+        "partOfSpeech": "n.",
+        "meaning": "住所；庇護",
+        "usage": "food, shelter and schooling列兒童的基本生活條件。"
+      },
+      {
+        "word": "thrive",
+        "partOfSpeech": "v.",
+        "meaning": "繁榮；蓬勃發展",
+        "usage": "a community thrives描述兒童獲照顧後社區發展。"
+      },
+      {
+        "word": "funding",
+        "partOfSpeech": "n.",
+        "meaning": "資金；補助",
+        "usage": "receive funding表示獲資助，不一定指向銀行借貸。"
+      },
+      {
+        "word": "sweatshop",
+        "partOfSpeech": "n.",
+        "meaning": "血汗工廠",
+        "usage": "rescue children from sweatshops指使童工脫離惡劣勞動環境。"
+      },
+      {
+        "word": "drought",
+        "partOfSpeech": "n.",
+        "meaning": "乾旱",
+        "usage": "drought造成缺水、植被消失，不是洪水。"
+      },
+      {
+        "word": "vegetation",
+        "partOfSpeech": "n.",
+        "meaning": "植被",
+        "usage": "robbed land of vegetation表示土地失去植物覆蓋。"
+      },
+      {
+        "word": "reforestation",
+        "partOfSpeech": "n.",
+        "meaning": "重新造林",
+        "usage": "reforestation是衣索比亞方案的一種資金用途。"
+      },
+      {
+        "word": "awareness",
+        "partOfSpeech": "n.",
+        "meaning": "意識；認知",
+        "usage": "increase awareness of hunger是提高大眾對饑餓問題的認識。"
+      },
+      {
+        "word": "register",
+        "partOfSpeech": "v.",
+        "meaning": "登記；報名",
+        "usage": "register to participate表示報名參加活動。"
+      },
+      {
+        "word": "in need",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "有需要的、處境困難的",
+        "usage": "children in need指需外界援助的兒童。"
+      }
+    ]
+  },
+  "101-1-46": {
+    "summary": "達文西既是科學家也是藝術家，as well as表示也、以及，連接兩種身分。",
+    "options": {
+      "A": "as well as把scientist和artist相加，不排除任一。",
+      "B": "no better than不比……好，變成評價兩身分高低。",
+      "C": "rather than而非，會否認藝術家身分，與後文畫作矛盾。",
+      "D": "except for除了……之外，未表兼具身分。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "possess",
+        "partOfSpeech": "v.",
+        "meaning": "擁有",
+        "usage": "possessed a searching mind是形容達文西善於探索。"
+      },
+      {
+        "word": "as well as",
+        "partOfSpeech": "連接片語",
+        "meaning": "也；以及",
+        "usage": "scientist as well as artist指兼具兩種身分。"
+      },
+      {
+        "word": "insight into",
+        "partOfSpeech": "名詞片語",
+        "meaning": "對……的洞察",
+        "usage": "an insight into curiosity表示得以理解他的求知心。"
+      },
+      {
+        "word": "intellectual curiosity",
+        "partOfSpeech": "n.",
+        "meaning": "求知好奇心",
+        "usage": "notebooks呈現作者探索知識的興趣與思考。"
+      },
+      {
+        "word": "be known for",
+        "partOfSpeech": "動詞片語",
+        "meaning": "以……聞名",
+        "usage": "產品以設計與細節著稱，for 後面接受到肯定的特點。"
+      },
+      {
+        "word": "portrait",
+        "partOfSpeech": "n.",
+        "meaning": "肖像畫",
+        "usage": "Mona Lisa是描繪人物的portrait，不是風景畫的同義。"
+      },
+      {
+        "word": "identity",
+        "partOfSpeech": "n.",
+        "meaning": "身分",
+        "usage": "identity of the Mona Lisa指畫中人物究竟是誰。"
+      },
+      {
+        "word": "assert",
+        "partOfSpeech": "v.",
+        "meaning": "主張；斷言",
+        "usage": "asserted標示某分析師的看法，不代表客觀證實。"
+      },
+      {
+        "word": "riddle",
+        "partOfSpeech": "n.",
+        "meaning": "謎語；謎題",
+        "usage": "trick people with riddles是用謎題捉弄人。"
+      },
+      {
+        "word": "evidence",
+        "partOfSpeech": "n.",
+        "meaning": "證據",
+        "usage": "文中evidence加引號，提醒這是分析者自稱的根據。"
+      },
+      {
+        "word": "necklace",
+        "partOfSpeech": "n.",
+        "meaning": "項鍊",
+        "usage": "wore no necklace是分析者對肖像飾物的說法。"
+      },
+      {
+        "word": "mountain range",
+        "partOfSpeech": "n.",
+        "meaning": "山脈",
+        "usage": "a distant mountain range為畫面遠景，range此處不是範圍。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adj.",
+        "meaning": "有爭議的",
+        "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+      }
+    ]
+  },
+  "101-1-47": {
+    "summary": "an insight into是對某事深入的了解、洞察，筆記提供窺見其好奇心的途徑。",
+    "options": {
+      "A": "into是insight的慣用介系詞搭配。",
+      "B": "upon不是本題insight後的標準搭配。",
+      "C": "through可說透過，但此名詞片語需insight into某事。",
+      "D": "by表示由、藉由，不能取代對某事洞察的into。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "possess",
+        "partOfSpeech": "v.",
+        "meaning": "擁有",
+        "usage": "possessed a searching mind是形容達文西善於探索。"
+      },
+      {
+        "word": "as well as",
+        "partOfSpeech": "連接片語",
+        "meaning": "也；以及",
+        "usage": "scientist as well as artist指兼具兩種身分。"
+      },
+      {
+        "word": "insight into",
+        "partOfSpeech": "名詞片語",
+        "meaning": "對……的洞察",
+        "usage": "an insight into curiosity表示得以理解他的求知心。"
+      },
+      {
+        "word": "intellectual curiosity",
+        "partOfSpeech": "n.",
+        "meaning": "求知好奇心",
+        "usage": "notebooks呈現作者探索知識的興趣與思考。"
+      },
+      {
+        "word": "be known for",
+        "partOfSpeech": "動詞片語",
+        "meaning": "以……聞名",
+        "usage": "產品以設計與細節著稱，for 後面接受到肯定的特點。"
+      },
+      {
+        "word": "portrait",
+        "partOfSpeech": "n.",
+        "meaning": "肖像畫",
+        "usage": "Mona Lisa是描繪人物的portrait，不是風景畫的同義。"
+      },
+      {
+        "word": "identity",
+        "partOfSpeech": "n.",
+        "meaning": "身分",
+        "usage": "identity of the Mona Lisa指畫中人物究竟是誰。"
+      },
+      {
+        "word": "assert",
+        "partOfSpeech": "v.",
+        "meaning": "主張；斷言",
+        "usage": "asserted標示某分析師的看法，不代表客觀證實。"
+      },
+      {
+        "word": "riddle",
+        "partOfSpeech": "n.",
+        "meaning": "謎語；謎題",
+        "usage": "trick people with riddles是用謎題捉弄人。"
+      },
+      {
+        "word": "evidence",
+        "partOfSpeech": "n.",
+        "meaning": "證據",
+        "usage": "文中evidence加引號，提醒這是分析者自稱的根據。"
+      },
+      {
+        "word": "necklace",
+        "partOfSpeech": "n.",
+        "meaning": "項鍊",
+        "usage": "wore no necklace是分析者對肖像飾物的說法。"
+      },
+      {
+        "word": "mountain range",
+        "partOfSpeech": "n.",
+        "meaning": "山脈",
+        "usage": "a distant mountain range為畫面遠景，range此處不是範圍。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adj.",
+        "meaning": "有爭議的",
+        "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+      }
+    ]
+  },
+  "101-1-48": {
+    "summary": "best known for表示最因某作品聞名，後接Mona Lisa。",
+    "options": {
+      "A": "familiar with熟悉，指本人知道某事，不是因作品為人所知。",
+      "B": "familiar to表示某人所熟知，後面通常接認識者而非成名原因。",
+      "C": "known with不是表因某事著名的慣用搭配。",
+      "D": "known for以……聞名，符合畫家及代表作關係。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "possess",
+        "partOfSpeech": "v.",
+        "meaning": "擁有",
+        "usage": "possessed a searching mind是形容達文西善於探索。"
+      },
+      {
+        "word": "as well as",
+        "partOfSpeech": "連接片語",
+        "meaning": "也；以及",
+        "usage": "scientist as well as artist指兼具兩種身分。"
+      },
+      {
+        "word": "insight into",
+        "partOfSpeech": "名詞片語",
+        "meaning": "對……的洞察",
+        "usage": "an insight into curiosity表示得以理解他的求知心。"
+      },
+      {
+        "word": "intellectual curiosity",
+        "partOfSpeech": "n.",
+        "meaning": "求知好奇心",
+        "usage": "notebooks呈現作者探索知識的興趣與思考。"
+      },
+      {
+        "word": "be known for",
+        "partOfSpeech": "動詞片語",
+        "meaning": "以……聞名",
+        "usage": "產品以設計與細節著稱，for 後面接受到肯定的特點。"
+      },
+      {
+        "word": "portrait",
+        "partOfSpeech": "n.",
+        "meaning": "肖像畫",
+        "usage": "Mona Lisa是描繪人物的portrait，不是風景畫的同義。"
+      },
+      {
+        "word": "identity",
+        "partOfSpeech": "n.",
+        "meaning": "身分",
+        "usage": "identity of the Mona Lisa指畫中人物究竟是誰。"
+      },
+      {
+        "word": "assert",
+        "partOfSpeech": "v.",
+        "meaning": "主張；斷言",
+        "usage": "asserted標示某分析師的看法，不代表客觀證實。"
+      },
+      {
+        "word": "riddle",
+        "partOfSpeech": "n.",
+        "meaning": "謎語；謎題",
+        "usage": "trick people with riddles是用謎題捉弄人。"
+      },
+      {
+        "word": "evidence",
+        "partOfSpeech": "n.",
+        "meaning": "證據",
+        "usage": "文中evidence加引號，提醒這是分析者自稱的根據。"
+      },
+      {
+        "word": "necklace",
+        "partOfSpeech": "n.",
+        "meaning": "項鍊",
+        "usage": "wore no necklace是分析者對肖像飾物的說法。"
+      },
+      {
+        "word": "mountain range",
+        "partOfSpeech": "n.",
+        "meaning": "山脈",
+        "usage": "a distant mountain range為畫面遠景，range此處不是範圍。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adj.",
+        "meaning": "有爭議的",
+        "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+      }
+    ]
+  },
+  "101-1-49": {
+    "summary": "It is believed that是據信、有人認為，引述當年猜測，不等於已被證實的史實。",
+    "options": {
+      "A": "It is hoped據希望，與報告一項推測不同。",
+      "B": "It is wished據願望，不是文中評論者所持看法。",
+      "C": "It is believed據信，能引出他人對畫家的解釋。",
+      "D": "It is counted表示被計數，不用來引出此種人物信念。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "possess",
+        "partOfSpeech": "v.",
+        "meaning": "擁有",
+        "usage": "possessed a searching mind是形容達文西善於探索。"
+      },
+      {
+        "word": "as well as",
+        "partOfSpeech": "連接片語",
+        "meaning": "也；以及",
+        "usage": "scientist as well as artist指兼具兩種身分。"
+      },
+      {
+        "word": "insight into",
+        "partOfSpeech": "名詞片語",
+        "meaning": "對……的洞察",
+        "usage": "an insight into curiosity表示得以理解他的求知心。"
+      },
+      {
+        "word": "intellectual curiosity",
+        "partOfSpeech": "n.",
+        "meaning": "求知好奇心",
+        "usage": "notebooks呈現作者探索知識的興趣與思考。"
+      },
+      {
+        "word": "be known for",
+        "partOfSpeech": "動詞片語",
+        "meaning": "以……聞名",
+        "usage": "產品以設計與細節著稱，for 後面接受到肯定的特點。"
+      },
+      {
+        "word": "portrait",
+        "partOfSpeech": "n.",
+        "meaning": "肖像畫",
+        "usage": "Mona Lisa是描繪人物的portrait，不是風景畫的同義。"
+      },
+      {
+        "word": "identity",
+        "partOfSpeech": "n.",
+        "meaning": "身分",
+        "usage": "identity of the Mona Lisa指畫中人物究竟是誰。"
+      },
+      {
+        "word": "assert",
+        "partOfSpeech": "v.",
+        "meaning": "主張；斷言",
+        "usage": "asserted標示某分析師的看法，不代表客觀證實。"
+      },
+      {
+        "word": "riddle",
+        "partOfSpeech": "n.",
+        "meaning": "謎語；謎題",
+        "usage": "trick people with riddles是用謎題捉弄人。"
+      },
+      {
+        "word": "evidence",
+        "partOfSpeech": "n.",
+        "meaning": "證據",
+        "usage": "文中evidence加引號，提醒這是分析者自稱的根據。"
+      },
+      {
+        "word": "necklace",
+        "partOfSpeech": "n.",
+        "meaning": "項鍊",
+        "usage": "wore no necklace是分析者對肖像飾物的說法。"
+      },
+      {
+        "word": "mountain range",
+        "partOfSpeech": "n.",
+        "meaning": "山脈",
+        "usage": "a distant mountain range為畫面遠景，range此處不是範圍。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adj.",
+        "meaning": "有爭議的",
+        "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+      }
+    ]
+  },
+  "101-1-50": {
+    "summary": "that子句主詞the lady，前面wore是過去式，and後用stood平行：沒戴項鍊並站在山景前。",
+    "options": {
+      "A": "stand原形與單數主詞及wore時態不合。",
+      "B": "stood是stand過去式，與wore平行。",
+      "C": "standing分詞不能直接充當此並列子句的限定動詞。",
+      "D": "stands現在式打破此處敘述過去分析的時態一致。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "101 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0104&q=1"
+      },
+      {
+        "title": "101 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "possess",
+        "partOfSpeech": "v.",
+        "meaning": "擁有",
+        "usage": "possessed a searching mind是形容達文西善於探索。"
+      },
+      {
+        "word": "as well as",
+        "partOfSpeech": "連接片語",
+        "meaning": "也；以及",
+        "usage": "scientist as well as artist指兼具兩種身分。"
+      },
+      {
+        "word": "insight into",
+        "partOfSpeech": "名詞片語",
+        "meaning": "對……的洞察",
+        "usage": "an insight into curiosity表示得以理解他的求知心。"
+      },
+      {
+        "word": "intellectual curiosity",
+        "partOfSpeech": "n.",
+        "meaning": "求知好奇心",
+        "usage": "notebooks呈現作者探索知識的興趣與思考。"
+      },
+      {
+        "word": "be known for",
+        "partOfSpeech": "動詞片語",
+        "meaning": "以……聞名",
+        "usage": "產品以設計與細節著稱，for 後面接受到肯定的特點。"
+      },
+      {
+        "word": "portrait",
+        "partOfSpeech": "n.",
+        "meaning": "肖像畫",
+        "usage": "Mona Lisa是描繪人物的portrait，不是風景畫的同義。"
+      },
+      {
+        "word": "identity",
+        "partOfSpeech": "n.",
+        "meaning": "身分",
+        "usage": "identity of the Mona Lisa指畫中人物究竟是誰。"
+      },
+      {
+        "word": "assert",
+        "partOfSpeech": "v.",
+        "meaning": "主張；斷言",
+        "usage": "asserted標示某分析師的看法，不代表客觀證實。"
+      },
+      {
+        "word": "riddle",
+        "partOfSpeech": "n.",
+        "meaning": "謎語；謎題",
+        "usage": "trick people with riddles是用謎題捉弄人。"
+      },
+      {
+        "word": "evidence",
+        "partOfSpeech": "n.",
+        "meaning": "證據",
+        "usage": "文中evidence加引號，提醒這是分析者自稱的根據。"
+      },
+      {
+        "word": "necklace",
+        "partOfSpeech": "n.",
+        "meaning": "項鍊",
+        "usage": "wore no necklace是分析者對肖像飾物的說法。"
+      },
+      {
+        "word": "mountain range",
+        "partOfSpeech": "n.",
+        "meaning": "山脈",
+        "usage": "a distant mountain range為畫面遠景，range此處不是範圍。"
+      },
+      {
+        "word": "controversial",
+        "partOfSpeech": "adj.",
+        "meaning": "有爭議的",
+        "usage": "controversial topics 與政治、成人內容並列，說明安全品牌定位。"
+      }
+    ]
+  }
+}

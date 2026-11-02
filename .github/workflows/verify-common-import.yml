@@ -2,9 +2,13 @@ name: Verify common-subject expansion
 
 on:
   push:
-    branches: [main, codex/common-paper-import]
+    branches: [main, codex/common-paper-import, codex/civics-english-review]
     paths:
       - data/common-bank-meta.json
+      - data/explanations/*-1.json
+      - data/english-passages.json
+      - tests/new-civics-english.test.mjs
+      - tests/browser/new-civics-english.spec.ts
       - tests/browser/common-import.spec.ts
       - .github/workflows/verify-common-import.yml
   workflow_dispatch:
@@ -27,4 +31,4 @@ jobs:
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - name: Verify desktop and mobile practice
-        run: npx playwright test tests/browser/common-import.spec.ts
+        run: npx playwright test tests/browser/common-import.spec.ts tests/browser/new-civics-english.spec.ts

@@ -1,1 +1,2496 @@
-{}
+{
+  "104-1-1": {
+    "summary": "給各候選人相等的媒體發言機會，是保障媒體近用，不是只追求收視市場。",
+    "options": {
+      "A": "自由市場不自動確保各候選人都有公平曝光。",
+      "B": "媒體近用權讓不同個人團體接近並使用媒體表達，符合相等時段。",
+      "C": "題目保障對象是候選人，不是每一家媒體彼此賦權。",
+      "D": "公共化涉及經營與治理結構，公平轉播不等於媒體已公營或公共化。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-2": {
+    "summary": "此題以104年法制答D：同性同居伴侶已可受家暴法保護。108年同婚登記、112年共同收養修法後，部分選項已不能沿用舊判斷。",
+    "options": {
+      "A": "104年尚不能以同性配偶共同收養；112年修法已放寬共同收養，須看考試時間。",
+      "B": "可用遺囑遺贈給伴侶，但若其他繼承人有特留分，不能保證全數不受限制。",
+      "C": "104年同性婚姻尚未合法；即使現制也須書面證人登記，不是公開儀式即有效。",
+      "D": "同性同居伴侶屬家暴法可保護關係，符合當年及題意。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "家庭暴力防治法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050071"
+      },
+      {
+        "title": "法務部：112年同性配偶共同收養修法",
+        "url": "https://www.moj.gov.tw/2204/2795/2796/170878/post"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-3": {
+    "summary": "自我衡量衝動、良心與現實後作決定；本我追快樂，超我重道德，三者要分清。",
+    "options": {
+      "A": "怕父親責罵而想作弊是逃避不快、求即時滿足，不能直接稱超我。",
+      "B": "最後協調內外要求決定認真讀書，屬自我的現實調節。",
+      "C": "怕老師抓到是考量現實後果，主我也非佛洛伊德三分結構。",
+      "D": "怕良心不安表現超我道德要求，非本我。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-4": {
+    "summary": "以房屋資產換取退休期現金流，回應高齡者有房但收入不足的需求；實際逆向抵押不一定如題目簡化成死亡房自動歸銀行。",
+    "options": {
+      "A": "數位落差是科技使用能力差異，非以房供生活費。",
+      "B": "階層化是社會資源地位分層，非此退休現金流制度主軸。",
+      "C": "人口老化增加退休生活資金需求，最貼合以房養老。",
+      "D": "貧富差距可能相關，題目更直接是在因應高齡生活保障。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-5": {
+    "summary": "反全球化常批判跨國資本造成剝削、不平等，並非反對一切國際合作。",
+    "options": {
+      "A": "要求正視弱勢國被跨國企業剝削，是典型反全球化批判。",
+      "B": "撤關稅、促貿易流通是自由化主張，非批判全球資本擴張。",
+      "C": "跨國合作解決暖化是全球治理，不必然反全球化。",
+      "D": "把本土文化推向全球亦可屬全球化下的在地策略。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-6": {
+    "summary": "臺灣立委與日本眾議院都結合小選區及比例代表的並立設計，最相近但席次及細節不同。",
+    "options": {
+      "A": "英國下院以單一選區相對多數為主，沒有相同政黨比例並立。",
+      "B": "日本眾議院兼小選區與比例代表，結構較近。",
+      "C": "法國國民議會兩輪單一選區投票，非同類並立。",
+      "D": "美國聯邦國會主要選區選舉，不採臺灣同類政黨比例名單。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-7": {
+    "summary": "按104年年齡規定，直轄市長30、鄉鎮市長26、一般民代里長23、總統40；所以26歲可參選鄉長。",
+    "options": {
+      "A": "28未達直轄市長30歲門檻。",
+      "B": "20未達當年村里長23歲門檻，不能只看選舉權年齡。",
+      "C": "30未達總統副總統40歲。",
+      "D": "26歲符合鄉長最低年齡，其他資格另論。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "公職人員選舉罷免法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-8": {
+    "summary": "教民眾理解公投程序與意義，是政黨政治教育功能。",
+    "options": {
+      "A": "未說收集意見或形成政策方案。",
+      "B": "並未訓練候選人或政治人才。",
+      "C": "提供政治知識、促進理解參與，正是政治教育。",
+      "D": "公投不是選政府職位，不能直接稱選舉組政府。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-9": {
+    "summary": "兩制度都有依法啟動或請求解散國會的機制，但正式決定權及條件依憲制而異，不能理解行政首長可隨時自行解散。",
+    "options": {
+      "A": "英國元首為虛位君主，非法國總統同樣實權。",
+      "B": "以政治制度一般比較，均有由行政端請求或行使解散的安排。",
+      "C": "法國也有副署及其例外，不能說混合制完全沒有。",
+      "D": "覆議不是內閣制獨有而混合制必無的制度。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-10": {
+    "summary": "多黨內閣制中單黨不易過半，政黨常結盟以取得國會支持，形成聯合政府。",
+    "options": {
+      "A": "左右共治是混合制總統與總理分屬陣營的特定現象。",
+      "B": "多黨共同組成內閣、維持多數，是聯合政府。",
+      "C": "兩輪投票是選制，不能單憑多黨內閣制必推出。",
+      "D": "覆議是機關間再議機制，非多黨組閣的主要結果。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-11": {
+    "summary": "直接民主是公民自己決定議題，公投屬其方式；選代表再由代表決策為間接民主。",
+    "options": {
+      "A": "直接選代議士仍是選代表，之後由代表治理，屬間接民主。",
+      "B": "代議有民意落差風險，不能保證高度完全代表。",
+      "C": "古雅典通常是直接民主的教材典型，不是間接。",
+      "D": "公投讓人民對議題直接投票，符合直接民主。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-12": {
+    "summary": "即使候選人有個人魅力，依法選舉取得職位的統治正當性，按題意屬合法理性型。",
+    "options": {
+      "A": "傳統型依世襲、習俗等正當性，非本題選舉程序。",
+      "B": "魅力可帶來支持，但題意最終以制度選舉取得職權。",
+      "C": "合法理性型重依法定制度授權，符合選舉上任。",
+      "D": "沒有世襲或傳統秩序支配的線索，不能加入傳統型。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-13": {
+    "summary": "立法院議決國家法律與預算，行政院負責提案執行；部長和行政院長並無一般立院任命同意程序。",
+    "options": {
+      "A": "法律案與預算案由立法院依法審議，符合分權。",
+      "B": "院長不能主動自行解散國會，須特定不信任程序與總統決定。",
+      "C": "法務部長由院長提請總統任命，非須立院同意。",
+      "D": "行政院長由總統任命，不須立院同意。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-14": {
+    "summary": "官方列C②③。但③「一般性」若依業務範圍分類有疑義：紅十字有特定人道任務，且ICRC自身說明其法律地位特殊，不能把教材簡化當唯一分類。",
+    "options": {
+      "A": "①區域性不合其全球行動範圍，②僅是傳統教材的非政府分類。",
+      "B": "①仍不對；④專門人道工作在業務分類有道理，但缺題目所採②。",
+      "C": "按官方配對選②③；③不宜背為涵蓋所有國際事務的一般組織，需留意分類用語不清。",
+      "D": "③有上述疑義，且欠官方所採非政府屬性；ICRC不是一般政府間組織。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "ICRC：人道任務及特殊法律地位",
+        "url": "https://www.icrc.org/en/about-who-we-are"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-15": {
+    "summary": "104年舊制以大法官會議作釋憲，並可附不同意見；111年起憲法訴訟法改由憲法法庭裁判。",
+    "options": {
+      "A": "我國以集中憲法審查為主，不是普通法院皆可作最終違憲宣告的分散模式。",
+      "B": "憲法審查由司法院大法官體系，不是最高法院專責。",
+      "C": "依104年一般釋憲舊制此說不精確；現今111年後則以憲法法庭運作，注意時點。",
+      "D": "允許不同意見書呈現法理分歧，符合大法官釋憲制度。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "司法院：憲法法庭新舊制度與言詞辯論",
+        "url": "https://www.judicial.gov.tw/tw/lp-1654-1-xCat-30-1-40.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-16": {
+    "summary": "還的是同種類、品質、數量的衛生紙，不是用過那包原物，因此是消費借貸。",
+    "options": {
+      "A": "租賃須支付租金取得使用，本題未有租金。",
+      "B": "買賣須價金與所有權交換，不是約定還同款紙。",
+      "C": "可消耗物交付後還等量同類物，為消費借貸。",
+      "D": "使用借貸應返還原物，如借書還同一本；衛生紙用掉無法原物返還。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-17": {
+    "summary": "收養須書面並聲請法院認可，欠法定形式可能不生效力；一般動產買賣不一定要書面。",
+    "options": {
+      "A": "汽車買賣合意原則可成立，移轉登記等另論，非必因沒書面無效。",
+      "B": "收養有書面與法院認可要求，不能只口頭成立。",
+      "C": "婚約不是結婚的必要前提，可未訂婚直接依法結婚。",
+      "D": "繼承依法開始，不需每位繼承人書面向法院申請才取得。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-18": {
+    "summary": "著作權包含人格權與財產權，創作完成原則即享有，保護表達而非抽象思想。",
+    "options": {
+      "A": "憲法、法律、命令等依法不得為著作權標的。",
+      "B": "思想、概念、原理本身不在保護範圍，受保護的是具體表達。",
+      "C": "人格權保障姓名、完整性等，財產權管重製等利用。",
+      "D": "不採申請登記才取得著作權的原則。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "著作權法（權利與合理使用）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=J0070017"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-19": {
+    "summary": "拘票可由法官或檢察官依法簽發；押票、搜索票、保護令則由法院體系依法核發，緊急搜索等例外另論。",
+    "options": {
+      "A": "保護令由法院核發，不由警方自行決定。",
+      "B": "檢察官偵查時可依法發拘票，因此不一定是法官。",
+      "C": "羈押須法院裁定並簽押票，檢察官僅得聲請。",
+      "D": "搜索票原則由法官核發，檢察官通常須聲請，不是自行簽票。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-20": {
+    "summary": "針對犯罪人矯正、教育使其不再犯，是特別預防；對一般大眾嚇阻為一般預防。",
+    "options": {
+      "A": "應報著重對已犯行為給予相當報應。",
+      "B": "使特定受刑人復歸、降低再犯，符合特別預防。",
+      "C": "一般預防重社會大眾的守法、嚇阻，不是個別矯正。",
+      "D": "刑法謙抑重刑罰作最後手段，非本段矯正目標的分類。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑法（緊急避難、緩刑等）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-21": {
+    "summary": "公司合併屬結合行為，主管機關審查是否限制競爭；不是任何合併都禁止。",
+    "options": {
+      "A": "兩公司整合經營控制，是結合，可能須申報審查。",
+      "B": "聯合行為是事業協議共同行動，如聯合定價，與合併不同。",
+      "C": "獨占是市場地位及其行為規範，不等於一切合併本身。",
+      "D": "不公平競爭另含不實廣告等，本題具體是結合。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-22": {
+    "summary": "自由心證讓法官依法以邏輯、經驗判斷證據證明力，不是任憑直覺或喜好定罪。",
+    "options": {
+      "A": "罪疑惟輕處理無法排除疑義時如何作有利被告判斷。",
+      "B": "無罪推定保障證明有罪前的地位，非證明力評價名稱。",
+      "C": "法官依經驗與論理法則評價證據，為自由心證。",
+      "D": "證據排除處理違法證據能否使用，與已合法證據可信度不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-23": {
+    "summary": "隱形眼鏡涉及醫療器材安全，許可與販售管制為保護健康；罰鍰不是刑法罰金。",
+    "options": {
+      "A": "契約自由須受健康安全管制，不是立此限制的主要目的。",
+      "B": "避免不合格醫材危害眼睛，保障民眾健康。",
+      "C": "題述罰鍰為行政制裁，不能當國家刑罰。",
+      "D": "稅費收入不是醫材許可與處罰的主要正當目的。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-24": {
+    "summary": "公務員認為已依原退休制度安排人生，主張制度變動應兼顧合理信賴，屬信賴保護；並非所有改革都因此違法。",
+    "options": {
+      "A": "明確性重法條可理解預見，不是依賴原制度的期待。",
+      "B": "必要性檢查有無更小侵害手段，非此引文直接主張。",
+      "C": "誠信相關但較廣，對既有法制合理期待的專名是信賴保護。",
+      "D": "依原制度形成值得保護信賴，改革須衡量公益與過渡安排。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-25": {
+    "summary": "終身禁止再任教師，未留改正後合理重返機會，限制工作權逾必要程度，違反比例原則。",
+    "options": {
+      "A": "手段過度侵害、未作適當差別與條件安排，是比例問題。",
+      "B": "非主要討論原制度信賴或過渡期。",
+      "C": "有法律規定仍可能過度限制，問題不僅有無法律授權。",
+      "D": "不是政府背棄具體承諾，不能只用誠信概括。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "釋字702：終身禁止再任教師與比例原則",
+        "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310883"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-26": {
+    "summary": "司法院正副院長包括在15名大法官內；總統提名、立院同意，任期原則8年不得連任，院長另有不受任期保障規定。",
+    "options": {
+      "A": "提名者應為總統，同意者為立法院，不是行政院長與總統。",
+      "B": "正副院長由大法官兼任，具大法官身分。",
+      "C": "104年一般釋憲仍為大法官會議，111年後法庭新制另論。",
+      "D": "不得連任，不是連選連任；大法官也非民選產生。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      },
+      {
+        "title": "司法院：憲法法庭新舊制度與言詞辯論",
+        "url": "https://www.judicial.gov.tw/tw/lp-1654-1-xCat-30-1-40.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-27": {
+    "summary": "稀少資源用於一事便失去另一最佳用途，即使免費也有時間等機會成本。",
+    "options": {
+      "A": "被放棄的最佳替代利益，就是此俗語核心。",
+      "B": "社會成本包含私人與外部成本，非每項選擇代價的同義。",
+      "C": "邊際效益是多消費一單位多得的好處。",
+      "D": "價格機能是市場協調機制，未涵蓋無價但有代價的活動。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-28": {
+    "summary": "無交易成本等簡化假設下，國際價應落在兩國自給價500至600間，端點可在供需特殊情況成立；選項僅600符合區間，不能推必然等於600。",
+    "options": {
+      "A": "450低於兩國自給價，不能作題定互利均衡區間答案。",
+      "B": "600是選項中唯一未超出500至600範圍者，實際價仍須總供需。",
+      "C": "650高於兩國自給價，不符題定兩國自由交易的基本推判。",
+      "D": "700更高，不能僅從兩國國內價格推得。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-29": {
+    "summary": "折扣降低價格，其他不變提高消費者購買量，是需求法則，屬供需法則。",
+    "options": {
+      "A": "邊際成本是多生產一單位的成本，不是降售價吸引需求。",
+      "B": "機會成本談放棄最佳替代，非廣告折扣的直接機制。",
+      "C": "低價格通常提高需求量，符合行銷利用的需求反應。",
+      "D": "比較利益談相對機會成本分工，不是店家特賣。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-30": {
+    "summary": "官方更正接受A、D或AD。A二手車本體與D外國生產零件不屬本國當期產出；C買股票本身也是金融交易不計GDP，原選項有概念疑義，不能說首發股款全是GDP。",
+    "options": {
+      "A": "二手車非本期新產出，不重複計入；仲介服務另計。",
+      "B": "店面出租提供本期服務，租金可反映國內產出。",
+      "C": "認購股票是取得金融資產，不等於本期商品服務；相關承銷服務費才另計，雖官方未列C仍應理解此點。",
+      "D": "進口手機零件為外國產出，不計我國產出；進口貿易商在臺附加價值另論。"
+    },
+    "optionVerdicts": {
+      "A": "官方更正：此選項給分。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "官方更正：此選項給分。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "主計總處：GDP與GNI衡量生產附加價值及要素所得",
+        "url": "https://www.dgbas.gov.tw/News_Content.aspx?n=3988&s=102973"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-31": {
+    "summary": "教育增加人的知識技能、生產能力，屬人力資本；不是機器廠房的實物資本。",
+    "options": {
+      "A": "人造資本通常指設備廠房，不是受教育者技能。",
+      "B": "人力資本由教育、訓練等形成，能提升工作能力。",
+      "C": "社會資本重信任、網絡、互惠，非此提升學習能力的直接分類。",
+      "D": "政府效能是施政表現，不是教育投資累積的要素名稱。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-32": {
+    "summary": "二手車賣方較知車況，買方難分好壞而壓低出價，可能使好車退出，形成逆選擇。",
+    "options": {
+      "A": "外部成本是第三人承受損害，非交易雙方資訊差。",
+      "B": "共有財有排他困難與競用問題，非此車況資訊。",
+      "C": "不一定由政府干預造成，市場內資訊差已可導致。",
+      "D": "資訊不對稱使低品質排擠高品質，是逆選擇關鍵。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-33": {
+    "summary": "國際油糧漲價透過大量進口原料傳入國內成本，是輸入性、成本推動通膨。",
+    "options": {
+      "A": "經濟衰退不是題目交代的油糧成本來源。",
+      "B": "未提供央行寬鬆線索，不能自行換成貨幣原因。",
+      "C": "高度依賴國際原料使國際成本上漲容易傳導，符合情境。",
+      "D": "題中主因為國際供給成本，不是國內總需求增加。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-34": {
+    "summary": "貿易開放帶來競爭，競爭力弱的農業等可能受進口衝擊，是題問的隱憂。",
+    "options": {
+      "A": "加入通常建立更穩定貿易規則，不是一般不利往來。",
+      "B": "有申訴機制是利益，不是隱憂。",
+      "C": "加入通常受降稅承諾拘束，不能任意提高關稅，且非題問主要風險。",
+      "D": "弱勢產業須面對價格與效率競爭，可能受衝擊。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-35": {
+    "summary": "採收工資屬投入成本，上升使各價格下願供量減少，供給曲線整條左移。",
+    "options": {
+      "A": "成本提高是供給非價格因素變動，故左移。",
+      "B": "右移表示同價格供更多，與成本增加相反。",
+      "C": "沿線移動由番茄本身售價變引起，不是工資變。",
+      "D": "成本增加既非增供給量，也非沿原曲線移動。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "104-1-36": {
+    "summary": "整句白話：在伊波拉病毒威脅下，未接種的人容易受到疾病侵害。（此為試題句意。）\n\nbe vulnerable to表示容易受……傷害；此句說未接種者較易受疾病侵害，是語言題，非疫苗個別醫療判斷。",
+    "options": {
+      "A": "numerable可計數的，不能描述疾病易感性。",
+      "B": "anonymous匿名的，與健康風險無關。",
+      "C": "insensitive不敏感的，語意非較易受害。",
+      "D": "vulnerable脆弱易受傷害，接to the disease符合句意。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "vulnerable",
+        "partOfSpeech": "adj.",
+        "meaning": "易受傷害的",
+        "usage": "be vulnerable to a disease是容易受疾病侵害的搭配。"
+      },
+      {
+        "word": "inoculate",
+        "partOfSpeech": "v.",
+        "meaning": "接種",
+        "usage": "have been inoculated用完成被動表示已接受接種。"
+      },
+      {
+        "word": "anonymous",
+        "partOfSpeech": "adj.",
+        "meaning": "匿名的",
+        "usage": "anonymous描述身分未公開，不是疾病易感程度。"
+      }
+    ]
+  },
+  "104-1-37": {
+    "summary": "整句白話：依題句：颶風無法預測，因此總造成嚴重傷亡。（這兩個絕對說法並不精確，解析另作區分。）\n\n依題意要用不可預測解釋傷亡，選predictable的否定。但現代颶風可預報，原句not predictable及always都過度絕對，不宜當氣象事實。",
+    "options": {
+      "A": "portable可攜帶的，不是預警能力。",
+      "B": "persistent持續的，不直接說能否事先掌握。",
+      "C": "predictable可預測的，否定後與題定因果最相合。",
+      "D": "premature過早的，不是災害難預測的意思。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "predictable",
+        "partOfSpeech": "adj.",
+        "meaning": "可預測的",
+        "usage": "本題not predictable表不可預測，但原文對颶風的概括過強。"
+      },
+      {
+        "word": "casualty",
+        "partOfSpeech": "n.",
+        "meaning": "傷亡人員",
+        "usage": "severe casualties表示嚴重傷亡，並非單指財產損失。"
+      },
+      {
+        "word": "portable",
+        "partOfSpeech": "adj.",
+        "meaning": "可攜帶的",
+        "usage": "portable修飾容易搬動的設備，不等於可預測。"
+      }
+    ]
+  },
+  "104-1-38": {
+    "summary": "整句白話：Rodriguez先生清楚說：「我喜歡Pilar，她總用笑話讓我開心。」\n\n喜歡Pilar，因笑話使自己振奮開心，cheer someone up最貼切。",
+    "options": {
+      "A": "freaked me out嚇壞我，與喜歡她帶來的快樂相反。",
+      "B": "cheered me up使我開心振作，符合jokes語境。",
+      "C": "chilled me out可說使放鬆，與笑話逗樂相比非本題最直接搭配。",
+      "D": "ended me up不是標準使人開心片語，end up通常指最終處於某狀態。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "cheer up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "使振作；使開心",
+        "usage": "cheered me up把受詞me置於動詞及副詞之間。"
+      },
+      {
+        "word": "freak out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "嚇壞；驚慌",
+        "usage": "freaked me out是嚇到我，與因笑話開心相反。"
+      },
+      {
+        "word": "joke",
+        "partOfSpeech": "n.",
+        "meaning": "笑話",
+        "usage": "with her jokes表示透過說笑話使人心情變好。"
+      }
+    ]
+  },
+  "104-1-39": {
+    "summary": "整句白話：網路正迅速取代電視，成為最受歡迎的家庭娛樂形式。\n\n官方選replacing，表示網路取代電視成最熱門家庭娛樂。D displacing也可有取代義，不能編說它文法不通；此題最佳選詞有近義重疊。",
+    "options": {
+      "A": "應為taking the place of，原片語少the。",
+      "B": "in use of不是此處可作動詞的取代片語。",
+      "C": "replacing可直接受詞the TV，表示替代其原有地位。",
+      "D": "displacing也可指使失去原位、取代，與題意接近；保留官方C，但不將D教成不存在的用法。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "replace",
+        "partOfSpeech": "動詞",
+        "meaning": "取代、替換",
+        "usage": "replace the TV為直接及物用法，不需要再接of。"
+      },
+      {
+        "word": "displace",
+        "partOfSpeech": "v.",
+        "meaning": "使離開原位；取代",
+        "usage": "displace也可表取代，與replace語意有重疊，勿教成一定不合文法。"
+      },
+      {
+        "word": "entertainment",
+        "partOfSpeech": "n.",
+        "meaning": "娛樂",
+        "usage": "home entertainment是家庭娛樂，說網路與電視的用途領域。"
+      }
+    ]
+  },
+  "104-1-40": {
+    "summary": "整句白話：在這個小鎮四處移動，最方便的方式是騎機車。\n\nget around a town表示在城鎮各處移動，騎機車為交通方式。",
+    "options": {
+      "A": "get on是上車或進展，不直接表在全鎮移動。",
+      "B": "above在上方，非get表示遊走的搭配。",
+      "C": "get at可指暗示、接近，不是此鎮內交通表達。",
+      "D": "get around表示四處走動、往來，與scooter相合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "get around",
+        "partOfSpeech": "動詞片語",
+        "meaning": "四處移動；往來",
+        "usage": "get around town表示在城鎮內不同地方移動。"
+      },
+      {
+        "word": "scooter",
+        "partOfSpeech": "n.",
+        "meaning": "機車；速克達",
+        "usage": "ride a scooter是騎機車，提供在鎮內移動方式。"
+      },
+      {
+        "word": "convenient",
+        "partOfSpeech": "adj.",
+        "meaning": "方便的",
+        "usage": "the most convenient way說明所有方式中最便利者。"
+      }
+    ]
+  },
+  "104-1-41": {
+    "summary": "set out出發，Before為介系詞，後用setting out，先確認坐姿才出發。",
+    "options": {
+      "A": "reaching out伸出、接觸，不是推輪椅出發的情境。",
+      "B": "setting out表示啟程，搭Before動名詞。",
+      "C": "stretching out伸展身體，不是行程開始。",
+      "D": "pointing out指出事情，後通常需指出的內容。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "wheelchair",
+        "partOfSpeech": "n.",
+        "meaning": "輪椅",
+        "usage": "push a wheelchair是協助乘坐者移動的活動。"
+      },
+      {
+        "word": "set out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "出發",
+        "usage": "Before setting out用動名詞，表示啟程前先檢查。"
+      },
+      {
+        "word": "situated",
+        "partOfSpeech": "adj.",
+        "meaning": "位於；安置好的",
+        "usage": "rider is situated well指乘客坐姿位置穩妥。"
+      },
+      {
+        "word": "balance",
+        "partOfSpeech": "n.",
+        "meaning": "平衡",
+        "usage": "keep balance steady是移動時維持穩定。"
+      },
+      {
+        "word": "footrest",
+        "partOfSpeech": "n.",
+        "meaning": "腳踏板",
+        "usage": "腳放footrests上可避免拖地，複數因兩腳支撐。"
+      },
+      {
+        "word": "drag",
+        "partOfSpeech": "v.",
+        "meaning": "拖行",
+        "usage": "feet drag on the ground是腳擦著地面拖動。"
+      },
+      {
+        "word": "brake",
+        "partOfSpeech": "n.",
+        "meaning": "煞車",
+        "usage": "release the brakes為解除煞車，才能推動前進。"
+      },
+      {
+        "word": "en route",
+        "partOfSpeech": "副詞片語",
+        "meaning": "在途中",
+        "usage": "en route引出行進時還要注意的危險。"
+      },
+      {
+        "word": "bump",
+        "partOfSpeech": "n.",
+        "meaning": "顛簸處；凸起",
+        "usage": "bumps in the path是路面不平，需放慢速度。"
+      },
+      {
+        "word": "in case",
+        "partOfSpeech": "連接片語",
+        "meaning": "以防；萬一",
+        "usage": "in case bumps appear用可能情況解釋預防動作。"
+      },
+      {
+        "word": "toddler",
+        "partOfSpeech": "n.",
+        "meaning": "學步幼兒",
+        "usage": "toddler可能突然走進前方，與teenager年齡不同。"
+      },
+      {
+        "word": "come to a stop",
+        "partOfSpeech": "動詞片語",
+        "meaning": "停下來",
+        "usage": "come to a sudden stop是因突發障礙急停。"
+      },
+      {
+        "word": "mishap",
+        "partOfSpeech": "n.",
+        "meaning": "小意外；不幸事故",
+        "usage": "without mishaps表示一路平安抵達，非保證絕無風險。"
+      }
+    ]
+  },
+  "104-1-42": {
+    "summary": "腳放穩踏板以免在地面拖行，drag是拖曳。",
+    "options": {
+      "A": "drag on the ground在地上拖行，符合腳離踏板的風險。",
+      "B": "pull拉通常須主動拉某物，未表腳底拖地。",
+      "C": "walk走路與乘客坐輪椅不合。",
+      "D": "trip絆倒常指人失足，這裡說腳在地面拖擦，drag更精確。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "wheelchair",
+        "partOfSpeech": "n.",
+        "meaning": "輪椅",
+        "usage": "push a wheelchair是協助乘坐者移動的活動。"
+      },
+      {
+        "word": "set out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "出發",
+        "usage": "Before setting out用動名詞，表示啟程前先檢查。"
+      },
+      {
+        "word": "situated",
+        "partOfSpeech": "adj.",
+        "meaning": "位於；安置好的",
+        "usage": "rider is situated well指乘客坐姿位置穩妥。"
+      },
+      {
+        "word": "balance",
+        "partOfSpeech": "n.",
+        "meaning": "平衡",
+        "usage": "keep balance steady是移動時維持穩定。"
+      },
+      {
+        "word": "footrest",
+        "partOfSpeech": "n.",
+        "meaning": "腳踏板",
+        "usage": "腳放footrests上可避免拖地，複數因兩腳支撐。"
+      },
+      {
+        "word": "drag",
+        "partOfSpeech": "v.",
+        "meaning": "拖行",
+        "usage": "feet drag on the ground是腳擦著地面拖動。"
+      },
+      {
+        "word": "brake",
+        "partOfSpeech": "n.",
+        "meaning": "煞車",
+        "usage": "release the brakes為解除煞車，才能推動前進。"
+      },
+      {
+        "word": "en route",
+        "partOfSpeech": "副詞片語",
+        "meaning": "在途中",
+        "usage": "en route引出行進時還要注意的危險。"
+      },
+      {
+        "word": "bump",
+        "partOfSpeech": "n.",
+        "meaning": "顛簸處；凸起",
+        "usage": "bumps in the path是路面不平，需放慢速度。"
+      },
+      {
+        "word": "in case",
+        "partOfSpeech": "連接片語",
+        "meaning": "以防；萬一",
+        "usage": "in case bumps appear用可能情況解釋預防動作。"
+      },
+      {
+        "word": "toddler",
+        "partOfSpeech": "n.",
+        "meaning": "學步幼兒",
+        "usage": "toddler可能突然走進前方，與teenager年齡不同。"
+      },
+      {
+        "word": "come to a stop",
+        "partOfSpeech": "動詞片語",
+        "meaning": "停下來",
+        "usage": "come to a sudden stop是因突發障礙急停。"
+      },
+      {
+        "word": "mishap",
+        "partOfSpeech": "n.",
+        "meaning": "小意外；不幸事故",
+        "usage": "without mishaps表示一路平安抵達，非保證絕無風險。"
+      }
+    ]
+  },
+  "104-1-43": {
+    "summary": "不要太快，以防路面有顛簸，in case引導預防可能情況。",
+    "options": {
+      "A": "if so若是這樣，需承接前一條件，不能直接接此預防子句。",
+      "B": "and then然後，只表先後，未表預防。",
+      "C": "in case以防、萬一，解釋為何須控制速度。",
+      "D": "although雖然表讓步，不是還未發生障礙的預防。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "wheelchair",
+        "partOfSpeech": "n.",
+        "meaning": "輪椅",
+        "usage": "push a wheelchair是協助乘坐者移動的活動。"
+      },
+      {
+        "word": "set out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "出發",
+        "usage": "Before setting out用動名詞，表示啟程前先檢查。"
+      },
+      {
+        "word": "situated",
+        "partOfSpeech": "adj.",
+        "meaning": "位於；安置好的",
+        "usage": "rider is situated well指乘客坐姿位置穩妥。"
+      },
+      {
+        "word": "balance",
+        "partOfSpeech": "n.",
+        "meaning": "平衡",
+        "usage": "keep balance steady是移動時維持穩定。"
+      },
+      {
+        "word": "footrest",
+        "partOfSpeech": "n.",
+        "meaning": "腳踏板",
+        "usage": "腳放footrests上可避免拖地，複數因兩腳支撐。"
+      },
+      {
+        "word": "drag",
+        "partOfSpeech": "v.",
+        "meaning": "拖行",
+        "usage": "feet drag on the ground是腳擦著地面拖動。"
+      },
+      {
+        "word": "brake",
+        "partOfSpeech": "n.",
+        "meaning": "煞車",
+        "usage": "release the brakes為解除煞車，才能推動前進。"
+      },
+      {
+        "word": "en route",
+        "partOfSpeech": "副詞片語",
+        "meaning": "在途中",
+        "usage": "en route引出行進時還要注意的危險。"
+      },
+      {
+        "word": "bump",
+        "partOfSpeech": "n.",
+        "meaning": "顛簸處；凸起",
+        "usage": "bumps in the path是路面不平，需放慢速度。"
+      },
+      {
+        "word": "in case",
+        "partOfSpeech": "連接片語",
+        "meaning": "以防；萬一",
+        "usage": "in case bumps appear用可能情況解釋預防動作。"
+      },
+      {
+        "word": "toddler",
+        "partOfSpeech": "n.",
+        "meaning": "學步幼兒",
+        "usage": "toddler可能突然走進前方，與teenager年齡不同。"
+      },
+      {
+        "word": "come to a stop",
+        "partOfSpeech": "動詞片語",
+        "meaning": "停下來",
+        "usage": "come to a sudden stop是因突發障礙急停。"
+      },
+      {
+        "word": "mishap",
+        "partOfSpeech": "n.",
+        "meaning": "小意外；不幸事故",
+        "usage": "without mishaps表示一路平安抵達，非保證絕無風險。"
+      }
+    ]
+  },
+  "104-1-44": {
+    "summary": "tennis shoe laces是網球鞋鞋帶，少年可能停下來綁。",
+    "options": {
+      "A": "ball球不會有供腳上繫的鞋帶。",
+      "B": "racket球拍不是tennis shoe laces的搭配。",
+      "C": "shoe與laces組成鞋帶，tennis shoe為網球鞋。",
+      "D": "game比賽也不是可繫帶的物件。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "wheelchair",
+        "partOfSpeech": "n.",
+        "meaning": "輪椅",
+        "usage": "push a wheelchair是協助乘坐者移動的活動。"
+      },
+      {
+        "word": "set out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "出發",
+        "usage": "Before setting out用動名詞，表示啟程前先檢查。"
+      },
+      {
+        "word": "situated",
+        "partOfSpeech": "adj.",
+        "meaning": "位於；安置好的",
+        "usage": "rider is situated well指乘客坐姿位置穩妥。"
+      },
+      {
+        "word": "balance",
+        "partOfSpeech": "n.",
+        "meaning": "平衡",
+        "usage": "keep balance steady是移動時維持穩定。"
+      },
+      {
+        "word": "footrest",
+        "partOfSpeech": "n.",
+        "meaning": "腳踏板",
+        "usage": "腳放footrests上可避免拖地，複數因兩腳支撐。"
+      },
+      {
+        "word": "drag",
+        "partOfSpeech": "v.",
+        "meaning": "拖行",
+        "usage": "feet drag on the ground是腳擦著地面拖動。"
+      },
+      {
+        "word": "brake",
+        "partOfSpeech": "n.",
+        "meaning": "煞車",
+        "usage": "release the brakes為解除煞車，才能推動前進。"
+      },
+      {
+        "word": "en route",
+        "partOfSpeech": "副詞片語",
+        "meaning": "在途中",
+        "usage": "en route引出行進時還要注意的危險。"
+      },
+      {
+        "word": "bump",
+        "partOfSpeech": "n.",
+        "meaning": "顛簸處；凸起",
+        "usage": "bumps in the path是路面不平，需放慢速度。"
+      },
+      {
+        "word": "in case",
+        "partOfSpeech": "連接片語",
+        "meaning": "以防；萬一",
+        "usage": "in case bumps appear用可能情況解釋預防動作。"
+      },
+      {
+        "word": "toddler",
+        "partOfSpeech": "n.",
+        "meaning": "學步幼兒",
+        "usage": "toddler可能突然走進前方，與teenager年齡不同。"
+      },
+      {
+        "word": "come to a stop",
+        "partOfSpeech": "動詞片語",
+        "meaning": "停下來",
+        "usage": "come to a sudden stop是因突發障礙急停。"
+      },
+      {
+        "word": "mishap",
+        "partOfSpeech": "n.",
+        "meaning": "小意外；不幸事故",
+        "usage": "without mishaps表示一路平安抵達，非保證絕無風險。"
+      }
+    ]
+  },
+  "104-1-45": {
+    "summary": "有人突然擋在前面，需要急停，come to a sudden stop表示突然停住。",
+    "options": {
+      "A": "later較晚的，不是即刻避讓行人的停法。",
+      "B": "sudden突然的，與suddenly及突發障礙呼應。",
+      "C": "false假的，不能表真實停止。",
+      "D": "heavy沉重的，不是此處stop的自然搭配。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "wheelchair",
+        "partOfSpeech": "n.",
+        "meaning": "輪椅",
+        "usage": "push a wheelchair是協助乘坐者移動的活動。"
+      },
+      {
+        "word": "set out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "出發",
+        "usage": "Before setting out用動名詞，表示啟程前先檢查。"
+      },
+      {
+        "word": "situated",
+        "partOfSpeech": "adj.",
+        "meaning": "位於；安置好的",
+        "usage": "rider is situated well指乘客坐姿位置穩妥。"
+      },
+      {
+        "word": "balance",
+        "partOfSpeech": "n.",
+        "meaning": "平衡",
+        "usage": "keep balance steady是移動時維持穩定。"
+      },
+      {
+        "word": "footrest",
+        "partOfSpeech": "n.",
+        "meaning": "腳踏板",
+        "usage": "腳放footrests上可避免拖地，複數因兩腳支撐。"
+      },
+      {
+        "word": "drag",
+        "partOfSpeech": "v.",
+        "meaning": "拖行",
+        "usage": "feet drag on the ground是腳擦著地面拖動。"
+      },
+      {
+        "word": "brake",
+        "partOfSpeech": "n.",
+        "meaning": "煞車",
+        "usage": "release the brakes為解除煞車，才能推動前進。"
+      },
+      {
+        "word": "en route",
+        "partOfSpeech": "副詞片語",
+        "meaning": "在途中",
+        "usage": "en route引出行進時還要注意的危險。"
+      },
+      {
+        "word": "bump",
+        "partOfSpeech": "n.",
+        "meaning": "顛簸處；凸起",
+        "usage": "bumps in the path是路面不平，需放慢速度。"
+      },
+      {
+        "word": "in case",
+        "partOfSpeech": "連接片語",
+        "meaning": "以防；萬一",
+        "usage": "in case bumps appear用可能情況解釋預防動作。"
+      },
+      {
+        "word": "toddler",
+        "partOfSpeech": "n.",
+        "meaning": "學步幼兒",
+        "usage": "toddler可能突然走進前方，與teenager年齡不同。"
+      },
+      {
+        "word": "come to a stop",
+        "partOfSpeech": "動詞片語",
+        "meaning": "停下來",
+        "usage": "come to a sudden stop是因突發障礙急停。"
+      },
+      {
+        "word": "mishap",
+        "partOfSpeech": "n.",
+        "meaning": "小意外；不幸事故",
+        "usage": "without mishaps表示一路平安抵達，非保證絕無風險。"
+      }
+    ]
+  },
+  "104-1-46": {
+    "summary": "宗教信徒到耶路撒冷、麥加等地朝聖，這種旅程叫pilgrimage。",
+    "options": {
+      "A": "pilgrimage朝聖，對應religious pilgrims。",
+      "B": "pleasure trip遊樂旅行，未呈現宗教信仰目的。",
+      "C": "performance表演，不是旅程類型。",
+      "D": "general tour一般行程，文章將其與宗教專門行程區分。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "specialized",
+        "partOfSpeech": "adj.",
+        "meaning": "專門化的",
+        "usage": "specialized tours針對特定興趣安排，非一般走馬看花。"
+      },
+      {
+        "word": "heritage site",
+        "partOfSpeech": "n.",
+        "meaning": "文化遺產景點",
+        "usage": "一般行程快速走訪heritage sites，與深度主題旅遊對比。"
+      },
+      {
+        "word": "innovative",
+        "partOfSpeech": "adj.",
+        "meaning": "創新的",
+        "usage": "innovative agencies設計新型態旅程滿足不同需求。"
+      },
+      {
+        "word": "itinerary",
+        "partOfSpeech": "n.",
+        "meaning": "旅程；行程表",
+        "usage": "itineraries列旅行路線及活動，不是門票本身。"
+      },
+      {
+        "word": "pilgrimage",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖之旅",
+        "usage": "宗教信徒前往聖地的旅程可稱pilgrimage。"
+      },
+      {
+        "word": "pilgrim",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖者",
+        "usage": "religious pilgrims指以信仰為目的旅行的人。"
+      },
+      {
+        "word": "naturalist",
+        "partOfSpeech": "n.",
+        "meaning": "自然研究者",
+        "usage": "Charles Darwin為自然研究者，非單指喜歡自然的遊客。"
+      },
+      {
+        "word": "retrace",
+        "partOfSpeech": "v.",
+        "meaning": "重走；循原路回溯",
+        "usage": "retrace voyages是沿著歷史航路再旅行。"
+      },
+      {
+        "word": "distinguish",
+        "partOfSpeech": "v.",
+        "meaning": "區分；辨識",
+        "usage": "distinguish species與identify接近，不是種植。"
+      },
+      {
+        "word": "wetland",
+        "partOfSpeech": "n.",
+        "meaning": "濕地",
+        "usage": "preserved wetlands為受到保護的濕地生態環境。"
+      },
+      {
+        "word": "cemetery",
+        "partOfSpeech": "n.",
+        "meaning": "墓園",
+        "usage": "cemeteries與tombs支持burial site為黑暗旅遊例子。"
+      },
+      {
+        "word": "prison",
+        "partOfSpeech": "n.",
+        "meaning": "監獄",
+        "usage": "political prisoners曾被關在prisons，與政治集會不同。"
+      },
+      {
+        "word": "imprison",
+        "partOfSpeech": "v.",
+        "meaning": "監禁",
+        "usage": "were imprisoned為被動，指人被關押於監獄。"
+      },
+      {
+        "word": "burial site",
+        "partOfSpeech": "n.",
+        "meaning": "墓葬地",
+        "usage": "burial site與文章墓園、墳墓直接對應。"
+      }
+    ]
+  },
+  "104-1-47": {
+    "summary": "達爾文是自然研究者，重走航程用來觀察特別自然物種。",
+    "options": {
+      "A": "歷史博物館未在此達爾文航程段落出現。",
+      "B": "natural species自然物種，最合自然學家的觀察目的。",
+      "C": "海岸度假村重休閒住宿，非重走自然研究航路的重點。",
+      "D": "高科技港口非達爾文自然觀察與島嶼物種的主題。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "specialized",
+        "partOfSpeech": "adj.",
+        "meaning": "專門化的",
+        "usage": "specialized tours針對特定興趣安排，非一般走馬看花。"
+      },
+      {
+        "word": "heritage site",
+        "partOfSpeech": "n.",
+        "meaning": "文化遺產景點",
+        "usage": "一般行程快速走訪heritage sites，與深度主題旅遊對比。"
+      },
+      {
+        "word": "innovative",
+        "partOfSpeech": "adj.",
+        "meaning": "創新的",
+        "usage": "innovative agencies設計新型態旅程滿足不同需求。"
+      },
+      {
+        "word": "itinerary",
+        "partOfSpeech": "n.",
+        "meaning": "旅程；行程表",
+        "usage": "itineraries列旅行路線及活動，不是門票本身。"
+      },
+      {
+        "word": "pilgrimage",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖之旅",
+        "usage": "宗教信徒前往聖地的旅程可稱pilgrimage。"
+      },
+      {
+        "word": "pilgrim",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖者",
+        "usage": "religious pilgrims指以信仰為目的旅行的人。"
+      },
+      {
+        "word": "naturalist",
+        "partOfSpeech": "n.",
+        "meaning": "自然研究者",
+        "usage": "Charles Darwin為自然研究者，非單指喜歡自然的遊客。"
+      },
+      {
+        "word": "retrace",
+        "partOfSpeech": "v.",
+        "meaning": "重走；循原路回溯",
+        "usage": "retrace voyages是沿著歷史航路再旅行。"
+      },
+      {
+        "word": "distinguish",
+        "partOfSpeech": "v.",
+        "meaning": "區分；辨識",
+        "usage": "distinguish species與identify接近，不是種植。"
+      },
+      {
+        "word": "wetland",
+        "partOfSpeech": "n.",
+        "meaning": "濕地",
+        "usage": "preserved wetlands為受到保護的濕地生態環境。"
+      },
+      {
+        "word": "cemetery",
+        "partOfSpeech": "n.",
+        "meaning": "墓園",
+        "usage": "cemeteries與tombs支持burial site為黑暗旅遊例子。"
+      },
+      {
+        "word": "prison",
+        "partOfSpeech": "n.",
+        "meaning": "監獄",
+        "usage": "political prisoners曾被關在prisons，與政治集會不同。"
+      },
+      {
+        "word": "imprison",
+        "partOfSpeech": "v.",
+        "meaning": "監禁",
+        "usage": "were imprisoned為被動，指人被關押於監獄。"
+      },
+      {
+        "word": "burial site",
+        "partOfSpeech": "n.",
+        "meaning": "墓葬地",
+        "usage": "burial site與文章墓園、墳墓直接對應。"
+      }
+    ]
+  },
+  "104-1-48": {
+    "summary": "distinguish plant and insect life是辨識種類，與identifying同義。",
+    "options": {
+      "A": "cultivating栽培，文中不是教種植。",
+      "B": "planting種下植物，與看出物種差異不同。",
+      "C": "identifying辨識，直接對應distinguish。",
+      "D": "hybridizing雜交培育，遠超文章生態辨識教學。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "specialized",
+        "partOfSpeech": "adj.",
+        "meaning": "專門化的",
+        "usage": "specialized tours針對特定興趣安排，非一般走馬看花。"
+      },
+      {
+        "word": "heritage site",
+        "partOfSpeech": "n.",
+        "meaning": "文化遺產景點",
+        "usage": "一般行程快速走訪heritage sites，與深度主題旅遊對比。"
+      },
+      {
+        "word": "innovative",
+        "partOfSpeech": "adj.",
+        "meaning": "創新的",
+        "usage": "innovative agencies設計新型態旅程滿足不同需求。"
+      },
+      {
+        "word": "itinerary",
+        "partOfSpeech": "n.",
+        "meaning": "旅程；行程表",
+        "usage": "itineraries列旅行路線及活動，不是門票本身。"
+      },
+      {
+        "word": "pilgrimage",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖之旅",
+        "usage": "宗教信徒前往聖地的旅程可稱pilgrimage。"
+      },
+      {
+        "word": "pilgrim",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖者",
+        "usage": "religious pilgrims指以信仰為目的旅行的人。"
+      },
+      {
+        "word": "naturalist",
+        "partOfSpeech": "n.",
+        "meaning": "自然研究者",
+        "usage": "Charles Darwin為自然研究者，非單指喜歡自然的遊客。"
+      },
+      {
+        "word": "retrace",
+        "partOfSpeech": "v.",
+        "meaning": "重走；循原路回溯",
+        "usage": "retrace voyages是沿著歷史航路再旅行。"
+      },
+      {
+        "word": "distinguish",
+        "partOfSpeech": "v.",
+        "meaning": "區分；辨識",
+        "usage": "distinguish species與identify接近，不是種植。"
+      },
+      {
+        "word": "wetland",
+        "partOfSpeech": "n.",
+        "meaning": "濕地",
+        "usage": "preserved wetlands為受到保護的濕地生態環境。"
+      },
+      {
+        "word": "cemetery",
+        "partOfSpeech": "n.",
+        "meaning": "墓園",
+        "usage": "cemeteries與tombs支持burial site為黑暗旅遊例子。"
+      },
+      {
+        "word": "prison",
+        "partOfSpeech": "n.",
+        "meaning": "監獄",
+        "usage": "political prisoners曾被關在prisons，與政治集會不同。"
+      },
+      {
+        "word": "imprison",
+        "partOfSpeech": "v.",
+        "meaning": "監禁",
+        "usage": "were imprisoned為被動，指人被關押於監獄。"
+      },
+      {
+        "word": "burial site",
+        "partOfSpeech": "n.",
+        "meaning": "墓葬地",
+        "usage": "burial site與文章墓園、墳墓直接對應。"
+      }
+    ]
+  },
+  "104-1-49": {
+    "summary": "文章明列cemeteries及tombs，burial site墓葬地有直接證據；其他地方也可能屬廣義黑暗旅遊，但此題要依文章。",
+    "options": {
+      "A": "中世紀城堡未被列出，不能只因古老就推出。",
+      "B": "burial site指埋葬場所，對應墓園與名人墓。",
+      "C": "政治集會不是關政治犯的監獄，勿被political帶偏。",
+      "D": "戰場也可屬廣義黑暗旅遊，卻不是本文所列目的地，故非最佳文章答案。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "specialized",
+        "partOfSpeech": "adj.",
+        "meaning": "專門化的",
+        "usage": "specialized tours針對特定興趣安排，非一般走馬看花。"
+      },
+      {
+        "word": "heritage site",
+        "partOfSpeech": "n.",
+        "meaning": "文化遺產景點",
+        "usage": "一般行程快速走訪heritage sites，與深度主題旅遊對比。"
+      },
+      {
+        "word": "innovative",
+        "partOfSpeech": "adj.",
+        "meaning": "創新的",
+        "usage": "innovative agencies設計新型態旅程滿足不同需求。"
+      },
+      {
+        "word": "itinerary",
+        "partOfSpeech": "n.",
+        "meaning": "旅程；行程表",
+        "usage": "itineraries列旅行路線及活動，不是門票本身。"
+      },
+      {
+        "word": "pilgrimage",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖之旅",
+        "usage": "宗教信徒前往聖地的旅程可稱pilgrimage。"
+      },
+      {
+        "word": "pilgrim",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖者",
+        "usage": "religious pilgrims指以信仰為目的旅行的人。"
+      },
+      {
+        "word": "naturalist",
+        "partOfSpeech": "n.",
+        "meaning": "自然研究者",
+        "usage": "Charles Darwin為自然研究者，非單指喜歡自然的遊客。"
+      },
+      {
+        "word": "retrace",
+        "partOfSpeech": "v.",
+        "meaning": "重走；循原路回溯",
+        "usage": "retrace voyages是沿著歷史航路再旅行。"
+      },
+      {
+        "word": "distinguish",
+        "partOfSpeech": "v.",
+        "meaning": "區分；辨識",
+        "usage": "distinguish species與identify接近，不是種植。"
+      },
+      {
+        "word": "wetland",
+        "partOfSpeech": "n.",
+        "meaning": "濕地",
+        "usage": "preserved wetlands為受到保護的濕地生態環境。"
+      },
+      {
+        "word": "cemetery",
+        "partOfSpeech": "n.",
+        "meaning": "墓園",
+        "usage": "cemeteries與tombs支持burial site為黑暗旅遊例子。"
+      },
+      {
+        "word": "prison",
+        "partOfSpeech": "n.",
+        "meaning": "監獄",
+        "usage": "political prisoners曾被關在prisons，與政治集會不同。"
+      },
+      {
+        "word": "imprison",
+        "partOfSpeech": "v.",
+        "meaning": "監禁",
+        "usage": "were imprisoned為被動，指人被關押於監獄。"
+      },
+      {
+        "word": "burial site",
+        "partOfSpeech": "n.",
+        "meaning": "墓葬地",
+        "usage": "burial site與文章墓園、墳墓直接對應。"
+      }
+    ]
+  },
+  "104-1-50": {
+    "summary": "作者比較走馬看花與能學到知識的專門行程，語氣較肯定後者，可推偏好specialized tours。",
+    "options": {
+      "A": "未以價錢高低評價行程，不能推偏好昂貴。",
+      "B": "specialized專門興趣旅遊，符合全文例子及結尾重學習。",
+      "C": "ordinary一般旅遊被寫成快看景點購物，非較受肯定。",
+      "D": "business商務旅行未在文章成為偏好對象。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "104 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "104 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "specialized",
+        "partOfSpeech": "adj.",
+        "meaning": "專門化的",
+        "usage": "specialized tours針對特定興趣安排，非一般走馬看花。"
+      },
+      {
+        "word": "heritage site",
+        "partOfSpeech": "n.",
+        "meaning": "文化遺產景點",
+        "usage": "一般行程快速走訪heritage sites，與深度主題旅遊對比。"
+      },
+      {
+        "word": "innovative",
+        "partOfSpeech": "adj.",
+        "meaning": "創新的",
+        "usage": "innovative agencies設計新型態旅程滿足不同需求。"
+      },
+      {
+        "word": "itinerary",
+        "partOfSpeech": "n.",
+        "meaning": "旅程；行程表",
+        "usage": "itineraries列旅行路線及活動，不是門票本身。"
+      },
+      {
+        "word": "pilgrimage",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖之旅",
+        "usage": "宗教信徒前往聖地的旅程可稱pilgrimage。"
+      },
+      {
+        "word": "pilgrim",
+        "partOfSpeech": "n.",
+        "meaning": "朝聖者",
+        "usage": "religious pilgrims指以信仰為目的旅行的人。"
+      },
+      {
+        "word": "naturalist",
+        "partOfSpeech": "n.",
+        "meaning": "自然研究者",
+        "usage": "Charles Darwin為自然研究者，非單指喜歡自然的遊客。"
+      },
+      {
+        "word": "retrace",
+        "partOfSpeech": "v.",
+        "meaning": "重走；循原路回溯",
+        "usage": "retrace voyages是沿著歷史航路再旅行。"
+      },
+      {
+        "word": "distinguish",
+        "partOfSpeech": "v.",
+        "meaning": "區分；辨識",
+        "usage": "distinguish species與identify接近，不是種植。"
+      },
+      {
+        "word": "wetland",
+        "partOfSpeech": "n.",
+        "meaning": "濕地",
+        "usage": "preserved wetlands為受到保護的濕地生態環境。"
+      },
+      {
+        "word": "cemetery",
+        "partOfSpeech": "n.",
+        "meaning": "墓園",
+        "usage": "cemeteries與tombs支持burial site為黑暗旅遊例子。"
+      },
+      {
+        "word": "prison",
+        "partOfSpeech": "n.",
+        "meaning": "監獄",
+        "usage": "political prisoners曾被關在prisons，與政治集會不同。"
+      },
+      {
+        "word": "imprison",
+        "partOfSpeech": "v.",
+        "meaning": "監禁",
+        "usage": "were imprisoned為被動，指人被關押於監獄。"
+      },
+      {
+        "word": "burial site",
+        "partOfSpeech": "n.",
+        "meaning": "墓葬地",
+        "usage": "burial site與文章墓園、墳墓直接對應。"
+      }
+    ]
+  }
+}

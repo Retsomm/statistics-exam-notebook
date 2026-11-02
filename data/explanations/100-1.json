@@ -1,1 +1,2288 @@
-{}
+{
+  "100-1-1": {
+    "summary": "雙方再婚，並帶著各自原有的孩子共同生活，是重組家庭。",
+    "options": {
+      "A": "單親指主要由一位父或母與子女組成，本題已有夫妻共同生活。",
+      "B": "頂客通常指雙薪不生育子女的夫妻，與四位孩子不符。",
+      "C": "隔代家庭重祖父母照顧孫輩，本題未有此結構。",
+      "D": "再婚伴侶及前段關係子女共同組成，正是重組家庭。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-2": {
+    "summary": "大法官依專業資格由總統提名、立法院同意任命，不靠一場大法官國家考試取得職位。其餘以典型考選進用途徑比較。",
+    "options": {
+      "A": "警察通常須經相應國家考試等進用程序。",
+      "B": "一般法官有司法考試培訓等途徑，亦有依法遴選轉任；非每人都僅一種來源。",
+      "C": "大法官沒有專屬考試錄取即任職制度，核心是資格審查、提名同意。",
+      "D": "關務人員通常以相關公務人員考試進用。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-3": {
+    "summary": "題意以海浪造成生命危難考緊急避難，選D。但犧牲他人生命救自己並非一律合法，仍須審查不得已、利益衡量及是否過當。",
+    "options": {
+      "A": "不是依法令執行職務，題中無此授權。",
+      "B": "釣魚者爭救生圈不是正當業務行為。",
+      "C": "正當防衛針對現在不法侵害；此處起因為海浪危險。",
+      "D": "緊急避難處理緊急危難；是否真能阻卻違法，不能省略必要性與生命法益衝突的審查。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑法（緊急避難、緩刑等）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-4": {
+    "summary": "網路美食文字與圖片可能受著作權保障；作業利用須個別判合理使用，上傳公開部落格不因是作業便自動合法。",
+    "options": {
+      "A": "題目未以私密生活曝光為核心，不是主要隱私爭議。",
+      "B": "人格權範圍廣，此處更精確是作品利用權。",
+      "C": "著作權是智慧財產權之一，下載重製、上傳公開傳輸皆須有合法依據。",
+      "D": "人身自由保障身體活動免受不法拘束，與圖片利用不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "著作權法（權利與合理使用）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=J0070017"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-5": {
+    "summary": "總統發布緊急命令須經行政院會議決議，並於發布後10日內提交立法院追認。",
+    "options": {
+      "A": "行政院會議是發布前的決議程序，非題問發布後追認者。",
+      "B": "立法院負追認權，可使緊急命令受民主監督。",
+      "C": "司法院可處理相關司法審查，非10日內政治追認機關。",
+      "D": "監察院監督違失，不負緊急命令追認。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-6": {
+    "summary": "總統副總統罷免案由立法院依特別門檻提出，再交選民投票；不可混為彈劾案。",
+    "options": {
+      "A": "大法官不向人民發動罷免案。",
+      "B": "行政院不具本項罷免提出權。",
+      "C": "增修條文明定立法院提出，並經全國選民投票決定。",
+      "D": "監察院的其他監察職權不包含提出總統罷免。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-7": {
+    "summary": "被害人向檢察官申報自己受侵害並請求追訴，是告訴；向檢察署申告不是直接向法院自訴。",
+    "options": {
+      "A": "本人主張受害並請求偵辦，屬告訴。",
+      "B": "告發通常是第三人陳報犯罪，非本題被害人行使告訴權。",
+      "C": "自訴是依法直接向法院起訴，非到檢察署申告。",
+      "D": "公訴由檢察官向法院提起，不是藝人本人按鈴的名稱。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-8": {
+    "summary": "97年5月23日起採登記婚，須書面、2人以上證人簽名及雙方向戶政機關登記，故②③④。",
+    "options": {
+      "A": "①公開儀式非新制必備，且漏書面登記。",
+      "B": "雖②④對，但①非必要且漏③。",
+      "C": "證人、書面與登記三項符合民法形式要求。",
+      "D": "把舊制公開儀式也列必備，多加條件。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-9": {
+    "summary": "修憲由立法院依高門檻提出並公告，再交自由地區選舉人複決，非總統或行政院自行同意即可。",
+    "options": {
+      "A": "總統公布不能取代公民複決。",
+      "B": "立法院提出與公民投票複決構成現行關鍵程序。",
+      "C": "任務型國大是過去制度，國大已廢除。",
+      "D": "行政院院會沒有取代選民修憲複決的權力。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-10": {
+    "summary": "雙方自行互相讓步，約定醫藥費與不追訴，屬和解；里長陪同不等於法定調解程序。",
+    "options": {
+      "A": "調解須有第三方依相應程序協助，不是凡里長在場皆算調解成立。",
+      "B": "仲裁須有仲裁協議並由仲裁人裁決，未見此事實。",
+      "C": "彼此協議解決爭議、互相讓步，是和解。",
+      "D": "訴願處理行政處分爭議，不是兩人傷害賠償約定。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-11": {
+    "summary": "政府承諾先安置卻逕拆屋，違反應信守承諾、不得前後矛盾的誠信要求。",
+    "options": {
+      "A": "比例原則重手段必要、適當與衡平，本題更直接是背棄承諾。",
+      "B": "明確原則重規範與處分內容清楚，非履約與否。",
+      "C": "平等原則重相同情況相同處理，題中未比較不同居民待遇。",
+      "D": "誠信原則要求行政行為誠實守信，不能任意反覆承諾。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-12": {
+    "summary": "本題考財產權民事案件第三審上訴利益門檻：未超過150萬元原則不得上訴，並非所有民事案件都如此。",
+    "options": {
+      "A": "50萬元不是本題當時調整後的上訴利益門檻。",
+      "B": "條文本身曾以100萬元為基準，但經司法院依授權調高至150萬元，本題問調整後門檻。",
+      "C": "150萬元為所問門檻，須看上訴可得利益，而非只看原起訴金額。",
+      "D": "200萬元把門檻提高，與題定制度不合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "司法院：民事上訴第三審注意事項",
+        "url": "https://www.judicial.gov.tw/tw/lp-1654-1-xCat-01-1-40.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-13": {
+    "summary": "不能用「概不退換」排除商品瑕疵及安全責任；應誠實合理履行交易義務。",
+    "options": {
+      "A": "私法自治不是商家可任意免除所有法定責任。",
+      "B": "契約自由仍受強制規定及誠信限制，不支持一紙告示全面免責。",
+      "C": "有瑕疵卻以告示拒絕處理，違反誠實信用，是題目核心。",
+      "D": "權利濫用亦相關，但本題主要在交易履行不誠信，非特定權利行使的損害衡量。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-14": {
+    "summary": "憲法效力高於法律、命令，低位階牴觸高位階者無效，體現最高性。",
+    "options": {
+      "A": "憲法居法秩序最高位階，是審查其他規範的基準。",
+      "B": "原則性指規範基本大綱，非本題效力優先。",
+      "C": "穩定性指不輕易變更，與位階高低不同。",
+      "D": "固定性不是此法規牴觸效力的正確分類。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-15": {
+    "summary": "政黨是否違憲應解散，須由憲法法庭審理，不能由行政機關任意取締。",
+    "options": {
+      "A": "行政法院處行政爭訟，非政黨違憲解散審判機關。",
+      "B": "憲法法庭是法定處理此項重大憲法案件的審判組織。",
+      "C": "大法官雖參與憲法審判，本題特定組織形式須選憲法法庭。",
+      "D": "公務員懲戒處理公務員違失，不是政黨解散。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-16": {
+    "summary": "民主行政須受國會制定法律拘束，不能只奉黨綱或民調為最高命令。",
+    "options": {
+      "A": "黨綱可作政策方向，但不能牴觸法律。",
+      "B": "民調可供參考，不能取代法定權限與程序。",
+      "C": "黨揆意志亦須受法治拘束，不能當唯一行政依據。",
+      "D": "依法行政尊重國會立法的民主正當性及法律拘束。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-17": {
+    "summary": "教民眾投票證件與正確圈選，是政黨的政治教育功能，不是提名或組閣。",
+    "options": {
+      "A": "匯集民意是收集整合訴求，題中是在教投票方式。",
+      "B": "候選人已產生，未在描述如何提名。",
+      "C": "提供選務知識可提高公民參與能力，屬教育民眾。",
+      "D": "尚未談贏得執政後安排政府職位。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-18": {
+    "summary": "特別法優於普通法處理特別規範；法律位階高於牴觸的自治法規，故③④。公私法、實體程序法沒有一概誰優先。",
+    "options": {
+      "A": "①②都不是普遍適用的優先原則。",
+      "B": "③對，但①不能把不同法域一概排成優先順序。",
+      "C": "④對，但②實體法與程序法各司其職，不能一概前者優先。",
+      "D": "③特殊規範優先、④中央法律高於牴觸自治規範，符合題意。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-19": {
+    "summary": "全國不分區及僑居國外國民立委以政黨比例方式產生；僑選並非海外另投票選區，故②④。",
+    "options": {
+      "A": "②對，③原住民立委依專設選區選舉，非政黨名單比例。",
+      "B": "②④合併為全國不分區及僑居國外國民席次，以政黨票分配。",
+      "C": "②對，①區域立委則按選區候選人得票選出。",
+      "D": "③非比例代表，只有④符合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-20": {
+    "summary": "任意審查壓制新聞使人民無法知悉與表達意見，違背保障自由權利的目的。",
+    "options": {
+      "A": "政府可能以安全為藉口，但不能據此否定基本自由保障。",
+      "B": "維持秩序是可能聲稱目的，不是此措施主要違背的價值。",
+      "C": "社會正義亦重要，本題更直接是新聞與知情自由被剝奪。",
+      "D": "保障人民權利包含表達與獲取資訊，與任意審查衝突。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-21": {
+    "summary": "南非總統由國民議會選出，屬選舉產生元首；其餘均以世襲君主為國家元首。",
+    "options": {
+      "A": "日本天皇世襲，非民選元首。",
+      "B": "英國君主世襲，首相則是政府首長，不要混淆。",
+      "C": "南非總統依憲制選舉產生，雖非人民直接投票仍屬選舉。",
+      "D": "澳洲國家元首為君主，總督為代表，非選出的共和元首。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-22": {
+    "summary": "調整救助資格以涵蓋弱勢、近貧家庭，是以福利制度保障基本生活。",
+    "options": {
+      "A": "安全主要指外敵及治安威脅，非社會救助的直接重點。",
+      "B": "福利目的重照顧弱勢、改善生活保障。",
+      "C": "自由重免受不當干預，與提供生活救助不同。",
+      "D": "秩序重公共生活規則與安定，不是此題擴大救助的主要價值。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-23": {
+    "summary": "統治權須取得被統治者同意，選舉把人民授權給政府，核心是主權屬人民。",
+    "options": {
+      "A": "分權談政府權力間如何分配制衡，不是權力來源。",
+      "B": "人民主權正是統治正當性來自人民同意。",
+      "C": "政黨可參與選舉，但文中重點不在政黨組織。",
+      "D": "依法行政談行為依法律，不足以表達誰授予政府權力。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-24": {
+    "summary": "污染原由附近居民承受，課污染稅與要求改善使業者負擔污染成本，稱外部成本內部化。",
+    "options": {
+      "A": "無條件補貼降低污染者成本可能反而增加產量，非直接內部化。",
+      "B": "變公營不保證處理污染，也不是必要的成本矯正方法。",
+      "C": "讓污染者付費、負改善義務，將外部損失納入決策成本。",
+      "D": "放寬標準鼓勵更多污染生產，方向相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-25": {
+    "summary": "二手菸讓未吸菸者承擔健康與環境損失，政府限制以處理負外部性。",
+    "options": {
+      "A": "公共財是具非排他、非敵對等特性的服務，非此取締行為本身。",
+      "B": "規範吸菸造成他人損害，屬處理外部效果。",
+      "C": "未描述商家競爭、價格聯合或不實交易。",
+      "D": "未依所得重新分配資源，非改善所得分配重點。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-26": {
+    "summary": "依考試背景，美元是國際交易最廣泛使用的貨幣。這是歷史金融體系描述，不代表其他貨幣不能交易。",
+    "options": {
+      "A": "歐元是重要國際貨幣，但非題定最普遍者。",
+      "B": "美元在國際計價、結算與準備貨幣中占重要地位。",
+      "C": "日圓可作國際交易，但普及程度不是此題首位。",
+      "D": "人民幣亦可跨境結算，不能因此推成全球最普遍。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-27": {
+    "summary": "市場均衡在需求量等於供給量處。表中80元時兩者都是60斤，故P80、Q60。",
+    "options": {
+      "A": "60元需求80、供給40，短缺40斤，不能只取供給當均衡。",
+      "B": "80元需求供給同為60斤，無超額需求或供給。",
+      "C": "90元供70、需50，有剩餘20斤，不是均衡。",
+      "D": "同為90元仍有過剩，取需求50也不會讓供需相等。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-28": {
+    "summary": "工廠未自行承擔的污染損失轉給居民，屬負外部性、外部成本。",
+    "options": {
+      "A": "居民承受噪音空污損害而未獲補償，符合外部成本。",
+      "B": "外部效益是旁人得到好處，與生活品質下降相反。",
+      "C": "負擔能力原則常用於稅制，按財力分擔，不是污染概念。",
+      "D": "比較利益談生產機會成本較低的專業分工。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-29": {
+    "summary": "早期五層為生理、安全、愛與歸屬、尊重、自我實現，安全之後是愛與歸屬；不代表每個人的需求必嚴格依序。",
+    "options": {
+      "A": "生理需求在安全之前，非下一階。",
+      "B": "尊重排在歸屬之後，跳了一階。",
+      "C": "自我實現是五階中最高，不是安全之後直接到達。",
+      "D": "愛與歸屬包括親密關係、接納與群體連結。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-30": {
+    "summary": "任何選擇都會用掉稀少資源、放棄其他用途，所犧牲的最佳替代利益就是機會成本。",
+    "options": {
+      "A": "外部效果談對未參與者的影響，不是所有選擇都有的代價。",
+      "B": "機會成本即使沒有金錢支出也可能存在。",
+      "C": "欲望無窮說明需求多樣，尚未說選擇代價的衡量。",
+      "D": "能力負擔通常指依所得財力分攤稅負，非此句含義。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-31": {
+    "summary": "市場可能出現失業與總需求不足，無法自行迅速達到充分就業，因而需要政策介入；題目以無效率概括。",
+    "options": {
+      "A": "市場可能產生社會問題，但不是此題最精確的經濟效率理由。",
+      "B": "未必危害國安，題目也未設定國防問題。",
+      "C": "能縮小差距不能構成需要介入的主要理由，方向亦非必然。",
+      "D": "市場有時無法有效利用資源、形成非自願失業，符合介入理由。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-32": {
+    "summary": "曉明每件衣服放棄0.5雙襪、筱梅要放棄2雙；筱梅每雙襪只放棄0.5件衣，故各專做機會成本低者。",
+    "options": {
+      "A": "曉明衣服與筱梅襪子的機會成本各較低，發揮比較利益。",
+      "B": "兩人都被分到相對成本較高產品，反向分工。",
+      "C": "曉明轉做襪子時放棄較多衣服，未完全利用專業化利益。",
+      "D": "筱梅轉做衣服時成本較高，在題定模型不如專做襪子。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-33": {
+    "summary": "一般以同期間、相近條件比較，政府公債違約風險通常較低，投資者要求報酬也較低；非所有國家公債都一定安全。",
+    "options": {
+      "A": "公債由政府發行，公司發的是公司債。",
+      "B": "一般課本比較公債信用風險較低，非較大。",
+      "C": "公司規模大不保證比政府更不會違約，說法過度概括。",
+      "D": "通常較低信用風險對應較低收益率，符合題定一般比較。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-34": {
+    "summary": "市場按要素、財產與交易能力分配所得，可能擴大貧富差距，需再分配等政策矯正。",
+    "options": {
+      "A": "資產與市場能力差異可使收入財富不均擴大。",
+      "B": "市場不自動消除勞資權力差距，不能說較不會剝削。",
+      "C": "價格機能一般有助效率，無效率更常用來批評僵化統制；市場仍可能失靈。",
+      "D": "市場分配不保證公平，不能說自然較少分配不均。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-35": {
+    "summary": "「看不見的手」是價格、供需與競爭引導分散決策的市場機能；效率結論有完全競爭等前提。",
+    "options": {
+      "A": "政府干預是可見政策，不是該比喻所指。",
+      "B": "企業是市場參與者，非整個協調機制。",
+      "C": "消費者也是參與者，單一類人不能取代市場機能。",
+      "D": "市場透過價格訊號與競爭協調供需，符合該概念。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "100-1-36": {
+    "summary": "整句白話：我找不到錢包。你可以借我一些錢嗎？\n\n找不到錢包，請對方借錢給我。lend someone something表示借出給某人。",
+    "options": {
+      "A": "lend me some money把錢借給我，方向正確。",
+      "B": "help幫助不能直接用help me some money此搭配。",
+      "C": "borrow是借入，應說borrow money from you，不能borrow me money。",
+      "D": "show me money是給我看錢，不是借給我使用。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "lend",
+        "partOfSpeech": "v.",
+        "meaning": "借出",
+        "usage": "lend money to friends 是把自己的錢借給朋友；borrow money from friends 則是向朋友借入，方向相反。"
+      },
+      {
+        "word": "borrow",
+        "partOfSpeech": "v.",
+        "meaning": "借入",
+        "usage": "borrow money from someone表示向某人借錢。"
+      },
+      {
+        "word": "wallet",
+        "partOfSpeech": "n.",
+        "meaning": "錢包",
+        "usage": "找不到wallet是需要借錢的原因，不是指借錢給別人。"
+      }
+    ]
+  },
+  "100-1-37": {
+    "summary": "整句白話：今天溫度多少？好冷。\n\n天氣很冷，前句問今天溫度多少，temperature是溫度。",
+    "options": {
+      "A": "feeling感覺，不是天氣溫度的通常問法。",
+      "B": "suggestion建議，與冷熱無關。",
+      "C": "tempo節奏，不可與temperature混淆。",
+      "D": "temperature溫度，與It is so cold相合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "temperature",
+        "partOfSpeech": "n.",
+        "meaning": "溫度",
+        "usage": "問What's the temperature是問冷熱數值，不是tempo。"
+      },
+      {
+        "word": "tempo",
+        "partOfSpeech": "n.",
+        "meaning": "速度；節奏",
+        "usage": "tempo常用於音樂節拍，與temperature溫度不同。"
+      },
+      {
+        "word": "suggestion",
+        "partOfSpeech": "n.",
+        "meaning": "建議",
+        "usage": "a suggestion是提出的意見，不能表示天氣溫度。"
+      }
+    ]
+  },
+  "100-1-38": {
+    "summary": "整句白話：這輛昂貴的機車屬於我的一位有錢朋友。\n\n昂貴機車屬於我的一位有錢朋友，belong to表示所有權歸屬。",
+    "options": {
+      "A": "belongs to屬於，主詞單數加s。",
+      "B": "looks after照顧，會變成機車照顧朋友。",
+      "C": "is used to習慣於，後接名詞或動名詞，非表所有。",
+      "D": "runs after追逐，與機車屬誰不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "belong to",
+        "partOfSpeech": "動詞片語",
+        "meaning": "屬於",
+        "usage": "belong to後接所有者，本題單數機車用belongs。"
+      },
+      {
+        "word": "look after",
+        "partOfSpeech": "動詞片語",
+        "meaning": "照顧",
+        "usage": "look after a person是照顧人，非物品屬於誰。"
+      },
+      {
+        "word": "motorcycle",
+        "partOfSpeech": "n.",
+        "meaning": "機車",
+        "usage": "expensive motorcycle是昂貴的機車，整個片語作單數主詞。"
+      }
+    ]
+  },
+  "100-1-39": {
+    "summary": "整句白話：今天清晨醒來時，我聽見樓下有隻狗正在叫。\n\nhear加受詞加現在分詞，表示聽見動作正在進行：聽見樓下狗正在叫。",
+    "options": {
+      "A": "感官動詞此結構不加to；可用原形bark但選項為to bark。",
+      "B": "barked不能直接當此感官受詞補語。",
+      "C": "barking現在分詞表狗正在吠叫，文法語意皆通。",
+      "D": "has barked是完整謂語，不能未加連接詞便接在a dog後。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "bark",
+        "partOfSpeech": "v.",
+        "meaning": "吠叫",
+        "usage": "hear a dog barking表聽到狗正在叫，分詞強調進行。"
+      },
+      {
+        "word": "wake up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "醒來",
+        "usage": "woke up為過去式，說今早醒來時的聽覺經驗。"
+      },
+      {
+        "word": "downstairs",
+        "partOfSpeech": "adv.",
+        "meaning": "在樓下",
+        "usage": "downstairs修飾聲音來源位置，不需要再加at。"
+      }
+    ]
+  },
+  "100-1-40": {
+    "summary": "整句白話：這項專案需要盡快完成，因為老闆想知道結果。\n\n後句老闆想知道結果，是專案須快完成的原因，because引導原因。",
+    "options": {
+      "A": "because因為，把老闆要求接為原因。",
+      "B": "yet然而表轉折，此兩句不是相反預期。",
+      "C": "but但是亦非所需因果關係。",
+      "D": "so所以會把老闆想知道寫成專案須完成的結果，方向不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "project",
+        "partOfSpeech": "n.",
+        "meaning": "專案；計畫",
+        "usage": "the project needs to be finished說專案需要被完成。"
+      },
+      {
+        "word": "result",
+        "partOfSpeech": "n.",
+        "meaning": "結果",
+        "usage": "know the result表示得知進行後的成果。"
+      },
+      {
+        "word": "because",
+        "partOfSpeech": "conj.",
+        "meaning": "因為",
+        "usage": "because引導原因，說明為何老闆要求盡快完成。"
+      }
+    ]
+  },
+  "100-1-41": {
+    "summary": "前句提年長記憶變差，轉折說對你不必成真，be true表示此說法成立。",
+    "options": {
+      "A": "bad壞的會變成這件事不必對你不好，未回應是否真的變差。",
+      "B": "true真的、成立的，指前述看法不一定適用。",
+      "C": "fast快的不是記憶退化陳述的真假判斷。",
+      "D": "same相同通常須the same，亦非此處真實性的表達。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "memory",
+        "partOfSpeech": "n.",
+        "meaning": "記憶力",
+        "usage": "have a good memory 指記憶力好，文中與 blueberries 的敘述相連。"
+      },
+      {
+        "word": "get worse",
+        "partOfSpeech": "動詞片語",
+        "meaning": "變得更糟",
+        "usage": "get worse as one gets older說文中常見的年齡看法。"
+      },
+      {
+        "word": "research",
+        "partOfSpeech": "n.",
+        "meaning": "研究",
+        "usage": "Research shows用研究作不可數名詞，主詞視為單數。"
+      },
+      {
+        "word": "physical",
+        "partOfSpeech": "adj.",
+        "meaning": "身體的",
+        "usage": "physical exercise指身體活動，與mental exercise相對。"
+      },
+      {
+        "word": "mental",
+        "partOfSpeech": "adj.",
+        "meaning": "心智的",
+        "usage": "mental exercises用思考活動鍛鍊心智，不是僅指疾病。"
+      },
+      {
+        "word": "circulation",
+        "partOfSpeech": "n.",
+        "meaning": "循環",
+        "usage": "circulation of the blood為血液循環，是文章提到的機制。"
+      },
+      {
+        "word": "function",
+        "partOfSpeech": "v.",
+        "meaning": "運作",
+        "usage": "brain functions better中function為動詞，需副詞修飾。"
+      },
+      {
+        "word": "exercise",
+        "partOfSpeech": "n. / v.",
+        "meaning": "鍛鍊；運動",
+        "usage": "文中同時用於身體與腦力，不只指慢跑。"
+      },
+      {
+        "word": "muscle",
+        "partOfSpeech": "n.",
+        "meaning": "肌肉",
+        "usage": "作者以muscle作比喻，強調常使用而維持能力。"
+      },
+      {
+        "word": "challenge",
+        "partOfSpeech": "v.",
+        "meaning": "挑戰",
+        "usage": "challenge yourself是以有難度活動促進學習。"
+      },
+      {
+        "word": "crossword puzzle",
+        "partOfSpeech": "n.",
+        "meaning": "填字遊戲",
+        "usage": "crossword puzzles是本文列的心智活動例子。"
+      },
+      {
+        "word": "chess",
+        "partOfSpeech": "n.",
+        "meaning": "西洋棋",
+        "usage": "chess需思考策略，支持空格thinking。"
+      },
+      {
+        "word": "improve",
+        "partOfSpeech": "v.",
+        "meaning": "改善",
+        "usage": "improve memory是本文建議希望達成的目標。"
+      }
+    ]
+  },
+  "100-1-42": {
+    "summary": "後文分別介紹身體與心智兩種運動，both A and B表示兩者都能幫助。",
+    "options": {
+      "A": "No會否定運動幫助，與全文建議相反。",
+      "B": "All不以all A and B這種方式特指兩項平行類別。",
+      "C": "Both與and呼應，表示身體及心智運動兩者皆有幫助。",
+      "D": "Either通常與or連用表二擇一，非本題and結構。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "memory",
+        "partOfSpeech": "n.",
+        "meaning": "記憶力",
+        "usage": "have a good memory 指記憶力好，文中與 blueberries 的敘述相連。"
+      },
+      {
+        "word": "get worse",
+        "partOfSpeech": "動詞片語",
+        "meaning": "變得更糟",
+        "usage": "get worse as one gets older說文中常見的年齡看法。"
+      },
+      {
+        "word": "research",
+        "partOfSpeech": "n.",
+        "meaning": "研究",
+        "usage": "Research shows用研究作不可數名詞，主詞視為單數。"
+      },
+      {
+        "word": "physical",
+        "partOfSpeech": "adj.",
+        "meaning": "身體的",
+        "usage": "physical exercise指身體活動，與mental exercise相對。"
+      },
+      {
+        "word": "mental",
+        "partOfSpeech": "adj.",
+        "meaning": "心智的",
+        "usage": "mental exercises用思考活動鍛鍊心智，不是僅指疾病。"
+      },
+      {
+        "word": "circulation",
+        "partOfSpeech": "n.",
+        "meaning": "循環",
+        "usage": "circulation of the blood為血液循環，是文章提到的機制。"
+      },
+      {
+        "word": "function",
+        "partOfSpeech": "v.",
+        "meaning": "運作",
+        "usage": "brain functions better中function為動詞，需副詞修飾。"
+      },
+      {
+        "word": "exercise",
+        "partOfSpeech": "n. / v.",
+        "meaning": "鍛鍊；運動",
+        "usage": "文中同時用於身體與腦力，不只指慢跑。"
+      },
+      {
+        "word": "muscle",
+        "partOfSpeech": "n.",
+        "meaning": "肌肉",
+        "usage": "作者以muscle作比喻，強調常使用而維持能力。"
+      },
+      {
+        "word": "challenge",
+        "partOfSpeech": "v.",
+        "meaning": "挑戰",
+        "usage": "challenge yourself是以有難度活動促進學習。"
+      },
+      {
+        "word": "crossword puzzle",
+        "partOfSpeech": "n.",
+        "meaning": "填字遊戲",
+        "usage": "crossword puzzles是本文列的心智活動例子。"
+      },
+      {
+        "word": "chess",
+        "partOfSpeech": "n.",
+        "meaning": "西洋棋",
+        "usage": "chess需思考策略，支持空格thinking。"
+      },
+      {
+        "word": "improve",
+        "partOfSpeech": "v.",
+        "meaning": "改善",
+        "usage": "improve memory是本文建議希望達成的目標。"
+      }
+    ]
+  },
+  "100-1-43": {
+    "summary": "血液循環改善，有助腦功能運作得更好，用副詞比較級better修飾function。",
+    "options": {
+      "A": "good是形容詞，此處需修飾動詞function的副詞。",
+      "B": "bad既是形容詞，語意也與改善相反。",
+      "C": "better為well比較級，表示比原來運作更好。",
+      "D": "worse更差，與正向幫助的因果相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "memory",
+        "partOfSpeech": "n.",
+        "meaning": "記憶力",
+        "usage": "have a good memory 指記憶力好，文中與 blueberries 的敘述相連。"
+      },
+      {
+        "word": "get worse",
+        "partOfSpeech": "動詞片語",
+        "meaning": "變得更糟",
+        "usage": "get worse as one gets older說文中常見的年齡看法。"
+      },
+      {
+        "word": "research",
+        "partOfSpeech": "n.",
+        "meaning": "研究",
+        "usage": "Research shows用研究作不可數名詞，主詞視為單數。"
+      },
+      {
+        "word": "physical",
+        "partOfSpeech": "adj.",
+        "meaning": "身體的",
+        "usage": "physical exercise指身體活動，與mental exercise相對。"
+      },
+      {
+        "word": "mental",
+        "partOfSpeech": "adj.",
+        "meaning": "心智的",
+        "usage": "mental exercises用思考活動鍛鍊心智，不是僅指疾病。"
+      },
+      {
+        "word": "circulation",
+        "partOfSpeech": "n.",
+        "meaning": "循環",
+        "usage": "circulation of the blood為血液循環，是文章提到的機制。"
+      },
+      {
+        "word": "function",
+        "partOfSpeech": "v.",
+        "meaning": "運作",
+        "usage": "brain functions better中function為動詞，需副詞修飾。"
+      },
+      {
+        "word": "exercise",
+        "partOfSpeech": "n. / v.",
+        "meaning": "鍛鍊；運動",
+        "usage": "文中同時用於身體與腦力，不只指慢跑。"
+      },
+      {
+        "word": "muscle",
+        "partOfSpeech": "n.",
+        "meaning": "肌肉",
+        "usage": "作者以muscle作比喻，強調常使用而維持能力。"
+      },
+      {
+        "word": "challenge",
+        "partOfSpeech": "v.",
+        "meaning": "挑戰",
+        "usage": "challenge yourself是以有難度活動促進學習。"
+      },
+      {
+        "word": "crossword puzzle",
+        "partOfSpeech": "n.",
+        "meaning": "填字遊戲",
+        "usage": "crossword puzzles是本文列的心智活動例子。"
+      },
+      {
+        "word": "chess",
+        "partOfSpeech": "n.",
+        "meaning": "西洋棋",
+        "usage": "chess需思考策略，支持空格thinking。"
+      },
+      {
+        "word": "improve",
+        "partOfSpeech": "v.",
+        "meaning": "改善",
+        "usage": "improve memory是本文建議希望達成的目標。"
+      }
+    ]
+  },
+  "100-1-44": {
+    "summary": "把腦與肌肉類比，都需要鍛鍊來維持狀態，exercise最能銜接後文mental exercises。",
+    "options": {
+      "A": "memory記憶是要改善的能力，不是像肌肉所需的鍛鍊。",
+      "B": "research研究不是人人腦部維持狀態都必做的活動。",
+      "C": "jogging慢跑屬身體運動，不能涵蓋後面的腦力活動。",
+      "D": "exercise鍛鍊，連接身體與心智活動的共同概念。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "memory",
+        "partOfSpeech": "n.",
+        "meaning": "記憶力",
+        "usage": "have a good memory 指記憶力好，文中與 blueberries 的敘述相連。"
+      },
+      {
+        "word": "get worse",
+        "partOfSpeech": "動詞片語",
+        "meaning": "變得更糟",
+        "usage": "get worse as one gets older說文中常見的年齡看法。"
+      },
+      {
+        "word": "research",
+        "partOfSpeech": "n.",
+        "meaning": "研究",
+        "usage": "Research shows用研究作不可數名詞，主詞視為單數。"
+      },
+      {
+        "word": "physical",
+        "partOfSpeech": "adj.",
+        "meaning": "身體的",
+        "usage": "physical exercise指身體活動，與mental exercise相對。"
+      },
+      {
+        "word": "mental",
+        "partOfSpeech": "adj.",
+        "meaning": "心智的",
+        "usage": "mental exercises用思考活動鍛鍊心智，不是僅指疾病。"
+      },
+      {
+        "word": "circulation",
+        "partOfSpeech": "n.",
+        "meaning": "循環",
+        "usage": "circulation of the blood為血液循環，是文章提到的機制。"
+      },
+      {
+        "word": "function",
+        "partOfSpeech": "v.",
+        "meaning": "運作",
+        "usage": "brain functions better中function為動詞，需副詞修飾。"
+      },
+      {
+        "word": "exercise",
+        "partOfSpeech": "n. / v.",
+        "meaning": "鍛鍊；運動",
+        "usage": "文中同時用於身體與腦力，不只指慢跑。"
+      },
+      {
+        "word": "muscle",
+        "partOfSpeech": "n.",
+        "meaning": "肌肉",
+        "usage": "作者以muscle作比喻，強調常使用而維持能力。"
+      },
+      {
+        "word": "challenge",
+        "partOfSpeech": "v.",
+        "meaning": "挑戰",
+        "usage": "challenge yourself是以有難度活動促進學習。"
+      },
+      {
+        "word": "crossword puzzle",
+        "partOfSpeech": "n.",
+        "meaning": "填字遊戲",
+        "usage": "crossword puzzles是本文列的心智活動例子。"
+      },
+      {
+        "word": "chess",
+        "partOfSpeech": "n.",
+        "meaning": "西洋棋",
+        "usage": "chess需思考策略，支持空格thinking。"
+      },
+      {
+        "word": "improve",
+        "partOfSpeech": "v.",
+        "meaning": "改善",
+        "usage": "improve memory是本文建議希望達成的目標。"
+      }
+    ]
+  },
+  "100-1-45": {
+    "summary": "例子是棋類chess，需思考策略，因此require thinking。",
+    "options": {
+      "A": "sitting坐著不是棋類訓練腦力的核心。",
+      "B": "making製作通常還需說製作何物，不是下棋重點。",
+      "C": "dancing跳舞是其他活動，與chess例子不合。",
+      "D": "thinking思考，解釋為何棋類屬mental exercise。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "memory",
+        "partOfSpeech": "n.",
+        "meaning": "記憶力",
+        "usage": "have a good memory 指記憶力好，文中與 blueberries 的敘述相連。"
+      },
+      {
+        "word": "get worse",
+        "partOfSpeech": "動詞片語",
+        "meaning": "變得更糟",
+        "usage": "get worse as one gets older說文中常見的年齡看法。"
+      },
+      {
+        "word": "research",
+        "partOfSpeech": "n.",
+        "meaning": "研究",
+        "usage": "Research shows用研究作不可數名詞，主詞視為單數。"
+      },
+      {
+        "word": "physical",
+        "partOfSpeech": "adj.",
+        "meaning": "身體的",
+        "usage": "physical exercise指身體活動，與mental exercise相對。"
+      },
+      {
+        "word": "mental",
+        "partOfSpeech": "adj.",
+        "meaning": "心智的",
+        "usage": "mental exercises用思考活動鍛鍊心智，不是僅指疾病。"
+      },
+      {
+        "word": "circulation",
+        "partOfSpeech": "n.",
+        "meaning": "循環",
+        "usage": "circulation of the blood為血液循環，是文章提到的機制。"
+      },
+      {
+        "word": "function",
+        "partOfSpeech": "v.",
+        "meaning": "運作",
+        "usage": "brain functions better中function為動詞，需副詞修飾。"
+      },
+      {
+        "word": "exercise",
+        "partOfSpeech": "n. / v.",
+        "meaning": "鍛鍊；運動",
+        "usage": "文中同時用於身體與腦力，不只指慢跑。"
+      },
+      {
+        "word": "muscle",
+        "partOfSpeech": "n.",
+        "meaning": "肌肉",
+        "usage": "作者以muscle作比喻，強調常使用而維持能力。"
+      },
+      {
+        "word": "challenge",
+        "partOfSpeech": "v.",
+        "meaning": "挑戰",
+        "usage": "challenge yourself是以有難度活動促進學習。"
+      },
+      {
+        "word": "crossword puzzle",
+        "partOfSpeech": "n.",
+        "meaning": "填字遊戲",
+        "usage": "crossword puzzles是本文列的心智活動例子。"
+      },
+      {
+        "word": "chess",
+        "partOfSpeech": "n.",
+        "meaning": "西洋棋",
+        "usage": "chess需思考策略，支持空格thinking。"
+      },
+      {
+        "word": "improve",
+        "partOfSpeech": "v.",
+        "meaning": "改善",
+        "usage": "improve memory是本文建議希望達成的目標。"
+      }
+    ]
+  },
+  "100-1-46": {
+    "summary": "affected area是受到地震影響的地區，affected在此與influenced同義，不是感染。",
+    "options": {
+      "A": "Influenced受影響的，符合災區語境。",
+      "B": "Infected受感染的，文中不是疾病傳播。",
+      "C": "Validated被確認有效的，與受震災影響不同。",
+      "D": "Affective情感的，拼字相近但意義不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "earthquake",
+        "partOfSpeech": "n.",
+        "meaning": "地震",
+        "usage": "文章分別談2008四川及1976唐山，須分清事件。"
+      },
+      {
+        "word": "death toll",
+        "partOfSpeech": "n.",
+        "meaning": "死亡人數",
+        "usage": "death toll stood at 12000是報導時點的死亡統計。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "失蹤的",
+        "usage": "the missing girl 是警方正在尋找的人，不是故事中想念別人的女孩。"
+      },
+      {
+        "word": "affected",
+        "partOfSpeech": "adj.",
+        "meaning": "受影響的",
+        "usage": "affected area指地震影響區域，與influenced同義。"
+      },
+      {
+        "word": "collapse",
+        "partOfSpeech": "v. / n.",
+        "meaning": "倒塌",
+        "usage": "schools that collapsed說校舍在地震中倒塌。"
+      },
+      {
+        "word": "withstand",
+        "partOfSpeech": "v.",
+        "meaning": "承受；抵擋",
+        "usage": "withstand major quakes指建築能承受強震。"
+      },
+      {
+        "word": "structure",
+        "partOfSpeech": "n.",
+        "meaning": "建築結構",
+        "usage": "new structures在此指新建築，非文章組織結構。"
+      },
+      {
+        "word": "rigorously",
+        "partOfSpeech": "adv.",
+        "meaning": "嚴格地",
+        "usage": "how rigorously codes were enforced是質疑落實程度。"
+      },
+      {
+        "word": "enforce",
+        "partOfSpeech": "v.",
+        "meaning": "執行；落實",
+        "usage": "enforce codes不同於只訂規範，需實際確保遵守。"
+      },
+      {
+        "word": "code",
+        "partOfSpeech": "n.",
+        "meaning": "法規；規範",
+        "usage": "building codes為建築規範，不是電腦程式碼。"
+      },
+      {
+        "word": "boom",
+        "partOfSpeech": "n.",
+        "meaning": "快速發展；熱潮",
+        "usage": "building boom是建築活動興盛，不是爆炸聲。"
+      },
+      {
+        "word": "shoddy",
+        "partOfSpeech": "adj.",
+        "meaning": "品質低劣的",
+        "usage": "shoddy school buildings指家長所批評的粗劣校舍。"
+      },
+      {
+        "word": "topple",
+        "partOfSpeech": "v.",
+        "meaning": "倒塌；傾倒",
+        "usage": "toppled與stayed upright形成倒下與站立的對比。"
+      },
+      {
+        "word": "upright",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "直立的；直立地",
+        "usage": "nearby offices stayed upright表示附近辦公樓仍未倒下。"
+      }
+    ]
+  },
+  "100-1-47": {
+    "summary": "官方本題更正為各選項皆給分。文章說有抗震規範，卻質疑執行嚴格度，四項均不能不加保留地推出。",
+    "options": {
+      "A": "文章有說制定要求，但沒證明嚴格執行；把required換成enforced過強。",
+      "B": "倒塌可能反映執行問題，不等於完全沒有嚴格規範。",
+      "C": "未說規範促成建築熱潮，因果屬自行加入。",
+      "D": "epic只描寫規模龐大，全文質疑品質，未表示讚揚熱潮。"
+    },
+    "optionVerdicts": {
+      "A": "官方更正：任一選項皆給分。",
+      "B": "官方更正：任一選項皆給分。",
+      "C": "官方更正：任一選項皆給分。",
+      "D": "官方更正：任一選項皆給分。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "earthquake",
+        "partOfSpeech": "n.",
+        "meaning": "地震",
+        "usage": "文章分別談2008四川及1976唐山，須分清事件。"
+      },
+      {
+        "word": "death toll",
+        "partOfSpeech": "n.",
+        "meaning": "死亡人數",
+        "usage": "death toll stood at 12000是報導時點的死亡統計。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "失蹤的",
+        "usage": "the missing girl 是警方正在尋找的人，不是故事中想念別人的女孩。"
+      },
+      {
+        "word": "affected",
+        "partOfSpeech": "adj.",
+        "meaning": "受影響的",
+        "usage": "affected area指地震影響區域，與influenced同義。"
+      },
+      {
+        "word": "collapse",
+        "partOfSpeech": "v. / n.",
+        "meaning": "倒塌",
+        "usage": "schools that collapsed說校舍在地震中倒塌。"
+      },
+      {
+        "word": "withstand",
+        "partOfSpeech": "v.",
+        "meaning": "承受；抵擋",
+        "usage": "withstand major quakes指建築能承受強震。"
+      },
+      {
+        "word": "structure",
+        "partOfSpeech": "n.",
+        "meaning": "建築結構",
+        "usage": "new structures在此指新建築，非文章組織結構。"
+      },
+      {
+        "word": "rigorously",
+        "partOfSpeech": "adv.",
+        "meaning": "嚴格地",
+        "usage": "how rigorously codes were enforced是質疑落實程度。"
+      },
+      {
+        "word": "enforce",
+        "partOfSpeech": "v.",
+        "meaning": "執行；落實",
+        "usage": "enforce codes不同於只訂規範，需實際確保遵守。"
+      },
+      {
+        "word": "code",
+        "partOfSpeech": "n.",
+        "meaning": "法規；規範",
+        "usage": "building codes為建築規範，不是電腦程式碼。"
+      },
+      {
+        "word": "boom",
+        "partOfSpeech": "n.",
+        "meaning": "快速發展；熱潮",
+        "usage": "building boom是建築活動興盛，不是爆炸聲。"
+      },
+      {
+        "word": "shoddy",
+        "partOfSpeech": "adj.",
+        "meaning": "品質低劣的",
+        "usage": "shoddy school buildings指家長所批評的粗劣校舍。"
+      },
+      {
+        "word": "topple",
+        "partOfSpeech": "v.",
+        "meaning": "倒塌；傾倒",
+        "usage": "toppled與stayed upright形成倒下與站立的對比。"
+      },
+      {
+        "word": "upright",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "直立的；直立地",
+        "usage": "nearby offices stayed upright表示附近辦公樓仍未倒下。"
+      }
+    ]
+  },
+  "100-1-48": {
+    "summary": "問NOT true應選錯誤敘述。抗震要求自1976唐山震後已存在，不是2008四川震後才開始。",
+    "options": {
+      "A": "文中明說唐山死亡逾24萬，敘述符合原文所以不選。",
+      "B": "文中列學校、醫院、工廠倒塌與死亡，符合內容。",
+      "C": "當時死12000加失蹤18000共約30000，數字可由文中相加。",
+      "D": "only after Sichuan與since Tangshan矛盾，故應選此錯誤描述。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "earthquake",
+        "partOfSpeech": "n.",
+        "meaning": "地震",
+        "usage": "文章分別談2008四川及1976唐山，須分清事件。"
+      },
+      {
+        "word": "death toll",
+        "partOfSpeech": "n.",
+        "meaning": "死亡人數",
+        "usage": "death toll stood at 12000是報導時點的死亡統計。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "失蹤的",
+        "usage": "the missing girl 是警方正在尋找的人，不是故事中想念別人的女孩。"
+      },
+      {
+        "word": "affected",
+        "partOfSpeech": "adj.",
+        "meaning": "受影響的",
+        "usage": "affected area指地震影響區域，與influenced同義。"
+      },
+      {
+        "word": "collapse",
+        "partOfSpeech": "v. / n.",
+        "meaning": "倒塌",
+        "usage": "schools that collapsed說校舍在地震中倒塌。"
+      },
+      {
+        "word": "withstand",
+        "partOfSpeech": "v.",
+        "meaning": "承受；抵擋",
+        "usage": "withstand major quakes指建築能承受強震。"
+      },
+      {
+        "word": "structure",
+        "partOfSpeech": "n.",
+        "meaning": "建築結構",
+        "usage": "new structures在此指新建築，非文章組織結構。"
+      },
+      {
+        "word": "rigorously",
+        "partOfSpeech": "adv.",
+        "meaning": "嚴格地",
+        "usage": "how rigorously codes were enforced是質疑落實程度。"
+      },
+      {
+        "word": "enforce",
+        "partOfSpeech": "v.",
+        "meaning": "執行；落實",
+        "usage": "enforce codes不同於只訂規範，需實際確保遵守。"
+      },
+      {
+        "word": "code",
+        "partOfSpeech": "n.",
+        "meaning": "法規；規範",
+        "usage": "building codes為建築規範，不是電腦程式碼。"
+      },
+      {
+        "word": "boom",
+        "partOfSpeech": "n.",
+        "meaning": "快速發展；熱潮",
+        "usage": "building boom是建築活動興盛，不是爆炸聲。"
+      },
+      {
+        "word": "shoddy",
+        "partOfSpeech": "adj.",
+        "meaning": "品質低劣的",
+        "usage": "shoddy school buildings指家長所批評的粗劣校舍。"
+      },
+      {
+        "word": "topple",
+        "partOfSpeech": "v.",
+        "meaning": "倒塌；傾倒",
+        "usage": "toppled與stayed upright形成倒下與站立的對比。"
+      },
+      {
+        "word": "upright",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "直立的；直立地",
+        "usage": "nearby offices stayed upright表示附近辦公樓仍未倒下。"
+      }
+    ]
+  },
+  "100-1-49": {
+    "summary": "題目要依報導當時數字作答，文中by the next day death toll 12000；不是問震災後來的最終死亡總數。",
+    "options": {
+      "A": "12000是文章截至次日的死亡統計。",
+      "B": "18000是失蹤人數，不能當已知死亡。",
+      "C": "2000是死者中師生的近似子群，非總數。",
+      "D": "240000指1976唐山地震，混淆了兩場事件。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "earthquake",
+        "partOfSpeech": "n.",
+        "meaning": "地震",
+        "usage": "文章分別談2008四川及1976唐山，須分清事件。"
+      },
+      {
+        "word": "death toll",
+        "partOfSpeech": "n.",
+        "meaning": "死亡人數",
+        "usage": "death toll stood at 12000是報導時點的死亡統計。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "失蹤的",
+        "usage": "the missing girl 是警方正在尋找的人，不是故事中想念別人的女孩。"
+      },
+      {
+        "word": "affected",
+        "partOfSpeech": "adj.",
+        "meaning": "受影響的",
+        "usage": "affected area指地震影響區域，與influenced同義。"
+      },
+      {
+        "word": "collapse",
+        "partOfSpeech": "v. / n.",
+        "meaning": "倒塌",
+        "usage": "schools that collapsed說校舍在地震中倒塌。"
+      },
+      {
+        "word": "withstand",
+        "partOfSpeech": "v.",
+        "meaning": "承受；抵擋",
+        "usage": "withstand major quakes指建築能承受強震。"
+      },
+      {
+        "word": "structure",
+        "partOfSpeech": "n.",
+        "meaning": "建築結構",
+        "usage": "new structures在此指新建築，非文章組織結構。"
+      },
+      {
+        "word": "rigorously",
+        "partOfSpeech": "adv.",
+        "meaning": "嚴格地",
+        "usage": "how rigorously codes were enforced是質疑落實程度。"
+      },
+      {
+        "word": "enforce",
+        "partOfSpeech": "v.",
+        "meaning": "執行；落實",
+        "usage": "enforce codes不同於只訂規範，需實際確保遵守。"
+      },
+      {
+        "word": "code",
+        "partOfSpeech": "n.",
+        "meaning": "法規；規範",
+        "usage": "building codes為建築規範，不是電腦程式碼。"
+      },
+      {
+        "word": "boom",
+        "partOfSpeech": "n.",
+        "meaning": "快速發展；熱潮",
+        "usage": "building boom是建築活動興盛，不是爆炸聲。"
+      },
+      {
+        "word": "shoddy",
+        "partOfSpeech": "adj.",
+        "meaning": "品質低劣的",
+        "usage": "shoddy school buildings指家長所批評的粗劣校舍。"
+      },
+      {
+        "word": "topple",
+        "partOfSpeech": "v.",
+        "meaning": "倒塌；傾倒",
+        "usage": "toppled與stayed upright形成倒下與站立的對比。"
+      },
+      {
+        "word": "upright",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "直立的；直立地",
+        "usage": "nearby offices stayed upright表示附近辦公樓仍未倒下。"
+      }
+    ]
+  },
+  "100-1-50": {
+    "summary": "building boom是建築活動快速擴張，epic強調規模龐大；boom在此不是爆炸聲。",
+    "options": {
+      "A": "bombing是轟炸，與boom經濟活動興盛的義不同。",
+      "B": "collapse倒塌是災害後果，不是建設熱潮。",
+      "C": "fast construction of buildings最接近大規模快速建築活動。",
+      "D": "booming sound把boom誤讀成聲響，忽略經濟建設語境。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "100 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=100010&c=508&s=0104&q=1"
+      },
+      {
+        "title": "100 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "earthquake",
+        "partOfSpeech": "n.",
+        "meaning": "地震",
+        "usage": "文章分別談2008四川及1976唐山，須分清事件。"
+      },
+      {
+        "word": "death toll",
+        "partOfSpeech": "n.",
+        "meaning": "死亡人數",
+        "usage": "death toll stood at 12000是報導時點的死亡統計。"
+      },
+      {
+        "word": "missing",
+        "partOfSpeech": "adj.",
+        "meaning": "失蹤的",
+        "usage": "the missing girl 是警方正在尋找的人，不是故事中想念別人的女孩。"
+      },
+      {
+        "word": "affected",
+        "partOfSpeech": "adj.",
+        "meaning": "受影響的",
+        "usage": "affected area指地震影響區域，與influenced同義。"
+      },
+      {
+        "word": "collapse",
+        "partOfSpeech": "v. / n.",
+        "meaning": "倒塌",
+        "usage": "schools that collapsed說校舍在地震中倒塌。"
+      },
+      {
+        "word": "withstand",
+        "partOfSpeech": "v.",
+        "meaning": "承受；抵擋",
+        "usage": "withstand major quakes指建築能承受強震。"
+      },
+      {
+        "word": "structure",
+        "partOfSpeech": "n.",
+        "meaning": "建築結構",
+        "usage": "new structures在此指新建築，非文章組織結構。"
+      },
+      {
+        "word": "rigorously",
+        "partOfSpeech": "adv.",
+        "meaning": "嚴格地",
+        "usage": "how rigorously codes were enforced是質疑落實程度。"
+      },
+      {
+        "word": "enforce",
+        "partOfSpeech": "v.",
+        "meaning": "執行；落實",
+        "usage": "enforce codes不同於只訂規範，需實際確保遵守。"
+      },
+      {
+        "word": "code",
+        "partOfSpeech": "n.",
+        "meaning": "法規；規範",
+        "usage": "building codes為建築規範，不是電腦程式碼。"
+      },
+      {
+        "word": "boom",
+        "partOfSpeech": "n.",
+        "meaning": "快速發展；熱潮",
+        "usage": "building boom是建築活動興盛，不是爆炸聲。"
+      },
+      {
+        "word": "shoddy",
+        "partOfSpeech": "adj.",
+        "meaning": "品質低劣的",
+        "usage": "shoddy school buildings指家長所批評的粗劣校舍。"
+      },
+      {
+        "word": "topple",
+        "partOfSpeech": "v.",
+        "meaning": "倒塌；傾倒",
+        "usage": "toppled與stayed upright形成倒下與站立的對比。"
+      },
+      {
+        "word": "upright",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "直立的；直立地",
+        "usage": "nearby offices stayed upright表示附近辦公樓仍未倒下。"
+      }
+    ]
+  }
+}

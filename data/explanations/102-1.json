@@ -1,1 +1,2334 @@
-{}
+{
+  "102-1-1": {
+    "summary": "男主外女主內是社會對性別分工的期待，不是男女身體必然決定的職責。",
+    "options": {
+      "A": "生理性別重身體特徵，無法直接決定誰應工作或家務。",
+      "B": "社會性別包含學習到的角色期待與分工。",
+      "C": "政治性別不是本題社會角色與生理的基本分類。",
+      "D": "法律性別重法律登記身分，不是家務職業分工。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-2": {
+    "summary": "臺灣傳統媽祖出巡常由地方宮廟、居民共同籌辦，連結地方認同，最符合社區共同參與。",
+    "options": {
+      "A": "跨年晚會可聚人，但非此題傳統地方信仰共同體的典型。",
+      "B": "清明掃墓主要凝聚家族祖先關係，未必以整個社區為單位。",
+      "C": "媽祖出巡與地方宮廟組織、居民協作密切。",
+      "D": "聖誕舞會可有社交功能，但不是題問臺灣傳統社區意識的代表。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-3": {
+    "summary": "災害使家庭陷急難，政府發慰問金提供生活扶助，是社會救助。",
+    "options": {
+      "A": "國民就業著重工作媒合與職能，不是災後急難給付。",
+      "B": "醫療補助須針對醫療費，本題未限定治療。",
+      "C": "針對受災急難提供生活支持，符合社會救助。",
+      "D": "教育助學重就學費用，與災後普遍慰問不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-4": {
+    "summary": "停止或限制父親親權須依法向法院聲請，由法院審酌子女利益；緊急安全可另向警察、社政求助。",
+    "options": {
+      "A": "警方可保護、通報及偵辦，但不能直接宣告停止親權。",
+      "B": "調解委員會不能以調解取代法院的親權裁判。",
+      "C": "縣市政府可提供保護並依法聲請，最終宣告仍屬法院。",
+      "D": "地方法院家事審判機關可依法裁定停止全部或部分親權。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-5": {
+    "summary": "我國總統副總統候選人最低年齡為40歲，另須符合國籍居住等資格。",
+    "options": {
+      "A": "23歲常見於其他公職資格，不是總統門檻。",
+      "B": "25歲仍未達總統副總統最低年齡。",
+      "C": "40歲是本題法定年齡要求。",
+      "D": "45歲者年齡已足，但不是最低標準。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-6": {
+    "summary": "放下舊價值、學新角色及行為規範，稱再社會化，例如進入差異很大的組織生活。",
+    "options": {
+      "A": "同化指文化差異逐漸減少，未必包含個人全套重新學習。",
+      "B": "頓悟是突然理解，不一定伴長期規範重建。",
+      "C": "再社會化強調原有模式轉換與重新學習。",
+      "D": "社會革新指整體社會改革，不是個人學習過程的專名。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-7": {
+    "summary": "訪員按地址親赴住戶訪談，能追問及蒐集豐富資料，但人力交通成本高，稱入戶面訪。",
+    "options": {
+      "A": "親自到住家找到受訪者，是題述方法。",
+      "B": "電話訪問不需按住址實地拜訪，成本通常較低。",
+      "C": "網路民調透過網路填答，不能等同親赴住家。",
+      "D": "郵寄問卷由受訪者自填寄回，缺即時追問互動。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-8": {
+    "summary": "單一選區常採相對多數、每區一席，小黨支持者分散時較難換得席次；政黨比例票可部分緩和。",
+    "options": {
+      "A": "賄選可能出現於多種選制，非單一選區最直接的制度效果。",
+      "B": "派系鬥爭也非由單一選區必然推得。",
+      "C": "勝者取一席使分散小黨不易當選，屬典型缺點。",
+      "D": "府會不同黨不只與選區大小有關，非本題最直接結果。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-9": {
+    "summary": "一般主動議先提出，再有人附議讓它進入討論，充分討論後表決。",
+    "options": {
+      "A": "表決在討論前、附議最後，順序倒置。",
+      "B": "提案、附議、討論、表決符合一般程序。",
+      "C": "應先獲附議再成討論議題，非先討論才附議。",
+      "D": "附議不是表決後補做的認可。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-10": {
+    "summary": "歷史上連戰曾在擔任副總統期間兼行政院長；不要把先後任職誤當同時兼任。",
+    "options": {
+      "A": "吳敦義曾任院長與副總統，但非題述同時兼任案例。",
+      "B": "蕭萬長也曾先後任兩職，不是所問重疊任期者。",
+      "C": "呂秀蓮曾任副總統，未任行政院長。",
+      "D": "連戰在1996至1997年間曾兼兩職，符合題意。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-11": {
+    "summary": "102年尚無政黨法，組黨依人民團體法；106年12月6日政黨法公布施行後改適用專法。",
+    "options": {
+      "A": "集遊法管集會遊行，不是成立政黨的基本組織法。",
+      "B": "符合102年考試當時法律背景，應保留歷史答案。",
+      "C": "政黨法是後來的現行專法，不能倒套102年。",
+      "D": "性別工作平等相關法管職場平等，非依政黨名稱決定組織法。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "內政部：政黨法於106年施行的歷史說明",
+        "url": "https://www.moi.gov.tw/cp.aspx?n=695"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-12": {
+    "summary": "兩公約通常指公政公約及經社文公約，一保障公民政治權利，一保障經濟社會文化權利。",
+    "options": {
+      "A": "海洋與氣候是其他國際公約，非人權兩公約慣稱。",
+      "B": "這兩項正是98年公布施行法所落實的核心人權公約。",
+      "C": "兒童與消除對婦女歧視各有重要公約，但不是此處兩公約。",
+      "D": "生態與物種貿易公約屬環境保育，非此法律名稱。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-13": {
+    "summary": "中央地方財源與稅收分配主要由財政收支劃分法規範，地方制度法則規定自治的一般組織與權限。",
+    "options": {
+      "A": "地方制度法雖有自治財政原則，但本題分配來源最直接是財劃法。",
+      "B": "所得稅法規定所得課稅，非中央地方整體收入分配框架。",
+      "C": "財政收支劃分法處理各級政府收入支出與財源劃分。",
+      "D": "選罷法處理選舉罷免，不規定稅收補助分配。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-14": {
+    "summary": "官方更正各選項皆給分。題幹年份與換屆任命不合：溫家寶於2008年連任，李克強於2013年任總理，不能把2012與2013混背。",
+    "options": {
+      "A": "胡錦濤當時為國家主席等職，不是國務院總理。",
+      "B": "2012年在任總理是溫家寶，但不是該年全國人大新通過任命。",
+      "C": "習近平在2012年任中共總書記，不是國務院總理。",
+      "D": "李克強於2013年獲任總理，不是題幹2012年；官方仍各選項給分。"
+    },
+    "optionVerdicts": {
+      "A": "官方更正：任一選項皆給分。",
+      "B": "官方更正：任一選項皆給分。",
+      "C": "官方更正：任一選項皆給分。",
+      "D": "官方更正：任一選項皆給分。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "陸委會：2013年總理交接相關紀錄",
+        "url": "https://www.mac.gov.tw/News_Content.aspx?n=D78B5182C4839FE9&s=A8A3E12853027139&sms=35FA2C4073CF4DFB"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-15": {
+    "summary": "富人炫富、窮人仇富呈現財富差距與不公平感造成社會緊張，最直接是分配問題。",
+    "options": {
+      "A": "政治參與受限可能相關，但題述直接證據是財富差距。",
+      "B": "沒有交代衝突雙方的城鄉分布，不宜自行推定。",
+      "C": "經濟成果分配不均造成相對剝奪與對立，符合線索。",
+      "D": "未談建設成本或閒置浪費，與炫富仇富不直接相合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-16": {
+    "summary": "1978年中共十一屆三中全會被視為改革開放路線的重要轉折，為歷史題而非現任職務題。",
+    "options": {
+      "A": "政治協商會議是另類政治協商機構，非這次改革轉折會議。",
+      "B": "十六屆四中全會時間較晚，非1978年改革起點。",
+      "C": "全國人大為國家權力機關，非題問黨內改革轉折會議。",
+      "D": "十一屆三中全會確立轉向經濟建設與改革開放的重要路線。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-17": {
+    "summary": "WHO會員與業務範圍面向全球，屬普遍性組織，並非僅限特定區域。",
+    "options": {
+      "A": "歐盟以歐洲區域整合為範圍。",
+      "B": "東南亞國協為東南亞區域組織。",
+      "C": "世界衛生組織以全球衛生合作為宗旨，符合普遍性。",
+      "D": "北美自由貿易協定為當時北美區域安排，也不是普遍性國際組織。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-18": {
+    "summary": "六方會談為處理北韓核問題，由兩韓、美、中、日、俄參與，名稱直接對應議題。",
+    "options": {
+      "A": "香港會談不是此核問題外交機制的正式名稱。",
+      "B": "卡薩布蘭卡會議是二戰盟國戰略會議。",
+      "C": "舊金山會議涉及戰後國際秩序，非北韓核問題專門會談。",
+      "D": "六方會談是題目歷史背景下的對應機制。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-19": {
+    "summary": "2012年12月南韓總統選舉由朴槿惠當選；原選項以朴謹惠寫名，仍指該人。",
+    "options": {
+      "A": "金大中是較早期總統，不是2012年當選者。",
+      "B": "朴正熙是朴槿惠之父，屬更早的政治時期。",
+      "C": "選項朴謹惠指朴槿惠，符合2012年選舉結果。",
+      "D": "文在寅當年為競選者，後於2017年當選。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "外交部：2012年南韓總統選舉結果",
+        "url": "https://www.mofa.gov.tw/News_Content.aspx?n=96&s=69339&sms=74"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-20": {
+    "summary": "孟德斯鳩將立法、行政、司法分立以防權力濫用的理論系統化。",
+    "options": {
+      "A": "霍布斯以強主權、社會契約等思想著稱，非三權分立代表。",
+      "B": "盧梭重公意與人民主權，非此理論的主要人物。",
+      "C": "康德重道德與法哲學，非題問三權分立的典型奠基者。",
+      "D": "孟德斯鳩《論法的精神》為近代分權理論重要來源。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-21": {
+    "summary": "法律與道德都是規範人類共同生活的準則，但形成、制裁與強制效力不同。",
+    "options": {
+      "A": "法律有法定制定程序，道德常由社會文化形成。",
+      "B": "法律以國家強制為後盾，道德常以良心與輿論約束。",
+      "C": "法律效力與道德拘束方式並不相同。",
+      "D": "兩者都引導人如何與他人相處，為共同點。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-22": {
+    "summary": "普通法院一般分地院、高院、最高法院三級，原則三審，並有個案上訴限制。",
+    "options": {
+      "A": "三級三審是一般制度描述，不代表每案都能三次審判。",
+      "B": "二級二審非普通民刑事的一般架構。",
+      "C": "三級二審不是本題通則，不能把其他法院制度混入。",
+      "D": "沒有一般四級普通法院架構。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-23": {
+    "summary": "依102年當時公懲法，處分有撤職、休職、降級、減俸等，「免職」不是該法列名。後來增加免除職務等名稱，須分辨。",
+    "options": {
+      "A": "免職與撤職、免除職務不是可任意互換的法定名稱，故選此。",
+      "B": "休職是當年公懲法明列種類，停止職務一定期間，與免職用語不同。",
+      "C": "降級是法定懲戒，調低受懲戒者級別，並非題問未列明的處分。",
+      "D": "減俸也是當年明列處分，故不選。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "司法院：懲戒處分名稱與種類",
+        "url": "https://www.judicial.gov.tw/tw/cp-110-57275-16415-1.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-24": {
+    "summary": "101年修法把夫妻剩餘財產分配請求權原則改為一身專屬，不得讓與或繼承，已契約承諾或起訴者例外。",
+    "options": {
+      "A": "夫妻冠姓不是101年該次修法重點。",
+      "B": "剩餘財產請求規定正是當年修法，避免債權人藉代位侵及配偶財產。",
+      "C": "取消女性再婚限制屬不同時期改革。",
+      "D": "夫妻住所約定也非題問這次修法重點。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "法務部：101年夫妻剩餘財產分配修法",
+        "url": "https://www.moj.gov.tw/2204/2795/2796/56150/"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-25": {
+    "summary": "全民健保透過社會保險分擔醫療風險、提升可近性，法律功能是增進公共利益。",
+    "options": {
+      "A": "防止妨礙他人較像禁止侵害的消極規範，不足概括健保。",
+      "B": "健保雖有規則，但主要不在治安或秩序處罰。",
+      "C": "共享醫療保障、分擔風險，屬公共利益促進。",
+      "D": "緊急避難是個別危難行為的概念，非整體健保制度。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-26": {
+    "summary": "一般借款請求權原則15年不行使可主張時效抗辯，須看清償期、時效起算及中斷等；不是欠款自動消失。",
+    "options": {
+      "A": "2年可能適用某些特別請求，非一般借款本金原則。",
+      "B": "5年常見於利息等定期給付，不能套所有本金。",
+      "C": "10年不是民法一般請求權消滅時效。",
+      "D": "15年為一般時效，完成後債務人可拒絕給付，不代表不能自願還款。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-27": {
+    "summary": "地上權讓人在他人土地上有建築物或其他工作物等，屬不動產物權。",
+    "options": {
+      "A": "地上權以土地利用為內容，是不動產物權。",
+      "B": "參政權為公法政治權利，非物權。",
+      "C": "自由權為基本權，非特定不動產支配權。",
+      "D": "留置權通常針對占有的他人動產，非題問不動產物權。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-28": {
+    "summary": "人出生即有權利能力，未滿7歲則無行為能力；能享有權利不表示能自行有效訂約。",
+    "options": {
+      "A": "未滿7歲正是有權利能力、無行為能力的典型。",
+      "B": "未滿14包含7歲以上限制行為能力者，範圍太廣。",
+      "C": "未滿18亦包含限制行為能力者，非全部無能力。",
+      "D": "未滿20更包含現行成年者，不能全說無行為能力。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-29": {
+    "summary": "中央法規標準法規定自公布施行及特定施行日等一般法規生效規則。",
+    "options": {
+      "A": "立院組織法重立法機關組織，非通用生效日期規定。",
+      "B": "中央法規標準法直接處理制定、施行、適用等通則。",
+      "C": "行政院組織法重行政組織，非所有法律生效規則。",
+      "D": "憲法規定法秩序基本原則，本題具體一般日期制度由標準法規範。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "中央法規標準法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030133"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-30": {
+    "summary": "核心透過不對等關係取走邊陲剩餘、使依賴延續，是依賴理論的分析。",
+    "options": {
+      "A": "依賴理論批評國際結構造成核心發展與邊陲受制。",
+      "B": "多元論重不同利益團體與權力分散，不是核心邊陲剝削。",
+      "C": "公共選擇以經濟方法分析政治決策誘因，非此結構描述。",
+      "D": "理性抉擇重個別行動者選擇，與國際依附結構焦點不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-31": {
+    "summary": "景氣先擴張到頂峰，再衰退至谷底，然後再擴張，故③①④②。",
+    "options": {
+      "A": "頂峰後不會仍先擴張才衰退，轉折位置不合。",
+      "B": "擴張後接谷底跳過頂峰與衰退。",
+      "C": "谷底後應先擴張才到頂峰，①③倒置。",
+      "D": "擴張、頂峰、衰退、谷底依序構成一輪。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-32": {
+    "summary": "官方更正各選項皆給分。四個例子都可牽涉供需；若要區分曲線移動與曲線上沿移動，題目須交代更精確。",
+    "options": {
+      "A": "颱風損及產量使供給減少，其他不變可推價格上升。",
+      "B": "所得上升可改需求，方向仍視馬鈴薯是否正常財，不能一概而論。",
+      "C": "油電漲價改變通勤相對成本，可增加大眾運輸需求。",
+      "D": "X漲價使替代品Y需求增加，是交叉價格影響。"
+    },
+    "optionVerdicts": {
+      "A": "官方更正：任一選項皆給分。",
+      "B": "官方更正：任一選項皆給分。",
+      "C": "官方更正：任一選項皆給分。",
+      "D": "官方更正：任一選項皆給分。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-33": {
+    "summary": "麵包師傅投入技術與勞動，是人力資源；產出的麵包是可供消費的財貨。",
+    "options": {
+      "A": "把人說成財貨、把做出的麵包說自然資源，角色顛倒。",
+      "B": "師傅不是產品，麵包在此也非投入生產的資本工具。",
+      "C": "人力資源投入，轉成麵包財貨產出，符合順序。",
+      "D": "人不是自然資源，麵包也不是勞動人力。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-34": {
+    "summary": "育嬰選擇可能放棄工作所得與職涯機會，衡量被犧牲的最佳替代利益就是機會成本；仍可同時有津貼等補償。",
+    "options": {
+      "A": "比較留職育嬰與工作的得失，屬機會成本思考。",
+      "B": "需求法則談商品價格與需求量，不是此職涯取捨。",
+      "C": "負擔能力原則談按所得財力課稅。",
+      "D": "受益原則依公共服務利益分攤，不是照顧與工作選擇。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-35": {
+    "summary": "貿易開放降低障礙、增加競爭，通常讓消費者有更多且較低價的進口選擇；不是保證每件商品永遠降價。",
+    "options": {
+      "A": "開放通常增加供給，不能一概說進口水果必漲。",
+      "B": "更多來源與較低障礙可增加選擇、降低價格，符合教材的一般效果。",
+      "C": "國內農產品價格會受競爭與成本等影響，不一定上漲。",
+      "D": "消費者不須因加入WTO就減少需求，可能反而有更多選擇。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "102-1-36": {
+    "summary": "整句白話：我需要到購物中心更換新買的籃球鞋。\n\n要換新買的籃球鞋，應去有鞋店的購物中心mall。exchange此處是換貨。",
+    "options": {
+      "A": "clinic診所，提供醫療而非鞋類換貨。",
+      "B": "mall購物中心，符合購鞋、換貨情境。",
+      "C": "coffee shop咖啡店主要販售飲料，不是本題換鞋地點。",
+      "D": "restaurant餐廳也不是鞋類銷售處。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "mall",
+        "partOfSpeech": "n.",
+        "meaning": "購物中心",
+        "usage": "鞋類換貨可到原購買的mall商店，不是診所。"
+      },
+      {
+        "word": "exchange",
+        "partOfSpeech": "v.",
+        "meaning": "交換；換貨",
+        "usage": "exchange my shoes在消費情境為更換鞋子。"
+      },
+      {
+        "word": "clinic",
+        "partOfSpeech": "n.",
+        "meaning": "診所",
+        "usage": "clinic提供醫療服務，與購物換貨地點不同。"
+      }
+    ]
+  },
+  "102-1-37": {
+    "summary": "整句白話：每天早上吃早餐對學生很重要，這使他們有足夠精力學習新事物。\n\n早餐讓學生有足夠精力學新知，energy是能量、精力。",
+    "options": {
+      "A": "interest興趣不等於食物直接提供的能量。",
+      "B": "energy精力，與飲食及學習活動相合。",
+      "C": "dream夢想，不是吃早餐便補充的資源。",
+      "D": "fun樂趣，不是此身體學習狀態的核心。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "energy",
+        "partOfSpeech": "n.",
+        "meaning": "精力；能量",
+        "usage": "have enough energy to learn表示有足夠精神學習。"
+      },
+      {
+        "word": "enable",
+        "partOfSpeech": "v.",
+        "meaning": "使能夠",
+        "usage": "enable someone to V表示讓某人具備做某事的能力。"
+      },
+      {
+        "word": "breakfast",
+        "partOfSpeech": "n.",
+        "meaning": "早餐",
+        "usage": "eat breakfast表吃早餐，一般用餐名稱前不加a。"
+      }
+    ]
+  },
+  "102-1-38": {
+    "summary": "整句白話：現代電影的結局常是開放的，使觀眾無法確定角色最後的結果。\n\n主句已完整，逗點後用leaving分詞片語補充結果：開放結局使觀眾對結果存疑。",
+    "options": {
+      "A": "left過去分詞通常表被動，不能在此主動接viewers。",
+      "B": "leaves是限定動詞，不能只靠逗點直接並列另一完整謂語。",
+      "C": "left to缺乏適當結構，也不能直接接the viewers成此結果。",
+      "D": "leaving主動現在分詞，表前述開放結局帶來的結果。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "viewer",
+        "partOfSpeech": "n.",
+        "meaning": "觀眾",
+        "usage": "viewers是看電影節目的人，與電影人物characters不同。"
+      },
+      {
+        "word": "in doubt",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "存疑；不確定",
+        "usage": "leave someone in doubt使某人無法確定結果。"
+      },
+      {
+        "word": "outcome",
+        "partOfSpeech": "名詞",
+        "meaning": "結果",
+        "usage": "actions and outcomes 是「行動與結果」；outcome 不等於遊戲規則。"
+      }
+    ]
+  },
+  "102-1-39": {
+    "summary": "整句白話：這件行李的重量是那件的三倍。\n\n倍數比較用three times as heavy as，表示重量是另一件的三倍。",
+    "options": {
+      "A": "for不能完成as heavy as比較結構。",
+      "B": "as與前面的as呼應，構成等比基礎上的倍數。",
+      "C": "of不是這個形容詞比較句型的介系詞。",
+      "D": "than搭比較級heavier，不直接搭as heavy。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "luggage",
+        "partOfSpeech": "n.",
+        "meaning": "行李",
+        "usage": "luggage通常不可數，作主詞用is而非are。"
+      },
+      {
+        "word": "three times",
+        "partOfSpeech": "數量片語",
+        "meaning": "三倍",
+        "usage": "three times as heavy as表示重量為另一物三倍。"
+      },
+      {
+        "word": "heavy",
+        "partOfSpeech": "adj.",
+        "meaning": "重的",
+        "usage": "as heavy as是原級比較，不能與than直接混接。"
+      }
+    ]
+  },
+  "102-1-40": {
+    "summary": "整句白話：有些人喜歡足球，另一些人喜歡籃球。\n\nSome people ... others ...表示有些人……另一些人……，others為可獨立作主詞的複數代名詞。",
+    "options": {
+      "A": "other通常須接名詞如other people，不能此處單獨作複數主詞。",
+      "B": "others指其他一些人，與some對比。",
+      "C": "another指另一個，後面動詞like與此複數語境也不合。",
+      "D": "the other通常指兩者中的另一個，題目未限定只有兩個人。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "others",
+        "partOfSpeech": "pron.",
+        "meaning": "其他一些人",
+        "usage": "Others claim 作複數主詞，接前句 many people 之外另一群人的敘述。"
+      },
+      {
+        "word": "another",
+        "partOfSpeech": "限定詞／代名詞",
+        "meaning": "另一個",
+        "usage": "another通常表單一另一者，與本題泛指複數人不同。"
+      },
+      {
+        "word": "the other",
+        "partOfSpeech": "限定詞／代名詞",
+        "meaning": "兩者中的另一個",
+        "usage": "the other需有已知兩者或限定集合，不是任意其他一些人。"
+      }
+    ]
+  },
+  "102-1-41": {
+    "summary": "整句白話：John：你好，Mark在嗎？Mary：在。John：我可以和他通話嗎？Mary：嗯，他現在正在忙。\n\n打電話確認Mark在，接著請他接聽，對方才回他現在忙。May I speak to him最連貫。",
+    "options": {
+      "A": "問在哪裡通常應回答地點，不是忙碌狀態。",
+      "B": "May I speak to him請他接電話，能自然接他正在忙。",
+      "C": "已說稍後再打，對方再解釋忙的回應順序較不自然。",
+      "D": "自報姓名可能出現於電話，但不是導出能否通話的最佳問句。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "speak to",
+        "partOfSpeech": "動詞片語",
+        "meaning": "和……說話",
+        "usage": "May I speak to Mark是電話中請某人接聽的慣用問句。"
+      },
+      {
+        "word": "busy",
+        "partOfSpeech": "adj.",
+        "meaning": "忙碌的",
+        "usage": "He's busy right now說目前不能方便接電話。"
+      },
+      {
+        "word": "call again",
+        "partOfSpeech": "動詞片語",
+        "meaning": "再打電話",
+        "usage": "I'll call again later表示稍後再聯絡，不是現在請接聽。"
+      }
+    ]
+  },
+  "102-1-42": {
+    "summary": "整句白話：Lisa：我要去超市，你需要什麼嗎？John：可以幫我買些麵包嗎？Lisa：當然，還要其他東西嗎？\n\nLisa問需不需要買東西，John提出買麵包，才能接Sure, anything else。",
+    "options": {
+      "A": "只說很好未交代任何品項，無法接還要其他什麼。",
+      "B": "May I take your order是服務生詢問點餐，角色不對。",
+      "C": "Yes, please do未說要買什麼，仍欠可執行請求。",
+      "D": "Could you buy some bread for me提出具體需求，與超市及Anything else相合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "supermarket",
+        "partOfSpeech": "n.",
+        "meaning": "超級市場",
+        "usage": "去超市時可請對方順便買食品，與下一句買麵包相合。"
+      },
+      {
+        "word": "bread",
+        "partOfSpeech": "n.",
+        "meaning": "麵包",
+        "usage": "bread通常不可數，可說some bread，不說a bread表示一片。"
+      },
+      {
+        "word": "Anything else",
+        "partOfSpeech": "會話用語",
+        "meaning": "還要其他東西嗎",
+        "usage": "接受對方一項購物請求後，詢問是否有追加品項。"
+      }
+    ]
+  },
+  "102-1-43": {
+    "summary": "大學線上課程由受過線上教學訓練的教授授課，後文a professor亦呼應。",
+    "options": {
+      "A": "technicians技術人員可支援設備，不是本文課程授課者的典型。",
+      "B": "colleagues同事表示關係，未指出教學職務。",
+      "C": "professors教授，與大學授課及live lectures by a professor一致。",
+      "D": "nurses護理師，文章未設定護理教學情境。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "distance education",
+        "partOfSpeech": "n.",
+        "meaning": "遠距教育",
+        "usage": "distance education與online learning為本文並提的教學方式。"
+      },
+      {
+        "word": "professor",
+        "partOfSpeech": "n.",
+        "meaning": "教授",
+        "usage": "大學課程由professors授課，後文講座亦呼應。"
+      },
+      {
+        "word": "interactive",
+        "partOfSpeech": "adj.",
+        "meaning": "互動的",
+        "usage": "interactive classes讓學生彼此及與老師交流。"
+      },
+      {
+        "word": "communicate",
+        "partOfSpeech": "v.",
+        "meaning": "溝通",
+        "usage": "communicate with someone是與某人交換訊息。"
+      },
+      {
+        "word": "log in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "登入",
+        "usage": "log in at the same time表示學生同步連入課堂。"
+      },
+      {
+        "word": "live lecture",
+        "partOfSpeech": "n.",
+        "meaning": "即時講座",
+        "usage": "live在此是現場同步，不是動詞居住。"
+      },
+      {
+        "word": "join",
+        "partOfSpeech": "v.",
+        "meaning": "參與；加入",
+        "usage": "join lectures可直接接受詞，participate則需in。"
+      },
+      {
+        "word": "team project",
+        "partOfSpeech": "n.",
+        "meaning": "團隊專題",
+        "usage": "work together on team projects是合作完成作業。"
+      },
+      {
+        "word": "degree",
+        "partOfSpeech": "n.",
+        "meaning": "學位",
+        "usage": "offer a degree指頒學位，不是溫度或程度。"
+      },
+      {
+        "word": "in return for",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "作為……的交換",
+        "usage": "degree in return for little work暗示不用實質學習就換文憑。"
+      },
+      {
+        "word": "diploma mill",
+        "partOfSpeech": "n.",
+        "meaning": "文憑工廠",
+        "usage": "diploma mills指以不實或不足學習換取學位的機構。"
+      },
+      {
+        "word": "illegal",
+        "partOfSpeech": "adj.",
+        "meaning": "非法的",
+        "usage": "illegal是文章對文憑工廠的說明，非所有線上學習都非法。"
+      },
+      {
+        "word": "recognize",
+        "partOfSpeech": "v.",
+        "meaning": "承認；認可",
+        "usage": "be recognized in your country是學歷在本國獲承認。"
+      },
+      {
+        "word": "educational adviser",
+        "partOfSpeech": "n.",
+        "meaning": "教育顧問",
+        "usage": "advisers提醒申請前確認課程認可度。"
+      }
+    ]
+  },
+  "102-1-44": {
+    "summary": "把classes視為學生互動的環境，where相當於in which，引出完整的students communicate子句。",
+    "options": {
+      "A": "where在此指在這些課程中，後句主詞動詞完整。",
+      "B": "which作關代須在子句擔主詞或受詞，此句兩者皆不缺。",
+      "C": "that同樣無法在完整子句中直接代替地點介系詞。",
+      "D": "when表示時間，先行詞是classes這個學習環境，不是時刻。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "distance education",
+        "partOfSpeech": "n.",
+        "meaning": "遠距教育",
+        "usage": "distance education與online learning為本文並提的教學方式。"
+      },
+      {
+        "word": "professor",
+        "partOfSpeech": "n.",
+        "meaning": "教授",
+        "usage": "大學課程由professors授課，後文講座亦呼應。"
+      },
+      {
+        "word": "interactive",
+        "partOfSpeech": "adj.",
+        "meaning": "互動的",
+        "usage": "interactive classes讓學生彼此及與老師交流。"
+      },
+      {
+        "word": "communicate",
+        "partOfSpeech": "v.",
+        "meaning": "溝通",
+        "usage": "communicate with someone是與某人交換訊息。"
+      },
+      {
+        "word": "log in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "登入",
+        "usage": "log in at the same time表示學生同步連入課堂。"
+      },
+      {
+        "word": "live lecture",
+        "partOfSpeech": "n.",
+        "meaning": "即時講座",
+        "usage": "live在此是現場同步，不是動詞居住。"
+      },
+      {
+        "word": "join",
+        "partOfSpeech": "v.",
+        "meaning": "參與；加入",
+        "usage": "join lectures可直接接受詞，participate則需in。"
+      },
+      {
+        "word": "team project",
+        "partOfSpeech": "n.",
+        "meaning": "團隊專題",
+        "usage": "work together on team projects是合作完成作業。"
+      },
+      {
+        "word": "degree",
+        "partOfSpeech": "n.",
+        "meaning": "學位",
+        "usage": "offer a degree指頒學位，不是溫度或程度。"
+      },
+      {
+        "word": "in return for",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "作為……的交換",
+        "usage": "degree in return for little work暗示不用實質學習就換文憑。"
+      },
+      {
+        "word": "diploma mill",
+        "partOfSpeech": "n.",
+        "meaning": "文憑工廠",
+        "usage": "diploma mills指以不實或不足學習換取學位的機構。"
+      },
+      {
+        "word": "illegal",
+        "partOfSpeech": "adj.",
+        "meaning": "非法的",
+        "usage": "illegal是文章對文憑工廠的說明，非所有線上學習都非法。"
+      },
+      {
+        "word": "recognize",
+        "partOfSpeech": "v.",
+        "meaning": "承認；認可",
+        "usage": "be recognized in your country是學歷在本國獲承認。"
+      },
+      {
+        "word": "educational adviser",
+        "partOfSpeech": "n.",
+        "meaning": "教育顧問",
+        "usage": "advisers提醒申請前確認課程認可度。"
+      }
+    ]
+  },
+  "102-1-45": {
+    "summary": "join可直接接受詞live lectures表示參與講座，其他選項若表參與或聆聽需加介系詞。",
+    "options": {
+      "A": "join live lectures直接及物，符合題目句型。",
+      "B": "participate須接in，不能直接participate lectures。",
+      "C": "make lectures不是此處學生同步聽課的語意。",
+      "D": "listen須接to才可帶lectures，原選項少to。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "distance education",
+        "partOfSpeech": "n.",
+        "meaning": "遠距教育",
+        "usage": "distance education與online learning為本文並提的教學方式。"
+      },
+      {
+        "word": "professor",
+        "partOfSpeech": "n.",
+        "meaning": "教授",
+        "usage": "大學課程由professors授課，後文講座亦呼應。"
+      },
+      {
+        "word": "interactive",
+        "partOfSpeech": "adj.",
+        "meaning": "互動的",
+        "usage": "interactive classes讓學生彼此及與老師交流。"
+      },
+      {
+        "word": "communicate",
+        "partOfSpeech": "v.",
+        "meaning": "溝通",
+        "usage": "communicate with someone是與某人交換訊息。"
+      },
+      {
+        "word": "log in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "登入",
+        "usage": "log in at the same time表示學生同步連入課堂。"
+      },
+      {
+        "word": "live lecture",
+        "partOfSpeech": "n.",
+        "meaning": "即時講座",
+        "usage": "live在此是現場同步，不是動詞居住。"
+      },
+      {
+        "word": "join",
+        "partOfSpeech": "v.",
+        "meaning": "參與；加入",
+        "usage": "join lectures可直接接受詞，participate則需in。"
+      },
+      {
+        "word": "team project",
+        "partOfSpeech": "n.",
+        "meaning": "團隊專題",
+        "usage": "work together on team projects是合作完成作業。"
+      },
+      {
+        "word": "degree",
+        "partOfSpeech": "n.",
+        "meaning": "學位",
+        "usage": "offer a degree指頒學位，不是溫度或程度。"
+      },
+      {
+        "word": "in return for",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "作為……的交換",
+        "usage": "degree in return for little work暗示不用實質學習就換文憑。"
+      },
+      {
+        "word": "diploma mill",
+        "partOfSpeech": "n.",
+        "meaning": "文憑工廠",
+        "usage": "diploma mills指以不實或不足學習換取學位的機構。"
+      },
+      {
+        "word": "illegal",
+        "partOfSpeech": "adj.",
+        "meaning": "非法的",
+        "usage": "illegal是文章對文憑工廠的說明，非所有線上學習都非法。"
+      },
+      {
+        "word": "recognize",
+        "partOfSpeech": "v.",
+        "meaning": "承認；認可",
+        "usage": "be recognized in your country是學歷在本國獲承認。"
+      },
+      {
+        "word": "educational adviser",
+        "partOfSpeech": "n.",
+        "meaning": "教育顧問",
+        "usage": "advisers提醒申請前確認課程認可度。"
+      }
+    ]
+  },
+  "102-1-46": {
+    "summary": "in return for表示以……作交換；這些問題課程幾乎不用付出學習就發學位。",
+    "options": {
+      "A": "exchange通常需in exchange for，單放exchange for在此缺介系詞結構。",
+      "B": "in return與後文for構成固定片語，表示作為少量或零學習的回報。",
+      "C": "require需要，不能接成offer a degree require for。",
+      "D": "in need for不是此處交換關係，in need of才是需要。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "distance education",
+        "partOfSpeech": "n.",
+        "meaning": "遠距教育",
+        "usage": "distance education與online learning為本文並提的教學方式。"
+      },
+      {
+        "word": "professor",
+        "partOfSpeech": "n.",
+        "meaning": "教授",
+        "usage": "大學課程由professors授課，後文講座亦呼應。"
+      },
+      {
+        "word": "interactive",
+        "partOfSpeech": "adj.",
+        "meaning": "互動的",
+        "usage": "interactive classes讓學生彼此及與老師交流。"
+      },
+      {
+        "word": "communicate",
+        "partOfSpeech": "v.",
+        "meaning": "溝通",
+        "usage": "communicate with someone是與某人交換訊息。"
+      },
+      {
+        "word": "log in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "登入",
+        "usage": "log in at the same time表示學生同步連入課堂。"
+      },
+      {
+        "word": "live lecture",
+        "partOfSpeech": "n.",
+        "meaning": "即時講座",
+        "usage": "live在此是現場同步，不是動詞居住。"
+      },
+      {
+        "word": "join",
+        "partOfSpeech": "v.",
+        "meaning": "參與；加入",
+        "usage": "join lectures可直接接受詞，participate則需in。"
+      },
+      {
+        "word": "team project",
+        "partOfSpeech": "n.",
+        "meaning": "團隊專題",
+        "usage": "work together on team projects是合作完成作業。"
+      },
+      {
+        "word": "degree",
+        "partOfSpeech": "n.",
+        "meaning": "學位",
+        "usage": "offer a degree指頒學位，不是溫度或程度。"
+      },
+      {
+        "word": "in return for",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "作為……的交換",
+        "usage": "degree in return for little work暗示不用實質學習就換文憑。"
+      },
+      {
+        "word": "diploma mill",
+        "partOfSpeech": "n.",
+        "meaning": "文憑工廠",
+        "usage": "diploma mills指以不實或不足學習換取學位的機構。"
+      },
+      {
+        "word": "illegal",
+        "partOfSpeech": "adj.",
+        "meaning": "非法的",
+        "usage": "illegal是文章對文憑工廠的說明，非所有線上學習都非法。"
+      },
+      {
+        "word": "recognize",
+        "partOfSpeech": "v.",
+        "meaning": "承認；認可",
+        "usage": "be recognized in your country是學歷在本國獲承認。"
+      },
+      {
+        "word": "educational adviser",
+        "partOfSpeech": "n.",
+        "meaning": "教育顧問",
+        "usage": "advisers提醒申請前確認課程認可度。"
+      }
+    ]
+  },
+  "102-1-47": {
+    "summary": "確認所修課程在自己國家會被承認，will後用被動be recognized。",
+    "options": {
+      "A": "regard主動看待，通常需regard A as B，語意結構都不合。",
+      "B": "be regarded通常仍須as說明被視為什麼。",
+      "C": "recognize是主動承認，會變課程承認別人，方向反了。",
+      "D": "be recognized被認可，與學歷課程在本國承認相合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "distance education",
+        "partOfSpeech": "n.",
+        "meaning": "遠距教育",
+        "usage": "distance education與online learning為本文並提的教學方式。"
+      },
+      {
+        "word": "professor",
+        "partOfSpeech": "n.",
+        "meaning": "教授",
+        "usage": "大學課程由professors授課，後文講座亦呼應。"
+      },
+      {
+        "word": "interactive",
+        "partOfSpeech": "adj.",
+        "meaning": "互動的",
+        "usage": "interactive classes讓學生彼此及與老師交流。"
+      },
+      {
+        "word": "communicate",
+        "partOfSpeech": "v.",
+        "meaning": "溝通",
+        "usage": "communicate with someone是與某人交換訊息。"
+      },
+      {
+        "word": "log in",
+        "partOfSpeech": "動詞片語",
+        "meaning": "登入",
+        "usage": "log in at the same time表示學生同步連入課堂。"
+      },
+      {
+        "word": "live lecture",
+        "partOfSpeech": "n.",
+        "meaning": "即時講座",
+        "usage": "live在此是現場同步，不是動詞居住。"
+      },
+      {
+        "word": "join",
+        "partOfSpeech": "v.",
+        "meaning": "參與；加入",
+        "usage": "join lectures可直接接受詞，participate則需in。"
+      },
+      {
+        "word": "team project",
+        "partOfSpeech": "n.",
+        "meaning": "團隊專題",
+        "usage": "work together on team projects是合作完成作業。"
+      },
+      {
+        "word": "degree",
+        "partOfSpeech": "n.",
+        "meaning": "學位",
+        "usage": "offer a degree指頒學位，不是溫度或程度。"
+      },
+      {
+        "word": "in return for",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "作為……的交換",
+        "usage": "degree in return for little work暗示不用實質學習就換文憑。"
+      },
+      {
+        "word": "diploma mill",
+        "partOfSpeech": "n.",
+        "meaning": "文憑工廠",
+        "usage": "diploma mills指以不實或不足學習換取學位的機構。"
+      },
+      {
+        "word": "illegal",
+        "partOfSpeech": "adj.",
+        "meaning": "非法的",
+        "usage": "illegal是文章對文憑工廠的說明，非所有線上學習都非法。"
+      },
+      {
+        "word": "recognize",
+        "partOfSpeech": "v.",
+        "meaning": "承認；認可",
+        "usage": "be recognized in your country是學歷在本國獲承認。"
+      },
+      {
+        "word": "educational adviser",
+        "partOfSpeech": "n.",
+        "meaning": "教育顧問",
+        "usage": "advisers提醒申請前確認課程認可度。"
+      }
+    ]
+  },
+  "102-1-48": {
+    "summary": "全文從梵谷到Arles、創作與困境，寫至死亡和身後畫價，選C最能涵蓋其生前不受知的藝術人生；並非每段事件都發生在Arles。",
+    "options": {
+      "A": "與高更友誼只是首段部分，不能概括後文。",
+      "B": "割耳原因只是其中片段，全文未詳細診斷原因。",
+      "C": "life as an unknown painter最接近全篇主線，Arles為敘事起點。",
+      "D": "Theo兄弟情只在探視一節出現，範圍太窄。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "inspired",
+        "partOfSpeech": "adj.",
+        "meaning": "受到啟發的",
+        "usage": "be inspired by countryside表示鄉間景色激發創作。"
+      },
+      {
+        "word": "countryside",
+        "partOfSpeech": "n.",
+        "meaning": "鄉間",
+        "usage": "countryside指農村自然環境，與city城市不同。"
+      },
+      {
+        "word": "argue with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "與……爭吵",
+        "usage": "argued with Gauguin描述兩人的衝突，非完整割耳原因診斷。"
+      },
+      {
+        "word": "shortly after",
+        "partOfSpeech": "時間片語",
+        "meaning": "不久之後",
+        "usage": "shortly after交代事件相近先後，不自動證明完整因果。"
+      },
+      {
+        "word": "after a while",
+        "partOfSpeech": "副詞片語",
+        "meaning": "過一段時間",
+        "usage": "此片語後接began to paint again，證明後來恢復作畫。"
+      },
+      {
+        "word": "painting",
+        "partOfSpeech": "n.",
+        "meaning": "畫作",
+        "usage": "paintings為可數作品，與painting作繪畫活動不同。"
+      },
+      {
+        "word": "shoot",
+        "partOfSpeech": "v.",
+        "meaning": "開槍；射擊",
+        "usage": "shot himself為shoot過去式，文章據此敘述自我槍擊。"
+      },
+      {
+        "word": "chest",
+        "partOfSpeech": "n.",
+        "meaning": "胸口",
+        "usage": "in the chest說明文中槍傷部位，不是箱子義。"
+      },
+      {
+        "word": "funeral",
+        "partOfSpeech": "n.",
+        "meaning": "葬禮",
+        "usage": "Theo在梵谷死亡前到訪，不是只來參加funeral。"
+      },
+      {
+        "word": "unknown",
+        "partOfSpeech": "adj.",
+        "meaning": "不為人知的",
+        "usage": "an unknown painter在此指生前未受市場肯定。"
+      },
+      {
+        "word": "sell",
+        "partOfSpeech": "v.",
+        "meaning": "出售",
+        "usage": "sell過去式sold，文中與作品售價形成生前身後反差。"
+      },
+      {
+        "word": "million",
+        "partOfSpeech": "數量名詞",
+        "meaning": "百萬",
+        "usage": "82.5 million等於8250萬，注意中英文大數單位差異。"
+      }
+    ]
+  },
+  "102-1-49": {
+    "summary": "依題組敘述他到鄉間開槍，兩天後去世，故D最接近；這是閱讀文章，不把其簡化藝術史敘述當唯一史實。",
+    "options": {
+      "A": "文中After a while began to paint again，說他後來仍畫畫。",
+      "B": "文中明說shot himself，與未自殺企圖相反。",
+      "C": "Theo來時梵谷尚活著，兩天後才死，不是只為出席葬禮。",
+      "D": "依文章，他在鄉間自我槍擊而後死亡，與敘事相合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "inspired",
+        "partOfSpeech": "adj.",
+        "meaning": "受到啟發的",
+        "usage": "be inspired by countryside表示鄉間景色激發創作。"
+      },
+      {
+        "word": "countryside",
+        "partOfSpeech": "n.",
+        "meaning": "鄉間",
+        "usage": "countryside指農村自然環境，與city城市不同。"
+      },
+      {
+        "word": "argue with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "與……爭吵",
+        "usage": "argued with Gauguin描述兩人的衝突，非完整割耳原因診斷。"
+      },
+      {
+        "word": "shortly after",
+        "partOfSpeech": "時間片語",
+        "meaning": "不久之後",
+        "usage": "shortly after交代事件相近先後，不自動證明完整因果。"
+      },
+      {
+        "word": "after a while",
+        "partOfSpeech": "副詞片語",
+        "meaning": "過一段時間",
+        "usage": "此片語後接began to paint again，證明後來恢復作畫。"
+      },
+      {
+        "word": "painting",
+        "partOfSpeech": "n.",
+        "meaning": "畫作",
+        "usage": "paintings為可數作品，與painting作繪畫活動不同。"
+      },
+      {
+        "word": "shoot",
+        "partOfSpeech": "v.",
+        "meaning": "開槍；射擊",
+        "usage": "shot himself為shoot過去式，文章據此敘述自我槍擊。"
+      },
+      {
+        "word": "chest",
+        "partOfSpeech": "n.",
+        "meaning": "胸口",
+        "usage": "in the chest說明文中槍傷部位，不是箱子義。"
+      },
+      {
+        "word": "funeral",
+        "partOfSpeech": "n.",
+        "meaning": "葬禮",
+        "usage": "Theo在梵谷死亡前到訪，不是只來參加funeral。"
+      },
+      {
+        "word": "unknown",
+        "partOfSpeech": "adj.",
+        "meaning": "不為人知的",
+        "usage": "an unknown painter在此指生前未受市場肯定。"
+      },
+      {
+        "word": "sell",
+        "partOfSpeech": "v.",
+        "meaning": "出售",
+        "usage": "sell過去式sold，文中與作品售價形成生前身後反差。"
+      },
+      {
+        "word": "million",
+        "partOfSpeech": "數量名詞",
+        "meaning": "百萬",
+        "usage": "82.5 million等於8250萬，注意中英文大數單位差異。"
+      }
+    ]
+  },
+  "102-1-50": {
+    "summary": "文章死亡年1890、拍賣年1990，1990減1890等於100年。",
+    "options": {
+      "A": "50年會是1940，不是文中1990。",
+      "B": "100年為兩年份差值，單位是年。",
+      "C": "150年會到2040，超出題文日期。",
+      "D": "200年會到2090，亦非本題差值。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "102 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "102 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0104&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=102010&c=507&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "inspired",
+        "partOfSpeech": "adj.",
+        "meaning": "受到啟發的",
+        "usage": "be inspired by countryside表示鄉間景色激發創作。"
+      },
+      {
+        "word": "countryside",
+        "partOfSpeech": "n.",
+        "meaning": "鄉間",
+        "usage": "countryside指農村自然環境，與city城市不同。"
+      },
+      {
+        "word": "argue with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "與……爭吵",
+        "usage": "argued with Gauguin描述兩人的衝突，非完整割耳原因診斷。"
+      },
+      {
+        "word": "shortly after",
+        "partOfSpeech": "時間片語",
+        "meaning": "不久之後",
+        "usage": "shortly after交代事件相近先後，不自動證明完整因果。"
+      },
+      {
+        "word": "after a while",
+        "partOfSpeech": "副詞片語",
+        "meaning": "過一段時間",
+        "usage": "此片語後接began to paint again，證明後來恢復作畫。"
+      },
+      {
+        "word": "painting",
+        "partOfSpeech": "n.",
+        "meaning": "畫作",
+        "usage": "paintings為可數作品，與painting作繪畫活動不同。"
+      },
+      {
+        "word": "shoot",
+        "partOfSpeech": "v.",
+        "meaning": "開槍；射擊",
+        "usage": "shot himself為shoot過去式，文章據此敘述自我槍擊。"
+      },
+      {
+        "word": "chest",
+        "partOfSpeech": "n.",
+        "meaning": "胸口",
+        "usage": "in the chest說明文中槍傷部位，不是箱子義。"
+      },
+      {
+        "word": "funeral",
+        "partOfSpeech": "n.",
+        "meaning": "葬禮",
+        "usage": "Theo在梵谷死亡前到訪，不是只來參加funeral。"
+      },
+      {
+        "word": "unknown",
+        "partOfSpeech": "adj.",
+        "meaning": "不為人知的",
+        "usage": "an unknown painter在此指生前未受市場肯定。"
+      },
+      {
+        "word": "sell",
+        "partOfSpeech": "v.",
+        "meaning": "出售",
+        "usage": "sell過去式sold，文中與作品售價形成生前身後反差。"
+      },
+      {
+        "word": "million",
+        "partOfSpeech": "數量名詞",
+        "meaning": "百萬",
+        "usage": "82.5 million等於8250萬，注意中英文大數單位差異。"
+      }
+    ]
+  }
+}

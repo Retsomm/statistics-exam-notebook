@@ -1,1 +1,2246 @@
-{}
+{
+  "098-1-1": {
+    "summary": "大法官屬司法院，行使憲法審查等職權；本題使用當年大法官會議用語，現行主要以憲法法庭審理。",
+    "options": {
+      "A": "考試院掌考試、人事制度，不掌憲法審查。",
+      "B": "監察院掌監察與審計，非大法官所屬。",
+      "C": "司法院為司法最高機關，大法官是其中的憲法審判組成。",
+      "D": "行政院執行政策，不是大法官機關。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-2": {
+    "summary": "第七屆起立委113人、任期4年，採區域單一選區與政黨票，故①④。監委及行政院長均非題述產生方式。",
+    "options": {
+      "A": "①正確，但②監委非比例代表選舉產生。",
+      "B": "①員額任期及④兩票制均符合增修條文。",
+      "C": "②監委由提名同意任命；③行政院長亦不須立法院同意。",
+      "D": "④正確，但②仍誤把監委當民選比例代表。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-3": {
+    "summary": "自白須自願，且不能單憑自白便認定有罪；被告有緘默及辯護保障。",
+    "options": {
+      "A": "自由意志排除刑求、脅迫等不正手段，是自白證據的重要條件。",
+      "B": "偵訊原則容許辯護人在場及陳述意見，不能概括說不得。",
+      "C": "被告可保持緘默，沒有必須回答所有問題的義務。",
+      "D": "仍須調查其他必要證據，以核實自白與事實相符。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-4": {
+    "summary": "投稿、政府網站表達、加入合法團體均是明確的公共參與管道②③⑤。集會本身受憲法保障，不能把上街一概當違法。",
+    "options": {
+      "A": "①健身主要是私人活動，未表達公共訴求。",
+      "B": "①非公共參與；④是否合法須看行為與程序，不能無條件判定。",
+      "C": "②③⑤都明確以表達公共意見為目的，符合官方組合。",
+      "D": "④只說一有不同意見即抗議，未交代方式，故非本題最明確組合；不是禁止示威。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-5": {
+    "summary": "從農業轉為工商業、資訊服務業，改變的是整體社會結構與生活方式，稱社會變遷。",
+    "options": {
+      "A": "社會制度與生活模式隨時間改變，符合變遷。",
+      "B": "偏差指行為違反社會規範，產業轉型不等於偏差。",
+      "C": "解組指既有規範失去整合作用，非任何變化都算。",
+      "D": "流動談個人或群體社會位置升降，不是整體產業演變。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-6": {
+    "summary": "題目以自主戀愛與離婚選擇說明婚姻決定更個人化；不能僅憑離婚率就判定每個人的責任感。",
+    "options": {
+      "A": "婚姻形成、維持或結束較取決於當事人的自主決定。",
+      "B": "離婚增加不能直接證明以承諾為基礎者增加。",
+      "C": "門當戶對重家庭背景匹配，題目強調個人戀愛與選擇。",
+      "D": "家庭主導與個人自主不是同一重點，題目較支持後者。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-7": {
+    "summary": "未經授權複製歌曲再販售，侵害重製等著作財產權；少賺或不懂法都不是免責通行證。",
+    "options": {
+      "A": "不知法律不表示利用他人作品自動合法。",
+      "B": "出版法不是此音樂重製販售的主要法律依據。",
+      "C": "金額少仍可能侵權，不能以獲利有限否定。",
+      "D": "歌曲受著作權法保障，拷貝販賣須有合法授權或例外。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "著作權法（權利與合理使用）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=J0070017"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-8": {
+    "summary": "認為某些產品只能由特定性別代言，是將性別與固定角色綁定的刻板印象。",
+    "options": {
+      "A": "多元價值容許角色多樣，與排斥男代言者的反應相反。",
+      "B": "未指出青少年特有的文化符碼或群體認同。",
+      "C": "用「男性不適合」預設廣告效果，正是性別刻板印象。",
+      "D": "並非涉及孝道或誠信等倫理規範，而是性別角色期待。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-9": {
+    "summary": "經濟學資本是投入生產的已生產工具；同一車輛是否為資本，要看此處的用途。",
+    "options": {
+      "A": "計程車用來提供營業載客服務，屬生產工具。",
+      "B": "購物通勤在題中屬個人消費用途，未投入營業生產。",
+      "C": "旅客搭火車是在消費運輸服務；火車對營運者才是生產資本。",
+      "D": "學生上學騎車是個人使用，非題定營業生產工具。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-10": {
+    "summary": "三人共同計畫並分工，可能成立竊盜共同正犯，不能說只有拿東西者犯罪。「罪責相同」指同負其罪，不代表刑度必定相同。",
+    "options": {
+      "A": "把風若基於共同犯意並分工，可負共同正犯罪責。",
+      "B": "破門參與共同犯罪不只民事責任。",
+      "C": "下手拿財物不是判刑輕重的唯一標準，仍看各人責任情節。",
+      "D": "共謀分工可共同負犯罪責任，個別量刑仍須分別判斷。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-11": {
+    "summary": "內造政黨指從議會內部派系逐漸形成的政黨，英國保守黨承接議會內托利派傳統。",
+    "options": {
+      "A": "工黨主要由勞工與工會運動在議會外組織起來。",
+      "B": "保守黨由議會內政治勢力發展，是典型內造政黨。",
+      "C": "國民黨源自革命組織，不是議會內派系自然形成。",
+      "D": "民進黨從黨外民主運動形成，非典型議會內造來源。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-12": {
+    "summary": "學習待人接物與生活規則，是家庭透過教養促成社會化的教育功能。",
+    "options": {
+      "A": "生育功能指新成員的出生與人口延續。",
+      "B": "長輩教會處事原則、生活技能，就是教育與社會化。",
+      "C": "經濟功能重資源取得、分配與生活供給。",
+      "D": "心理功能重情感支持、安全感，非本題學習技能的主軸。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-13": {
+    "summary": "本題作一般投資工具比較，期貨常以保證金交易、具有槓桿，價格小變也可能造成大比例損益；實際風險仍依商品與部位而定。",
+    "options": {
+      "A": "債券有信用與利率風險，但本題一般比較非最高槓桿工具。",
+      "B": "股票價格可大幅波動，但一般全額買股不具期貨同樣的保證金槓桿。",
+      "C": "基金可分散風險，仍須看投資標的，不能保證低風險。",
+      "D": "期貨的槓桿與追繳保證金機制，使本題相對風險較高。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-14": {
+    "summary": "名目薪水不變而物價普遍上漲，能買到的商品變少，實質所得下降，故①③。",
+    "options": {
+      "A": "①物價上升為通膨，③固定薪水的實質購買力降低。",
+      "B": "①對，但④購買力應下降，不是增加。",
+      "C": "③對，②通縮卻與物價上漲相反。",
+      "D": "②④兩個方向都和題目相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-15": {
+    "summary": "即使不同意內容，仍保障對方表達權利，表現民主社會的言論自由與容忍；這句常被歸給伏爾泰，實為後人概括其思想。",
+    "options": {
+      "A": "科學精神重證據與驗證，不是此句主要論點。",
+      "B": "平等相關，但此句更直接強調容忍異議與表達自由。",
+      "C": "民主容許不同意見公開競爭，不因不贊成而壓制。",
+      "D": "自主重個人決定，尚未表達捍衛他人發言權的公共精神。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-16": {
+    "summary": "沒有單一政黨過半，多黨協商共同組閣並共享執政責任，稱聯合政府。",
+    "options": {
+      "A": "看守政府是在過渡時期暫維持政務，不是多黨組閣的定義。",
+      "B": "責任政府強調政府須受議會或人民課責，不特指結盟。",
+      "C": "跛腳政府通常指權力分立下行政與國會不同黨等受制情況。",
+      "D": "多個政黨結盟共同執政，正是聯合政府。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-17": {
+    "summary": "社區總體營造重居民認同、在地文化與共同參與③④，不能只理解成經濟建設。",
+    "options": {
+      "A": "①提倡機關不對，早期由文建會推動；②把多面向目標縮為經濟。",
+      "B": "④可，但①仍誤列經建會為提倡機關。",
+      "C": "③可，②卻把主要目的限為提振經濟。",
+      "D": "文化意識與居民參與相互連結，是社區營造核心。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-18": {
+    "summary": "主管因其業務事件辭職承擔政治責任，是責任政治；不必等法院判有罪才有政治責任。",
+    "options": {
+      "A": "民意政治重政策回應人民意見，此處突出的是辭職負責。",
+      "B": "法治政治重依法行使權力，辭職未必代表法律定罪。",
+      "C": "為施政失當承擔職務上的政治後果，符合責任政治。",
+      "D": "政黨政治重政黨競爭與執政，題目未以黨際關係為核心。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-19": {
+    "summary": "通膨下買生活必需品的名目支出增加，固定收入能買更少，故①③；未預期通膨通常傷固定名目債權。",
+    "options": {
+      "A": "①對，②固定債權回收貨幣的實質價值可能下降，非較有利。",
+      "B": "①必需支出上升、③固定收入購買力下降都合理。",
+      "C": "②④反而把通膨對債權與貨幣信心的壓力寫反。",
+      "D": "③對，但④物價失控通常削弱而非增加貨幣信心。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-20": {
+    "summary": "少年事件處理法的少年指12歲以上未滿18歲；保護處分和刑罰要分開看。",
+    "options": {
+      "A": "12歲到未滿18歲符合少年定義。",
+      "B": "感化教育上限不是4年，通常最長3年，並有年齡等限制。",
+      "C": "有期徒刑屬刑罰，不是訓誡、保護管束等保護處分。",
+      "D": "少年案件原則循少年法院或少年法庭程序，不是一般簡易法庭。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "少年事件處理法（留意歷史版本）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-21": {
+    "summary": "在保障基本權與少數表達的前提下，多數決是民主形成共同決定的方式。",
+    "options": {
+      "A": "只有提出意見者決定，會排除其他有權參與者。",
+      "B": "意見領袖可影響討論，卻不能代替所有人作主。",
+      "C": "充分討論後依多數決，少數接受決定，但仍可繼續表達異議。",
+      "D": "多數一律聽少數並非民主決策的一般規則。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-22": {
+    "summary": "既然變故難以預測，合理做法是事先準備資源、風險規劃與支持，臨時才有依靠。",
+    "options": {
+      "A": "持續賭博不是應對不確定風險的穩健準備。",
+      "B": "看臉色談人際應對，不是天災人禍的事前準備。",
+      "C": "宿命式享樂放棄準備，與提醒因應風險相反。",
+      "D": "未雨綢繆指事情未發生前先作準備，切合題意。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-23": {
+    "summary": "新規範原則不回頭改變施行前已發生事項的法律效果，稱不溯及既往；實際各法仍有例外及過渡規定。",
+    "options": {
+      "A": "罪刑法定是犯罪處罰須有法律明文，不完全等同一般時間效力。",
+      "B": "不告不理指未依法起訴請求，法院原則不主動審判。",
+      "C": "不溯及既往正是在說新法律原則不追溯過去。",
+      "D": "特別法優於普通法處理同時規範競合，不是時間先後。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-24": {
+    "summary": "官方本題更正為各選項皆給分。排隊可能受所得、時間、偏好與價格共同影響，題幹沒有足夠資訊認定唯一主因。",
+    "options": {
+      "A": "所得影響能負擔的餐廳，但未提供客人所得，不能證成唯一因素。",
+      "B": "排隊耗時，時間機會成本可能影響選擇，卻未有比較資料。",
+      "C": "嗜好會影響願否排隊，文中沒有排除此因素。",
+      "D": "價格可影響需求，但高檔不排隊也可能與預約制度相關，不能只以價位定論。"
+    },
+    "optionVerdicts": {
+      "A": "官方更正：任一選項皆給分。",
+      "B": "官方更正：任一選項皆給分。",
+      "C": "官方更正：任一選項皆給分。",
+      "D": "官方更正：任一選項皆給分。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-25": {
+    "summary": "彈劾、糾舉與審計屬監察體系。糾正針對行政機關失當，並非把所有措施都當對個人的懲罰。",
+    "options": {
+      "A": "立法院議決法案預算、質詢政府，非監察院的彈劾機關。",
+      "B": "司法院掌司法審判，不負題列監察審計職權。",
+      "C": "考試院掌考選、銓敘等人事制度，非彈劾糾正。",
+      "D": "監察院有監察職權，下設審計部辦理決算審核。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-26": {
+    "summary": "大法官與考試委員都由總統提名、立法院同意任命，屬同一類產生方式。",
+    "options": {
+      "A": "不分區立委由政黨票比例產生，司法院長走提名同意程序。",
+      "B": "監察院長由提名同意任命，立法院長由立委互選。",
+      "C": "大法官、考試委員同採總統提名及立法院同意。",
+      "D": "檢察總長須經提名同意；一般法官非都須立法院個別同意。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-27": {
+    "summary": "本題依98年當時訴願後行政訴訟審級，應向高等行政法院提起撤銷訴訟。後來行政訴訟分工改革，不能用此題概括所有現行案件。",
+    "options": {
+      "A": "地方法院通常處普通民刑事，非當年本類通常行政訴訟的第一審。",
+      "B": "高等法院為普通法院上訴審，非高等行政法院。",
+      "C": "當年此類通常行政訴訟以高等行政法院為第一審。",
+      "D": "最高行政法院主要為法律審上訴，不是本題直接起訴的起點。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "行政訴訟法（留意112年新制與歷史分工）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+      },
+      {
+        "title": "司法院：112年行政訴訟改制說明",
+        "url": "https://www.judicial.gov.tw/tw/dl-228564-20684aa5cada418abf2f8a0bd9b1aee3.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-28": {
+    "summary": "中央法規標準法列法律名稱為法、律、條例、通則；規則、細則、準則一般屬命令名稱。",
+    "options": {
+      "A": "規則列為命令名稱，非本題法律定名。",
+      "B": "通則是法律名稱之一，不能因聽似概括規則而誤認。",
+      "C": "細則常細化執行規定，屬命令名稱。",
+      "D": "準則也是命令名稱，與通則不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "中央法規標準法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030133"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-29": {
+    "summary": "嘉義市與嘉義縣是不同自治區域，市民不能投縣長票；仍能依法參與全國總統及其選區立委選舉。",
+    "options": {
+      "A": "符合法定居住等資格可選嘉義市長。",
+      "B": "不是嘉義縣選民，不能選嘉義縣長。",
+      "C": "總統為全國性選舉，不因住市而被排除。",
+      "D": "可選其所屬選區立委並投政黨票，不是所有選區都能選。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-30": {
+    "summary": "領海寬度從領海基線起算不得超過12海浬；題幹「由領陸延伸」是簡化說法。",
+    "options": {
+      "A": "12海浬符合領海上限，應記得從基線量起。",
+      "B": "20海浬不是領海的一般法定上限。",
+      "C": "120海浬並非領海制度的標準數值。",
+      "D": "200海浬通常指專屬經濟海域，並非全面領土主權海域。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-31": {
+    "summary": "中央地方權限分配以憲法與地方制度法為主要依據，省縣自治法等舊制不能取代當時有效制度。",
+    "options": {
+      "A": "②對，但①已非當時現行的主要自治法制。",
+      "B": "②對，③不是現行權限分配的有效主要依據。",
+      "C": "②根本法及④地方制度法相互配合。",
+      "D": "④對，但③不能取代憲法與現行法律。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-32": {
+    "summary": "看比較利益而非只比速度。春嬌1杯奶茶成本為1/3杯蘆薈，志明為1/2杯；春嬌做奶茶機會成本較低，志明專做蘆薈。",
+    "options": {
+      "A": "春嬌奶茶成本較低；志明1杯蘆薈只放棄2杯奶茶，低於春嬌3杯，分工合理。",
+      "B": "反過來讓兩人做各自機會成本較高的品項，未發揮比較利益。",
+      "C": "春嬌兩品產量雖高，志明仍可貢獻生產，無須全部閒置。",
+      "D": "志明兩項絕對產量都較低，讓春嬌不生產也浪費資源。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-33": {
+    "summary": "電影是視聽著作，未經授權自行拷貝出租，涉及著作權中的重製及出租等利用權。",
+    "options": {
+      "A": "商標保護識別商品服務的標識，不是電影內容本身。",
+      "B": "專利保護符合要件的技術發明，非電影故事影像。",
+      "C": "持有一份正版載體的所有權，不等於取得任意複製影片的權利。",
+      "D": "電影內容利用須遵守著作權法，不能自行拷貝出租。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "著作權法（權利與合理使用）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=J0070017"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-34": {
+    "summary": "只比較月薪，選2萬元放棄其他工作中最高的2萬3千元；機會成本取最佳替代，不是任選或加總。",
+    "options": {
+      "A": "18000只是較差替代，不是被放棄選項中最高收入。",
+      "B": "20000是已選工作的收入，不是犧牲的機會。",
+      "C": "21000雖放棄，但仍低於23000的最佳替代。",
+      "D": "23000是未選工作中最高薪，為題定機會成本。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-35": {
+    "summary": "行政院對立法院負責，須提施政報告、接受質詢；院長不能自行解散國會。",
+    "options": {
+      "A": "副院長與各部會首長由院長提請總統任命，非自行任命。",
+      "B": "行政院依憲制對立法院負責；院長亦非立委，不以參與法案審查表述其主要職責。",
+      "C": "提出施政報告及接受立委質詢有增修條文明文依據。",
+      "D": "須符不信任案通過等條件，由總統決定解散，不是院長因意見不合自行解散。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "098-1-36": {
+    "summary": "整句白話：Mark週日通常到我家吃晚餐、和我聊天。我總很喜歡他的來訪。\n\n句意是Mark週日常來我家吃飯聊天。come over表示到某人所在處拜訪。",
+    "options": {
+      "A": "comes over過來拜訪，與to my house及enjoy his visit相合。",
+      "B": "drops off通常指順路送下、下降或睡著，不表示到家拜訪。",
+      "C": "gets along表示相處、進展，常接with，不能取代來訪。",
+      "D": "takes off指起飛、脫下或離開，不是到我家。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "come over",
+        "partOfSpeech": "動詞片語",
+        "meaning": "過來拜訪",
+        "usage": "come over to my house表示到我家來，不是離開。"
+      },
+      {
+        "word": "chat",
+        "partOfSpeech": "v.",
+        "meaning": "聊天",
+        "usage": "chat with someone是和某人交談，與拜訪情境相合。"
+      },
+      {
+        "word": "get along",
+        "partOfSpeech": "動詞片語",
+        "meaning": "相處；進展",
+        "usage": "get along with someone表示和某人相處，不能當成抵達。"
+      }
+    ]
+  },
+  "098-1-37": {
+    "summary": "整句白話：他很樂觀，總是看人生光明的一面。\n\nlooks on the bright side是往好處想，所以形容樂觀optimistic。",
+    "options": {
+      "A": "pessimistic悲觀的，與看事情光明面相反。",
+      "B": "optimistic樂觀的，和後句直接互相解釋。",
+      "C": "imaginary想像中的，描述是否真實而非態度。",
+      "D": "inventive有創意的，文中未談發明能力。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "optimistic",
+        "partOfSpeech": "adj.",
+        "meaning": "樂觀的",
+        "usage": "look on the bright side是往好處想，能解釋optimistic。"
+      },
+      {
+        "word": "pessimistic",
+        "partOfSpeech": "adj.",
+        "meaning": "悲觀的",
+        "usage": "pessimistic與optimistic相反，常預期不好的結果。"
+      },
+      {
+        "word": "inventive",
+        "partOfSpeech": "adj.",
+        "meaning": "有創意的",
+        "usage": "inventive重想出新方法，不等於凡事看光明面。"
+      }
+    ]
+  },
+  "098-1-38": {
+    "summary": "整句白話：Betty：你沒有忘記野餐的事吧？Charlene：沒有，我很期待呢。\n\n主句You haven't forgotten為現在完成式否定，附加問句用肯定have you。",
+    "options": {
+      "A": "have you沿用助動詞have並轉為肯定，主詞仍是you。",
+      "B": "did you適用一般過去式，不合haven't forgotten。",
+      "C": "hadn't you是過去完成式且仍否定，兩點都不合。",
+      "D": "are you用於be動詞句，不是have加過去分詞。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "forget",
+        "partOfSpeech": "v.",
+        "meaning": "忘記",
+        "usage": "forget的過去分詞是forgotten，與have組成完成式。"
+      },
+      {
+        "word": "look forward to",
+        "partOfSpeech": "動詞片語",
+        "meaning": "期待",
+        "usage": "to為介系詞，可接it或動名詞，如look forward to going。"
+      },
+      {
+        "word": "picnic",
+        "partOfSpeech": "n.",
+        "meaning": "野餐",
+        "usage": "the picnic是對話雙方已知的野餐活動，用定冠詞the。"
+      }
+    ]
+  },
+  "098-1-39": {
+    "summary": "整句白話：如果明天天氣變暖，我們就去散步。\n\n未來條件句if內通常用現在式代替未來，主詞weather為單數，故becomes。",
+    "options": {
+      "A": "became為過去式，與tomorrow及will go的一般未來條件不合。",
+      "B": "has become現在完成式在本題不是單純明日變暖的自然選擇。",
+      "C": "is becoming強調正在變暖，非題目一般未來條件的標準表達。",
+      "D": "becomes第三人稱單數現在式，配if加未來時間。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "weather",
+        "partOfSpeech": "n.",
+        "meaning": "天氣",
+        "usage": "weather通常不可數，作單數主詞用becomes。"
+      },
+      {
+        "word": "warm",
+        "partOfSpeech": "adj.",
+        "meaning": "溫暖的",
+        "usage": "warmer為比較級，表示比目前更暖和。"
+      },
+      {
+        "word": "go for a walk",
+        "partOfSpeech": "動詞片語",
+        "meaning": "去散步",
+        "usage": "go for a walk表示短程散步，if子句說明天氣條件。"
+      }
+    ]
+  },
+  "098-1-40": {
+    "summary": "整句白話：如果George多年前不曾遇見Terrisa，他的人生本來會很不一樣。\n\nyears ago是過去時間，主句would have been說過去反事實結果，if內應用had not met。",
+    "options": {
+      "A": "was not meeting過去進行式，未表過去反事實。",
+      "B": "did not meet是簡單過去，少了此結構所需的過去完成。",
+      "C": "had not met表示若當年不曾遇見，符合過去反事實條件。",
+      "D": "has not met是現在完成式，且與years ago不自然搭配。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "meet",
+        "partOfSpeech": "v.",
+        "meaning": "遇見；會面",
+        "usage": "meet過去式與過去分詞皆為met，此題用had not met。"
+      },
+      {
+        "word": "years ago",
+        "partOfSpeech": "時間片語",
+        "meaning": "多年前",
+        "usage": "ago與過去時間連用，不能直接配現在完成式。"
+      },
+      {
+        "word": "different",
+        "partOfSpeech": "adj.",
+        "meaning": "不同的",
+        "usage": "different修飾life的狀態，really加強程度。"
+      }
+    ]
+  },
+  "098-1-41": {
+    "summary": "公司起初指出52項設計錯誤，後來再談才成功，可知最初拒絕了遊戲。",
+    "options": {
+      "A": "rejected拒絕，與at first及後來成功的轉變一致。",
+      "B": "regarded視為，通常須有as補語，且非拒絕。",
+      "C": "valued珍視，與起初挑缺點不採用的情節相反。",
+      "D": "trusted信任，未表現公司初次拒絕。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "make it",
+        "partOfSpeech": "動詞片語",
+        "meaning": "成功達成",
+        "usage": "almost did not make it to market表示差點未能成功上市。"
+      },
+      {
+        "word": "reject",
+        "partOfSpeech": "v.",
+        "meaning": "拒絕",
+        "usage": "rejected the game說公司起初不採用這款遊戲。"
+      },
+      {
+        "word": "design error",
+        "partOfSpeech": "n.",
+        "meaning": "設計錯誤",
+        "usage": "指出fifty-two design errors說明初次拒絕的理由。"
+      },
+      {
+        "word": "give up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "放棄",
+        "usage": "did not give up表示被拒絕後仍繼續嘗試。"
+      },
+      {
+        "word": "unemployed",
+        "partOfSpeech": "adj.",
+        "meaning": "失業的",
+        "usage": "Like many other Americans交代達洛與他人一樣失業。"
+      },
+      {
+        "word": "fortune",
+        "partOfSpeech": "n.",
+        "meaning": "財富；運氣",
+        "usage": "fame and fortune是名聲與財富，不是遊戲名稱本身。"
+      },
+      {
+        "word": "on one's own",
+        "partOfSpeech": "副詞片語",
+        "meaning": "獨立地；靠自己",
+        "usage": "produce it on his own表示起初打算自行製作。"
+      },
+      {
+        "word": "handmade",
+        "partOfSpeech": "adj.",
+        "meaning": "手工製作的",
+        "usage": "handmade sets說當時尚以手工供應遊戲套組。"
+      },
+      {
+        "word": "request",
+        "partOfSpeech": "n.",
+        "meaning": "需求；請求",
+        "usage": "as the requests grew說買家需求愈來愈多。"
+      },
+      {
+        "word": "keep up with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "跟上、不落後於",
+        "usage": "couldn't keep up with orders表示產量追不上訂單。"
+      },
+      {
+        "word": "order",
+        "partOfSpeech": "n.",
+        "meaning": "訂單",
+        "usage": "all the orders在商業情境指客戶訂購需求，不是命令。"
+      },
+      {
+        "word": "best-selling",
+        "partOfSpeech": "adj.",
+        "meaning": "最暢銷的",
+        "usage": "best-selling game是銷售最佳的遊戲，不只是評價最好。"
+      },
+      {
+        "word": "produce",
+        "partOfSpeech": "v.",
+        "meaning": "生產；製作",
+        "usage": "produced in twenty-six languages是製成26種語言版本。"
+      },
+      {
+        "word": "get away with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "做壞事而未受懲罰",
+        "usage": "get away with不能用來表示趕上大量訂單。"
+      }
+    ]
+  },
+  "098-1-42": {
+    "summary": "Like many other Americans是和許多其他美國人一樣，說他也失業。",
+    "options": {
+      "A": "With表示和、帶著，未清楚建立同樣失業的比較。",
+      "B": "Like作介系詞為像、和……一樣，連接後面相同處境。",
+      "C": "To表示朝向、對於，不是類似關係。",
+      "D": "For表示為了或就……而言，不能表達與其他人一樣。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "make it",
+        "partOfSpeech": "動詞片語",
+        "meaning": "成功達成",
+        "usage": "almost did not make it to market表示差點未能成功上市。"
+      },
+      {
+        "word": "reject",
+        "partOfSpeech": "v.",
+        "meaning": "拒絕",
+        "usage": "rejected the game說公司起初不採用這款遊戲。"
+      },
+      {
+        "word": "design error",
+        "partOfSpeech": "n.",
+        "meaning": "設計錯誤",
+        "usage": "指出fifty-two design errors說明初次拒絕的理由。"
+      },
+      {
+        "word": "give up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "放棄",
+        "usage": "did not give up表示被拒絕後仍繼續嘗試。"
+      },
+      {
+        "word": "unemployed",
+        "partOfSpeech": "adj.",
+        "meaning": "失業的",
+        "usage": "Like many other Americans交代達洛與他人一樣失業。"
+      },
+      {
+        "word": "fortune",
+        "partOfSpeech": "n.",
+        "meaning": "財富；運氣",
+        "usage": "fame and fortune是名聲與財富，不是遊戲名稱本身。"
+      },
+      {
+        "word": "on one's own",
+        "partOfSpeech": "副詞片語",
+        "meaning": "獨立地；靠自己",
+        "usage": "produce it on his own表示起初打算自行製作。"
+      },
+      {
+        "word": "handmade",
+        "partOfSpeech": "adj.",
+        "meaning": "手工製作的",
+        "usage": "handmade sets說當時尚以手工供應遊戲套組。"
+      },
+      {
+        "word": "request",
+        "partOfSpeech": "n.",
+        "meaning": "需求；請求",
+        "usage": "as the requests grew說買家需求愈來愈多。"
+      },
+      {
+        "word": "keep up with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "跟上、不落後於",
+        "usage": "couldn't keep up with orders表示產量追不上訂單。"
+      },
+      {
+        "word": "order",
+        "partOfSpeech": "n.",
+        "meaning": "訂單",
+        "usage": "all the orders在商業情境指客戶訂購需求，不是命令。"
+      },
+      {
+        "word": "best-selling",
+        "partOfSpeech": "adj.",
+        "meaning": "最暢銷的",
+        "usage": "best-selling game是銷售最佳的遊戲，不只是評價最好。"
+      },
+      {
+        "word": "produce",
+        "partOfSpeech": "v.",
+        "meaning": "生產；製作",
+        "usage": "produced in twenty-six languages是製成26種語言版本。"
+      },
+      {
+        "word": "get away with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "做壞事而未受懲罰",
+        "usage": "get away with不能用來表示趕上大量訂單。"
+      }
+    ]
+  },
+  "098-1-43": {
+    "summary": "訂單增加到他跟不上需求，所以再次找公司合作；keep up with是跟得上。",
+    "options": {
+      "A": "get away with是做壞事未受懲罰，不是趕訂單。",
+      "B": "make use of利用，不是供應能力跟不上。",
+      "C": "keep up with all the orders指應付不斷增加的訂單。",
+      "D": "turn upside down使顛倒、翻亂，無法表達產量不足。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "make it",
+        "partOfSpeech": "動詞片語",
+        "meaning": "成功達成",
+        "usage": "almost did not make it to market表示差點未能成功上市。"
+      },
+      {
+        "word": "reject",
+        "partOfSpeech": "v.",
+        "meaning": "拒絕",
+        "usage": "rejected the game說公司起初不採用這款遊戲。"
+      },
+      {
+        "word": "design error",
+        "partOfSpeech": "n.",
+        "meaning": "設計錯誤",
+        "usage": "指出fifty-two design errors說明初次拒絕的理由。"
+      },
+      {
+        "word": "give up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "放棄",
+        "usage": "did not give up表示被拒絕後仍繼續嘗試。"
+      },
+      {
+        "word": "unemployed",
+        "partOfSpeech": "adj.",
+        "meaning": "失業的",
+        "usage": "Like many other Americans交代達洛與他人一樣失業。"
+      },
+      {
+        "word": "fortune",
+        "partOfSpeech": "n.",
+        "meaning": "財富；運氣",
+        "usage": "fame and fortune是名聲與財富，不是遊戲名稱本身。"
+      },
+      {
+        "word": "on one's own",
+        "partOfSpeech": "副詞片語",
+        "meaning": "獨立地；靠自己",
+        "usage": "produce it on his own表示起初打算自行製作。"
+      },
+      {
+        "word": "handmade",
+        "partOfSpeech": "adj.",
+        "meaning": "手工製作的",
+        "usage": "handmade sets說當時尚以手工供應遊戲套組。"
+      },
+      {
+        "word": "request",
+        "partOfSpeech": "n.",
+        "meaning": "需求；請求",
+        "usage": "as the requests grew說買家需求愈來愈多。"
+      },
+      {
+        "word": "keep up with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "跟上、不落後於",
+        "usage": "couldn't keep up with orders表示產量追不上訂單。"
+      },
+      {
+        "word": "order",
+        "partOfSpeech": "n.",
+        "meaning": "訂單",
+        "usage": "all the orders在商業情境指客戶訂購需求，不是命令。"
+      },
+      {
+        "word": "best-selling",
+        "partOfSpeech": "adj.",
+        "meaning": "最暢銷的",
+        "usage": "best-selling game是銷售最佳的遊戲，不只是評價最好。"
+      },
+      {
+        "word": "produce",
+        "partOfSpeech": "v.",
+        "meaning": "生產；製作",
+        "usage": "produced in twenty-six languages是製成26種語言版本。"
+      },
+      {
+        "word": "get away with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "做壞事而未受懲罰",
+        "usage": "get away with不能用來表示趕上大量訂單。"
+      }
+    ]
+  },
+  "098-1-44": {
+    "summary": "over its sixty-five-year history意為在其65年的歷史期間，over可表一段期間。",
+    "options": {
+      "A": "beyond超越，不是回顧該65年內累計玩家。",
+      "B": "under低於或在……之下，不適用此時間歷程。",
+      "C": "among在多個對象之間，不能直接接單段歷史作期間。",
+      "D": "over表示在這段時間中，搭配歷史累積人數。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "make it",
+        "partOfSpeech": "動詞片語",
+        "meaning": "成功達成",
+        "usage": "almost did not make it to market表示差點未能成功上市。"
+      },
+      {
+        "word": "reject",
+        "partOfSpeech": "v.",
+        "meaning": "拒絕",
+        "usage": "rejected the game說公司起初不採用這款遊戲。"
+      },
+      {
+        "word": "design error",
+        "partOfSpeech": "n.",
+        "meaning": "設計錯誤",
+        "usage": "指出fifty-two design errors說明初次拒絕的理由。"
+      },
+      {
+        "word": "give up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "放棄",
+        "usage": "did not give up表示被拒絕後仍繼續嘗試。"
+      },
+      {
+        "word": "unemployed",
+        "partOfSpeech": "adj.",
+        "meaning": "失業的",
+        "usage": "Like many other Americans交代達洛與他人一樣失業。"
+      },
+      {
+        "word": "fortune",
+        "partOfSpeech": "n.",
+        "meaning": "財富；運氣",
+        "usage": "fame and fortune是名聲與財富，不是遊戲名稱本身。"
+      },
+      {
+        "word": "on one's own",
+        "partOfSpeech": "副詞片語",
+        "meaning": "獨立地；靠自己",
+        "usage": "produce it on his own表示起初打算自行製作。"
+      },
+      {
+        "word": "handmade",
+        "partOfSpeech": "adj.",
+        "meaning": "手工製作的",
+        "usage": "handmade sets說當時尚以手工供應遊戲套組。"
+      },
+      {
+        "word": "request",
+        "partOfSpeech": "n.",
+        "meaning": "需求；請求",
+        "usage": "as the requests grew說買家需求愈來愈多。"
+      },
+      {
+        "word": "keep up with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "跟上、不落後於",
+        "usage": "couldn't keep up with orders表示產量追不上訂單。"
+      },
+      {
+        "word": "order",
+        "partOfSpeech": "n.",
+        "meaning": "訂單",
+        "usage": "all the orders在商業情境指客戶訂購需求，不是命令。"
+      },
+      {
+        "word": "best-selling",
+        "partOfSpeech": "adj.",
+        "meaning": "最暢銷的",
+        "usage": "best-selling game是銷售最佳的遊戲，不只是評價最好。"
+      },
+      {
+        "word": "produce",
+        "partOfSpeech": "v.",
+        "meaning": "生產；製作",
+        "usage": "produced in twenty-six languages是製成26種語言版本。"
+      },
+      {
+        "word": "get away with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "做壞事而未受懲罰",
+        "usage": "get away with不能用來表示趕上大量訂單。"
+      }
+    ]
+  },
+  "098-1-45": {
+    "summary": "遊戲是被販售、被製作，sold與produced均為過去分詞，補充說明前面的game。",
+    "options": {
+      "A": "sold是sell過去分詞，與produced平行，表被動。",
+      "B": "sell原形無法直接形成修飾game的被動片語。",
+      "C": "sale是名詞銷售，非此處需要的分詞。",
+      "D": "selling主動分詞會變遊戲主動賣東西，與produced也不平行。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "make it",
+        "partOfSpeech": "動詞片語",
+        "meaning": "成功達成",
+        "usage": "almost did not make it to market表示差點未能成功上市。"
+      },
+      {
+        "word": "reject",
+        "partOfSpeech": "v.",
+        "meaning": "拒絕",
+        "usage": "rejected the game說公司起初不採用這款遊戲。"
+      },
+      {
+        "word": "design error",
+        "partOfSpeech": "n.",
+        "meaning": "設計錯誤",
+        "usage": "指出fifty-two design errors說明初次拒絕的理由。"
+      },
+      {
+        "word": "give up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "放棄",
+        "usage": "did not give up表示被拒絕後仍繼續嘗試。"
+      },
+      {
+        "word": "unemployed",
+        "partOfSpeech": "adj.",
+        "meaning": "失業的",
+        "usage": "Like many other Americans交代達洛與他人一樣失業。"
+      },
+      {
+        "word": "fortune",
+        "partOfSpeech": "n.",
+        "meaning": "財富；運氣",
+        "usage": "fame and fortune是名聲與財富，不是遊戲名稱本身。"
+      },
+      {
+        "word": "on one's own",
+        "partOfSpeech": "副詞片語",
+        "meaning": "獨立地；靠自己",
+        "usage": "produce it on his own表示起初打算自行製作。"
+      },
+      {
+        "word": "handmade",
+        "partOfSpeech": "adj.",
+        "meaning": "手工製作的",
+        "usage": "handmade sets說當時尚以手工供應遊戲套組。"
+      },
+      {
+        "word": "request",
+        "partOfSpeech": "n.",
+        "meaning": "需求；請求",
+        "usage": "as the requests grew說買家需求愈來愈多。"
+      },
+      {
+        "word": "keep up with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "跟上、不落後於",
+        "usage": "couldn't keep up with orders表示產量追不上訂單。"
+      },
+      {
+        "word": "order",
+        "partOfSpeech": "n.",
+        "meaning": "訂單",
+        "usage": "all the orders在商業情境指客戶訂購需求，不是命令。"
+      },
+      {
+        "word": "best-selling",
+        "partOfSpeech": "adj.",
+        "meaning": "最暢銷的",
+        "usage": "best-selling game是銷售最佳的遊戲，不只是評價最好。"
+      },
+      {
+        "word": "produce",
+        "partOfSpeech": "v.",
+        "meaning": "生產；製作",
+        "usage": "produced in twenty-six languages是製成26種語言版本。"
+      },
+      {
+        "word": "get away with",
+        "partOfSpeech": "動詞片語",
+        "meaning": "做壞事而未受懲罰",
+        "usage": "get away with不能用來表示趕上大量訂單。"
+      }
+    ]
+  },
+  "098-1-46": {
+    "summary": "開頭my best friend in the class說Rebecca是Susan同班的好友，故是同學。",
+    "options": {
+      "A": "families家庭，文章未提兩人有親屬關係。",
+      "B": "co-workers同事，本文情境是上課與老師。",
+      "C": "classmates同班同學，由in the class直接支持。",
+      "D": "lovers戀人，best friend不能據此推成戀愛關係。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "drop out of school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "退學",
+        "usage": "drop out of school與quit、leave school在此指同一決定。"
+      },
+      {
+        "word": "put off",
+        "partOfSpeech": "片語動詞",
+        "meaning": "延後；拖延",
+        "usage": "put off going to see the doctor 表示拖延就醫，off 後接動名詞。"
+      },
+      {
+        "word": "postpone",
+        "partOfSpeech": "動詞",
+        "meaning": "延後、延期",
+        "usage": "postponed the meeting是延後會面，與put off同義。"
+      },
+      {
+        "word": "energy",
+        "partOfSpeech": "n.",
+        "meaning": "精力；能量",
+        "usage": "lack time or energy表示沒有足夠時間或心力完成課業。"
+      },
+      {
+        "word": "choice",
+        "partOfSpeech": "n.",
+        "meaning": "選擇",
+        "usage": "her only choice是她以為唯一的出路，非作者認可只有此路。"
+      },
+      {
+        "word": "serious",
+        "partOfSpeech": "adj.",
+        "meaning": "嚴重的",
+        "usage": "a serious problem表示問題已非小事，需尋求協助。"
+      },
+      {
+        "word": "anxious",
+        "partOfSpeech": "形容詞",
+        "meaning": "焦慮的、擔心的",
+        "usage": "anxious about applying for the job 說明因競爭激烈而感到擔心。"
+      },
+      {
+        "word": "mistake",
+        "partOfSpeech": "n.",
+        "meaning": "錯誤",
+        "usage": "making a huge mistake表示Susan不認同退學決定。"
+      },
+      {
+        "word": "classmate",
+        "partOfSpeech": "n.",
+        "meaning": "同班同學",
+        "usage": "in the class支持兩人是classmates，而非同事。"
+      },
+      {
+        "word": "co-worker",
+        "partOfSpeech": "n.",
+        "meaning": "同事",
+        "usage": "co-workers指一起工作的人，與本文同班好友不同。"
+      },
+      {
+        "word": "tuition fee",
+        "partOfSpeech": "n.",
+        "meaning": "學費",
+        "usage": "選項學費未繳是無原文根據的原因，不能自行補入。"
+      },
+      {
+        "word": "Seattle",
+        "partOfSpeech": "專有名詞",
+        "meaning": "西雅圖",
+        "usage": "署名直接列Seattle，為文章地點的明確線索。"
+      }
+    ]
+  },
+  "098-1-47": {
+    "summary": "put off doing work與postponed that meeting互相對應，都是延後、拖延。",
+    "options": {
+      "A": "equal等於，不表示推遲時間。",
+      "B": "postpone延後，正是put off在此的同義詞。",
+      "C": "crash碰撞、當機，未指拖延。",
+      "D": "launch發起、推出，與延遲行動不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "drop out of school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "退學",
+        "usage": "drop out of school與quit、leave school在此指同一決定。"
+      },
+      {
+        "word": "put off",
+        "partOfSpeech": "片語動詞",
+        "meaning": "延後；拖延",
+        "usage": "put off going to see the doctor 表示拖延就醫，off 後接動名詞。"
+      },
+      {
+        "word": "postpone",
+        "partOfSpeech": "動詞",
+        "meaning": "延後、延期",
+        "usage": "postponed the meeting是延後會面，與put off同義。"
+      },
+      {
+        "word": "energy",
+        "partOfSpeech": "n.",
+        "meaning": "精力；能量",
+        "usage": "lack time or energy表示沒有足夠時間或心力完成課業。"
+      },
+      {
+        "word": "choice",
+        "partOfSpeech": "n.",
+        "meaning": "選擇",
+        "usage": "her only choice是她以為唯一的出路，非作者認可只有此路。"
+      },
+      {
+        "word": "serious",
+        "partOfSpeech": "adj.",
+        "meaning": "嚴重的",
+        "usage": "a serious problem表示問題已非小事，需尋求協助。"
+      },
+      {
+        "word": "anxious",
+        "partOfSpeech": "形容詞",
+        "meaning": "焦慮的、擔心的",
+        "usage": "anxious about applying for the job 說明因競爭激烈而感到擔心。"
+      },
+      {
+        "word": "mistake",
+        "partOfSpeech": "n.",
+        "meaning": "錯誤",
+        "usage": "making a huge mistake表示Susan不認同退學決定。"
+      },
+      {
+        "word": "classmate",
+        "partOfSpeech": "n.",
+        "meaning": "同班同學",
+        "usage": "in the class支持兩人是classmates，而非同事。"
+      },
+      {
+        "word": "co-worker",
+        "partOfSpeech": "n.",
+        "meaning": "同事",
+        "usage": "co-workers指一起工作的人，與本文同班好友不同。"
+      },
+      {
+        "word": "tuition fee",
+        "partOfSpeech": "n.",
+        "meaning": "學費",
+        "usage": "選項學費未繳是無原文根據的原因，不能自行補入。"
+      },
+      {
+        "word": "Seattle",
+        "partOfSpeech": "專有名詞",
+        "meaning": "西雅圖",
+        "usage": "署名直接列Seattle，為文章地點的明確線索。"
+      }
+    ]
+  },
+  "098-1-48": {
+    "summary": "Rebecca每門功課都拖延，累積到沒有時間精力完成；文章未說全部考試不及格。",
+    "options": {
+      "A": "未提學費或金錢短缺，不能自加原因。",
+      "B": "習慣拖延導致工作堆積，完整呈現問題成因。",
+      "C": "焦慮是文中感受，但未交代健康疾病為起因。",
+      "D": "沒有all examinations皆失敗的資料，不能把功課未完推成全科不及格。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "drop out of school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "退學",
+        "usage": "drop out of school與quit、leave school在此指同一決定。"
+      },
+      {
+        "word": "put off",
+        "partOfSpeech": "片語動詞",
+        "meaning": "延後；拖延",
+        "usage": "put off going to see the doctor 表示拖延就醫，off 後接動名詞。"
+      },
+      {
+        "word": "postpone",
+        "partOfSpeech": "動詞",
+        "meaning": "延後、延期",
+        "usage": "postponed the meeting是延後會面，與put off同義。"
+      },
+      {
+        "word": "energy",
+        "partOfSpeech": "n.",
+        "meaning": "精力；能量",
+        "usage": "lack time or energy表示沒有足夠時間或心力完成課業。"
+      },
+      {
+        "word": "choice",
+        "partOfSpeech": "n.",
+        "meaning": "選擇",
+        "usage": "her only choice是她以為唯一的出路，非作者認可只有此路。"
+      },
+      {
+        "word": "serious",
+        "partOfSpeech": "adj.",
+        "meaning": "嚴重的",
+        "usage": "a serious problem表示問題已非小事，需尋求協助。"
+      },
+      {
+        "word": "anxious",
+        "partOfSpeech": "形容詞",
+        "meaning": "焦慮的、擔心的",
+        "usage": "anxious about applying for the job 說明因競爭激烈而感到擔心。"
+      },
+      {
+        "word": "mistake",
+        "partOfSpeech": "n.",
+        "meaning": "錯誤",
+        "usage": "making a huge mistake表示Susan不認同退學決定。"
+      },
+      {
+        "word": "classmate",
+        "partOfSpeech": "n.",
+        "meaning": "同班同學",
+        "usage": "in the class支持兩人是classmates，而非同事。"
+      },
+      {
+        "word": "co-worker",
+        "partOfSpeech": "n.",
+        "meaning": "同事",
+        "usage": "co-workers指一起工作的人，與本文同班好友不同。"
+      },
+      {
+        "word": "tuition fee",
+        "partOfSpeech": "n.",
+        "meaning": "學費",
+        "usage": "選項學費未繳是無原文根據的原因，不能自行補入。"
+      },
+      {
+        "word": "Seattle",
+        "partOfSpeech": "專有名詞",
+        "meaning": "西雅圖",
+        "usage": "署名直接列Seattle，為文章地點的明確線索。"
+      }
+    ]
+  },
+  "098-1-49": {
+    "summary": "她認為唯一選擇是quit，前文drop out of school可知是退學；這是她的想法，不是作者認同的建議。",
+    "options": {
+      "A": "文中她覺得問題嚴重、焦慮，非認為一切沒事。",
+      "B": "加修課程會增加負擔，文章也未說這是她的計畫。",
+      "C": "沒有打工安排，不能因遇困境便推去工作。",
+      "D": "leave school對應drop out與quit，說她以為必須退學。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "drop out of school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "退學",
+        "usage": "drop out of school與quit、leave school在此指同一決定。"
+      },
+      {
+        "word": "put off",
+        "partOfSpeech": "片語動詞",
+        "meaning": "延後；拖延",
+        "usage": "put off going to see the doctor 表示拖延就醫，off 後接動名詞。"
+      },
+      {
+        "word": "postpone",
+        "partOfSpeech": "動詞",
+        "meaning": "延後、延期",
+        "usage": "postponed the meeting是延後會面，與put off同義。"
+      },
+      {
+        "word": "energy",
+        "partOfSpeech": "n.",
+        "meaning": "精力；能量",
+        "usage": "lack time or energy表示沒有足夠時間或心力完成課業。"
+      },
+      {
+        "word": "choice",
+        "partOfSpeech": "n.",
+        "meaning": "選擇",
+        "usage": "her only choice是她以為唯一的出路，非作者認可只有此路。"
+      },
+      {
+        "word": "serious",
+        "partOfSpeech": "adj.",
+        "meaning": "嚴重的",
+        "usage": "a serious problem表示問題已非小事，需尋求協助。"
+      },
+      {
+        "word": "anxious",
+        "partOfSpeech": "形容詞",
+        "meaning": "焦慮的、擔心的",
+        "usage": "anxious about applying for the job 說明因競爭激烈而感到擔心。"
+      },
+      {
+        "word": "mistake",
+        "partOfSpeech": "n.",
+        "meaning": "錯誤",
+        "usage": "making a huge mistake表示Susan不認同退學決定。"
+      },
+      {
+        "word": "classmate",
+        "partOfSpeech": "n.",
+        "meaning": "同班同學",
+        "usage": "in the class支持兩人是classmates，而非同事。"
+      },
+      {
+        "word": "co-worker",
+        "partOfSpeech": "n.",
+        "meaning": "同事",
+        "usage": "co-workers指一起工作的人，與本文同班好友不同。"
+      },
+      {
+        "word": "tuition fee",
+        "partOfSpeech": "n.",
+        "meaning": "學費",
+        "usage": "選項學費未繳是無原文根據的原因，不能自行補入。"
+      },
+      {
+        "word": "Seattle",
+        "partOfSpeech": "專有名詞",
+        "meaning": "西雅圖",
+        "usage": "署名直接列Seattle，為文章地點的明確線索。"
+      }
+    ]
+  },
+  "098-1-50": {
+    "summary": "署名列Susan Brown, Seattle，文字最直接支持C西雅圖；但官方更正亦接受D，保留給分，不捏造D比C更有根據的理由。",
+    "options": {
+      "A": "Los Angeles洛杉磯未出現在署名或信中。",
+      "B": "Chicago芝加哥亦無文章依據。",
+      "C": "Seattle西雅圖就在署名，為最直接的閱讀答案。",
+      "D": "We don't know我們不知道，與明列Seattle有張力；此選項仍依官方更正給分。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "官方更正：此選項給分。",
+      "D": "官方更正：此選項給分。"
+    },
+    "sources": [
+      {
+        "title": "98 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=c021&q=1"
+      },
+      {
+        "title": "98 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c021&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "drop out of school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "退學",
+        "usage": "drop out of school與quit、leave school在此指同一決定。"
+      },
+      {
+        "word": "put off",
+        "partOfSpeech": "片語動詞",
+        "meaning": "延後；拖延",
+        "usage": "put off going to see the doctor 表示拖延就醫，off 後接動名詞。"
+      },
+      {
+        "word": "postpone",
+        "partOfSpeech": "動詞",
+        "meaning": "延後、延期",
+        "usage": "postponed the meeting是延後會面，與put off同義。"
+      },
+      {
+        "word": "energy",
+        "partOfSpeech": "n.",
+        "meaning": "精力；能量",
+        "usage": "lack time or energy表示沒有足夠時間或心力完成課業。"
+      },
+      {
+        "word": "choice",
+        "partOfSpeech": "n.",
+        "meaning": "選擇",
+        "usage": "her only choice是她以為唯一的出路，非作者認可只有此路。"
+      },
+      {
+        "word": "serious",
+        "partOfSpeech": "adj.",
+        "meaning": "嚴重的",
+        "usage": "a serious problem表示問題已非小事，需尋求協助。"
+      },
+      {
+        "word": "anxious",
+        "partOfSpeech": "形容詞",
+        "meaning": "焦慮的、擔心的",
+        "usage": "anxious about applying for the job 說明因競爭激烈而感到擔心。"
+      },
+      {
+        "word": "mistake",
+        "partOfSpeech": "n.",
+        "meaning": "錯誤",
+        "usage": "making a huge mistake表示Susan不認同退學決定。"
+      },
+      {
+        "word": "classmate",
+        "partOfSpeech": "n.",
+        "meaning": "同班同學",
+        "usage": "in the class支持兩人是classmates，而非同事。"
+      },
+      {
+        "word": "co-worker",
+        "partOfSpeech": "n.",
+        "meaning": "同事",
+        "usage": "co-workers指一起工作的人，與本文同班好友不同。"
+      },
+      {
+        "word": "tuition fee",
+        "partOfSpeech": "n.",
+        "meaning": "學費",
+        "usage": "選項學費未繳是無原文根據的原因，不能自行補入。"
+      },
+      {
+        "word": "Seattle",
+        "partOfSpeech": "專有名詞",
+        "meaning": "西雅圖",
+        "usage": "署名直接列Seattle，為文章地點的明確線索。"
+      }
+    ]
+  }
+}

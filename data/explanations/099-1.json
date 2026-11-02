@@ -1,1 +1,2202 @@
-{}
+{
+  "099-1-1": {
+    "summary": "民主素養包括公開表達、聆聽及共同討論，不是壓下所有差異；披露消息仍須查證與尊重隱私。",
+    "options": {
+      "A": "從不爭辯雖避免衝突，也可能讓需要討論的問題無法處理。",
+      "B": "少說話不等於有效民主，應理性發言、容許異見。",
+      "C": "公開說明團體意見，讓他人回應、共同決策，可實踐民主。",
+      "D": "匿名不保證內容真實合法，未查證披露內幕不是當然有效參與。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-2": {
+    "summary": "行政、國會分權，各有民意基礎，行政須遊說國會且可能僵局，最接近美國總統制。",
+    "options": {
+      "A": "內閣由國會多數支持形成，通常行政立法關係較融合。",
+      "B": "總統制強調行政立法分立，政策協商及僵局線索相合。",
+      "C": "混合制有總統與對國會負責的總理，題中未見雙首長線索。",
+      "D": "瑞士委員制以合議行政與協商為特色，不是題述總統國會對立模式。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-3": {
+    "summary": "直轄市、縣市是地方自治團體；政府是其行政機關。題目把團體與機關簡稱混用，選①③。",
+    "options": {
+      "A": "①可，但省已非地方自治團體。",
+      "B": "①直轄市、③縣市具有地方自治團體地位。",
+      "C": "省及一般區公所都不具本題自治團體身分。",
+      "D": "③可，④一般區公所是市政府派出機關，非自治團體；原住民區另有特別制度。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-4": {
+    "summary": "傳統法律親屬關係以婚姻、血緣與收養形成；寄養本身不創設親子身分。此分類不否認寄養家庭的照顧價值。",
+    "options": {
+      "A": "婚姻建立配偶及相關姻親關係，是家庭形成因素。",
+      "B": "收養依法建立擬制親子關係。",
+      "C": "血緣建立自然親屬關係，例如父母與親生子女，屬家庭形成因素。",
+      "D": "寄養是照護安置，不像收養直接成立法律親子身分，故按題意選此。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-5": {
+    "summary": "不履行義務須承受不利法律後果，稱法律責任；制裁是國家落實責任的手段。",
+    "options": {
+      "A": "權利是可主張的利益或法律地位，不是違反義務後果。",
+      "B": "義務是應為或不為的要求，題目問違反後效果。",
+      "C": "責任指違法後須承擔的法律後果，為本題答案。",
+      "D": "制裁偏向國家採取處罰、強制的措施，與責任概念相近但層次不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-6": {
+    "summary": "生存、工作等權利關涉基本生活保障，依傳統受益權分類屬經濟受益權。",
+    "options": {
+      "A": "保障生活與工作條件，屬經濟面向的社會權。",
+      "B": "行政受益通常指請願等向行政尋求協助的權利。",
+      "C": "司法受益如訴訟權，確保請求法院救濟。",
+      "D": "教育受益重接受教育機會，非題目生存工作保障。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-7": {
+    "summary": "受國民教育兼具權利與義務，屬教育受益權，和免受國家干預的自由權分類不同。",
+    "options": {
+      "A": "居住遷徙為憲法明列自由權。",
+      "B": "宗教信仰與實踐屬宗教自由。",
+      "C": "集會結社亦為憲法保障的自由。",
+      "D": "受國民教育不是本題所問的自由權類型，故選此。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-8": {
+    "summary": "因視障者使用導盲犬而拒絕服務，是不合理差別待遇，最直接涉及平等參與。",
+    "options": {
+      "A": "平等權要求避免因身心障礙而不合理排除服務使用。",
+      "B": "生存權重基本生活保障，此例核心是差別對待。",
+      "C": "受益權範圍較廣，未如平等權直接抓到歧視問題。",
+      "D": "財產權重財物支配，並非此處進餐廳被拒的主要侵害。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-9": {
+    "summary": "家庭是社會基本組織，可由婚姻、血緣或收養等形成，功能也不易由外部機構完全取代。",
+    "options": {
+      "A": "只說婚姻排除了血緣、收養等形成因素。",
+      "B": "核心家庭通常為夫妻及未婚子女；折衷家庭包括直系跨代成員，不是同義。",
+      "C": "家庭在照護、教養與社會化方面構成社會基本單位。",
+      "D": "機構可分擔部分功能，但完全取代情感與身分關係過度絕對。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-10": {
+    "summary": "父母提供教育服務是生產者，也購買商品服務；小一子女在此作為消費者，故①③。",
+    "options": {
+      "A": "①父母兼生產消費、③子女消費，完整符合。",
+      "B": "①對，④卻無理由排除同樣任教的母親。",
+      "C": "③對，②把父親說成不消費不合理。",
+      "D": "②否認消費、④否認母親生產，兩者皆錯。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-11": {
+    "summary": "政府公共服務經費主要仰賴租稅，與借債、收規費不同，租稅是依法強制無直接對價的收入。",
+    "options": {
+      "A": "公債是借款，須償還，不是主要經常性財源。",
+      "B": "租稅為預算收入主要來源，支應公共服務。",
+      "C": "公營事業盈餘繳庫是來源之一，但非整體最主要。",
+      "D": "規費有特定服務對價，罰款具制裁性，兩者非主要總收入。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-12": {
+    "summary": "要式行為須依法律要求的特定方式成立或生效。本題依99年法制，成年仍為20歲。",
+    "options": {
+      "A": "無體財產權如著作財產權仍有經濟價值，不全屬非財產權。",
+      "B": "99年原則為滿7未滿20歲限制行為能力；112年起成年改18歲。",
+      "C": "一般請求權消滅時效原則15年，法律另有短期者除外，不是10年。",
+      "D": "需特定書面等方式的法律行為，稱要式行為。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      },
+      {
+        "title": "法務部歷史條文：成年年齡變動",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExtentHistory.aspx?LSID=FL001351&LawNo=12"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-13": {
+    "summary": "廢氣讓他人承受未由駕駛完整支付的污染損害，是外部成本；是否故意不是外部性的判準。",
+    "options": {
+      "A": "外部效益是他人得到未付費的好處，非污染損失。",
+      "B": "污染成本由外人承受，是負外部性、外部成本。",
+      "C": "社會資本指信任互惠、人際網絡等，不是污染。",
+      "D": "外部經濟通常指正外部性，與傷害方向相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-14": {
+    "summary": "針對污染負外部性，課稅使成本內部化，管制限制排放，故②③；補助減污也可能有用，但不是無條件補貼污染活動。",
+    "options": {
+      "A": "②可，但①未說補助減污，無法視為本題標準組合。",
+      "B": "補貼與獎勵若鼓勵污染活動反使問題加重，未交代對象。",
+      "C": "②對排放課稅、③訂排放規範，直接處理外部成本。",
+      "D": "③可，④獎勵未交代獎勵減污，不是明確的負外部性對策。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-15": {
+    "summary": "未經允許直接把店內書帶走，可能涉及竊盜等刑法犯罪；不能因原想租書就自行取走。",
+    "options": {
+      "A": "民事返還賠償也可能成立，但題問最主要的刑事違法。",
+      "B": "刑法保護他人財產，取走書籍的行為須受其檢驗。",
+      "C": "公平交易法主要處理市場競爭，不是顧客私取財物。",
+      "D": "若已涉刑事財產犯罪，不以一般秩序違規取代刑法判斷。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-16": {
+    "summary": "當代日本為君主立憲、民主政體，故C。題幹把「明治維新後即為虛位元首」說得過度簡化：戰前天皇權限與戰後象徵天皇不同。",
+    "options": {
+      "A": "當代日本有議會選舉及民主責任政府，並非題稱的獨裁政體。",
+      "B": "共和國沒有世襲君主，日本保有天皇，故非共和。",
+      "C": "保有天皇的君主國體，搭配議會民主政體，符合所問當代分類。",
+      "D": "共和與獨裁兩項都不符當代日本。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-17": {
+    "summary": "不願承受繼承身分，應在知悉得繼承起3個月內以書面向法院拋棄繼承；現制另有概括限定責任，非欠債便必須自掏全部財產。",
+    "options": {
+      "A": "斷絕父子聲明不能代替法定繼承程序。",
+      "B": "破產宣告不是繼承人放棄繼承的法律手段。",
+      "C": "依法拋棄繼承可退出繼承，須注意法定期間與方式。",
+      "D": "禁治產是過去行為能力制度用語，與是否繼承無關。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-18": {
+    "summary": "黨內初選用以挑選代表政黨參加正式選舉的人，屬政黨政治人才甄補功能。",
+    "options": {
+      "A": "政策整合是政黨功能之一，但不是初選直接目的。",
+      "B": "資訊提供是選舉可能效果，非初選選人核心。",
+      "C": "國家建設藍圖重政策提出，不是候選人遴選程序。",
+      "D": "篩選推薦政治人才，符合初選的直接作用。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-19": {
+    "summary": "科技可能改變親屬倫理並引出立法限制，重點是科技與道德法律規範的關係。",
+    "options": {
+      "A": "未討論人口增減的量化問題。",
+      "B": "倫理衝擊與禁止立法都屬社會規範問題。",
+      "C": "提到聯合國不代表主旨就是合作機制，內容核心是規範。",
+      "D": "未說基因科技影響生態環境或保育。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-20": {
+    "summary": "證據不足以證明犯罪時，應為無罪判決，舉證責任原則在控方；題目D的核心是無罪，並非先認定有罪再從輕。",
+    "options": {
+      "A": "不能為避免無罪而一律發回要求重查，應依法作成判決。",
+      "B": "被告無須以自證不在場來換取無罪推定。",
+      "C": "羈押有法定要件，不能當成先關再找罪證的工具。",
+      "D": "無法證明犯罪應判無罪；「罪疑唯輕」在此宜理解為有疑利於被告。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-21": {
+    "summary": "市場可能供給公共財不足、產生外部性，政府可補足與矯正，而非全面代替市場。",
+    "options": {
+      "A": "①供公共財、②處理外部效果是典型政府經濟功能。",
+      "B": "①可，但④不是所有商品均由政府定價。",
+      "C": "②可，③全面管理則屬過度擴張，非一般市場經濟角色。",
+      "D": "全面管理與決定所有價格不是現代政府的一般必要職責。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-22": {
+    "summary": "言論自由真正的考驗，是能否保障不受多數歡迎的少數異議，而不只容許安全的對外批評。",
+    "options": {
+      "A": "能批評鄰國不代表能批評本國或保護異見。",
+      "B": "官員批評外國未必伴隨人民自由。",
+      "C": "社會容忍少數不同意見，才使言論自由不流於多數人的特權。",
+      "D": "民代有議事言論保障，不等於一般人民也受同等自由保障。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-23": {
+    "summary": "行政院編預算、立法院審預算，決算審核則由監察院下的審計機關辦理。",
+    "options": {
+      "A": "行政院執行預算並提出決算，不是獨立審核者。",
+      "B": "立法院審議預算、審議審計報告，非審計機關本身。",
+      "C": "司法院掌審判，非經費決算的審計。",
+      "D": "監察院所屬審計部負責中央決算審核。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-24": {
+    "summary": "憲法明定行政院為國家最高行政機關，元首地位不能直接等同最高行政機關。",
+    "options": {
+      "A": "總統府幕僚機關不取代行政院的憲法地位。",
+      "B": "行政院為最高行政機關，統合各部會行政。",
+      "C": "國安會為總統相關國安諮詢機構，非最高行政機關。",
+      "D": "最高行政法院是行政訴訟審判機關，不執行一般行政。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-25": {
+    "summary": "改變子女姓氏決定的法律規則是制度變動；科技是器物，男女價值態度則屬觀念。",
+    "options": {
+      "A": "傳信工具轉為電子郵件是科技器物面變化。",
+      "B": "性別價值由偏男轉為平等，屬價值觀面。",
+      "C": "從多子偏好轉為不生育取向，主要呈現家庭價值選擇。",
+      "D": "協議子女姓氏涉及正式法律制度安排，屬制度面。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-26": {
+    "summary": "王教授有化工專業，最可用來釐清染整工廠污染、協助居民判讀資訊及提出建議。",
+    "options": {
+      "A": "一般關心可維繫感情，卻未利用此案最需要的專業。",
+      "B": "勞動服務如清掃有用，但無法直接分析工廠化學風險。",
+      "C": "用專業知能辨識污染與溝通，切合背景和問題。",
+      "D": "政黨協助可能是一條管道，但非教授最直接可提供的獨特貢獻。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-27": {
+    "summary": "債權不使債權人取得任意搬走債務人財物的權利；應循合法催收與執行程序。",
+    "options": {
+      "A": "自助行為有嚴格急迫等要件，討債不成不能概括適用。",
+      "B": "正當防衛須面對現在不法侵害，非用來自行強制清償舊債。",
+      "C": "以物抵債須有合法合意等依據，不能單方決定取走他物。",
+      "D": "依取物方式、暴力與犯意，可能涉及竊盜、搶奪或強盜等罪，須個案認定。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-28": {
+    "summary": "中央銀行負責貨幣發行與貨幣政策管理，不是一般財政收支機關。",
+    "options": {
+      "A": "總統不是直接管理發鈔量的專責機關。",
+      "B": "財政部管租稅、公庫等財政，與央行貨幣政策不同。",
+      "C": "經濟部管產業商業等，非發行通貨主管。",
+      "D": "中央銀行依法負責發行貨幣並管理貨幣金融政策。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-29": {
+    "summary": "本題採傳統公民教材文化定義，選①傳承、②普遍存在、④人類特有。現代動物研究也有廣義文化用法，不宜將④當跨學科絕對結論。",
+    "options": {
+      "A": "①②對，③若指不經學習或社會形成，並不符合文化定義。",
+      "B": "①②④符合本題教材框架，但④有定義層次限制。",
+      "C": "②可，③錯；④須按題目傳統分類理解。",
+      "D": "③錯，⑤更把經濟發展程度誤當有無文化，所有人群皆有文化。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-30": {
+    "summary": "教唆他人實行犯罪也可能負刑責，未親自動手不等於免責。官方按題意認殺人；實際仍須證明殺人故意及教唆內容。",
+    "options": {
+      "A": "有教唆或共同犯意仍可能負刑責，不以親手行凶為限。",
+      "B": "口角不是殺人的阻卻違法理由。",
+      "C": "可能同時有刑事與民事責任，不能說只賠償。",
+      "D": "若教唆殺人並實行，即可負殺人罪教唆責任；若僅傷害故意須另判，勿省略犯意要件。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-31": {
+    "summary": "傳統人口分類以65歲以上占7%為高齡化、14%高齡、20%超高齡。題中扶養比是當年背景，不是今日數字。",
+    "options": {
+      "A": "5%未達此分類的7%門檻。",
+      "B": "6%亦未達高齡化社會門檻。",
+      "C": "7%是題定高齡化社會起點。",
+      "D": "8%雖已高於門檻，但不是所問的起始標準。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-32": {
+    "summary": "行政院長由總統任命，不必經立法院同意；其餘三院長均有提名同意程序。",
+    "options": {
+      "A": "行政院長是增修條文明定可直接任命者。",
+      "B": "司法院長須總統提名、立法院同意。",
+      "C": "考試院長由總統提名，亦須經立法院同意後才得任命。",
+      "D": "監察院長亦非總統不經同意便能任命。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-33": {
+    "summary": "國際分工的核心是比較機會成本，專做相對成本較低的產品可互利；非一定每國都有絕對產量優勢。",
+    "options": {
+      "A": "絕對利益比較誰生產效率高，無法完整解釋效率較低國仍可分工。",
+      "B": "供需法則解釋價格與數量形成，非分工互利核心。",
+      "C": "比較利益以較低機會成本決定專業化方向。",
+      "D": "受益原則是依受益多寡分擔成本等概念，不是此國際分工理論。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-34": {
+    "summary": "所得高而負擔較多稅，依支付能力分擔公共費用，是量能課稅。",
+    "options": {
+      "A": "方便原則重繳納與徵收便利，不是收入多寡。",
+      "B": "受益原則依公共服務所得利益課費，不是看所得能力。",
+      "C": "負擔能力原則按所得財力決定適當稅負。",
+      "D": "增加財源是可能目的，未說明為何高所得應多繳的公平依據。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-35": {
+    "summary": "選3萬元工作時，未選替代中最高薪是2萬7千元，機會成本取此值。",
+    "options": {
+      "A": "原職2萬5千較低，不是最佳替代。",
+      "B": "2萬7千是放棄選項中最高薪，符合題意。",
+      "C": "3萬元是所選工作的報酬，不是被放棄利益。",
+      "D": "5萬2千是兩個替代薪資加總，機會成本不加總互斥選項。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "099-1-36": {
+    "summary": "整句白話：我到處找車鑰匙，最後終於在浴室找到。\n\n我到處找車鑰匙，終於在浴室找到。finally與尋找的結果呼應find，過去式found。",
+    "options": {
+      "A": "avoided避免，不能表達尋得鑰匙。",
+      "B": "ignored忽略，與終於找尋成功相反。",
+      "C": "found找到，承接looked everywhere for。",
+      "D": "arrested逮捕，受詞通常為涉案者，非找鑰匙。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "look for",
+        "partOfSpeech": "動詞片語",
+        "meaning": "尋找",
+        "usage": "Police are looking for 表正在尋找，和 look at 注視的動作不同。"
+      },
+      {
+        "word": "find",
+        "partOfSpeech": "v.",
+        "meaning": "找到；發現",
+        "usage": "find過去式found，本句說終於在浴室找到鑰匙。"
+      },
+      {
+        "word": "ignore",
+        "partOfSpeech": "v.",
+        "meaning": "忽略；不理會",
+        "usage": "ignore可直接接受詞，與找出失物的結果不同。"
+      }
+    ]
+  },
+  "099-1-37": {
+    "summary": "整句白話：聖誕節快到了。誰想和我一起到百貨公司買禮物？\n\n聖誕節想買禮物，最自然去百貨公司department store。",
+    "options": {
+      "A": "department store百貨公司，可購買各類禮品。",
+      "B": "movie theater電影院主要看電影，非本題一般購禮處。",
+      "C": "elevator電梯是運送樓層的設備，不是商店。",
+      "D": "school學校是教育場所，不是題定購物目的地。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "department store",
+        "partOfSpeech": "n.",
+        "meaning": "百貨公司",
+        "usage": "department store是可買不同禮物的大型購物場所。"
+      },
+      {
+        "word": "present",
+        "partOfSpeech": "n.",
+        "meaning": "禮物",
+        "usage": "buy presents在聖誕語境是買禮物，不是present現在的形容詞義。"
+      },
+      {
+        "word": "elevator",
+        "partOfSpeech": "n.",
+        "meaning": "電梯",
+        "usage": "elevator提供樓層間移動，不是購買禮品的店家。"
+      }
+    ]
+  },
+  "099-1-38": {
+    "summary": "整句白話：他們的一位朋友說，他比較喜歡Henry寫的那個聖誕故事版本。\n\na friend of theirs是他們的一位朋友，屬雙重所有格，of後用獨立所有代名詞。",
+    "options": {
+      "A": "they主格不能在此表所有關係。",
+      "B": "them受格不是此雙重所有格需要的所有代名詞。",
+      "C": "theirs表示他們的，省略後面的friends。",
+      "D": "they're是they are縮寫，不可放在此介系詞後。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "theirs",
+        "partOfSpeech": "所有代名詞",
+        "meaning": "他們的",
+        "usage": "a friend of theirs用獨立所有代名詞，不能以they或them代替。"
+      },
+      {
+        "word": "prefer",
+        "partOfSpeech": "v.",
+        "meaning": "比較喜歡",
+        "usage": "prefer A to B表示相較B更喜歡A，本題受詞是故事版本。"
+      },
+      {
+        "word": "version",
+        "partOfSpeech": "n.",
+        "meaning": "版本；說法",
+        "usage": "the version written by Henry指Henry寫的那個故事版本。"
+      }
+    ]
+  },
+  "099-1-39": {
+    "summary": "整句白話：撒哈拉沙漠占地數百萬平方公里，是非洲一片巨大的沙漠。\n\n覆蓋數百萬平方公里，說明沙漠面積巨大，huge合適。",
+    "options": {
+      "A": "light輕的、明亮的，未表示面積大。",
+      "B": "huge巨大的，與millions of square kilometers互相說明。",
+      "C": "heavy重的，描述重量不是面積。",
+      "D": "quick迅速的，不適合沙漠的大小。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "desert",
+        "partOfSpeech": "n.",
+        "meaning": "沙漠",
+        "usage": "此處desert指沙漠，與dessert甜點拼字不同。"
+      },
+      {
+        "word": "huge",
+        "partOfSpeech": "adj.",
+        "meaning": "巨大的",
+        "usage": "huge描述沙漠廣大面積，非重量或移動速度。"
+      },
+      {
+        "word": "cover",
+        "partOfSpeech": "v.",
+        "meaning": "涵蓋；占有面積",
+        "usage": "covers millions of square kilometers說面積廣達數百萬平方公里。"
+      }
+    ]
+  },
+  "099-1-40": {
+    "summary": "整句白話：不要再惹麻煩了，否則你會坐牢。\n\n別再惹事，否則會坐牢。祈使句後用or提出不遵守的負面後果。",
+    "options": {
+      "A": "and通常表承接，易變成不惹事便坐牢的錯誤關係。",
+      "B": "or在此是否則，連接警告後果。",
+      "C": "so因此會將坐牢接在不惹事之後，因果反了。",
+      "D": "yet然而表轉折，不能清楚形成否則的條件關係。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "get into trouble",
+        "partOfSpeech": "動詞片語",
+        "meaning": "惹上麻煩",
+        "usage": "Don't get into trouble是告誡不要再惹事。"
+      },
+      {
+        "word": "prison",
+        "partOfSpeech": "n.",
+        "meaning": "監獄",
+        "usage": "be in prison指因犯罪入監，不是一般參訪建築物。"
+      },
+      {
+        "word": "or",
+        "partOfSpeech": "conj.",
+        "meaning": "否則；或者",
+        "usage": "祈使句後的or可提出不遵從的負面後果。"
+      }
+    ]
+  },
+  "099-1-41": {
+    "summary": "整句白話：Wendy想受到公司裡每一個人的喜愛。\n\nWendy想被全公司的人喜歡，want後接to不定詞，並用被動to be liked。",
+    "options": {
+      "A": "to like是她主動喜歡別人，與by everyone的施事結構不合。",
+      "B": "liking動名詞不能直接套此want結構，也未表被動。",
+      "C": "to be liked被喜歡，by everyone補充是誰喜歡她。",
+      "D": "like原形不能直接接在wants後作本題所需補語。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "company",
+        "partOfSpeech": "n.",
+        "meaning": "公司",
+        "usage": "everyone in her company指她公司裡的所有人。"
+      },
+      {
+        "word": "want",
+        "partOfSpeech": "v.",
+        "meaning": "想要",
+        "usage": "want to V表想做某事，被動需want to be加過去分詞。"
+      },
+      {
+        "word": "like",
+        "partOfSpeech": "v.",
+        "meaning": "喜歡",
+        "usage": "be liked by everyone表示受到大家喜歡，by引出喜歡她的人。"
+      }
+    ]
+  },
+  "099-1-42": {
+    "summary": "前句說facts為真實資訊，fiction則是虛構，與事實形成對比，the opposite。",
+    "options": {
+      "A": "command命令，不是事實與虛構的關係。",
+      "B": "opposite相反的一方，點出真實與想像的對比。",
+      "C": "false形容詞錯誤的，不能自然組成the false作此概念名詞。",
+      "D": "same相同，與兩種資訊來源的對比相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "fact",
+        "partOfSpeech": "n.",
+        "meaning": "事實",
+        "usage": "facts在首句定義為確實為真的資訊。"
+      },
+      {
+        "word": "fiction",
+        "partOfSpeech": "n.",
+        "meaning": "虛構作品；小說",
+        "usage": "fiction內容由想像創作，與歷史事實形成比較。"
+      },
+      {
+        "word": "opposite",
+        "partOfSpeech": "n. / adj.",
+        "meaning": "相反的一方；相反的",
+        "usage": "the opposite作名詞，指與前述事實相反的概念。"
+      },
+      {
+        "word": "make up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "編造；創作",
+        "usage": "make up stories在寫作語境是編故事，不是化妝。"
+      },
+      {
+        "word": "imagination",
+        "partOfSpeech": "n.",
+        "meaning": "想像力",
+        "usage": "come from imagination表示人物事件來自作者想像。"
+      },
+      {
+        "word": "science fiction",
+        "partOfSpeech": "n.",
+        "meaning": "科幻作品",
+        "usage": "science fiction想像科技及其對人與社會的影響。"
+      },
+      {
+        "word": "not only ... but ...",
+        "partOfSpeech": "關聯句型",
+        "meaning": "不只……而且……",
+        "usage": "兩端連接平行成分，本題為人物事件與科技。"
+      },
+      {
+        "word": "technology",
+        "partOfSpeech": "n.",
+        "meaning": "科技；技術",
+        "usage": "technology是科幻作品特別強調的想像對象。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "effects on a person是科技對個人造成的影響。"
+      },
+      {
+        "word": "set",
+        "partOfSpeech": "v.",
+        "meaning": "設定",
+        "usage": "set a story in the future表示把故事背景放在未來。"
+      },
+      {
+        "word": "predict",
+        "partOfSpeech": "v.",
+        "meaning": "預測",
+        "usage": "predicted technology指在技術存在以前先想像其可能。"
+      },
+      {
+        "word": "impossible",
+        "partOfSpeech": "adj.",
+        "meaning": "不可能的",
+        "usage": "seemed impossible與does exist today形成過去與現在反差。"
+      },
+      {
+        "word": "comfortable",
+        "partOfSpeech": "adj.",
+        "meaning": "舒適的",
+        "usage": "comfortable不是表技術難以實現，不能完成此反差。"
+      }
+    ]
+  },
+  "099-1-43": {
+    "summary": "小說作家編造故事，make up stories是創作、編造的固定搭配。",
+    "options": {
+      "A": "make up在此為編造，不是化妝或補足的其他義。",
+      "B": "pick out挑選，未表由想像創作。",
+      "C": "turn out結果是，不能直接表示編故事。",
+      "D": "come up出現，若表想出通常需come up with，原選項缺with。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "fact",
+        "partOfSpeech": "n.",
+        "meaning": "事實",
+        "usage": "facts在首句定義為確實為真的資訊。"
+      },
+      {
+        "word": "fiction",
+        "partOfSpeech": "n.",
+        "meaning": "虛構作品；小說",
+        "usage": "fiction內容由想像創作，與歷史事實形成比較。"
+      },
+      {
+        "word": "opposite",
+        "partOfSpeech": "n. / adj.",
+        "meaning": "相反的一方；相反的",
+        "usage": "the opposite作名詞，指與前述事實相反的概念。"
+      },
+      {
+        "word": "make up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "編造；創作",
+        "usage": "make up stories在寫作語境是編故事，不是化妝。"
+      },
+      {
+        "word": "imagination",
+        "partOfSpeech": "n.",
+        "meaning": "想像力",
+        "usage": "come from imagination表示人物事件來自作者想像。"
+      },
+      {
+        "word": "science fiction",
+        "partOfSpeech": "n.",
+        "meaning": "科幻作品",
+        "usage": "science fiction想像科技及其對人與社會的影響。"
+      },
+      {
+        "word": "not only ... but ...",
+        "partOfSpeech": "關聯句型",
+        "meaning": "不只……而且……",
+        "usage": "兩端連接平行成分，本題為人物事件與科技。"
+      },
+      {
+        "word": "technology",
+        "partOfSpeech": "n.",
+        "meaning": "科技；技術",
+        "usage": "technology是科幻作品特別強調的想像對象。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "effects on a person是科技對個人造成的影響。"
+      },
+      {
+        "word": "set",
+        "partOfSpeech": "v.",
+        "meaning": "設定",
+        "usage": "set a story in the future表示把故事背景放在未來。"
+      },
+      {
+        "word": "predict",
+        "partOfSpeech": "v.",
+        "meaning": "預測",
+        "usage": "predicted technology指在技術存在以前先想像其可能。"
+      },
+      {
+        "word": "impossible",
+        "partOfSpeech": "adj.",
+        "meaning": "不可能的",
+        "usage": "seemed impossible與does exist today形成過去與現在反差。"
+      },
+      {
+        "word": "comfortable",
+        "partOfSpeech": "adj.",
+        "meaning": "舒適的",
+        "usage": "comfortable不是表技術難以實現，不能完成此反差。"
+      }
+    ]
+  },
+  "099-1-44": {
+    "summary": "人物事件來自作者想像，come from表來源，與主詞people and events搭配。",
+    "options": {
+      "A": "take in吸收、欺騙，不是人物事件的想像來源。",
+      "B": "get out離開，若從……出來通常還需of，也不合創作語意。",
+      "C": "come from來自，完整說明故事材料源頭。",
+      "D": "arrive at到達、得出，未表示源自想像。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "fact",
+        "partOfSpeech": "n.",
+        "meaning": "事實",
+        "usage": "facts在首句定義為確實為真的資訊。"
+      },
+      {
+        "word": "fiction",
+        "partOfSpeech": "n.",
+        "meaning": "虛構作品；小說",
+        "usage": "fiction內容由想像創作，與歷史事實形成比較。"
+      },
+      {
+        "word": "opposite",
+        "partOfSpeech": "n. / adj.",
+        "meaning": "相反的一方；相反的",
+        "usage": "the opposite作名詞，指與前述事實相反的概念。"
+      },
+      {
+        "word": "make up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "編造；創作",
+        "usage": "make up stories在寫作語境是編故事，不是化妝。"
+      },
+      {
+        "word": "imagination",
+        "partOfSpeech": "n.",
+        "meaning": "想像力",
+        "usage": "come from imagination表示人物事件來自作者想像。"
+      },
+      {
+        "word": "science fiction",
+        "partOfSpeech": "n.",
+        "meaning": "科幻作品",
+        "usage": "science fiction想像科技及其對人與社會的影響。"
+      },
+      {
+        "word": "not only ... but ...",
+        "partOfSpeech": "關聯句型",
+        "meaning": "不只……而且……",
+        "usage": "兩端連接平行成分，本題為人物事件與科技。"
+      },
+      {
+        "word": "technology",
+        "partOfSpeech": "n.",
+        "meaning": "科技；技術",
+        "usage": "technology是科幻作品特別強調的想像對象。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "effects on a person是科技對個人造成的影響。"
+      },
+      {
+        "word": "set",
+        "partOfSpeech": "v.",
+        "meaning": "設定",
+        "usage": "set a story in the future表示把故事背景放在未來。"
+      },
+      {
+        "word": "predict",
+        "partOfSpeech": "v.",
+        "meaning": "預測",
+        "usage": "predicted technology指在技術存在以前先想像其可能。"
+      },
+      {
+        "word": "impossible",
+        "partOfSpeech": "adj.",
+        "meaning": "不可能的",
+        "usage": "seemed impossible與does exist today形成過去與現在反差。"
+      },
+      {
+        "word": "comfortable",
+        "partOfSpeech": "adj.",
+        "meaning": "舒適的",
+        "usage": "comfortable不是表技術難以實現，不能完成此反差。"
+      }
+    ]
+  },
+  "099-1-45": {
+    "summary": "not only ... but ...為不只……而且……，後半強調科幻更想像科技。",
+    "options": {
+      "A": "as many as多達，不能與but組成此平行結構。",
+      "B": "variously以不同方式，未建立不只與而且。",
+      "C": "countlessly不是此處自然的結構用法，也不與but呼應。",
+      "D": "not only people and events but technology連成兩類想像對象。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "fact",
+        "partOfSpeech": "n.",
+        "meaning": "事實",
+        "usage": "facts在首句定義為確實為真的資訊。"
+      },
+      {
+        "word": "fiction",
+        "partOfSpeech": "n.",
+        "meaning": "虛構作品；小說",
+        "usage": "fiction內容由想像創作，與歷史事實形成比較。"
+      },
+      {
+        "word": "opposite",
+        "partOfSpeech": "n. / adj.",
+        "meaning": "相反的一方；相反的",
+        "usage": "the opposite作名詞，指與前述事實相反的概念。"
+      },
+      {
+        "word": "make up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "編造；創作",
+        "usage": "make up stories在寫作語境是編故事，不是化妝。"
+      },
+      {
+        "word": "imagination",
+        "partOfSpeech": "n.",
+        "meaning": "想像力",
+        "usage": "come from imagination表示人物事件來自作者想像。"
+      },
+      {
+        "word": "science fiction",
+        "partOfSpeech": "n.",
+        "meaning": "科幻作品",
+        "usage": "science fiction想像科技及其對人與社會的影響。"
+      },
+      {
+        "word": "not only ... but ...",
+        "partOfSpeech": "關聯句型",
+        "meaning": "不只……而且……",
+        "usage": "兩端連接平行成分，本題為人物事件與科技。"
+      },
+      {
+        "word": "technology",
+        "partOfSpeech": "n.",
+        "meaning": "科技；技術",
+        "usage": "technology是科幻作品特別強調的想像對象。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "effects on a person是科技對個人造成的影響。"
+      },
+      {
+        "word": "set",
+        "partOfSpeech": "v.",
+        "meaning": "設定",
+        "usage": "set a story in the future表示把故事背景放在未來。"
+      },
+      {
+        "word": "predict",
+        "partOfSpeech": "v.",
+        "meaning": "預測",
+        "usage": "predicted technology指在技術存在以前先想像其可能。"
+      },
+      {
+        "word": "impossible",
+        "partOfSpeech": "adj.",
+        "meaning": "不可能的",
+        "usage": "seemed impossible與does exist today形成過去與現在反差。"
+      },
+      {
+        "word": "comfortable",
+        "partOfSpeech": "adj.",
+        "meaning": "舒適的",
+        "usage": "comfortable不是表技術難以實現，不能完成此反差。"
+      }
+    ]
+  },
+  "099-1-46": {
+    "summary": "有些預測當時看似不可能，如今卻已存在，impossible與does exist today形成對比。",
+    "options": {
+      "A": "comfortable舒服的，無法突出科技從難以想像到實現。",
+      "B": "traditional傳統的，不是當時超前預測的關鍵。",
+      "C": "peaceful和平的，未和今天存在形成邏輯對比。",
+      "D": "impossible不可能的，與後文實現構成反差。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "fact",
+        "partOfSpeech": "n.",
+        "meaning": "事實",
+        "usage": "facts在首句定義為確實為真的資訊。"
+      },
+      {
+        "word": "fiction",
+        "partOfSpeech": "n.",
+        "meaning": "虛構作品；小說",
+        "usage": "fiction內容由想像創作，與歷史事實形成比較。"
+      },
+      {
+        "word": "opposite",
+        "partOfSpeech": "n. / adj.",
+        "meaning": "相反的一方；相反的",
+        "usage": "the opposite作名詞，指與前述事實相反的概念。"
+      },
+      {
+        "word": "make up",
+        "partOfSpeech": "動詞片語",
+        "meaning": "編造；創作",
+        "usage": "make up stories在寫作語境是編故事，不是化妝。"
+      },
+      {
+        "word": "imagination",
+        "partOfSpeech": "n.",
+        "meaning": "想像力",
+        "usage": "come from imagination表示人物事件來自作者想像。"
+      },
+      {
+        "word": "science fiction",
+        "partOfSpeech": "n.",
+        "meaning": "科幻作品",
+        "usage": "science fiction想像科技及其對人與社會的影響。"
+      },
+      {
+        "word": "not only ... but ...",
+        "partOfSpeech": "關聯句型",
+        "meaning": "不只……而且……",
+        "usage": "兩端連接平行成分，本題為人物事件與科技。"
+      },
+      {
+        "word": "technology",
+        "partOfSpeech": "n.",
+        "meaning": "科技；技術",
+        "usage": "technology是科幻作品特別強調的想像對象。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "effects on a person是科技對個人造成的影響。"
+      },
+      {
+        "word": "set",
+        "partOfSpeech": "v.",
+        "meaning": "設定",
+        "usage": "set a story in the future表示把故事背景放在未來。"
+      },
+      {
+        "word": "predict",
+        "partOfSpeech": "v.",
+        "meaning": "預測",
+        "usage": "predicted technology指在技術存在以前先想像其可能。"
+      },
+      {
+        "word": "impossible",
+        "partOfSpeech": "adj.",
+        "meaning": "不可能的",
+        "usage": "seemed impossible與does exist today形成過去與現在反差。"
+      },
+      {
+        "word": "comfortable",
+        "partOfSpeech": "adj.",
+        "meaning": "舒適的",
+        "usage": "comfortable不是表技術難以實現，不能完成此反差。"
+      }
+    ]
+  },
+  "099-1-47": {
+    "summary": "家庭預算先盤點收入、安排基本需求與支出，是事前知道錢如何使用。",
+    "options": {
+      "A": "存款可能是一部分，但文中不是把大量存錢列唯一目的。",
+      "B": "沒有要求每個人都賺錢，兒童也可藉控制花費參與。",
+      "C": "教育只是支出之一，未主張大量買教育遊戲。",
+      "D": "預先安排收入用途，概括planning expenses的定義。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "budget",
+        "partOfSpeech": "n.",
+        "meaning": "預算",
+        "usage": "family budget為家戶先估收入並分配用途的計畫。"
+      },
+      {
+        "word": "expense",
+        "partOfSpeech": "n.",
+        "meaning": "支出；費用",
+        "usage": "ordinary expenses與extra expenses分別是一般及額外支出。"
+      },
+      {
+        "word": "figure out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "算出；弄清楚",
+        "usage": "figure out how much money is made指盤點家庭收入。"
+      },
+      {
+        "word": "basic need",
+        "partOfSpeech": "n.",
+        "meaning": "基本需求",
+        "usage": "basic needs涵蓋生活不可少的食物、水電、教育等。"
+      },
+      {
+        "word": "utility",
+        "partOfSpeech": "n.",
+        "meaning": "公用事業服務",
+        "usage": "utilities在本文明列electricity and water，即水電。"
+      },
+      {
+        "word": "electricity",
+        "partOfSpeech": "n.",
+        "meaning": "電力",
+        "usage": "house lights用電，因此屬utility bills支應的項目。"
+      },
+      {
+        "word": "communication",
+        "partOfSpeech": "n.",
+        "meaning": "通訊",
+        "usage": "communication costs指電話與電腦通訊支出。"
+      },
+      {
+        "word": "transportation",
+        "partOfSpeech": "n.",
+        "meaning": "交通運輸",
+        "usage": "交通費與水電、食物分項，不能混為一類。"
+      },
+      {
+        "word": "groceries",
+        "partOfSpeech": "n.",
+        "meaning": "食品雜貨",
+        "usage": "money for groceries指家庭購買食物及日用品的費用。"
+      },
+      {
+        "word": "set aside",
+        "partOfSpeech": "動詞片語",
+        "meaning": "撥留；預留",
+        "usage": "set aside money表示先保留一筆以備額外需要。"
+      },
+      {
+        "word": "reasonable",
+        "partOfSpeech": "adj.",
+        "meaning": "合理的",
+        "usage": "at a reasonable level指生活花費維持適當程度。"
+      },
+      {
+        "word": "in advance",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事先",
+        "usage": "know in advance表示花錢前已安排用途，符合預算目的。"
+      },
+      {
+        "word": "necessity",
+        "partOfSpeech": "n.",
+        "meaning": "必需品",
+        "usage": "basic necessity是生活必需，與extra expense不同。"
+      },
+      {
+        "word": "attend school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "就學",
+        "usage": "兒童教育費支援attend school，不等於必有額外舞蹈課。"
+      }
+    ]
+  },
+  "099-1-48": {
+    "summary": "文章把utilities明列electricity and water，房屋照明屬電費。",
+    "options": {
+      "A": "通勤屬transportation，文章與水電費分開列。",
+      "B": "lights照明需要electricity，符合utility bills。",
+      "C": "食物屬groceries，不是此處utilities。",
+      "D": "教育列另一項基本支出，非水電費。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "budget",
+        "partOfSpeech": "n.",
+        "meaning": "預算",
+        "usage": "family budget為家戶先估收入並分配用途的計畫。"
+      },
+      {
+        "word": "expense",
+        "partOfSpeech": "n.",
+        "meaning": "支出；費用",
+        "usage": "ordinary expenses與extra expenses分別是一般及額外支出。"
+      },
+      {
+        "word": "figure out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "算出；弄清楚",
+        "usage": "figure out how much money is made指盤點家庭收入。"
+      },
+      {
+        "word": "basic need",
+        "partOfSpeech": "n.",
+        "meaning": "基本需求",
+        "usage": "basic needs涵蓋生活不可少的食物、水電、教育等。"
+      },
+      {
+        "word": "utility",
+        "partOfSpeech": "n.",
+        "meaning": "公用事業服務",
+        "usage": "utilities在本文明列electricity and water，即水電。"
+      },
+      {
+        "word": "electricity",
+        "partOfSpeech": "n.",
+        "meaning": "電力",
+        "usage": "house lights用電，因此屬utility bills支應的項目。"
+      },
+      {
+        "word": "communication",
+        "partOfSpeech": "n.",
+        "meaning": "通訊",
+        "usage": "communication costs指電話與電腦通訊支出。"
+      },
+      {
+        "word": "transportation",
+        "partOfSpeech": "n.",
+        "meaning": "交通運輸",
+        "usage": "交通費與水電、食物分項，不能混為一類。"
+      },
+      {
+        "word": "groceries",
+        "partOfSpeech": "n.",
+        "meaning": "食品雜貨",
+        "usage": "money for groceries指家庭購買食物及日用品的費用。"
+      },
+      {
+        "word": "set aside",
+        "partOfSpeech": "動詞片語",
+        "meaning": "撥留；預留",
+        "usage": "set aside money表示先保留一筆以備額外需要。"
+      },
+      {
+        "word": "reasonable",
+        "partOfSpeech": "adj.",
+        "meaning": "合理的",
+        "usage": "at a reasonable level指生活花費維持適當程度。"
+      },
+      {
+        "word": "in advance",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事先",
+        "usage": "know in advance表示花錢前已安排用途，符合預算目的。"
+      },
+      {
+        "word": "necessity",
+        "partOfSpeech": "n.",
+        "meaning": "必需品",
+        "usage": "basic necessity是生活必需，與extra expense不同。"
+      },
+      {
+        "word": "attend school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "就學",
+        "usage": "兒童教育費支援attend school，不等於必有額外舞蹈課。"
+      }
+    ]
+  },
+  "099-1-49": {
+    "summary": "食物雜貨groceries列在everyone's basic needs所需的普通支出中，屬基本必需品。",
+    "options": {
+      "A": "extra expenses是另預留的額外支出，食物不是此類。",
+      "B": "transportation cost是交通費，不能等同購買食物。",
+      "C": "basic necessity基本必需，符合文章支出分類。",
+      "D": "communication fee是電話、電腦等通訊，不是groceries。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "budget",
+        "partOfSpeech": "n.",
+        "meaning": "預算",
+        "usage": "family budget為家戶先估收入並分配用途的計畫。"
+      },
+      {
+        "word": "expense",
+        "partOfSpeech": "n.",
+        "meaning": "支出；費用",
+        "usage": "ordinary expenses與extra expenses分別是一般及額外支出。"
+      },
+      {
+        "word": "figure out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "算出；弄清楚",
+        "usage": "figure out how much money is made指盤點家庭收入。"
+      },
+      {
+        "word": "basic need",
+        "partOfSpeech": "n.",
+        "meaning": "基本需求",
+        "usage": "basic needs涵蓋生活不可少的食物、水電、教育等。"
+      },
+      {
+        "word": "utility",
+        "partOfSpeech": "n.",
+        "meaning": "公用事業服務",
+        "usage": "utilities在本文明列electricity and water，即水電。"
+      },
+      {
+        "word": "electricity",
+        "partOfSpeech": "n.",
+        "meaning": "電力",
+        "usage": "house lights用電，因此屬utility bills支應的項目。"
+      },
+      {
+        "word": "communication",
+        "partOfSpeech": "n.",
+        "meaning": "通訊",
+        "usage": "communication costs指電話與電腦通訊支出。"
+      },
+      {
+        "word": "transportation",
+        "partOfSpeech": "n.",
+        "meaning": "交通運輸",
+        "usage": "交通費與水電、食物分項，不能混為一類。"
+      },
+      {
+        "word": "groceries",
+        "partOfSpeech": "n.",
+        "meaning": "食品雜貨",
+        "usage": "money for groceries指家庭購買食物及日用品的費用。"
+      },
+      {
+        "word": "set aside",
+        "partOfSpeech": "動詞片語",
+        "meaning": "撥留；預留",
+        "usage": "set aside money表示先保留一筆以備額外需要。"
+      },
+      {
+        "word": "reasonable",
+        "partOfSpeech": "adj.",
+        "meaning": "合理的",
+        "usage": "at a reasonable level指生活花費維持適當程度。"
+      },
+      {
+        "word": "in advance",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事先",
+        "usage": "know in advance表示花錢前已安排用途，符合預算目的。"
+      },
+      {
+        "word": "necessity",
+        "partOfSpeech": "n.",
+        "meaning": "必需品",
+        "usage": "basic necessity是生活必需，與extra expense不同。"
+      },
+      {
+        "word": "attend school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "就學",
+        "usage": "兒童教育費支援attend school，不等於必有額外舞蹈課。"
+      }
+    ]
+  },
+  "099-1-50": {
+    "summary": "基本預算包含education for the children，因此讓孩子上學是直接支持的用途。",
+    "options": {
+      "A": "交朋友可能在學校發生，但不是預算明列的保證結果。",
+      "B": "旅行不是文章列的基本教育用途。",
+      "C": "attend school就學，對應children's education。",
+      "D": "舞蹈課是特定額外活動，文章未列為基本需要。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "99 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=099030&c=508&s=c02&q=1"
+      },
+      {
+        "title": "99 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c02&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "budget",
+        "partOfSpeech": "n.",
+        "meaning": "預算",
+        "usage": "family budget為家戶先估收入並分配用途的計畫。"
+      },
+      {
+        "word": "expense",
+        "partOfSpeech": "n.",
+        "meaning": "支出；費用",
+        "usage": "ordinary expenses與extra expenses分別是一般及額外支出。"
+      },
+      {
+        "word": "figure out",
+        "partOfSpeech": "動詞片語",
+        "meaning": "算出；弄清楚",
+        "usage": "figure out how much money is made指盤點家庭收入。"
+      },
+      {
+        "word": "basic need",
+        "partOfSpeech": "n.",
+        "meaning": "基本需求",
+        "usage": "basic needs涵蓋生活不可少的食物、水電、教育等。"
+      },
+      {
+        "word": "utility",
+        "partOfSpeech": "n.",
+        "meaning": "公用事業服務",
+        "usage": "utilities在本文明列electricity and water，即水電。"
+      },
+      {
+        "word": "electricity",
+        "partOfSpeech": "n.",
+        "meaning": "電力",
+        "usage": "house lights用電，因此屬utility bills支應的項目。"
+      },
+      {
+        "word": "communication",
+        "partOfSpeech": "n.",
+        "meaning": "通訊",
+        "usage": "communication costs指電話與電腦通訊支出。"
+      },
+      {
+        "word": "transportation",
+        "partOfSpeech": "n.",
+        "meaning": "交通運輸",
+        "usage": "交通費與水電、食物分項，不能混為一類。"
+      },
+      {
+        "word": "groceries",
+        "partOfSpeech": "n.",
+        "meaning": "食品雜貨",
+        "usage": "money for groceries指家庭購買食物及日用品的費用。"
+      },
+      {
+        "word": "set aside",
+        "partOfSpeech": "動詞片語",
+        "meaning": "撥留；預留",
+        "usage": "set aside money表示先保留一筆以備額外需要。"
+      },
+      {
+        "word": "reasonable",
+        "partOfSpeech": "adj.",
+        "meaning": "合理的",
+        "usage": "at a reasonable level指生活花費維持適當程度。"
+      },
+      {
+        "word": "in advance",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事先",
+        "usage": "know in advance表示花錢前已安排用途，符合預算目的。"
+      },
+      {
+        "word": "necessity",
+        "partOfSpeech": "n.",
+        "meaning": "必需品",
+        "usage": "basic necessity是生活必需，與extra expense不同。"
+      },
+      {
+        "word": "attend school",
+        "partOfSpeech": "動詞片語",
+        "meaning": "就學",
+        "usage": "兒童教育費支援attend school，不等於必有額外舞蹈課。"
+      }
+    ]
+  }
+}

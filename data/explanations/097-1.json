@@ -1,1 +1,2246 @@
-{}
+{
+  "097-1-1": {
+    "summary": "社會性別是社會對男女角色的期待，不是身體構造；把女生與教師職業綁在一起就是角色刻板印象。",
+    "options": {
+      "A": "職業適合度受個人能力與興趣影響，女生適合教職是社會賦予的角色。",
+      "B": "肩膀寬厚是題目設定的生理差異，不是職業角色。",
+      "C": "月經屬生殖生理現象，歸生理性別。",
+      "D": "聲音低沉與生理發育有關，不是社會分工期待。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-2": {
+    "summary": "能下載不等於獲得重製、散布授權。題目未說取得授權，燒成光碟再送多人涉及著作權。",
+    "options": {
+      "A": "公開可看與可任意複製散布是兩回事。",
+      "B": "不營利不是全面免責理由，仍須符合授權或合理使用。",
+      "C": "音樂著作的重製與散布受著作權法規範，不能只憑送朋友便認為合法。",
+      "D": "刑事訴訟法規範偵查審判程序，不是音樂著作利用權的實體依據。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "著作權法（權利與合理使用）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=J0070017"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-3": {
+    "summary": "政黨以取得政權、實現政策為目標；利益團體可透過遊說或支持候選人影響政策，不一定自己參選。",
+    "options": {
+      "A": "利益團體可遊說、陳情，不必經選舉才實現主張。",
+      "B": "政黨能在政府與議會推動政策，不必一律借利益團體才能改變政策。",
+      "C": "利益團體可支持特定政黨，並非必須政治中立。",
+      "D": "不提名而支持理念相合候選人，正是利益團體可能採取的方式。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-4": {
+    "summary": "官方答案為C，但內政部會議規範第19條實為平票時主席得加入可方使通過，或不加入使否決，並非加入反對才否決。此題文字與規範有落差，保留官方計分並提示疑義。",
+    "options": {
+      "A": "若主席加入可方，可使通過；但未表明加入前，不能逕自宣布通過。",
+      "B": "平票不是主席可自行延期的依據，延期須循相應動議程序。",
+      "C": "官方列此為答案；但按會議規範，平票可由主席不加入使否決，不宜把「加入反對」當條文背誦。",
+      "D": "出席者得棄權，主席不能強迫其表明立場。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "內政部會議規範第19條：主席表決權",
+        "url": "https://ws.moi.gov.tw/Download.ashx?icon=.pdf&n=5pyD6K2w6KaP56%2BELnBkZg%3D%3D&u=LzAwMS9VcGxvYWQvT2xkRmlsZS9jaXZpbF9sYXdfZmlsZS%2FmnIPorbDopo%2Fnr4QucGRm"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-5": {
+    "summary": "短期同一商品價格大幅上升，題目以此表現通膨壓力。嚴格說通膨是整體物價持續上漲，不能僅靠一杯咖啡證實全國通膨。",
+    "options": {
+      "A": "貧窮循環談低所得、低儲蓄與低投資互相強化。",
+      "B": "生產過剩通常增加降價壓力，與此處暴漲線索相反。",
+      "C": "通貨緊縮是整體物價持續下跌，不是上漲。",
+      "D": "由150漲到400是物價上升線索，最接近通貨膨脹。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-6": {
+    "summary": "即使午餐免費，取得它仍可能花時間、放棄其他活動；選擇的代價是被放棄的最佳替代機會。",
+    "options": {
+      "A": "均衡價格是供需量相等時的價格，非凡選擇皆有代價。",
+      "B": "機會成本包括未直接付錢但放棄的利益。",
+      "C": "外部成本是行為造成而由他人負擔的損失。",
+      "D": "需求法則談其他條件不變時，價格與需求量反向變動。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-7": {
+    "summary": "親生父子身分不是登報聲明可任意解除的契約。題目沒有法定身分訴訟或收養終止的情況。",
+    "options": {
+      "A": "血親身分不因單方聲明消滅，仍受法律規範。",
+      "B": "子女沉默不會讓無法律依據的斷絕聲明生效。",
+      "C": "沒有登報六個月便自動斷絕血親的制度。",
+      "D": "公證可證明文書等事項，不能創造法律沒有的斷絕血親效力。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-8": {
+    "summary": "家戶在商品市場購物，是消費者；向公司提供勞務求職，是生產要素勞動的供給者，故①④。",
+    "options": {
+      "A": "③把她當商品生產者，題目只交代消費與求職。",
+      "B": "①購買商品、④提供勞動，兩種角色都相合。",
+      "C": "②需求勞動通常是雇主，③生產商品也不是本題角色。",
+      "D": "④正確，但②把勞動供給者誤當需求者。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-9": {
+    "summary": "她面對身體及發展障礙仍完成學業、追求MBA，呈現肯定生命價值與突破限制。",
+    "options": {
+      "A": "主動追求目標而非否定生命，符合尊重生命、超越障礙。",
+      "B": "繼續升學是積極行動，不是委屈接受現狀。",
+      "C": "引文表達自信，不是自憐或控訴。",
+      "D": "有清楚目標並努力實現，與放任自生自滅相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-10": {
+    "summary": "行政院長由總統任命，不須立法院同意；考試院長等任命同意權則屬立法院。",
+    "options": {
+      "A": "立法院有憲法修正案的提議、議決權，最後仍須公民複決。",
+      "B": "考試院長由總統提名、立法院同意任命，是其權限。",
+      "C": "現行增修條文已取消行政院長任命的立法院同意，故本題選此。",
+      "D": "總統副總統罷免案由立法院依特別門檻提出，再交選民投票。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-11": {
+    "summary": "偶像影視透過媒體大量傳播、廣受消費，屬大眾文化；不是以藝術門檻或古老傳承分類。",
+    "options": {
+      "A": "精緻文化通常強調專門藝術欣賞，不能只因明星受歡迎便如此歸類。",
+      "B": "大量媒體傳播、追星消費是大眾文化的典型現象。",
+      "C": "傳統文化著重長期傳承，題目強調當時流行。",
+      "D": "次級文化是特定群體的文化特徵，本題突出跨群眾的流行傳播。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-12": {
+    "summary": "總統代表國家訪問邦交與友好國家，核心是對外關係與外交安排。",
+    "options": {
+      "A": "經濟部主管產業經貿，非一般元首外交的主責。",
+      "B": "外交部處理外交與駐外事務，最直接相關。",
+      "C": "交通部主責運輸、觀光等，非國家外交政策。",
+      "D": "國防部主管國防軍事，出訪不必然以軍事合作為目的。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-13": {
+    "summary": "中央法規名稱中，法、律、條例、通則屬法律名稱；施行細則屬行政機關依授權發布的命令。",
+    "options": {
+      "A": "組織法是法律，不能因規範機關就當行政命令。",
+      "B": "條例是法律的名稱之一，不是命令。",
+      "C": "通則亦屬法律名稱，不是施行層級命令。",
+      "D": "施行細則為執行法律所發布的命令，位階低於法律。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "中央法規標準法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030133"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-14": {
+    "summary": "考試委員是總統提名、立法院同意後任命，並非人民投票選出。",
+    "options": {
+      "A": "總統副總統由人民直接選舉產生。",
+      "B": "臺北市長由市民依法投票選出。",
+      "C": "考試委員走提名與同意任命程序，故是不由民選者。",
+      "D": "立委包含區域與政黨比例代表，均以選舉產生席次。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-15": {
+    "summary": "綠黨、勞動黨以政黨參政；律師公會、工業總會與主婦聯盟則代表專業、產業或生活倡議利益，故③④⑤。",
+    "options": {
+      "A": "①綠黨為政黨，不能列入此題利益團體組合。",
+      "B": "①同樣混入政黨，雖③⑤可屬利益團體。",
+      "C": "②勞動黨是政黨，與以遊說倡議為主的團體不同。",
+      "D": "③④⑤都可透過政策倡議維護成員或公共利益。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-16": {
+    "summary": "一美元由31.2元變32.8元，買同一美元要更多臺幣，是臺幣貶值；赴美支出換算臺幣變貴。",
+    "options": {
+      "A": "進口貨以美元計價時，臺幣成本通常提高而非便宜。",
+      "B": "旅遊需換美元，現在同額美元花更多臺幣。",
+      "C": "進口成本方向寫反，未考慮每美元所需臺幣增加。",
+      "D": "其他條件不變，出口美元收入換得更多臺幣通常有利，非必然不利。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-17": {
+    "summary": "選新工作放棄的是原工作月薪三萬元，不是兩份薪水差額。只按題目給的薪資利益計算。",
+    "options": {
+      "A": "八千元是新舊薪資差額，代表增加的收入。",
+      "B": "三萬八千元是新選擇的薪資，不是被放棄的替代利益。",
+      "C": "原工作三萬元是轉職後犧牲的最佳替代收入。",
+      "D": "兩份薪水相加不能表示放棄的單一最佳機會。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-18": {
+    "summary": "依題目歷史背景，臺灣參與APEC及WTO，並非聯合國或WHO會員；稱謂上APEC以會員經濟體參與。",
+    "options": {
+      "A": "①可，但②聯合國會員身分不符合。",
+      "B": "①APEC、③WTO均有正式參與身分，為正確組合。",
+      "C": "②聯合國與④WHO都不是題定的會員身分。",
+      "D": "③可，但④WHO的觀察員等安排不能等同會員。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-19": {
+    "summary": "舞團在外國藝術節交流，讓外國觀眾認識臺灣文化，是民間文化交流與國民外交，故①②③。",
+    "options": {
+      "A": "①交流、②民間外交、③文化理解都由情境直接支持。",
+      "B": "④外資投入不是欣賞舞蹈便能推得的結果。",
+      "C": "④同樣超出表演與文化交流的證據。",
+      "D": "④未證實，⑤官方外交也把民間舞團誤作政府正式交涉。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-20": {
+    "summary": "這是97年舊法題，當時成年為20歲，婚齡男18女16，故官方選C。112年起成年與男女婚齡均為18歲，不能拿舊答案背現行法。",
+    "options": {
+      "A": "97年成年為20歲，18歲尚非一律成年；現行法已改18歲。",
+      "B": "滿7歲未成年人原則為限制行為能力，不是無行為能力。",
+      "C": "男未滿18、女未滿16不得結婚符合考試當年規定；現已改男女均18歲。",
+      "D": "當時禁治產人為無行為能力，非限制；後改監護宣告用語。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      },
+      {
+        "title": "法務部歷史條文：成年年齡變動",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExtentHistory.aspx?LSID=FL001351&LawNo=12"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-21": {
+    "summary": "行政與立法職務不得兼任，反映權力分立；在選項中最接近總統制的行政立法分立特色。",
+    "options": {
+      "A": "雙首長制核心是總統與總理共掌行政，非此條直接強調之處。",
+      "B": "總統制通常要求行政與立法分立、成員不相兼。",
+      "C": "內閣制閣員常可兼國會議員，與題目禁兼任不同。",
+      "D": "委員制由合議委員掌行政，不是以本項禁兼任為代表特色。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-22": {
+    "summary": "第七屆立委選制改革採單一選區兩票制：一票區域候選人、一票政黨比例代表，原住民選區另有制度。",
+    "options": {
+      "A": "少了政黨票，不能表達兩票改革。",
+      "B": "單一選區與政黨票並行，符合主要改革。",
+      "C": "複數選區一票較接近改革前的區域選制。",
+      "D": "將區域選區仍寫成複數，未呈現改革重點。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-23": {
+    "summary": "施行細則是行政機關執行法律的行政命令，不能因與法律有關便升為法律位階。",
+    "options": {
+      "A": "憲法是國家根本法，非機關發布細則。",
+      "B": "法律須經立法院通過與總統公布，細則非此層級。",
+      "C": "行政法是規範行政的法領域，並不是這裡的位階名稱。",
+      "D": "施行細則屬行政命令，須受上位法律拘束。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "中央法規標準法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030133"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-24": {
+    "summary": "雨林減少使吸收二氧化碳的能力降低，砍燒也可能排碳，增加暖化壓力。",
+    "options": {
+      "A": "與碳循環受損、溫室效應加劇相符。",
+      "B": "不能因樹少便推氣溫下降，方向與題意相反。",
+      "C": "臭氧層耗損主要涉及破壞臭氧的物質，非雨林消失的直接同義結果。",
+      "D": "紫外線增加主要連到臭氧保護減弱，不能與暖化混為一談。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-25": {
+    "summary": "開飲機爆炸涉及消費商品安全及企業責任，最直接以消費者保護法處理，民事求償亦可能並行。",
+    "options": {
+      "A": "刑法可能涉及過失犯罪，但不是此題商品安全處理的主要依據。",
+      "B": "公平交易法側重競爭秩序及不實廣告等，非最直接的瑕疵商品安全規範。",
+      "C": "商品標示法重標示義務，題目不是標籤缺漏。",
+      "D": "消保法規範商品安全、企業責任及消費爭議救濟。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "消費者保護法：商品安全與通訊交易解除權",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0170001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-26": {
+    "summary": "題目描述無法排除未付款的船使用燈光，是公共財的非排他性；另一典型特質為非敵對性。",
+    "options": {
+      "A": "公共財判對，但具排他性與題述難以收費矛盾。",
+      "B": "私有財通常可排除未付款者，與燈塔光訊號情境不同。",
+      "C": "公共財、不具排他性準確說明船不付錢也受益。",
+      "D": "非排他性正確，但將此典型公共財誤作私有財。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-27": {
+    "summary": "依文章的簡化模型，不付費也能用會造成搭便車，使市場供給誘因不足，故③④；不表示歷史上所有燈塔都不能私人經營。",
+    "options": {
+      "A": "①說別人不能用，是敵對性；②有利可圖也非文章假設。",
+      "B": "③符合，但①與燈塔可同時供多船使用相反。",
+      "C": "④符合，②卻把收費困難誤說成有市場收益。",
+      "D": "③難由市場回收成本、④搭便車，連成供給不足的理由。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-28": {
+    "summary": "行為須由事先存在的法律明定為罪並定刑，才能處罰，這叫罪刑法定。",
+    "options": {
+      "A": "不利於被告的類推定罪違反罪刑法定。",
+      "B": "要求依法律規定的犯罪構成要件認定，正是罪刑法定。",
+      "C": "無罪推定是證明有罪前的程序保障，與必須有法律明文不同。",
+      "D": "微罪不罰不是此題判斷構成要件的原則，輕微也非一律不犯罪。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-29": {
+    "summary": "實質平等是為矯正不利處境而作合理差別安排。此題明確的制度例為障礙作答調整、原住民保障席次與身障任用①②④。",
+    "options": {
+      "A": "①改善應試障礙，②④保障參與機會，符合題目制度例。",
+      "B": "③⑤僅列購屋、卡片優惠，未交代合理法定補救背景，不能據此組成答案。",
+      "C": "②④可，但③未如題內保障制度有清楚法律背景。",
+      "D": "⑤信用卡優惠不是當然的法律平等措施，③也需更多政策背景才能判斷。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-30": {
+    "summary": "依一般歷史順序是1987解嚴、1991廢臨時條款、1996首次總統直選、2005廢國大。官方本題更正接受B、C或BC，保留計分，勿把C當正確年序背誦。",
+    "options": {
+      "A": "把1991排在1987前，且2005排在1996前，兩處倒置。",
+      "B": "依1987、1991、1996、2005排列，符合事實順序。",
+      "C": "把廢臨時條款放在解嚴前不符史實，但官方更正給分仍接受此選項。",
+      "D": "前兩項順序對，最後兩項卻將廢國大排在總統直選之前。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "官方更正：此選項給分。",
+      "C": "官方更正：此選項給分。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-31": {
+    "summary": "放寬財產、性別、種族限制，使更多成年國民取得選舉權，是擴大普遍參與的普通原則。",
+    "options": {
+      "A": "普通原則要求不以不合理身分條件限制合格公民參與。",
+      "B": "平等原則重每票價值與投票機會平等，與擴大資格重點不同。",
+      "C": "直接原則重選民直接選代表，不是透過中間選舉人。",
+      "D": "秘密原則保障投票內容不被他人知道。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-32": {
+    "summary": "本題採臺灣移民信仰的典型分類：三山國王與客家移民關係密切；實際信眾並不限單一族群。",
+    "options": {
+      "A": "閩南移民常見媽祖、王爺等信仰，非此題典型對應。",
+      "B": "三山國王源自粵東，與客家移民聚落的守護信仰密切。",
+      "C": "雲貴不是題述三山國王傳入臺灣的主要典型來源。",
+      "D": "原住民族各有傳統信仰，非此題漢人移民神祇的對應。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-33": {
+    "summary": "直接選舉讓人民直接投票決定代表，選項中最直接呈現人民行使主權；其他原則也都是民主保障。",
+    "options": {
+      "A": "人民不經中間選舉人直接作決定，最貼近題目所問。",
+      "B": "普通強調誰能投票，重普及選舉資格。",
+      "C": "平等強調每人每票的價值，不是選出方式的直接性。",
+      "D": "無記名保障投票秘密、避免脅迫，重點不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-34": {
+    "summary": "先辨認公共問題，再規劃方案、取得法定決策依據、實際執行，最後評估效果，故①③④②⑤。",
+    "options": {
+      "A": "問題尚未規劃、合法化就執行，程序顛倒。",
+      "B": "問題確定到評估的五步順序完整。",
+      "C": "先執行才找問題，欠缺政策形成的起點。",
+      "D": "把執行放在問題確定與合法化前，順序不合理。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-35": {
+    "summary": "領海從領海基線向外量，寬度不超過12海浬；200海浬常見於專屬經濟海域，權利範圍不同。",
+    "options": {
+      "A": "10海浬不是國際海洋法的領海寬度上限。",
+      "B": "12海浬是領海的通行法定最大寬度。",
+      "C": "100海浬不是題目領海上限。",
+      "D": "200海浬是專屬經濟海域上限概念，不能當成領海主權範圍。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "097-1-36": {
+    "summary": "整句白話：我知道她很難過，但她突然哭起來，仍讓我吃了一驚。\n\n句意是我知道她難過，但她突然哭出來仍使我吃驚。burst into tears是突然大哭的固定搭配，burst過去式仍為burst。",
+    "options": {
+      "A": "burst爆發，接into tears表示突然哭起來。",
+      "B": "fired可指開火、解僱，不能組成此處哭泣搭配。",
+      "C": "jumped是跳躍，jump into可指跳入，但不是大哭的慣用語。",
+      "D": "managed表示設法做到，通常接to加原形動詞，不能接into tears。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "burst into tears",
+        "partOfSpeech": "動詞片語",
+        "meaning": "突然哭起來",
+        "usage": "burst的過去式仍為burst；into後接情緒突然發作的表現。"
+      },
+      {
+        "word": "upset",
+        "partOfSpeech": "adj.",
+        "meaning": "難過的；心煩的",
+        "usage": "本題說她情緒低落，後文突然大哭呼應這個狀態。"
+      },
+      {
+        "word": "take someone by surprise",
+        "partOfSpeech": "動詞片語",
+        "meaning": "使某人吃驚",
+        "usage": "took me by surprise表示事件出乎我的預料。"
+      }
+    ]
+  },
+  "097-1-37": {
+    "summary": "整句白話：我打完籃球後總會洗個澡，因為不想身上有難聞的味道。\n\n打完籃球不想身上難聞，所以要洗澡。take a shower是淋浴。",
+    "options": {
+      "A": "take a picture拍照，不能洗掉汗味。",
+      "B": "take a note做筆記，與運動後清潔無關。",
+      "C": "shower作名詞是淋浴，與take搭配符合清潔目的。",
+      "D": "take a temperature量體溫，雖和身體有關，不能去除氣味。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "take a shower",
+        "partOfSpeech": "動詞片語",
+        "meaning": "淋浴；洗澡",
+        "usage": "運動後用take a shower表淋浴清潔，不是拍照。"
+      },
+      {
+        "word": "smell",
+        "partOfSpeech": "v.",
+        "meaning": "聞起來",
+        "usage": "smell bad表示有難聞的氣味，bad描述氣味狀態。"
+      },
+      {
+        "word": "temperature",
+        "partOfSpeech": "n.",
+        "meaning": "溫度",
+        "usage": "take a temperature是量體溫，與洗掉汗味不同。"
+      }
+    ]
+  },
+  "097-1-38": {
+    "summary": "整句白話：抱歉，我遲到了。我的車在來這裡的途中拋錨了。\n\n道歉遲到並解釋車在途中故障，應用break down，過去式broke down。",
+    "options": {
+      "A": "drove off是把車開走，未表車故障導致遲到。",
+      "B": "broke down指機械故障，正好交代途中受阻。",
+      "C": "took away是帶走、拿走，通常需受詞。",
+      "D": "knocked out指擊倒、使失去知覺，不是車故障的搭配。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "break down",
+        "partOfSpeech": "動詞片語",
+        "meaning": "故障；拋錨",
+        "usage": "車子故障用break down，過去式為broke down。"
+      },
+      {
+        "word": "on the way",
+        "partOfSpeech": "副詞片語",
+        "meaning": "在途中",
+        "usage": "on the way here說明來這裡的路上發生狀況。"
+      },
+      {
+        "word": "drive off",
+        "partOfSpeech": "動詞片語",
+        "meaning": "開車離開",
+        "usage": "drove off表示車開走，不表示途中機械故障。"
+      }
+    ]
+  },
+  "097-1-39": {
+    "summary": "整句白話：如果昨晚我身上帶了足夠的錢，本來就會買那本書送你。\n\n昨晚是已過去而未實現的條件：若當時有帶夠錢，本會買書。主句would have bought，if子句用had加過去分詞。",
+    "options": {
+      "A": "have had是現在完成式，無法搭配此過去反事實條件。",
+      "B": "has had不但時態不合，主詞I也不能用has。",
+      "C": "had單獨是過去式，此題需要過去完成式had had。",
+      "D": "第一個had為完成式助動詞，第二個had是have的過去分詞，表示當時有錢。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "would have bought",
+        "partOfSpeech": "反事實句型",
+        "meaning": "當時本來會買",
+        "usage": "would have加過去分詞表已過去但未實現的結果。"
+      },
+      {
+        "word": "had had",
+        "partOfSpeech": "過去完成式",
+        "meaning": "當時曾有",
+        "usage": "第一個had為助動詞，第二個had是have的過去分詞。"
+      },
+      {
+        "word": "enough",
+        "partOfSpeech": "限定詞／副詞",
+        "meaning": "足夠的；足夠地",
+        "usage": "enough money是足夠的錢，enough放在名詞前。"
+      }
+    ]
+  },
+  "097-1-40": {
+    "summary": "整句白話：Linda：可以借我一支筆嗎？Pat：抱歉，我沒有筆。Linda：沒關係，還是謝謝你。\n\n對方雖沒筆可借，仍禮貌感謝他的回應，Thanks anyway就是無論如何還是謝謝。",
+    "options": {
+      "A": "How wonderful多麼棒，對借不到筆的情境不自然。",
+      "B": "Thanks anyway表示事情沒辦成也謝謝對方。",
+      "C": "You're welcome是不客氣，用來回應道謝，不是自己向對方致謝。",
+      "D": "It's very kind of you通常感謝已提供的幫助；此處未借到，anyway更貼切。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "borrow",
+        "partOfSpeech": "v.",
+        "meaning": "借入",
+        "usage": "borrow a pen是向別人借筆，與lend借出方向不同。"
+      },
+      {
+        "word": "Thanks anyway",
+        "partOfSpeech": "會話用語",
+        "meaning": "無論如何還是謝謝",
+        "usage": "即使對方沒辦法幫上忙，仍可禮貌表示感謝。"
+      },
+      {
+        "word": "You're welcome",
+        "partOfSpeech": "會話用語",
+        "meaning": "不客氣",
+        "usage": "用來回應別人的道謝，不是借不到東西時的致謝。"
+      }
+    ]
+  },
+  "097-1-41": {
+    "summary": "If you do承接前問Do you like這些顏色，do代替like yellow, orange, red，避免重複動詞片語。",
+    "options": {
+      "A": "do代替前面的like及其受詞，條件句完整。",
+      "B": "are須承接be動詞的狀態，前句問的是like。",
+      "C": "like是及物動詞，此處單放缺受詞，不能像助動詞do那樣省略。",
+      "D": "know表示知道，改變成是否知道而非是否喜歡。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "optimist",
+        "partOfSpeech": "n.",
+        "meaning": "樂觀者",
+        "usage": "an optimist是樂觀的人，形容詞則為optimistic。"
+      },
+      {
+        "word": "pessimist",
+        "partOfSpeech": "n.",
+        "meaning": "悲觀者",
+        "usage": "pessimist指常預期不好結果的人，與optimist相反。"
+      },
+      {
+        "word": "active",
+        "partOfSpeech": "adj.",
+        "meaning": "活躍的",
+        "usage": "an active person是積極活動、享受互動的人。"
+      },
+      {
+        "word": "prefer",
+        "partOfSpeech": "v.",
+        "meaning": "比較喜歡",
+        "usage": "prefer gray and blue表示在顏色中偏愛灰色與藍色。"
+      },
+      {
+        "word": "probably",
+        "partOfSpeech": "adv.",
+        "meaning": "大概；很可能",
+        "usage": "probably quiet以副詞表對性格的推測程度。"
+      },
+      {
+        "word": "would rather",
+        "partOfSpeech": "助動片語",
+        "meaning": "寧願",
+        "usage": "would rather follow than lead的兩個動詞均用原形。"
+      },
+      {
+        "word": "lead",
+        "partOfSpeech": "v.",
+        "meaning": "領導",
+        "usage": "lead與follow跟隨構成性格角色的對比。"
+      },
+      {
+        "word": "at least",
+        "partOfSpeech": "副詞片語",
+        "meaning": "至少",
+        "usage": "At least在此保留語氣，限縮為專家所說而非保證真實。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists研究心智與行為，不等於每個概括都可診斷個人。"
+      },
+      {
+        "word": "preference",
+        "partOfSpeech": "n.",
+        "meaning": "偏好",
+        "usage": "color preference是對顏色的喜好，與prefer動詞同字根。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "the effect colors have on people指顏色對人的影響。"
+      },
+      {
+        "word": "at random",
+        "partOfSpeech": "副詞片語",
+        "meaning": "隨機地",
+        "usage": "at random沒有特定順序或選擇規則，非at least至少。"
+      }
+    ]
+  },
+  "097-1-42": {
+    "summary": "先行詞an active person是人，後面enjoys缺主詞，因此用關係代名詞who。",
+    "options": {
+      "A": "so是所以，不能當關係子句主詞。",
+      "B": "who指人，在子句中作enjoys的主詞。",
+      "C": "how表示如何，不能代替這位活躍的人作主詞。",
+      "D": "thus是因此、如此的副詞，不能連成此關係子句。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "optimist",
+        "partOfSpeech": "n.",
+        "meaning": "樂觀者",
+        "usage": "an optimist是樂觀的人，形容詞則為optimistic。"
+      },
+      {
+        "word": "pessimist",
+        "partOfSpeech": "n.",
+        "meaning": "悲觀者",
+        "usage": "pessimist指常預期不好結果的人，與optimist相反。"
+      },
+      {
+        "word": "active",
+        "partOfSpeech": "adj.",
+        "meaning": "活躍的",
+        "usage": "an active person是積極活動、享受互動的人。"
+      },
+      {
+        "word": "prefer",
+        "partOfSpeech": "v.",
+        "meaning": "比較喜歡",
+        "usage": "prefer gray and blue表示在顏色中偏愛灰色與藍色。"
+      },
+      {
+        "word": "probably",
+        "partOfSpeech": "adv.",
+        "meaning": "大概；很可能",
+        "usage": "probably quiet以副詞表對性格的推測程度。"
+      },
+      {
+        "word": "would rather",
+        "partOfSpeech": "助動片語",
+        "meaning": "寧願",
+        "usage": "would rather follow than lead的兩個動詞均用原形。"
+      },
+      {
+        "word": "lead",
+        "partOfSpeech": "v.",
+        "meaning": "領導",
+        "usage": "lead與follow跟隨構成性格角色的對比。"
+      },
+      {
+        "word": "at least",
+        "partOfSpeech": "副詞片語",
+        "meaning": "至少",
+        "usage": "At least在此保留語氣，限縮為專家所說而非保證真實。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists研究心智與行為，不等於每個概括都可診斷個人。"
+      },
+      {
+        "word": "preference",
+        "partOfSpeech": "n.",
+        "meaning": "偏好",
+        "usage": "color preference是對顏色的喜好，與prefer動詞同字根。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "the effect colors have on people指顏色對人的影響。"
+      },
+      {
+        "word": "at random",
+        "partOfSpeech": "副詞片語",
+        "meaning": "隨機地",
+        "usage": "at random沒有特定順序或選擇規則，非at least至少。"
+      }
+    ]
+  },
+  "097-1-43": {
+    "summary": "you're probably quiet是你大概很安靜。probably副詞修飾整個狀態判斷。",
+    "options": {
+      "A": "likely作形容詞時常用be likely to；此處直接接quiet不合題定結構。",
+      "B": "militarily表示在軍事上，與性格推測無關。",
+      "C": "probably意為大概，放在be與形容詞間自然。",
+      "D": "economically表示經濟上，並非表示可能性。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "optimist",
+        "partOfSpeech": "n.",
+        "meaning": "樂觀者",
+        "usage": "an optimist是樂觀的人，形容詞則為optimistic。"
+      },
+      {
+        "word": "pessimist",
+        "partOfSpeech": "n.",
+        "meaning": "悲觀者",
+        "usage": "pessimist指常預期不好結果的人，與optimist相反。"
+      },
+      {
+        "word": "active",
+        "partOfSpeech": "adj.",
+        "meaning": "活躍的",
+        "usage": "an active person是積極活動、享受互動的人。"
+      },
+      {
+        "word": "prefer",
+        "partOfSpeech": "v.",
+        "meaning": "比較喜歡",
+        "usage": "prefer gray and blue表示在顏色中偏愛灰色與藍色。"
+      },
+      {
+        "word": "probably",
+        "partOfSpeech": "adv.",
+        "meaning": "大概；很可能",
+        "usage": "probably quiet以副詞表對性格的推測程度。"
+      },
+      {
+        "word": "would rather",
+        "partOfSpeech": "助動片語",
+        "meaning": "寧願",
+        "usage": "would rather follow than lead的兩個動詞均用原形。"
+      },
+      {
+        "word": "lead",
+        "partOfSpeech": "v.",
+        "meaning": "領導",
+        "usage": "lead與follow跟隨構成性格角色的對比。"
+      },
+      {
+        "word": "at least",
+        "partOfSpeech": "副詞片語",
+        "meaning": "至少",
+        "usage": "At least在此保留語氣，限縮為專家所說而非保證真實。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists研究心智與行為，不等於每個概括都可診斷個人。"
+      },
+      {
+        "word": "preference",
+        "partOfSpeech": "n.",
+        "meaning": "偏好",
+        "usage": "color preference是對顏色的喜好，與prefer動詞同字根。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "the effect colors have on people指顏色對人的影響。"
+      },
+      {
+        "word": "at random",
+        "partOfSpeech": "副詞片語",
+        "meaning": "隨機地",
+        "usage": "at random沒有特定順序或選擇規則，非at least至少。"
+      }
+    ]
+  },
+  "097-1-44": {
+    "summary": "would rather follow than lead意為寧願跟隨而不願領導；rather後與than後都接原形動詞。",
+    "options": {
+      "A": "lead領導，與follow跟隨形成自然對比。",
+      "B": "obey服從與follow方向相近，不能凸顯此領導對比。",
+      "C": "explode爆炸，與領導、追隨的性格比較不合。",
+      "D": "pronounce發音，與是否追隨他人無關。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "optimist",
+        "partOfSpeech": "n.",
+        "meaning": "樂觀者",
+        "usage": "an optimist是樂觀的人，形容詞則為optimistic。"
+      },
+      {
+        "word": "pessimist",
+        "partOfSpeech": "n.",
+        "meaning": "悲觀者",
+        "usage": "pessimist指常預期不好結果的人，與optimist相反。"
+      },
+      {
+        "word": "active",
+        "partOfSpeech": "adj.",
+        "meaning": "活躍的",
+        "usage": "an active person是積極活動、享受互動的人。"
+      },
+      {
+        "word": "prefer",
+        "partOfSpeech": "v.",
+        "meaning": "比較喜歡",
+        "usage": "prefer gray and blue表示在顏色中偏愛灰色與藍色。"
+      },
+      {
+        "word": "probably",
+        "partOfSpeech": "adv.",
+        "meaning": "大概；很可能",
+        "usage": "probably quiet以副詞表對性格的推測程度。"
+      },
+      {
+        "word": "would rather",
+        "partOfSpeech": "助動片語",
+        "meaning": "寧願",
+        "usage": "would rather follow than lead的兩個動詞均用原形。"
+      },
+      {
+        "word": "lead",
+        "partOfSpeech": "v.",
+        "meaning": "領導",
+        "usage": "lead與follow跟隨構成性格角色的對比。"
+      },
+      {
+        "word": "at least",
+        "partOfSpeech": "副詞片語",
+        "meaning": "至少",
+        "usage": "At least在此保留語氣，限縮為專家所說而非保證真實。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists研究心智與行為，不等於每個概括都可診斷個人。"
+      },
+      {
+        "word": "preference",
+        "partOfSpeech": "n.",
+        "meaning": "偏好",
+        "usage": "color preference是對顏色的喜好，與prefer動詞同字根。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "the effect colors have on people指顏色對人的影響。"
+      },
+      {
+        "word": "at random",
+        "partOfSpeech": "副詞片語",
+        "meaning": "隨機地",
+        "usage": "at random沒有特定順序或選擇規則，非at least至少。"
+      }
+    ]
+  },
+  "097-1-45": {
+    "summary": "At least引出保留說法：至少心理學家是這樣告訴我們的。這是文章的論述，不代表用顏色就能科學判定人格。",
+    "options": {
+      "A": "At random隨機地，不是此處引述專家說法的語氣。",
+      "B": "At last終於，表示等待後發生，文中沒有這段時間過程。",
+      "C": "At once立刻，不是緩和主張的轉折。",
+      "D": "At least至少，將前述概括收束為所引述的說法。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "optimist",
+        "partOfSpeech": "n.",
+        "meaning": "樂觀者",
+        "usage": "an optimist是樂觀的人，形容詞則為optimistic。"
+      },
+      {
+        "word": "pessimist",
+        "partOfSpeech": "n.",
+        "meaning": "悲觀者",
+        "usage": "pessimist指常預期不好結果的人，與optimist相反。"
+      },
+      {
+        "word": "active",
+        "partOfSpeech": "adj.",
+        "meaning": "活躍的",
+        "usage": "an active person是積極活動、享受互動的人。"
+      },
+      {
+        "word": "prefer",
+        "partOfSpeech": "v.",
+        "meaning": "比較喜歡",
+        "usage": "prefer gray and blue表示在顏色中偏愛灰色與藍色。"
+      },
+      {
+        "word": "probably",
+        "partOfSpeech": "adv.",
+        "meaning": "大概；很可能",
+        "usage": "probably quiet以副詞表對性格的推測程度。"
+      },
+      {
+        "word": "would rather",
+        "partOfSpeech": "助動片語",
+        "meaning": "寧願",
+        "usage": "would rather follow than lead的兩個動詞均用原形。"
+      },
+      {
+        "word": "lead",
+        "partOfSpeech": "v.",
+        "meaning": "領導",
+        "usage": "lead與follow跟隨構成性格角色的對比。"
+      },
+      {
+        "word": "at least",
+        "partOfSpeech": "副詞片語",
+        "meaning": "至少",
+        "usage": "At least在此保留語氣，限縮為專家所說而非保證真實。"
+      },
+      {
+        "word": "psychologist",
+        "partOfSpeech": "n.",
+        "meaning": "心理學家",
+        "usage": "psychologists研究心智與行為，不等於每個概括都可診斷個人。"
+      },
+      {
+        "word": "preference",
+        "partOfSpeech": "n.",
+        "meaning": "偏好",
+        "usage": "color preference是對顏色的喜好，與prefer動詞同字根。"
+      },
+      {
+        "word": "effect",
+        "partOfSpeech": "n.",
+        "meaning": "影響；效果",
+        "usage": "the effect colors have on people指顏色對人的影響。"
+      },
+      {
+        "word": "at random",
+        "partOfSpeech": "副詞片語",
+        "meaning": "隨機地",
+        "usage": "at random沒有特定順序或選擇規則，非at least至少。"
+      }
+    ]
+  },
+  "097-1-46": {
+    "summary": "首句a novel by Ernest Hemingway直接說作者是海明威；by在此表示由誰創作。",
+    "options": {
+      "A": "Santiago是小說中的老漁夫，不是作者。",
+      "B": "Manolin是男孩角色，不是創作者。",
+      "C": "漁夫的朋友是故事人物關係，首句未說他寫小說。",
+      "D": "Hemingway正是首句by後的作者姓名。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "novel",
+        "partOfSpeech": "形容詞；名詞",
+        "meaning": "新穎的；小說",
+        "usage": "a novel by Hemingway表示由海明威創作的小說。"
+      },
+      {
+        "word": "fisherman",
+        "partOfSpeech": "n.",
+        "meaning": "漁夫",
+        "usage": "an old fisherman指故事主角，而非寫作的人。"
+      },
+      {
+        "word": "remaining",
+        "partOfSpeech": "adj.",
+        "meaning": "剩下的",
+        "usage": "one remaining purpose表示生命中僅存的一個目標。"
+      },
+      {
+        "word": "in order to",
+        "partOfSpeech": "不定詞片語",
+        "meaning": "為了",
+        "usage": "in order to book the ticket 表示提供資料的目的，是為了訂票。"
+      },
+      {
+        "word": "prove",
+        "partOfSpeech": "v.",
+        "meaning": "證明",
+        "usage": "prove that he is a good fisherman是證明自己仍有能力。"
+      },
+      {
+        "word": "unsuccessful",
+        "partOfSpeech": "adj.",
+        "meaning": "未成功的",
+        "usage": "eighty-four unsuccessful days是連續未捕到魚的時間。"
+      },
+      {
+        "word": "hook",
+        "partOfSpeech": "v. / n.",
+        "meaning": "用鉤釣住；鉤子",
+        "usage": "hooks a marlin中hook作動詞，指用漁鉤釣到魚。"
+      },
+      {
+        "word": "marlin",
+        "partOfSpeech": "n.",
+        "meaning": "馬林魚",
+        "usage": "後文the fish承接marlin，可由語境推知是一種魚。"
+      },
+      {
+        "word": "struggle",
+        "partOfSpeech": "v.",
+        "meaning": "奮力搏鬥",
+        "usage": "struggle with the fish表示努力與魚周旋。"
+      },
+      {
+        "word": "shark",
+        "partOfSpeech": "n.",
+        "meaning": "鯊魚",
+        "usage": "sharks是攻擊漁獲者，不是馬林魚本身。"
+      },
+      {
+        "word": "catch",
+        "partOfSpeech": "n. / v.",
+        "meaning": "漁獲；捕捉",
+        "usage": "protect his catch的catch為名詞，指已捕獲的大魚。"
+      },
+      {
+        "word": "harbor",
+        "partOfSpeech": "n.",
+        "meaning": "港口",
+        "usage": "return to the harbor表示出海後回港，為故事終點。"
+      },
+      {
+        "word": "courage",
+        "partOfSpeech": "名詞",
+        "meaning": "勇氣",
+        "usage": "和 fear（恐懼）方向相反；必須搭配句子中錯失機會的因果判斷。"
+      },
+      {
+        "word": "skilled",
+        "partOfSpeech": "adj.",
+        "meaning": "熟練的",
+        "usage": "skilled at fishing對應原文a good fisherman的能力表達。"
+      }
+    ]
+  },
+  "097-1-47": {
+    "summary": "文章寫a young boy named Manolin，意思是名叫Manolin的小男孩。",
+    "options": {
+      "A": "老先生指Santiago，不能與男孩混淆。",
+      "B": "文章未把他說成漁夫的妻子，且明說boy。",
+      "C": "A boy就是一個男孩，與原文直接吻合。",
+      "D": "大魚是marlin，並非Manolin。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "novel",
+        "partOfSpeech": "形容詞；名詞",
+        "meaning": "新穎的；小說",
+        "usage": "a novel by Hemingway表示由海明威創作的小說。"
+      },
+      {
+        "word": "fisherman",
+        "partOfSpeech": "n.",
+        "meaning": "漁夫",
+        "usage": "an old fisherman指故事主角，而非寫作的人。"
+      },
+      {
+        "word": "remaining",
+        "partOfSpeech": "adj.",
+        "meaning": "剩下的",
+        "usage": "one remaining purpose表示生命中僅存的一個目標。"
+      },
+      {
+        "word": "in order to",
+        "partOfSpeech": "不定詞片語",
+        "meaning": "為了",
+        "usage": "in order to book the ticket 表示提供資料的目的，是為了訂票。"
+      },
+      {
+        "word": "prove",
+        "partOfSpeech": "v.",
+        "meaning": "證明",
+        "usage": "prove that he is a good fisherman是證明自己仍有能力。"
+      },
+      {
+        "word": "unsuccessful",
+        "partOfSpeech": "adj.",
+        "meaning": "未成功的",
+        "usage": "eighty-four unsuccessful days是連續未捕到魚的時間。"
+      },
+      {
+        "word": "hook",
+        "partOfSpeech": "v. / n.",
+        "meaning": "用鉤釣住；鉤子",
+        "usage": "hooks a marlin中hook作動詞，指用漁鉤釣到魚。"
+      },
+      {
+        "word": "marlin",
+        "partOfSpeech": "n.",
+        "meaning": "馬林魚",
+        "usage": "後文the fish承接marlin，可由語境推知是一種魚。"
+      },
+      {
+        "word": "struggle",
+        "partOfSpeech": "v.",
+        "meaning": "奮力搏鬥",
+        "usage": "struggle with the fish表示努力與魚周旋。"
+      },
+      {
+        "word": "shark",
+        "partOfSpeech": "n.",
+        "meaning": "鯊魚",
+        "usage": "sharks是攻擊漁獲者，不是馬林魚本身。"
+      },
+      {
+        "word": "catch",
+        "partOfSpeech": "n. / v.",
+        "meaning": "漁獲；捕捉",
+        "usage": "protect his catch的catch為名詞，指已捕獲的大魚。"
+      },
+      {
+        "word": "harbor",
+        "partOfSpeech": "n.",
+        "meaning": "港口",
+        "usage": "return to the harbor表示出海後回港，為故事終點。"
+      },
+      {
+        "word": "courage",
+        "partOfSpeech": "名詞",
+        "meaning": "勇氣",
+        "usage": "和 fear（恐懼）方向相反；必須搭配句子中錯失機會的因果判斷。"
+      },
+      {
+        "word": "skilled",
+        "partOfSpeech": "adj.",
+        "meaning": "熟練的",
+        "usage": "skilled at fishing對應原文a good fisherman的能力表達。"
+      }
+    ]
+  },
+  "097-1-48": {
+    "summary": "目的句in order to prove說明老漁夫想向男孩與自己證明仍擅長捕魚，不是文章未提的賺錢或餵食。",
+    "options": {
+      "A": "可能有人靠漁獲賺錢，但此文交代的特定動機不是收入。",
+      "B": "prove he is skilled at fishing對應still a good fisherman。",
+      "C": "文中沒有朋友飢餓、需要餵食的敘述。",
+      "D": "回港是行程結果，不是出海捕大魚的自我證明目的。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "novel",
+        "partOfSpeech": "形容詞；名詞",
+        "meaning": "新穎的；小說",
+        "usage": "a novel by Hemingway表示由海明威創作的小說。"
+      },
+      {
+        "word": "fisherman",
+        "partOfSpeech": "n.",
+        "meaning": "漁夫",
+        "usage": "an old fisherman指故事主角，而非寫作的人。"
+      },
+      {
+        "word": "remaining",
+        "partOfSpeech": "adj.",
+        "meaning": "剩下的",
+        "usage": "one remaining purpose表示生命中僅存的一個目標。"
+      },
+      {
+        "word": "in order to",
+        "partOfSpeech": "不定詞片語",
+        "meaning": "為了",
+        "usage": "in order to book the ticket 表示提供資料的目的，是為了訂票。"
+      },
+      {
+        "word": "prove",
+        "partOfSpeech": "v.",
+        "meaning": "證明",
+        "usage": "prove that he is a good fisherman是證明自己仍有能力。"
+      },
+      {
+        "word": "unsuccessful",
+        "partOfSpeech": "adj.",
+        "meaning": "未成功的",
+        "usage": "eighty-four unsuccessful days是連續未捕到魚的時間。"
+      },
+      {
+        "word": "hook",
+        "partOfSpeech": "v. / n.",
+        "meaning": "用鉤釣住；鉤子",
+        "usage": "hooks a marlin中hook作動詞，指用漁鉤釣到魚。"
+      },
+      {
+        "word": "marlin",
+        "partOfSpeech": "n.",
+        "meaning": "馬林魚",
+        "usage": "後文the fish承接marlin，可由語境推知是一種魚。"
+      },
+      {
+        "word": "struggle",
+        "partOfSpeech": "v.",
+        "meaning": "奮力搏鬥",
+        "usage": "struggle with the fish表示努力與魚周旋。"
+      },
+      {
+        "word": "shark",
+        "partOfSpeech": "n.",
+        "meaning": "鯊魚",
+        "usage": "sharks是攻擊漁獲者，不是馬林魚本身。"
+      },
+      {
+        "word": "catch",
+        "partOfSpeech": "n. / v.",
+        "meaning": "漁獲；捕捉",
+        "usage": "protect his catch的catch為名詞，指已捕獲的大魚。"
+      },
+      {
+        "word": "harbor",
+        "partOfSpeech": "n.",
+        "meaning": "港口",
+        "usage": "return to the harbor表示出海後回港，為故事終點。"
+      },
+      {
+        "word": "courage",
+        "partOfSpeech": "名詞",
+        "meaning": "勇氣",
+        "usage": "和 fear（恐懼）方向相反；必須搭配句子中錯失機會的因果判斷。"
+      },
+      {
+        "word": "skilled",
+        "partOfSpeech": "adj.",
+        "meaning": "熟練的",
+        "usage": "skilled at fishing對應原文a good fisherman的能力表達。"
+      }
+    ]
+  },
+  "097-1-49": {
+    "summary": "文中sharks appear and attack及fails to protect his catch說鯊魚吃掉漁獲，只剩魚骨。",
+    "options": {
+      "A": "不是老漁夫自己吃光，文章清楚把攻擊者寫為鯊魚。",
+      "B": "沒有以不新鮮為原因，魚肉消失是遭攻擊。",
+      "C": "Some sharks get to it指鯊魚侵襲漁獲，與情節相符。",
+      "D": "魚骨證明勇氣不等於因美麗而留下，不能倒果為因。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "novel",
+        "partOfSpeech": "形容詞；名詞",
+        "meaning": "新穎的；小說",
+        "usage": "a novel by Hemingway表示由海明威創作的小說。"
+      },
+      {
+        "word": "fisherman",
+        "partOfSpeech": "n.",
+        "meaning": "漁夫",
+        "usage": "an old fisherman指故事主角，而非寫作的人。"
+      },
+      {
+        "word": "remaining",
+        "partOfSpeech": "adj.",
+        "meaning": "剩下的",
+        "usage": "one remaining purpose表示生命中僅存的一個目標。"
+      },
+      {
+        "word": "in order to",
+        "partOfSpeech": "不定詞片語",
+        "meaning": "為了",
+        "usage": "in order to book the ticket 表示提供資料的目的，是為了訂票。"
+      },
+      {
+        "word": "prove",
+        "partOfSpeech": "v.",
+        "meaning": "證明",
+        "usage": "prove that he is a good fisherman是證明自己仍有能力。"
+      },
+      {
+        "word": "unsuccessful",
+        "partOfSpeech": "adj.",
+        "meaning": "未成功的",
+        "usage": "eighty-four unsuccessful days是連續未捕到魚的時間。"
+      },
+      {
+        "word": "hook",
+        "partOfSpeech": "v. / n.",
+        "meaning": "用鉤釣住；鉤子",
+        "usage": "hooks a marlin中hook作動詞，指用漁鉤釣到魚。"
+      },
+      {
+        "word": "marlin",
+        "partOfSpeech": "n.",
+        "meaning": "馬林魚",
+        "usage": "後文the fish承接marlin，可由語境推知是一種魚。"
+      },
+      {
+        "word": "struggle",
+        "partOfSpeech": "v.",
+        "meaning": "奮力搏鬥",
+        "usage": "struggle with the fish表示努力與魚周旋。"
+      },
+      {
+        "word": "shark",
+        "partOfSpeech": "n.",
+        "meaning": "鯊魚",
+        "usage": "sharks是攻擊漁獲者，不是馬林魚本身。"
+      },
+      {
+        "word": "catch",
+        "partOfSpeech": "n. / v.",
+        "meaning": "漁獲；捕捉",
+        "usage": "protect his catch的catch為名詞，指已捕獲的大魚。"
+      },
+      {
+        "word": "harbor",
+        "partOfSpeech": "n.",
+        "meaning": "港口",
+        "usage": "return to the harbor表示出海後回港，為故事終點。"
+      },
+      {
+        "word": "courage",
+        "partOfSpeech": "名詞",
+        "meaning": "勇氣",
+        "usage": "和 fear（恐懼）方向相反；必須搭配句子中錯失機會的因果判斷。"
+      },
+      {
+        "word": "skilled",
+        "partOfSpeech": "adj.",
+        "meaning": "熟練的",
+        "usage": "skilled at fishing對應原文a good fisherman的能力表達。"
+      }
+    ]
+  },
+  "097-1-50": {
+    "summary": "句中hooks a giant marlin後接struggles with the fish，前文又一直談捕大魚，可推marlin是魚。",
+    "options": {
+      "A": "A kind of fish一種魚，與後文the fish的指稱一致。",
+      "B": "船不會是被漁鉤釣到並稱為the fish的對象。",
+      "C": "magician是魔術師，與捕魚語境不符。",
+      "D": "鯊魚是後來攻擊漁獲的sharks，不能當marlin的類別。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "97 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=c041&q=1"
+      },
+      {
+        "title": "97 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=c041&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "novel",
+        "partOfSpeech": "形容詞；名詞",
+        "meaning": "新穎的；小說",
+        "usage": "a novel by Hemingway表示由海明威創作的小說。"
+      },
+      {
+        "word": "fisherman",
+        "partOfSpeech": "n.",
+        "meaning": "漁夫",
+        "usage": "an old fisherman指故事主角，而非寫作的人。"
+      },
+      {
+        "word": "remaining",
+        "partOfSpeech": "adj.",
+        "meaning": "剩下的",
+        "usage": "one remaining purpose表示生命中僅存的一個目標。"
+      },
+      {
+        "word": "in order to",
+        "partOfSpeech": "不定詞片語",
+        "meaning": "為了",
+        "usage": "in order to book the ticket 表示提供資料的目的，是為了訂票。"
+      },
+      {
+        "word": "prove",
+        "partOfSpeech": "v.",
+        "meaning": "證明",
+        "usage": "prove that he is a good fisherman是證明自己仍有能力。"
+      },
+      {
+        "word": "unsuccessful",
+        "partOfSpeech": "adj.",
+        "meaning": "未成功的",
+        "usage": "eighty-four unsuccessful days是連續未捕到魚的時間。"
+      },
+      {
+        "word": "hook",
+        "partOfSpeech": "v. / n.",
+        "meaning": "用鉤釣住；鉤子",
+        "usage": "hooks a marlin中hook作動詞，指用漁鉤釣到魚。"
+      },
+      {
+        "word": "marlin",
+        "partOfSpeech": "n.",
+        "meaning": "馬林魚",
+        "usage": "後文the fish承接marlin，可由語境推知是一種魚。"
+      },
+      {
+        "word": "struggle",
+        "partOfSpeech": "v.",
+        "meaning": "奮力搏鬥",
+        "usage": "struggle with the fish表示努力與魚周旋。"
+      },
+      {
+        "word": "shark",
+        "partOfSpeech": "n.",
+        "meaning": "鯊魚",
+        "usage": "sharks是攻擊漁獲者，不是馬林魚本身。"
+      },
+      {
+        "word": "catch",
+        "partOfSpeech": "n. / v.",
+        "meaning": "漁獲；捕捉",
+        "usage": "protect his catch的catch為名詞，指已捕獲的大魚。"
+      },
+      {
+        "word": "harbor",
+        "partOfSpeech": "n.",
+        "meaning": "港口",
+        "usage": "return to the harbor表示出海後回港，為故事終點。"
+      },
+      {
+        "word": "courage",
+        "partOfSpeech": "名詞",
+        "meaning": "勇氣",
+        "usage": "和 fear（恐懼）方向相反；必須搭配句子中錯失機會的因果判斷。"
+      },
+      {
+        "word": "skilled",
+        "partOfSpeech": "adj.",
+        "meaning": "熟練的",
+        "usage": "skilled at fishing對應原文a good fisherman的能力表達。"
+      }
+    ]
+  }
+}

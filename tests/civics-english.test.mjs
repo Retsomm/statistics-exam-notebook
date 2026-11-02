@@ -84,7 +84,7 @@ test('114 teaching distinguishes model assumptions, optional agreements and unme
  for(const n of [38,39,46,47,48,49,50])assert.match(questions114.find(q=>q.number===n).stem,/^(How|The|Which|According)/);
 });
 
-const allPapers=new Map(bank.exams.filter(e=>e.subjectIndex===1&&e.explanationStatus!=='pending').map(exam=>[exam.id,JSON.parse(readFileSync(new URL('../data/explanations/'+exam.id+'.json',import.meta.url)))]));
+const allPapers=new Map(bank.exams.filter(e=>e.subjectIndex===1&&[106,107,108,109,110,111,113,114,115].includes(e.year)).map(exam=>[exam.id,JSON.parse(readFileSync(new URL('../data/explanations/'+exam.id+'.json',import.meta.url)))]));
 test('all nine civics-English papers have 450 distinct full explanations and 1800 individual option reasons',()=>{
  const qs=bank.questions.filter(q=>q.subjectIndex===1&&allPapers.has(q.examId)),summaries=new Set();let reasons=0;
  assert.equal(qs.length,450);assert.equal(allPapers.size,9);

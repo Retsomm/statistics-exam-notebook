@@ -1,1 +1,2258 @@
-{}
+{
+  "105-1-1": {
+    "summary": "自我依現實原則調節本我衝動與超我道德，尋求可行平衡；客我屬其他理論用語。",
+    "options": {
+      "A": "自我衡量立即欲望與現實限制，敘述正確。",
+      "B": "享樂與本能欲力屬本我，不是超我。",
+      "C": "良心與道德高標準屬超我，不是本我。",
+      "D": "客我雖涉及內化社會期待，但不在佛洛伊德本我自我超我三分中。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-2": {
+    "summary": "少數事業合占幾乎全部市場且缺競爭，可在公平法定義下有寡占式共同獨占地位；不因兩家就必為聯合行為。",
+    "options": {
+      "A": "市場支配與競爭欠缺符合題定獨占分類；有獨占地位不等於所有行為皆違法。",
+      "B": "結合需有合併、控制等特定整合事實，題目未交代。",
+      "C": "聯合行為需共同行為的合意等，不只看合計市占率。",
+      "D": "未見不實廣告或仿冒等不公平競爭行為。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-3": {
+    "summary": "不負擔會費卻分享學生會為全體爭取的利益，是搭便車。",
+    "options": {
+      "A": "不能排除未付費者受益，產生不出資仍享成果的誘因。",
+      "B": "鄰避是反對不受歡迎設施靠近，非此免費受益。",
+      "C": "誘因不足可能造成，但不是對這種受益行為的精確名稱。",
+      "D": "共有財悲劇重可競用資源遭過度消耗，非無費受益本身。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-4": {
+    "summary": "從不太理財轉為重視個人財務規劃，主要改變的是價值與態度。",
+    "options": {
+      "A": "工具書及投資工具是背景，主軸是重視理財的觀念。",
+      "B": "社會風俗重普遍習俗儀式，非此個人財務價值核心。",
+      "C": "重視理財規劃是價值觀念層次的變遷。",
+      "D": "未描述人際交往方式如何改變。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-5": {
+    "summary": "面對強勢文化，肯定在地特色並創新，兼顧文化主體性與開放交流。",
+    "options": {
+      "A": "以審查篩選外片可能侵害表達自由，未直接培育本土創作。",
+      "B": "完全避免交流既不實際，也失去吸收新意的機會。",
+      "C": "全盤迎合會削弱在地特色，非平衡回應。",
+      "D": "認同本土再創新，可形成不同於主流的競爭與文化價值。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-6": {
+    "summary": "杜瓦傑一般認為單一選區一輪相對多數趨兩黨，兩輪制與比例制較能容多黨；屬趨勢非必然定律。",
+    "options": {
+      "A": "一輪多數制通常促策略投票、整合成兩大黨，非多黨。",
+      "B": "兩輪讓多黨先競逐再結盟，較可能維持多黨。",
+      "C": "比例代表通常有利多黨存續，不是趨兩黨。",
+      "D": "只說複數選區未說投票與分席規則，不足作杜瓦傑式確定推論。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-7": {
+    "summary": "行政院為最高行政機關，其首長為行政院長；總統為國家元首，不能混稱同一職位。",
+    "options": {
+      "A": "總統有重要憲政權限，但不是行政院的院長。",
+      "B": "立法院長主持立法機關，不是行政首長。",
+      "C": "行政院長領導最高行政機關，符合憲法本文分類。",
+      "D": "總統府秘書長為總統幕僚首長，不是最高行政首長。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-8": {
+    "summary": "依合法選舉程序取得統治權，屬合法理性型；世襲則較近傳統正當性，不能只看是否有人支持。",
+    "options": {
+      "A": "軍事領袖型不是韋伯三種正當權威的標準分類。",
+      "B": "甲依法選舉產生，符合合法理性型。",
+      "C": "甲非承襲傳統而上任，不能兩國都算傳統。",
+      "D": "未提供兩國皆因超凡魅力受追隨的證據。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-9": {
+    "summary": "105年時全國公投受舊法高投票及同意門檻限制，故D。後來修法降低門檻且已有通過案，題幹「迄今」只能讀作當年。",
+    "options": {
+      "A": "當年問題不是提案太鬆，程序門檻相反偏高。",
+      "B": "臺灣有多次全國選舉經驗，不能歸因不會辦選舉。",
+      "C": "審議把關不嚴不足解釋投票未達法定門檻。",
+      "D": "舊制高投票率與通過要求使成案不易過關，符合歷史背景。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "公民投票法（舊卷門檻依當時規定）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0020050"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-10": {
+    "summary": "盧梭著有《社會契約論》，強調人民主權與公意；其餘把理論與人物錯配。",
+    "options": {
+      "A": "剩餘價值理論典型對應馬克斯，不是洛克。",
+      "B": "盧梭與社會契約論的配對正確。",
+      "C": "孟德斯鳩為三權分立，五權憲法則與孫中山相關。",
+      "D": "熊彼德以競爭式、菁英民主理論著稱，不是審議民主代表。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-11": {
+    "summary": "按105年國籍法，成年有行為能力並自願取得外國國籍，可依許可程序喪失本國籍；112年成年改18歲，亦須看其他法定限制。",
+    "options": {
+      "A": "未經外籍生父認領不符合此類法定原因。",
+      "B": "任本國公職者有不得許可喪失國籍的限制。",
+      "C": "刑事判決尚未執行完畢可能受不許可限制，不能只憑被外國人收養。",
+      "D": "當年20歲有行為能力且自願取得外籍，為題定可申請許可情況，非自動喪失。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "國籍法（現行與歷史規定須區別）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0030001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-12": {
+    "summary": "官方選A考錯標價格不當然使契約自始無效。但下單是否已成約、可否撤銷錯誤須個案判斷，不能教成所有標錯都必須出貨。",
+    "options": {
+      "A": "若已成立契約可能有效，另有錯誤撤銷與誠信問題；單下單不保證必成約。",
+      "B": "一般全時月薪17000低於105年基本工資，違法低薪約定不能排除最低保障；不代表整份僱用關係全不存在。",
+      "C": "婚約由本人訂定，父母不能替子女作有拘束力的婚姻決定。",
+      "D": "親生親子身分不能用登報或私約任意拋棄。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-13": {
+    "summary": "網購一般通訊交易無理由解除期間為收受後7日，20天已超過；瑕疵擔保、保固或告知欠缺等救濟仍須另判。",
+    "options": {
+      "A": "手機不因含智慧財產就一概拆封不能退，例外須符法律規定。",
+      "B": "若僅主張一般7日無理由解除，20日通常逾期，但不等於所有退修權利都消失。",
+      "C": "不是所有購物都能無期限任意退換。",
+      "D": "一般不是30天，勿與商家自訂較優退貨承諾混淆。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "消費者保護法：商品安全與通訊交易解除權",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0170001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-14": {
+    "summary": "憲法規定各院爭執時，總統得召集有關院長會商，不是由爭議任何一方逕作最後裁判。",
+    "options": {
+      "A": "總統可依憲法召集會商，符合題意。",
+      "B": "副總統沒有相同當然召集各院長權限。",
+      "C": "立法院長為一院首長，非本項憲法召集人。",
+      "D": "司法院長不能把一般各院會商權取代為司法首長權。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-15": {
+    "summary": "選票用私章可能留下可辨認身分記號，破壞無記名投票要求，也可能成無效票。",
+    "options": {
+      "A": "藝人亦是公民，身分不剝奪普通選舉資格。",
+      "B": "公眾影響力不同不等於每人的票值依法不同。",
+      "C": "直接表態支持不違反直接選舉，該原則是有無中間選舉人。",
+      "D": "具名記號使秘密投票受損，符合無記名原則問題。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "公職人員選舉罷免法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-16": {
+    "summary": "兩人未進法院，自己協議負擔修理費，屬訴訟外和解。",
+    "options": {
+      "A": "當事人私下協商排解損害爭議，是訴訟外和解。",
+      "B": "訴訟上和解須在法院訴訟程序依法成立。",
+      "C": "未見調解機關或第三方調解程序。",
+      "D": "沒有仲裁協議、仲裁人及裁決，不是仲裁。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-17": {
+    "summary": "協助被告辯護且穿綠邊法袍，為公設辯護人。",
+    "options": {
+      "A": "法官負中立審判，法袍邊色也不同。",
+      "B": "書記官記錄庭務，不是被告辯護者。",
+      "C": "檢察官代表國家追訴，不負擔替被告辯護角色。",
+      "D": "公設辯護人依法提供辯護，綠邊法袍為題目識別線索。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-18": {
+    "summary": "繼父與孩子不因再婚便當然有親生父子繼承關係，可依法收養建立擬制親子身分。",
+    "options": {
+      "A": "準正是親生父母嗣後結婚使非婚生子取得婚生地位，不適用非生父。",
+      "B": "認領用於生父承認非婚生子，不是繼父收養。",
+      "C": "認養多是捐助、照顧口語，非依法建立親子關係的制度名稱。",
+      "D": "收養須依法書面、法院認可等，成立後可有親子繼承關係。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-19": {
+    "summary": "1991年廢止臨時條款並開始憲法增修，是題問正式重啟修憲的重要轉折。",
+    "options": {
+      "A": "1987解嚴是自由化關鍵，尚非憲法增修起點。",
+      "B": "1996總統直選晚於1991初次修憲。",
+      "C": "終止國統綱領與1991修憲起點不同。",
+      "D": "廢臨時條款、回歸常態憲政並增修憲法，符合題意。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-20": {
+    "summary": "保護令與少年保護事件為保護隱私及安全原則不公開，故①③；普通刑案原則公開，有法定例外。",
+    "options": {
+      "A": "①對，②誹謗不是當然全部不公開。",
+      "B": "①家暴保護令、③少年保護均有不公開規範。",
+      "C": "②④不因這些罪名就一概不公開。",
+      "D": "③對，④一般過失傷害無當然全面不公開規定。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "家庭暴力防治法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0050071"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-21": {
+    "summary": "法律案通常排入議程、一讀交委員會、審查、二讀討論、三讀議決、總統公布；依法逕付二讀等另有例外。",
+    "options": {
+      "A": "符合一般三讀程序及公布分工。",
+      "B": "排議程通常為程序委員會，且委員會審查不在三讀後才做。",
+      "C": "委員會審查通常在一讀交付後、二讀前。",
+      "D": "把審查放一讀前、又以法制委員會排程，均非一般程序。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-22": {
+    "summary": "偵查由檢察官負責，證據足認犯罪嫌疑才依法起訴；法院負審判，處分救濟不等於判決上訴。",
+    "options": {
+      "A": "檢察官須依證據達法定起訴條件，不能只因被害人指控就起訴。",
+      "B": "不起訴是檢察官處分；法官審判可能作無罪判決。",
+      "C": "對不起訴等處分通常先循再議等法定救濟，不是直接上訴。",
+      "D": "告訴向檢警提出，不能請法官代為偵查追訴。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-23": {
+    "summary": "依105年舊制，地院行政訴訟庭辦簡易與交通裁決②③；112年8月起改設高院地方行政訴訟庭，不能沿用舊機關名。",
+    "options": {
+      "A": "①通常程序當年主要在高等行政法院，②才在地院庭。",
+      "B": "①④非當年地院行政庭的一般受理組合。",
+      "C": "②簡易、③交通裁決符合當時分工。",
+      "D": "③可，④智慧財產行政由專業法院體系處理。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "行政訴訟法（留意112年新制與歷史分工）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+      },
+      {
+        "title": "司法院：112年行政訴訟改制說明",
+        "url": "https://www.judicial.gov.tw/tw/dl-228564-20684aa5cada418abf2f8a0bd9b1aee3.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-24": {
+    "summary": "輕微案件衡量犯罪情節、悔意及追訴成本，裁量不起訴避免不相稱處理，最接近比例精神。",
+    "options": {
+      "A": "平等重相同情形同處理，本題重輕微損害與處理強度相稱。",
+      "B": "以較輕手段處理微罪，衡量必要與過當，符合比例。",
+      "C": "法律保留重干預需法律依據，非本案不起訴裁量的主要意旨。",
+      "D": "不起訴可基裁量不追訴，不是只因證據不足而無罪推定。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "刑法（緊急避難、緩刑等）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-25": {
+    "summary": "最低工資以積極制度保障勞工基本生活，屬社會權、工作與生存保障的實現。",
+    "options": {
+      "A": "平等亦可能相關，但最低生活條件保障更直接為社會權。",
+      "B": "社會權要求國家維持基本生活與勞動保障。",
+      "C": "參政權是選舉等政治參與，不是薪資最低保障。",
+      "D": "自由權重免不當干預，最低工資則對契約自由作社會保障限制。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-26": {
+    "summary": "即使105年一般釋憲多由大法官會議決議，言詞辯論則在憲法法庭進行；勿把討論組織與辯論場合混為一談。",
+    "options": {
+      "A": "最高法院不主持大法官釋憲言詞辯論。",
+      "B": "憲法法庭為本題釋憲案言詞辯論場所及組織。",
+      "C": "大法官會議為舊制評議作解釋形式，不是此題言詞辯論選項。",
+      "D": "最高行政法院審行政上訴，非大法官憲法辯論。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "司法院：憲法法庭新舊制度與言詞辯論",
+        "url": "https://www.judicial.gov.tw/tw/lp-1654-1-xCat-30-1-40.html"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-27": {
+    "summary": "四年放棄薪資25000乘48＝1200000，加學費160000＝1360000。兩選擇都付每月6000生活費，屬共同成本不重複計。",
+    "options": {
+      "A": "1360000合計新增學費與放棄薪資，算法正確。",
+      "B": "1488000不符扣除共同生活費後的增量計算。",
+      "C": "1648000是再加6000乘48生活費，卻忽略就業也須花同額。",
+      "D": "1936000更重複或錯加費用，不是最佳替代犧牲額。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-28": {
+    "summary": "需求法則在其他條件不變下，商品價格上升需求量下降、價格下降需求量上升，為沿需求曲線移動。",
+    "options": {
+      "A": "價格與需求量反向是定義，記得其他因素不變。",
+      "B": "偏好變化可移動需求曲線，不是需求法則本身。",
+      "C": "所得影響方向視正常財、劣等財，且非本身價格法則。",
+      "D": "預期是需求非價格因素，也不能一概反方向。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-29": {
+    "summary": "信賴標章提高偏好，需求曲線右移；球星表現提高周邊喜愛程度也是同類。",
+    "options": {
+      "A": "球迷偏好增加使周邊需求右移，與信任標章相同機制。",
+      "B": "成本增加影響供給，不是消費偏好需求右移。",
+      "C": "關稅降使成本售價下降，主要是供給及價格帶動需求量變化。",
+      "D": "優惠降價使沿原需求曲線增購量，非偏好改變的整條右移。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-30": {
+    "summary": "家庭號轉賣差價15元、禮盒5元；即使排隊有時間成本，在題定假設仍有價差誘因，不能只比售價高低。",
+    "options": {
+      "A": "未證明店家安排黃牛促銷，不能把轉售者動機移給店家。",
+      "B": "轉售收入高於進貨支出，產生誘因；實際淨利仍須扣時間等成本。",
+      "C": "禮盒售價雖高，差價只有5元，低於家庭號15元。",
+      "D": "店家量與原售價固定，轉賣差額歸黃牛，不當然增加店家利潤。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-31": {
+    "summary": "專利是可用於生產的知識資產，依題目生產要素分類屬無形資本，而非發明者本人勞力。",
+    "options": {
+      "A": "購得可投入量產的專利知識資產，屬資本。",
+      "B": "勞力是人提供工作，不是買下的權利資產本身。",
+      "C": "雖眼鏡使用水，專利權不等於水這項自然資源。",
+      "D": "企業才能重組織、創新與承擔風險的人力功能，不等同專利資產。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-32": {
+    "summary": "正外部性使私人市場供給或消費偏少，適當補貼降低私人淨成本、提高均衡數量。",
+    "options": {
+      "A": "標準供需模型補貼鼓勵生產或消費，使交易量上升。",
+      "B": "減少量與鼓勵具外部效益活動方向相反。",
+      "C": "有正確作用的補貼會改誘因，非一概無影響。",
+      "D": "在題定通常模型方向可判增加；幅度才需彈性等資料。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-33": {
+    "summary": "QE以央行買入資產增加貨幣與流動性，與公開市場買證券的擴張方向相同。",
+    "options": {
+      "A": "央行買證券向市場注資，通常具寬鬆效果。",
+      "B": "調高重貼現率提高資金成本，屬緊縮方向。",
+      "C": "提高所得稅是緊縮財政，且非貨幣政策工具。",
+      "D": "減公共支出也是緊縮財政，與刺激需求方向相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-34": {
+    "summary": "燈塔光可同時供船隻使用，且難排除未付款者，是教材純公共財典型。",
+    "options": {
+      "A": "捷運可收費排除，也可能擁擠，非純公共財。",
+      "B": "港口燈光非敵對、難排他，符合公共財兩項特性。",
+      "C": "職棒可售票排他、席位有限且競用。",
+      "D": "世貿展覽須購票可排他，不是純公共財。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-35": {
+    "summary": "30萬除30換1萬美元，再乘32得32萬，利得2萬、報酬6.67%。官方B約5%用6.67減1.5估算，但一月匯差與公債利率期間未對齊，不能當嚴謹風險貼水。",
+    "options": {
+      "A": "實際簡單報酬為20000除300000約6.67%，非10%。",
+      "B": "按出題簡化6.67%減1.5%約5.17%；嚴格比較須同期間且風險貼水通常為預期超額報酬。",
+      "C": "資本利得是20000，非30000。",
+      "D": "匯率可能反向變動，外幣投資不是無風險。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "105-1-36": {
+    "summary": "整句白話：這個社區的人不友善，我們要搬到一個比較友善的地方。\n\n因鄰里不友善而想搬到更友善處，hostile敵意的與friendly相反。",
+    "options": {
+      "A": "desirable令人嚮往的，不能解釋因不友善搬走。",
+      "B": "open-minded思想開放，通常非此負面鄰里線索。",
+      "C": "kind-hearted心地善良，與不友善相反。",
+      "D": "hostile有敵意的，與more friendly形成對比。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "hostile",
+        "partOfSpeech": "adj.",
+        "meaning": "有敵意的；不友善的",
+        "usage": "hostile與friendly對比，解釋為何想搬離鄰里。"
+      },
+      {
+        "word": "neighborhood",
+        "partOfSpeech": "n.",
+        "meaning": "鄰里；社區",
+        "usage": "people in this neighborhood指住在附近的一群人。"
+      },
+      {
+        "word": "kind-hearted",
+        "partOfSpeech": "adj.",
+        "meaning": "心地善良的",
+        "usage": "kind-hearted是正向性格，與hostile不友善相反。"
+      }
+    ]
+  },
+  "105-1-37": {
+    "summary": "整句白話：John既不聰明也不用功。然而讓我驚訝的是，他通過了考試。\n\n既不聰明也不用功卻及格，說話者感到意外，to my astonishment使我驚訝的是。",
+    "options": {
+      "A": "involvement參與，不是對意外結果的感受。",
+      "B": "commitment承諾、投入，與驚奇不同。",
+      "C": "engagement參與、婚約，不表示此驚訝反應。",
+      "D": "astonishment驚訝，與However及出乎預期結果相合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "astonishment",
+        "partOfSpeech": "n.",
+        "meaning": "驚訝",
+        "usage": "to my astonishment為使我驚訝的是，引出意料外結果。"
+      },
+      {
+        "word": "intelligent",
+        "partOfSpeech": "adj.",
+        "meaning": "聰明的",
+        "usage": "neither intelligent nor diligent表示既不聰明也不用功。"
+      },
+      {
+        "word": "diligent",
+        "partOfSpeech": "形容詞",
+        "meaning": "勤奮的、用功的",
+        "usage": "diligent描述努力態度，不等於天生聰明。"
+      }
+    ]
+  },
+  "105-1-38": {
+    "summary": "整句白話：Paula和我彼此迷戀。三個月前，我們在網路上初次相遇的那天就墜入愛河。\n\nbe crazy about someone表示迷戀某人，下一句一見鍾情提供線索。",
+    "options": {
+      "A": "sad about為……難過，與互相熱戀不同。",
+      "B": "crazy about each other互相迷戀，是固定搭配。",
+      "C": "loving關愛的，通常不說are loving about each other表熱戀。",
+      "D": "attractive有吸引力的，常對某人用to，不用about表互相迷戀。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "be crazy about",
+        "partOfSpeech": "動詞片語",
+        "meaning": "迷戀；熱愛",
+        "usage": "crazy about each other表示兩人互相迷戀。"
+      },
+      {
+        "word": "fall in love",
+        "partOfSpeech": "動詞片語",
+        "meaning": "墜入愛河",
+        "usage": "fell in love為過去式，說首次相遇時產生愛意。"
+      },
+      {
+        "word": "attractive",
+        "partOfSpeech": "adj.",
+        "meaning": "有吸引力的",
+        "usage": "attractive to someone表示對某人有吸引力，非crazy about的搭配。"
+      }
+    ]
+  },
+  "105-1-39": {
+    "summary": "整句白話：我會在這裡再待四年。\n\nanother加數字加複數名詞可表再多一段量，another four years即另外四年。",
+    "options": {
+      "A": "the other需已限定一組中的其餘，這裡未提供該集合。",
+      "B": "another four years表示再待四年，為正確特殊數量用法。",
+      "C": "others為代名詞，不能直接再修飾four years。",
+      "D": "one another表示彼此，非額外年數。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "another",
+        "partOfSpeech": "限定詞／代名詞",
+        "meaning": "另一個",
+        "usage": "another four years中another可接數字加複數名詞，表示再多四年。"
+      },
+      {
+        "word": "one another",
+        "partOfSpeech": "相互代名詞",
+        "meaning": "彼此",
+        "usage": "one another指人們互相，不可用來修飾年數。"
+      },
+      {
+        "word": "for",
+        "partOfSpeech": "prep.",
+        "meaning": "持續……期間",
+        "usage": "for four years表示四年的期間，不是發生的單一時點。"
+      }
+    ]
+  },
+  "105-1-40": {
+    "summary": "整句白話：我們等火車時看見兩位似乎迷路的旅客，因此主動表示願意幫忙。\n\n看到旅客似乎迷路，主動表示願協助，offer to help。",
+    "options": {
+      "A": "offered to help主動提出幫忙，承接so的因果。",
+      "B": "cautioned警告，通常須受詞及警告內容，非主動助人。",
+      "C": "hesitated猶豫會變不敢幫，與so因果意圖不合。",
+      "D": "introduced介紹，不能introduced to help表願意幫助。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "offer",
+        "partOfSpeech": "v.",
+        "meaning": "主動提出",
+        "usage": "offer to help是主動表示願幫忙，不需在to前加受詞。"
+      },
+      {
+        "word": "tourist",
+        "partOfSpeech": "n.",
+        "meaning": "觀光客",
+        "usage": "two tourists who seemed lost指兩位看起來迷路的旅客。"
+      },
+      {
+        "word": "hesitate",
+        "partOfSpeech": "v.",
+        "meaning": "猶豫",
+        "usage": "hesitate to help是不確定要不要幫，與主動提供協助不同。"
+      }
+    ]
+  },
+  "105-1-41": {
+    "summary": "這些城市無人住但觀光客仍前往參觀，visit正好與下一句tourists want to see呼應。",
+    "options": {
+      "A": "destroy摧毀，與遊客欣賞古城不符。",
+      "B": "invent發明，古城已存在，非今日遊客創造。",
+      "C": "arrest逮捕通常接受人，不是參觀城市。",
+      "D": "visit參觀、造訪，符合觀光語境。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "Turkey",
+        "partOfSpeech": "專有名詞",
+        "meaning": "土耳其",
+        "usage": "Turkey首字母大寫在此是國家，不是火雞。"
+      },
+      {
+        "word": "underground",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "地下的；在地下",
+        "usage": "文中under the ground說古城位在地底。"
+      },
+      {
+        "word": "cereal",
+        "partOfSpeech": "n.",
+        "meaning": "穀物",
+        "usage": "store cereal指儲存糧食，不只現代早餐穀片。"
+      },
+      {
+        "word": "store",
+        "partOfSpeech": "v.",
+        "meaning": "儲藏",
+        "usage": "此處store是動詞，不是商店的名詞義。"
+      },
+      {
+        "word": "tunnel",
+        "partOfSpeech": "n.",
+        "meaning": "隧道；通道",
+        "usage": "air tunnels用來讓地下居住空間通風。"
+      },
+      {
+        "word": "chimney",
+        "partOfSpeech": "n.",
+        "meaning": "煙囪",
+        "usage": "chimneys與air tunnels都是題文列的通氣設施。"
+      },
+      {
+        "word": "breathe",
+        "partOfSpeech": "v.",
+        "meaning": "呼吸",
+        "usage": "breathe是動詞，與breath名詞呼吸不同。"
+      },
+      {
+        "word": "flow",
+        "partOfSpeech": "v.",
+        "meaning": "流動",
+        "usage": "keep air flowing以分詞表持續流通。"
+      },
+      {
+        "word": "room",
+        "partOfSpeech": "n.",
+        "meaning": "房間",
+        "usage": "rooms承接廚房、會議室等地下居住空間。"
+      },
+      {
+        "word": "locking stone",
+        "partOfSpeech": "n.",
+        "meaning": "封門石",
+        "usage": "locking stones可封閉入口以保護城內居民。"
+      },
+      {
+        "word": "from inside",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "從內部",
+        "usage": "from表示操作來源，只能從內側開關石門。"
+      },
+      {
+        "word": "harvest",
+        "partOfSpeech": "v.",
+        "meaning": "收割",
+        "usage": "harvest與store儲糧不同，地下設施未說用來收割作物。"
+      }
+    ]
+  },
+  "105-1-42": {
+    "summary": "地下城市備有存放穀物的地方，store cereal表示儲糧。",
+    "options": {
+      "A": "harvest收割需田地作物，不是地下儲糧設施。",
+      "B": "store儲藏，與廚房會議室等生活設施相合。",
+      "C": "grow種植需要生長條件，文中未說地下農耕。",
+      "D": "search找尋通常接for找穀物，非此存放用途。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "Turkey",
+        "partOfSpeech": "專有名詞",
+        "meaning": "土耳其",
+        "usage": "Turkey首字母大寫在此是國家，不是火雞。"
+      },
+      {
+        "word": "underground",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "地下的；在地下",
+        "usage": "文中under the ground說古城位在地底。"
+      },
+      {
+        "word": "cereal",
+        "partOfSpeech": "n.",
+        "meaning": "穀物",
+        "usage": "store cereal指儲存糧食，不只現代早餐穀片。"
+      },
+      {
+        "word": "store",
+        "partOfSpeech": "v.",
+        "meaning": "儲藏",
+        "usage": "此處store是動詞，不是商店的名詞義。"
+      },
+      {
+        "word": "tunnel",
+        "partOfSpeech": "n.",
+        "meaning": "隧道；通道",
+        "usage": "air tunnels用來讓地下居住空間通風。"
+      },
+      {
+        "word": "chimney",
+        "partOfSpeech": "n.",
+        "meaning": "煙囪",
+        "usage": "chimneys與air tunnels都是題文列的通氣設施。"
+      },
+      {
+        "word": "breathe",
+        "partOfSpeech": "v.",
+        "meaning": "呼吸",
+        "usage": "breathe是動詞，與breath名詞呼吸不同。"
+      },
+      {
+        "word": "flow",
+        "partOfSpeech": "v.",
+        "meaning": "流動",
+        "usage": "keep air flowing以分詞表持續流通。"
+      },
+      {
+        "word": "room",
+        "partOfSpeech": "n.",
+        "meaning": "房間",
+        "usage": "rooms承接廚房、會議室等地下居住空間。"
+      },
+      {
+        "word": "locking stone",
+        "partOfSpeech": "n.",
+        "meaning": "封門石",
+        "usage": "locking stones可封閉入口以保護城內居民。"
+      },
+      {
+        "word": "from inside",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "從內部",
+        "usage": "from表示操作來源，只能從內側開關石門。"
+      },
+      {
+        "word": "harvest",
+        "partOfSpeech": "v.",
+        "meaning": "收割",
+        "usage": "harvest與store儲糧不同，地下設施未說用來收割作物。"
+      }
+    ]
+  },
+  "105-1-43": {
+    "summary": "空氣通道使百呎地下仍可安全呼吸，make it safe to breathe。",
+    "options": {
+      "A": "safe安全的，說通風讓人呼吸不致缺新鮮空氣。",
+      "B": "hard困難的，與fresh air流通的改善效果相反。",
+      "C": "cruel殘酷的，不描述呼吸條件。",
+      "D": "tight緊的，與通風便利無自然搭配。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "Turkey",
+        "partOfSpeech": "專有名詞",
+        "meaning": "土耳其",
+        "usage": "Turkey首字母大寫在此是國家，不是火雞。"
+      },
+      {
+        "word": "underground",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "地下的；在地下",
+        "usage": "文中under the ground說古城位在地底。"
+      },
+      {
+        "word": "cereal",
+        "partOfSpeech": "n.",
+        "meaning": "穀物",
+        "usage": "store cereal指儲存糧食，不只現代早餐穀片。"
+      },
+      {
+        "word": "store",
+        "partOfSpeech": "v.",
+        "meaning": "儲藏",
+        "usage": "此處store是動詞，不是商店的名詞義。"
+      },
+      {
+        "word": "tunnel",
+        "partOfSpeech": "n.",
+        "meaning": "隧道；通道",
+        "usage": "air tunnels用來讓地下居住空間通風。"
+      },
+      {
+        "word": "chimney",
+        "partOfSpeech": "n.",
+        "meaning": "煙囪",
+        "usage": "chimneys與air tunnels都是題文列的通氣設施。"
+      },
+      {
+        "word": "breathe",
+        "partOfSpeech": "v.",
+        "meaning": "呼吸",
+        "usage": "breathe是動詞，與breath名詞呼吸不同。"
+      },
+      {
+        "word": "flow",
+        "partOfSpeech": "v.",
+        "meaning": "流動",
+        "usage": "keep air flowing以分詞表持續流通。"
+      },
+      {
+        "word": "room",
+        "partOfSpeech": "n.",
+        "meaning": "房間",
+        "usage": "rooms承接廚房、會議室等地下居住空間。"
+      },
+      {
+        "word": "locking stone",
+        "partOfSpeech": "n.",
+        "meaning": "封門石",
+        "usage": "locking stones可封閉入口以保護城內居民。"
+      },
+      {
+        "word": "from inside",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "從內部",
+        "usage": "from表示操作來源，只能從內側開關石門。"
+      },
+      {
+        "word": "harvest",
+        "partOfSpeech": "v.",
+        "meaning": "收割",
+        "usage": "harvest與store儲糧不同，地下設施未說用來收割作物。"
+      }
+    ]
+  },
+  "105-1-44": {
+    "summary": "前文列廚房、會議室等，通風使新鮮空氣流過房間rooms。C cities也能概括地下城通風，官方以B較具體承接居住空間。",
+    "options": {
+      "A": "Turkey整個國家太廣，空氣通道只在地下設施內。",
+      "B": "rooms房間，與前列各室及人可呼吸的空間直接相連。",
+      "C": "cities城市範圍較大，語意並非全不可能；本題官方以rooms作最合適選詞。",
+      "D": "stone石頭非可通風的房間，而且前定冠詞單複數語意不合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "Turkey",
+        "partOfSpeech": "專有名詞",
+        "meaning": "土耳其",
+        "usage": "Turkey首字母大寫在此是國家，不是火雞。"
+      },
+      {
+        "word": "underground",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "地下的；在地下",
+        "usage": "文中under the ground說古城位在地底。"
+      },
+      {
+        "word": "cereal",
+        "partOfSpeech": "n.",
+        "meaning": "穀物",
+        "usage": "store cereal指儲存糧食，不只現代早餐穀片。"
+      },
+      {
+        "word": "store",
+        "partOfSpeech": "v.",
+        "meaning": "儲藏",
+        "usage": "此處store是動詞，不是商店的名詞義。"
+      },
+      {
+        "word": "tunnel",
+        "partOfSpeech": "n.",
+        "meaning": "隧道；通道",
+        "usage": "air tunnels用來讓地下居住空間通風。"
+      },
+      {
+        "word": "chimney",
+        "partOfSpeech": "n.",
+        "meaning": "煙囪",
+        "usage": "chimneys與air tunnels都是題文列的通氣設施。"
+      },
+      {
+        "word": "breathe",
+        "partOfSpeech": "v.",
+        "meaning": "呼吸",
+        "usage": "breathe是動詞，與breath名詞呼吸不同。"
+      },
+      {
+        "word": "flow",
+        "partOfSpeech": "v.",
+        "meaning": "流動",
+        "usage": "keep air flowing以分詞表持續流通。"
+      },
+      {
+        "word": "room",
+        "partOfSpeech": "n.",
+        "meaning": "房間",
+        "usage": "rooms承接廚房、會議室等地下居住空間。"
+      },
+      {
+        "word": "locking stone",
+        "partOfSpeech": "n.",
+        "meaning": "封門石",
+        "usage": "locking stones可封閉入口以保護城內居民。"
+      },
+      {
+        "word": "from inside",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "從內部",
+        "usage": "from表示操作來源，只能從內側開關石門。"
+      },
+      {
+        "word": "harvest",
+        "partOfSpeech": "v.",
+        "meaning": "收割",
+        "usage": "harvest與store儲糧不同，地下設施未說用來收割作物。"
+      }
+    ]
+  },
+  "105-1-45": {
+    "summary": "石門只能從裡面開關，from inside表示操作來源在內部。",
+    "options": {
+      "A": "from inside從內部，符合保護居民、防外人進入。",
+      "B": "to inside表示朝內，不能表從哪一側操作。",
+      "C": "of inside不是此被動句描述來源的搭配。",
+      "D": "with inside缺適當工具名詞，不能表內部操作位置。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "Turkey",
+        "partOfSpeech": "專有名詞",
+        "meaning": "土耳其",
+        "usage": "Turkey首字母大寫在此是國家，不是火雞。"
+      },
+      {
+        "word": "underground",
+        "partOfSpeech": "adj. / adv.",
+        "meaning": "地下的；在地下",
+        "usage": "文中under the ground說古城位在地底。"
+      },
+      {
+        "word": "cereal",
+        "partOfSpeech": "n.",
+        "meaning": "穀物",
+        "usage": "store cereal指儲存糧食，不只現代早餐穀片。"
+      },
+      {
+        "word": "store",
+        "partOfSpeech": "v.",
+        "meaning": "儲藏",
+        "usage": "此處store是動詞，不是商店的名詞義。"
+      },
+      {
+        "word": "tunnel",
+        "partOfSpeech": "n.",
+        "meaning": "隧道；通道",
+        "usage": "air tunnels用來讓地下居住空間通風。"
+      },
+      {
+        "word": "chimney",
+        "partOfSpeech": "n.",
+        "meaning": "煙囪",
+        "usage": "chimneys與air tunnels都是題文列的通氣設施。"
+      },
+      {
+        "word": "breathe",
+        "partOfSpeech": "v.",
+        "meaning": "呼吸",
+        "usage": "breathe是動詞，與breath名詞呼吸不同。"
+      },
+      {
+        "word": "flow",
+        "partOfSpeech": "v.",
+        "meaning": "流動",
+        "usage": "keep air flowing以分詞表持續流通。"
+      },
+      {
+        "word": "room",
+        "partOfSpeech": "n.",
+        "meaning": "房間",
+        "usage": "rooms承接廚房、會議室等地下居住空間。"
+      },
+      {
+        "word": "locking stone",
+        "partOfSpeech": "n.",
+        "meaning": "封門石",
+        "usage": "locking stones可封閉入口以保護城內居民。"
+      },
+      {
+        "word": "from inside",
+        "partOfSpeech": "介系詞片語",
+        "meaning": "從內部",
+        "usage": "from表示操作來源，只能從內側開關石門。"
+      },
+      {
+        "word": "harvest",
+        "partOfSpeech": "v.",
+        "meaning": "收割",
+        "usage": "harvest與store儲糧不同，地下設施未說用來收割作物。"
+      }
+    ]
+  },
+  "105-1-46": {
+    "summary": "全文談學生作弊、師長誘因與解方，Cheating in America最完整。",
+    "options": {
+      "A": "工作不是文中主要討論，雖提家長逃稅例子。",
+      "B": "作弊在美國，涵蓋統計、成因、師長與改善。",
+      "C": "只有學生範圍太廣，未點出作弊焦點。",
+      "D": "教師也是內容一部分，但不是只介紹教師生活。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "cheat",
+        "partOfSpeech": "v.",
+        "meaning": "作弊；欺騙",
+        "usage": "cheat on a test表示考試作弊，不是單指一般計算錯。"
+      },
+      {
+        "word": "statistic",
+        "partOfSpeech": "n.",
+        "meaning": "統計數據",
+        "usage": "statistics來自文中9000人調查，不可當今天全美比例。"
+      },
+      {
+        "word": "survey",
+        "partOfSpeech": "n.",
+        "meaning": "調查",
+        "usage": "a survey of students交代資料取得對象。"
+      },
+      {
+        "word": "investigator",
+        "partOfSpeech": "n.",
+        "meaning": "調查員",
+        "usage": "students told investigators表示學生向調查者提供說法。"
+      },
+      {
+        "word": "statewide",
+        "partOfSpeech": "adj.",
+        "meaning": "全州的",
+        "usage": "statewide tests是全州統一測驗，非全國皆同考卷。"
+      },
+      {
+        "word": "charge",
+        "partOfSpeech": "n.",
+        "meaning": "指控",
+        "usage": "similar charges在此是作弊指控，不是費用或充電。"
+      },
+      {
+        "word": "peer pressure",
+        "partOfSpeech": "n.",
+        "meaning": "同儕壓力",
+        "usage": "peer pressure是孩子自述受誘惑作弊的原因之一。"
+      },
+      {
+        "word": "intense",
+        "partOfSpeech": "adj.",
+        "meaning": "激烈的",
+        "usage": "intense competition是競爭非常強，不只是一般努力。"
+      },
+      {
+        "word": "tempt",
+        "partOfSpeech": "v.",
+        "meaning": "誘惑",
+        "usage": "be tempted to cheat表示受引誘從事作弊。"
+      },
+      {
+        "word": "fudge",
+        "partOfSpeech": "v.",
+        "meaning": "造假；不誠實處理",
+        "usage": "fudging on income taxes在此是稅務不誠實行為。"
+      },
+      {
+        "word": "admission price",
+        "partOfSpeech": "n.",
+        "meaning": "入場費",
+        "usage": "謊報年齡為付較低admission prices，是家長不良榜樣。"
+      },
+      {
+        "word": "randomly",
+        "partOfSpeech": "adv.",
+        "meaning": "隨機地",
+        "usage": "randomly mix problems是把題目順序打亂。"
+      },
+      {
+        "word": "expectation",
+        "partOfSpeech": "n.",
+        "meaning": "期待",
+        "usage": "unreasonably high expectations是作者要求成人檢視的壓力。"
+      },
+      {
+        "word": "solution",
+        "partOfSpeech": "n.",
+        "meaning": "解決方法",
+        "usage": "finding solutions is difficult明確支持作弊問題難解。"
+      }
+    ]
+  },
+  "105-1-47": {
+    "summary": "底特律老師提供統測答案，還答應照指示作弊可得披薩和錢，故B。",
+    "options": {
+      "A": "never cheat與文中鼓勵作弊相反。",
+      "B": "asked to cheat對應提供答案與獎勵的事件。",
+      "C": "披薩是獎勵，不是叫學生永不吃披薩。",
+      "D": "非單純要吃披薩，而是用食物金錢鼓勵作弊，偏離問題核心。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "cheat",
+        "partOfSpeech": "v.",
+        "meaning": "作弊；欺騙",
+        "usage": "cheat on a test表示考試作弊，不是單指一般計算錯。"
+      },
+      {
+        "word": "statistic",
+        "partOfSpeech": "n.",
+        "meaning": "統計數據",
+        "usage": "statistics來自文中9000人調查，不可當今天全美比例。"
+      },
+      {
+        "word": "survey",
+        "partOfSpeech": "n.",
+        "meaning": "調查",
+        "usage": "a survey of students交代資料取得對象。"
+      },
+      {
+        "word": "investigator",
+        "partOfSpeech": "n.",
+        "meaning": "調查員",
+        "usage": "students told investigators表示學生向調查者提供說法。"
+      },
+      {
+        "word": "statewide",
+        "partOfSpeech": "adj.",
+        "meaning": "全州的",
+        "usage": "statewide tests是全州統一測驗，非全國皆同考卷。"
+      },
+      {
+        "word": "charge",
+        "partOfSpeech": "n.",
+        "meaning": "指控",
+        "usage": "similar charges在此是作弊指控，不是費用或充電。"
+      },
+      {
+        "word": "peer pressure",
+        "partOfSpeech": "n.",
+        "meaning": "同儕壓力",
+        "usage": "peer pressure是孩子自述受誘惑作弊的原因之一。"
+      },
+      {
+        "word": "intense",
+        "partOfSpeech": "adj.",
+        "meaning": "激烈的",
+        "usage": "intense competition是競爭非常強，不只是一般努力。"
+      },
+      {
+        "word": "tempt",
+        "partOfSpeech": "v.",
+        "meaning": "誘惑",
+        "usage": "be tempted to cheat表示受引誘從事作弊。"
+      },
+      {
+        "word": "fudge",
+        "partOfSpeech": "v.",
+        "meaning": "造假；不誠實處理",
+        "usage": "fudging on income taxes在此是稅務不誠實行為。"
+      },
+      {
+        "word": "admission price",
+        "partOfSpeech": "n.",
+        "meaning": "入場費",
+        "usage": "謊報年齡為付較低admission prices，是家長不良榜樣。"
+      },
+      {
+        "word": "randomly",
+        "partOfSpeech": "adv.",
+        "meaning": "隨機地",
+        "usage": "randomly mix problems是把題目順序打亂。"
+      },
+      {
+        "word": "expectation",
+        "partOfSpeech": "n.",
+        "meaning": "期待",
+        "usage": "unreasonably high expectations是作者要求成人檢視的壓力。"
+      },
+      {
+        "word": "solution",
+        "partOfSpeech": "n.",
+        "meaning": "解決方法",
+        "usage": "finding solutions is difficult明確支持作弊問題難解。"
+      }
+    ]
+  },
+  "105-1-48": {
+    "summary": "tempted to cheat是受誘惑去做不正當的事，D最貼近此語境。",
+    "options": {
+      "A": "做正確事情與作弊的不正當方向相反。",
+      "B": "繳超速罰單是另一例，非tempted本義。",
+      "C": "作好榜樣相反於這裡被誘惑作弊。",
+      "D": "encouraged to do wrong受引誘做錯事，符合語境。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "cheat",
+        "partOfSpeech": "v.",
+        "meaning": "作弊；欺騙",
+        "usage": "cheat on a test表示考試作弊，不是單指一般計算錯。"
+      },
+      {
+        "word": "statistic",
+        "partOfSpeech": "n.",
+        "meaning": "統計數據",
+        "usage": "statistics來自文中9000人調查，不可當今天全美比例。"
+      },
+      {
+        "word": "survey",
+        "partOfSpeech": "n.",
+        "meaning": "調查",
+        "usage": "a survey of students交代資料取得對象。"
+      },
+      {
+        "word": "investigator",
+        "partOfSpeech": "n.",
+        "meaning": "調查員",
+        "usage": "students told investigators表示學生向調查者提供說法。"
+      },
+      {
+        "word": "statewide",
+        "partOfSpeech": "adj.",
+        "meaning": "全州的",
+        "usage": "statewide tests是全州統一測驗，非全國皆同考卷。"
+      },
+      {
+        "word": "charge",
+        "partOfSpeech": "n.",
+        "meaning": "指控",
+        "usage": "similar charges在此是作弊指控，不是費用或充電。"
+      },
+      {
+        "word": "peer pressure",
+        "partOfSpeech": "n.",
+        "meaning": "同儕壓力",
+        "usage": "peer pressure是孩子自述受誘惑作弊的原因之一。"
+      },
+      {
+        "word": "intense",
+        "partOfSpeech": "adj.",
+        "meaning": "激烈的",
+        "usage": "intense competition是競爭非常強，不只是一般努力。"
+      },
+      {
+        "word": "tempt",
+        "partOfSpeech": "v.",
+        "meaning": "誘惑",
+        "usage": "be tempted to cheat表示受引誘從事作弊。"
+      },
+      {
+        "word": "fudge",
+        "partOfSpeech": "v.",
+        "meaning": "造假；不誠實處理",
+        "usage": "fudging on income taxes在此是稅務不誠實行為。"
+      },
+      {
+        "word": "admission price",
+        "partOfSpeech": "n.",
+        "meaning": "入場費",
+        "usage": "謊報年齡為付較低admission prices，是家長不良榜樣。"
+      },
+      {
+        "word": "randomly",
+        "partOfSpeech": "adv.",
+        "meaning": "隨機地",
+        "usage": "randomly mix problems是把題目順序打亂。"
+      },
+      {
+        "word": "expectation",
+        "partOfSpeech": "n.",
+        "meaning": "期待",
+        "usage": "unreasonably high expectations是作者要求成人檢視的壓力。"
+      },
+      {
+        "word": "solution",
+        "partOfSpeech": "n.",
+        "meaning": "解決方法",
+        "usage": "finding solutions is difficult明確支持作弊問題難解。"
+      }
+    ]
+  },
+  "105-1-49": {
+    "summary": "fudging on income taxes指不誠實改動申報等作假，不是勇敢聰明的正面表現。",
+    "options": {
+      "A": "act dishonestly不誠實行事，與逃稅、謊報年齡並列。",
+      "B": "bravely勇敢地，不能把不誠實手段美化。",
+      "C": "fairly公平地，與作弊例子相反。",
+      "D": "smartly聰明地未指出造假，非本文批評的義。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "cheat",
+        "partOfSpeech": "v.",
+        "meaning": "作弊；欺騙",
+        "usage": "cheat on a test表示考試作弊，不是單指一般計算錯。"
+      },
+      {
+        "word": "statistic",
+        "partOfSpeech": "n.",
+        "meaning": "統計數據",
+        "usage": "statistics來自文中9000人調查，不可當今天全美比例。"
+      },
+      {
+        "word": "survey",
+        "partOfSpeech": "n.",
+        "meaning": "調查",
+        "usage": "a survey of students交代資料取得對象。"
+      },
+      {
+        "word": "investigator",
+        "partOfSpeech": "n.",
+        "meaning": "調查員",
+        "usage": "students told investigators表示學生向調查者提供說法。"
+      },
+      {
+        "word": "statewide",
+        "partOfSpeech": "adj.",
+        "meaning": "全州的",
+        "usage": "statewide tests是全州統一測驗，非全國皆同考卷。"
+      },
+      {
+        "word": "charge",
+        "partOfSpeech": "n.",
+        "meaning": "指控",
+        "usage": "similar charges在此是作弊指控，不是費用或充電。"
+      },
+      {
+        "word": "peer pressure",
+        "partOfSpeech": "n.",
+        "meaning": "同儕壓力",
+        "usage": "peer pressure是孩子自述受誘惑作弊的原因之一。"
+      },
+      {
+        "word": "intense",
+        "partOfSpeech": "adj.",
+        "meaning": "激烈的",
+        "usage": "intense competition是競爭非常強，不只是一般努力。"
+      },
+      {
+        "word": "tempt",
+        "partOfSpeech": "v.",
+        "meaning": "誘惑",
+        "usage": "be tempted to cheat表示受引誘從事作弊。"
+      },
+      {
+        "word": "fudge",
+        "partOfSpeech": "v.",
+        "meaning": "造假；不誠實處理",
+        "usage": "fudging on income taxes在此是稅務不誠實行為。"
+      },
+      {
+        "word": "admission price",
+        "partOfSpeech": "n.",
+        "meaning": "入場費",
+        "usage": "謊報年齡為付較低admission prices，是家長不良榜樣。"
+      },
+      {
+        "word": "randomly",
+        "partOfSpeech": "adv.",
+        "meaning": "隨機地",
+        "usage": "randomly mix problems是把題目順序打亂。"
+      },
+      {
+        "word": "expectation",
+        "partOfSpeech": "n.",
+        "meaning": "期待",
+        "usage": "unreasonably high expectations是作者要求成人檢視的壓力。"
+      },
+      {
+        "word": "solution",
+        "partOfSpeech": "n.",
+        "meaning": "解決方法",
+        "usage": "finding solutions is difficult明確支持作弊問題難解。"
+      }
+    ]
+  },
+  "105-1-50": {
+    "summary": "末段首句Finding solutions ... difficult直接支持問題難解；後文提出調題與降低不合理期待。",
+    "options": {
+      "A": "cannot be easily solved就是解方難找的改寫。",
+      "B": "文中明提intense competition造成誘惑，非毫無關係。",
+      "C": "家長傳遞的是cheat and lie okay，非嘲笑別人。",
+      "D": "作者要檢討過高期待，非再次要求拉高考分期待。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "105 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0104&q=1"
+      },
+      {
+        "title": "105 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0104&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "cheat",
+        "partOfSpeech": "v.",
+        "meaning": "作弊；欺騙",
+        "usage": "cheat on a test表示考試作弊，不是單指一般計算錯。"
+      },
+      {
+        "word": "statistic",
+        "partOfSpeech": "n.",
+        "meaning": "統計數據",
+        "usage": "statistics來自文中9000人調查，不可當今天全美比例。"
+      },
+      {
+        "word": "survey",
+        "partOfSpeech": "n.",
+        "meaning": "調查",
+        "usage": "a survey of students交代資料取得對象。"
+      },
+      {
+        "word": "investigator",
+        "partOfSpeech": "n.",
+        "meaning": "調查員",
+        "usage": "students told investigators表示學生向調查者提供說法。"
+      },
+      {
+        "word": "statewide",
+        "partOfSpeech": "adj.",
+        "meaning": "全州的",
+        "usage": "statewide tests是全州統一測驗，非全國皆同考卷。"
+      },
+      {
+        "word": "charge",
+        "partOfSpeech": "n.",
+        "meaning": "指控",
+        "usage": "similar charges在此是作弊指控，不是費用或充電。"
+      },
+      {
+        "word": "peer pressure",
+        "partOfSpeech": "n.",
+        "meaning": "同儕壓力",
+        "usage": "peer pressure是孩子自述受誘惑作弊的原因之一。"
+      },
+      {
+        "word": "intense",
+        "partOfSpeech": "adj.",
+        "meaning": "激烈的",
+        "usage": "intense competition是競爭非常強，不只是一般努力。"
+      },
+      {
+        "word": "tempt",
+        "partOfSpeech": "v.",
+        "meaning": "誘惑",
+        "usage": "be tempted to cheat表示受引誘從事作弊。"
+      },
+      {
+        "word": "fudge",
+        "partOfSpeech": "v.",
+        "meaning": "造假；不誠實處理",
+        "usage": "fudging on income taxes在此是稅務不誠實行為。"
+      },
+      {
+        "word": "admission price",
+        "partOfSpeech": "n.",
+        "meaning": "入場費",
+        "usage": "謊報年齡為付較低admission prices，是家長不良榜樣。"
+      },
+      {
+        "word": "randomly",
+        "partOfSpeech": "adv.",
+        "meaning": "隨機地",
+        "usage": "randomly mix problems是把題目順序打亂。"
+      },
+      {
+        "word": "expectation",
+        "partOfSpeech": "n.",
+        "meaning": "期待",
+        "usage": "unreasonably high expectations是作者要求成人檢視的壓力。"
+      },
+      {
+        "word": "solution",
+        "partOfSpeech": "n.",
+        "meaning": "解決方法",
+        "usage": "finding solutions is difficult明確支持作弊問題難解。"
+      }
+    ]
+  }
+}

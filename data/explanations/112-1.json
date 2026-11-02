@@ -1,1 +1,2186 @@
-{}
+{
+  "112-1-1": {
+    "summary": "反景氣政策通常增加需求、降低融資成本；取消補貼往往減少支出誘因，非題定刺激方向。",
+    "options": {
+      "A": "公共投資增加政府需求並帶動就業，是擴張財政工具。",
+      "B": "降重貼現率降低資金成本，通常為寬鬆貨幣方向。",
+      "C": "獎勵民間投資可增加資本支出，支持復甦。",
+      "D": "取消補貼通常削弱受補助活動誘因，無法由此視為刺激措施，故反向題選此。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-2": {
+    "summary": "甲每項效率都高，表示皆有絕對利益；比較利益看機會成本，乙仍可能有某些相對優勢。",
+    "options": {
+      "A": "同資源產更多即絕對利益，符合題設。",
+      "B": "乙不必所有產品都進口，可專做相對機會成本較低者。",
+      "C": "不可能只憑全面效率高就說所有商品機會成本都較低。",
+      "D": "分工擴大可消費組合，不會單因貿易使生產能力內縮。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-3": {
+    "summary": "升學外顯學費20萬，放棄最高薪法務助理3萬乘24月＝72萬，總機會成本92萬。",
+    "options": {
+      "A": "當家教的最佳薪資替代為72萬，不是仲介的67.2萬。",
+      "B": "72萬是放棄薪資的隱含成本，並非仲介需支付的外顯費。",
+      "C": "升學外顯費是學費20萬，72萬為犧牲所得。",
+      "D": "20萬加72萬等於92萬，按兩年一致期間計算。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-4": {
+    "summary": "食安事件降低消費者信任與偏好，在每個價格下都想少買加工食品，需求左移。",
+    "options": {
+      "A": "文中動機是安全疑慮，不是預期便宜而延後購買。",
+      "B": "偏好降低使整條需求曲線左移，符合銷售衰退。",
+      "C": "未提互補品降價，且此通常會增需求而非題述減少。",
+      "D": "若替代天然食材變貴可能增加加工品需求，與本文食安衝擊不同。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-5": {
+    "summary": "人口減少使市場購買者變少，其他不變國產豬肉需求曲線左移。",
+    "options": {
+      "A": "購買人口縮減，需求量在各價格下減少。",
+      "B": "豬肉自己降價是沿需求曲線增加需求量，不是整條左移。",
+      "C": "狂牛症疑慮可能讓人改吃豬肉，需求反可能右移。",
+      "D": "養豬污染管制主要影響生產成本與供給，不直接是需求左移。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-6": {
+    "summary": "同酬日差距較小表示平均薪資性別差距較小，官方以較友善女性勞動政策為可能解釋。但只憑總體差距不能證實政策因果或排除職業隔離。",
+    "options": {
+      "A": "職業隔離可能影響差距，但指標本身無法直接量出隔離嚴重度。",
+      "B": "較友善政策是可能原因，符合題問推測，不代表單一指標已證明政策較好。",
+      "C": "未提供教育程度的男女資料，不能推出。",
+      "D": "同酬日反映相對薪資差距，不是人均國民所得高低。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-7": {
+    "summary": "工會有正式組織、章程與幹部，且依共同利益結社；家庭為初級團體，非營利組織通常屬第三部門。",
+    "options": {
+      "A": "公司為營利企業，不是人民團體法的職業團體。",
+      "B": "工會屬有制度組織的正式團體，符合題定志願結社分類。",
+      "C": "家庭以親密關係為核心，不能因分家務就等同正式編制團體。",
+      "D": "第二部門為營利市場，兒福聯盟等非營利屬第三部門。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-8": {
+    "summary": "全國性公投可就法律作複決，預算、租稅、人事排除；修憲另須憲法程序，不須先由司法院核可提案。",
+    "options": {
+      "A": "預算事項不得作一般公投提案。",
+      "B": "修憲案由立院依憲法門檻提出，不經司法院核可才提。",
+      "C": "所得稅屬租稅，不能用該方式交公投。",
+      "D": "人民依法連署提出法律條文複決，屬公投適用類型。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "公民投票法（舊卷門檻依當時規定）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=D0020050"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-9": {
+    "summary": "品牌融入劇情、人物常去店內，讓廣告不以獨立廣告形式出現，是置入行銷。",
+    "options": {
+      "A": "未證明品牌使收視率提高，題述影響是觀眾好感。",
+      "B": "將商業訊息嵌入劇情，可能影響觀眾認知，符合現象。",
+      "C": "置入不等於廣告主監督全部製程，推論過強。",
+      "D": "加強識讀是對策，不是題問現象的解釋名稱。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-10": {
+    "summary": "最小政府重維持基本秩序、產權與必要公共服務，選項中C相對接近基本供給；不表示政府要包辦所有民生生產。",
+    "options": {
+      "A": "廣泛扶助無依者較近福利國家取向。",
+      "B": "高度成長是積極發展型政府目標，非最低限度職能。",
+      "C": "確保基本供給與秩序相對符合最低必要公共功能，是給定選項最佳。",
+      "D": "全面提升品質與成就機會涉及較廣的積極政策，不是最小政府核心。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-11": {
+    "summary": "女兒與兒子同有法定繼承地位，出嫁不使繼承資格消失，弟弟不能以習俗強迫放棄。",
+    "options": {
+      "A": "名字不好聽不當然構成他人侵害姓名權，須具體侵害事實。",
+      "B": "列族譜不是父母對未成年子女親權行使問題。",
+      "C": "宗教自由不等於可不受私人住宅、祭祀安排等其他權利限制，較非明確法定請求。",
+      "D": "女性出嫁仍有繼承權，可拒絕不合法逼迫並依法主張。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-12": {
+    "summary": "官方更正A或B給分。機車租賃通常不要式，房屋買賣的債權契約也可口頭合意；不動產物權移轉才須書面登記，不能混淆。",
+    "options": {
+      "A": "動產租賃原則不須書面，口頭合意可有效。",
+      "B": "房屋買賣契約可合意成立，所有權移轉另須法定書面登記。",
+      "C": "現制原則限定責任自動發生；題目若指陳報遺產清冊等法院程序須書面，不宜當成每人都須書面才有繼承資格。",
+      "D": "同性結婚須依法書面、證人簽名及登記，不是只口頭合意。"
+    },
+    "optionVerdicts": {
+      "A": "官方更正：此選項給分。",
+      "B": "官方更正：此選項給分。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-13": {
+    "summary": "裁罰人民須有法律依據，法律由民主程序制定，以限制政府恣意權力，落實有限政府。",
+    "options": {
+      "A": "罰鍰主要限制財產等權益，不以社會權作最直接分類。",
+      "B": "由立法授權規範裁罰，讓行政受法律拘束。",
+      "C": "疫情不使申訴、陳述或司法救濟全部消失。",
+      "D": "依法裁罰是法律責任，不是官員辭職等政治責任。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-14": {
+    "summary": "涉及自治權利義務、罰則等自治條例，須由市議會議決，再依法公布與辦理必要核定程序。",
+    "options": {
+      "A": "聽民間意見不等於將公共服務交第三部門承辦。",
+      "B": "參考別縣市不等於跨區共同經營合辦。",
+      "C": "題述是市自訂自治條例，未說受中央委辦。",
+      "D": "自治條例須經地方立法機關議決，市府不能自行略過。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-15": {
+    "summary": "逃學逃家少年收容案釋字664重人身自由、人格權及比例，不是以平等權為主要違憲依據。",
+    "options": {
+      "A": "收容與感化教育過度限制人身自由、人格發展，故為本題所問非平等案。",
+      "B": "視障按摩專業限制案涉及非視障者工作權與平等保障。",
+      "C": "父母意見不合由父決定，涉及男女平等。",
+      "D": "同性婚姻案涉及婚姻自由及平等，不能排除此保障。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "釋字664：少年收容、人身自由與人格權",
+        "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310845"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-16": {
+    "summary": "依憲訴法，並任司法院長的大法官為審判長，不能時另有代理順序；法律與法院自訂審理規則須分開。",
+    "options": {
+      "A": "一般公務員違失懲戒屬懲戒法院，非憲法法庭。",
+      "B": "大法官及檢察總長須立院同意，行政院長不須，故非三者相同。",
+      "C": "憲訴法由立院制定，但憲法法庭審理規則由司法院定、全體大法官議決。",
+      "D": "司法院長原則擔任憲法法庭審判長，符合第2條。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "司法院：憲法法庭新舊制度與言詞辯論",
+        "url": "https://www.judicial.gov.tw/tw/lp-1654-1-xCat-30-1-40.html"
+      },
+      {
+        "title": "憲法訴訟法：審判長與審理規則",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030159"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-17": {
+    "summary": "世界銀行提供發展融資與減貧援助，並長期支持教育；「聯合國管轄」是題目簡化，屬聯合國體系相關專門機構而有自身治理。",
+    "options": {
+      "A": "世界銀行為發展融資與減貧的重要國際金融機構。",
+      "B": "WTO處理貿易規則與爭端，不是教育發展貸款銀行。",
+      "C": "NAFTA是當時區域貿易協定，非聯合國金融機構。",
+      "D": "OECD進行政策研究協調，不以開發貸款銀行為功能。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-18": {
+    "summary": "不分區席次來自政黨票，任內喪失原黨籍原則失立委資格，由原登記名單依序遞補。",
+    "options": {
+      "A": "依法喪失身分並按名單順位補足，維持比例代表正當性。",
+      "B": "不能轉無黨籍就照留原黨比例席次。",
+      "C": "不分區並非靠個別選區罷免處理失黨籍，身分已有法定效果。",
+      "D": "遞補須依既有名單，不能黨臨時隨意指定。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      },
+      {
+        "title": "公職人員選舉罷免法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-19": {
+    "summary": "題問錯誤，D把政黨與利益團體的主要功能倒置：政黨整合廣泛利益，利益團體重特定訴求遊說。",
+    "options": {
+      "A": "依政治獻金法特定收受主體規範，政黨與一般利益團體不同；非表示利益團體完全不能收普通捐款。",
+      "B": "爭取執政與影響政策是兩者典型目標差別。",
+      "C": "政黨須整合多面向支持，利益團體常聚焦特定利益，是一般比較。",
+      "D": "特定利益遊說較屬利益團體，調和多方利益較屬政黨，此項對調故選。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-20": {
+    "summary": "最高法院刑事死刑判決是司法審判與刑事法範圍，不是行政法規範的行政活動。",
+    "options": {
+      "A": "行政機關人事提名屬行政組織與人事程序。",
+      "B": "刑事審判不是行政行為，故是本題非行政法範圍。",
+      "C": "國考錄取榜單涉及公法考試及行政決定。",
+      "D": "地方稅局課娛樂稅屬稅捐行政。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-21": {
+    "summary": "官方更正C或D皆給分。C較近多元菁英、D較近競爭代議的菁英民主，分類重疊，不能說C毫無理論依據。",
+    "options": {
+      "A": "廣泛提供各群體參與機會較近多元或參與民主取向。",
+      "B": "參與本身具公民道德價值，較近參與式民主。",
+      "C": "不同領域菁英影響政治，可對應多元菁英論，官方更正接受。",
+      "D": "承認大眾直接參政限制、以代表競爭治理，是菁英民主的重要主張。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "官方更正：此選項給分。",
+      "D": "官方更正：此選項給分。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-22": {
+    "summary": "典型內閣制閣揆須獲國會多數支持，通常由多數黨或聯盟領袖組閣。",
+    "options": {
+      "A": "內閣制元首通常虛位，不以總統擴大覆議為核心。",
+      "B": "國會多數支持是組閣與維持內閣的重要基礎。",
+      "C": "典型內閣制行政立法較融合，非更嚴格分立。",
+      "D": "雙首長分享實權較近混合制，不是典型內閣制。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-23": {
+    "summary": "限制港口、資本與美元交易，以經濟手段施壓，核心是經濟制裁；不表示制裁必定成功或無人道代價。",
+    "options": {
+      "A": "情境也有企業等非國家行動者，且此項未指出制裁工具。",
+      "B": "衝突競爭是廣義關係，不如經濟制裁精確。",
+      "C": "以貿易金融限制回應戰爭、企圖維護和平，最貼近具體措施。",
+      "D": "人道譴責是價值主張，未解釋限制交易的政策形式。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-24": {
+    "summary": "私人和解契約原則不是直接執行名義；不履約通常須先取得判決、支付命令或符合條件的公證等執行依據。",
+    "options": {
+      "A": "私下在媽祖廟也可協議和解，地點不使契約當然無效。",
+      "B": "訴訟中可依法移付或聲請調解，不是起訴後不能談。",
+      "C": "訴訟外民事和解是合法解紛方法。",
+      "D": "僅持一般私約不能逕強制執行，故此途徑敘述錯誤。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-25": {
+    "summary": "交通違規罰鍰是處罰過去違反行政義務的行政罰，不是刑事罰金或催促未來履行的怠金。",
+    "options": {
+      "A": "依行政法規裁罰罰鍰，符合行政罰性質。",
+      "B": "非刑法或刑事特別法的法院科刑。",
+      "C": "怠金為促履行義務的執行手段，非此已發生停車違規處罰。",
+      "D": "特別公課向特定群體課財務負擔以支應特定任務，非違規制裁。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-26": {
+    "summary": "行政機關依層級指揮監督，使政策協調、責任可歸屬，稱行政一體；獨立機關依法有例外安排。",
+    "options": {
+      "A": "法律保留重特定事項須法律依據，不是上下指揮結構。",
+      "B": "層級節制及統合行政責任，為行政一體原則。",
+      "C": "法律優越指行政不得牴觸法律，與組織統一不同。",
+      "D": "代議民主重人民選代表，不是行政機關內部層級。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "中華民國憲法（須併讀增修條文）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-27": {
+    "summary": "強制隔離可由衛生主管機關依法決定，不以事前法院核發為必要；仍須比例、程序與法院救濟保障。",
+    "options": {
+      "A": "社維法拘留由法院裁定，非警方自行關人。",
+      "B": "羈押須由法官依法審查裁定，檢察官可聲請，不能自行取代法院決定。",
+      "C": "行政執行管收亦須依法聲請法院裁定。",
+      "D": "防疫隔離有專業急迫性，可由法定衛生機關處分，但不是不受司法監督。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "釋字690：強制隔離與正當程序",
+        "url": "https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310871"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-28": {
+    "summary": "國賠原則先以書面向賠償義務機關請求協議，拒賠或逾法定時間才依法起訴。",
+    "options": {
+      "A": "不是一律先向上級機關申請，原則找法定賠償義務機關。",
+      "B": "不須先訴行政法院確認才協議，一般國賠有自己的程序。",
+      "C": "書面請求並協議，符合國賠法第10條。",
+      "D": "監察陳情可並行，但不是國賠必經前置程序。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "國家賠償法：先行書面請求與協議",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=I0020004"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-29": {
+    "summary": "希望法院命機關作出應給的行政處分，應提課予義務訴訟，不只是撤掉拒絕決定。",
+    "options": {
+      "A": "課予義務訴訟適用申請遭駁回或怠為處分等情形。",
+      "B": "撤銷訴訟只求撤除既有處分，不能完整達成命作特定處分的目的。",
+      "C": "一般給付訴訟常為金錢或其他非行政處分給付，不是此申請。",
+      "D": "確認違法只是確認法律狀態，不直接命作成有利處分。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "行政訴訟法（留意112年新制與歷史分工）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-30": {
+    "summary": "本題國考落榜屬通常行政訴訟案件，第一審後可依法上訴最高行政法院；上訴有法定要件，不是必然重新評分。",
+    "options": {
+      "A": "考試實務由考選部辦理，對成績有複查與依法訴願等程序，非一概向考試院提申訴。",
+      "B": "本類通常程序不是當年地院行政庭的一般簡易案件，後改高院地方庭也須看事件類型。",
+      "C": "對高等行政法院第一審通常判決，得依法上訴最高行政法院。",
+      "D": "非常上訴為刑事特別救濟，不能套用行政敗訴判決。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "行政訴訟法（留意112年新制與歷史分工）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0030154"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-31": {
+    "summary": "憲法定選舉年齡須循修憲：立院高門檻提案議決、公告後選民複決，不是普通法律自行修改。",
+    "options": {
+      "A": "人民連署不能跳過憲法明定立院修憲程序。",
+      "B": "行政院院會加立院一般表決不足以改憲法年齡。",
+      "C": "立法院提出通過後交公民複決，符合增修程序。",
+      "D": "憲法法庭不是修憲案的必要核准機關。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "憲法增修條文（權限、任命與修憲程序）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=A0000002"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-32": {
+    "summary": "法律可名條例、通則，須中央立法程序；行政命令可能具法規拘束，不能當全是參考。",
+    "options": {
+      "A": "聲請者依法定資格提出，不是大法官自行一律聲請再解釋。",
+      "B": "本題所稱中央法律的條例通則須經立院制定，不含地方自治條例等不同規範。",
+      "C": "法規命令得依法對外發生拘束效力，非全無強制性。",
+      "D": "位階高通常較原則抽象，不必比低位階更明確詳盡。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "中央法規標準法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?PCode=A0030133"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-33": {
+    "summary": "對觸法兒童與曝險少年優先教育輔導，司法介入最後手段，呼應刑罰謙抑。題幹把未成年者全括有簡化，並非所有12至17歲犯罪都免司法。",
+    "options": {
+      "A": "減少過早刑事司法介入、重福利輔導，符合謙抑與最後手段。",
+      "B": "無罪推定重有罪證明前地位，不是機關先後輔導分工。",
+      "C": "偵查不公開重保密，非改行政輔導的目的。",
+      "D": "禁止類推重罪刑法定，不是此預防與輔導改革主軸。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "少年事件處理法（留意歷史版本）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010011"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-34": {
+    "summary": "公設辯護人可依法受指定為無資力等被告辯護；檢察官、書記官、通譯各有不同角色。",
+    "options": {
+      "A": "告訴乃論等仍有程序限制，不是每一案件均可不受條件主動追訴。",
+      "B": "經濟無力等符合指定辯護條件時，可由公設辯護人協助。",
+      "C": "書記官辦庭務文書，不是替當事人代理陳述法律意見。",
+      "D": "通譯負責語言轉換，不能同時被當成被告辯護人。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "刑事訴訟法（偵查、證據與程序保障）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=C0010001"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-35": {
+    "summary": "112年起民法滿18成年，19歲原則可獨立開戶訂租約；公職候選年齡另定，不能因成年就參選。",
+    "options": {
+      "A": "具完全行為能力可自行處理存款契約，仍須遵守銀行程序。",
+      "B": "服役或志願申請依兵役相關法定條件，年齡上非未成年障礙。",
+      "C": "租屋契約可自行締結，不須父母同意。",
+      "D": "一般公職候選人至少23歲，部分更高，19歲不符合，故選此錯誤敘述。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "民法（舊卷另依解析區分歷史與現行制度）",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=B0000001"
+      },
+      {
+        "title": "法務部歷史條文：成年年齡變動",
+        "url": "https://mojlaw.moj.gov.tw/LawContentExtentHistory.aspx?LSID=FL001351&LawNo=12"
+      },
+      {
+        "title": "公職人員選舉罷免法",
+        "url": "https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=D0020010"
+      }
+    ],
+    "reviewedAt": "2026-11-02"
+  },
+  "112-1-36": {
+    "summary": "整句白話：這裡的旅館房間在節慶期間通常價格偏高。\n\n節慶時旅館常因需求上升而價格偏高，festival最符合during的時期名詞。",
+    "options": {
+      "A": "arrival到達，不是此處大量旅客房價高的活動期間。",
+      "B": "interval間隔、休息時間，未有特定活動需求線索。",
+      "C": "festival節慶、節日，可帶來住宿旺季。",
+      "D": "survival生存，非房價時段的自然用語。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "overpriced",
+        "partOfSpeech": "adj.",
+        "meaning": "價格過高的",
+        "usage": "hotel rooms are overpriced說房價被認為超出合理程度。"
+      },
+      {
+        "word": "festival",
+        "partOfSpeech": "n.",
+        "meaning": "節慶",
+        "usage": "during the festival表示節慶期間，住宿可能較貴。"
+      },
+      {
+        "word": "interval",
+        "partOfSpeech": "n.",
+        "meaning": "間隔；中場休息",
+        "usage": "interval通常指兩事件之間空檔，不是節慶活動本身。"
+      }
+    ]
+  },
+  "112-1-37": {
+    "summary": "整句白話：父母想知道照顧孩子、把孩子養育成人的最佳方法。\n\nnurture and raise their child表示養育孩子至成年，raise是養育。",
+    "options": {
+      "A": "bread麵包是名詞，雖有供養相關意象，不是raise的動詞。",
+      "B": "force強迫須另接行為，非一般養育到成年。",
+      "C": "raise養育，與nurture照養構成平行動詞。",
+      "D": "track追蹤，非把孩子撫養成人。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "nurture",
+        "partOfSpeech": "v.",
+        "meaning": "養育；培育",
+        "usage": "nurture and raise為兩個並列動詞，共同描述照養孩子。"
+      },
+      {
+        "word": "raise",
+        "partOfSpeech": "v.",
+        "meaning": "養育；提高",
+        "usage": "raise a child to adulthood是把孩子養育成人。"
+      },
+      {
+        "word": "adulthood",
+        "partOfSpeech": "n.",
+        "meaning": "成年期",
+        "usage": "to adulthood說明養育所達成的人生階段。"
+      }
+    ]
+  },
+  "112-1-38": {
+    "summary": "整句白話：成熟的人應運用判斷力作出明智決定。\n\n成熟的人以判斷力作明智決定，judgment與decisions相合。",
+    "options": {
+      "A": "apartment公寓，是住處非心智能力。",
+      "B": "payment付款，不是作判斷的能力。",
+      "C": "judgment判斷力，能支持wise decisions。",
+      "D": "element要素、元素，非此處個人決策能力。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "judgment",
+        "partOfSpeech": "n.",
+        "meaning": "判斷力",
+        "usage": "use one's judgment是運用判斷力，不是法院判決的唯一義。"
+      },
+      {
+        "word": "mature",
+        "partOfSpeech": "adj.",
+        "meaning": "成熟的",
+        "usage": "a mature person指有成熟態度與判斷能力的人。"
+      },
+      {
+        "word": "wise",
+        "partOfSpeech": "adj.",
+        "meaning": "明智的",
+        "usage": "make wise decisions表示作出周全合理的決定。"
+      }
+    ]
+  },
+  "112-1-39": {
+    "summary": "整句白話：他們使用的數字非常準確，沒有任何錯誤。\n\nwithout any mistakes毫無錯誤，直接解釋數字accurate精確的。",
+    "options": {
+      "A": "sudden突然的，和數字正誤不同。",
+      "B": "innocent無辜、天真的，不用描述統計數字準確。",
+      "C": "humid潮濕的，與數據無關。",
+      "D": "accurate準確的，與沒有錯誤同義呼應。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "accurate",
+        "partOfSpeech": "adj.",
+        "meaning": "準確的",
+        "usage": "accurate figures表示無誤的數字，與without mistakes呼應。"
+      },
+      {
+        "word": "figure",
+        "partOfSpeech": "名詞",
+        "meaning": "數字；圖像",
+        "usage": "本句figures指使用的統計數值，不是人物身材。"
+      },
+      {
+        "word": "humid",
+        "partOfSpeech": "形容詞",
+        "meaning": "潮濕的",
+        "usage": "用來形容空氣或天氣，與 eager（渴望的）不同。"
+      }
+    ]
+  },
+  "112-1-40": {
+    "summary": "整句白話：你昨晚在作業上花了多少時間？\n\nspend time on something花時間在某事，last night問昨晚作業花多久。",
+    "options": {
+      "A": "cost通常以事情為主詞，不能you cost time on homework。",
+      "B": "take常用It takes someone time to V，非此you加on結構。",
+      "C": "get取得，未表投入時間完成作業。",
+      "D": "spend搭time及on homework，助動詞did後用原形。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "spend",
+        "partOfSpeech": "v.",
+        "meaning": "花費",
+        "usage": "spend time on homework是把時間用在作業，did後用原形。"
+      },
+      {
+        "word": "cost",
+        "partOfSpeech": "v.",
+        "meaning": "使花費；使付出",
+        "usage": "The work cost me time以事情作主詞，與I spent time句型不同。"
+      },
+      {
+        "word": "homework",
+        "partOfSpeech": "n.",
+        "meaning": "家庭作業",
+        "usage": "homework一般不可數，不以homeworks表示各項作業。"
+      }
+    ]
+  },
+  "112-1-41": {
+    "summary": "整句白話：每年舉行的國際書展，入場券將從下星期二開始供應。\n\nInternational Book Fair是國際書展，fair此處為展覽會，不是形容公平。",
+    "options": {
+      "A": "Fair作名詞展覽、交易會，與門票及annual相合。",
+      "B": "Fall秋天、落下，不是書展名稱用語。",
+      "C": "Fault過錯、斷層，與展覽無關。",
+      "D": "Figure數字、人物或圖形，不能表示書展。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "book fair",
+        "partOfSpeech": "n.",
+        "meaning": "書展",
+        "usage": "International Book Fair是國際書展，fair在此是展覽會。"
+      },
+      {
+        "word": "admission ticket",
+        "partOfSpeech": "n.",
+        "meaning": "入場券",
+        "usage": "admission tickets允許進場，與書展活動搭配。"
+      },
+      {
+        "word": "annual",
+        "partOfSpeech": "adj.",
+        "meaning": "每年的",
+        "usage": "annual表示每年舉辦一次，不表示一年之中每天都辦。"
+      }
+    ]
+  },
+  "112-1-42": {
+    "summary": "整句白話：講者的聲音很輕，聽眾幾乎聽不見她說話。\n\n聲音太輕，觀眾幾乎聽不到，barely含接近否定的幾乎不。",
+    "options": {
+      "A": "barely hear幾乎聽不見，符合soft。",
+      "B": "fairly相當地，會改成頗能聽到，未表音量不足。",
+      "C": "swiftly迅速地，不是聽見程度。",
+      "D": "vividly生動地，非聲音小導致聽不清。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "barely",
+        "partOfSpeech": "adv.",
+        "meaning": "幾乎不",
+        "usage": "could barely hear表示幾乎聽不到，具有接近否定的語意。"
+      },
+      {
+        "word": "audience",
+        "partOfSpeech": "n.",
+        "meaning": "觀眾；聽眾",
+        "usage": "演講場合audience是聽演講的人，與speaker相對。"
+      },
+      {
+        "word": "soft",
+        "partOfSpeech": "adj.",
+        "meaning": "輕柔的；音量小的",
+        "usage": "soft voice指聲音輕，不是聲音材質柔軟。"
+      }
+    ]
+  },
+  "112-1-43": {
+    "summary": "整句白話：為了提升銷售，超市讓顧客試吃新的零食。\n\nmake someone加原形動詞，超市讓顧客試吃新零食，sample作動詞試用試吃。",
+    "options": {
+      "A": "example通常為例子名詞，不能此處直接當試吃動詞。",
+      "B": "sample原形動詞試吃，與促進銷售相合。",
+      "C": "spoon可指用湯匙舀，但文中未說用餐器具，試吃最自然。",
+      "D": "exclude排除，與促銷試吃方向相反。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "sample",
+        "partOfSpeech": "v. / n.",
+        "meaning": "試吃；樣品",
+        "usage": "本句sample為動詞，make customers sample是讓顧客試吃。"
+      },
+      {
+        "word": "boost",
+        "partOfSpeech": "v.",
+        "meaning": "提升；促進",
+        "usage": "boost the sale表示促進銷售，試吃是達成此目的的方式。"
+      },
+      {
+        "word": "snack",
+        "partOfSpeech": "n.",
+        "meaning": "點心；零食",
+        "usage": "the new snack是超市要顧客試吃的新產品。"
+      }
+    ]
+  },
+  "112-1-44": {
+    "summary": "整句白話：政府在星期一宣布了一項新的移民法律。\n\n能宣布移民新法律的主體是政府Administration，其餘多為抽象事物或住宿。",
+    "options": {
+      "A": "Adjustment調整，不是有權宣布法律的政府機關。",
+      "B": "Accomplishment成就，不是行動主體。",
+      "C": "Administration政府、行政當局，符合政策宣布者。",
+      "D": "Accommodation住宿或調適，易與administration拼字混淆。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "administration",
+        "partOfSpeech": "n.",
+        "meaning": "政府；行政當局",
+        "usage": "Administration在此為宣布移民法律的政府主體。"
+      },
+      {
+        "word": "immigration",
+        "partOfSpeech": "n.",
+        "meaning": "移民入境",
+        "usage": "a law on immigration是規範移入的法律，不是一般旅遊。"
+      },
+      {
+        "word": "accommodation",
+        "partOfSpeech": "n.",
+        "meaning": "住宿；調適",
+        "usage": "accommodation與administration外形相近但意思不同。"
+      }
+    ]
+  },
+  "112-1-45": {
+    "summary": "整句白話：在美國，某件事也許在一個州可以合法進行，在另一個州卻會違法。\n\n同一行為可能一州合法、另一州違法，legally與break the law形成對比。",
+    "options": {
+      "A": "equally平等地，不表示合不合法。",
+      "B": "singly單獨地，與州法差異無關。",
+      "C": "generally一般地，不是legal相對概念。",
+      "D": "legally合法地，與另一州違法形成清楚反差。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "legally",
+        "partOfSpeech": "adv.",
+        "meaning": "合法地",
+        "usage": "do something legally表行為符合法律，與break the law對比。"
+      },
+      {
+        "word": "state",
+        "partOfSpeech": "n.",
+        "meaning": "州；狀態",
+        "usage": "美國語境in one state指某州，不是某種心理狀態。"
+      },
+      {
+        "word": "break the law",
+        "partOfSpeech": "動詞片語",
+        "meaning": "違法",
+        "usage": "break the law是違反法律，不能逐字理解成弄破物品。"
+      }
+    ]
+  },
+  "112-1-46": {
+    "summary": "identify A as B表示確認A具有B身分，護照辨識你為某國公民。",
+    "options": {
+      "A": "as作為、是，完成identify you as a citizen。",
+      "B": "by表示透過或由誰，不能表被認定的身分。",
+      "C": "for為了，不是identify的身分補語搭配。",
+      "D": "via經由、透過，表示方式而非公民身分。"
+    },
+    "optionVerdicts": {
+      "A": "本題應選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "passport",
+        "partOfSpeech": "n.",
+        "meaning": "護照",
+        "usage": "passport是跨境身分證件，本文介紹其外貌描述歷史。"
+      },
+      {
+        "word": "identify ... as",
+        "partOfSpeech": "動詞句型",
+        "meaning": "確認……為",
+        "usage": "identify you as a citizen表示辨認你的公民身分。"
+      },
+      {
+        "word": "citizen",
+        "partOfSpeech": "n.",
+        "meaning": "公民",
+        "usage": "a citizen of a country指某國國民身分。"
+      },
+      {
+        "word": "century",
+        "partOfSpeech": "n.",
+        "meaning": "世紀",
+        "usage": "late eighteenth century指18世紀末，不是1800年代末。"
+      },
+      {
+        "word": "sign",
+        "partOfSpeech": "v.",
+        "meaning": "簽署",
+        "usage": "letter signed by the President用過去分詞表由總統簽署。"
+      },
+      {
+        "word": "describe",
+        "partOfSpeech": "v.",
+        "meaning": "描述",
+        "usage": "was described with words是被用文字描寫外貌。"
+      },
+      {
+        "word": "curly",
+        "partOfSpeech": "adj.",
+        "meaning": "捲曲的",
+        "usage": "curly hair描述頭髮彎捲，與black顏色並列。"
+      },
+      {
+        "word": "broken",
+        "partOfSpeech": "adj.",
+        "meaning": "受損的；斷裂的",
+        "usage": "broken nose說鼻子有受傷變形的外觀，不是正在破壞。"
+      },
+      {
+        "word": "forehead",
+        "partOfSpeech": "n.",
+        "meaning": "額頭",
+        "usage": "forehead-wrinkled為護照文字描述中的部位與特徵。"
+      },
+      {
+        "word": "wrinkled",
+        "partOfSpeech": "adj.",
+        "meaning": "有皺紋的",
+        "usage": "wrinkled描述表面摺紋，本文用於額頭。"
+      },
+      {
+        "word": "chin",
+        "partOfSpeech": "n.",
+        "meaning": "下巴",
+        "usage": "pointed chin是尖下巴，與forehead額頭不同位置。"
+      },
+      {
+        "word": "in fact",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事實上",
+        "usage": "In fact用來補充真有一個相關笑話，不是相反轉折。"
+      },
+      {
+        "word": "vacation",
+        "partOfSpeech": "n.",
+        "meaning": "假期",
+        "usage": "need a vacation是笑話結尾，暗示照片顯得疲憊。"
+      }
+    ]
+  },
+  "112-1-47": {
+    "summary": "a letter signed by the President是由總統簽署的信，過去分詞表被動修飾letter。",
+    "options": {
+      "A": "reduced減少、縮小，與總統證明身分的信不合。",
+      "B": "denied拒絕，會變被總統否認的信，非護照文件。",
+      "C": "knocked敲打，非文書認證用語。",
+      "D": "signed簽署，by引出簽署者總統。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "passport",
+        "partOfSpeech": "n.",
+        "meaning": "護照",
+        "usage": "passport是跨境身分證件，本文介紹其外貌描述歷史。"
+      },
+      {
+        "word": "identify ... as",
+        "partOfSpeech": "動詞句型",
+        "meaning": "確認……為",
+        "usage": "identify you as a citizen表示辨認你的公民身分。"
+      },
+      {
+        "word": "citizen",
+        "partOfSpeech": "n.",
+        "meaning": "公民",
+        "usage": "a citizen of a country指某國國民身分。"
+      },
+      {
+        "word": "century",
+        "partOfSpeech": "n.",
+        "meaning": "世紀",
+        "usage": "late eighteenth century指18世紀末，不是1800年代末。"
+      },
+      {
+        "word": "sign",
+        "partOfSpeech": "v.",
+        "meaning": "簽署",
+        "usage": "letter signed by the President用過去分詞表由總統簽署。"
+      },
+      {
+        "word": "describe",
+        "partOfSpeech": "v.",
+        "meaning": "描述",
+        "usage": "was described with words是被用文字描寫外貌。"
+      },
+      {
+        "word": "curly",
+        "partOfSpeech": "adj.",
+        "meaning": "捲曲的",
+        "usage": "curly hair描述頭髮彎捲，與black顏色並列。"
+      },
+      {
+        "word": "broken",
+        "partOfSpeech": "adj.",
+        "meaning": "受損的；斷裂的",
+        "usage": "broken nose說鼻子有受傷變形的外觀，不是正在破壞。"
+      },
+      {
+        "word": "forehead",
+        "partOfSpeech": "n.",
+        "meaning": "額頭",
+        "usage": "forehead-wrinkled為護照文字描述中的部位與特徵。"
+      },
+      {
+        "word": "wrinkled",
+        "partOfSpeech": "adj.",
+        "meaning": "有皺紋的",
+        "usage": "wrinkled描述表面摺紋，本文用於額頭。"
+      },
+      {
+        "word": "chin",
+        "partOfSpeech": "n.",
+        "meaning": "下巴",
+        "usage": "pointed chin是尖下巴，與forehead額頭不同位置。"
+      },
+      {
+        "word": "in fact",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事實上",
+        "usage": "In fact用來補充真有一個相關笑話，不是相反轉折。"
+      },
+      {
+        "word": "vacation",
+        "partOfSpeech": "n.",
+        "meaning": "假期",
+        "usage": "need a vacation是笑話結尾，暗示照片顯得疲憊。"
+      }
+    ]
+  },
+  "112-1-48": {
+    "summary": "過去護照用文字描述持有人，主詞人是被描述，用過去被動was described。",
+    "options": {
+      "A": "is expected被期待，語意時態都不合歷史外貌紀錄。",
+      "B": "proved證明為主動，需補語且不是文字描寫外觀。",
+      "C": "supposed假定不能此處單獨充當被動謂語，且意思不同。",
+      "D": "was described with words被用文字描述，與後面外貌清單吻合。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題不選。",
+      "D": "本題應選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "passport",
+        "partOfSpeech": "n.",
+        "meaning": "護照",
+        "usage": "passport是跨境身分證件，本文介紹其外貌描述歷史。"
+      },
+      {
+        "word": "identify ... as",
+        "partOfSpeech": "動詞句型",
+        "meaning": "確認……為",
+        "usage": "identify you as a citizen表示辨認你的公民身分。"
+      },
+      {
+        "word": "citizen",
+        "partOfSpeech": "n.",
+        "meaning": "公民",
+        "usage": "a citizen of a country指某國國民身分。"
+      },
+      {
+        "word": "century",
+        "partOfSpeech": "n.",
+        "meaning": "世紀",
+        "usage": "late eighteenth century指18世紀末，不是1800年代末。"
+      },
+      {
+        "word": "sign",
+        "partOfSpeech": "v.",
+        "meaning": "簽署",
+        "usage": "letter signed by the President用過去分詞表由總統簽署。"
+      },
+      {
+        "word": "describe",
+        "partOfSpeech": "v.",
+        "meaning": "描述",
+        "usage": "was described with words是被用文字描寫外貌。"
+      },
+      {
+        "word": "curly",
+        "partOfSpeech": "adj.",
+        "meaning": "捲曲的",
+        "usage": "curly hair描述頭髮彎捲，與black顏色並列。"
+      },
+      {
+        "word": "broken",
+        "partOfSpeech": "adj.",
+        "meaning": "受損的；斷裂的",
+        "usage": "broken nose說鼻子有受傷變形的外觀，不是正在破壞。"
+      },
+      {
+        "word": "forehead",
+        "partOfSpeech": "n.",
+        "meaning": "額頭",
+        "usage": "forehead-wrinkled為護照文字描述中的部位與特徵。"
+      },
+      {
+        "word": "wrinkled",
+        "partOfSpeech": "adj.",
+        "meaning": "有皺紋的",
+        "usage": "wrinkled描述表面摺紋，本文用於額頭。"
+      },
+      {
+        "word": "chin",
+        "partOfSpeech": "n.",
+        "meaning": "下巴",
+        "usage": "pointed chin是尖下巴，與forehead額頭不同位置。"
+      },
+      {
+        "word": "in fact",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事實上",
+        "usage": "In fact用來補充真有一個相關笑話，不是相反轉折。"
+      },
+      {
+        "word": "vacation",
+        "partOfSpeech": "n.",
+        "meaning": "假期",
+        "usage": "need a vacation是笑話結尾，暗示照片顯得疲憊。"
+      }
+    ]
+  },
+  "112-1-49": {
+    "summary": "外貌清單用形容詞，broken nose是受過傷、斷裂或變形的鼻子，broken分詞作形容詞。",
+    "options": {
+      "A": "break原形動詞不能直接接在nose後作外貌性質。",
+      "B": "broken表受損狀態，與black、brown、pointed等描述並列。",
+      "C": "breaking主動進行義像鼻子正在斷，不是既有外貌特徵。",
+      "D": "being breaking也不合被動形容結構，若被動進行應另用being broken但仍非此清單需要。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題應選。",
+      "C": "本題不選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "passport",
+        "partOfSpeech": "n.",
+        "meaning": "護照",
+        "usage": "passport是跨境身分證件，本文介紹其外貌描述歷史。"
+      },
+      {
+        "word": "identify ... as",
+        "partOfSpeech": "動詞句型",
+        "meaning": "確認……為",
+        "usage": "identify you as a citizen表示辨認你的公民身分。"
+      },
+      {
+        "word": "citizen",
+        "partOfSpeech": "n.",
+        "meaning": "公民",
+        "usage": "a citizen of a country指某國國民身分。"
+      },
+      {
+        "word": "century",
+        "partOfSpeech": "n.",
+        "meaning": "世紀",
+        "usage": "late eighteenth century指18世紀末，不是1800年代末。"
+      },
+      {
+        "word": "sign",
+        "partOfSpeech": "v.",
+        "meaning": "簽署",
+        "usage": "letter signed by the President用過去分詞表由總統簽署。"
+      },
+      {
+        "word": "describe",
+        "partOfSpeech": "v.",
+        "meaning": "描述",
+        "usage": "was described with words是被用文字描寫外貌。"
+      },
+      {
+        "word": "curly",
+        "partOfSpeech": "adj.",
+        "meaning": "捲曲的",
+        "usage": "curly hair描述頭髮彎捲，與black顏色並列。"
+      },
+      {
+        "word": "broken",
+        "partOfSpeech": "adj.",
+        "meaning": "受損的；斷裂的",
+        "usage": "broken nose說鼻子有受傷變形的外觀，不是正在破壞。"
+      },
+      {
+        "word": "forehead",
+        "partOfSpeech": "n.",
+        "meaning": "額頭",
+        "usage": "forehead-wrinkled為護照文字描述中的部位與特徵。"
+      },
+      {
+        "word": "wrinkled",
+        "partOfSpeech": "adj.",
+        "meaning": "有皺紋的",
+        "usage": "wrinkled描述表面摺紋，本文用於額頭。"
+      },
+      {
+        "word": "chin",
+        "partOfSpeech": "n.",
+        "meaning": "下巴",
+        "usage": "pointed chin是尖下巴，與forehead額頭不同位置。"
+      },
+      {
+        "word": "in fact",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事實上",
+        "usage": "In fact用來補充真有一個相關笑話，不是相反轉折。"
+      },
+      {
+        "word": "vacation",
+        "partOfSpeech": "n.",
+        "meaning": "假期",
+        "usage": "need a vacation是笑話結尾，暗示照片顯得疲憊。"
+      }
+    ]
+  },
+  "112-1-50": {
+    "summary": "前句說護照照常不好看，接著補充確實有相關笑話，In fact為自然承接。",
+    "options": {
+      "A": "In contrast相反地，但笑話是支持前句，不是反駁。",
+      "B": "In comparison相比之下，缺另一對照對象。",
+      "C": "In fact事實上，進一步引出護照照片的笑話。",
+      "D": "In summary總結，這裡新增例子而非總結前面全篇。"
+    },
+    "optionVerdicts": {
+      "A": "本題不選。",
+      "B": "本題不選。",
+      "C": "本題應選。",
+      "D": "本題不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "112 年考選部官方答案（含更正時依更正給分）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0102&q=1"
+      },
+      {
+        "title": "考選部答案更正公告",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=112010&c=508&s=0102&q=1"
+      }
+    ],
+    "reviewedAt": "2026-11-02",
+    "vocabulary": [
+      {
+        "word": "passport",
+        "partOfSpeech": "n.",
+        "meaning": "護照",
+        "usage": "passport是跨境身分證件，本文介紹其外貌描述歷史。"
+      },
+      {
+        "word": "identify ... as",
+        "partOfSpeech": "動詞句型",
+        "meaning": "確認……為",
+        "usage": "identify you as a citizen表示辨認你的公民身分。"
+      },
+      {
+        "word": "citizen",
+        "partOfSpeech": "n.",
+        "meaning": "公民",
+        "usage": "a citizen of a country指某國國民身分。"
+      },
+      {
+        "word": "century",
+        "partOfSpeech": "n.",
+        "meaning": "世紀",
+        "usage": "late eighteenth century指18世紀末，不是1800年代末。"
+      },
+      {
+        "word": "sign",
+        "partOfSpeech": "v.",
+        "meaning": "簽署",
+        "usage": "letter signed by the President用過去分詞表由總統簽署。"
+      },
+      {
+        "word": "describe",
+        "partOfSpeech": "v.",
+        "meaning": "描述",
+        "usage": "was described with words是被用文字描寫外貌。"
+      },
+      {
+        "word": "curly",
+        "partOfSpeech": "adj.",
+        "meaning": "捲曲的",
+        "usage": "curly hair描述頭髮彎捲，與black顏色並列。"
+      },
+      {
+        "word": "broken",
+        "partOfSpeech": "adj.",
+        "meaning": "受損的；斷裂的",
+        "usage": "broken nose說鼻子有受傷變形的外觀，不是正在破壞。"
+      },
+      {
+        "word": "forehead",
+        "partOfSpeech": "n.",
+        "meaning": "額頭",
+        "usage": "forehead-wrinkled為護照文字描述中的部位與特徵。"
+      },
+      {
+        "word": "wrinkled",
+        "partOfSpeech": "adj.",
+        "meaning": "有皺紋的",
+        "usage": "wrinkled描述表面摺紋，本文用於額頭。"
+      },
+      {
+        "word": "chin",
+        "partOfSpeech": "n.",
+        "meaning": "下巴",
+        "usage": "pointed chin是尖下巴，與forehead額頭不同位置。"
+      },
+      {
+        "word": "in fact",
+        "partOfSpeech": "副詞片語",
+        "meaning": "事實上",
+        "usage": "In fact用來補充真有一個相關笑話，不是相反轉折。"
+      },
+      {
+        "word": "vacation",
+        "partOfSpeech": "n.",
+        "meaning": "假期",
+        "usage": "need a vacation是笑話結尾，暗示照片顯得疲憊。"
+      }
+    ]
+  }
+}
