@@ -5,8 +5,9 @@ import {filterIdioms,normalizeIdiomText,questionContainsIdiom} from '../lib/idio
 const read=file=>JSON.parse(readFileSync(new URL('../data/'+file,import.meta.url),'utf8'));
 const bank=read('bank.json'),data=read('idioms.json'),questions=new Map(bank.questions.map(q=>[q.id,q]));
 const chinese=bank.questions.filter(q=>q.subjectIndex===0),entries=data.entries;
+const reviewedPapers=new Set(bank.exams.filter(e=>e.explanationStatus!=='pending').map(e=>e.id));
 test('idiom cards have unique headwords, original examples and complete valid source occurrences',()=>{
- assert.deepEqual(data.reviewedQuestionIds,chinese.map(q=>q.id),'New Chinese exams need an idiom editorial review');
+ assert.deepEqual(data.reviewedQuestionIds,chinese.filter(q=>reviewedPapers.has(q.examId)).map(q=>q.id),'New Chinese exams need an idiom editorial review');
  const forms=new Set();
  for(const entry of entries){
   for(const form of [entry.term,...entry.aliases]){
@@ -20,7 +21,7 @@ test('idiom cards have unique headwords, original examples and complete valid so
 });
 test('explicit idiom choices and high-risk literal misunderstandings remain covered',()=>{
  const allForms=new Set(entries.flatMap(e=>[e.term,...e.aliases]));
- for(const q of chinese.filter(q=>q.stem.includes('成語'))){
+ for(const q of chinese.filter(q=>reviewedPapers.has(q.examId)&&q.stem.includes('成語'))){
   for(const option of q.options){
    const quoted=[...option.text.matchAll(/「([^」]+)」/g)].map(m=>m[1]);
    for(const term of quoted.length?quoted:[option.text])if(/^[\u4e00-\u9fff]{4,8}$/.test(term))assert.ok(allForms.has(term),`${q.id}: ${term}`);

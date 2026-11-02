@@ -1,0 +1,2008 @@
+[
+  {
+    "id": "103-1-1",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "個人常透過社會互動結果形成對自己的看法，譬如你買了新衣自覺甚為好看，但是穿出去後若並未贏得他人\n     讚賞，可能就會減少你穿這件衣服的次數。上述說法，與下列那一位學者提出的說法最接近？\n(A) 米德的「重要他人」\n(B) 顧里的「鏡中自我」\n(C) 馬斯洛的「自我實現」\n(D) 艾瑞克森的「自我認同」",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "個人常透過社會互動結果形成對自己的看法，譬如你買了新衣自覺甚為好看，但是穿出去後若並未贏得他人\n     讚賞，可能就會減少你穿這件衣服的次數。上述說法，與下列那一位學者提出的說法最接近？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "米德的「重要他人」"
+      },
+      {
+        "letter": "B",
+        "text": "顧里的「鏡中自我」"
+      },
+      {
+        "letter": "C",
+        "text": "馬斯洛的「自我實現」"
+      },
+      {
+        "letter": "D",
+        "text": "艾瑞克森的「自我認同」"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-2",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "西元 1972 年美國在華府的水門事件，在記者鍥而不捨的追查下，才揭發出總統尼克森僱用幹員竊聽對手的\n     競選資料，最後尼克森總統不敵國會與民意壓力而辭職。此事件充分展現出媒體第四權的何種功能？\n(A) 伸張社會正義\n(B) 監督政府施政\n(C) 關心民意走向\n(D) 審判非法案件",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "西元 1972 年美國在華府的水門事件，在記者鍥而不捨的追查下，才揭發出總統尼克森僱用幹員竊聽對手的\n     競選資料，最後尼克森總統不敵國會與民意壓力而辭職。此事件充分展現出媒體第四權的何種功能？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "伸張社會正義"
+      },
+      {
+        "letter": "B",
+        "text": "監督政府施政"
+      },
+      {
+        "letter": "C",
+        "text": "關心民意走向"
+      },
+      {
+        "letter": "D",
+        "text": "審判非法案件"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-3",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某派學者認為公共利益必須以個人利益為優先考量，個人利益一旦被實現，社會整體的福祉也將提高。試問\n     該論點可能為那個學者的看法？\n(A) 卡爾．馬克斯（Karl Marx）\n(B) 邊沁（Jeremy Bentham）\n(C) 沈岱爾（Michael Sandel）\n(D) 約翰．羅爾斯（John Rawls）",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "某派學者認為公共利益必須以個人利益為優先考量，個人利益一旦被實現，社會整體的福祉也將提高。試問\n     該論點可能為那個學者的看法？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "卡爾．馬克斯（Karl Marx）"
+      },
+      {
+        "letter": "B",
+        "text": "邊沁（Jeremy Bentham）"
+      },
+      {
+        "letter": "C",
+        "text": "沈岱爾（Michael Sandel）"
+      },
+      {
+        "letter": "D",
+        "text": "約翰．羅爾斯（John Rawls）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-4",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "北加拿大伊努伊特人（Inuit）的語言中，描述夏天、草原、火災等的形容詞甚少，但對於冰天雪地的形容詞\n     甚多，甚或單單描述冰的字彙就有十多種。上述的現象最適合以下列何者闡釋之？\n(A) 語言是每個社會重要的溝通工具\n(B) 語言會影響文化位階的高低優劣\n(C) 語言反映文化背景與生活方式差異\n(D) 顯示時空演變下語言或詞彙的變遷",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "北加拿大伊努伊特人（Inuit）的語言中，描述夏天、草原、火災等的形容詞甚少，但對於冰天雪地的形容詞\n     甚多，甚或單單描述冰的字彙就有十多種。上述的現象最適合以下列何者闡釋之？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "語言是每個社會重要的溝通工具"
+      },
+      {
+        "letter": "B",
+        "text": "語言會影響文化位階的高低優劣"
+      },
+      {
+        "letter": "C",
+        "text": "語言反映文化背景與生活方式差異"
+      },
+      {
+        "letter": "D",
+        "text": "顯示時空演變下語言或詞彙的變遷"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-5",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "為因應婦女團體長期爭取的增加女廁數量議題，內政部在《建築技術規則建築設備編》規定，新設電影院、戲\n     院、車站、航空站、學校等人潮多的公共場所，男女馬桶數比例從原本一比二提高到一比五。此政策可以呈\n     現出下列那項觀點？\n(A) 此做法明確違反中華民國憲法之男女平等原則\n(B) 依據社會性別差異有不同待遇，違反實質平等\n(C) 多設女廁顯示女性需多受照顧，即屬性別歧視\n(D) 政府透過政策檢視性別議題，符合性別主流化",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "為因應婦女團體長期爭取的增加女廁數量議題，內政部在《建築技術規則建築設備編》規定，新設電影院、戲\n     院、車站、航空站、學校等人潮多的公共場所，男女馬桶數比例從原本一比二提高到一比五。此政策可以呈\n     現出下列那項觀點？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "此做法明確違反中華民國憲法之男女平等原則"
+      },
+      {
+        "letter": "B",
+        "text": "依據社會性別差異有不同待遇，違反實質平等"
+      },
+      {
+        "letter": "C",
+        "text": "多設女廁顯示女性需多受照顧，即屬性別歧視"
+      },
+      {
+        "letter": "D",
+        "text": "政府透過政策檢視性別議題，符合性別主流化"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-6",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小甄在某選舉後收看政論節目，節目中主持人提及：「希望我國此類選舉往後可將政黨得票率門檻降低，並\n     增加政黨席次，才能讓小黨擁有更多的參政空間！」依據主持人的談話內容推判，其所指的選舉應為下列\n     何者？\n(A) 單一選區地域立委選舉\n(B) 複數選區地域立委選舉\n(C) 不分區立委選舉\n(D) 原住民立委選舉",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小甄在某選舉後收看政論節目，節目中主持人提及：「希望我國此類選舉往後可將政黨得票率門檻降低，並\n     增加政黨席次，才能讓小黨擁有更多的參政空間！」依據主持人的談話內容推判，其所指的選舉應為下列\n     何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "單一選區地域立委選舉"
+      },
+      {
+        "letter": "B",
+        "text": "複數選區地域立委選舉"
+      },
+      {
+        "letter": "C",
+        "text": "不分區立委選舉"
+      },
+      {
+        "letter": "D",
+        "text": "原住民立委選舉"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-7",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "選區之分配經常成為選舉成敗的關鍵；若透過刻意的選區安排來影響選舉，在政治學上稱為何種現象？\n(A) 傑利蠑螈現象\n(B) 大池小魚現象\n(C) 霍桑實驗現象\n(D) 鄰避迎臂現象",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "選區之分配經常成為選舉成敗的關鍵；若透過刻意的選區安排來影響選舉，在政治學上稱為何種現象？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "傑利蠑螈現象"
+      },
+      {
+        "letter": "B",
+        "text": "大池小魚現象"
+      },
+      {
+        "letter": "C",
+        "text": "霍桑實驗現象"
+      },
+      {
+        "letter": "D",
+        "text": "鄰避迎臂現象"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-8",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "公民投票為我國公民行使直接民主的權利之一，下列關於公民投票創制與複決的相關敘述，何者正確？\n(A) 公民可以創制「禁止撲殺流浪狗」的詳細法條，進行公民投票\n(B) 公民針對總統提出的「大法官名單」如果不滿，可以經由公民投票來複決此名單\n(C) 公民可以創制「保護傳統產業」的立法原則，進行公民投票\n(D) 公民針對政府提出的「稅率」如果不能接受，可以經由公民投票來進行複決",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "公民投票為我國公民行使直接民主的權利之一，下列關於公民投票創制與複決的相關敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "公民可以創制「禁止撲殺流浪狗」的詳細法條，進行公民投票"
+      },
+      {
+        "letter": "B",
+        "text": "公民針對總統提出的「大法官名單」如果不滿，可以經由公民投票來複決此名單"
+      },
+      {
+        "letter": "C",
+        "text": "公民可以創制「保護傳統產業」的立法原則，進行公民投票"
+      },
+      {
+        "letter": "D",
+        "text": "公民針對政府提出的「稅率」如果不能接受，可以經由公民投票來進行複決"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-9",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國在民國 98 年 4 月修正通過《地方制度法》後，依據該法之規定，下列何者是由臺中市政府負責規劃與\n     執行的「自治事項」？\n(A) 臺中清泉崗機場「中部國際機場擴建改善計畫」\n(B) 臺中市都市重劃區道路與公共設施的規劃與設計\n(C) 「十二年國民基本教育」中投區免試入學超額比序順次\n(D) 臺中市役男兵籍調查、徵兵檢查、替代役申請與兵役徵集業務",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "我國在民國 98 年 4 月修正通過《地方制度法》後，依據該法之規定，下列何者是由臺中市政府負責規劃與\n     執行的「自治事項」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "臺中清泉崗機場「中部國際機場擴建改善計畫」"
+      },
+      {
+        "letter": "B",
+        "text": "臺中市都市重劃區道路與公共設施的規劃與設計"
+      },
+      {
+        "letter": "C",
+        "text": "「十二年國民基本教育」中投區免試入學超額比序順次"
+      },
+      {
+        "letter": "D",
+        "text": "臺中市役男兵籍調查、徵兵檢查、替代役申請與兵役徵集業務"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-10",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「喬巴從西元 1981 年開始擔任快樂國的總統，連選連任總共當了五任總統，掌權長達 30 年，而且他現在還\n     想扶植自己的兒子繼任總統。」上述中的快樂國最有可能屬於下列何種國家型態？\n(A) 君主獨裁國\n(B) 獨裁共和國\n(C) 民主共和國\n(D) 君主立憲國",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "「喬巴從西元 1981 年開始擔任快樂國的總統，連選連任總共當了五任總統，掌權長達 30 年，而且他現在還\n     想扶植自己的兒子繼任總統。」上述中的快樂國最有可能屬於下列何種國家型態？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "君主獨裁國"
+      },
+      {
+        "letter": "B",
+        "text": "獨裁共和國"
+      },
+      {
+        "letter": "C",
+        "text": "民主共和國"
+      },
+      {
+        "letter": "D",
+        "text": "君主立憲國"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-11",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "國際組織若按照會員資格來做分類，可以分為政府間與非政府的國際組織，下列何者屬於非政府的國際組織？\n(A) 世界貿易組織\n(B) 國際特赦組織\n(C) 國際貨幣基金會\n(D) 北大西洋公約組織",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "國際組織若按照會員資格來做分類，可以分為政府間與非政府的國際組織，下列何者屬於非政府的國際組織？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "世界貿易組織"
+      },
+      {
+        "letter": "B",
+        "text": "國際特赦組織"
+      },
+      {
+        "letter": "C",
+        "text": "國際貨幣基金會"
+      },
+      {
+        "letter": "D",
+        "text": "北大西洋公約組織"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-12",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "副署制度為內閣制的一個特色，若以英國為例，下列何者在說明其副署制度的用意？\n(A) 國會通過法律後，交由國王簽署同意，再由內閣副署，代表法案應由三者共同負責\n(B) 當國王不滿意法案內容時，經由副署制度，代表重新交由國會再次審查\n(C) 因為國王沒有實際權力，所以閣揆及相關閣員必須簽名副署以示負責\n(D) 因為國王為最高元首，所以法案通過後必須由國王副署同意以示負責",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "副署制度為內閣制的一個特色，若以英國為例，下列何者在說明其副署制度的用意？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "國會通過法律後，交由國王簽署同意，再由內閣副署，代表法案應由三者共同負責"
+      },
+      {
+        "letter": "B",
+        "text": "當國王不滿意法案內容時，經由副署制度，代表重新交由國會再次審查"
+      },
+      {
+        "letter": "C",
+        "text": "因為國王沒有實際權力，所以閣揆及相關閣員必須簽名副署以示負責"
+      },
+      {
+        "letter": "D",
+        "text": "因為國王為最高元首，所以法案通過後必須由國王副署同意以示負責"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-13",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "立法院為我國最高立法機關，立法委員代表人民行使立法權。依照我國憲法及相關法律之規定，下列關於立\n     法委員之敘述，何者正確？\n(A) 立法委員法定總額為 225 人\n(B) 立法院院長由立法委員互選產生\n(C) 立法委員選舉皆採複數選舉區多數決制\n(D) 立法委員享有刑事、民事的免責權",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "立法院為我國最高立法機關，立法委員代表人民行使立法權。依照我國憲法及相關法律之規定，下列關於立\n     法委員之敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "立法委員法定總額為 225 人"
+      },
+      {
+        "letter": "B",
+        "text": "立法院院長由立法委員互選產生"
+      },
+      {
+        "letter": "C",
+        "text": "立法委員選舉皆採複數選舉區多數決制"
+      },
+      {
+        "letter": "D",
+        "text": "立法委員享有刑事、民事的免責權"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-14",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在我國，人民透過手中選票選出心中理想的候選人，將國家管理大事交由當選人代為行使之。當執政者失去\n     民心時，人民亦可發揮「水能載舟，亦能覆舟」的力量，透過法定途徑要求執政者交出權力。依據我國相\n     關法律規定，下列針對參政權的敘述，何者正確？\n(A) 執政者交出權力後，不論理由為何皆不可再行使參政權\n(B) 憲法明訂人民有參政權，但僅限選舉權及罷免權\n(C) 憲法中明訂人民擁有參政權，係在落實主權在民的理想\n(D) 人民一旦被宣告褫奪公權，代表其已經完全失去參政權",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在我國，人民透過手中選票選出心中理想的候選人，將國家管理大事交由當選人代為行使之。當執政者失去\n     民心時，人民亦可發揮「水能載舟，亦能覆舟」的力量，透過法定途徑要求執政者交出權力。依據我國相\n     關法律規定，下列針對參政權的敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "執政者交出權力後，不論理由為何皆不可再行使參政權"
+      },
+      {
+        "letter": "B",
+        "text": "憲法明訂人民有參政權，但僅限選舉權及罷免權"
+      },
+      {
+        "letter": "C",
+        "text": "憲法中明訂人民擁有參政權，係在落實主權在民的理想"
+      },
+      {
+        "letter": "D",
+        "text": "人民一旦被宣告褫奪公權，代表其已經完全失去參政權"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-15",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "兩岸曾進行多次的「江陳會談」，且達成多項協議，包括開放大陸人民來臺觀光、兩岸空運及海運直航、全\n     面通郵、簽訂諸多協議等。下列何者是代表我國與大陸進行會談的機構？\n(A) 海峽交流基金會\n(B) 海峽兩岸關係協會\n(C) 行政院大陸委員會\n(D) 國務院臺灣事務辦公室",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "兩岸曾進行多次的「江陳會談」，且達成多項協議，包括開放大陸人民來臺觀光、兩岸空運及海運直航、全\n     面通郵、簽訂諸多協議等。下列何者是代表我國與大陸進行會談的機構？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "海峽交流基金會"
+      },
+      {
+        "letter": "B",
+        "text": "海峽兩岸關係協會"
+      },
+      {
+        "letter": "C",
+        "text": "行政院大陸委員會"
+      },
+      {
+        "letter": "D",
+        "text": "國務院臺灣事務辦公室"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-16",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "政治學者杭廷頓（S. P. Huntington）認為從 19 世紀開始，全球經歷三波的民主化浪潮，許多國家發生民主\n     革命，從威權轉型到民主，此外，他亦提出民主鞏固的檢驗標準。若根據此標準檢驗我國民主發展，何時\n     開始可以算是具備「民主鞏固」的條件？\n(A) 1987 年宣布解除戒嚴\n(B) 1989 年修正人民團體法\n(C) 1991 年終止動員戡亂時期\n(D) 2008 年兩次政黨輪替",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "政治學者杭廷頓（S. P. Huntington）認為從 19 世紀開始，全球經歷三波的民主化浪潮，許多國家發生民主\n     革命，從威權轉型到民主，此外，他亦提出民主鞏固的檢驗標準。若根據此標準檢驗我國民主發展，何時\n     開始可以算是具備「民主鞏固」的條件？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1987 年宣布解除戒嚴"
+      },
+      {
+        "letter": "B",
+        "text": "1989 年修正人民團體法"
+      },
+      {
+        "letter": "C",
+        "text": "1991 年終止動員戡亂時期"
+      },
+      {
+        "letter": "D",
+        "text": "2008 年兩次政黨輪替"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-17",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據國家賠償法，關於我國國家賠償的事由及相關規定，下列何者錯誤？\n(A) 採「訴願先行主義」\n(B) 公有公共設施管理不當\n(C) 以金錢賠償為原則，回復原狀為例外\n(D) 公務員於執行職務時，因故意或過失侵害人民權益",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "依據國家賠償法，關於我國國家賠償的事由及相關規定，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "採「訴願先行主義」"
+      },
+      {
+        "letter": "B",
+        "text": "公有公共設施管理不當"
+      },
+      {
+        "letter": "C",
+        "text": "以金錢賠償為原則，回復原狀為例外"
+      },
+      {
+        "letter": "D",
+        "text": "公務員於執行職務時，因故意或過失侵害人民權益"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-18",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "奧地利學者凱爾森（Hans Kelsen）「法規範階層」之設計，將法規範體系由上至下分為「基本規範」、\n     「一般規範」與「個別規範」。「個別規範」係指基於一般規範對個案發生的事件所創設，用以確定當事\n     人之間的具體權利義務關係。根據個別規範的性質，下列何者「並非」個別規範之範疇？\n(A) 行政處分\n(B) 自治條例\n(C) 司法裁判\n(D) 契約行為",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "奧地利學者凱爾森（Hans Kelsen）「法規範階層」之設計，將法規範體系由上至下分為「基本規範」、\n     「一般規範」與「個別規範」。「個別規範」係指基於一般規範對個案發生的事件所創設，用以確定當事\n     人之間的具體權利義務關係。根據個別規範的性質，下列何者「並非」個別規範之範疇？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行政處分"
+      },
+      {
+        "letter": "B",
+        "text": "自治條例"
+      },
+      {
+        "letter": "C",
+        "text": "司法裁判"
+      },
+      {
+        "letter": "D",
+        "text": "契約行為"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-19",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「權利主體」是民法的重要概念，下列選項何者具有「權利主體」的地位？\n(A) 興建完成銷售中的新大樓\n(B) 在學校內成立的管樂社團\n(C) 母親腹中尚未出生的胎兒\n(D) 尚未取得身分證的新移民女性",
+    "page": 1,
+    "accepted": [
+      "C",
+      "D",
+      "CD"
+    ],
+    "correction": "依考選部更正公告，接受答案：C、D、CD。",
+    "stem": "「權利主體」是民法的重要概念，下列選項何者具有「權利主體」的地位？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "興建完成銷售中的新大樓"
+      },
+      {
+        "letter": "B",
+        "text": "在學校內成立的管樂社團"
+      },
+      {
+        "letter": "C",
+        "text": "母親腹中尚未出生的胎兒"
+      },
+      {
+        "letter": "D",
+        "text": "尚未取得身分證的新移民女性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-20",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "娟娟與阿傑婚後育有一子，未料孩子出生後即因病過世，兩個月後丈夫阿傑竟也因車禍喪命，娟娟在多重打\n     擊下罹患嚴重的精神病。下列關於娟娟繼承阿傑遺產的敘述，何者正確？\n(A) 娟娟罹患精神疾病，因此喪失權利能力\n(B) 娟娟的繼承權，不因罹患疾病而受影響\n(C) 須待娟娟康復後，才能回復其繼承權\n(D) 娟娟因病喪失行為能力，因此無法繼承",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "娟娟與阿傑婚後育有一子，未料孩子出生後即因病過世，兩個月後丈夫阿傑竟也因車禍喪命，娟娟在多重打\n     擊下罹患嚴重的精神病。下列關於娟娟繼承阿傑遺產的敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "娟娟罹患精神疾病，因此喪失權利能力"
+      },
+      {
+        "letter": "B",
+        "text": "娟娟的繼承權，不因罹患疾病而受影響"
+      },
+      {
+        "letter": "C",
+        "text": "須待娟娟康復後，才能回復其繼承權"
+      },
+      {
+        "letter": "D",
+        "text": "娟娟因病喪失行為能力，因此無法繼承"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-21",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小剛大學畢業後，在公司附近租屋，與房東簽訂租期至民國 105 年。房東在 103 年投資失敗，將小剛所住房\n     子賣給小強。依我國民法之規定，小剛可以如何主張其權利？\n(A) 向房屋所在地的消費者服務中心提出訴願\n(B) 必須與小強簽訂新的租賃契約，才可繼續居住\n(C) 房東售屋之行為影響小剛權益，可請求精神慰撫金\n(D) 依小剛與房東之租賃契約，可繼續居住至租約期滿",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小剛大學畢業後，在公司附近租屋，與房東簽訂租期至民國 105 年。房東在 103 年投資失敗，將小剛所住房\n     子賣給小強。依我國民法之規定，小剛可以如何主張其權利？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "向房屋所在地的消費者服務中心提出訴願"
+      },
+      {
+        "letter": "B",
+        "text": "必須與小強簽訂新的租賃契約，才可繼續居住"
+      },
+      {
+        "letter": "C",
+        "text": "房東售屋之行為影響小剛權益，可請求精神慰撫金"
+      },
+      {
+        "letter": "D",
+        "text": "依小剛與房東之租賃契約，可繼續居住至租約期滿"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-22",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "民國 102 年行政院會通過《家庭暴力防治法》之部分條文修正草案，將延長民事通常保護令效期，並放寬延\n     長聲請之次數限制。下列有關民事保護令之敘述，何者正確？\n(A) 民事保護令目的是禁止對加害人實施不法侵害行為\n(B) 法官審理通常保護令案件時，無須通知相對人到庭\n(C) 暫時保護令以書面聲請，法院可不經由審理即核發\n(D) 被害人自己聲請緊急保護令，非上班時間亦可核發",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "民國 102 年行政院會通過《家庭暴力防治法》之部分條文修正草案，將延長民事通常保護令效期，並放寬延\n     長聲請之次數限制。下列有關民事保護令之敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "民事保護令目的是禁止對加害人實施不法侵害行為"
+      },
+      {
+        "letter": "B",
+        "text": "法官審理通常保護令案件時，無須通知相對人到庭"
+      },
+      {
+        "letter": "C",
+        "text": "暫時保護令以書面聲請，法院可不經由審理即核發"
+      },
+      {
+        "letter": "D",
+        "text": "被害人自己聲請緊急保護令，非上班時間亦可核發"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-23",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小明透過不肖業者偽造文書申請外籍看護，①在小明認錯後，檢方給予緩起訴，並令其繳交 5 萬元公益金。\n     不過，②高等法院檢察署撤銷該緩起訴，將全案發回地方法院檢察署再議。③地檢署經調查，考量小明已\n     認罪且停止僱用看護，故仍維持緩起訴處分。小明表示④感謝法官體諒，尊重法官判決。根據我國刑事訴\n     訟相關法規，上文那一部分敘述錯誤？\n(A) ①\n(B) ②\n(C) ③\n(D) ④",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小明透過不肖業者偽造文書申請外籍看護，①在小明認錯後，檢方給予緩起訴，並令其繳交 5 萬元公益金。\n     不過，②高等法院檢察署撤銷該緩起訴，將全案發回地方法院檢察署再議。③地檢署經調查，考量小明已\n     認罪且停止僱用看護，故仍維持緩起訴處分。小明表示④感謝法官體諒，尊重法官判決。根據我國刑事訴\n     訟相關法規，上文那一部分敘述錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①"
+      },
+      {
+        "letter": "B",
+        "text": "②"
+      },
+      {
+        "letter": "C",
+        "text": "③"
+      },
+      {
+        "letter": "D",
+        "text": "④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-24",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小剛與小強發生口角，小剛要開車離去，小強在車前阻擋，被小剛駕車輾死。法官認為小剛坦承犯行，並與\n     小強家屬和解賠償 310 萬元，判決 5 個月徒刑，緩刑 3 年。關於小剛的緩刑，下列何者正確？\n(A) 徒刑和緩刑合併執行 3 年刑期\n(B) 只要緩刑期過半，就可以申請假釋\n(C) 因緩刑 3 年，故和解金可分 3 年償還完畢\n(D) 緩刑期間不用坐牢，緩刑期滿等同服完徒刑",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小剛與小強發生口角，小剛要開車離去，小強在車前阻擋，被小剛駕車輾死。法官認為小剛坦承犯行，並與\n     小強家屬和解賠償 310 萬元，判決 5 個月徒刑，緩刑 3 年。關於小剛的緩刑，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "徒刑和緩刑合併執行 3 年刑期"
+      },
+      {
+        "letter": "B",
+        "text": "只要緩刑期過半，就可以申請假釋"
+      },
+      {
+        "letter": "C",
+        "text": "因緩刑 3 年，故和解金可分 3 年償還完畢"
+      },
+      {
+        "letter": "D",
+        "text": "緩刑期間不用坐牢，緩刑期滿等同服完徒刑"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-25",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "行政訴訟新制施行，改採三級二審制。下列關於修法後新制規定之敘述，何者正確？\n(A) 交通裁決事件由行政法院改隸地方法院行政訴訟庭\n(B) 簡易訴訟程序事件應以高等行政法院為第一審法院\n(C) 高等行政法院之終局判決依法不得上訴最高行政法院\n(D) 不服地方法院行政訴訟庭判決應上訴最高行政法院",
+    "page": 2,
+    "accepted": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correction": "依考選部更正公告，本題一律給分。",
+    "stem": "行政訴訟新制施行，改採三級二審制。下列關於修法後新制規定之敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "交通裁決事件由行政法院改隸地方法院行政訴訟庭"
+      },
+      {
+        "letter": "B",
+        "text": "簡易訴訟程序事件應以高等行政法院為第一審法院"
+      },
+      {
+        "letter": "C",
+        "text": "高等行政法院之終局判決依法不得上訴最高行政法院"
+      },
+      {
+        "letter": "D",
+        "text": "不服地方法院行政訴訟庭判決應上訴最高行政法院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "allCredit": true
+  },
+  {
+    "id": "103-1-26",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國對於犯罪少年的處理方式，特別注重預防與矯治，故制定少年事件處理法專門處理少年案件，下列有關\n     少年事件處理法的規定，何者正確？\n(A) 少年案件審理原則上採公開制度\n(B) 少年法院審理少年保護事件，應以法官 5 人之合議制進行\n(C) 為給予少年改過自新機會，乃規定可塗銷其前科紀錄\n(D) 少年的虞犯行為不受少年事件處理法的規範",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "我國對於犯罪少年的處理方式，特別注重預防與矯治，故制定少年事件處理法專門處理少年案件，下列有關\n     少年事件處理法的規定，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "少年案件審理原則上採公開制度"
+      },
+      {
+        "letter": "B",
+        "text": "少年法院審理少年保護事件，應以法官 5 人之合議制進行"
+      },
+      {
+        "letter": "C",
+        "text": "為給予少年改過自新機會，乃規定可塗銷其前科紀錄"
+      },
+      {
+        "letter": "D",
+        "text": "少年的虞犯行為不受少年事件處理法的規範"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-27",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "明威上個月中了統一發票 1,000 萬元，依規定他必須繳交那些稅？①印花稅 ②所得稅 ③契稅 ④貨物稅\n(A) ①②\n(B) ①④\n(C) ②③\n(D) ③④",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "明威上個月中了統一發票 1,000 萬元，依規定他必須繳交那些稅？①印花稅 ②所得稅 ③契稅 ④貨物稅",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-28",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列何項情況，將使失業率降低？\n(A) 畢業後又找不到工作的學生，乾脆出國留學\n(B) 雇主和管家結婚後，不須再為家務工作支薪\n(C) 咖啡店員工收到兵單，只好放棄工作而入伍\n(D) 小職員抽中頭彩，立刻辭職而開始享樂人生",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何項情況，將使失業率降低？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "畢業後又找不到工作的學生，乾脆出國留學"
+      },
+      {
+        "letter": "B",
+        "text": "雇主和管家結婚後，不須再為家務工作支薪"
+      },
+      {
+        "letter": "C",
+        "text": "咖啡店員工收到兵單，只好放棄工作而入伍"
+      },
+      {
+        "letter": "D",
+        "text": "小職員抽中頭彩，立刻辭職而開始享樂人生"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-29",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "若以民國 100 年為基期，民國 101 年消費者物價指數（CPI）為 104，小明的月薪為 22,000 元。依上所述推\n     判，小明每月的實質所得最接近下列何者？\n(A) 22,880 元\n(B) 22,104 元\n(C) 21,986 元\n(D) 21,154 元",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "若以民國 100 年為基期，民國 101 年消費者物價指數（CPI）為 104，小明的月薪為 22,000 元。依上所述推\n     判，小明每月的實質所得最接近下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "22,880 元"
+      },
+      {
+        "letter": "B",
+        "text": "22,104 元"
+      },
+      {
+        "letter": "C",
+        "text": "21,986 元"
+      },
+      {
+        "letter": "D",
+        "text": "21,154 元"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-30",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "針對龐大汽車數量所造成的各項污染問題，有些先進國家會針對在尖峰時段進入市中心的汽車課徵交通「擁\n     擠稅」。此一課稅政策可用下列何種概念加以說明？\n(A) 外部成本內部化\n(B) 外部效益內部化\n(C) 外部成本外部化\n(D) 外部效益外部化",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "針對龐大汽車數量所造成的各項污染問題，有些先進國家會針對在尖峰時段進入市中心的汽車課徵交通「擁\n     擠稅」。此一課稅政策可用下列何種概念加以說明？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "外部成本內部化"
+      },
+      {
+        "letter": "B",
+        "text": "外部效益內部化"
+      },
+      {
+        "letter": "C",
+        "text": "外部成本外部化"
+      },
+      {
+        "letter": "D",
+        "text": "外部效益外部化"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-31",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國政府為保障勞工權利，依據《勞動基準法》設有基本工資，並每年召開基本工資審議委員會考量調整與\n     否。依上所述，設定基本工資可能會對勞動市場造成下列何項影響？\n(A) 整體社會因勞工保障增加使經濟福祉增加\n(B) 廠商成本因基本工資增加而減少有利生產\n(C) 勞動市場供給因基本工資調升而大幅增加\n(D) 調高基本工資政策反而會使部分勞工失業",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "我國政府為保障勞工權利，依據《勞動基準法》設有基本工資，並每年召開基本工資審議委員會考量調整與\n     否。依上所述，設定基本工資可能會對勞動市場造成下列何項影響？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "整體社會因勞工保障增加使經濟福祉增加"
+      },
+      {
+        "letter": "B",
+        "text": "廠商成本因基本工資增加而減少有利生產"
+      },
+      {
+        "letter": "C",
+        "text": "勞動市場供給因基本工資調升而大幅增加"
+      },
+      {
+        "letter": "D",
+        "text": "調高基本工資政策反而會使部分勞工失業"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-32",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "假設舊曆年後，高麗菜的價格暴跌，每公斤從 12 元降至 3 元，農民無奈地說：「種植高麗菜的淨利約為售\n     價的兩成，現在種高麗菜成本是每公斤 10 元，所以願意販售的市場價格為每公斤 12 元。」依據農民的說\n     法，「每公斤 12 元的價格」屬於下列何者？\n(A) 供給價格\n(B) 需求價格\n(C) 產品成本價格\n(D) 市場均衡價格",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "假設舊曆年後，高麗菜的價格暴跌，每公斤從 12 元降至 3 元，農民無奈地說：「種植高麗菜的淨利約為售\n     價的兩成，現在種高麗菜成本是每公斤 10 元，所以願意販售的市場價格為每公斤 12 元。」依據農民的說\n     法，「每公斤 12 元的價格」屬於下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "供給價格"
+      },
+      {
+        "letter": "B",
+        "text": "需求價格"
+      },
+      {
+        "letter": "C",
+        "text": "產品成本價格"
+      },
+      {
+        "letter": "D",
+        "text": "市場均衡價格"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-33",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "情人節前夕，民眾搶購玫瑰花束獻給情人，造成玫瑰花價格不斷上漲。此種節慶前夕的消費者行為，可用何\n     種因素來解釋？\n(A) 消費者的所得\n(B) 對未來的預期\n(C) 要素供給的變化\n(D) 相關產品的價格",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "情人節前夕，民眾搶購玫瑰花束獻給情人，造成玫瑰花價格不斷上漲。此種節慶前夕的消費者行為，可用何\n     種因素來解釋？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "消費者的所得"
+      },
+      {
+        "letter": "B",
+        "text": "對未來的預期"
+      },
+      {
+        "letter": "C",
+        "text": "要素供給的變化"
+      },
+      {
+        "letter": "D",
+        "text": "相關產品的價格"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-34",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "假設地球上只有甲乙兩國，針對火龍果而言，當兩國都生產火龍果且進行自由貿易時，甲國出口火龍果，乙\n     國則進口火龍果。依上所述推判，下列針對兩國進行自由貿易後的相關敘述，何者正確？\n(A) 甲國的消費者剩餘會大於自給自足的消費者剩餘\n(B) 甲國的生產者剩餘會大於自給自足的生產者剩餘\n(C) 乙國的生產者剩餘會大於自給自足的生產者剩餘\n(D) 乙國的消費者剩餘會小於自給自足的消費者剩餘",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "假設地球上只有甲乙兩國，針對火龍果而言，當兩國都生產火龍果且進行自由貿易時，甲國出口火龍果，乙\n     國則進口火龍果。依上所述推判，下列針對兩國進行自由貿易後的相關敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "甲國的消費者剩餘會大於自給自足的消費者剩餘"
+      },
+      {
+        "letter": "B",
+        "text": "甲國的生產者剩餘會大於自給自足的生產者剩餘"
+      },
+      {
+        "letter": "C",
+        "text": "乙國的生產者剩餘會大於自給自足的生產者剩餘"
+      },
+      {
+        "letter": "D",
+        "text": "乙國的消費者剩餘會小於自給自足的消費者剩餘"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-1-35",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下圖是敘利亞（Syria）生產 X 與 Y 產品的生產可能線，假設該國在內戰發生前的生產點為 E 點。從經濟面\n     來看，敘利亞發生內戰後，其生產組合可能會是圖中的那一點？\n(A) A點\n(B) B點\n(C) C點\n(D) D點",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下圖是敘利亞（Syria）生產 X 與 Y 產品的生產可能線，假設該國在內戰發生前的生產點為 E 點。從經濟面\n     來看，敘利亞發生內戰後，其生產組合可能會是圖中的那一點？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A點"
+      },
+      {
+        "letter": "B",
+        "text": "B點"
+      },
+      {
+        "letter": "C",
+        "text": "C點"
+      },
+      {
+        "letter": "D",
+        "text": "D點"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "103-1-36",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "This CD player is more expensive than         in the store.\n(A) all together\n(B) any other\n(C) others\n(D) all",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "This CD player is more expensive than         in the store.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "all together"
+      },
+      {
+        "letter": "B",
+        "text": "any other"
+      },
+      {
+        "letter": "C",
+        "text": "others"
+      },
+      {
+        "letter": "D",
+        "text": "all"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "103-1-37",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Henry is very smart, and he knows how to          the difficult problem.\n(A) burn up\n(B) deal with\n(C) stop by\n(D) wake up",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Henry is very smart, and he knows how to          the difficult problem.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "burn up"
+      },
+      {
+        "letter": "B",
+        "text": "deal with"
+      },
+      {
+        "letter": "C",
+        "text": "stop by"
+      },
+      {
+        "letter": "D",
+        "text": "wake up"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "103-1-38",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Because Linda is trying to lose weight, she        desserts as much as she can.\n(A) enjoys\n(B) avoids\n(C) loves\n(D) purchases",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Because Linda is trying to lose weight, she        desserts as much as she can.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "enjoys"
+      },
+      {
+        "letter": "B",
+        "text": "avoids"
+      },
+      {
+        "letter": "C",
+        "text": "loves"
+      },
+      {
+        "letter": "D",
+        "text": "purchases"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "103-1-39",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "_____ as the two government leaders could not reach an agreement, the possibilities for peace are still remote.\n(A) As long\n(B) As much\n(C) As soon\n(D) As many",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "_____ as the two government leaders could not reach an agreement, the possibilities for peace are still remote.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "As long"
+      },
+      {
+        "letter": "B",
+        "text": "As much"
+      },
+      {
+        "letter": "C",
+        "text": "As soon"
+      },
+      {
+        "letter": "D",
+        "text": "As many"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "103-1-40",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Some people think that BMI is too general to be really useful. Despite the        , there are strong positive aspects\n     of it.\n(A) crisis\n(B) conflict\n(C) climate\n(D) criticism",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "Some people think that BMI is too general to be really useful. Despite the        , there are strong positive aspects\n     of it.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "crisis"
+      },
+      {
+        "letter": "B",
+        "text": "conflict"
+      },
+      {
+        "letter": "C",
+        "text": "climate"
+      },
+      {
+        "letter": "D",
+        "text": "criticism"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "103-1-41",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 41 空格最合適的答案。\n(A) use\n(B) play\n(C) give\n(D) worth",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 41 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "use"
+      },
+      {
+        "letter": "B",
+        "text": "play"
+      },
+      {
+        "letter": "C",
+        "text": "give"
+      },
+      {
+        "letter": "D",
+        "text": "worth"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Those who are in favor of bringing the wolves back to Yellowstone have their arguments. Biologists say that\nwolves     41    an important part in the ecosystem of this wilderness area. Through their 42 they remove the weak\nand diseased members of the elk and deer populations. They keep the population              43    growing too large.\nNaturalists believe the wolves are an essential part of the wilderness. And they are the only part of the ecosystem\nthat is    44    from the Yellowstone area. Naturalists want to restore Yellowstone to the way it         45   before\nColumbus set foot in America in 1492. They want visitors to the park to have the experience of hearing wolves howl at\nnight—an experience many describe as the best the wilderness has to offer.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "103-1-42",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 42 空格最合適的答案。\n(A) mating\n(B) hunting\n(C) growing\n(D) bombing",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 42 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "mating"
+      },
+      {
+        "letter": "B",
+        "text": "hunting"
+      },
+      {
+        "letter": "C",
+        "text": "growing"
+      },
+      {
+        "letter": "D",
+        "text": "bombing"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Those who are in favor of bringing the wolves back to Yellowstone have their arguments. Biologists say that\nwolves     41    an important part in the ecosystem of this wilderness area. Through their 42 they remove the weak\nand diseased members of the elk and deer populations. They keep the population              43    growing too large.\nNaturalists believe the wolves are an essential part of the wilderness. And they are the only part of the ecosystem\nthat is    44    from the Yellowstone area. Naturalists want to restore Yellowstone to the way it         45   before\nColumbus set foot in America in 1492. They want visitors to the park to have the experience of hearing wolves howl at\nnight—an experience many describe as the best the wilderness has to offer.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "103-1-43",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 43 空格最合適的答案。\n(A) to\n(B) on\n(C) out\n(D) from",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 43 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "to"
+      },
+      {
+        "letter": "B",
+        "text": "on"
+      },
+      {
+        "letter": "C",
+        "text": "out"
+      },
+      {
+        "letter": "D",
+        "text": "from"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Those who are in favor of bringing the wolves back to Yellowstone have their arguments. Biologists say that\nwolves     41    an important part in the ecosystem of this wilderness area. Through their 42 they remove the weak\nand diseased members of the elk and deer populations. They keep the population              43    growing too large.\nNaturalists believe the wolves are an essential part of the wilderness. And they are the only part of the ecosystem\nthat is    44    from the Yellowstone area. Naturalists want to restore Yellowstone to the way it         45   before\nColumbus set foot in America in 1492. They want visitors to the park to have the experience of hearing wolves howl at\nnight—an experience many describe as the best the wilderness has to offer.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "103-1-44",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 44 空格最合適的答案。\n(A) to miss\n(B) missed\n(C) missing\n(D) to be missed",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 44 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "to miss"
+      },
+      {
+        "letter": "B",
+        "text": "missed"
+      },
+      {
+        "letter": "C",
+        "text": "missing"
+      },
+      {
+        "letter": "D",
+        "text": "to be missed"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Those who are in favor of bringing the wolves back to Yellowstone have their arguments. Biologists say that\nwolves     41    an important part in the ecosystem of this wilderness area. Through their 42 they remove the weak\nand diseased members of the elk and deer populations. They keep the population              43    growing too large.\nNaturalists believe the wolves are an essential part of the wilderness. And they are the only part of the ecosystem\nthat is    44    from the Yellowstone area. Naturalists want to restore Yellowstone to the way it         45   before\nColumbus set foot in America in 1492. They want visitors to the park to have the experience of hearing wolves howl at\nnight—an experience many describe as the best the wilderness has to offer.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "103-1-45",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 45 空格最合適的答案。\n(A) is\n(B) was\n(C) were\n(D) has been",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 45 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "is"
+      },
+      {
+        "letter": "B",
+        "text": "was"
+      },
+      {
+        "letter": "C",
+        "text": "were"
+      },
+      {
+        "letter": "D",
+        "text": "has been"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Those who are in favor of bringing the wolves back to Yellowstone have their arguments. Biologists say that\nwolves     41    an important part in the ecosystem of this wilderness area. Through their 42 they remove the weak\nand diseased members of the elk and deer populations. They keep the population              43    growing too large.\nNaturalists believe the wolves are an essential part of the wilderness. And they are the only part of the ecosystem\nthat is    44    from the Yellowstone area. Naturalists want to restore Yellowstone to the way it         45   before\nColumbus set foot in America in 1492. They want visitors to the park to have the experience of hearing wolves howl at\nnight—an experience many describe as the best the wilderness has to offer.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "103-1-46",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the article, married couples usually wish to              .\n(A) have children\n(B) travel around the world\n(C) buy a car\n(D) make a fortune",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "According to the article, married couples usually wish to              .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "have children"
+      },
+      {
+        "letter": "B",
+        "text": "travel around the world"
+      },
+      {
+        "letter": "C",
+        "text": "buy a car"
+      },
+      {
+        "letter": "D",
+        "text": "make a fortune"
+      }
+    ],
+    "textFallback": false,
+    "passage": "When people get married, they usually plan to have children. Sometimes, however, a couple cannot have a child of\ntheir own. In this case, they may decide to adopt a child. Some people prefer to adopt infants; others adopt older children.\nSome couples adopt children from their own countries; others adopt children from foreign countries. Some people adopt\nchildren of their same race; others adopt children of different races.\n      Most adopted children know that they are adopted. Psychologists and child care experts generally think this is a\ngood idea. However, many adoptees have very little information about their biological mother and father. As a matter of\nfact, it is often very difficult for adoptees to find out about their birth parents because the birth records of most adoptees\nare usually sealed. The information is confidential, so no one can see it. Sealed documents protect both adoptees and their\nnatural parents.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "103-1-47",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the article, which of the following statements is true?\n(A) Married couples usually prefer to adopt infants.\n(B) Few couples want to adopt children of different races.\n(C) Young couples like to adopt children from foreign countries.\n(D) Married couples may adopt children of different ages.",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "According to the article, which of the following statements is true?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Married couples usually prefer to adopt infants."
+      },
+      {
+        "letter": "B",
+        "text": "Few couples want to adopt children of different races."
+      },
+      {
+        "letter": "C",
+        "text": "Young couples like to adopt children from foreign countries."
+      },
+      {
+        "letter": "D",
+        "text": "Married couples may adopt children of different ages."
+      }
+    ],
+    "textFallback": false,
+    "passage": "When people get married, they usually plan to have children. Sometimes, however, a couple cannot have a child of\ntheir own. In this case, they may decide to adopt a child. Some people prefer to adopt infants; others adopt older children.\nSome couples adopt children from their own countries; others adopt children from foreign countries. Some people adopt\nchildren of their same race; others adopt children of different races.\n      Most adopted children know that they are adopted. Psychologists and child care experts generally think this is a\ngood idea. However, many adoptees have very little information about their biological mother and father. As a matter of\nfact, it is often very difficult for adoptees to find out about their birth parents because the birth records of most adoptees\nare usually sealed. The information is confidential, so no one can see it. Sealed documents protect both adoptees and their\nnatural parents.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "103-1-48",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Which of the following is closest in meaning to the word “adoptees” in the article?\n(A) child psychologists\n(B) adopted children\n(C) child care experts\n(D) adoptive parents",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Which of the following is closest in meaning to the word “adoptees” in the article?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "child psychologists"
+      },
+      {
+        "letter": "B",
+        "text": "adopted children"
+      },
+      {
+        "letter": "C",
+        "text": "child care experts"
+      },
+      {
+        "letter": "D",
+        "text": "adoptive parents"
+      }
+    ],
+    "textFallback": false,
+    "passage": "When people get married, they usually plan to have children. Sometimes, however, a couple cannot have a child of\ntheir own. In this case, they may decide to adopt a child. Some people prefer to adopt infants; others adopt older children.\nSome couples adopt children from their own countries; others adopt children from foreign countries. Some people adopt\nchildren of their same race; others adopt children of different races.\n      Most adopted children know that they are adopted. Psychologists and child care experts generally think this is a\ngood idea. However, many adoptees have very little information about their biological mother and father. As a matter of\nfact, it is often very difficult for adoptees to find out about their birth parents because the birth records of most adoptees\nare usually sealed. The information is confidential, so no one can see it. Sealed documents protect both adoptees and their\nnatural parents.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "103-1-49",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Which of the following is closest in meaning to “natural parents” that appears at the end of the article?\n(A) Related parents\n(B) Biological parents\n(C) Loving parents\n(D) Lucky parents",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Which of the following is closest in meaning to “natural parents” that appears at the end of the article?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Related parents"
+      },
+      {
+        "letter": "B",
+        "text": "Biological parents"
+      },
+      {
+        "letter": "C",
+        "text": "Loving parents"
+      },
+      {
+        "letter": "D",
+        "text": "Lucky parents"
+      }
+    ],
+    "textFallback": false,
+    "passage": "When people get married, they usually plan to have children. Sometimes, however, a couple cannot have a child of\ntheir own. In this case, they may decide to adopt a child. Some people prefer to adopt infants; others adopt older children.\nSome couples adopt children from their own countries; others adopt children from foreign countries. Some people adopt\nchildren of their same race; others adopt children of different races.\n      Most adopted children know that they are adopted. Psychologists and child care experts generally think this is a\ngood idea. However, many adoptees have very little information about their biological mother and father. As a matter of\nfact, it is often very difficult for adoptees to find out about their birth parents because the birth records of most adoptees\nare usually sealed. The information is confidential, so no one can see it. Sealed documents protect both adoptees and their\nnatural parents.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "103-1-50",
+    "examId": "103-1",
+    "year": 103,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the article, sealed documents about adoptees are meant to be               .\n(A) offensive\n(B) confusing\n(C) secret\n(D) open",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "According to the article, sealed documents about adoptees are meant to be               .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "offensive"
+      },
+      {
+        "letter": "B",
+        "text": "confusing"
+      },
+      {
+        "letter": "C",
+        "text": "secret"
+      },
+      {
+        "letter": "D",
+        "text": "open"
+      }
+    ],
+    "textFallback": false,
+    "passage": "When people get married, they usually plan to have children. Sometimes, however, a couple cannot have a child of\ntheir own. In this case, they may decide to adopt a child. Some people prefer to adopt infants; others adopt older children.\nSome couples adopt children from their own countries; others adopt children from foreign countries. Some people adopt\nchildren of their same race; others adopt children of different races.\n      Most adopted children know that they are adopted. Psychologists and child care experts generally think this is a\ngood idea. However, many adoptees have very little information about their biological mother and father. As a matter of\nfact, it is often very difficult for adoptees to find out about their birth parents because the birth records of most adoptees\nare usually sealed. The information is confidential, so no one can see it. Sealed documents protect both adoptees and their\nnatural parents.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  }
+]

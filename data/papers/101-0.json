@@ -1,0 +1,1954 @@
+[
+  {
+    "id": "101-0-1",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "如果有一首詩，出現「登高」、「茱萸」、「菊花酒」這些語詞，那麼這首詩所描寫的節日應該是：\n(A) 春節\n(B) 上元節\n(C) 中秋節\n(D) 重陽節",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "如果有一首詩，出現「登高」、「茱萸」、「菊花酒」這些語詞，那麼這首詩所描寫的節日應該是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "春節"
+      },
+      {
+        "letter": "B",
+        "text": "上元節"
+      },
+      {
+        "letter": "C",
+        "text": "中秋節"
+      },
+      {
+        "letter": "D",
+        "text": "重陽節"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-2",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "如果以「一肩明月，兩袖粉筆灰」來形容一個人，他的工作應該是：\n(A) 仲介\n(B) 教師\n(C) 醫生\n(D) 法官",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "如果以「一肩明月，兩袖粉筆灰」來形容一個人，他的工作應該是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "仲介"
+      },
+      {
+        "letter": "B",
+        "text": "教師"
+      },
+      {
+        "letter": "C",
+        "text": "醫生"
+      },
+      {
+        "letter": "D",
+        "text": "法官"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-3",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那一組句子的意思最近於「執子之手，與子偕老」？\n(A) 死生契闊，與子成說\n(B) 關關雎鳩，在河之洲\n(C) 青青子衿，悠悠我心\n(D) 之子于歸，宜其室家",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那一組句子的意思最近於「執子之手，與子偕老」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "死生契闊，與子成說"
+      },
+      {
+        "letter": "B",
+        "text": "關關雎鳩，在河之洲"
+      },
+      {
+        "letter": "C",
+        "text": "青青子衿，悠悠我心"
+      },
+      {
+        "letter": "D",
+        "text": "之子于歸，宜其室家"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-4",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "《朱子語類》論為學方法：「學者做工夫，當忘寢食做一上，使得些入處，自後方滋味接續。浮浮沉沉，\n     半上落下，不濟得事。」下列相關為學的論述，何者最能與之呼應？\n(A) 知之者不如好之者，好之者不如樂之者\n(B) 蓬生麻中，不扶而直；白沙在涅，與之俱黑\n(C) 山徑之蹊間，介然用之而成路，為間不用，則茅塞之矣\n(D) 一齊人傅之，眾楚人咻之，雖日撻而求其齊也，不可得矣",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "《朱子語類》論為學方法：「學者做工夫，當忘寢食做一上，使得些入處，自後方滋味接續。浮浮沉沉，\n     半上落下，不濟得事。」下列相關為學的論述，何者最能與之呼應？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "知之者不如好之者，好之者不如樂之者"
+      },
+      {
+        "letter": "B",
+        "text": "蓬生麻中，不扶而直；白沙在涅，與之俱黑"
+      },
+      {
+        "letter": "C",
+        "text": "山徑之蹊間，介然用之而成路，為間不用，則茅塞之矣"
+      },
+      {
+        "letter": "D",
+        "text": "一齊人傅之，眾楚人咻之，雖日撻而求其齊也，不可得矣"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-5",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列語句，何者與「蘭芷鮑魚，與之俱化」意思相近？\n(A) 強自取柱，柔自取束\n(B) 近朱者赤，近墨者黑\n(C) 青出於藍，更勝於藍\n(D) 桃李不言，下自成蹊",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列語句，何者與「蘭芷鮑魚，與之俱化」意思相近？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "強自取柱，柔自取束"
+      },
+      {
+        "letter": "B",
+        "text": "近朱者赤，近墨者黑"
+      },
+      {
+        "letter": "C",
+        "text": "青出於藍，更勝於藍"
+      },
+      {
+        "letter": "D",
+        "text": "桃李不言，下自成蹊"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-6",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列何者為我國傳說中的「吉祥之獸」？\n(A) 渾沌\n(B) 畢方\n(C) 鯤鯓\n(D) 蝙蝠",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列何者為我國傳說中的「吉祥之獸」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "渾沌"
+      },
+      {
+        "letter": "B",
+        "text": "畢方"
+      },
+      {
+        "letter": "C",
+        "text": "鯤鯓"
+      },
+      {
+        "letter": "D",
+        "text": "蝙蝠"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-7",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "想要了解秦始皇的事蹟，可以參閱下列那一本書籍？\n(A) 《史記》\n(B) 《左傳》\n(C) 《三國演義》\n(D) 《文心雕龍》",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "想要了解秦始皇的事蹟，可以參閱下列那一本書籍？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "《史記》"
+      },
+      {
+        "letter": "B",
+        "text": "《左傳》"
+      },
+      {
+        "letter": "C",
+        "text": "《三國演義》"
+      },
+      {
+        "letter": "D",
+        "text": "《文心雕龍》"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-8",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列句子中「」內的成語，何者運用最恰當？\n(A) 他在本季獲利甚多，算是一個「阮囊羞澀」的大老闆\n(B) 父親的一席話，猶如「當頭棒喝」，使我完全醒悟過來\n(C) 運動之後，他為了「飲鴆止渴」，立刻跑去買飲料\n(D) 這位歌手很受歡迎，走到那裡都是「四面楚歌」",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列句子中「」內的成語，何者運用最恰當？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "他在本季獲利甚多，算是一個「阮囊羞澀」的大老闆"
+      },
+      {
+        "letter": "B",
+        "text": "父親的一席話，猶如「當頭棒喝」，使我完全醒悟過來"
+      },
+      {
+        "letter": "C",
+        "text": "運動之後，他為了「飲鴆止渴」，立刻跑去買飲料"
+      },
+      {
+        "letter": "D",
+        "text": "這位歌手很受歡迎，走到那裡都是「四面楚歌」"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-9",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列選項「乃」字的解釋，何者最正確？\n(A) 時窮節「乃」見：才\n(B) 家祭毋忘告「乃」翁：此\n(C) 今「乃」棄黔首以資敵國：仍\n(D) 斷其喉，盡其肉，「乃」去：竟",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列選項「乃」字的解釋，何者最正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "時窮節「乃」見：才"
+      },
+      {
+        "letter": "B",
+        "text": "家祭毋忘告「乃」翁：此"
+      },
+      {
+        "letter": "C",
+        "text": "今「乃」棄黔首以資敵國：仍"
+      },
+      {
+        "letter": "D",
+        "text": "斷其喉，盡其肉，「乃」去：竟"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-10",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列各句皆有「固」字，何者與「民惟邦本，本固邦寧」的「固」字意義相同？\n(A) 君子「固」窮\n(B) 取兵士心，以「固」其權\n(C) 其聞道也，「固」先乎吾\n(D) 毋意，毋必，毋「固」，毋我",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列各句皆有「固」字，何者與「民惟邦本，本固邦寧」的「固」字意義相同？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "君子「固」窮"
+      },
+      {
+        "letter": "B",
+        "text": "取兵士心，以「固」其權"
+      },
+      {
+        "letter": "C",
+        "text": "其聞道也，「固」先乎吾"
+      },
+      {
+        "letter": "D",
+        "text": "毋意，毋必，毋「固」，毋我"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-11",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列選項「」內的字，何者並非指涉顏色？\n(A) 「青」出於藍\n(B) 人老珠「黃」\n(C) 青紅「皂」白\n(D) 短「褐」穿結",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列選項「」內的字，何者並非指涉顏色？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "「青」出於藍"
+      },
+      {
+        "letter": "B",
+        "text": "人老珠「黃」"
+      },
+      {
+        "letter": "C",
+        "text": "青紅「皂」白"
+      },
+      {
+        "letter": "D",
+        "text": "短「褐」穿結"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-12",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列成語，何者與「孝道」最不相干？\n(A) 冬溫夏凊\n(B) 烏鳥私情\n(C) 菽水承歡\n(D) 簞食壺漿",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列成語，何者與「孝道」最不相干？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "冬溫夏凊"
+      },
+      {
+        "letter": "B",
+        "text": "烏鳥私情"
+      },
+      {
+        "letter": "C",
+        "text": "菽水承歡"
+      },
+      {
+        "letter": "D",
+        "text": "簞食壺漿"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-13",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關孔子對君子、小人的敘述，何者錯誤？\n(A) 君子懷刑，小人懷惠\n(B) 君子求諸己，小人求諸人\n(C) 君子坦蕩蕩，小人長戚戚\n(D) 君子同而不和，小人和而不同",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列有關孔子對君子、小人的敘述，何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "君子懷刑，小人懷惠"
+      },
+      {
+        "letter": "B",
+        "text": "君子求諸己，小人求諸人"
+      },
+      {
+        "letter": "C",
+        "text": "君子坦蕩蕩，小人長戚戚"
+      },
+      {
+        "letter": "D",
+        "text": "君子同而不和，小人和而不同"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-14",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「怨不在大，可畏惟人。載舟覆舟，所宜深慎。奔車朽索，其可忽乎？」（魏徵〈諫太宗十思疏〉）文句\n     所表達的意思與下列何者最為接近：\n(A) 勞心者治人，勞力者治於人\n(B) 得其民有道：得其心，斯得民矣\n(C) 得志，與民由之；不得志，獨行其道\n(D) 富貴不能淫，貧賤不能移，威武不能屈",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "「怨不在大，可畏惟人。載舟覆舟，所宜深慎。奔車朽索，其可忽乎？」（魏徵〈諫太宗十思疏〉）文句\n     所表達的意思與下列何者最為接近：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "勞心者治人，勞力者治於人"
+      },
+      {
+        "letter": "B",
+        "text": "得其民有道：得其心，斯得民矣"
+      },
+      {
+        "letter": "C",
+        "text": "得志，與民由之；不得志，獨行其道"
+      },
+      {
+        "letter": "D",
+        "text": "富貴不能淫，貧賤不能移，威武不能屈"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-15",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列各組「」內的字，意義相同的選項是：\n(A) 「行」有餘力，則以學文／昔別君未婚，兒女忽成「行」\n(B) 「薄」暮冥冥，虎嘯猿啼／不宜妄自菲「薄」，引喻失義\n(C) 一日「暴」之，十日寒之／「暴」虎馮河，死而無悔者，吾不與也\n(D) 讀書未百卷，「信」口嘲風花／低眉「信」手續續彈，說盡心中無限事",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列各組「」內的字，意義相同的選項是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "「行」有餘力，則以學文／昔別君未婚，兒女忽成「行」"
+      },
+      {
+        "letter": "B",
+        "text": "「薄」暮冥冥，虎嘯猿啼／不宜妄自菲「薄」，引喻失義"
+      },
+      {
+        "letter": "C",
+        "text": "一日「暴」之，十日寒之／「暴」虎馮河，死而無悔者，吾不與也"
+      },
+      {
+        "letter": "D",
+        "text": "讀書未百卷，「信」口嘲風花／低眉「信」手續續彈，說盡心中無限事"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-16",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「緣」字有作「因為、由於」的解釋，例如蘇軾詩句：「只緣身在此山中」。下列與此「緣」字意義相同\n     的選項是：\n(A) 「緣」溪行，忘路之遠近\n(B) 白髮三千丈，「緣」愁似箇長\n(C) 繡羽銜花他自得，紅顏騎竹我無「緣」\n(D) 以若所為，求若所欲，猶「緣」木而求魚也",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "「緣」字有作「因為、由於」的解釋，例如蘇軾詩句：「只緣身在此山中」。下列與此「緣」字意義相同\n     的選項是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "「緣」溪行，忘路之遠近"
+      },
+      {
+        "letter": "B",
+        "text": "白髮三千丈，「緣」愁似箇長"
+      },
+      {
+        "letter": "C",
+        "text": "繡羽銜花他自得，紅顏騎竹我無「緣」"
+      },
+      {
+        "letter": "D",
+        "text": "以若所為，求若所欲，猶「緣」木而求魚也"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-17",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列選項中的「相」字，何者作動詞使用？\n(A) 守望「相」助\n(B) 「相」夫教子\n(C) 旗鼓「相」當\n(D) 實不「相」瞞",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列選項中的「相」字，何者作動詞使用？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "守望「相」助"
+      },
+      {
+        "letter": "B",
+        "text": "「相」夫教子"
+      },
+      {
+        "letter": "C",
+        "text": "旗鼓「相」當"
+      },
+      {
+        "letter": "D",
+        "text": "實不「相」瞞"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-18",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列選項「」中之字，何組意義相同？\n(A) 「強」弩之末／「強」辭奪理\n(B) 日正「當」中／「當」省則省\n(C) 「惟」見長江天際流／「惟」有飲者留其名\n(D) 「安」能辨我是雄雌／此心「安」處是吾鄉",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列選項「」中之字，何組意義相同？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "「強」弩之末／「強」辭奪理"
+      },
+      {
+        "letter": "B",
+        "text": "日正「當」中／「當」省則省"
+      },
+      {
+        "letter": "C",
+        "text": "「惟」見長江天際流／「惟」有飲者留其名"
+      },
+      {
+        "letter": "D",
+        "text": "「安」能辨我是雄雌／此心「安」處是吾鄉"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-19",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列各選項「」中的字，何者意義相同？\n(A) 得其船，便扶「向」路╱「向」陽花木易逢春\n(B) 名「屬」教坊第一部╱有良田、美池、桑、竹之「屬」\n(C) 「一」則以喜，「一」則以懼╱長煙「一」空，皓月千里\n(D) 時窮節乃「見」，一一垂丹青╱寄身於翰墨，「見」意於篇籍",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列各選項「」中的字，何者意義相同？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "得其船，便扶「向」路╱「向」陽花木易逢春"
+      },
+      {
+        "letter": "B",
+        "text": "名「屬」教坊第一部╱有良田、美池、桑、竹之「屬」"
+      },
+      {
+        "letter": "C",
+        "text": "「一」則以喜，「一」則以懼╱長煙「一」空，皓月千里"
+      },
+      {
+        "letter": "D",
+        "text": "時窮節乃「見」，一一垂丹青╱寄身於翰墨，「見」意於篇籍"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-20",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列選項中「」內的詞性，何者兩兩相同？\n(A) 「危」崖萬仞／曦照「危」峨\n(B) 積非成「是」／馬首「是」瞻\n(C) 寡廉「鮮」恥／顏色「鮮」明\n(D) 精「益」求精／延年「益」壽",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列選項中「」內的詞性，何者兩兩相同？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "「危」崖萬仞／曦照「危」峨"
+      },
+      {
+        "letter": "B",
+        "text": "積非成「是」／馬首「是」瞻"
+      },
+      {
+        "letter": "C",
+        "text": "寡廉「鮮」恥／顏色「鮮」明"
+      },
+      {
+        "letter": "D",
+        "text": "精「益」求精／延年「益」壽"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-21",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列詩句「」中的語詞，何者為狀聲詞？\n(A) 竹竿何「嫋嫋」，魚尾何簁簁\n(B) 青青河邊草，「綿綿」思遠道\n(C) 漠漠帆來重，「冥冥」鳥去遲\n(D) 亭亭山上松，「瑟瑟」谷中風",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列詩句「」中的語詞，何者為狀聲詞？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "竹竿何「嫋嫋」，魚尾何簁簁"
+      },
+      {
+        "letter": "B",
+        "text": "青青河邊草，「綿綿」思遠道"
+      },
+      {
+        "letter": "C",
+        "text": "漠漠帆來重，「冥冥」鳥去遲"
+      },
+      {
+        "letter": "D",
+        "text": "亭亭山上松，「瑟瑟」谷中風"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-22",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那個成語不是形容努力勤奮的樣子？\n(A) 幡然改進\n(B) 兢兢業業\n(C) 孜孜不倦\n(D) 宵衣旰食",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那個成語不是形容努力勤奮的樣子？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "幡然改進"
+      },
+      {
+        "letter": "B",
+        "text": "兢兢業業"
+      },
+      {
+        "letter": "C",
+        "text": "孜孜不倦"
+      },
+      {
+        "letter": "D",
+        "text": "宵衣旰食"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-23",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "《論語．公冶長》記載顏淵說：「願無伐善，無施勞。」這段話的意思是：\n(A) 不要攻擊有善行的人，自己也不要過於勞累\n(B) 希望不要炫耀自己的善行，也不要誇大自己的功勞\n(C) 希望國君能不攻伐施行德政的鄰國，也不妄加勞役於國人\n(D) 自己達到捨得的境界之後，希望能夠求取善果，並且不作不食",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "《論語．公冶長》記載顏淵說：「願無伐善，無施勞。」這段話的意思是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不要攻擊有善行的人，自己也不要過於勞累"
+      },
+      {
+        "letter": "B",
+        "text": "希望不要炫耀自己的善行，也不要誇大自己的功勞"
+      },
+      {
+        "letter": "C",
+        "text": "希望國君能不攻伐施行德政的鄰國，也不妄加勞役於國人"
+      },
+      {
+        "letter": "D",
+        "text": "自己達到捨得的境界之後，希望能夠求取善果，並且不作不食"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-24",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "孟浩然〈春曉〉：「春眠不覺曉，處處聞啼鳥。夜來風雨聲，花落知多少？」這首詩表現出來的是：\n(A) 人生如夢的感慨\n(B) 人才凋零的痛惜\n(C) 詩人樂春傷春的複雜心情\n(D) 「一年之計在於春，一日之計在於晨」的自我期許",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "孟浩然〈春曉〉：「春眠不覺曉，處處聞啼鳥。夜來風雨聲，花落知多少？」這首詩表現出來的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "人生如夢的感慨"
+      },
+      {
+        "letter": "B",
+        "text": "人才凋零的痛惜"
+      },
+      {
+        "letter": "C",
+        "text": "詩人樂春傷春的複雜心情"
+      },
+      {
+        "letter": "D",
+        "text": "「一年之計在於春，一日之計在於晨」的自我期許"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-25",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "郁永河《裨海記遊》卷下記載：「大風拔木，三晝夜不輟，草屋二十間，圯者過半。夜臥聞草樹與海濤聲\n     澎湃震耳。…風雨益橫，…而萬山崩流並下，氾濫四溢。」此文中所描寫之情景，乃導因於何種現象？\n(A) 地震\n(B) 颱風\n(C) 土石流\n(D) 龍捲風",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "郁永河《裨海記遊》卷下記載：「大風拔木，三晝夜不輟，草屋二十間，圯者過半。夜臥聞草樹與海濤聲\n     澎湃震耳。…風雨益橫，…而萬山崩流並下，氾濫四溢。」此文中所描寫之情景，乃導因於何種現象？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "地震"
+      },
+      {
+        "letter": "B",
+        "text": "颱風"
+      },
+      {
+        "letter": "C",
+        "text": "土石流"
+      },
+      {
+        "letter": "D",
+        "text": "龍捲風"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-26",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "孔尚任於《桃花扇》續四十齣〈餘韻〉寫下：「眼看他起朱樓，眼看他讌賓客，眼看他樓塌了。」下列何\n     者意思與之最相近？\n(A) 風華絕代\n(B) 世事盛衰\n(C) 俯仰自如\n(D) 哀樂由人",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "孔尚任於《桃花扇》續四十齣〈餘韻〉寫下：「眼看他起朱樓，眼看他讌賓客，眼看他樓塌了。」下列何\n     者意思與之最相近？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "風華絕代"
+      },
+      {
+        "letter": "B",
+        "text": "世事盛衰"
+      },
+      {
+        "letter": "C",
+        "text": "俯仰自如"
+      },
+      {
+        "letter": "D",
+        "text": "哀樂由人"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-27",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「善言古者合之於今，能述遠者考之於近。故說事者上陳五帝之功，而思之於身，下列桀、紂之敗，而戒\n     之於己。」（《新語．術事》）根據本文，下列敘述何者最切近其為文之旨？\n(A) 能言善道\n(B) 戒之在得\n(C) 善惡有報\n(D) 以古鑑今",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "「善言古者合之於今，能述遠者考之於近。故說事者上陳五帝之功，而思之於身，下列桀、紂之敗，而戒\n     之於己。」（《新語．術事》）根據本文，下列敘述何者最切近其為文之旨？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "能言善道"
+      },
+      {
+        "letter": "B",
+        "text": "戒之在得"
+      },
+      {
+        "letter": "C",
+        "text": "善惡有報"
+      },
+      {
+        "letter": "D",
+        "text": "以古鑑今"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-28",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "陶淵明〈詠貧士〉：「量力守故轍，豈不寒與飢？知音茍不存，已矣何所悲！」詩中所呈現的心境，與下\n     列那一個選項最為貼近？\n(A) 行不由徑\n(B) 尋覓知己\n(C) 安貧守道\n(D) 悲天憫人",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "陶淵明〈詠貧士〉：「量力守故轍，豈不寒與飢？知音茍不存，已矣何所悲！」詩中所呈現的心境，與下\n     列那一個選項最為貼近？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行不由徑"
+      },
+      {
+        "letter": "B",
+        "text": "尋覓知己"
+      },
+      {
+        "letter": "C",
+        "text": "安貧守道"
+      },
+      {
+        "letter": "D",
+        "text": "悲天憫人"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-29",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「少時壯且厲，撫劍獨行遊；誰言行遊近，張掖至幽州。飢食首陽薇，渴飲易水流。不見相知人，惟見古\n     時丘。路邊兩高墳，伯牙與莊周；此士難再得，吾行欲何求！」（陶淵明〈擬古九首〉之八）根據本詩，\n     下列敘述何者最切近其詩旨？\n(A) 志在一番作為\n(B) 嚮往遊歷山水\n(C) 悲傷好友離去\n(D) 感歎典型不再",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "「少時壯且厲，撫劍獨行遊；誰言行遊近，張掖至幽州。飢食首陽薇，渴飲易水流。不見相知人，惟見古\n     時丘。路邊兩高墳，伯牙與莊周；此士難再得，吾行欲何求！」（陶淵明〈擬古九首〉之八）根據本詩，\n     下列敘述何者最切近其詩旨？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "志在一番作為"
+      },
+      {
+        "letter": "B",
+        "text": "嚮往遊歷山水"
+      },
+      {
+        "letter": "C",
+        "text": "悲傷好友離去"
+      },
+      {
+        "letter": "D",
+        "text": "感歎典型不再"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-30",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "杜甫〈月夜〉：「今夜鄜州月，閨中只獨看。遙憐小兒女，未解憶長安。香霧雲鬟濕，清輝玉臂寒。何時\n     倚虛幌，雙照淚痕乾。」詩句中抒發了下列那一種感慨？\n(A) 年華老大，一事無成\n(B) 思念親人，期盼團圓\n(C) 貶離京城，懷念國君\n(D) 登樓憶友，不勝唏噓",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "杜甫〈月夜〉：「今夜鄜州月，閨中只獨看。遙憐小兒女，未解憶長安。香霧雲鬟濕，清輝玉臂寒。何時\n     倚虛幌，雙照淚痕乾。」詩句中抒發了下列那一種感慨？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "年華老大，一事無成"
+      },
+      {
+        "letter": "B",
+        "text": "思念親人，期盼團圓"
+      },
+      {
+        "letter": "C",
+        "text": "貶離京城，懷念國君"
+      },
+      {
+        "letter": "D",
+        "text": "登樓憶友，不勝唏噓"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-31",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "根據「吾嘗聞大勇於夫子矣：自反而不縮，雖褐寬博，吾不惴焉？自反而縮，雖千萬人，吾往矣！」請選\n     出正確的選項：\n(A) 句中的「反」是反敗為勝的意思\n(B) 句中的「縮」是退縮的意思\n(C) 句中的「大勇」和「擇善固執」意義相近\n(D) 「自反而縮，雖千萬人，吾往矣！」就是不論對錯，一意孤行的意思",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "根據「吾嘗聞大勇於夫子矣：自反而不縮，雖褐寬博，吾不惴焉？自反而縮，雖千萬人，吾往矣！」請選\n     出正確的選項：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "句中的「反」是反敗為勝的意思"
+      },
+      {
+        "letter": "B",
+        "text": "句中的「縮」是退縮的意思"
+      },
+      {
+        "letter": "C",
+        "text": "句中的「大勇」和「擇善固執」意義相近"
+      },
+      {
+        "letter": "D",
+        "text": "「自反而縮，雖千萬人，吾往矣！」就是不論對錯，一意孤行的意思"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-32",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "蘇軾〈與子明兄〉：「吾兄弟俱老矣，當以時自娛，世事萬端皆不足介意。所謂自娛者，亦非世俗之樂，\n     但胸中廓然無一物，即天壤之內，山川草木蟲魚之類，皆是供吾家樂事也。」蘇軾的心境與下列那一個選\n     項最為貼近？\n(A) 心無旁鶩，為學樂道\n(B) 心無掛礙，無往不樂\n(C) 胸無大志，自得其樂\n(D) 胸無點墨，樂山樂水",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "蘇軾〈與子明兄〉：「吾兄弟俱老矣，當以時自娛，世事萬端皆不足介意。所謂自娛者，亦非世俗之樂，\n     但胸中廓然無一物，即天壤之內，山川草木蟲魚之類，皆是供吾家樂事也。」蘇軾的心境與下列那一個選\n     項最為貼近？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "心無旁鶩，為學樂道"
+      },
+      {
+        "letter": "B",
+        "text": "心無掛礙，無往不樂"
+      },
+      {
+        "letter": "C",
+        "text": "胸無大志，自得其樂"
+      },
+      {
+        "letter": "D",
+        "text": "胸無點墨，樂山樂水"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-33",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "魯穆公使眾公子或宦於晉，或宦於荊。犁鉏曰：「假人於越而救溺子，越人雖善游，子必不生矣。失火而取水\n     於海，海水雖多，火必不滅矣，＿＿＿。今晉與荊雖強，而齊近魯，患其不救乎！」（《韓非子．說林》）引\n     文中＿＿＿，可填入的最適當選項是：\n(A) 海水不可斗量\n(B) 求人不如求己\n(C) 遠水不救近火\n(D) 井水不犯河水",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "魯穆公使眾公子或宦於晉，或宦於荊。犁鉏曰：「假人於越而救溺子，越人雖善游，子必不生矣。失火而取水\n     於海，海水雖多，火必不滅矣，＿＿＿。今晉與荊雖強，而齊近魯，患其不救乎！」（《韓非子．說林》）引\n     文中＿＿＿，可填入的最適當選項是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "海水不可斗量"
+      },
+      {
+        "letter": "B",
+        "text": "求人不如求己"
+      },
+      {
+        "letter": "C",
+        "text": "遠水不救近火"
+      },
+      {
+        "letter": "D",
+        "text": "井水不犯河水"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-34",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "白居易〈截樹〉：「種樹當前軒，樹高柯葉繁。惜哉遠山色，隱此蒙籠間。一朝持斧斤，□自截其端。……\n     始有清風至，稍見飛鳥還。開懷東南望，□遠心遼然。人各有偏好，物莫能兩全。豈不愛柔條，不如見青\n     山。」根據本文，空格中依序最可能出現的字為：\n(A) 手、足\n(B) 手、目\n(C) 色、目\n(D) 色、足",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "白居易〈截樹〉：「種樹當前軒，樹高柯葉繁。惜哉遠山色，隱此蒙籠間。一朝持斧斤，□自截其端。……\n     始有清風至，稍見飛鳥還。開懷東南望，□遠心遼然。人各有偏好，物莫能兩全。豈不愛柔條，不如見青\n     山。」根據本文，空格中依序最可能出現的字為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "手、足"
+      },
+      {
+        "letter": "B",
+        "text": "手、目"
+      },
+      {
+        "letter": "C",
+        "text": "色、目"
+      },
+      {
+        "letter": "D",
+        "text": "色、足"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-35",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「鄰人有狗，養在陽臺，大概是囚禁太久，性情乖戾，見人就吠，窮凶極惡—其實只是一隻□□□□的小狗\n     而已。我們不堪其擾，只得築起一道牆，因眼不見為淨，彼此成了上古之民，雞犬相聞，老死不相往來。」根據\n     本文，空格中最適宜填上之詞語為：\n(A) 色舞眉飛\n(B) 色厲內荏\n(C) 道貌岸然\n(D) 狐假虎威",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "「鄰人有狗，養在陽臺，大概是囚禁太久，性情乖戾，見人就吠，窮凶極惡—其實只是一隻□□□□的小狗\n     而已。我們不堪其擾，只得築起一道牆，因眼不見為淨，彼此成了上古之民，雞犬相聞，老死不相往來。」根據\n     本文，空格中最適宜填上之詞語為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "色舞眉飛"
+      },
+      {
+        "letter": "B",
+        "text": "色厲內荏"
+      },
+      {
+        "letter": "C",
+        "text": "道貌岸然"
+      },
+      {
+        "letter": "D",
+        "text": "狐假虎威"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-36",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「秋天剛過／它便開始引火自焚／朱紅色的火燄／燃燒一整個冬天／卻沒有灰燼／我和弟弟常蹲在它身邊／取\n     暖」，由內容判斷，這首詩描寫那一種植物？\n(A) 火鶴\n(B) 天堂鳥\n(C) 紅玫瑰\n(D) 聖誕紅",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "「秋天剛過／它便開始引火自焚／朱紅色的火燄／燃燒一整個冬天／卻沒有灰燼／我和弟弟常蹲在它身邊／取\n     暖」，由內容判斷，這首詩描寫那一種植物？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "火鶴"
+      },
+      {
+        "letter": "B",
+        "text": "天堂鳥"
+      },
+      {
+        "letter": "C",
+        "text": "紅玫瑰"
+      },
+      {
+        "letter": "D",
+        "text": "聖誕紅"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-37",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「當春發芽的樹木不知凡幾，何以專讓柳條作春的主人呢？只為別的樹木都憑仗了東君的勢力而拚命\n     向上，一味好高，忘記了自己的根本，其貪婪之相不合於春的精神。最能象徵春的神意的，只有垂楊。」\n     請根據文意，選出最正確的選項：\n(A) 讚美楊柳不忘本\n(B) 東君是楊柳的靠山\n(C) 讚美楊柳在春天發芽\n(D) 春天富有貪婪的精神",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "「當春發芽的樹木不知凡幾，何以專讓柳條作春的主人呢？只為別的樹木都憑仗了東君的勢力而拚命\n     向上，一味好高，忘記了自己的根本，其貪婪之相不合於春的精神。最能象徵春的神意的，只有垂楊。」\n     請根據文意，選出最正確的選項：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "讚美楊柳不忘本"
+      },
+      {
+        "letter": "B",
+        "text": "東君是楊柳的靠山"
+      },
+      {
+        "letter": "C",
+        "text": "讚美楊柳在春天發芽"
+      },
+      {
+        "letter": "D",
+        "text": "春天富有貪婪的精神"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-38",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「貓項下偶帶數珠，老鼠見之，喜曰：『貓吃素矣。』率其子孫詣貓言謝。貓大叫一聲，連啖數鼠。老鼠\n     急走乃脫，伸舌曰：『他吃素後越兇了』」。（《笑府》）根據本文，老鼠所以為貓吞噬的原因是：\n(A) 自不量力\n(B) 自高自大\n(C) 自是誤判\n(D) 自尋短見",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "「貓項下偶帶數珠，老鼠見之，喜曰：『貓吃素矣。』率其子孫詣貓言謝。貓大叫一聲，連啖數鼠。老鼠\n     急走乃脫，伸舌曰：『他吃素後越兇了』」。（《笑府》）根據本文，老鼠所以為貓吞噬的原因是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "自不量力"
+      },
+      {
+        "letter": "B",
+        "text": "自高自大"
+      },
+      {
+        "letter": "C",
+        "text": "自是誤判"
+      },
+      {
+        "letter": "D",
+        "text": "自尋短見"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-39",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列各組對話中的稱謂用語，正確的選項是：\n(A) 甲：令嬡是今年畢業嗎？／乙：小女明年才畢業。\n(B) 甲：祝令堂身體健康。／乙：我代替家嚴謝謝你。\n(C) 甲：尊夫人在那裡高就？／乙：外子任職於捷運局。\n(D) 甲：請問嫂夫人會和你一起來嗎？／乙：我們賢伉儷一定準時到。",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列各組對話中的稱謂用語，正確的選項是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "甲：令嬡是今年畢業嗎？／乙：小女明年才畢業。"
+      },
+      {
+        "letter": "B",
+        "text": "甲：祝令堂身體健康。／乙：我代替家嚴謝謝你。"
+      },
+      {
+        "letter": "C",
+        "text": "甲：尊夫人在那裡高就？／乙：外子任職於捷運局。"
+      },
+      {
+        "letter": "D",
+        "text": "甲：請問嫂夫人會和你一起來嗎？／乙：我們賢伉儷一定準時到。"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-40",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列關於年齡的詞語，敘述錯誤的是：\n(A) 花甲之年：六十歲\n(B) 弱冠之年：二十歲\n(C) 耳順之年：五十歲\n(D) 強仕之年：四十歲",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列關於年齡的詞語，敘述錯誤的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "花甲之年：六十歲"
+      },
+      {
+        "letter": "B",
+        "text": "弱冠之年：二十歲"
+      },
+      {
+        "letter": "C",
+        "text": "耳順之年：五十歲"
+      },
+      {
+        "letter": "D",
+        "text": "強仕之年：四十歲"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-41",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "有關傳統「對聯」的敘述，下列何者正確？\n(A) 末字仄聲的是上聯，末字平聲的是下聯\n(B) 末字平聲的是上聯，末字仄聲的是下聯\n(C) 首字平聲的是上聯，首字仄聲的是下聯\n(D) 首字仄聲的是上聯，首字平聲的是下聯",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "有關傳統「對聯」的敘述，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "末字仄聲的是上聯，末字平聲的是下聯"
+      },
+      {
+        "letter": "B",
+        "text": "末字平聲的是上聯，末字仄聲的是下聯"
+      },
+      {
+        "letter": "C",
+        "text": "首字平聲的是上聯，首字仄聲的是下聯"
+      },
+      {
+        "letter": "D",
+        "text": "首字仄聲的是上聯，首字平聲的是下聯"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-42",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不應該出現在交通部致行政院函的「主旨」中？\n(A) 鈞院\n(B) 本部\n(C) 請 核備\n(D) 希 轉行照辦",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列何者不應該出現在交通部致行政院函的「主旨」中？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "鈞院"
+      },
+      {
+        "letter": "B",
+        "text": "本部"
+      },
+      {
+        "letter": "C",
+        "text": "請 核備"
+      },
+      {
+        "letter": "D",
+        "text": "希 轉行照辦"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-43",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "日常生活中，人情世事，婚喪喜慶，題辭的使用極其普遍。以下正確的選項是：\n(A) 福壽全歸：用於賀人壽誕\n(B) 妙筆生花：用於作文比賽勝利\n(C) 杏壇春暖：用於賀醫院、診所開業\n(D) 妙選東床：用於賀新居落成",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "日常生活中，人情世事，婚喪喜慶，題辭的使用極其普遍。以下正確的選項是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "福壽全歸：用於賀人壽誕"
+      },
+      {
+        "letter": "B",
+        "text": "妙筆生花：用於作文比賽勝利"
+      },
+      {
+        "letter": "C",
+        "text": "杏壇春暖：用於賀醫院、診所開業"
+      },
+      {
+        "letter": "D",
+        "text": "妙選東床：用於賀新居落成"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-44",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列題辭，何者最不適用於祝賀職務升遷？\n(A) 壯志克伸\n(B) 德業日新\n(C) 猛著先鞭\n(D) 初展鴻猷",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列題辭，何者最不適用於祝賀職務升遷？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "壯志克伸"
+      },
+      {
+        "letter": "B",
+        "text": "德業日新"
+      },
+      {
+        "letter": "C",
+        "text": "猛著先鞭"
+      },
+      {
+        "letter": "D",
+        "text": "初展鴻猷"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-45",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "幕僚處理公務，表達意見，以供上級了解案情，並作抉擇的依據時使用：\n(A) 簽\n(B) 通知\n(C) 書函\n(D) 申請函",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "幕僚處理公務，表達意見，以供上級了解案情，並作抉擇的依據時使用：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "簽"
+      },
+      {
+        "letter": "B",
+        "text": "通知"
+      },
+      {
+        "letter": "C",
+        "text": "書函"
+      },
+      {
+        "letter": "D",
+        "text": "申請函"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-46",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關公文的敘述，何者錯誤？\n(A) 公務未決階段，需要磋商及徵詢意見、通報等，使用「說帖」\n(B) 公文用語中，下級機關首長對上級機關首長自稱時，須用「職」\n(C) 公文有固定結構體式，就一般公文主體言，首當具列發文機關全銜及文別\n(D) 公文三段式結構的「辦法」，可因公文內容改用建議、請求、擬辦、核示事項等名稱",
+    "page": 3,
+    "accepted": [
+      "A",
+      "B",
+      "AB"
+    ],
+    "correction": "依考選部更正公告，接受答案：A、B、AB。",
+    "stem": "下列有關公文的敘述，何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "公務未決階段，需要磋商及徵詢意見、通報等，使用「說帖」"
+      },
+      {
+        "letter": "B",
+        "text": "公文用語中，下級機關首長對上級機關首長自稱時，須用「職」"
+      },
+      {
+        "letter": "C",
+        "text": "公文有固定結構體式，就一般公文主體言，首當具列發文機關全銜及文別"
+      },
+      {
+        "letter": "D",
+        "text": "公文三段式結構的「辦法」，可因公文內容改用建議、請求、擬辦、核示事項等名稱"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-47",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "臺北市立○○國民中學擬由○○○老師帶領學生○○人前往動物園參觀，發文臺北市立動物園時，當如何稱對方\n     與自稱？\n(A) 鈞園／敝校\n(B) 貴園／鄙校\n(C) 貴園／本校\n(D) 大園／小校",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "臺北市立○○國民中學擬由○○○老師帶領學生○○人前往動物園參觀，發文臺北市立動物園時，當如何稱對方\n     與自稱？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "鈞園／敝校"
+      },
+      {
+        "letter": "B",
+        "text": "貴園／鄙校"
+      },
+      {
+        "letter": "C",
+        "text": "貴園／本校"
+      },
+      {
+        "letter": "D",
+        "text": "大園／小校"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-48",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下行文的「函」末機關首長簽署用印，應使用：\n(A) 關防\n(B) 職章\n(C) 職銜簽字章\n(D) 個人印鑑章",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下行文的「函」末機關首長簽署用印，應使用：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "關防"
+      },
+      {
+        "letter": "B",
+        "text": "職章"
+      },
+      {
+        "letter": "C",
+        "text": "職銜簽字章"
+      },
+      {
+        "letter": "D",
+        "text": "個人印鑑章"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-49",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "有關書信提稱語使用對象，下列何者用法正確？\n(A) 對長輩可用雅鑒\n(B) 對晚輩可用如面\n(C) 對師長可用台端\n(D) 對政界可用麾下",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有關書信提稱語使用對象，下列何者用法正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "對長輩可用雅鑒"
+      },
+      {
+        "letter": "B",
+        "text": "對晚輩可用如面"
+      },
+      {
+        "letter": "C",
+        "text": "對師長可用台端"
+      },
+      {
+        "letter": "D",
+        "text": "對政界可用麾下"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "101-0-50",
+    "examId": "101-0",
+    "year": 101,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "你要祝賀朋友王先生與林小姐的新婚之喜，以下那一組不宜作為賀聯？\n(A) 歡聯二姓，緣結三生\n(B) 琴和瑟亦靜，花好月為圓\n(C) 壺中日月三生夢，海上雲山萬里秋\n(D) 紅妝帶綰同心結，碧沼花開並蒂蓮",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "你要祝賀朋友王先生與林小姐的新婚之喜，以下那一組不宜作為賀聯？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "歡聯二姓，緣結三生"
+      },
+      {
+        "letter": "B",
+        "text": "琴和瑟亦靜，花好月為圓"
+      },
+      {
+        "letter": "C",
+        "text": "壺中日月三生夢，海上雲山萬里秋"
+      },
+      {
+        "letter": "D",
+        "text": "紅妝帶綰同心結，碧沼花開並蒂蓮"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

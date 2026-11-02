@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "097-1-1",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「性別」除了單純的「生理性別」外，還有所謂的「社會性別」，即一般所謂的性別角色，下列那一項代\n     表的是社會性別？\n(A) 女生適合以老師為職業\n(B) 男生的肩膀比較寬厚\n(C) 女生會有月經\n(D) 男生聲音低沉",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "「性別」除了單純的「生理性別」外，還有所謂的「社會性別」，即一般所謂的性別角色，下列那一項代\n     表的是社會性別？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "女生適合以老師為職業"
+      },
+      {
+        "letter": "B",
+        "text": "男生的肩膀比較寬厚"
+      },
+      {
+        "letter": "C",
+        "text": "女生會有月經"
+      },
+      {
+        "letter": "D",
+        "text": "男生聲音低沉"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-2",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小美從網路上下載多首音樂，燒錄成光碟分送給好友小芳等五人。有關小美的行為，下列敘述何者正確？\n(A) 因網路是公開的，所以不違法\n(B) 因並未從中牟利，所以不違法\n(C) 觸犯著作權法\n(D) 觸犯刑事訴訟法",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小美從網路上下載多首音樂，燒錄成光碟分送給好友小芳等五人。有關小美的行為，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "因網路是公開的，所以不違法"
+      },
+      {
+        "letter": "B",
+        "text": "因並未從中牟利，所以不違法"
+      },
+      {
+        "letter": "C",
+        "text": "觸犯著作權法"
+      },
+      {
+        "letter": "D",
+        "text": "觸犯刑事訴訟法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-3",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "利益團體與政黨，均是由一群具有共同目標的人所結合而成的團體，但兩者對政治的影響力並不相同，若\n     探討兩者的關係，則下列那一項敘述是正確的？\n(A) 政黨和利益團體一樣，都須透過選舉以實現自己的主張\n(B) 政黨必須透過利益團體的力量，才能促使政府改變政策\n(C) 利益團體為保持政治上的中立，不與任何政黨發生關聯\n(D) 利益團體可不提名候選人，僅支持有利於團體的候選人",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "利益團體與政黨，均是由一群具有共同目標的人所結合而成的團體，但兩者對政治的影響力並不相同，若\n     探討兩者的關係，則下列那一項敘述是正確的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "政黨和利益團體一樣，都須透過選舉以實現自己的主張"
+      },
+      {
+        "letter": "B",
+        "text": "政黨必須透過利益團體的力量，才能促使政府改變政策"
+      },
+      {
+        "letter": "C",
+        "text": "利益團體為保持政治上的中立，不與任何政黨發生關聯"
+      },
+      {
+        "letter": "D",
+        "text": "利益團體可不提名候選人，僅支持有利於團體的候選人"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-4",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "至善社區管理委員會委員 15 人，正在開會討論社區舉辦「耶誕晚會」事宜，委員們發言踴躍，但意見有些\n     紛歧，最後付諸表決，結果贊成舉辦晚會的委員 6 人，反對舉辦晚會的委員也是 6 人。依會議規範，主席\n     對此表決案，可做何種處理？\n(A) 宣布此一議案通過\n(B) 擱置此一議案，下次再討論\n(C) 主席加入反對一方，否決此案\n(D) 主席要求其他三位委員表明態度",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "至善社區管理委員會委員 15 人，正在開會討論社區舉辦「耶誕晚會」事宜，委員們發言踴躍，但意見有些\n     紛歧，最後付諸表決，結果贊成舉辦晚會的委員 6 人，反對舉辦晚會的委員也是 6 人。依會議規範，主席\n     對此表決案，可做何種處理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "宣布此一議案通過"
+      },
+      {
+        "letter": "B",
+        "text": "擱置此一議案，下次再討論"
+      },
+      {
+        "letter": "C",
+        "text": "主席加入反對一方，否決此案"
+      },
+      {
+        "letter": "D",
+        "text": "主席要求其他三位委員表明態度"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-5",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小宜到某國旅遊的第一天，在咖啡店喝了一杯定價 150 元的「拿鐵」咖啡，第五天要離開時，又到同一家\n     店，卻發現「拿鐵」咖啡已漲成 400 元。請問該國可能正面臨何種經濟問題？\n(A) 貧窮循環\n(B) 生產過剩\n(C) 通貨緊縮\n(D) 通貨膨脹",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小宜到某國旅遊的第一天，在咖啡店喝了一杯定價 150 元的「拿鐵」咖啡，第五天要離開時，又到同一家\n     店，卻發現「拿鐵」咖啡已漲成 400 元。請問該國可能正面臨何種經濟問題？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "貧窮循環"
+      },
+      {
+        "letter": "B",
+        "text": "生產過剩"
+      },
+      {
+        "letter": "C",
+        "text": "通貨緊縮"
+      },
+      {
+        "letter": "D",
+        "text": "通貨膨脹"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-6",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "所謂「天下沒有白吃的午餐」，是指何種概念？\n(A) 市場均衡價格\n(B) 機會成本\n(C) 外部成本\n(D) 需求法則",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "所謂「天下沒有白吃的午餐」，是指何種概念？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "市場均衡價格"
+      },
+      {
+        "letter": "B",
+        "text": "機會成本"
+      },
+      {
+        "letter": "C",
+        "text": "外部成本"
+      },
+      {
+        "letter": "D",
+        "text": "需求法則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-7",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "阿輝的父親在各大報登報聲明斷絕與阿輝的父子關係，有關上述斷絕父子關係的聲明，下列敘述何者正確？\n(A) 父子關係不因聲明而斷絕\n(B) 如阿輝不表示反對則生效\n(C) 於登報 6 個月後自動生效\n(D) 聲明須經法院公證後生效",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "阿輝的父親在各大報登報聲明斷絕與阿輝的父子關係，有關上述斷絕父子關係的聲明，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "父子關係不因聲明而斷絕"
+      },
+      {
+        "letter": "B",
+        "text": "如阿輝不表示反對則生效"
+      },
+      {
+        "letter": "C",
+        "text": "於登報 6 個月後自動生效"
+      },
+      {
+        "letter": "D",
+        "text": "聲明須經法院公證後生效"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-8",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "趙小姐今年 7 月將從大學畢業，喜歡電腦的她正積極尋找能學以致用的工作。請問她目前的經濟角色包括那\n     些？①商品市場的消費者 ②生產要素市場的需求者 ③商品市場的生產者 ④生產要素市場的供給者\n(A) ①③\n(B) ①④\n(C) ②③\n(D) ②④",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "趙小姐今年 7 月將從大學畢業，喜歡電腦的她正積極尋找能學以致用的工作。請問她目前的經濟角色包括那\n     些？①商品市場的消費者 ②生產要素市場的需求者 ③商品市場的生產者 ④生產要素市場的供給者",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①③"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "②④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-9",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「130 公分的強者─柯曉瑄」，年齡 26 歲卻只有 8 歲孩童的身高，小時智力發展遲緩，如今從衛斯理大學畢\n     業，還要繼續攻讀MBA。她說：「天空才是我的極限！」上述事例鼓舞人們對生命應有下列何種態度？\n(A) 尊重生命超越障礙\n(B) 接受命運委屈求全\n(C) 控訴不公哀歎自憐\n(D) 隨波逐流自生自滅",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "「130 公分的強者─柯曉瑄」，年齡 26 歲卻只有 8 歲孩童的身高，小時智力發展遲緩，如今從衛斯理大學畢\n     業，還要繼續攻讀MBA。她說：「天空才是我的極限！」上述事例鼓舞人們對生命應有下列何種態度？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "尊重生命超越障礙"
+      },
+      {
+        "letter": "B",
+        "text": "接受命運委屈求全"
+      },
+      {
+        "letter": "C",
+        "text": "控訴不公哀歎自憐"
+      },
+      {
+        "letter": "D",
+        "text": "隨波逐流自生自滅"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-10",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依我國現行憲法規定，下列何者非立法院權限？\n(A) 憲法修正提案權\n(B) 考試院院長任命同意權\n(C) 行政院院長任命同意權\n(D) 總統副總統罷免案提案權",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "依我國現行憲法規定，下列何者非立法院權限？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "憲法修正提案權"
+      },
+      {
+        "letter": "B",
+        "text": "考試院院長任命同意權"
+      },
+      {
+        "letter": "C",
+        "text": "行政院院長任命同意權"
+      },
+      {
+        "letter": "D",
+        "text": "總統副總統罷免案提案權"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-11",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "韓國偶像裴勇俊訪臺，吸引了一堆迷哥迷姐前往機場接機，造成媒體的爭相追逐報導。針對臺灣近年來的\n     「韓流」現象，凸顯了何種文化的盛行？\n(A) 精緻文化\n(B) 大眾文化\n(C) 傳統文化\n(D) 次級文化",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "韓國偶像裴勇俊訪臺，吸引了一堆迷哥迷姐前往機場接機，造成媒體的爭相追逐報導。針對臺灣近年來的\n     「韓流」現象，凸顯了何種文化的盛行？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "精緻文化"
+      },
+      {
+        "letter": "B",
+        "text": "大眾文化"
+      },
+      {
+        "letter": "C",
+        "text": "傳統文化"
+      },
+      {
+        "letter": "D",
+        "text": "次級文化"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-12",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "近年來，總統經常代表國家出國訪問各邦交國以及與我國友好的國家。上述總統出訪活動，與下列何者的\n     業務關係最密切？\n(A) 經濟部\n(B) 外交部\n(C) 交通部\n(D) 國防部",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "近年來，總統經常代表國家出國訪問各邦交國以及與我國友好的國家。上述總統出訪活動，與下列何者的\n     業務關係最密切？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "經濟部"
+      },
+      {
+        "letter": "B",
+        "text": "外交部"
+      },
+      {
+        "letter": "C",
+        "text": "交通部"
+      },
+      {
+        "letter": "D",
+        "text": "國防部"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-13",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依照中央法規標準法規定，下列何者屬於機關發布之命令？\n(A) 國家通訊傳播委員會組織法\n(B) 臺灣地區與大陸地區人民關係條例\n(C) 省縣自治通則\n(D) 家庭暴力防治法施行細則",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "依照中央法規標準法規定，下列何者屬於機關發布之命令？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "國家通訊傳播委員會組織法"
+      },
+      {
+        "letter": "B",
+        "text": "臺灣地區與大陸地區人民關係條例"
+      },
+      {
+        "letter": "C",
+        "text": "省縣自治通則"
+      },
+      {
+        "letter": "D",
+        "text": "家庭暴力防治法施行細則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-14",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "就我國現行制度之規定，下列何者不是由人民選舉產生？\n(A) 總統、副總統\n(B) 臺北市長\n(C) 考試委員\n(D) 立法委員",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "就我國現行制度之規定，下列何者不是由人民選舉產生？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "總統、副總統"
+      },
+      {
+        "letter": "B",
+        "text": "臺北市長"
+      },
+      {
+        "letter": "C",
+        "text": "考試委員"
+      },
+      {
+        "letter": "D",
+        "text": "立法委員"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-15",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "利益團體由一群具有共同理念或利益的人所組成，希望影響政府的公共政策。下列那些屬於利益團體？\n      ①綠黨    ②勞動黨   ③律師公會   ④工業總會 ⑤主婦聯盟\n(A) ①②④\n(B) ①③⑤\n(C) ②③④\n(D) ③④⑤",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "利益團體由一群具有共同理念或利益的人所組成，希望影響政府的公共政策。下列那些屬於利益團體？\n      ①綠黨    ②勞動黨   ③律師公會   ④工業總會 ⑤主婦聯盟",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②④"
+      },
+      {
+        "letter": "B",
+        "text": "①③⑤"
+      },
+      {
+        "letter": "C",
+        "text": "②③④"
+      },
+      {
+        "letter": "D",
+        "text": "③④⑤"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-16",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某期財經雜誌內容寫著：「由於美元持續反彈，新臺幣面臨沉重的貶值壓力，近一個月以來，新臺幣兌美\n     元匯率已由 31.2 元兌 1 美元，變成 32.8 元兌 1 美元。」請問由雜誌內容判斷，新臺幣匯率變動所造成的影\n     響為何？\n(A) 此時購買進口商品較便宜\n(B) 到美國旅遊購物費用增加\n(C) 將導致進口商品成本減少\n(D) 對從事出口貿易商較不利",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "某期財經雜誌內容寫著：「由於美元持續反彈，新臺幣面臨沉重的貶值壓力，近一個月以來，新臺幣兌美\n     元匯率已由 31.2 元兌 1 美元，變成 32.8 元兌 1 美元。」請問由雜誌內容判斷，新臺幣匯率變動所造成的影\n     響為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "此時購買進口商品較便宜"
+      },
+      {
+        "letter": "B",
+        "text": "到美國旅遊購物費用增加"
+      },
+      {
+        "letter": "C",
+        "text": "將導致進口商品成本減少"
+      },
+      {
+        "letter": "D",
+        "text": "對從事出口貿易商較不利"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-17",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小明為某電腦公司的技術工程師，月薪三萬元，後來辭職轉到另一家公司擔任同樣性質的工作，月薪三萬\n     八千元，請問這個決定的機會成本是多少？\n(A) 八千元\n(B) 三萬八千元\n(C) 三萬元\n(D) 六萬八千元",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小明為某電腦公司的技術工程師，月薪三萬元，後來辭職轉到另一家公司擔任同樣性質的工作，月薪三萬\n     八千元，請問這個決定的機會成本是多少？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "八千元"
+      },
+      {
+        "letter": "B",
+        "text": "三萬八千元"
+      },
+      {
+        "letter": "C",
+        "text": "三萬元"
+      },
+      {
+        "letter": "D",
+        "text": "六萬八千元"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-18",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國是下列那些國際組織的會員國？①亞太經濟合作會議        ②聯合國   ③世界貿易組織 ④世界衛生組織\n(A) ①②\n(B) ①③\n(C) ②④\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "我國是下列那些國際組織的會員國？①亞太經濟合作會議        ②聯合國   ③世界貿易組織 ④世界衛生組織",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①③"
+      },
+      {
+        "letter": "C",
+        "text": "②④"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-19",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在「慕尼黑藝術節」的表演節目中，我國雲門舞集的「水月」舞蹈獲得全場觀眾的熱烈鼓掌歡呼。此項文\n     化活動發揮那些功能？①促進我國與異國的文化交流        ②為成功的國民外交    ③使外國人瞭解我國文化的\n     優雅內涵    ④為臺灣獲得外資投入的機會     ⑤加強官方外交\n(A) ①②③\n(B) ①③④\n(C) ②③④\n(D) ③④⑤",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在「慕尼黑藝術節」的表演節目中，我國雲門舞集的「水月」舞蹈獲得全場觀眾的熱烈鼓掌歡呼。此項文\n     化活動發揮那些功能？①促進我國與異國的文化交流        ②為成功的國民外交    ③使外國人瞭解我國文化的\n     優雅內涵    ④為臺灣獲得外資投入的機會     ⑤加強官方外交",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②③"
+      },
+      {
+        "letter": "B",
+        "text": "①③④"
+      },
+      {
+        "letter": "C",
+        "text": "②③④"
+      },
+      {
+        "letter": "D",
+        "text": "③④⑤"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-20",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關民法規定的敘述，何者為正確？\n(A) 年滿十八歲為自然人的成年年齡，是有行為能力人\n(B) 年滿七歲以上之未成年人，是無行為能力人\n(C) 男未滿十八歲，女未滿十六歲，不得結婚\n(D) 經法院宣告禁治產人是限制行為能力人",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列有關民法規定的敘述，何者為正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "年滿十八歲為自然人的成年年齡，是有行為能力人"
+      },
+      {
+        "letter": "B",
+        "text": "年滿七歲以上之未成年人，是無行為能力人"
+      },
+      {
+        "letter": "C",
+        "text": "男未滿十八歲，女未滿十六歲，不得結婚"
+      },
+      {
+        "letter": "D",
+        "text": "經法院宣告禁治產人是限制行為能力人"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-21",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國憲法規定「立法委員不得兼任官吏」，比較接近下列那一種政府制度下的特色？\n(A) 雙首長制\n(B) 總統制\n(C) 內閣制\n(D) 委員制",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "我國憲法規定「立法委員不得兼任官吏」，比較接近下列那一種政府制度下的特色？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "雙首長制"
+      },
+      {
+        "letter": "B",
+        "text": "總統制"
+      },
+      {
+        "letter": "C",
+        "text": "內閣制"
+      },
+      {
+        "letter": "D",
+        "text": "委員制"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-22",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國憲法及憲法增修條文的規定，立法委員選舉的選區劃分自第七屆起產生下列何項重大的變革？\n(A) 改為單一選區一票制\n(B) 改為單一選區兩票制\n(C) 改為複數選區一票制\n(D) 改為複數選區兩票制",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依據我國憲法及憲法增修條文的規定，立法委員選舉的選區劃分自第七屆起產生下列何項重大的變革？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "改為單一選區一票制"
+      },
+      {
+        "letter": "B",
+        "text": "改為單一選區兩票制"
+      },
+      {
+        "letter": "C",
+        "text": "改為複數選區一票制"
+      },
+      {
+        "letter": "D",
+        "text": "改為複數選區兩票制"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-23",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "行政院於 91 年 6 月修正公布公平交易法施行細則，以維護交易秩序與消費者利益，確保公平競爭，促進經\n     濟安定與繁榮。請問上述施行細則在法律上屬於何種位階？\n(A) 憲法\n(B) 法律\n(C) 行政法\n(D) 行政命令",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "行政院於 91 年 6 月修正公布公平交易法施行細則，以維護交易秩序與消費者利益，確保公平競爭，促進經\n     濟安定與繁榮。請問上述施行細則在法律上屬於何種位階？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "憲法"
+      },
+      {
+        "letter": "B",
+        "text": "法律"
+      },
+      {
+        "letter": "C",
+        "text": "行政法"
+      },
+      {
+        "letter": "D",
+        "text": "行政命令"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-24",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "全球的生態環境互相關連，熱帶雨林的消失會導致下列何項結果？\n(A) 氣溫上升\n(B) 氣溫下降\n(C) 臭氧層破洞\n(D) 紫外線增加",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "全球的生態環境互相關連，熱帶雨林的消失會導致下列何項結果？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "氣溫上升"
+      },
+      {
+        "letter": "B",
+        "text": "氣溫下降"
+      },
+      {
+        "letter": "C",
+        "text": "臭氧層破洞"
+      },
+      {
+        "letter": "D",
+        "text": "紫外線增加"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-25",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "文英家才剛買三天的知名品牌開飲機，突然爆炸起火，把廚房的牆壁及天花板熏黑，還差點釀成大禍。請\n     問文英的家人可以依據那一法律的規定，請求廠商對出了問題的產品做處理？\n(A) 刑法\n(B) 公平交易法\n(C) 商品標示法\n(D) 消費者保護法",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "文英家才剛買三天的知名品牌開飲機，突然爆炸起火，把廚房的牆壁及天花板熏黑，還差點釀成大禍。請\n     問文英的家人可以依據那一法律的規定，請求廠商對出了問題的產品做處理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "刑法"
+      },
+      {
+        "letter": "B",
+        "text": "公平交易法"
+      },
+      {
+        "letter": "C",
+        "text": "商品標示法"
+      },
+      {
+        "letter": "D",
+        "text": "消費者保護法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-26",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「經濟學家對燈塔一直情有獨鍾。19 世紀英國經濟學家穆勒指出，雖然海中的船隻可以從燈塔的指引而得\n     益，但若要向他們收取費用，就辦不到。除非政府用強迫抽稅的方法，否則燈塔就會因無利可圖，以致無\n     人建造。另一位英國經濟學家西奇威克也認為像燈塔這種情況下，以市場收費來鼓勵提供服務的觀點是大\n     錯特錯的。」從上文可知，燈塔是不同於一般物品的，在財貨的屬性及特質上，它是屬於下列何者？\n(A) 公共財、具排他性\n(B) 私有財、具排他性\n(C) 公共財、不具排他性\n(D) 私有財、不具排他性",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "「經濟學家對燈塔一直情有獨鍾。19 世紀英國經濟學家穆勒指出，雖然海中的船隻可以從燈塔的指引而得\n     益，但若要向他們收取費用，就辦不到。除非政府用強迫抽稅的方法，否則燈塔就會因無利可圖，以致無\n     人建造。另一位英國經濟學家西奇威克也認為像燈塔這種情況下，以市場收費來鼓勵提供服務的觀點是大\n     錯特錯的。」從上文可知，燈塔是不同於一般物品的，在財貨的屬性及特質上，它是屬於下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "公共財、具排他性"
+      },
+      {
+        "letter": "B",
+        "text": "私有財、具排他性"
+      },
+      {
+        "letter": "C",
+        "text": "公共財、不具排他性"
+      },
+      {
+        "letter": "D",
+        "text": "私有財、不具排他性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-27",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "承上題，何以經濟學家西奇威克認為：以市場收費來鼓勵廠商興建燈塔，提供服務的觀點是大錯特錯的？\n     ①因為一個人消費了，其他人就不能消費或少消費                                    ②因為有市場價格，生產者提供此類物品有利可圖\n     ③因為無市場價格，生產者提供此類物品無利可圖                                  ④因為不用購買也可以消費，於是產生搭便車問題\n(A) ①②\n(B) ①③\n(C) ②④\n(D) ③④",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "承上題，何以經濟學家西奇威克認為：以市場收費來鼓勵廠商興建燈塔，提供服務的觀點是大錯特錯的？\n     ①因為一個人消費了，其他人就不能消費或少消費                                    ②因為有市場價格，生產者提供此類物品有利可圖\n     ③因為無市場價格，生產者提供此類物品無利可圖                                  ④因為不用購買也可以消費，於是產生搭便車問題",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①③"
+      },
+      {
+        "letter": "C",
+        "text": "②④"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "「經濟學家對燈塔一直情有獨鍾。19 世紀英國經濟學家穆勒指出，雖然海中的船隻可以從燈塔的指引而得\n     益，但若要向他們收取費用，就辦不到。除非政府用強迫抽稅的方法，否則燈塔就會因無利可圖，以致無\n     人建造。另一位英國經濟學家西奇威克也認為像燈塔這種情況下，以市場收費來鼓勵提供服務的觀點是大\n     錯特錯的。」從上文可知，燈塔是不同於一般物品的，在財貨的屬性及特質上，它是屬於下列何者？",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-28",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我們要判斷一個人的行為是不是犯罪，必須依照刑法的條文來觀察，到底什麼樣的行為才算是觸犯了這條\n     條文所規定的罪，這是刑法的何項原則？\n(A) 罪刑類推原則\n(B) 罪刑法定原則\n(C) 無罪推定原則\n(D) 微罪不罰原則",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "我們要判斷一個人的行為是不是犯罪，必須依照刑法的條文來觀察，到底什麼樣的行為才算是觸犯了這條\n     條文所規定的罪，這是刑法的何項原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "罪刑類推原則"
+      },
+      {
+        "letter": "B",
+        "text": "罪刑法定原則"
+      },
+      {
+        "letter": "C",
+        "text": "無罪推定原則"
+      },
+      {
+        "letter": "D",
+        "text": "微罪不罰原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-29",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那些是法律所追求的實質平等？①考試時，延長視聽覺障礙者作答時間                                                    ②選舉制度上，給予原住民\n     保障名額         ③對原住民購屋的特別優待措施                      ④機關應任用身心障礙者的規定                         ⑤給予原住民信用卡 5%\n     之優惠利率\n(A) ①②④\n(B) ①③⑤\n(C) ②③④\n(D) ②③⑤",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那些是法律所追求的實質平等？①考試時，延長視聽覺障礙者作答時間                                                    ②選舉制度上，給予原住民\n     保障名額         ③對原住民購屋的特別優待措施                      ④機關應任用身心障礙者的規定                         ⑤給予原住民信用卡 5%\n     之優惠利率",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②④"
+      },
+      {
+        "letter": "B",
+        "text": "①③⑤"
+      },
+      {
+        "letter": "C",
+        "text": "②③④"
+      },
+      {
+        "letter": "D",
+        "text": "②③⑤"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-30",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國憲政發展過程極為艱辛，下列有關憲政發展所經歷的事件與改革，依時間先後排列，何者正確？\n(A) 廢止動員戡亂時期臨時條款、解除戒嚴、廢除國民大會、第一任民選總統\n(B) 解除戒嚴、廢止動員戡亂時期臨時條款、第一任民選總統、廢除國民大會\n(C) 廢止動員戡亂時期臨時條款、解除戒嚴、第一任民選總統、廢除國民大會\n(D) 解除戒嚴、廢止動員戡亂時期臨時條款、廢除國民大會、第一任民選總統",
+    "page": 2,
+    "accepted": [
+      "B",
+      "C",
+      "BC"
+    ],
+    "correction": "依考選部更正公告，接受答案：B、C、BC。",
+    "stem": "我國憲政發展過程極為艱辛，下列有關憲政發展所經歷的事件與改革，依時間先後排列，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "廢止動員戡亂時期臨時條款、解除戒嚴、廢除國民大會、第一任民選總統"
+      },
+      {
+        "letter": "B",
+        "text": "解除戒嚴、廢止動員戡亂時期臨時條款、第一任民選總統、廢除國民大會"
+      },
+      {
+        "letter": "C",
+        "text": "廢止動員戡亂時期臨時條款、解除戒嚴、第一任民選總統、廢除國民大會"
+      },
+      {
+        "letter": "D",
+        "text": "解除戒嚴、廢止動員戡亂時期臨時條款、廢除國民大會、第一任民選總統"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-31",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "美國立國之初，會根據財富、性別、種族對選舉權有很多限制。然而隨著時代的轉變，對於選舉權的限制\n     逐步放寬，促使更多美國國民可以行使投票權。請問此乃實現選舉權的那一項原則？\n(A) 普通原則\n(B) 平等原則\n(C) 直接原則\n(D) 秘密原則",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "美國立國之初，會根據財富、性別、種族對選舉權有很多限制。然而隨著時代的轉變，對於選舉權的限制\n     逐步放寬，促使更多美國國民可以行使投票權。請問此乃實現選舉權的那一項原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "普通原則"
+      },
+      {
+        "letter": "B",
+        "text": "平等原則"
+      },
+      {
+        "letter": "C",
+        "text": "直接原則"
+      },
+      {
+        "letter": "D",
+        "text": "秘密原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-32",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "17 世紀以後，移居臺灣的先民陸續從大陸引進了不同的宗教和神明，其中「三山國王」成為那一族群的守\n     護神？\n(A) 閩南人\n(B) 客家人\n(C) 雲貴高原地區移民\n(D) 原住民",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "17 世紀以後，移居臺灣的先民陸續從大陸引進了不同的宗教和神明，其中「三山國王」成為那一族群的守\n     護神？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "閩南人"
+      },
+      {
+        "letter": "B",
+        "text": "客家人"
+      },
+      {
+        "letter": "C",
+        "text": "雲貴高原地區移民"
+      },
+      {
+        "letter": "D",
+        "text": "原住民"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-33",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種選舉原則最能彰顯主權在民的精神？\n(A) 直接原則\n(B) 普通原則\n(C) 平等原則\n(D) 無記名原則",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那一種選舉原則最能彰顯主權在民的精神？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "直接原則"
+      },
+      {
+        "letter": "B",
+        "text": "普通原則"
+      },
+      {
+        "letter": "C",
+        "text": "平等原則"
+      },
+      {
+        "letter": "D",
+        "text": "無記名原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-34",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "公共政策運作的過程涉及的內涵及層面極廣，雖影響因素極為複雜，但有其程序性。下列何者為正確的政\n     策運作程序？①問題確定                  ②政策執行          ③政策規劃 ④政策合法化                     ⑤政策評估\n(A) ①②③④⑤\n(B) ①③④②⑤\n(C) ②③①④⑤\n(D) ③②①④⑤",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "公共政策運作的過程涉及的內涵及層面極廣，雖影響因素極為複雜，但有其程序性。下列何者為正確的政\n     策運作程序？①問題確定                  ②政策執行          ③政策規劃 ④政策合法化                     ⑤政策評估",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②③④⑤"
+      },
+      {
+        "letter": "B",
+        "text": "①③④②⑤"
+      },
+      {
+        "letter": "C",
+        "text": "②③①④⑤"
+      },
+      {
+        "letter": "D",
+        "text": "③②①④⑤"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-35",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "以現代國家的組成而言，通常包含四個構成要素，其中領土是指一個國家主權所能及的地理區域，包括領\n     陸、領空與領海。按國際法規定領海的範圍有多遠？\n(A) 10 海浬以內\n(B) 12 海浬以內\n(C) 100 海浬以內\n(D) 200 海浬以內",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "以現代國家的組成而言，通常包含四個構成要素，其中領土是指一個國家主權所能及的地理區域，包括領\n     陸、領空與領海。按國際法規定領海的範圍有多遠？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 海浬以內"
+      },
+      {
+        "letter": "B",
+        "text": "12 海浬以內"
+      },
+      {
+        "letter": "C",
+        "text": "100 海浬以內"
+      },
+      {
+        "letter": "D",
+        "text": "200 海浬以內"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-1-36",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "I knew Sabrina was upset, but it took me by surprise when she suddenly                        into tears.\n(A) burst\n(B) fired\n(C) jumped\n(D) managed",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "I knew Sabrina was upset, but it took me by surprise when she suddenly                        into tears.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "burst"
+      },
+      {
+        "letter": "B",
+        "text": "fired"
+      },
+      {
+        "letter": "C",
+        "text": "jumped"
+      },
+      {
+        "letter": "D",
+        "text": "managed"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "097-1-37",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "I always take a                    after a game of basketball. I don’t want to smell bad.\n(A) picture\n(B) note\n(C) shower\n(D) temperature",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "I always take a                    after a game of basketball. I don’t want to smell bad.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "picture"
+      },
+      {
+        "letter": "B",
+        "text": "note"
+      },
+      {
+        "letter": "C",
+        "text": "shower"
+      },
+      {
+        "letter": "D",
+        "text": "temperature"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "097-1-38",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Sorry, I’m late. My car                    on the way here.\n(A) drove off\n(B) broke down\n(C) took away\n(D) knocked out",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Sorry, I’m late. My car                    on the way here.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "drove off"
+      },
+      {
+        "letter": "B",
+        "text": "broke down"
+      },
+      {
+        "letter": "C",
+        "text": "took away"
+      },
+      {
+        "letter": "D",
+        "text": "knocked out"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "097-1-39",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "I would have bought you that book if I                     enough money with me last night.\n(A) have had\n(B) has had\n(C) had\n(D) had had",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "I would have bought you that book if I                     enough money with me last night.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "have had"
+      },
+      {
+        "letter": "B",
+        "text": "has had"
+      },
+      {
+        "letter": "C",
+        "text": "had"
+      },
+      {
+        "letter": "D",
+        "text": "had had"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "097-1-40",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Linda: Can I borrow a pen, please?\n      Pat: I don’t have a pen. Sorry.\n      Linda: That’s OK.                        .\n(A) How wonderful\n(B) Thanks anyway\n(C) You’re welcome\n(D) It’s very kind of you",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Linda: Can I borrow a pen, please?\n      Pat: I don’t have a pen. Sorry.\n      Linda: That’s OK.                        .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "How wonderful"
+      },
+      {
+        "letter": "B",
+        "text": "Thanks anyway"
+      },
+      {
+        "letter": "C",
+        "text": "You’re welcome"
+      },
+      {
+        "letter": "D",
+        "text": "It’s very kind of you"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "097-1-41",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 41 空格最合適的答案。\n(A) do\n(B) are\n(C) like\n(D) know",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 41 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "do"
+      },
+      {
+        "letter": "B",
+        "text": "are"
+      },
+      {
+        "letter": "C",
+        "text": "like"
+      },
+      {
+        "letter": "D",
+        "text": "know"
+      }
+    ],
+    "textFallback": false,
+    "passage": "What is your favorite color? Do you like yellow, orange, red? If you            41          , you must be an optimist, a\nleader, an active person            42             enjoys life, people and excitement. Do you prefer gray and blue? Then\nyou’re          43           quiet, shy and you would rather follow than           44           . You tend to be a pessimist.\n         45          , this is what psychologists tell us, and they should know, because they have been studying seriously\nthe meaning of color preference, as well as the effect that colors have on human beings.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "097-1-42",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 42 空格最合適的答案。\n(A) so\n(B) who\n(C) how\n(D) thus",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 42 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "so"
+      },
+      {
+        "letter": "B",
+        "text": "who"
+      },
+      {
+        "letter": "C",
+        "text": "how"
+      },
+      {
+        "letter": "D",
+        "text": "thus"
+      }
+    ],
+    "textFallback": false,
+    "passage": "What is your favorite color? Do you like yellow, orange, red? If you            41          , you must be an optimist, a\nleader, an active person            42             enjoys life, people and excitement. Do you prefer gray and blue? Then\nyou’re          43           quiet, shy and you would rather follow than           44           . You tend to be a pessimist.\n         45          , this is what psychologists tell us, and they should know, because they have been studying seriously\nthe meaning of color preference, as well as the effect that colors have on human beings.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "097-1-43",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 43 空格最合適的答案。\n(A) likely\n(B) militarily\n(C) probably\n(D) economically",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 43 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "likely"
+      },
+      {
+        "letter": "B",
+        "text": "militarily"
+      },
+      {
+        "letter": "C",
+        "text": "probably"
+      },
+      {
+        "letter": "D",
+        "text": "economically"
+      }
+    ],
+    "textFallback": false,
+    "passage": "What is your favorite color? Do you like yellow, orange, red? If you            41          , you must be an optimist, a\nleader, an active person            42             enjoys life, people and excitement. Do you prefer gray and blue? Then\nyou’re          43           quiet, shy and you would rather follow than           44           . You tend to be a pessimist.\n         45          , this is what psychologists tell us, and they should know, because they have been studying seriously\nthe meaning of color preference, as well as the effect that colors have on human beings.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "097-1-44",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 44 空格最合適的答案。\n(A) lead\n(B) obey\n(C) explode\n(D) pronounce",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 44 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "lead"
+      },
+      {
+        "letter": "B",
+        "text": "obey"
+      },
+      {
+        "letter": "C",
+        "text": "explode"
+      },
+      {
+        "letter": "D",
+        "text": "pronounce"
+      }
+    ],
+    "textFallback": false,
+    "passage": "What is your favorite color? Do you like yellow, orange, red? If you            41          , you must be an optimist, a\nleader, an active person            42             enjoys life, people and excitement. Do you prefer gray and blue? Then\nyou’re          43           quiet, shy and you would rather follow than           44           . You tend to be a pessimist.\n         45          , this is what psychologists tell us, and they should know, because they have been studying seriously\nthe meaning of color preference, as well as the effect that colors have on human beings.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "097-1-45",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 45 空格最合適的答案。\n(A) At random\n(B) At last\n(C) At once\n(D) At least",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 45 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "At random"
+      },
+      {
+        "letter": "B",
+        "text": "At last"
+      },
+      {
+        "letter": "C",
+        "text": "At once"
+      },
+      {
+        "letter": "D",
+        "text": "At least"
+      }
+    ],
+    "textFallback": false,
+    "passage": "What is your favorite color? Do you like yellow, orange, red? If you            41          , you must be an optimist, a\nleader, an active person            42             enjoys life, people and excitement. Do you prefer gray and blue? Then\nyou’re          43           quiet, shy and you would rather follow than           44           . You tend to be a pessimist.\n         45          , this is what psychologists tell us, and they should know, because they have been studying seriously\nthe meaning of color preference, as well as the effect that colors have on human beings.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "097-1-46",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Who is the author of The Old Man and the Sea?\n(A) Santiago.\n(B) Manolin.\n(C) Santiago’s friend.\n(D) Hemingway.",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "Who is the author of The Old Man and the Sea?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Santiago."
+      },
+      {
+        "letter": "B",
+        "text": "Manolin."
+      },
+      {
+        "letter": "C",
+        "text": "Santiago’s friend."
+      },
+      {
+        "letter": "D",
+        "text": "Hemingway."
+      }
+    ],
+    "textFallback": false,
+    "passage": "The Old Man and the Sea is a novel by Ernest Hemingway. The book is about an old fisherman, Santiago, who\nfishes alone. Friendless except for a young boy named Manolin, Santiago has only one remaining purpose in life－to\ncatch a big fish in order to prove to Manolin and to himself that he is still a good fisherman. After eighty-four days of\nunsuccessful fishing, on the eighty-fifth day Santiago goes far out into the sea, where he hooks a giant marlin. He\nstruggles with the fish for two days and nights and finally kills it. Soon sharks appear and attack his fish. The old man\nfights them off with all his strength but fails to protect his catch. Only the bones of the great fish remain as proof of\nSantiago’s courage and strength when he returns with it to the harbor.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "097-1-47",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Who is Manolin?\n(A) An old man.\n(B) The fisherman’s wife.\n(C) A boy.\n(D) A big fish.",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "Who is Manolin?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "An old man."
+      },
+      {
+        "letter": "B",
+        "text": "The fisherman’s wife."
+      },
+      {
+        "letter": "C",
+        "text": "A boy."
+      },
+      {
+        "letter": "D",
+        "text": "A big fish."
+      }
+    ],
+    "textFallback": false,
+    "passage": "The Old Man and the Sea is a novel by Ernest Hemingway. The book is about an old fisherman, Santiago, who\nfishes alone. Friendless except for a young boy named Manolin, Santiago has only one remaining purpose in life－to\ncatch a big fish in order to prove to Manolin and to himself that he is still a good fisherman. After eighty-four days of\nunsuccessful fishing, on the eighty-fifth day Santiago goes far out into the sea, where he hooks a giant marlin. He\nstruggles with the fish for two days and nights and finally kills it. Soon sharks appear and attack his fish. The old man\nfights them off with all his strength but fails to protect his catch. Only the bones of the great fish remain as proof of\nSantiago’s courage and strength when he returns with it to the harbor.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "097-1-48",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Why does the old fisherman want to catch a big fish?\n(A) To earn some money.\n(B) To prove that he is skilled at fishing .\n(C) To feed his hungry friend.\n(D) To return to the harbor.",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Why does the old fisherman want to catch a big fish?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To earn some money."
+      },
+      {
+        "letter": "B",
+        "text": "To prove that he is skilled at fishing ."
+      },
+      {
+        "letter": "C",
+        "text": "To feed his hungry friend."
+      },
+      {
+        "letter": "D",
+        "text": "To return to the harbor."
+      }
+    ],
+    "textFallback": false,
+    "passage": "The Old Man and the Sea is a novel by Ernest Hemingway. The book is about an old fisherman, Santiago, who\nfishes alone. Friendless except for a young boy named Manolin, Santiago has only one remaining purpose in life－to\ncatch a big fish in order to prove to Manolin and to himself that he is still a good fisherman. After eighty-four days of\nunsuccessful fishing, on the eighty-fifth day Santiago goes far out into the sea, where he hooks a giant marlin. He\nstruggles with the fish for two days and nights and finally kills it. Soon sharks appear and attack his fish. The old man\nfights them off with all his strength but fails to protect his catch. Only the bones of the great fish remain as proof of\nSantiago’s courage and strength when he returns with it to the harbor.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "097-1-49",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Why does the old man return to the harbor with the bones of the fish only?\n(A) He eats the fish up on his way home.\n(B) He travels too far and too long, so the fish is no more fresh.\n(C) Some sharks get to it.\n(D) The fish bones are beautiful.",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "Why does the old man return to the harbor with the bones of the fish only?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "He eats the fish up on his way home."
+      },
+      {
+        "letter": "B",
+        "text": "He travels too far and too long, so the fish is no more fresh."
+      },
+      {
+        "letter": "C",
+        "text": "Some sharks get to it."
+      },
+      {
+        "letter": "D",
+        "text": "The fish bones are beautiful."
+      }
+    ],
+    "textFallback": false,
+    "passage": "The Old Man and the Sea is a novel by Ernest Hemingway. The book is about an old fisherman, Santiago, who\nfishes alone. Friendless except for a young boy named Manolin, Santiago has only one remaining purpose in life－to\ncatch a big fish in order to prove to Manolin and to himself that he is still a good fisherman. After eighty-four days of\nunsuccessful fishing, on the eighty-fifth day Santiago goes far out into the sea, where he hooks a giant marlin. He\nstruggles with the fish for two days and nights and finally kills it. Soon sharks appear and attack his fish. The old man\nfights them off with all his strength but fails to protect his catch. Only the bones of the great fish remain as proof of\nSantiago’s courage and strength when he returns with it to the harbor.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "097-1-50",
+    "examId": "097-1",
+    "year": 97,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The old fisherman “goes far out into the sea, where he hooks a giant marlin.” What is a marlin?\n(A) A kind of fish.\n(B) A kind of ship.\n(C) A magician.\n(D) A kind of shark.",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "The old fisherman “goes far out into the sea, where he hooks a giant marlin.” What is a marlin?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A kind of fish."
+      },
+      {
+        "letter": "B",
+        "text": "A kind of ship."
+      },
+      {
+        "letter": "C",
+        "text": "A magician."
+      },
+      {
+        "letter": "D",
+        "text": "A kind of shark."
+      }
+    ],
+    "textFallback": false,
+    "passage": "The Old Man and the Sea is a novel by Ernest Hemingway. The book is about an old fisherman, Santiago, who\nfishes alone. Friendless except for a young boy named Manolin, Santiago has only one remaining purpose in life－to\ncatch a big fish in order to prove to Manolin and to himself that he is still a good fisherman. After eighty-four days of\nunsuccessful fishing, on the eighty-fifth day Santiago goes far out into the sea, where he hooks a giant marlin. He\nstruggles with the fish for two days and nights and finally kills it. Soon sharks appear and attack his fish. The old man\nfights them off with all his strength but fails to protect his catch. Only the bones of the great fish remain as proof of\nSantiago’s courage and strength when he returns with it to the harbor.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  }
+]

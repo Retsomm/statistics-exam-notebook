@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "104-1-1",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "選舉競選期間，電視台受託辦理政見發表會轉播。國家通訊傳播委員會強調，轉播時對候選人的資訊應以公\n    平、公正、客觀的態度播放，且應給予每位候選人有相等的播報時間。上述說法，最適合以媒體識讀的何\n    種角度解讀？\n(A) 回歸市場機制運作，尊重閱聽人的媒體使用權\n(B) 維護個人與團體的媒體近用權，確保公平競爭\n(C) 確保每個媒體的平等賦權，有利健全言論自由\n(D) 落實廣電媒體公共化，減緩商業營運機制影響",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "選舉競選期間，電視台受託辦理政見發表會轉播。國家通訊傳播委員會強調，轉播時對候選人的資訊應以公\n    平、公正、客觀的態度播放，且應給予每位候選人有相等的播報時間。上述說法，最適合以媒體識讀的何\n    種角度解讀？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "回歸市場機制運作，尊重閱聽人的媒體使用權"
+      },
+      {
+        "letter": "B",
+        "text": "維護個人與團體的媒體近用權，確保公平競爭"
+      },
+      {
+        "letter": "C",
+        "text": "確保每個媒體的平等賦權，有利健全言論自由"
+      },
+      {
+        "letter": "D",
+        "text": "落實廣電媒體公共化，減緩商業營運機制影響"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-2",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "每年 10 月國內皆有同志大遊行，2012 年以「革命婚姻：婚姻平權、伴侶多元」為主題。下列對於我國同志\n    人權的相關敘述，何者正確？\n(A) 同性家庭可以配偶關係依法共同收養子女\n(B) 同性伴侶可以遺囑方式繼承他方全部遺產\n(C) 同性結婚若具公開儀式要件可享法律效力\n(D) 同性同居伴侶關係適用家庭暴力防治法",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "每年 10 月國內皆有同志大遊行，2012 年以「革命婚姻：婚姻平權、伴侶多元」為主題。下列對於我國同志\n    人權的相關敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "同性家庭可以配偶關係依法共同收養子女"
+      },
+      {
+        "letter": "B",
+        "text": "同性伴侶可以遺囑方式繼承他方全部遺產"
+      },
+      {
+        "letter": "C",
+        "text": "同性結婚若具公開儀式要件可享法律效力"
+      },
+      {
+        "letter": "D",
+        "text": "同性同居伴侶關係適用家庭暴力防治法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-3",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小志怕考不好會被爸爸責罵，因此興起作弊的念頭，但是又怕良心不安，或被監考老師發現而受處罰，經過\n    深入思考最後決定認真讀書不要作弊。依上所述，若以佛洛依德心理分析理論來解釋其行為，下列配對何\n    者正確？\n(A) 小志害怕被爸爸罵而想作弊－超我\n(B) 小志對於最後不作弊的選擇－自我\n(C) 怕被監考老師發現決定放棄－主我\n(D) 怕良心不安而決定放棄作弊－本我",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "小志怕考不好會被爸爸責罵，因此興起作弊的念頭，但是又怕良心不安，或被監考老師發現而受處罰，經過\n    深入思考最後決定認真讀書不要作弊。依上所述，若以佛洛依德心理分析理論來解釋其行為，下列配對何\n    者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "小志害怕被爸爸罵而想作弊－超我"
+      },
+      {
+        "letter": "B",
+        "text": "小志對於最後不作弊的選擇－自我"
+      },
+      {
+        "letter": "C",
+        "text": "怕被監考老師發現決定放棄－主我"
+      },
+      {
+        "letter": "D",
+        "text": "怕良心不安而決定放棄作弊－本我"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-4",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某國政府推動「不動產逆向抵押貸款」制度，其核心精神是屋主將房子抵押給銀行，然後銀行每個月支付一\n    筆固定金額給屋主直到其過世，屋主過世時房子歸銀行所有。上述資產活化的作法，最可能是為因應何種\n    社會發展趨勢？\n(A) 數位落差\n(B) 社會階層化\n(C) 人口結構老化\n(D) 貧富差距擴大",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "某國政府推動「不動產逆向抵押貸款」制度，其核心精神是屋主將房子抵押給銀行，然後銀行每個月支付一\n    筆固定金額給屋主直到其過世，屋主過世時房子歸銀行所有。上述資產活化的作法，最可能是為因應何種\n    社會發展趨勢？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "數位落差"
+      },
+      {
+        "letter": "B",
+        "text": "社會階層化"
+      },
+      {
+        "letter": "C",
+        "text": "人口結構老化"
+      },
+      {
+        "letter": "D",
+        "text": "貧富差距擴大"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-5",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "全球化下的科技與通訊快速發展，縮短了人與人的互動與距離，加速了跨國的貿易互動與政府間的合作。但\n    近年來卻也帶來了許多負面的問題，引發反全球化的聲音。下列敘述何者最具有「反全球化」的意識？\n(A) 資本大國必須正視跨國企業對弱勢國家進行的剝削\n(B) 國與國之間必須屏除關稅壁壘，促進跨國商業流通\n(C) 全球暖化問題必須由各國政府共同商討、一同解決\n(D) 政府應該振興與傳承本土文化，並發揚至全球各地",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "全球化下的科技與通訊快速發展，縮短了人與人的互動與距離，加速了跨國的貿易互動與政府間的合作。但\n    近年來卻也帶來了許多負面的問題，引發反全球化的聲音。下列敘述何者最具有「反全球化」的意識？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資本大國必須正視跨國企業對弱勢國家進行的剝削"
+      },
+      {
+        "letter": "B",
+        "text": "國與國之間必須屏除關稅壁壘，促進跨國商業流通"
+      },
+      {
+        "letter": "C",
+        "text": "全球暖化問題必須由各國政府共同商討、一同解決"
+      },
+      {
+        "letter": "D",
+        "text": "政府應該振興與傳承本土文化，並發揚至全球各地"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-6",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那一個國家國會議員的選舉制度與我國的制度最為相近？\n(A) 英國\n(B) 日本\n(C) 法國\n(D) 美國",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列那一個國家國會議員的選舉制度與我國的制度最為相近？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "英國"
+      },
+      {
+        "letter": "B",
+        "text": "日本"
+      },
+      {
+        "letter": "C",
+        "text": "法國"
+      },
+      {
+        "letter": "D",
+        "text": "美國"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-7",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國公職人員選舉罷免法，對於各類公職的被選舉人年齡設有規定，在不考慮其他條件的情況之下，下列關\n    於參選各種公職人員之敘述何者正確？\n(A) 小明年滿 28 歲，參選新北市市長\n(B) 小華年滿 20 歲，參選西村里里長\n(C) 小美年滿 30 歲，參選總統副總統\n(D) 小花年滿 26 歲，參選水上鄉鄉長",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "我國公職人員選舉罷免法，對於各類公職的被選舉人年齡設有規定，在不考慮其他條件的情況之下，下列關\n    於參選各種公職人員之敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "小明年滿 28 歲，參選新北市市長"
+      },
+      {
+        "letter": "B",
+        "text": "小華年滿 20 歲，參選西村里里長"
+      },
+      {
+        "letter": "C",
+        "text": "小美年滿 30 歲，參選總統副總統"
+      },
+      {
+        "letter": "D",
+        "text": "小花年滿 26 歲，參選水上鄉鄉長"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-8",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某政黨在該國即將舉辦的首次公民投票前，大量發送文宣，並透過媒體說明該次公民投票的程序與意義。該\n    政黨此種作法主要在發揮下列何項政黨的功能？\n(A) 匯集民意形成政策\n(B) 培養訓練政治人才\n(C) 教導民眾政治知識\n(D) 透過選舉組成政府",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "某政黨在該國即將舉辦的首次公民投票前，大量發送文宣，並透過媒體說明該次公民投票的程序與意義。該\n    政黨此種作法主要在發揮下列何項政黨的功能？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "匯集民意形成政策"
+      },
+      {
+        "letter": "B",
+        "text": "培養訓練政治人才"
+      },
+      {
+        "letter": "C",
+        "text": "教導民眾政治知識"
+      },
+      {
+        "letter": "D",
+        "text": "透過選舉組成政府"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-9",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "針對法國第五共和所採用的「混合制」和英國所採用的「內閣制」，下列關於此兩種制度的敘述，何者正確？\n(A) 兩種制度的國家元首均為實權元首\n(B) 兩種制度的行政首長均有權要求解散國會\n(C) 內閣制有「副署制度」，而混合制則沒有\n(D) 內閣制行政首長有覆議權，而混合制則無",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "針對法國第五共和所採用的「混合制」和英國所採用的「內閣制」，下列關於此兩種制度的敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "兩種制度的國家元首均為實權元首"
+      },
+      {
+        "letter": "B",
+        "text": "兩種制度的行政首長均有權要求解散國會"
+      },
+      {
+        "letter": "C",
+        "text": "內閣制有「副署制度」，而混合制則沒有"
+      },
+      {
+        "letter": "D",
+        "text": "內閣制行政首長有覆議權，而混合制則無"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-10",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "政府體制屬於內閣制的國家，若政黨體制同時屬於多黨制，則最可能出現下列何種現象？\n(A) 左右共治\n(B) 聯合政府\n(C) 兩輪投票\n(D) 覆議制度",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "政府體制屬於內閣制的國家，若政黨體制同時屬於多黨制，則最可能出現下列何種現象？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "左右共治"
+      },
+      {
+        "letter": "B",
+        "text": "聯合政府"
+      },
+      {
+        "letter": "C",
+        "text": "兩輪投票"
+      },
+      {
+        "letter": "D",
+        "text": "覆議制度"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-11",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "民主的運作方式分為「直接民主」與「間接民主」，下列關於兩者的描述，何者正確？\n(A) 直接民主是指公民可以直接選舉出代議士\n(B) 間接民主的優點在於可以高度代表民意\n(C) 最早實施間接民主的代表為古代雅典\n(D) 公民投票是落實直接民主的方式之一",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "民主的運作方式分為「直接民主」與「間接民主」，下列關於兩者的描述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "直接民主是指公民可以直接選舉出代議士"
+      },
+      {
+        "letter": "B",
+        "text": "間接民主的優點在於可以高度代表民意"
+      },
+      {
+        "letter": "C",
+        "text": "最早實施間接民主的代表為古代雅典"
+      },
+      {
+        "letter": "D",
+        "text": "公民投票是落實直接民主的方式之一"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-12",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "甲國是一個總統制的國家，新任的總統為軍人出身，在前任政府貪污時號召人民起身抗議，於是贏得大量民\n     眾擁戴與支持，因此在本次選舉中，以超過 7 成的得票率當選新總統。根據社會學家韋伯（Max Weber）對\n     統治正當性的分類來判斷，甲國新總統較符合下列何種類型？\n(A) 傳統型權威\n(B) 魅力型權威\n(C) 合法與理性型權威\n(D) 兼具傳統型權威與魅力型權威",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "甲國是一個總統制的國家，新任的總統為軍人出身，在前任政府貪污時號召人民起身抗議，於是贏得大量民\n     眾擁戴與支持，因此在本次選舉中，以超過 7 成的得票率當選新總統。根據社會學家韋伯（Max Weber）對\n     統治正當性的分類來判斷，甲國新總統較符合下列何種類型？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "傳統型權威"
+      },
+      {
+        "letter": "B",
+        "text": "魅力型權威"
+      },
+      {
+        "letter": "C",
+        "text": "合法與理性型權威"
+      },
+      {
+        "letter": "D",
+        "text": "兼具傳統型權威與魅力型權威"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-13",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國中央政府體制中，關於行政權與立法權的互動，下列何者正確？\n(A) 國家的法案與預算由立法院審議\n(B) 行政院院長有權力主動解散立法院\n(C) 總統任命法務部部長須立法院同意\n(D) 總統任命行政院院長須立法院同意",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "我國中央政府體制中，關於行政權與立法權的互動，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "國家的法案與預算由立法院審議"
+      },
+      {
+        "letter": "B",
+        "text": "行政院院長有權力主動解散立法院"
+      },
+      {
+        "letter": "C",
+        "text": "總統任命法務部部長須立法院同意"
+      },
+      {
+        "letter": "D",
+        "text": "總統任命行政院院長須立法院同意"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-14",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "成立於 1863 年的國際紅十字會，以致力保護人的生命和健康，保障人類尊嚴，防止並減輕人類疾苦，不因\n     國籍、種族、宗教信仰、階級和政治觀念而加以任何歧視為其宗旨。國際紅十字會若依國際組織的性質分\n     類，試選出下列正確組合？①區域性之國際組織 ②非政府之國際組織 ③一般性之國際組織 ④專門性\n     之國際組織\n(A) ①②\n(B) ①④\n(C) ②③\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "成立於 1863 年的國際紅十字會，以致力保護人的生命和健康，保障人類尊嚴，防止並減輕人類疾苦，不因\n     國籍、種族、宗教信仰、階級和政治觀念而加以任何歧視為其宗旨。國際紅十字會若依國際組織的性質分\n     類，試選出下列正確組合？①區域性之國際組織 ②非政府之國際組織 ③一般性之國際組織 ④專門性\n     之國際組織",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-15",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "司法審查（釋憲）制度係憲政主義國家為鞏固憲法最高性的重要制度設計，下列關於我國現行司法審查和釋\n     憲制度之敘述，何者正確？\n(A) 我國司法審查機制採取分散審查制為主\n(B) 我國司法審查機構主要在最高法院行使\n(C) 大法官召開憲法法庭以完成憲法之解釋\n(D) 憲法解釋中允許大法官不同意見之陳述",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "司法審查（釋憲）制度係憲政主義國家為鞏固憲法最高性的重要制度設計，下列關於我國現行司法審查和釋\n     憲制度之敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "我國司法審查機制採取分散審查制為主"
+      },
+      {
+        "letter": "B",
+        "text": "我國司法審查機構主要在最高法院行使"
+      },
+      {
+        "letter": "C",
+        "text": "大法官召開憲法法庭以完成憲法之解釋"
+      },
+      {
+        "letter": "D",
+        "text": "憲法解釋中允許大法官不同意見之陳述"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-16",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小華上課時突然肚子痛要上廁所，向小明拿了一包衛生紙，言明隔天再還同款式衛生紙給小明。根據我國民\n     法的規定，上述行為是屬於下列那一種契約？\n(A) 租賃契約\n(B) 買賣契約\n(C) 消費借貸契約\n(D) 使用借貸契約",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小華上課時突然肚子痛要上廁所，向小明拿了一包衛生紙，言明隔天再還同款式衛生紙給小明。根據我國民\n     法的規定，上述行為是屬於下列那一種契約？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "租賃契約"
+      },
+      {
+        "letter": "B",
+        "text": "買賣契約"
+      },
+      {
+        "letter": "C",
+        "text": "消費借貸契約"
+      },
+      {
+        "letter": "D",
+        "text": "使用借貸契約"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-17",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "法律行為具備成立要件及要件有效時，其法律行為始為有效，然而下列那一法律行為的法律效果可能「無\n     效」？\n(A) 甲未簽訂書面契約而向乙購買其車\n(B) 伯父收養姪子未以書面向法院聲請\n(C) 雙方當事人未事先訂定婚約而結婚\n(D) 繼承人未以書面向法院表示繼承遺產",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "法律行為具備成立要件及要件有效時，其法律行為始為有效，然而下列那一法律行為的法律效果可能「無\n     效」？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "甲未簽訂書面契約而向乙購買其車"
+      },
+      {
+        "letter": "B",
+        "text": "伯父收養姪子未以書面向法院聲請"
+      },
+      {
+        "letter": "C",
+        "text": "雙方當事人未事先訂定婚約而結婚"
+      },
+      {
+        "letter": "D",
+        "text": "繼承人未以書面向法院表示繼承遺產"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-18",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "為保障著作人著作權益，調和社會公共利益，促進國家文化發展，故制定著作權法加以保障。下列有關著作\n     權的敘述何者正確？\n(A) 憲法、法律、命令亦屬於著作權法保護的標的\n(B) 著作權法不僅保護於著作本身，亦包含著作中涵蓋的概念、原理\n(C) 著作權分為著作人格權與著作財產權\n(D) 著作權必須要在創作完成之後向相關機關申請權利保障",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "為保障著作人著作權益，調和社會公共利益，促進國家文化發展，故制定著作權法加以保障。下列有關著作\n     權的敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "憲法、法律、命令亦屬於著作權法保護的標的"
+      },
+      {
+        "letter": "B",
+        "text": "著作權法不僅保護於著作本身，亦包含著作中涵蓋的概念、原理"
+      },
+      {
+        "letter": "C",
+        "text": "著作權分為著作人格權與著作財產權"
+      },
+      {
+        "letter": "D",
+        "text": "著作權必須要在創作完成之後向相關機關申請權利保障"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-19",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "為落實人權保障，我國法令要求國家在對人民實施某些特定行為之前，必須經過司法審查，由法院發給令狀\n     始得據以執行，稱之為令狀主義。依據我國相關法律規定，下列那些令狀不一定要由法官核發？\n(A) 保護令\n(B) 拘票\n(C) 押票\n(D) 搜索票",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "為落實人權保障，我國法令要求國家在對人民實施某些特定行為之前，必須經過司法審查，由法院發給令狀\n     始得據以執行，稱之為令狀主義。依據我國相關法律規定，下列那些令狀不一定要由法官核發？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "保護令"
+      },
+      {
+        "letter": "B",
+        "text": "拘票"
+      },
+      {
+        "letter": "C",
+        "text": "押票"
+      },
+      {
+        "letter": "D",
+        "text": "搜索票"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-20",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "刑罰存在的目的，不該只是威嚇受刑人，更應給予適當的矯正再教育，使其擁有謀生能力，期使他重回社會\n     後能改邪歸正，並回饋社會。上文的說法符合刑罰的何種理念？\n(A) 應報理論\n(B) 特別預防理論\n(C) 一般預防理論\n(D) 刑法謙抑理論",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "刑罰存在的目的，不該只是威嚇受刑人，更應給予適當的矯正再教育，使其擁有謀生能力，期使他重回社會\n     後能改邪歸正，並回饋社會。上文的說法符合刑罰的何種理念？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "應報理論"
+      },
+      {
+        "letter": "B",
+        "text": "特別預防理論"
+      },
+      {
+        "letter": "C",
+        "text": "一般預防理論"
+      },
+      {
+        "letter": "D",
+        "text": "刑法謙抑理論"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-21",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "知名的 A 炸醬麵公司和 B 炸醬麵公司曾經想要進行合併，但政府根據公平交易法的規定未予同意。依上所\n     述判斷，政府未予同意，是因為該行為屬於下列何者？\n(A) 結合行為\n(B) 聯合行為\n(C) 獨占行為\n(D) 不公平競爭行為",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "知名的 A 炸醬麵公司和 B 炸醬麵公司曾經想要進行合併，但政府根據公平交易法的規定未予同意。依上所\n     述判斷，政府未予同意，是因為該行為屬於下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "結合行為"
+      },
+      {
+        "letter": "B",
+        "text": "聯合行為"
+      },
+      {
+        "letter": "C",
+        "text": "獨占行為"
+      },
+      {
+        "letter": "D",
+        "text": "不公平競爭行為"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-22",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "案件審理過程中，法官可依據自我專業與經驗，判斷證據的可信度後，進而作出適法判決，此行為是刑事訴\n     訟法中何項原則？\n(A) 罪疑惟輕\n(B) 無罪推定\n(C) 自由心證\n(D) 證據排除",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "案件審理過程中，法官可依據自我專業與經驗，判斷證據的可信度後，進而作出適法判決，此行為是刑事訴\n     訟法中何項原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "罪疑惟輕"
+      },
+      {
+        "letter": "B",
+        "text": "無罪推定"
+      },
+      {
+        "letter": "C",
+        "text": "自由心證"
+      },
+      {
+        "letter": "D",
+        "text": "證據排除"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-23",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "網友在網站上販賣隱形眼鏡，衛生機關接獲檢舉，認為已違反藥事法規定，醫材藥品應取得許可證後，始得\n     製造、輸入、販賣，一經查獲屬實，將依法科處新臺幣 3 萬至 15 萬元罰鍰。上述藥事法對此加以規範的最\n     主要目的應為下列何者？\n(A) 維護契約自由原則\n(B) 保障民眾健康權益\n(C) 執行國家刑罰權\n(D) 增加國庫收入來源",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "網友在網站上販賣隱形眼鏡，衛生機關接獲檢舉，認為已違反藥事法規定，醫材藥品應取得許可證後，始得\n     製造、輸入、販賣，一經查獲屬實，將依法科處新臺幣 3 萬至 15 萬元罰鍰。上述藥事法對此加以規範的最\n     主要目的應為下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "維護契約自由原則"
+      },
+      {
+        "letter": "B",
+        "text": "保障民眾健康權益"
+      },
+      {
+        "letter": "C",
+        "text": "執行國家刑罰權"
+      },
+      {
+        "letter": "D",
+        "text": "增加國庫收入來源"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-24",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "日前銓敘部進行座談會討論如何修改公務人員退休法中退休金的制度，會議中公務員提出「在職期間皆信任\n     該法給予的保障，且奉公守法、默默做事，為什麼直到退休才要修法砍退休金，此舉將侵害公務員權益。」\n     根據上述公務員所表示的意見判斷，應是強調修法是違反下列何種法律原則？\n(A) 明確性原則\n(B) 必要性原則\n(C) 誠實信用原則\n(D) 信賴保護原則",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "日前銓敘部進行座談會討論如何修改公務人員退休法中退休金的制度，會議中公務員提出「在職期間皆信任\n     該法給予的保障，且奉公守法、默默做事，為什麼直到退休才要修法砍退休金，此舉將侵害公務員權益。」\n     根據上述公務員所表示的意見判斷，應是強調修法是違反下列何種法律原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "明確性原則"
+      },
+      {
+        "letter": "B",
+        "text": "必要性原則"
+      },
+      {
+        "letter": "C",
+        "text": "誠實信用原則"
+      },
+      {
+        "letter": "D",
+        "text": "信賴保護原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-25",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "司法院釋字第 702 號解釋指出：民國 98 年修正公布之教師法對於行為不檢有損師道者「不得聘任為教師」\n     之規定，完全扼殺當事人改正的機會，因此認定違憲。此項大法官的解釋應該是依據下列何項原則？\n(A) 比例原則\n(B) 信賴保護原則\n(C) 法律保留原則\n(D) 誠實信用原則",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "司法院釋字第 702 號解釋指出：民國 98 年修正公布之教師法對於行為不檢有損師道者「不得聘任為教師」\n     之規定，完全扼殺當事人改正的機會，因此認定違憲。此項大法官的解釋應該是依據下列何項原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "比例原則"
+      },
+      {
+        "letter": "B",
+        "text": "信賴保護原則"
+      },
+      {
+        "letter": "C",
+        "text": "法律保留原則"
+      },
+      {
+        "letter": "D",
+        "text": "誠實信用原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-26",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依照我國憲法及增修條文之規定，下列有關司法院大法官之組成與職權之敘述，何者正確？\n(A) 15 位大法官由行政院院長提名，總統同意後任命之\n(B) 司法院正、副院長同時具備大法官的資格\n(C) 大法官召開憲法法庭，統一解釋憲法\n(D) 任期交錯且連選得連任，以利釋憲經驗的傳承",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依照我國憲法及增修條文之規定，下列有關司法院大法官之組成與職權之敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "15 位大法官由行政院院長提名，總統同意後任命之"
+      },
+      {
+        "letter": "B",
+        "text": "司法院正、副院長同時具備大法官的資格"
+      },
+      {
+        "letter": "C",
+        "text": "大法官召開憲法法庭，統一解釋憲法"
+      },
+      {
+        "letter": "D",
+        "text": "任期交錯且連選得連任，以利釋憲經驗的傳承"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-27",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我們常說：「天下沒有白吃的午餐」，意思是指我們所作的任何選擇，最主要隱含下列何種經濟概念？\n(A) 機會成本\n(B) 社會成本\n(C) 邊際效益\n(D) 價格機能",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "我們常說：「天下沒有白吃的午餐」，意思是指我們所作的任何選擇，最主要隱含下列何種經濟概念？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "機會成本"
+      },
+      {
+        "letter": "B",
+        "text": "社會成本"
+      },
+      {
+        "letter": "C",
+        "text": "邊際效益"
+      },
+      {
+        "letter": "D",
+        "text": "價格機能"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-28",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "假設地球上只有甲乙兩國，甲國每件牛仔褲的均衡價格為 500 元，乙國每件牛仔褲均衡價格為 600 元。在不\n     考慮其他條件的情況下，在自由貿易的社會中，每件牛仔褲的國際均衡價格最可能為下列何者？\n(A) 450 元\n(B) 600 元\n(C) 650 元\n(D) 700 元",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "假設地球上只有甲乙兩國，甲國每件牛仔褲的均衡價格為 500 元，乙國每件牛仔褲均衡價格為 600 元。在不\n     考慮其他條件的情況下，在自由貿易的社會中，每件牛仔褲的國際均衡價格最可能為下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "450 元"
+      },
+      {
+        "letter": "B",
+        "text": "600 元"
+      },
+      {
+        "letter": "C",
+        "text": "650 元"
+      },
+      {
+        "letter": "D",
+        "text": "700 元"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-29",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某廠商在媒體廣告中，訴求年終「破盤大特價」來吸引消費者目光以增加買氣。該廠商此種行銷手法是應用\n     經濟學中的那一項原理原則？\n(A) 邊際成本\n(B) 機會成本\n(C) 供需法則\n(D) 比較利益法則",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "某廠商在媒體廣告中，訴求年終「破盤大特價」來吸引消費者目光以增加買氣。該廠商此種行銷手法是應用\n     經濟學中的那一項原理原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "邊際成本"
+      },
+      {
+        "letter": "B",
+        "text": "機會成本"
+      },
+      {
+        "letter": "C",
+        "text": "供需法則"
+      },
+      {
+        "letter": "D",
+        "text": "比較利益法則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-30",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "衡量各國經濟情況最普遍的指標是國內生產毛額（GDP），下列發生在我國的各項經濟活動，何者不會計入\n     我國的國內生產毛額？\n(A) 外籍教師麥可在金門購買的二手車\n(B) 阿民開設加盟店所支付的店面租金\n(C) 小文購買某公司首次公開發行股票\n(D) 美美開設貿易公司進口手機零組件",
+    "page": 2,
+    "accepted": [
+      "A",
+      "D",
+      "AD"
+    ],
+    "correction": "依考選部更正公告，接受答案：A、D、AD。",
+    "stem": "衡量各國經濟情況最普遍的指標是國內生產毛額（GDP），下列發生在我國的各項經濟活動，何者不會計入\n     我國的國內生產毛額？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "外籍教師麥可在金門購買的二手車"
+      },
+      {
+        "letter": "B",
+        "text": "阿民開設加盟店所支付的店面租金"
+      },
+      {
+        "letter": "C",
+        "text": "小文購買某公司首次公開發行股票"
+      },
+      {
+        "letter": "D",
+        "text": "美美開設貿易公司進口手機零組件"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-31",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "教育部部長表示十二年國民義務教育的實施在於透過回歸正常化教學，避免考試領導教學，可提升國家競爭\n     力。政府制定此項政策的主要目的，應是為提升下列何種經濟發展的要素？\n(A) 人造資本\n(B) 人力資本\n(C) 社會資本\n(D) 政府效能",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "教育部部長表示十二年國民義務教育的實施在於透過回歸正常化教學，避免考試領導教學，可提升國家競爭\n     力。政府制定此項政策的主要目的，應是為提升下列何種經濟發展的要素？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "人造資本"
+      },
+      {
+        "letter": "B",
+        "text": "人力資本"
+      },
+      {
+        "letter": "C",
+        "text": "社會資本"
+      },
+      {
+        "letter": "D",
+        "text": "政府效能"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-32",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "逆選擇又被稱為「反向選擇」，是市場失靈的一種，時常發生在二手車市場中。會造成「逆選擇」的主要原\n     因是由於市場中存在下列何者？\n(A) 外部成本\n(B) 共有財\n(C) 政府干預\n(D) 資訊不對稱",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "逆選擇又被稱為「反向選擇」，是市場失靈的一種，時常發生在二手車市場中。會造成「逆選擇」的主要原\n     因是由於市場中存在下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "外部成本"
+      },
+      {
+        "letter": "B",
+        "text": "共有財"
+      },
+      {
+        "letter": "C",
+        "text": "政府干預"
+      },
+      {
+        "letter": "D",
+        "text": "資訊不對稱"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-33",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "由於全球天候異常及中東國際政治情勢動盪，使糧食價格及國際油價不斷攀升。影響所及，我國 2012 年消\n     費者物價指數（CPI）年增率為 1.94%，通膨壓力較前幾年更為顯著。依上所述，在不考慮其他條件的情況\n     下，推判影響我國通貨膨脹之主要因素應為下列何項？\n(A) 經濟衰退造成生產成本增加\n(B) 中央銀行持續進行寬鬆貨幣政策\n(C) 我國仰賴國際原物料比例高\n(D) 國內需求增加導致物價上漲",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "由於全球天候異常及中東國際政治情勢動盪，使糧食價格及國際油價不斷攀升。影響所及，我國 2012 年消\n     費者物價指數（CPI）年增率為 1.94%，通膨壓力較前幾年更為顯著。依上所述，在不考慮其他條件的情況\n     下，推判影響我國通貨膨脹之主要因素應為下列何項？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "經濟衰退造成生產成本增加"
+      },
+      {
+        "letter": "B",
+        "text": "中央銀行持續進行寬鬆貨幣政策"
+      },
+      {
+        "letter": "C",
+        "text": "我國仰賴國際原物料比例高"
+      },
+      {
+        "letter": "D",
+        "text": "國內需求增加導致物價上漲"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-34",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "世界貿易組織（WTO）也被稱為經濟的聯合國，下列何者是我國加入 WTO 之後產生的隱憂？\n(A) 不利於我國與其他國家的貿易往來\n(B) 若遭不公平貿易待遇有管道可申訴\n(C) 我國對他國商品課徵的關稅可望調高\n(D) 我國農業等競爭力較弱產業面臨衝擊",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "世界貿易組織（WTO）也被稱為經濟的聯合國，下列何者是我國加入 WTO 之後產生的隱憂？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不利於我國與其他國家的貿易往來"
+      },
+      {
+        "letter": "B",
+        "text": "若遭不公平貿易待遇有管道可申訴"
+      },
+      {
+        "letter": "C",
+        "text": "我國對他國商品課徵的關稅可望調高"
+      },
+      {
+        "letter": "D",
+        "text": "我國農業等競爭力較弱產業面臨衝擊"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-35",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "種番茄的農民說：「採摘番茄的工資大漲，每人每天的工資需要 1 千元，以目前每公斤 12 元，根本不敷成\n     本，如果花了錢僱人採番茄，到時只怕血本無歸，乾脆不採。」純就供給面而言，若依據農民的說法，則\n     番茄市場的供給曲線將會如何改變？\n(A) 會隨著成本增加而使整條曲線向左移\n(B) 會隨著成本增加而使整條曲線向右移\n(C) 因成本增加而減少供給量，是線上點的移動\n(D) 因成本增加而增加供給量，是線上點的移動",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "種番茄的農民說：「採摘番茄的工資大漲，每人每天的工資需要 1 千元，以目前每公斤 12 元，根本不敷成\n     本，如果花了錢僱人採番茄，到時只怕血本無歸，乾脆不採。」純就供給面而言，若依據農民的說法，則\n     番茄市場的供給曲線將會如何改變？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "會隨著成本增加而使整條曲線向左移"
+      },
+      {
+        "letter": "B",
+        "text": "會隨著成本增加而使整條曲線向右移"
+      },
+      {
+        "letter": "C",
+        "text": "因成本增加而減少供給量，是線上點的移動"
+      },
+      {
+        "letter": "D",
+        "text": "因成本增加而增加供給量，是線上點的移動"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-1-36",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Under the threat of Ebola virus, people who have not been inoculated are         to the disease.\n(A) numerable\n(B) anonymous\n(C) insensitive\n(D) vulnerable",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "Under the threat of Ebola virus, people who have not been inoculated are         to the disease.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "numerable"
+      },
+      {
+        "letter": "B",
+        "text": "anonymous"
+      },
+      {
+        "letter": "C",
+        "text": "insensitive"
+      },
+      {
+        "letter": "D",
+        "text": "vulnerable"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "104-1-37",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Hurricanes are not        ; therefore, they always cause severe casualties.\n(A) portable\n(B) persistent\n(C) predictable\n(D) premature",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "Hurricanes are not        ; therefore, they always cause severe casualties.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "portable"
+      },
+      {
+        "letter": "B",
+        "text": "persistent"
+      },
+      {
+        "letter": "C",
+        "text": "predictable"
+      },
+      {
+        "letter": "D",
+        "text": "premature"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "104-1-38",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "M. Rodriguez said clearly, “I like Pilar. She always          with her jokes.”\n(A) freaked me out\n(B) cheered me up\n(C) chilled me out\n(D) ended me up",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "M. Rodriguez said clearly, “I like Pilar. She always          with her jokes.”",
+    "options": [
+      {
+        "letter": "A",
+        "text": "freaked me out"
+      },
+      {
+        "letter": "B",
+        "text": "cheered me up"
+      },
+      {
+        "letter": "C",
+        "text": "chilled me out"
+      },
+      {
+        "letter": "D",
+        "text": "ended me up"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "104-1-39",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The Internet is rapidly         the TV as the most popular form of home entertainment.\n(A) taking place of\n(B) in use of\n(C) replacing\n(D) displacing",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "The Internet is rapidly         the TV as the most popular form of home entertainment.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "taking place of"
+      },
+      {
+        "letter": "B",
+        "text": "in use of"
+      },
+      {
+        "letter": "C",
+        "text": "replacing"
+      },
+      {
+        "letter": "D",
+        "text": "displacing"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "104-1-40",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The most convenient way to get            this small town is to ride a scooter.\n(A) on\n(B) above\n(C) at\n(D) around",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "The most convenient way to get            this small town is to ride a scooter.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "on"
+      },
+      {
+        "letter": "B",
+        "text": "above"
+      },
+      {
+        "letter": "C",
+        "text": "at"
+      },
+      {
+        "letter": "D",
+        "text": "around"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "104-1-41",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 41 空格最合適的答案。\n(A) reaching\n(B) setting\n(C) stretching\n(D) pointing",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 41 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "reaching"
+      },
+      {
+        "letter": "B",
+        "text": "setting"
+      },
+      {
+        "letter": "C",
+        "text": "stretching"
+      },
+      {
+        "letter": "D",
+        "text": "pointing"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is\nsituated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be\nfirmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes\non the wheels have to be released. While en route, there are also many things to watch out for. You should never go\ntoo fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44\nlaces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful\nenough, you and the rider will arrive at your destination without any mishaps.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "104-1-42",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 42 空格最合適的答案。\n(A) drag\n(B) pull\n(C) walk\n(D) trip",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 42 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "drag"
+      },
+      {
+        "letter": "B",
+        "text": "pull"
+      },
+      {
+        "letter": "C",
+        "text": "walk"
+      },
+      {
+        "letter": "D",
+        "text": "trip"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is\nsituated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be\nfirmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes\non the wheels have to be released. While en route, there are also many things to watch out for. You should never go\ntoo fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44\nlaces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful\nenough, you and the rider will arrive at your destination without any mishaps.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "104-1-43",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 43 空格最合適的答案。\n(A) if so\n(B) and then\n(C) in case\n(D) although",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 43 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "if so"
+      },
+      {
+        "letter": "B",
+        "text": "and then"
+      },
+      {
+        "letter": "C",
+        "text": "in case"
+      },
+      {
+        "letter": "D",
+        "text": "although"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is\nsituated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be\nfirmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes\non the wheels have to be released. While en route, there are also many things to watch out for. You should never go\ntoo fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44\nlaces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful\nenough, you and the rider will arrive at your destination without any mishaps.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "104-1-44",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 44 空格最合適的答案。\n(A) ball\n(B) racket\n(C) shoe\n(D) game",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 44 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ball"
+      },
+      {
+        "letter": "B",
+        "text": "racket"
+      },
+      {
+        "letter": "C",
+        "text": "shoe"
+      },
+      {
+        "letter": "D",
+        "text": "game"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is\nsituated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be\nfirmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes\non the wheels have to be released. While en route, there are also many things to watch out for. You should never go\ntoo fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44\nlaces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful\nenough, you and the rider will arrive at your destination without any mishaps.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "104-1-45",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 45 空格最合適的答案。\n(A) later\n(B) sudden\n(C) false\n(D) heavy",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 45 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "later"
+      },
+      {
+        "letter": "B",
+        "text": "sudden"
+      },
+      {
+        "letter": "C",
+        "text": "false"
+      },
+      {
+        "letter": "D",
+        "text": "heavy"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Pushing a wheelchair is not really as easy as it looks. Before 41 out, you have to make sure that the rider is\nsituated well in the seat of the wheelchair, so that the balance is kept steady during the ride. Also, her legs have to be\nfirmly placed on the footrests so that her feet will not 42 on the ground. Then, before going forward, the brakes\non the wheels have to be released. While en route, there are also many things to watch out for. You should never go\ntoo fast 43 bumps appear in your path. Maybe a teenager will suddenly stop in front of you to tie his tennis 44\nlaces or a young toddler will wander into your pathway, and you will have to come to a 45 stop. If you are careful\nenough, you and the rider will arrive at your destination without any mishaps.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  {
+    "id": "104-1-46",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The journey taken together by the faithful followers of a particular religion is called a       .\n(A) pilgrimage\n(B) pleasure trip\n(C) performance\n(D) general tour",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "The journey taken together by the faithful followers of a particular religion is called a       .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "pilgrimage"
+      },
+      {
+        "letter": "B",
+        "text": "pleasure trip"
+      },
+      {
+        "letter": "C",
+        "text": "performance"
+      },
+      {
+        "letter": "D",
+        "text": "general tour"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Tourism today has become rather specialized. In addition to the general tours, which only allow the traveler to\nquickly visit one or two heritage sites and do a little shopping on the side, innovative travel agencies offer a number of\nitineraries for people with special interests. For modern-day religious pilgrims, trips are arranged to Jerusalem and\nMecca. For people who are interested in nature, ocean liners retrace the voyages taken by the naturalist Charles Darwin.\nNature lovers can also take ecological tours that teach how to distinguish the plant and insect life in preserved wetlands.\nOne of the newer types of tourism is called dark tourism, which includes tours to cemeteries and prisons. The traveler can\nvisit the tombs of famous people at a cemetery in Paris or visit prisons where well-known political prisoners or hardened\ncriminals were imprisoned. For people who take such specialized tours, learning something is more important than just\nbeing able to say, “I’ve been there.”",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "104-1-47",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "An ocean tour that follows Darwin’s journeys would take you to see the unusual                 on remote islands in the\n       Pacific.\n(A) history museums\n(B) natural species\n(C) sea coast resorts\n(D) high-tech harbors",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "An ocean tour that follows Darwin’s journeys would take you to see the unusual                 on remote islands in the\n       Pacific.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "history museums"
+      },
+      {
+        "letter": "B",
+        "text": "natural species"
+      },
+      {
+        "letter": "C",
+        "text": "sea coast resorts"
+      },
+      {
+        "letter": "D",
+        "text": "high-tech harbors"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Tourism today has become rather specialized. In addition to the general tours, which only allow the traveler to\nquickly visit one or two heritage sites and do a little shopping on the side, innovative travel agencies offer a number of\nitineraries for people with special interests. For modern-day religious pilgrims, trips are arranged to Jerusalem and\nMecca. For people who are interested in nature, ocean liners retrace the voyages taken by the naturalist Charles Darwin.\nNature lovers can also take ecological tours that teach how to distinguish the plant and insect life in preserved wetlands.\nOne of the newer types of tourism is called dark tourism, which includes tours to cemeteries and prisons. The traveler can\nvisit the tombs of famous people at a cemetery in Paris or visit prisons where well-known political prisoners or hardened\ncriminals were imprisoned. For people who take such specialized tours, learning something is more important than just\nbeing able to say, “I’ve been there.”",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "104-1-48",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the paragraph, on an ecological tour you would most likely be given instruction in                various\n       species of plant life.\n(A) cultivating\n(B) planting\n(C) identifying\n(D) hybridizing",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "According to the paragraph, on an ecological tour you would most likely be given instruction in                various\n       species of plant life.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "cultivating"
+      },
+      {
+        "letter": "B",
+        "text": "planting"
+      },
+      {
+        "letter": "C",
+        "text": "identifying"
+      },
+      {
+        "letter": "D",
+        "text": "hybridizing"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Tourism today has become rather specialized. In addition to the general tours, which only allow the traveler to\nquickly visit one or two heritage sites and do a little shopping on the side, innovative travel agencies offer a number of\nitineraries for people with special interests. For modern-day religious pilgrims, trips are arranged to Jerusalem and\nMecca. For people who are interested in nature, ocean liners retrace the voyages taken by the naturalist Charles Darwin.\nNature lovers can also take ecological tours that teach how to distinguish the plant and insect life in preserved wetlands.\nOne of the newer types of tourism is called dark tourism, which includes tours to cemeteries and prisons. The traveler can\nvisit the tombs of famous people at a cemetery in Paris or visit prisons where well-known political prisoners or hardened\ncriminals were imprisoned. For people who take such specialized tours, learning something is more important than just\nbeing able to say, “I’ve been there.”",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "104-1-49",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The type of tourism called dark tourism could take you to visit a          .\n(A) medieval castle\n(B) burial site\n(C) political convention\n(D) battleground",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "The type of tourism called dark tourism could take you to visit a          .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "medieval castle"
+      },
+      {
+        "letter": "B",
+        "text": "burial site"
+      },
+      {
+        "letter": "C",
+        "text": "political convention"
+      },
+      {
+        "letter": "D",
+        "text": "battleground"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Tourism today has become rather specialized. In addition to the general tours, which only allow the traveler to\nquickly visit one or two heritage sites and do a little shopping on the side, innovative travel agencies offer a number of\nitineraries for people with special interests. For modern-day religious pilgrims, trips are arranged to Jerusalem and\nMecca. For people who are interested in nature, ocean liners retrace the voyages taken by the naturalist Charles Darwin.\nNature lovers can also take ecological tours that teach how to distinguish the plant and insect life in preserved wetlands.\nOne of the newer types of tourism is called dark tourism, which includes tours to cemeteries and prisons. The traveler can\nvisit the tombs of famous people at a cemetery in Paris or visit prisons where well-known political prisoners or hardened\ncriminals were imprisoned. For people who take such specialized tours, learning something is more important than just\nbeing able to say, “I’ve been there.”",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "104-1-50",
+    "examId": "104-1",
+    "year": 104,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "From the paragraph we may assume that the writer most likely prefers              tours.\n(A) expensive\n(B) specialized\n(C) ordinary\n(D) business",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "From the paragraph we may assume that the writer most likely prefers              tours.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "expensive"
+      },
+      {
+        "letter": "B",
+        "text": "specialized"
+      },
+      {
+        "letter": "C",
+        "text": "ordinary"
+      },
+      {
+        "letter": "D",
+        "text": "business"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Tourism today has become rather specialized. In addition to the general tours, which only allow the traveler to\nquickly visit one or two heritage sites and do a little shopping on the side, innovative travel agencies offer a number of\nitineraries for people with special interests. For modern-day religious pilgrims, trips are arranged to Jerusalem and\nMecca. For people who are interested in nature, ocean liners retrace the voyages taken by the naturalist Charles Darwin.\nNature lovers can also take ecological tours that teach how to distinguish the plant and insect life in preserved wetlands.\nOne of the newer types of tourism is called dark tourism, which includes tours to cemeteries and prisons. The traveler can\nvisit the tombs of famous people at a cemetery in Paris or visit prisons where well-known political prisoners or hardened\ncriminals were imprisoned. For people who take such specialized tours, learning something is more important than just\nbeing able to say, “I’ve been there.”",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  }
+]

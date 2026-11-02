@@ -1,0 +1,393 @@
+[
+  {
+    "id": "098-0-1",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "稱許做事的態度勇於創新求進步，最適當的用語是：\n(A) 見機行事\n(B) 革故鼎新\n(C) 蕭規曹隨\n(D) 一時瑜 亮",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "稱許做事的態度勇於創新求進步，最適當的用語是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "見機行事"
+      },
+      {
+        "letter": "B",
+        "text": "革故鼎新"
+      },
+      {
+        "letter": "C",
+        "text": "蕭規曹隨"
+      },
+      {
+        "letter": "D",
+        "text": "一時瑜 亮"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-2",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那一組的兩個成語，都具有負面的意思？\n(A) 不求甚解；不愧屋漏\n(B) 不恥下問；不修邊幅\n(C) 不卑不亢；不拘小節\n(D) 不學無術；不倫不類",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列那一組的兩個成語，都具有負面的意思？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不求甚解；不愧屋漏"
+      },
+      {
+        "letter": "B",
+        "text": "不恥下問；不修邊幅"
+      },
+      {
+        "letter": "C",
+        "text": "不卑不亢；不拘小節"
+      },
+      {
+        "letter": "D",
+        "text": "不學無術；不倫不類"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-3",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小叮噹參加歌唱比賽，榮獲冠軍，你如果想要送他一份禮物，禮物上最\n     適合填上的題辭是：\n(A) 金聲玉振\n(B) 錦心繡口\n(C) 玉潤珠圓\n(D) 口若懸河",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小叮噹參加歌唱比賽，榮獲冠軍，你如果想要送他一份禮物，禮物上最\n     適合填上的題辭是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "金聲玉振"
+      },
+      {
+        "letter": "B",
+        "text": "錦心繡口"
+      },
+      {
+        "letter": "C",
+        "text": "玉潤珠圓"
+      },
+      {
+        "letter": "D",
+        "text": "口若懸河"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-4",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "蘇軾〈水調歌頭〉云：「但願人長久，千里共嬋娟。」詞中的「嬋娟」，\n     是指：\n(A) 明月\n(B) 美女\n(C) 佳節\n(D) 美景",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "蘇軾〈水調歌頭〉云：「但願人長久，千里共嬋娟。」詞中的「嬋娟」，\n     是指：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "明月"
+      },
+      {
+        "letter": "B",
+        "text": "美女"
+      },
+      {
+        "letter": "C",
+        "text": "佳節"
+      },
+      {
+        "letter": "D",
+        "text": "美景"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-5",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列文句，「」中詞語經替換之後，意義不同的是：\n(A) 我那「拙荊」沒見過世面，請你別見怪→渾家\n(B) 錢先生文史造詣深厚，可謂國學「巨擘」→泰斗\n(C) 「薄暮」時分，散步於公園，是件愉快的事→傍晚\n(D) 今日不能把握光陰，前途必定「坎坷」→崢嶸",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列文句，「」中詞語經替換之後，意義不同的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "我那「拙荊」沒見過世面，請你別見怪→渾家"
+      },
+      {
+        "letter": "B",
+        "text": "錢先生文史造詣深厚，可謂國學「巨擘」→泰斗"
+      },
+      {
+        "letter": "C",
+        "text": "「薄暮」時分，散步於公園，是件愉快的事→傍晚"
+      },
+      {
+        "letter": "D",
+        "text": "今日不能把握光陰，前途必定「坎坷」→崢嶸"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-6",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列詞語的解釋，正確的是：\n(A) 入幕之賓──指關係親近的幕僚\n(B) 騷人墨客──指滿腹牢騷的政客\n(C) 大家閨秀──指眾人稱譽的美女\n(D) 梁上君子──指偷雞摸狗的宵小",
+    "page": 1,
+    "accepted": [
+      "A",
+      "D"
+    ],
+    "correction": "依考選部更正公告，接受答案：A、D。",
+    "stem": "下列詞語的解釋，正確的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "入幕之賓──指關係親近的幕僚"
+      },
+      {
+        "letter": "B",
+        "text": "騷人墨客──指滿腹牢騷的政客"
+      },
+      {
+        "letter": "C",
+        "text": "大家閨秀──指眾人稱譽的美女"
+      },
+      {
+        "letter": "D",
+        "text": "梁上君子──指偷雞摸狗的宵小"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-7",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列對話中的稱謂用語，正確的是：\n(A) 甲：令弟在家嗎∕乙：賢弟在家\n(B) 甲：令郎在那裡高就∕乙：小女任職於行政院\n(C) 甲：令兄就讀美國何校∕乙：家兄就讀哈佛大學研究所\n(D) 甲：貴公司有多少員工∕乙：本寶號有三千名員工",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列對話中的稱謂用語，正確的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "甲：令弟在家嗎∕乙：賢弟在家"
+      },
+      {
+        "letter": "B",
+        "text": "甲：令郎在那裡高就∕乙：小女任職於行政院"
+      },
+      {
+        "letter": "C",
+        "text": "甲：令兄就讀美國何校∕乙：家兄就讀哈佛大學研究所"
+      },
+      {
+        "letter": "D",
+        "text": "甲：貴公司有多少員工∕乙：本寶號有三千名員工"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-8",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "文中「一人雖聽之，一心以為有鴻鵠將至，思援弓繳而射之」，意謂此\n  人：\n(A) 汲汲功名\n(B) 心不在焉\n(C) 庸人自擾\n(D) 專一心志",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "文中「一人雖聽之，一心以為有鴻鵠將至，思援弓繳而射之」，意謂此\n  人：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "汲汲功名"
+      },
+      {
+        "letter": "B",
+        "text": "心不在焉"
+      },
+      {
+        "letter": "C",
+        "text": "庸人自擾"
+      },
+      {
+        "letter": "D",
+        "text": "專一心志"
+      }
+    ],
+    "textFallback": false,
+    "passage": "今夫弈之為數，小數也。不專心致志，則不得也。弈秋，通國之善弈\n 者也。使弈秋誨二人弈，其一人專心致志，惟弈秋之為聽。一人雖聽之，\n 一心以為有鴻鵠將至，思援弓繳而射之；雖與之俱學，弗若之矣。為是其\n 智弗若與？曰：非然也。（《孟子．告子上》）\n 請依上文回答8至10題",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-9",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列那一個選項的「之」字，是指弈秋？\n(A) 弈「之」為數\n(B) 思援弓繳而射「之」\n(C) 雖與「之」俱學，弗若之矣\n(D) 一人雖聽「之」",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列那一個選項的「之」字，是指弈秋？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "弈「之」為數"
+      },
+      {
+        "letter": "B",
+        "text": "思援弓繳而射「之」"
+      },
+      {
+        "letter": "C",
+        "text": "雖與「之」俱學，弗若之矣"
+      },
+      {
+        "letter": "D",
+        "text": "一人雖聽「之」"
+      }
+    ],
+    "textFallback": false,
+    "passage": "今夫弈之為數，小數也。不專心致志，則不得也。弈秋，通國之善弈\n 者也。使弈秋誨二人弈，其一人專心致志，惟弈秋之為聽。一人雖聽之，\n 一心以為有鴻鵠將至，思援弓繳而射之；雖與之俱學，弗若之矣。為是其\n 智弗若與？曰：非然也。（《孟子．告子上》）\n 請依上文回答8至10題",
+    "hasVisual": false
+  },
+  {
+    "id": "098-0-10",
+    "examId": "098-0",
+    "year": 98,
+    "subject": "國文",
+    "subjectIndex": 0,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "由本文看來，影響二人學習成效最大的因素是：\n(A) 師資\n(B) 才智\n(C) 態度\n(D) 環境",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "由本文看來，影響二人學習成效最大的因素是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "師資"
+      },
+      {
+        "letter": "B",
+        "text": "才智"
+      },
+      {
+        "letter": "C",
+        "text": "態度"
+      },
+      {
+        "letter": "D",
+        "text": "環境"
+      }
+    ],
+    "textFallback": false,
+    "passage": "今夫弈之為數，小數也。不專心致志，則不得也。弈秋，通國之善弈\n 者也。使弈秋誨二人弈，其一人專心致志，惟弈秋之為聽。一人雖聽之，\n 一心以為有鴻鵠將至，思援弓繳而射之；雖與之俱學，弗若之矣。為是其\n 智弗若與？曰：非然也。（《孟子．告子上》）\n 請依上文回答8至10題",
+    "hasVisual": false
+  }
+]

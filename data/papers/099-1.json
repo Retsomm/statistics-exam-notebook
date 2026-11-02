@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "099-1-1",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 1,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我們常說要從小培養公民的民主素養，要如何在日常生活中去執行與實踐，下列何種做法是可行而有效的？\n(A) 為了和諧從不與人爭辯\n(B) 開會時少發言避免紛爭\n(C) 公開表達對團體的意見\n(D) 匿名上網披露內幕消息",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "我們常說要從小培養公民的民主素養，要如何在日常生活中去執行與實踐，下列何種做法是可行而有效的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "為了和諧從不與人爭辯"
+      },
+      {
+        "letter": "B",
+        "text": "開會時少發言避免紛爭"
+      },
+      {
+        "letter": "C",
+        "text": "公開表達對團體的意見"
+      },
+      {
+        "letter": "D",
+        "text": "匿名上網披露內幕消息"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-2",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 2,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「中央政府體制之運作，採分權制衡之原則，行政首長推行政策之難度頗高，還好擁有龐大的資源遊說國\n     會議員，而且議員黨紀鬆弛，才能順利施政，但很難大有為，也不免會有政治僵局出現，仿行的國家以拉\n     丁美洲、非洲及少數亞洲國家為主，但鮮有成功者」，請問上文所敘述者可能是何種制度？\n(A) 英國內閣制\n(B) 美國總統制\n(C) 法國混合制\n(D) 瑞士委員制",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "「中央政府體制之運作，採分權制衡之原則，行政首長推行政策之難度頗高，還好擁有龐大的資源遊說國\n     會議員，而且議員黨紀鬆弛，才能順利施政，但很難大有為，也不免會有政治僵局出現，仿行的國家以拉\n     丁美洲、非洲及少數亞洲國家為主，但鮮有成功者」，請問上文所敘述者可能是何種制度？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "英國內閣制"
+      },
+      {
+        "letter": "B",
+        "text": "美國總統制"
+      },
+      {
+        "letter": "C",
+        "text": "法國混合制"
+      },
+      {
+        "letter": "D",
+        "text": "瑞士委員制"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-3",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 3,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國地方制度法的相關規定，所謂的地方自治團體包括下列那些？①直轄市政府 ②省政府 ③縣（市）\n     政府 ④區公所\n(A) ①②\n(B) ①③\n(C) ②④\n(D) ③④",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依據我國地方制度法的相關規定，所謂的地方自治團體包括下列那些？①直轄市政府 ②省政府 ③縣（市）\n     政府 ④區公所",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①③"
+      },
+      {
+        "letter": "C",
+        "text": "②④"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-4",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 4,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "家庭是透過各種關係而組成，是個人最早接觸而且互動最為持久的社會組織，和我們的關係非常密切，一\n     般而言，組成家庭的因素不包含下列何種關係？\n(A) 婚姻\n(B) 收養\n(C) 血緣\n(D) 寄養",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "家庭是透過各種關係而組成，是個人最早接觸而且互動最為持久的社會組織，和我們的關係非常密切，一\n     般而言，組成家庭的因素不包含下列何種關係？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "婚姻"
+      },
+      {
+        "letter": "B",
+        "text": "收養"
+      },
+      {
+        "letter": "C",
+        "text": "血緣"
+      },
+      {
+        "letter": "D",
+        "text": "寄養"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-5",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 5,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "在民主法治社會裡，當人民不履行法律上的義務時，通常國家都會強制其履行或加以處罰，這種法律上的\n     效果稱為什麼？\n(A) 權利\n(B) 義務\n(C) 責任\n(D) 制裁",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在民主法治社會裡，當人民不履行法律上的義務時，通常國家都會強制其履行或加以處罰，這種法律上的\n     效果稱為什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "權利"
+      },
+      {
+        "letter": "B",
+        "text": "義務"
+      },
+      {
+        "letter": "C",
+        "text": "責任"
+      },
+      {
+        "letter": "D",
+        "text": "制裁"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-6",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 6,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "憲法規定人民的生存權、工作權，應予以保障，這些權利被歸類為何種受益權？\n(A) 經濟的\n(B) 行政的\n(C) 司法的\n(D) 教育的",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "憲法規定人民的生存權、工作權，應予以保障，這些權利被歸類為何種受益權？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "經濟的"
+      },
+      {
+        "letter": "B",
+        "text": "行政的"
+      },
+      {
+        "letter": "C",
+        "text": "司法的"
+      },
+      {
+        "letter": "D",
+        "text": "教育的"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-7",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 7,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "自由權是維護個人尊嚴的重要權利，下列那一項不屬於我國憲法所保障的自由權？\n(A) 居住遷徙\n(B) 信仰宗教\n(C) 集會結社\n(D) 受國民教育",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "自由權是維護個人尊嚴的重要權利，下列那一項不屬於我國憲法所保障的自由權？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "居住遷徙"
+      },
+      {
+        "letter": "B",
+        "text": "信仰宗教"
+      },
+      {
+        "letter": "C",
+        "text": "集會結社"
+      },
+      {
+        "letter": "D",
+        "text": "受國民教育"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-8",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 8,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「眼睛看不見的大華，帶著導盲犬想進入餐廳用餐，卻被拒絕了」，請問下列那一項最接近大華被剝奪的\n     基本權利？\n(A) 平等權\n(B) 生存權\n(C) 受益權\n(D) 財產權",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "「眼睛看不見的大華，帶著導盲犬想進入餐廳用餐，卻被拒絕了」，請問下列那一項最接近大華被剝奪的\n     基本權利？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "平等權"
+      },
+      {
+        "letter": "B",
+        "text": "生存權"
+      },
+      {
+        "letter": "C",
+        "text": "受益權"
+      },
+      {
+        "letter": "D",
+        "text": "財產權"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-9",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 9,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關「家庭」的敘述，何者正確？\n(A) 家庭是純由婚姻關係組成的團體\n(B) 折衷家庭又稱核心家庭\n(C) 家庭是社會組成的基本單位\n(D) 家庭的功能可由其他社會機構完全取代",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列有關「家庭」的敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "家庭是純由婚姻關係組成的團體"
+      },
+      {
+        "letter": "B",
+        "text": "折衷家庭又稱核心家庭"
+      },
+      {
+        "letter": "C",
+        "text": "家庭是社會組成的基本單位"
+      },
+      {
+        "letter": "D",
+        "text": "家庭的功能可由其他社會機構完全取代"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-10",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 10,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "莊先生夫妻在不同學校任教，育有一對就讀國小一年級的子女。請問：關於他們在經濟活動中所扮演的角\n     色，那一組敘述完全正確？ ① 莊先生夫妻皆是生產者，也皆是消費者    ② 莊先生是生產者，不是消費者\n     ③子女是消費者，不是生產者   ④莊先生是生產者，莊太太不是生產者\n(A) ①③\n(B) ①④\n(C) ②③\n(D) ②④",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "莊先生夫妻在不同學校任教，育有一對就讀國小一年級的子女。請問：關於他們在經濟活動中所扮演的角\n     色，那一組敘述完全正確？ ① 莊先生夫妻皆是生產者，也皆是消費者    ② 莊先生是生產者，不是消費者\n     ③子女是消費者，不是生產者   ④莊先生是生產者，莊太太不是生產者",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①③"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "②④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-11",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 11,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "民主政府推動各種公共事務，其費用乃是由人民共同分擔；為了落實公共服務，我國政府的預算收入來源\n     最主要的是：\n(A) 公債收入\n(B) 租稅收入\n(C) 公營繳庫收入\n(D) 規費罰款收入",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "民主政府推動各種公共事務，其費用乃是由人民共同分擔；為了落實公共服務，我國政府的預算收入來源\n     最主要的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "公債收入"
+      },
+      {
+        "letter": "B",
+        "text": "租稅收入"
+      },
+      {
+        "letter": "C",
+        "text": "公營繳庫收入"
+      },
+      {
+        "letter": "D",
+        "text": "規費罰款收入"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-12",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 12,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關民法規定的敘述，何者為正確？\n(A) 所謂「非財產權」包括人格權、身分權及無體財產權\n(B) 限制行為能力是指滿七歲未滿十八歲\n(C) 一般債權請求權的消滅時效為十年\n(D) 意思表示一定要採取某種方式才算成立的法律行為，稱之「要式行為」",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列有關民法規定的敘述，何者為正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "所謂「非財產權」包括人格權、身分權及無體財產權"
+      },
+      {
+        "letter": "B",
+        "text": "限制行為能力是指滿七歲未滿十八歲"
+      },
+      {
+        "letter": "C",
+        "text": "一般債權請求權的消滅時效為十年"
+      },
+      {
+        "letter": "D",
+        "text": "意思表示一定要採取某種方式才算成立的法律行為，稱之「要式行為」"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-13",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 13,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "一位作家提到：「我只要開車出去，就有可能傷害到別人。我的車子排放的廢氣，污染別人呼吸的空氣。」\n     請問經濟學家把這種非故意的副作用稱之為何？\n(A) 外部效益\n(B) 外部成本\n(C) 社會資本\n(D) 外部經濟",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一位作家提到：「我只要開車出去，就有可能傷害到別人。我的車子排放的廢氣，污染別人呼吸的空氣。」\n     請問經濟學家把這種非故意的副作用稱之為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "外部效益"
+      },
+      {
+        "letter": "B",
+        "text": "外部成本"
+      },
+      {
+        "letter": "C",
+        "text": "社會資本"
+      },
+      {
+        "letter": "D",
+        "text": "外部經濟"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-14",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 14,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "承上題，請問下列那些是解決這種非故意的副作用的方法？①補貼       ②課稅 ③管制 ④獎勵\n(A) ①②\n(B) ①④\n(C) ②③\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "承上題，請問下列那些是解決這種非故意的副作用的方法？①補貼       ②課稅 ③管制 ④獎勵",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "一位作家提到：「我只要開車出去，就有可能傷害到別人。我的車子排放的廢氣，污染別人呼吸的空氣。」\n     請問經濟學家把這種非故意的副作用稱之為何？",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-15",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 15,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "某日小董到一家漫畫店，本來選了幾本漫畫書想租回家看，沒想到店員剛好離開而不在櫃台，小董懶得再\n     等下去，就直接把書帶走。請問：小董的行為，最主要觸犯了下列那一種法律的規定？\n(A) 民法\n(B) 刑法\n(C) 公平交易法\n(D) 社會秩序維護法",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "某日小董到一家漫畫店，本來選了幾本漫畫書想租回家看，沒想到店員剛好離開而不在櫃台，小董懶得再\n     等下去，就直接把書帶走。請問：小董的行為，最主要觸犯了下列那一種法律的規定？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "民法"
+      },
+      {
+        "letter": "B",
+        "text": "刑法"
+      },
+      {
+        "letter": "C",
+        "text": "公平交易法"
+      },
+      {
+        "letter": "D",
+        "text": "社會秩序維護法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-16",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 16,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "日本天皇自「明治維新」後即為虛位元首，由此可以得知日本是屬於那一種國體、政體？\n(A) 君主、獨裁\n(B) 共和、民主\n(C) 君主、民主\n(D) 共和、獨裁",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "日本天皇自「明治維新」後即為虛位元首，由此可以得知日本是屬於那一種國體、政體？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "君主、獨裁"
+      },
+      {
+        "letter": "B",
+        "text": "共和、民主"
+      },
+      {
+        "letter": "C",
+        "text": "君主、民主"
+      },
+      {
+        "letter": "D",
+        "text": "共和、獨裁"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-17",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 17,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "張三過世時，留下一筆一千萬元遺產，卻欠債二千萬元，其子認為繼承的結果，沒有實際利益，應在得知\n     可以繼承起三個月內，以書面向法院提出：\n(A) 脫離父子關係\n(B) 破產宣告\n(C) 拋棄繼承權\n(D) 禁治產宣告",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "張三過世時，留下一筆一千萬元遺產，卻欠債二千萬元，其子認為繼承的結果，沒有實際利益，應在得知\n     可以繼承起三個月內，以書面向法院提出：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "脫離父子關係"
+      },
+      {
+        "letter": "B",
+        "text": "破產宣告"
+      },
+      {
+        "letter": "C",
+        "text": "拋棄繼承權"
+      },
+      {
+        "letter": "D",
+        "text": "禁治產宣告"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-18",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 18,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國有些政黨在選舉提名候選人之前，先行辦理黨內初選，其最主要的作用何在？\n(A) 提供完整性的政策\n(B) 提供選民多元資訊\n(C) 描繪國家建設藍圖\n(D) 推薦理想社會才俊",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "我國有些政黨在選舉提名候選人之前，先行辦理黨內初選，其最主要的作用何在？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "提供完整性的政策"
+      },
+      {
+        "letter": "B",
+        "text": "提供選民多元資訊"
+      },
+      {
+        "letter": "C",
+        "text": "描繪國家建設藍圖"
+      },
+      {
+        "letter": "D",
+        "text": "推薦理想社會才俊"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-19",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 19,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "曉萱正在閱讀雜誌，其中有一段內容提到：「基因科技的進步使複製夢想可能成真，但學者指出複製人的\n     出現將嚴重衝擊現行倫理關係，日前聯合國也敦促各國立法禁止複製科技。」請問：根據該段內容判斷，\n     作者最可能在討論下列那一項主題？\n(A) 基因科技與人口成長\n(B) 基因科技與社會規範\n(C) 基因科技與國際合作\n(D) 基因科技與環境保育",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "曉萱正在閱讀雜誌，其中有一段內容提到：「基因科技的進步使複製夢想可能成真，但學者指出複製人的\n     出現將嚴重衝擊現行倫理關係，日前聯合國也敦促各國立法禁止複製科技。」請問：根據該段內容判斷，\n     作者最可能在討論下列那一項主題？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "基因科技與人口成長"
+      },
+      {
+        "letter": "B",
+        "text": "基因科技與社會規範"
+      },
+      {
+        "letter": "C",
+        "text": "基因科技與國際合作"
+      },
+      {
+        "letter": "D",
+        "text": "基因科技與環境保育"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-20",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 20,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依我國刑事訴訟法規定，法院不能證明被告犯罪時，應如何處理？\n(A) 發回地檢署，重新調查\n(B) 令被告舉出不在場證明\n(C) 先予羈押，再行加強蒐證\n(D) 罪疑唯輕，作成無罪判決",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "依我國刑事訴訟法規定，法院不能證明被告犯罪時，應如何處理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "發回地檢署，重新調查"
+      },
+      {
+        "letter": "B",
+        "text": "令被告舉出不在場證明"
+      },
+      {
+        "letter": "C",
+        "text": "先予羈押，再行加強蒐證"
+      },
+      {
+        "letter": "D",
+        "text": "罪疑唯輕，作成無罪判決"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-21",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 21,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "現代國家的政府，在經濟上應扮演怎樣的角色？①提供共用財        ②減少外部效果所產生的糾紛   ③全面管\n     理經濟活動 ④決定商品的價格\n(A) ①②\n(B) ①④\n(C) ②③\n(D) ③④",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "現代國家的政府，在經濟上應扮演怎樣的角色？①提供共用財        ②減少外部效果所產生的糾紛   ③全面管\n     理經濟活動 ④決定商品的價格",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②"
+      },
+      {
+        "letter": "B",
+        "text": "①④"
+      },
+      {
+        "letter": "C",
+        "text": "②③"
+      },
+      {
+        "letter": "D",
+        "text": "③④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-22",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 22,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "衡量一個國家言論自由與否，根本體現應落實在下列那一種？\n(A) 人民能夠公開的批評鄰國的時政\n(B) 政府官員能夠自由批判他國政府\n(C) 社會大眾能夠包容少數人的異議\n(D) 民意代表享受充分的言論免責權",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "衡量一個國家言論自由與否，根本體現應落實在下列那一種？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "人民能夠公開的批評鄰國的時政"
+      },
+      {
+        "letter": "B",
+        "text": "政府官員能夠自由批判他國政府"
+      },
+      {
+        "letter": "C",
+        "text": "社會大眾能夠包容少數人的異議"
+      },
+      {
+        "letter": "D",
+        "text": "民意代表享受充分的言論免責權"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-23",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 23,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國中央政府的職權中，對於預算的編列、審查以及決算的審核，各機關各司其職，其中負責「決算的審\n     核」是下列那一個機關？\n(A) 行政院\n(B) 立法院\n(C) 司法院\n(D) 監察院",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "我國中央政府的職權中，對於預算的編列、審查以及決算的審核，各機關各司其職，其中負責「決算的審\n     核」是下列那一個機關？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行政院"
+      },
+      {
+        "letter": "B",
+        "text": "立法院"
+      },
+      {
+        "letter": "C",
+        "text": "司法院"
+      },
+      {
+        "letter": "D",
+        "text": "監察院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-24",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 24,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依現行憲法規定，下列何者為我國最高行政機關？\n(A) 總統府\n(B) 行政院\n(C) 國家安全會議\n(D) 最高行政法院",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "依現行憲法規定，下列何者為我國最高行政機關？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "總統府"
+      },
+      {
+        "letter": "B",
+        "text": "行政院"
+      },
+      {
+        "letter": "C",
+        "text": "國家安全會議"
+      },
+      {
+        "letter": "D",
+        "text": "最高行政法院"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-25",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 25,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "社會變遷的層次可由三個面向來觀察，分別是：器物、制度和價值觀。請問：下列何者屬於「制度面」的\n     變化？\n(A) 「飛鴿傳書」變為「e-mail 溝通訊息」\n(B) 「重男輕女」變為「男孩女孩一樣好」\n(C) 「多子多孫多福氣」變為「頂客族」\n(D) 「子女從父姓」改為「夫妻雙方採協議制」",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "社會變遷的層次可由三個面向來觀察，分別是：器物、制度和價值觀。請問：下列何者屬於「制度面」的\n     變化？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "「飛鴿傳書」變為「e-mail 溝通訊息」"
+      },
+      {
+        "letter": "B",
+        "text": "「重男輕女」變為「男孩女孩一樣好」"
+      },
+      {
+        "letter": "C",
+        "text": "「多子多孫多福氣」變為「頂客族」"
+      },
+      {
+        "letter": "D",
+        "text": "「子女從父姓」改為「夫妻雙方採協議制」"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-26",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 26,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "任教於大學化工系的王教授自從搬到祥和社區後，與鄰居們相處融洽，對居住環境的滿意度極高，但由於\n     社區附近即將設立一家染整工廠，使得社區內的民眾產生不小的恐慌，此時王教授如要積極從事社區參與，\n     下列何者是最好的方式？\n(A) 關心社區成員\n(B) 參與勞動服務\n(C) 提供專業知能\n(D) 尋求政黨協助",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "任教於大學化工系的王教授自從搬到祥和社區後，與鄰居們相處融洽，對居住環境的滿意度極高，但由於\n     社區附近即將設立一家染整工廠，使得社區內的民眾產生不小的恐慌，此時王教授如要積極從事社區參與，\n     下列何者是最好的方式？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "關心社區成員"
+      },
+      {
+        "letter": "B",
+        "text": "參與勞動服務"
+      },
+      {
+        "letter": "C",
+        "text": "提供專業知能"
+      },
+      {
+        "letter": "D",
+        "text": "尋求政黨協助"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-27",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 27,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "小王向小李討債不成，一氣之下逕至小李家中搬走電器及家具。有關小王的行為，下列敘述何者正確？\n(A) 屬於自助行為，不成立犯罪\n(B) 屬於正當防衛，不成立犯罪\n(C) 合理以物抵債，不成立犯罪\n(D) 可能成立搶奪、強盜或竊盜罪",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "小王向小李討債不成，一氣之下逕至小李家中搬走電器及家具。有關小王的行為，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "屬於自助行為，不成立犯罪"
+      },
+      {
+        "letter": "B",
+        "text": "屬於正當防衛，不成立犯罪"
+      },
+      {
+        "letter": "C",
+        "text": "合理以物抵債，不成立犯罪"
+      },
+      {
+        "letter": "D",
+        "text": "可能成立搶奪、強盜或竊盜罪"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-28",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 28,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "我國貨幣發行量，是由那一單位負責管理？\n(A) 總統\n(B) 財政部\n(C) 經濟部\n(D) 中央銀行",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "我國貨幣發行量，是由那一單位負責管理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "總統"
+      },
+      {
+        "letter": "B",
+        "text": "財政部"
+      },
+      {
+        "letter": "C",
+        "text": "經濟部"
+      },
+      {
+        "letter": "D",
+        "text": "中央銀行"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-29",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 29,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "下列有關「文化」的敘述，何者正確？①具有代代相傳的特性                                       ②生活中處處可見文化的蹤影                ③文化是\n     未經雕琢的 ④人類是唯一具有文化的動物                                 ⑤貧窮落後的非洲不具有文化\n(A) ①②③\n(B) ①②④\n(C) ②③④\n(D) ③④⑤",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列有關「文化」的敘述，何者正確？①具有代代相傳的特性                                       ②生活中處處可見文化的蹤影                ③文化是\n     未經雕琢的 ④人類是唯一具有文化的動物                                 ⑤貧窮落後的非洲不具有文化",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②③"
+      },
+      {
+        "letter": "B",
+        "text": "①②④"
+      },
+      {
+        "letter": "C",
+        "text": "②③④"
+      },
+      {
+        "letter": "D",
+        "text": "③④⑤"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-30",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 30,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "阿坤與小李因故起口角，打電話請幫派分子阿強將小李毆打致死。請問：有關阿坤的行為，下列敘述何者\n     正確？\n(A) 因未動手所以無責任\n(B) 有正當理由無須負責\n(C) 只須負民事賠償責任\n(D) 應負殺人罪刑事責任",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "阿坤與小李因故起口角，打電話請幫派分子阿強將小李毆打致死。請問：有關阿坤的行為，下列敘述何者\n     正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "因未動手所以無責任"
+      },
+      {
+        "letter": "B",
+        "text": "有正當理由無須負責"
+      },
+      {
+        "letter": "C",
+        "text": "只須負民事賠償責任"
+      },
+      {
+        "letter": "D",
+        "text": "應負殺人罪刑事責任"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-31",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 31,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "臺灣在民國 82 年已正式邁入聯合國定義之「高齡化社會」，目前臺灣八位勞動人口必須扶養一位老人，在\n     十年後轉變為每四人就要扶養一位老人。聯合國定義之「高齡化社會」是指 65 歲以上的人口超過多少比例\n     而言？\n(A) 5%\n(B) 6%\n(C) 7%\n(D) 8%",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "臺灣在民國 82 年已正式邁入聯合國定義之「高齡化社會」，目前臺灣八位勞動人口必須扶養一位老人，在\n     十年後轉變為每四人就要扶養一位老人。聯合國定義之「高齡化社會」是指 65 歲以上的人口超過多少比例\n     而言？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "5%"
+      },
+      {
+        "letter": "B",
+        "text": "6%"
+      },
+      {
+        "letter": "C",
+        "text": "7%"
+      },
+      {
+        "letter": "D",
+        "text": "8%"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-32",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 32,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "依據我國現行憲法及增修條文規定，下列何者可由總統直接任命，不需要經過立法院同意？\n(A) 行政院院長\n(B) 司法院院長\n(C) 考試院院長\n(D) 監察院院長",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "依據我國現行憲法及增修條文規定，下列何者可由總統直接任命，不需要經過立法院同意？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行政院院長"
+      },
+      {
+        "letter": "B",
+        "text": "司法院院長"
+      },
+      {
+        "letter": "C",
+        "text": "考試院院長"
+      },
+      {
+        "letter": "D",
+        "text": "監察院院長"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-33",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 33,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「美國生產波音飛機，日本生產電器，瑞士生產手錶，中國大陸生產成衣」。以上各國的貿易與分工原則，\n     主要是依據經濟學上的那一種原則而產生的？\n(A) 絕對利益原則\n(B) 供需法則\n(C) 比較利益原則\n(D) 受益原則",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "「美國生產波音飛機，日本生產電器，瑞士生產手錶，中國大陸生產成衣」。以上各國的貿易與分工原則，\n     主要是依據經濟學上的那一種原則而產生的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "絕對利益原則"
+      },
+      {
+        "letter": "B",
+        "text": "供需法則"
+      },
+      {
+        "letter": "C",
+        "text": "比較利益原則"
+      },
+      {
+        "letter": "D",
+        "text": "受益原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-34",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 34,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "「我的收入愈多，繳交的稅款也愈多！」從這句話可以得知政府課稅的那一原則？\n(A) 方便原則\n(B) 受益原則\n(C) 負擔能力原則\n(D) 增加財源原則",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "「我的收入愈多，繳交的稅款也愈多！」從這句話可以得知政府課稅的那一原則？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "方便原則"
+      },
+      {
+        "letter": "B",
+        "text": "受益原則"
+      },
+      {
+        "letter": "C",
+        "text": "負擔能力原則"
+      },
+      {
+        "letter": "D",
+        "text": "增加財源原則"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-35",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 35,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "大倩原本在百貨公司上班，薪水有兩萬五仟元。她想要換工作，現在有兩個工作機會，一個是連鎖租書店\n     櫃台小姐，薪水兩萬七仟元；一個是手機門市銷售員，薪水三萬元。請問：大倩如果選擇手機門市銷售員\n     的工作，她的機會成本為多少？\n(A) 兩萬伍仟元\n(B) 兩萬七仟元\n(C) 三萬元\n(D) 五萬兩仟元",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "大倩原本在百貨公司上班，薪水有兩萬五仟元。她想要換工作，現在有兩個工作機會，一個是連鎖租書店\n     櫃台小姐，薪水兩萬七仟元；一個是手機門市銷售員，薪水三萬元。請問：大倩如果選擇手機門市銷售員\n     的工作，她的機會成本為多少？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "兩萬伍仟元"
+      },
+      {
+        "letter": "B",
+        "text": "兩萬七仟元"
+      },
+      {
+        "letter": "C",
+        "text": "三萬元"
+      },
+      {
+        "letter": "D",
+        "text": "五萬兩仟元"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-1-36",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 36,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "I looked everywhere for my car key, and I finally      it in the bathroom.\n(A) avoided\n(B) ignored\n(C) found\n(D) arrested",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "I looked everywhere for my car key, and I finally      it in the bathroom.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "avoided"
+      },
+      {
+        "letter": "B",
+        "text": "ignored"
+      },
+      {
+        "letter": "C",
+        "text": "found"
+      },
+      {
+        "letter": "D",
+        "text": "arrested"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "099-1-37",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 37,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Christmas is coming. Who wants to go with me to the        to buy the presents?\n(A) department store\n(B) movie theater\n(C) elevator\n(D) school",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "Christmas is coming. Who wants to go with me to the        to buy the presents?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "department store"
+      },
+      {
+        "letter": "B",
+        "text": "movie theater"
+      },
+      {
+        "letter": "C",
+        "text": "elevator"
+      },
+      {
+        "letter": "D",
+        "text": "school"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "099-1-38",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 38,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "A friend of           says he prefers the version of the Christmas story written by Henry.\n(A) they\n(B) them\n(C) theirs\n(D) they’re",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "A friend of           says he prefers the version of the Christmas story written by Henry.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "they"
+      },
+      {
+        "letter": "B",
+        "text": "them"
+      },
+      {
+        "letter": "C",
+        "text": "theirs"
+      },
+      {
+        "letter": "D",
+        "text": "they’re"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "099-1-39",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 39,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "The Sahara Desert, which covers millions of square kilometers, is a               desert in Africa.\n(A) light\n(B) huge\n(C) heavy\n(D) quick",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "The Sahara Desert, which covers millions of square kilometers, is a               desert in Africa.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "light"
+      },
+      {
+        "letter": "B",
+        "text": "huge"
+      },
+      {
+        "letter": "C",
+        "text": "heavy"
+      },
+      {
+        "letter": "D",
+        "text": "quick"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "099-1-40",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 40,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Don’t get into trouble again,             you’ll be in prison.\n(A) and\n(B) or\n(C) so\n(D) yet",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Don’t get into trouble again,             you’ll be in prison.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "and"
+      },
+      {
+        "letter": "B",
+        "text": "or"
+      },
+      {
+        "letter": "C",
+        "text": "so"
+      },
+      {
+        "letter": "D",
+        "text": "yet"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "099-1-41",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 41,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "Wendy wants                by everyone in her company.\n(A) to like\n(B) liking\n(C) to be liked\n(D) like",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "Wendy wants                by everyone in her company.",
+    "options": [
+      {
+        "letter": "A",
+        "text": "to like"
+      },
+      {
+        "letter": "B",
+        "text": "liking"
+      },
+      {
+        "letter": "C",
+        "text": "to be liked"
+      },
+      {
+        "letter": "D",
+        "text": "like"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "englishFormat": "standalone"
+  },
+  {
+    "id": "099-1-42",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 42,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 42 空格最合適的答案。\n(A) command\n(B) opposite\n(C) false\n(D) same",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 42 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "command"
+      },
+      {
+        "letter": "B",
+        "text": "opposite"
+      },
+      {
+        "letter": "C",
+        "text": "false"
+      },
+      {
+        "letter": "D",
+        "text": "same"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Facts are pieces of information we know to be true. When we read history, we want to know the facts—what\n     really happened. Fiction is the     42    . Writers of fiction    43    stories, telling of people and events that    44\n     the writer’s imagination. Science fiction writers imagine        45     people and events but, perhaps most importantly,\n     technology. They often write about the effects of that technology on a person, a group, or society. These writers\n     usually set their stories in the future. Some of them have predicted technology that seemed           46     at the time but\n     really does exist today.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "id": "099-1-43",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 43,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 43 空格最合適的答案。\n(A) make up\n(B) pick out\n(C) turn out\n(D) come up",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 43 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "make up"
+      },
+      {
+        "letter": "B",
+        "text": "pick out"
+      },
+      {
+        "letter": "C",
+        "text": "turn out"
+      },
+      {
+        "letter": "D",
+        "text": "come up"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Facts are pieces of information we know to be true. When we read history, we want to know the facts—what\n     really happened. Fiction is the     42    . Writers of fiction    43    stories, telling of people and events that    44\n     the writer’s imagination. Science fiction writers imagine        45     people and events but, perhaps most importantly,\n     technology. They often write about the effects of that technology on a person, a group, or society. These writers\n     usually set their stories in the future. Some of them have predicted technology that seemed           46     at the time but\n     really does exist today.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "id": "099-1-44",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 44,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 44 空格最合適的答案。\n(A) take in\n(B) get out\n(C) come from\n(D) arrive at",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 44 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "take in"
+      },
+      {
+        "letter": "B",
+        "text": "get out"
+      },
+      {
+        "letter": "C",
+        "text": "come from"
+      },
+      {
+        "letter": "D",
+        "text": "arrive at"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Facts are pieces of information we know to be true. When we read history, we want to know the facts—what\n     really happened. Fiction is the     42    . Writers of fiction    43    stories, telling of people and events that    44\n     the writer’s imagination. Science fiction writers imagine        45     people and events but, perhaps most importantly,\n     technology. They often write about the effects of that technology on a person, a group, or society. These writers\n     usually set their stories in the future. Some of them have predicted technology that seemed           46     at the time but\n     really does exist today.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "id": "099-1-45",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 45,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 45 空格最合適的答案。\n(A) as many as\n(B) variously\n(C) countlessly\n(D) not only",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 45 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "as many as"
+      },
+      {
+        "letter": "B",
+        "text": "variously"
+      },
+      {
+        "letter": "C",
+        "text": "countlessly"
+      },
+      {
+        "letter": "D",
+        "text": "not only"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Facts are pieces of information we know to be true. When we read history, we want to know the facts—what\n     really happened. Fiction is the     42    . Writers of fiction    43    stories, telling of people and events that    44\n     the writer’s imagination. Science fiction writers imagine        45     people and events but, perhaps most importantly,\n     technology. They often write about the effects of that technology on a person, a group, or society. These writers\n     usually set their stories in the future. Some of them have predicted technology that seemed           46     at the time but\n     really does exist today.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "id": "099-1-46",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 46,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "請選出文中第 46 空格最合適的答案。\n(A) comfortable\n(B) traditional\n(C) peaceful\n(D) impossible",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "請選出文中第 46 空格最合適的答案。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "comfortable"
+      },
+      {
+        "letter": "B",
+        "text": "traditional"
+      },
+      {
+        "letter": "C",
+        "text": "peaceful"
+      },
+      {
+        "letter": "D",
+        "text": "impossible"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Facts are pieces of information we know to be true. When we read history, we want to know the facts—what\n     really happened. Fiction is the     42    . Writers of fiction    43    stories, telling of people and events that    44\n     the writer’s imagination. Science fiction writers imagine        45     people and events but, perhaps most importantly,\n     technology. They often write about the effects of that technology on a person, a group, or society. These writers\n     usually set their stories in the future. Some of them have predicted technology that seemed           46     at the time but\n     really does exist today.",
+    "hasVisual": false,
+    "englishFormat": "cloze",
+    "clozeNumbers": [
+      42,
+      43,
+      44,
+      45,
+      46
+    ]
+  },
+  {
+    "id": "099-1-47",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 47,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "What is the main purpose of keeping a family budget?\n(A) To put a lot of money in the bank for the future.\n(B) To make sure everybody in the family is earning money.\n(C) To spend a lot of money for children’s educational games.\n(D) To know in advance how the family’s income is to be used.",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "What is the main purpose of keeping a family budget?",
+    "options": [
+      {
+        "letter": "A",
+        "text": "To put a lot of money in the bank for the future."
+      },
+      {
+        "letter": "B",
+        "text": "To make sure everybody in the family is earning money."
+      },
+      {
+        "letter": "C",
+        "text": "To spend a lot of money for children’s educational games."
+      },
+      {
+        "letter": "D",
+        "text": "To know in advance how the family’s income is to be used."
+      }
+    ],
+    "textFallback": false,
+    "passage": "Every family should have a budget. A “budget” is a method of planning expenses by figuring out how much\n     money is made and how much should be spent for everyone’s basic needs. The ordinary expenses in a budget\n     usually include education for the children, monthly bills for the utilities of electricity and water, communication\n     costs for telephone and computer use, transportation costs, and, of course, money for groceries. A little money for\n     extra expenses should also be set aside each month. Since everyone in the family is involved, everyone, even\n     children, should learn to keep the costs of living at a reasonable level.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "099-1-48",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 48,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the passage, the utility bills will help pay for           .\n(A) transportation to work\n(B) the lights in the house\n(C) food for everyone to eat\n(D) the children’s education",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "According to the passage, the utility bills will help pay for           .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "transportation to work"
+      },
+      {
+        "letter": "B",
+        "text": "the lights in the house"
+      },
+      {
+        "letter": "C",
+        "text": "food for everyone to eat"
+      },
+      {
+        "letter": "D",
+        "text": "the children’s education"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Every family should have a budget. A “budget” is a method of planning expenses by figuring out how much\n     money is made and how much should be spent for everyone’s basic needs. The ordinary expenses in a budget\n     usually include education for the children, monthly bills for the utilities of electricity and water, communication\n     costs for telephone and computer use, transportation costs, and, of course, money for groceries. A little money for\n     extra expenses should also be set aside each month. Since everyone in the family is involved, everyone, even\n     children, should learn to keep the costs of living at a reasonable level.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "099-1-49",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 49,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the passage, money to be spent for groceries is best considered               .\n(A) an extra expense\n(B) a transportation cost\n(C) a basic necessity\n(D) a communication fee",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "According to the passage, money to be spent for groceries is best considered               .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "an extra expense"
+      },
+      {
+        "letter": "B",
+        "text": "a transportation cost"
+      },
+      {
+        "letter": "C",
+        "text": "a basic necessity"
+      },
+      {
+        "letter": "D",
+        "text": "a communication fee"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Every family should have a budget. A “budget” is a method of planning expenses by figuring out how much\n     money is made and how much should be spent for everyone’s basic needs. The ordinary expenses in a budget\n     usually include education for the children, monthly bills for the utilities of electricity and water, communication\n     costs for telephone and computer use, transportation costs, and, of course, money for groceries. A little money for\n     extra expenses should also be set aside each month. Since everyone in the family is involved, everyone, even\n     children, should learn to keep the costs of living at a reasonable level.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  },
+  {
+    "id": "099-1-50",
+    "examId": "099-1",
+    "year": 99,
+    "subject": "公民與英文",
+    "subjectIndex": 1,
+    "number": 50,
+    "points": 2,
+    "multi": false,
+    "images": [],
+    "text": "According to the passage, the basic money budgeted for the children allows them to                .\n(A) have many friends\n(B) take a lot of trips\n(C) attend school\n(D) take dancing lessons",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "According to the passage, the basic money budgeted for the children allows them to                .",
+    "options": [
+      {
+        "letter": "A",
+        "text": "have many friends"
+      },
+      {
+        "letter": "B",
+        "text": "take a lot of trips"
+      },
+      {
+        "letter": "C",
+        "text": "attend school"
+      },
+      {
+        "letter": "D",
+        "text": "take dancing lessons"
+      }
+    ],
+    "textFallback": false,
+    "passage": "Every family should have a budget. A “budget” is a method of planning expenses by figuring out how much\n     money is made and how much should be spent for everyone’s basic needs. The ordinary expenses in a budget\n     usually include education for the children, monthly bills for the utilities of electricity and water, communication\n     costs for telephone and computer use, transportation costs, and, of course, money for groceries. A little money for\n     extra expenses should also be set aside each month. Since everyone in the family is involved, everyone, even\n     children, should learn to keep the costs of living at a reasonable level.",
+    "hasVisual": false,
+    "englishFormat": "reading"
+  }
+]

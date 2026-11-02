@@ -1,0 +1,32 @@
+import {test,expect} from '@playwright/test';
+
+for(const width of [390,1440])test(`new common-subject papers are usable at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:900});
+ await page.goto('/demo/');
+ const bankButton=page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'歷屆題庫',exact:true});
+ await bankButton.click();
+ await page.getByRole('combobox',{name:'選擇年度'}).selectOption('112');
+ await expect(page.locator('.exam-card')).toHaveCount(2);
+ const chinese=page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'國文',exact:true})});
+ await expect(chinese).toContainText('逐題解析尚未編寫');
+ await chinese.getByRole('button',{name:/開始練習/}).click();
+ await expect(page.locator('.question-stem')).toContainText('假設你有一位朋友');
+ await page.locator('.answer-list .option').last().click();
+ await page.getByRole('button',{name:'確認答案',exact:true}).click();
+ await expect(page.locator('.feedback')).toContainText('本題得分：2 / 2 分');
+ await expect(page.getByRole('dialog')).toHaveCount(0);
+ await bankButton.click();
+ await page.getByRole('combobox',{name:'選擇年度'}).selectOption('97');
+ await page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'國文',exact:true})}).getByRole('button',{name:/開始練習/}).click();
+ await expect(page.getByText(/本站提供測驗部分 10 題、滿分 20 分/)).toBeVisible();
+ await expect(page.locator('.answer-list .option')).toHaveCount(4);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await bankButton.click();
+ await page.getByRole('combobox',{name:'選擇年度'}).selectOption('102');
+ await page.getByRole('searchbox',{name:'搜尋題目'}).fill('Online learning is also called distance education');
+ await expect(page.locator('.question-row')).toHaveCount(5);
+ await page.locator('.question-row').first().getByRole('button',{name:'練習 →',exact:true}).click();
+ await expect(page.locator('.question-passage')).toContainText('____43____');
+ await expect(page.locator('.question-passage')).toContainText('____47____');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});

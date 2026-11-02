@@ -22,12 +22,12 @@ try{
  const svg=await fetch(base+'/brand/statistics-mark.svg');assert.equal(svg.status,200);assert.match(svg.headers.get('content-type'),/image\/svg\+xml/);
  const ico=Buffer.from(await(await fetch(base+'/favicon.ico')).arrayBuffer());assert.equal(ico.readUInt16LE(2),1);assert.equal(ico.readUInt16LE(4),3);
 
- const r=await fetch(base+'/bank.json'),bank=await r.json();assert.equal(bank.questions.length,1665);assert.equal(bank.exams.length,36);assert.ok(bank.questions.find(q=>q.id==='115-1-46').passage.includes('Elon Musk'));
+ const r=await fetch(base+'/bank.json'),bank=await r.json();assert.equal(bank.questions.length,2570);assert.equal(bank.exams.length,56);assert.ok(bank.questions.find(q=>q.id==='115-1-46').passage.includes('Elon Musk'));
  for(const exam of bank.exams){assert.deepEqual(exam.pages,[]);assert.equal(new URL(exam.source).hostname,'wwwq.moex.gov.tw');}
  for(const q of bank.questions)assert.deepEqual(q.images,[]);
  let explained=0;
  for(const exam of bank.exams){
-  const expected=exam.count;
+  const expected=exam.explanationStatus==='pending'?0:exam.count;
   assert.equal(exam.explanationCount,expected,exam.id+' coverage label');
   if(expected){
    const response=await fetch(base+'/explanations/'+exam.id+'.json');assert.equal(response.status,200,exam.id);
@@ -36,7 +36,7 @@ try{
    explained+=expected;
   }
  }
- assert.equal(explained,1665);
+ assert.equal(explained,1665); // Existing authored explanations remain complete; new papers are explicitly pending.
  assert.equal((await fetch(base+'/official-papers.zip')).status,404);
  assert.equal((await fetch(base+'/pdf/115-0-questions.pdf')).status,404);
  const html=await(await fetch(base+'/sign-in/')).text();assert.ok(html.includes('以 Google 帳戶登入')||html.includes('正在確認登入設定'));assert.ok(!html.includes('/api/auth/'));
