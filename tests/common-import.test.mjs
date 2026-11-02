@@ -24,8 +24,9 @@ test('common subjects add ten official years each and preserve the existing bank
   assert.equal(questions.filter(q=>q.examId===exam.id).length,exam.count);
   assert.match(exam.sourceSha256,/^[a-f0-9]{64}$/);
   assert.equal(new URL(exam.source).hostname,'wwwq.moex.gov.tw');
-  assert.equal(exam.explanationStatus,'pending');
-  assert.equal(Object.keys(read('explanations/'+exam.id+'.json')).length,0,'Do not claim an answer key is a teaching explanation');
+  const entries=read('explanations/'+exam.id+'.json');
+  assert.equal(exam.explanationStatus,exam.subjectIndex===0?'complete':'pending');
+  assert.equal(Object.keys(entries).length,exam.subjectIndex===0?exam.count:0,'Coverage must reflect authored teaching, not just answer keys');
  }
  for(const q of questions){
   assert.match(q.id,/^\d{3}-[01]-\d{1,2}$/);

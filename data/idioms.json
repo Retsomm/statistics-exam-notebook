@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22",
+  "updatedAt": "2026-11-02",
   "scope": "現有 106–111、113–115 年初等考試國文題庫（題幹、選項及閱讀文章）",
   "reviewedQuestionIds": [
     "115-0-1",
@@ -406,7 +406,412 @@
     "106-0-42",
     "106-0-43",
     "106-0-44",
-    "106-0-45"
+    "106-0-45",
+    "100-0-1",
+    "100-0-2",
+    "100-0-3",
+    "100-0-4",
+    "100-0-5",
+    "100-0-6",
+    "100-0-7",
+    "100-0-8",
+    "100-0-9",
+    "100-0-10",
+    "100-0-11",
+    "100-0-12",
+    "100-0-13",
+    "100-0-14",
+    "100-0-15",
+    "100-0-16",
+    "100-0-17",
+    "100-0-18",
+    "100-0-19",
+    "100-0-20",
+    "100-0-21",
+    "100-0-22",
+    "100-0-23",
+    "100-0-24",
+    "100-0-25",
+    "100-0-26",
+    "100-0-27",
+    "100-0-28",
+    "100-0-29",
+    "100-0-30",
+    "100-0-31",
+    "100-0-32",
+    "100-0-33",
+    "100-0-34",
+    "100-0-35",
+    "100-0-36",
+    "100-0-37",
+    "100-0-38",
+    "100-0-39",
+    "100-0-40",
+    "100-0-41",
+    "100-0-42",
+    "100-0-43",
+    "100-0-44",
+    "100-0-45",
+    "100-0-46",
+    "100-0-47",
+    "100-0-48",
+    "100-0-49",
+    "100-0-50",
+    "101-0-1",
+    "101-0-2",
+    "101-0-3",
+    "101-0-4",
+    "101-0-5",
+    "101-0-6",
+    "101-0-7",
+    "101-0-8",
+    "101-0-9",
+    "101-0-10",
+    "101-0-11",
+    "101-0-12",
+    "101-0-13",
+    "101-0-14",
+    "101-0-15",
+    "101-0-16",
+    "101-0-17",
+    "101-0-18",
+    "101-0-19",
+    "101-0-20",
+    "101-0-21",
+    "101-0-22",
+    "101-0-23",
+    "101-0-24",
+    "101-0-25",
+    "101-0-26",
+    "101-0-27",
+    "101-0-28",
+    "101-0-29",
+    "101-0-30",
+    "101-0-31",
+    "101-0-32",
+    "101-0-33",
+    "101-0-34",
+    "101-0-35",
+    "101-0-36",
+    "101-0-37",
+    "101-0-38",
+    "101-0-39",
+    "101-0-40",
+    "101-0-41",
+    "101-0-42",
+    "101-0-43",
+    "101-0-44",
+    "101-0-45",
+    "101-0-46",
+    "101-0-47",
+    "101-0-48",
+    "101-0-49",
+    "101-0-50",
+    "102-0-1",
+    "102-0-2",
+    "102-0-3",
+    "102-0-4",
+    "102-0-5",
+    "102-0-6",
+    "102-0-7",
+    "102-0-8",
+    "102-0-9",
+    "102-0-10",
+    "102-0-11",
+    "102-0-12",
+    "102-0-13",
+    "102-0-14",
+    "102-0-15",
+    "102-0-16",
+    "102-0-17",
+    "102-0-18",
+    "102-0-19",
+    "102-0-20",
+    "102-0-21",
+    "102-0-22",
+    "102-0-23",
+    "102-0-24",
+    "102-0-25",
+    "102-0-26",
+    "102-0-27",
+    "102-0-28",
+    "102-0-29",
+    "102-0-30",
+    "102-0-31",
+    "102-0-32",
+    "102-0-33",
+    "102-0-34",
+    "102-0-35",
+    "102-0-36",
+    "102-0-37",
+    "102-0-38",
+    "102-0-39",
+    "102-0-40",
+    "102-0-41",
+    "102-0-42",
+    "102-0-43",
+    "102-0-44",
+    "102-0-45",
+    "102-0-46",
+    "102-0-47",
+    "102-0-48",
+    "102-0-49",
+    "102-0-50",
+    "103-0-1",
+    "103-0-2",
+    "103-0-3",
+    "103-0-4",
+    "103-0-5",
+    "103-0-6",
+    "103-0-7",
+    "103-0-8",
+    "103-0-9",
+    "103-0-10",
+    "103-0-11",
+    "103-0-12",
+    "103-0-13",
+    "103-0-14",
+    "103-0-15",
+    "103-0-16",
+    "103-0-17",
+    "103-0-18",
+    "103-0-19",
+    "103-0-20",
+    "103-0-21",
+    "103-0-22",
+    "103-0-23",
+    "103-0-24",
+    "103-0-25",
+    "103-0-26",
+    "103-0-27",
+    "103-0-28",
+    "103-0-29",
+    "103-0-30",
+    "103-0-31",
+    "103-0-32",
+    "103-0-33",
+    "103-0-34",
+    "103-0-35",
+    "103-0-36",
+    "103-0-37",
+    "103-0-38",
+    "103-0-39",
+    "103-0-40",
+    "103-0-41",
+    "103-0-42",
+    "103-0-43",
+    "103-0-44",
+    "103-0-45",
+    "103-0-46",
+    "103-0-47",
+    "103-0-48",
+    "103-0-49",
+    "103-0-50",
+    "104-0-1",
+    "104-0-2",
+    "104-0-3",
+    "104-0-4",
+    "104-0-5",
+    "104-0-6",
+    "104-0-7",
+    "104-0-8",
+    "104-0-9",
+    "104-0-10",
+    "104-0-11",
+    "104-0-12",
+    "104-0-13",
+    "104-0-14",
+    "104-0-15",
+    "104-0-16",
+    "104-0-17",
+    "104-0-18",
+    "104-0-19",
+    "104-0-20",
+    "104-0-21",
+    "104-0-22",
+    "104-0-23",
+    "104-0-24",
+    "104-0-25",
+    "104-0-26",
+    "104-0-27",
+    "104-0-28",
+    "104-0-29",
+    "104-0-30",
+    "104-0-31",
+    "104-0-32",
+    "104-0-33",
+    "104-0-34",
+    "104-0-35",
+    "104-0-36",
+    "104-0-37",
+    "104-0-38",
+    "104-0-39",
+    "104-0-40",
+    "104-0-41",
+    "104-0-42",
+    "104-0-43",
+    "104-0-44",
+    "104-0-45",
+    "105-0-1",
+    "105-0-2",
+    "105-0-3",
+    "105-0-4",
+    "105-0-5",
+    "105-0-6",
+    "105-0-7",
+    "105-0-8",
+    "105-0-9",
+    "105-0-10",
+    "105-0-11",
+    "105-0-12",
+    "105-0-13",
+    "105-0-14",
+    "105-0-15",
+    "105-0-16",
+    "105-0-17",
+    "105-0-18",
+    "105-0-19",
+    "105-0-20",
+    "105-0-21",
+    "105-0-22",
+    "105-0-23",
+    "105-0-24",
+    "105-0-25",
+    "105-0-26",
+    "105-0-27",
+    "105-0-28",
+    "105-0-29",
+    "105-0-30",
+    "105-0-31",
+    "105-0-32",
+    "105-0-33",
+    "105-0-34",
+    "105-0-35",
+    "105-0-36",
+    "105-0-37",
+    "105-0-38",
+    "105-0-39",
+    "105-0-40",
+    "105-0-41",
+    "105-0-42",
+    "105-0-43",
+    "105-0-44",
+    "105-0-45",
+    "112-0-1",
+    "112-0-2",
+    "112-0-3",
+    "112-0-4",
+    "112-0-5",
+    "112-0-6",
+    "112-0-7",
+    "112-0-8",
+    "112-0-9",
+    "112-0-10",
+    "112-0-11",
+    "112-0-12",
+    "112-0-13",
+    "112-0-14",
+    "112-0-15",
+    "112-0-16",
+    "112-0-17",
+    "112-0-18",
+    "112-0-19",
+    "112-0-20",
+    "112-0-21",
+    "112-0-22",
+    "112-0-23",
+    "112-0-24",
+    "112-0-25",
+    "112-0-26",
+    "112-0-27",
+    "112-0-28",
+    "112-0-29",
+    "112-0-30",
+    "112-0-31",
+    "112-0-32",
+    "112-0-33",
+    "112-0-34",
+    "112-0-35",
+    "112-0-36",
+    "112-0-37",
+    "112-0-38",
+    "112-0-39",
+    "112-0-40",
+    "112-0-41",
+    "112-0-42",
+    "112-0-43",
+    "112-0-44",
+    "112-0-45",
+    "097-0-1",
+    "097-0-2",
+    "097-0-3",
+    "097-0-4",
+    "097-0-5",
+    "097-0-6",
+    "097-0-7",
+    "097-0-8",
+    "097-0-9",
+    "097-0-10",
+    "098-0-1",
+    "098-0-2",
+    "098-0-3",
+    "098-0-4",
+    "098-0-5",
+    "098-0-6",
+    "098-0-7",
+    "098-0-8",
+    "098-0-9",
+    "098-0-10",
+    "099-0-1",
+    "099-0-2",
+    "099-0-3",
+    "099-0-4",
+    "099-0-5",
+    "099-0-6",
+    "099-0-7",
+    "099-0-8",
+    "099-0-9",
+    "099-0-10",
+    "099-0-11",
+    "099-0-12",
+    "099-0-13",
+    "099-0-14",
+    "099-0-15",
+    "099-0-16",
+    "099-0-17",
+    "099-0-18",
+    "099-0-19",
+    "099-0-20",
+    "099-0-21",
+    "099-0-22",
+    "099-0-23",
+    "099-0-24",
+    "099-0-25",
+    "099-0-26",
+    "099-0-27",
+    "099-0-28",
+    "099-0-29",
+    "099-0-30",
+    "099-0-31",
+    "099-0-32",
+    "099-0-33",
+    "099-0-34",
+    "099-0-35",
+    "099-0-36",
+    "099-0-37",
+    "099-0-38",
+    "099-0-39",
+    "099-0-40",
+    "099-0-41",
+    "099-0-42",
+    "099-0-43",
+    "099-0-44",
+    "099-0-45",
+    "099-0-46",
+    "099-0-47",
+    "099-0-48",
+    "099-0-49",
+    "099-0-50"
   ],
   "editorialNote": "以辭典詞目比對並補查成語題、熟語與題辭；釋義與示範例句為本站編寫，例句不是原卷引文。原卷選項可能故意誤用成語，應配合原題解析判斷。",
   "referenceUrls": [
@@ -921,7 +1326,13 @@
         "108-0-21",
         "112-0-3",
         "112-0-39"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "見到別的就改變原有心意，常批評不專一；不宜把所有創新都稱為見異思遷。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A6%8B%E7%95%B0%E6%80%9D%E9%81%B7"
+      }
     },
     {
       "term": "買櫝還珠",
@@ -1244,7 +1655,13 @@
       "questionIds": [
         "107-0-24",
         "112-0-2"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "欣欣是蓬勃的樣子，向榮指往茂盛發展，後借指事業興旺。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%AC%A3%E6%AC%A3%E5%90%91%E6%A6%AE"
+      }
     },
     {
       "term": "喋喋不休",
@@ -1520,7 +1937,13 @@
       "questionIds": [
         "106-0-11",
         "112-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "任是承受，勞與怨分別指辛苦和埋怨；說能忍受，不表示完全沒有怨言。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BB%BB%E5%8B%9E%E4%BB%BB%E6%80%A8"
+      }
     },
     {
       "term": "人定勝天",
@@ -1940,7 +2363,13 @@
       "questionIds": [
         "110-0-24",
         "102-0-39"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "生死都像沉在酒夢中，比喻渾噩度日；不同於看淡富貴的南柯一夢。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%86%89%E7%94%9F%E5%A4%A2%E6%AD%BB"
+      }
     },
     {
       "term": "作壁上觀",
@@ -2042,7 +2471,13 @@
       "questionIds": [
         "108-0-17",
         "102-0-39"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "同睡一床卻各做不同的夢，借指表面共同生活或合作，內心打算不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%8C%E5%BA%8A%E7%95%B0%E5%A4%A2"
+      }
     },
     {
       "term": "膠柱鼓瑟",
@@ -2406,7 +2841,13 @@
       "questionIds": [
         "111-0-31",
         "112-0-5"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "津津寫興味濃厚，可以形容吃、讀、聽，不限定味覺。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B4%A5%E6%B4%A5%E6%9C%89%E5%91%B3"
+      }
     },
     {
       "term": "無可奈何",
@@ -2921,7 +3362,13 @@
         "114-0-40",
         "103-0-8",
         "104-0-9"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "與污濁水流合在一起，比喻跟壞人一同作惡；不是一般的團隊合作。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%8C%E6%B5%81%E5%90%88%E6%B1%99"
+      }
     },
     {
       "term": "破釜沉舟",
@@ -2932,7 +3379,13 @@
       "questionIds": [
         "114-0-13",
         "105-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "釜是鍋，砸鍋沉船表示不留退路、堅決奮戰；釜不可寫成斧。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A0%B4%E9%87%9C%E6%B2%89%E8%88%9F"
+      }
     },
     {
       "term": "別無長物",
@@ -3109,7 +3562,13 @@
       "questionIds": [
         "106-0-40",
         "112-0-38"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "念是記掛，舊惡指別人以前對自己的嫌隙或過錯；重不計前嫌，非自己改過。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%BF%B5%E8%88%8A%E6%83%A1"
+      }
     },
     {
       "term": "五世其昌",
@@ -4274,7 +4733,13 @@
       "questionIds": [
         "106-0-12",
         "105-0-37"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "頤指腮頰，成語寫痛快進食；大快用快樂的快，非石塊的塊。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A7%E5%BF%AB%E6%9C%B5%E9%A0%A4"
+      }
     },
     {
       "term": "調兵遣將",
@@ -5362,7 +5827,13 @@
         "114-0-22",
         "109-0-20",
         "101-0-31"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "擇是選擇，固執在這裡是堅持；先判斷為善才堅持，與不分是非的固執不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%93%87%E5%96%84%E5%9B%BA%E5%9F%B7"
+      }
     },
     {
       "term": "攻心為上",
@@ -5977,7 +6448,13 @@
       "questionIds": [
         "109-0-20",
         "112-0-2"
-      ]
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明",
+        "explanation": "篳路是簡陋柴車，藍縷是破衣；從艱困裝備出發，比喻創業不易。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%AF%B3%E8%B7%AF%E8%97%8D%E7%B8%B7"
+      }
     },
     {
       "term": "簡明扼要",
@@ -7641,6 +8118,909 @@
         "reference": "以早晚表示極短時間",
         "explanation": "「朝夕」是早晨與晚上，「不保」是不能保障。連短短一段時間的安危都沒有把握，就呈現隨時可能遭遇災禍的緊迫感。它強調危險迫近，不只是長期但穩定的貧困。",
         "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9C%9D%E5%A4%95%E4%B8%8D%E4%BF%9D"
+      }
+    },
+    {
+      "term": "失恃之痛",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "母親去世的悲痛。",
+      "example": "得知友人失恃之痛，我寫信表達慰問。",
+      "questionIds": [
+        "100-0-7"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "恃是依靠，傳統以失恃專指母亡，與父亡的失怙區分。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%B1%E6%81%83%E4%B9%8B%E7%97%9B"
+      }
+    },
+    {
+      "term": "失怙之痛",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "父親去世的悲痛。",
+      "example": "他遭逢失怙之痛，親友輪流陪伴。",
+      "questionIds": [
+        "100-0-7"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "怙有依靠義，失怙是喪父，不是喪母或喪子。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%B1%E6%80%99%E4%B9%8B%E7%97%9B"
+      }
+    },
+    {
+      "term": "折翼之痛",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻手足亡故的悲痛。",
+      "example": "哥哥離世使她承受折翼之痛。",
+      "questionIds": [
+        "100-0-7"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "以鳥失一翼比喻手足之喪，不能按字面誤作身體受傷。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8A%98%E7%BF%BC%E4%B9%8B%E7%97%9B"
+      }
+    },
+    {
+      "term": "西河之痛",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "指喪失兒子的悲痛。",
+      "example": "親友關懷遭逢西河之痛的父親。",
+      "questionIds": [
+        "100-0-7"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "這是喪子用語；使用時須與父喪、母喪、兄弟喪分清。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A5%BF%E6%B2%B3%E4%B9%8B%E7%97%9B"
+      }
+    },
+    {
+      "term": "食不暇飽",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "忙得沒有空好好吃飽，形容事務繁忙。",
+      "example": "救災人員接連出勤，忙得食不暇飽。",
+      "questionIds": [
+        "100-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "暇是空閒，不暇飽不是吃不下，而是沒時間吃飽。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A3%9F%E4%B8%8D%E6%9A%87%E9%A3%BD"
+      }
+    },
+    {
+      "term": "百廢俱興",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "各種荒廢的事業都重新興辦。",
+      "example": "災後重建有序，地方呈現百廢俱興的景象。",
+      "questionIds": [
+        "100-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "廢指荒廢之事，俱是全都；興是恢復興辦，不是心情振奮。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%99%BE%E5%BB%A2%E4%BF%B1%E8%88%88"
+      }
+    },
+    {
+      "term": "老當益壯",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "年紀雖大，志氣和精神仍應更強健。",
+      "example": "他退休後投入研究，老當益壯。",
+      "questionIds": [
+        "100-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "當是應當、益是更加、壯是強健；主要讚人的精神志向。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%80%81%E7%95%B6%E7%9B%8A%E5%A3%AF"
+      }
+    },
+    {
+      "term": "窮途末路",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "陷入無路可走的困境。",
+      "example": "不要等到窮途末路才尋求協助。",
+      "questionIds": [
+        "100-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "窮是盡，末是終點；兩個道路意象合成走投無路的比喻。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%AA%AE%E9%80%94%E6%9C%AB%E8%B7%AF"
+      }
+    },
+    {
+      "term": "抱薪救火",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用錯誤方法解決問題，反而擴大禍害。",
+      "example": "為還舊債再借高利貸，無異於抱薪救火。",
+      "questionIds": [
+        "100-0-9"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "薪是柴；把柴抱進火場只會助燃，所以不能當作勇敢救火的讚語。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8A%B1%E8%96%AA%E6%95%91%E7%81%AB"
+      }
+    },
+    {
+      "term": "雪泥鴻爪",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻往事或人生偶然留下的痕跡。",
+      "example": "重讀旅途筆記，那些雪泥鴻爪令人懷念。",
+      "questionIds": [
+        "100-0-9"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "鴻是大雁，爪是足跡；雁飛後留在雪泥的印痕，象徵短暫行跡。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9B%AA%E6%B3%A5%E9%B4%BB%E7%88%AA"
+      }
+    },
+    {
+      "term": "眾矢之的",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "眾人集中批評、攻擊的對象。",
+      "example": "隱瞞真相的決策使主管成為眾矢之的。",
+      "questionIds": [
+        "100-0-9"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "矢是箭，的是箭靶；比喻被攻擊的焦點，不是熱門商品或受歡迎的人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9C%BE%E7%9F%A2%E4%B9%8B%E7%9A%84"
+      }
+    },
+    {
+      "term": "阮囊羞澀",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "委婉表示手頭缺錢。",
+      "example": "這個月阮囊羞澀，我先暫緩旅行計畫。",
+      "questionIds": [
+        "101-0-8",
+        "097-0-5"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "囊是錢袋，羞澀指錢袋空乏難以拿錢，不是個性害羞。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%98%AE%E5%9B%8A%E7%BE%9E%E6%BE%80"
+      }
+    },
+    {
+      "term": "當頭棒喝",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻嚴厲警醒，使人猛然醒悟。",
+      "example": "老師的一句提醒，如當頭棒喝，讓我停止敷衍。",
+      "questionIds": [
+        "101-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "棒與喝是強烈警示的意象，重點在使人醒悟，不是單純罵人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%95%B6%E9%A0%AD%E6%A3%92%E5%96%9D"
+      }
+    },
+    {
+      "term": "飲鴆止渴",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以有害的方法解一時之急，反招更大禍患。",
+      "example": "用造假報表掩蓋虧損，只是飲鴆止渴。",
+      "questionIds": [
+        "101-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "鴆指毒物或毒酒；喝毒解渴，以眼前小解換長遠大害，不是普通喝水。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A3%B2%E9%B4%86%E6%AD%A2%E6%B8%B4"
+      }
+    },
+    {
+      "term": "四面楚歌",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "四方受敵、孤立無援的處境。",
+      "example": "失去各方支持後，他陷入四面楚歌的局面。",
+      "questionIds": [
+        "101-0-8",
+        "103-0-7"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "楚歌在成語中指受困者聽見四方敵聲的孤絕，不能因有歌字就當歌迷歡迎。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%9B%9B%E9%9D%A2%E6%A5%9A%E6%AD%8C"
+      }
+    },
+    {
+      "term": "冬溫夏凊",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "冬使父母溫暖、夏使父母清涼，形容孝順奉親。",
+      "example": "她細心照料長輩，實踐冬溫夏凊的孝心。",
+      "questionIds": [
+        "101-0-12"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "凊讀ㄑㄧㄥˋ，意為清涼；溫凊都是使父母舒適，不是只報告天氣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%86%AC%E6%BA%AB%E5%A4%8F%E5%87%8A"
+      }
+    },
+    {
+      "term": "烏鳥私情",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻子女奉養父母、報答親恩的情感。",
+      "example": "他希望返鄉奉親，以盡烏鳥私情。",
+      "questionIds": [
+        "101-0-12"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "以烏鳥反哺聯想報親恩；私情在此是個人孝思，不是非法偏私。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%83%8F%E9%B3%A5%E7%A7%81%E6%83%85"
+      }
+    },
+    {
+      "term": "菽水承歡",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "即使飲食簡薄，也盡心奉養父母使之歡喜。",
+      "example": "家境雖不富裕，她仍努力菽水承歡。",
+      "questionIds": [
+        "101-0-12"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "菽是豆，菽水指簡單飲食；承歡是使父母愉快，重孝心而非排場。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8F%BD%E6%B0%B4%E6%89%BF%E6%AD%A1"
+      }
+    },
+    {
+      "term": "簞食壺漿",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以食物和漿湯迎接、慰勞人，常寫百姓迎軍。",
+      "example": "村民簞食壺漿，慰勞遠來協助的隊伍。",
+      "questionIds": [
+        "101-0-12"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "簞是飯器、壺是飲器；食在此可讀ㄙˋ，指以食物供人，不專指孝親。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%B0%9E%E9%A3%9F%E5%A3%BA%E6%BC%BF"
+      }
+    },
+    {
+      "term": "幡然改進",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "明顯醒悟後改變舊有做法。",
+      "example": "受到提醒後，他幡然改進了敷衍的態度。",
+      "questionIds": [
+        "101-0-22"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "幡然形容明顯轉變；改進重由舊變新，未必等於長期勤奮。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B9%A1%E7%84%B6%E6%94%B9%E9%80%B2"
+      }
+    },
+    {
+      "term": "兢兢業業",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "謹慎認真、勤勉負責。",
+      "example": "她兢兢業業整理每一筆資料。",
+      "questionIds": [
+        "101-0-22",
+        "104-0-14"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "兢兢有戒慎義，業業含認真敬慎，組合後強調做事不敢怠忽。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%85%A2%E5%85%A2%E6%A5%AD%E6%A5%AD"
+      }
+    },
+    {
+      "term": "孜孜不倦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "勤奮努力而不厭倦。",
+      "example": "他對語言學習孜孜不倦。",
+      "questionIds": [
+        "101-0-22"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "孜孜形容勤勉，倦是疲倦、厭倦，重持續投入。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AD%9C%E5%AD%9C%E4%B8%8D%E5%80%A6"
+      }
+    },
+    {
+      "term": "見仁見智",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "同一事情因觀察立場不同而有不同理解。",
+      "example": "這幅畫的好壞見仁見智，可以交流不同感受。",
+      "questionIds": [
+        "102-0-14"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "仁者見仁、智者見智，重觀點有別，不是單獨讚某人分析正確。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A6%8B%E4%BB%81%E8%A6%8B%E6%99%BA"
+      }
+    },
+    {
+      "term": "破鏡重圓",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻夫妻離散或失和後重新團聚、和好。",
+      "example": "兩人化解多年誤會，終於破鏡重圓。",
+      "questionIds": [
+        "102-0-14"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "破鏡再圓比喻原有婚姻關係修復，不是所有情人短暫分開又見面。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A0%B4%E9%8F%A1%E9%87%8D%E5%9C%93"
+      }
+    },
+    {
+      "term": "寥若晨星",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "稀少得像清晨所見的星星。",
+      "example": "願意長期投入這項工作的專家寥若晨星。",
+      "questionIds": [
+        "102-0-14"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "寥是稀少，晨星因天亮漸隱而少；不能和人才眾多並列同義。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AF%A5%E8%8B%A5%E6%99%A8%E6%98%9F"
+      }
+    },
+    {
+      "term": "步步為營",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "做事謹慎周密，逐步推進。",
+      "example": "資料遷移必須步步為營，先驗證再切換。",
+      "questionIds": [
+        "102-0-14"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "原以每前進一步都設營防備作意象，後泛指穩健慎行，不只是走得慢。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%AD%A5%E6%AD%A5%E7%82%BA%E7%87%9F"
+      }
+    },
+    {
+      "term": "夜長夢多",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "事情拖延太久，容易產生變故。",
+      "example": "合約應儘快確認，以免夜長夢多。",
+      "questionIds": [
+        "102-0-39"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "以夜越長夢境越多比喻拖延生變，不是形容人生如夢或夢做得好。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%9C%E9%95%B7%E5%A4%A2%E5%A4%9A"
+      }
+    },
+    {
+      "term": "南柯一夢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻富貴得失如夢般短暫虛幻。",
+      "example": "醒來後，那場榮華富貴彷彿南柯一夢。",
+      "questionIds": [
+        "102-0-39"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "南柯借夢境意象，重繁華終歸空幻，不是同床者心思不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8D%97%E6%9F%AF%E4%B8%80%E5%A4%A2"
+      }
+    },
+    {
+      "term": "名過其實",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "名聲大於實際表現，含批評。",
+      "example": "服務遠不及宣傳，難免使人覺得名過其實。",
+      "questionIds": [
+        "103-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "過是超過，實是實際；若稱讚表現符合美名，應說名不虛傳。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%8D%E9%81%8E%E5%85%B6%E5%AF%A6"
+      }
+    },
+    {
+      "term": "手足無措",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "驚慌或窘迫得不知道如何應對。",
+      "example": "面對突來的質疑，他一時手足無措。",
+      "questionIds": [
+        "103-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "措是安置，手腳不知往哪放比喻慌亂失去應對，不等於肢體受傷。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%89%8B%E8%B6%B3%E7%84%A1%E6%8E%AA"
+      }
+    },
+    {
+      "term": "分庭抗禮",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "平等相待，引申實力、地位相當而能互相抗衡。",
+      "example": "經過多年努力，小公司也能與大廠分庭抗禮。",
+      "questionIds": [
+        "103-0-8",
+        "112-0-3",
+        "099-0-44"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "抗有對等義，分庭各行對等禮節；不是分別告別，也不單指公開吵架。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%88%86%E5%BA%AD%E6%8A%97%E7%A6%AE"
+      }
+    },
+    {
+      "term": "妙選東床",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "祝賀選得好女婿。",
+      "example": "好友得了佳婿，長輩贈以妙選東床的題辭。",
+      "questionIds": [
+        "101-0-43",
+        "104-0-39"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "東床代指女婿，選東床是在選佳婿，不是挑新家的床或賀喬遷。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A6%99%E9%81%B8%E6%9D%B1%E5%BA%8A"
+      }
+    },
+    {
+      "term": "米珠薪桂",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "米像珠、柴像桂般昂貴，形容物價高。",
+      "example": "物價接連上漲，生活幾乎米珠薪桂。",
+      "questionIds": [
+        "104-0-39"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "薪是柴，珠桂表示珍貴昂貴，兩個比喻共同寫日用品難負擔。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%B1%B3%E7%8F%A0%E8%96%AA%E6%A1%82"
+      }
+    },
+    {
+      "term": "明珠入掌",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻喜得女兒，也形容珍愛的女兒。",
+      "example": "姊姊喜獲千金，親友賀她明珠入掌。",
+      "questionIds": [
+        "104-0-39"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "明珠借指愛女，入掌寫珍愛呵護，與生男的弄璋須區別。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%98%8E%E7%8F%A0%E5%85%A5%E6%8E%8C"
+      }
+    },
+    {
+      "term": "結草銜環",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻知恩報德、至死不忘。",
+      "example": "這份救助之恩，我必結草銜環以報。",
+      "questionIds": [
+        "104-0-39"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "兩組報恩典故合成一詞，重回報恩情，不是一般拿草編環的動作。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%B5%90%E8%8D%89%E9%8A%9C%E7%92%B0"
+      }
+    },
+    {
+      "term": "胸無城府",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "心地坦率，不暗藏算計。",
+      "example": "他胸無城府，喜怒總真誠流露。",
+      "questionIds": [
+        "105-0-2"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "城府比喻深藏難測的心機；無城府通常讚坦率，不等於胸無學問。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%83%B8%E7%84%A1%E5%9F%8E%E5%BA%9C"
+      }
+    },
+    {
+      "term": "不孚眾望",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不能使眾人信服。",
+      "example": "他多次失信，難怪最後不孚眾望。",
+      "questionIds": [
+        "105-0-2"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "孚是使人信服；須與不負眾望的未辜負期望分開，兩詞方向不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%AD%9A%E7%9C%BE%E6%9C%9B"
+      }
+    },
+    {
+      "term": "技壓群芳",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "才藝勝過眾多傑出女子。",
+      "example": "這位女演奏家技壓群芳，獲得首獎。",
+      "questionIds": [
+        "105-0-2"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "群芳借指眾多女子；男子或不分性別競賽宜依情境用群雄、群倫等。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8A%80%E5%A3%93%E7%BE%A4%E8%8A%B3"
+      }
+    },
+    {
+      "term": "倚馬可待",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容文思敏捷，能迅速完成文章。",
+      "example": "他文思泉湧，寫稿幾乎倚馬可待。",
+      "questionIds": [
+        "105-0-2"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "倚馬等待片刻即可成文，重寫作速度，不是萬事都將很快發生。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%80%9A%E9%A6%AC%E5%8F%AF%E5%BE%85"
+      }
+    },
+    {
+      "term": "趨之若鶩",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "像群鴨般追逐，形容眾人爭相奔赴，多含貶意。",
+      "example": "面對未查證的暴利機會，不宜趨之若鶩。",
+      "questionIds": [
+        "105-0-37"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "趨是快走追逐，鶩是鴨子；須辨其常見貶意，不等於單純踴躍參加。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%B6%A8%E4%B9%8B%E8%8B%A5%E9%B6%A9"
+      }
+    },
+    {
+      "term": "櫛比鱗次",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "像梳齒、魚鱗般緊密整齊排列。",
+      "example": "山坡上的房屋櫛比鱗次。",
+      "questionIds": [
+        "105-0-37"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "櫛是梳子，鱗是魚鱗，以兩種密排物形容數量多而相接。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%AB%9B%E6%AF%94%E9%B1%97%E6%AC%A1"
+      }
+    },
+    {
+      "term": "觥籌交錯",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "酒器與酒令籌交互往來，形容宴飲熱鬧。",
+      "example": "家族團聚，席間觥籌交錯，談笑不斷。",
+      "questionIds": [
+        "105-0-37"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "觥是酒器，籌是行酒令用籌碼，不是筷子；交錯寫往來頻繁。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A7%A5%E7%B1%8C%E4%BA%A4%E9%8C%AF"
+      }
+    },
+    {
+      "term": "聲色俱厲",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "說話語氣和臉色都很嚴厲。",
+      "example": "主管聲色俱厲地制止違規行為。",
+      "questionIds": [
+        "112-0-2"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "聲是聲音，色是臉色，厲是嚴厲；不能拿它等同努力辛勤。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%81%B2%E8%89%B2%E4%BF%B1%E5%8E%B2"
+      }
+    },
+    {
+      "term": "深居簡出",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "平日待在家中，很少外出。",
+      "example": "他退休後深居簡出，專心寫作。",
+      "questionIds": [
+        "112-0-2"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "深居寫居處不外露，簡出是少出門，描述人的生活方式而非房屋光彩。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B7%B1%E5%B1%85%E7%B0%A1%E5%87%BA"
+      }
+    },
+    {
+      "term": "虛懷若谷",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "胸襟像山谷般空闊，形容謙虛能納意見。",
+      "example": "她雖經驗豐富，仍虛懷若谷地請教新人。",
+      "questionIds": [
+        "112-0-3"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "虛是虛心，谷是山谷，關乎待人求教，不是空腹或減肥意志。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%99%9B%E6%87%B7%E8%8B%A5%E8%B0%B7"
+      }
+    },
+    {
+      "term": "李代桃僵",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "代替他人受害或承擔過失。",
+      "example": "不應讓無辜者李代桃僵，替真正犯錯者受罰。",
+      "questionIds": [
+        "112-0-3"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "李樹代桃樹枯死，引申代人受過；說明代替關係，不表示此做法必然正當。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9D%8E%E4%BB%A3%E6%A1%83%E5%83%B5"
+      }
+    },
+    {
+      "term": "杳如黃鶴",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "一去無蹤、消息全無。",
+      "example": "他離城之後杳如黃鶴，再未聯絡。",
+      "questionIds": [
+        "112-0-5"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "杳表示無影無聲，黃鶴借遠去不返意象，重消失難尋。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9D%B3%E5%A6%82%E9%BB%83%E9%B6%B4"
+      }
+    },
+    {
+      "term": "瑕不掩瑜",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "小缺點遮不住主要優點。",
+      "example": "作品雖有小錯，仍瑕不掩瑜。",
+      "questionIds": [
+        "112-0-5"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "瑕是玉的缺點，瑜是美玉，比較的是優缺點，不是監控毫無漏洞。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%91%95%E4%B8%8D%E6%8E%A9%E7%91%9C"
+      }
+    },
+    {
+      "term": "樹猶如此",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "見樹木變化，感慨歲月流逝與人事滄桑。",
+      "example": "重訪校園見老樹凋零，他不禁有樹猶如此之嘆。",
+      "questionIds": [
+        "112-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "猶如此含連樹都已變了的感嘆，藉物感時，不是讚樹茂盛。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A8%B9%E7%8C%B6%E5%A6%82%E6%AD%A4"
+      }
+    },
+    {
+      "term": "蕙質蘭心",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻女子心性純潔、美好聰慧。",
+      "example": "她待人溫厚又聰敏，令人讚為蕙質蘭心。",
+      "questionIds": [
+        "112-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "蕙蘭以香草比心性，質、心都指內在品質，不能直接形容滿山花景。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%95%99%E8%B3%AA%E8%98%AD%E5%BF%83"
+      }
+    },
+    {
+      "term": "送眼流眉",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以眉眼傳情。",
+      "example": "戲中的人物送眼流眉，表露愛慕之意。",
+      "questionIds": [
+        "112-0-8"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "眼眉是人的神情動作，通常指男女傳意，不是月亮外形本身。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%80%81%E7%9C%BC%E6%B5%81%E7%9C%89"
+      }
+    },
+    {
+      "term": "明辨是非",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "清楚分辨對錯。",
+      "example": "接收網路消息時應明辨是非，不盲目轉傳。",
+      "questionIds": [
+        "112-0-28",
+        "112-0-38"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "辨是辨別，是非指對錯；與辯論的辯字不同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%98%8E%E8%BE%A8%E6%98%AF%E9%9D%9E"
+      }
+    },
+    {
+      "term": "遷善改過",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "改正錯誤，轉而行善。",
+      "example": "他決心遷善改過，以實際行動重建信任。",
+      "questionIds": [
+        "112-0-38"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "遷是轉向，善是正確善良行為；重自己修正過失，不是只原諒別人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%81%B7%E5%96%84%E6%94%B9%E9%81%8E"
+      }
+    },
+    {
+      "term": "除舊布新",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "去掉舊事物，建立新事物。",
+      "example": "團隊除舊布新，改進不合需要的流程。",
+      "questionIds": [
+        "112-0-38"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "除是去除，布是設置推行，常談制度器物更新，未必指個人悔罪。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%99%A4%E8%88%8A%E5%B8%83%E6%96%B0"
+      }
+    },
+    {
+      "term": "洗心革面",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "徹底改正舊有惡習，重新做人。",
+      "example": "他洗心革面，不再與不法活動來往。",
+      "questionIds": [
+        "112-0-38"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "洗心、革面由內外更新比喻徹底悔改，不只是洗臉或換衣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B4%97%E5%BF%83%E9%9D%A9%E9%9D%A2"
+      }
+    },
+    {
+      "term": "信口開河",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不加思索、沒有根據地亂說話。",
+      "example": "沒有證據就信口開河，容易傷害他人。",
+      "questionIds": [
+        "112-0-39"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "字義與用法說明；未據此宣稱最早典源",
+        "explanation": "信口是隨口，重不負責任地亂講，不能拿來讚演說口才。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BF%A1%E5%8F%A3%E9%96%8B%E6%B2%B3"
       }
     }
   ]

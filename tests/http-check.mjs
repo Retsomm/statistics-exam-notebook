@@ -36,7 +36,7 @@ try{
    explained+=expected;
   }
  }
- assert.equal(explained,1665); // Existing authored explanations remain complete; new papers are explicitly pending.
+ assert.equal(explained,2070); // Existing 1665 plus 405 newly authored Chinese explanations.
  assert.equal((await fetch(base+'/official-papers.zip')).status,404);
  assert.equal((await fetch(base+'/pdf/115-0-questions.pdf')).status,404);
  const html=await(await fetch(base+'/sign-in/')).text();assert.ok(html.includes('以 Google 帳戶登入')||html.includes('正在確認登入設定'));assert.ok(!html.includes('/api/auth/'));

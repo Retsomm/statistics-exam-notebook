@@ -19,8 +19,10 @@ for(const width of [390,1440])test(`classical readings and option translations a
  let dialog=page.getByRole('dialog');
  await expect(dialog.getByRole('heading',{name:'文言文完整白話翻譯',exact:true})).toBeVisible();
  await expect(dialog.getByRole('region',{name:'文言文白話翻譯'})).toContainText('拿刀殺死了這個強盜');
- await expect(dialog).toContainText('完整的答案判斷及逐選項解題理由仍在編寫中');
- await expect(dialog.getByRole('heading',{name:'逐選項詳解',exact:true})).toHaveCount(0);
+ await expect(dialog).not.toContainText('完整的答案判斷及逐選項解題理由仍在編寫中');
+ await expect(dialog).toContainText('哭是偽裝');
+ await expect(dialog.getByRole('heading',{name:'逐選項詳解',exact:true})).toHaveCount(1);
+ await expect(dialog.locator('.option-explanations>div')).toHaveCount(4);
  await expect(dialog.getByRole('button',{name:'收藏解析',exact:true})).toBeEnabled();
  expect(await dialog.evaluate(el=>el.scrollWidth<=el.clientWidth)).toBeTruthy();
  await page.getByRole('button',{name:'關閉解析',exact:true}).click();

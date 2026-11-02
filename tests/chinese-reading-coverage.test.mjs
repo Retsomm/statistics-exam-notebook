@@ -53,14 +53,35 @@ test('continuation questions retain the entire reading without copying the prece
   assert.equal(payload(first).classical.translation,payload(next).classical.translation,next);
   assert.ok(!payload(next).classical.optionTranslations,next);
  }
- assert.equal(payload('100-0-30'),undefined,'modern reading must not inherit another question’s classical options');
+ assert.equal(payload('100-0-30').classical,undefined,'modern reading must not inherit another question’s classical options');
 });
 
-test('translation-only entries remain distinct from completed answer explanations',()=>{
+test('new Chinese readings now include answer reasoning alongside their complete translations',()=>{
  const bank=json('../public/bank.json');
- for(const paper of bank.exams.filter(e=>e.subjectIndex===0&&e.explanationStatus==='pending'))assert.equal(paper.explanationCount,0);
- assert.equal(payload('103-0-17').summary,'');
- assert.deepEqual(payload('103-0-17').options,{});
+ const added=bank.exams.filter(e=>e.subjectIndex===0&&['097','098','099','100','101','102','103','104','105','112'].includes(e.id.slice(0,3)));
+ assert.equal(added.length,10);
+ assert.equal(added.reduce((n,e)=>n+e.explanationCount,0),405);
+ for(const paper of added){
+  assert.equal(paper.explanationStatus,'complete');
+  for(const q of bank.questions.filter(q=>q.examId===paper.id)){
+   const teaching=payload(q.id);
+   assert.deepEqual(Object.keys(teaching.options),q.options.map(o=>o.letter),q.id);
+   assert.equal(new Set(Object.values(teaching.options)).size,q.options.length,q.id);
+   for(const text of [teaching.summary,...Object.values(teaching.options)])assert.doesNotMatch(text,/不是本題要求的答案|符合題幹要求|位元、單位、索引或運算順序|看起來可能有關/,q.id);
+  }
+ }
+ assert.match(payload('103-0-17').summary,/偽啼.*微伺.*磨斷/);
+ assert.deepEqual(Object.keys(payload('103-0-17').options),['A','B','C','D']);
  assert.ok(!payload('109-0-9').summary.includes('完整白話翻譯：'),'translation is displayed once in its dedicated section');
  assert.ok(payload('109-0-9').summary.includes('答案依據：'),'existing answer reasoning is preserved');
+});
+
+
+test('new Chinese teaching preserves pronunciation, correction and inference distinctions',()=>{
+ assert.match(payload('098-0-9').options.D,/之代弈秋/);
+ assert.match(payload('099-0-40').options.A,/輾讀ㄓㄢˇ/);
+ assert.match(payload('099-0-40').options.A,/介音/);
+ assert.match(payload('101-0-46').summary,/A、B或同選AB/);
+ assert.match(payload('103-0-45').options.C,/1、2、4小時/);
+ assert.match(payload('112-0-16').summary,/主觀/);
 });

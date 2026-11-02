@@ -8,7 +8,7 @@ for(const width of [390,1440])test(`new common-subject papers are usable at ${wi
  await page.getByRole('combobox',{name:'選擇年度'}).selectOption('112');
  await expect(page.locator('.exam-card')).toHaveCount(2);
  const chinese=page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'國文',exact:true})});
- await expect(chinese).toContainText('逐題解析尚未編寫');
+ await expect(chinese).toContainText('逐題解析已完成');
  await chinese.getByRole('button',{name:/開始練習/}).click();
  await expect(page.locator('.question-stem')).toContainText('假設你有一位朋友');
  await page.locator('.answer-list .option').last().click();

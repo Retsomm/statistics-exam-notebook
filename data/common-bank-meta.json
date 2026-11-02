@@ -11,7 +11,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0102&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=100010&y=2011",
       "correctionPdf": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=100010&c=508&s=0102&q=1",
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "04a31b21f06ab809c7dd4a7137f132893d32bb0eb62814337dc252ba8cadc5e1",
       "answerSha256": "9e9e6e04d8018dfead91d45deda577ccacdfaac2db9717eda7c90b0d76cb3353"
     },
@@ -41,7 +41,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=101020&c=508&s=0102&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=101020&y=2012",
       "correctionPdf": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0102&q=1",
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "cfd32f7d3cc07ffd3bebf96949b12f27349e854eb8cefbb22556e17f7848e169",
       "answerSha256": "e13c4217f24900bd1b332dca98cd095a5483f38a8fbcb0bc826fdff7c6b2bcba"
     },
@@ -71,7 +71,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0102&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=102010&y=2013",
       "correctionPdf": null,
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "f637b5b0a4d7e2bbbd7a92da724906963bcdc8d87b6fdcc03c3052f699175934",
       "answerSha256": "466583edf389360413df6a346c42d6523eb0ca34f123ffbace35fcc714ff57e2"
     },
@@ -101,7 +101,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0102&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=103010&y=2014",
       "correctionPdf": null,
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "1ee0ea52a7cde76122ef93ad9ebcaa15c652413b6d356a6ec43ca10e5292d6ea",
       "answerSha256": "822556bdd09420f6405c7912178a8de97161ca5c9e3814e367fc39e35b0ee546"
     },
@@ -131,7 +131,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0102&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=104010&y=2015",
       "correctionPdf": null,
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "6725347ed29e9c595e673fda30f937abd879f85485f1137cb54ba3f2d71f01b0",
       "answerSha256": "0bd5b6ba401ccbf24c0770d4bd2e7acc4b7275b1e02dcdd9c4176edefb40faa9"
     },
@@ -161,7 +161,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=105010&c=509&s=0102&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=105010&y=2016",
       "correctionPdf": null,
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "2f3d86780a8f324624723f7e71ca57e691c8d3be78ba20bb305bc55268615cc5",
       "answerSha256": "72b3d808d2094576abb85dee3c828287e01f42a8c57330305880d2504914f432"
     },
@@ -191,7 +191,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0101&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=112010&y=2023",
       "correctionPdf": null,
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "26f4a06a779923dc41fa07017c941a8872489f341303b76dbb9424603ead8dec",
       "answerSha256": "4b1677063dc2712b9d4216a9ff8f4c378defd9134ae39967cebef5f16e73a636"
     },
@@ -221,7 +221,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=097020&c=507&s=c031&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=097020&y=2008",
       "correctionPdf": null,
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "d91fd7d4580377e6f7370ad2d4c650c9687f10c0019c2c5b1018b60eab412f71",
       "answerSha256": "77877e128b4faa19db893fd4513973c4eeacb065b5655f2483430ca014c854d3",
       "practiceNote": "本年度國文含作文、公文及測驗；本站提供測驗部分 10 題、滿分 20 分。作文與公文請參閱官方原卷。"
@@ -252,7 +252,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c011&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=098030&y=2009",
       "correctionPdf": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=c011&q=1",
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "af31c33dea5444b882f0c0f86b46ace481a64c378a04bb9075ff7559f07dd276",
       "answerSha256": "9bc1db7028b7974670b7f82517f16eb717fd6bda878d4cbfae595bc82cfc7d23",
       "practiceNote": "本年度國文含作文、公文及測驗；本站提供測驗部分 10 題、滿分 20 分。作文與公文請參閱官方原卷。"
@@ -283,7 +283,7 @@
       "answerSource": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=099030&c=508&s=c01&q=1",
       "listing": "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=099030&y=2010",
       "correctionPdf": null,
-      "explanationStatus": "pending",
+      "explanationStatus": "complete",
       "sourceSha256": "d9e193e5e4b470130b641176ebe0ee4bdacefd74edfe1b21a096b6b718905ae4",
       "answerSha256": "be16ad314913e64b73b53cdad5ab5784439bf323086118b4fd5ccc013da9105d"
     },
