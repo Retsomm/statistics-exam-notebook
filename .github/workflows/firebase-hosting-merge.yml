@@ -31,6 +31,8 @@ jobs:
         run: npm ci
       - name: Test questions, explanations and sync
         run: npm test
+      - name: Verify Firestore rules with the emulator
+        run: npx --yes firebase-tools@15.34.0 emulators:exec --only firestore --project demo-statistics-rules 'node scripts/test-firestore-rules.mjs'
       - name: Build static website
         run: npm run build
       - name: Check exported routes and source links
@@ -43,6 +45,14 @@ jobs:
             echo '::error::Firebase deployment is not authorized yet. Run firebase init hosting:github to create FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK in this repository, then re-run this workflow.'
             exit 1
           fi
+      - name: Deploy Firestore security rules
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK }}
+        run: |
+          credential_file="$RUNNER_TEMP/firebase-service-account.json"
+          printf '%s' "$FIREBASE_SERVICE_ACCOUNT" > "$credential_file"
+          export GOOGLE_APPLICATION_CREDENTIALS="$credential_file"
+          npx --yes firebase-tools@15.34.0 deploy --only firestore:rules --project library-exam-notebook --non-interactive
       - name: Create the statistics hosting site when needed
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK }}
