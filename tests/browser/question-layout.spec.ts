@@ -1,0 +1,31 @@
+import {test,expect} from '@playwright/test';
+
+for(const width of [390,1440])test(`English prose stays readable while programming examples keep code formatting at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:900});
+ await page.goto('/demo/');
+ const bank=page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'歷屆題庫',exact:true});
+ await bank.click();
+ await page.getByRole('combobox',{name:'選擇年度'}).selectOption('112');
+ await page.getByRole('searchbox',{name:'搜尋題目'}).fill('If you plan to travel from one country to another');
+ await page.locator('.question-row').first().getByRole('button',{name:'練習 →',exact:true}).click();
+ const passage=page.getByRole('region',{name:'閱讀題組文章'});
+ await expect(passage).toContainText('____46____');
+ await expect(passage).toContainText('____50____');
+ await expect(passage.locator('.question-code,.question-table-wrap')).toHaveCount(0);
+ const option=page.locator('.answer-list .option').filter({hasText:/^C\s*for$/});
+ await expect(option).toBeVisible();
+ await expect(option.locator('.question-code,.question-table-wrap')).toHaveCount(0);
+ await expect(page.locator('.question-passage p').first()).toHaveCSS('font-size','20px');
+ await page.getByRole('button',{name:'放大文字',exact:true}).click();
+ await expect(page.locator('.question-passage p').first()).toHaveCSS('font-size','22px');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await bank.click();
+ await page.getByRole('combobox',{name:'選擇年度'}).selectOption('115');
+ await page.getByRole('searchbox',{name:'搜尋題目'}).fill('processArray');
+ await page.locator('.question-row').first().getByRole('button',{name:'練習 →',exact:true}).click();
+ const code=page.locator('.question-stem pre.question-code');
+ await expect(code).toHaveCount(1);
+ await expect(code).toContainText('processArray(arr + 2, 3);');
+ await expect(code).toContainText('printf');
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});

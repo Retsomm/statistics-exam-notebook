@@ -2,8 +2,12 @@ name: Verify common-subject expansion
 
 on:
   push:
-    branches: [main, codex/common-paper-import, codex/civics-english-review]
+    branches: [main, codex/common-paper-import, codex/civics-english-review, codex/question-layout-review]
     paths:
+      - lib/question-layout.mjs
+      - lib/question-text.mjs
+      - tests/question-text.test.mjs
+      - tests/browser/question-layout.spec.ts
       - data/common-bank-meta.json
       - data/explanations/*-1.json
       - data/english-passages.json
@@ -31,4 +35,4 @@ jobs:
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - name: Verify desktop and mobile practice
-        run: npx playwright test tests/browser/common-import.spec.ts tests/browser/new-civics-english.spec.ts
+        run: npx playwright test tests/browser/common-import.spec.ts tests/browser/new-civics-english.spec.ts tests/browser/question-layout.spec.ts

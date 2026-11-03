@@ -34,3 +34,44 @@ test('ambiguous missing cells do not become a misleading table',()=>{
  const q=prepareQuestionText(bank.questions.find(q=>q.id==='111-1-25'));
  assert.equal(questionLayout(q.stem).some(block=>block.type==='table'),false);
 });
+
+test('112 English passport passage and choices remain normal reading text',()=>{
+ for(let number=46;number<=50;number++){
+  const q=prepareQuestionText(bank.questions.find(q=>q.id===`112-1-${number}`));
+  assert.ok(q.passage.includes('____46____'));
+  assert.ok(q.passage.includes('____50____'));
+  for(const text of [q.passage,q.stem,...q.options.map(option=>option.text)]){
+   assert.ok(questionLayout(text).every(block=>block.type==='text'),q.id+': '+text);
+  }
+ }
+});
+test('all imported Chinese, civics-English and statistics reading stays out of code blocks',()=>{
+ for(const original of bank.questions.filter(q=>q.subjectIndex!==3)){
+  const q=prepareQuestionText(original);
+  for(const text of [q.stem,q.passage,...q.options.map(option=>option.text)].filter(Boolean)){
+   assert.equal(questionLayout(text).some(block=>block.type==='code'),false,q.id+': '+text);
+  }
+ }
+});
+test('real C programs and SQL statements retain their lines without surrounding prose',()=>{
+ for(const [id,expected] of [
+  ['115-3d-34','processArray(arr + 2, 3);'],
+  ['114-3d-18','else if (x%2==0) return f(x/2);'],
+  ['113-3d-11','int *p1;'],
+  ['108-3d-15','{int i=1, j =17,x=13;'],
+  ['106-3d-45','{ for (j=1; j<5; j++)'],
+  ['108-3d-9',"(4, N'Alice', '1973-1-1', 38000);"],
+  ['114-3d-49',');'],
+  ['110-3d-35','int ds(int n){'],
+ ]){
+  const q=prepareQuestionText(bank.questions.find(q=>q.id===id));
+  const code=questionLayout(q.stem).filter(block=>block.type==='code');
+  assert.equal(code.length,1,id);
+  assert.ok(code[0].lines.join('\n').includes(expected),id);
+  assert.ok(!code[0].lines.join('\n').includes('請問空格處'),id);
+ }
+ for(const id of ['111-2s-4','114-2s-10','110-2s-2','113-3d-39','110-3d-26','107-3d-32']){
+  const q=prepareQuestionText(bank.questions.find(q=>q.id===id));
+  for(const option of q.options)assert.equal(questionLayout(option.text).some(b=>b.type==='code'),false,id+' '+option.letter);
+ }
+});
