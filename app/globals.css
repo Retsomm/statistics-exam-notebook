@@ -273,3 +273,18 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
 .note-diagram text{fill:var(--ink);stroke:none;font-size:20px;}
 .note-diagram p{color:var(--ink);}
 @media(max-width:600px){.note-card-course{padding:18px;}.note-table-scroll th,.note-table-scroll td{padding:10px;}.note-diagram{margin-inline:0;}}
+
+.note-plot{margin:20px 0;max-width:720px;min-width:0;}
+.note-plot figcaption{font-weight:700;}
+.note-plot-scroll{max-width:100%;overflow-x:auto;margin-top:12px;}
+.note-plot svg{display:block;width:100%;min-width:500px;height:auto;color:var(--muted);stroke-width:1.5;}
+.note-plot text{fill:var(--ink);stroke:none;font-size:16px;}
+.note-plot-series{color:var(--green);}
+.note-plot-series polyline{fill:none;stroke:currentColor;stroke-width:3;}
+.note-plot-series rect,.note-plot-series circle{fill:currentColor;stroke:var(--paper);}
+.note-plot .series-1{color:var(--orange);}
+.note-plot-legend{display:flex;flex-wrap:wrap;gap:8px 20px;}
+.note-plot-legend .series-0{color:var(--green);}
+.note-plot-legend .series-1{color:var(--orange);}
+.statistics-guide{padding:18px 24px;margin:20px 0;border:1px solid var(--line);border-radius:12px;background:var(--paper);min-width:0;}
+.statistics-guide summary{cursor:pointer;font-weight:600;}

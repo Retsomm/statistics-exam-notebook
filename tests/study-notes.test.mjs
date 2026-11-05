@@ -1,3 +1,9 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
-const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))),notes=JSON.parse(readFileSync(new URL('../data/study-notes.json',import.meta.url))).notes,questions=new Map(bank.questions.map(q=>[q.id,q]));
-test('statistics learning notes cover every professional question once',()=>{for(const index of [2]){const course=notes.filter(note=>note.subjectIndex===index),ids=course.flatMap(note=>note.questionIds),expected=bank.questions.filter(q=>q.subjectIndex===index).map(q=>q.id);assert.equal(course.length,8);assert.deepEqual([...ids].sort(),expected.sort());for(const note of course){assert.ok(note.title&&note.lead);assert.equal(note.points.length,3);}}});
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const notes=JSON.parse(readFileSync(new URL('../data/study-notes.json',import.meta.url))).notes;
+test('legacy generic professional cards are replaced without removing common-subject notes',()=>{
+ assert.equal(notes.filter(note=>note.subjectIndex===2||note.subjectIndex===3).length,0);
+ assert.ok(notes.some(note=>note.subjectIndex===0));assert.ok(notes.some(note=>note.subjectIndex===1));
+ assert.equal(notes.length,new Set(notes.map(note=>note.id)).size);
+});
