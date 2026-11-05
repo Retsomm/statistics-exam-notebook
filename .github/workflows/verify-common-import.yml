@@ -2,8 +2,10 @@ name: Verify common-subject expansion
 
 on:
   push:
-    branches: [main, codex/common-paper-import, codex/civics-english-review, codex/question-layout-review, codex/data-processing-course-review, codex/statistics-course-review]
+    branches: [main, codex/common-paper-import, codex/civics-english-review, codex/question-layout-review, codex/data-processing-course-review, codex/statistics-course-review, codex/chinese-blanks-review]
     paths:
+      - lib/chinese-blanks.mjs
+      - tests/browser/chinese-blanks.spec.ts
       - data/statistics-course.json
       - components/note-plot.tsx
       - tests/statistics-course.test.mjs
@@ -47,4 +49,4 @@ jobs:
       - run: npm run build
       - run: npx playwright install --with-deps chromium
       - name: Verify desktop and mobile practice
-        run: npx playwright test tests/browser/statistics-course.spec.ts tests/browser/common-import.spec.ts tests/browser/new-civics-english.spec.ts tests/browser/question-layout.spec.ts tests/browser/study-notes.spec.ts tests/browser/data-processing-course.spec.ts
+        run: npx playwright test tests/browser/chinese-blanks.spec.ts tests/browser/statistics-course.spec.ts tests/browser/common-import.spec.ts tests/browser/new-civics-english.spec.ts tests/browser/question-layout.spec.ts tests/browser/study-notes.spec.ts tests/browser/data-processing-course.spec.ts

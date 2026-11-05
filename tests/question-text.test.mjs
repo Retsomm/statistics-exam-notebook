@@ -75,3 +75,21 @@ test('real C programs and SQL statements retain their lines without surrounding 
   for(const option of q.options)assert.equal(questionLayout(option.text).some(b=>b.type==='code'),false,id+' '+option.letter);
  }
 });
+
+test('confirmed Chinese drawing-based slots remain visible without editing raw questions',()=>{
+ for(const id of ['112-0-12','115-0-9','100-0-24']){
+  const original=bank.questions.find(q=>q.id===id),snapshot=structuredClone(original),q=prepareQuestionText(original);
+  assert.equal((q.stem.match(/＿＿＿＿/g)||[]).length,2,id);
+  assert.deepEqual(original,snapshot,id+' immutable');assert.equal(q.text,original.text);
+  assert.deepEqual(q.accepted,original.accepted);assert.deepEqual(prepareQuestionText(q),q,id+' idempotent');
+  assert.ok(questionLayout(q.stem).every(block=>block.type==='text'),id+' ordinary reading');
+ }
+ const q=prepareQuestionText(bank.questions.find(q=>q.id==='112-0-12'));
+ assert.match(q.stem,/寫下了＿＿＿＿的千古名句/);assert.match(q.stem,/根據上文，＿＿＿＿中最適合填入/);
+});
+test('Chinese indentation and spacing between numbered alternatives do not become answer slots',()=>{
+ const original=bank.questions.find(q=>q.id==='097-0-8');const q=prepareQuestionText(original);
+ assert.equal(q.stem.includes('＿＿＿＿'),false);
+ const prose={...original,id:'test-chinese-prose',stem:'第一段文字。\n     第二行繼續。'};
+ assert.equal(prepareQuestionText(prose).stem.includes('＿＿＿＿'),false);
+});
