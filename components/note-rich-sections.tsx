@@ -1,0 +1,12 @@
+'use client';
+import {useId} from 'react';
+export type LessonSection={title:string;paragraphs?:string[];table?:{headers:string[];rows:string[][]};code?:{language:string;text:string};diagram?:{title:string;description:string;height:number;directed?:boolean;nodes:{id:string;label:string;x:number;y:number}[];edges:string[][]}};
+function LessonDiagram({diagram}:{diagram:NonNullable<LessonSection['diagram']>}){
+ const marker=useId().replace(/:/g,'');const nodes=new Map(diagram.nodes.map(node=>[node.id,node]));
+ return <figure className="note-diagram"><figcaption>{diagram.title}</figcaption><svg viewBox={`0 0 600 ${diagram.height}`} role="img" aria-label={diagram.description}>
+ <defs><marker id={marker} viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="currentColor"/></marker></defs>
+ {diagram.edges.map(([from,to],index)=>{const a=nodes.get(from),b=nodes.get(to);if(!a||!b)return null;const dx=b.x-a.x,dy=b.y-a.y;const scale=Math.max(Math.abs(dx)/66,Math.abs(dy)/24);if(!scale)return null;const offset=1/scale;return <line key={index} x1={a.x+dx*offset} y1={a.y+dy*offset} x2={b.x-dx*offset} y2={b.y-dy*offset} stroke="currentColor" strokeWidth="2" markerEnd={diagram.directed?`url(#${marker})`:undefined}/>;})}
+ {diagram.nodes.map(node=><g key={node.id}><rect x={node.x-64} y={node.y-22} width="128" height="44" rx="8"/><text x={node.x} y={node.y} textAnchor="middle" dominantBaseline="central">{node.label}</text></g>)}
+ </svg><p>{diagram.description}</p></figure>;
+}
+export default function NoteRichSections({sections}:{sections:LessonSection[]}){return <div className="note-rich-sections">{sections.map((section,index)=><section key={`${index}-${section.title}`}><h4>{section.title}</h4>{section.code&&<div className="note-code"><p className="text-muted">{section.code.language}</p><pre><code>{section.code.text}</code></pre></div>}{section.table&&<div className="note-table-scroll" role="region" aria-label={section.title} tabIndex={0}><table><caption>{section.title}</caption><thead><tr>{section.table.headers.map((header,i)=><th key={i} scope="col">{header}</th>)}</tr></thead><tbody>{section.table.rows.map((row,i)=><tr key={i}>{row.map((cell,j)=>j===0?<th scope="row" key={j}>{cell}</th>:<td key={j}>{cell}</td>)}</tr>)}</tbody></table></div>}{section.diagram&&<LessonDiagram diagram={section.diagram}/>}{section.paragraphs?.map((paragraph,i)=><p key={i}>{paragraph}</p>)}</section>)}</div>;}
