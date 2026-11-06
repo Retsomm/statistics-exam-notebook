@@ -1,0 +1,21 @@
+import {test,expect} from '@playwright/test';
+for(const width of [390,1440])test(`memory cards flip, save, reload and remove at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:900});await page.goto('/demo/');
+ const nav=()=>page.getByRole('navigation',{name:'主要導覽'});
+ await nav().getByRole('button',{name:'重點整理',exact:true}).click();
+ await expect(page.getByRole('button',{name:'記憶卡片',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();
+ await page.getByLabel('選擇資料處理章節').selectOption('3-3');
+ const card=page.getByRole('article',{name:'資料鏈結層的責任',exact:true});await expect(card).toBeVisible();
+ await expect(card.locator('.memory-card-answer')).toBeHidden();
+ await card.getByRole('button',{name:'翻面查看說明',exact:true}).press('Enter');await expect(card.locator('.memory-card-answer')).toContainText('相鄰節點');
+ await card.getByRole('button',{name:'收藏卡片：資料鏈結層的責任',exact:true}).click();
+ await expect(card.getByRole('button',{name:'取消收藏：資料鏈結層的責任',exact:true})).toHaveAttribute('aria-pressed','true');
+ await page.getByLabel('只看收藏卡片').check();await expect(page.locator('.memory-card')).toHaveCount(1);
+ await card.getByRole('button',{name:'閱讀完整重點',exact:true}).click();await expect(page.locator('.note-card')).toHaveCount(1);await expect(page.locator('.note-card h3')).toHaveText('3-3 資料鏈結層');
+ await page.reload();await nav().getByRole('button',{name:'收藏與錯題',exact:true}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();
+ const saved=page.getByRole('article',{name:'資料鏈結層的責任',exact:true});await expect(saved).toBeVisible();await expect(saved.locator('.memory-card-answer')).toBeHidden();
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+ await saved.getByRole('button',{name:'取消收藏：資料鏈結層的責任',exact:true}).click();await expect(page.getByRole('heading',{name:'還沒有收藏記憶卡片',exact:true})).toBeVisible();
+ await page.reload();await nav().getByRole('button',{name:'收藏與錯題',exact:true}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();await expect(page.locator('.memory-card')).toHaveCount(0);
+});

@@ -9,7 +9,7 @@ import * as errors from '../lib/sync-errors.mjs';
 import {emptyState} from '../lib/study.mjs';
 const questions=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))).questions;
 const [q1,q2]=questions;
-const local=()=>({...emptyState(),bookmarks:[q1.id],explanationBookmarks:[q2.id],vocabularyBookmarks:['vocabulary-0123456789abcdef'],idiomBookmarks:['束之高閣']});
+const local=()=>({...emptyState(),bookmarks:[q1.id],explanationBookmarks:[q2.id],vocabularyBookmarks:['vocabulary-0123456789abcdef'],memoryBookmarks:['memory-0123456789abcdef'],idiomBookmarks:['束之高閣']});
 const code=ts.transpileModule(readFileSync(new URL('../lib/cloud-sync.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
 function controller(initial,remote=new Map(),sessionJSON=undefined){
  const storage=new Map([['yueri:sync:migrated:v1:account','1']]),timers=new Map();let sequence=0,received;
@@ -33,7 +33,7 @@ test('an already-migrated device repairs all four local bookmark collections and
  await first.flush();
  assert.equal(first.remote.get(q1.id).bookmark,true);assert.equal(first.remote.get(q2.id).explanationBookmark,true);
  const second=controller(emptyState(),first.remote,first.sessionJSON);await second.sync.start();
- for(const key of ['bookmarks','explanationBookmarks','vocabularyBookmarks','idiomBookmarks'])assert.deepEqual(second.received[key],local()[key],key);
+ for(const key of ['bookmarks','explanationBookmarks','vocabularyBookmarks','idiomBookmarks','memoryBookmarks'])assert.deepEqual(second.received[key],local()[key],key);
  first.sync.stop();second.sync.stop();
 });
 test('old local bookmarks cannot resurrect explicit cloud removals, including queued migration races',async()=>{
@@ -41,8 +41,19 @@ test('old local bookmarks cannot resurrect explicit cloud removals, including qu
  assert.equal(model.bookmarkMigration(local(),remote).length,0);
  const queued={id:'old-migration',docId:q1.id,mode:'migrate',patch:{bookmark:true}};
  assert.equal(model.applyQuestionMutation(remote.get(q1.id),queued).bookmark,false);
- const json=model.applyStudyMutation(undefined,{vocabularyBookmarks:{'vocabulary-0123456789abcdef':false},idiomBookmarks:{'束之高閣':false}});
+ const json=model.applyStudyMutation(undefined,{vocabularyBookmarks:{'vocabulary-0123456789abcdef':false},memoryBookmarks:{'memory-0123456789abcdef':false},idiomBookmarks:{'束之高閣':false}});
  const device=controller(local(),remote,json);await device.sync.start();
- for(const key of ['bookmarks','explanationBookmarks','vocabularyBookmarks','idiomBookmarks'])assert.deepEqual(device.received[key],[]);
+ for(const key of ['bookmarks','explanationBookmarks','vocabularyBookmarks','idiomBookmarks','memoryBookmarks'])assert.deepEqual(device.received[key],[]);
  device.sync.stop();
+});
+
+test('queued memory operations coalesce per card and persist across a second device',async()=>{
+ const first=controller(emptyState());await first.sync.start();
+ first.sync.enqueue([{docId:'_session',mode:'update',patch:{memoryBookmarks:{'memory-0123456789abcdef':true}}}]);
+ first.sync.enqueue([{docId:'_session',mode:'update',patch:{memoryBookmarks:{'memory-fedcba9876543210':true}}}]);
+ first.sync.enqueue([{docId:'_session',mode:'update',patch:{memoryBookmarks:{'memory-0123456789abcdef':false}}}]);
+ await first.flush();
+ const second=controller(emptyState(),first.remote,first.sessionJSON);await second.sync.start();
+ assert.deepEqual(second.received.memoryBookmarks,['memory-fedcba9876543210']);
+ first.sync.stop();second.sync.stop();
 });

@@ -2,7 +2,7 @@ import {test,expect} from '@playwright/test';
 import course from '../../data/statistics-course.json';
 for(const width of [390,1440])test(`all 39 statistics lessons render and practice at ${width}px`,async({page})=>{
  test.setTimeout(120000);await page.setViewportSize({width,height:900});await page.goto('/demo/');
- await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();await page.getByRole('button',{name:'完整重點',exact:true}).click();
  await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^統計學大意/}).click();
  const select=page.getByLabel('選擇統計學章節');await expect(select.locator('option')).toHaveCount(40);
  for(const note of course.notes){

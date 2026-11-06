@@ -74,8 +74,8 @@ test('shared vocabulary cards expose save state and hide review definitions unti
  const review=render(h(Card,{item,saved:true,onToggle:noop,review:true,source:'113 年 · 第 41 題',onSource:noop}));
  assert.match(review,/取消收藏單字 reliable/);assert.match(review,/aria-expanded="false"/);assert.match(review,/hidden=""/);assert.match(review,/113 年 · 第 41 題/);
  const Tabs=component('favorites-tabs').default;
- const tabs=render(h(Tabs,{value:'words',counts:{wrong:4,questions:1,explanations:2,idioms:5,words:3},onChange:noop}));
- assert.equal((tabs.match(/role="tab"/g)||[]).length,5);assert.equal((tabs.match(/aria-selected="true"/g)||[]).length,1);assert.match(tabs,/id="favorites-tab-words"[^>]*tabIndex="0"/i);
+ const tabs=render(h(Tabs,{value:'words',counts:{memory:2,wrong:4,questions:1,explanations:2,idioms:5,words:3},onChange:noop}));
+ assert.equal((tabs.match(/role="tab"/g)||[]).length,6);assert.equal((tabs.match(/aria-selected="true"/g)||[]).length,1);assert.match(tabs,/id="favorites-tab-words"[^>]*tabIndex="0"/i);
 });
 
 
@@ -84,4 +84,11 @@ test('idiom cards expose a persistent save control',()=>{
  const entry={term:'江河日下',aliases:[],category:'成語',meaning:'比喻情況愈來愈壞。',example:'局勢江河日下。',questionIds:[],origin:{kind:'典故',reference:'測試',explanation:'測試用說明',url:'https://example.com'}};
  const html=render(h(Card,{entry,year:'all',questions:new Map(),exams:new Map(),saved:true,onToggleSave:noop,onPractice:noop,onViewExplanation:noop}));
  assert.match(html,/取消收藏成語 江河日下/);assert.match(html,/aria-pressed="true"/);
+});
+
+test('memory cards start hidden, expose persistent save state and disable saves before cloud hydration',()=>{
+ const Card=component('memory-card').default;
+ const card={id:'memory-0123456789abcdef',term:'測試觀念',front:'問題',back:'回答',sourceTitle:'章節'};
+ const html=render(h(Card,{card,saved:true,onToggle:noop,canSave:false}));
+ assert.match(html,/aria-expanded="false"/);assert.match(html,/hidden=""/);assert.match(html,/aria-pressed="true"/);assert.match(html,/disabled=""/);assert.match(html,/正在讀取雲端收藏/);
 });

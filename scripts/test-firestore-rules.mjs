@@ -1,4 +1,6 @@
 import assert from 'node:assert/strict';
+import {applyStudyMutation,readStudyMetadata} from '../lib/sync-model.mjs';
+import {memoryCardId} from '../lib/memory-cards.mjs';
 import {initializeApp,deleteApp} from 'firebase/app';
 import {connectFirestoreEmulator,doc,getDoc,getFirestore,serverTimestamp,setDoc,terminate} from 'firebase/firestore';
 
@@ -29,6 +31,14 @@ try{
  const session=doc(db,'users',uid,'study','session');
  await setDoc(session,{sessionJSON:'null',applied:[],revision:1,updatedAt:serverTimestamp()});
  assert.equal((await getDoc(session)).data().sessionJSON,'null');
+ const cardId=memoryCardId('dp-course-3-3','資料鏈結層的責任');
+ const saved=applyStudyMutation('null',{memoryBookmarks:{[cardId]:true}});
+ await setDoc(session,{sessionJSON:saved,applied:['memory-add'],revision:2,updatedAt:serverTimestamp()});
+ assert.equal(readStudyMetadata((await getDoc(session)).data().sessionJSON).memoryBookmarks[cardId],true);
+ const removed=applyStudyMutation(saved,{memoryBookmarks:{[cardId]:false}});
+ await setDoc(session,{sessionJSON:removed,applied:['memory-add','memory-remove'],revision:3,updatedAt:serverTimestamp()});
+ assert.equal(readStudyMetadata((await getDoc(session)).data().sessionJSON).memoryBookmarks[cardId],false);
+ await denied(setDoc(doc(db,'users','another-user','study','session'),{sessionJSON:saved,applied:[],revision:1,updatedAt:serverTimestamp()}));
  console.log('Firestore rules accept the reported write and reject unauthorized writes.');
 }finally{
  await terminate(db);

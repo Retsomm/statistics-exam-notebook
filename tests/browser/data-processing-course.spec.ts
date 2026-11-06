@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 for(const width of [390,1440])test(`27 data processing sections render and practice at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});await page.goto('/demo/');
- await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();await page.getByRole('button',{name:'完整重點',exact:true}).click();
  await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();
  const select=page.getByLabel('選擇資料處理章節');await expect(select.locator('option')).toHaveCount(28);
  for(const chapter of ['1-2','2-5','3-4','4-3','4-4']){

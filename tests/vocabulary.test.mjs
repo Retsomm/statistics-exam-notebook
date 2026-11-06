@@ -68,7 +68,7 @@ test('offline word diffs overlay cloud state and migration preserves removal tom
  assert.deepEqual(new Set(cloudState(new Map(),stale,bank.questions).vocabularyBookmarks),new Set([b,c]));
 });
 test('study metadata upgrades old JSON, migrates missing local cards, and has ample space for all word flags',()=>{
- assert.deepEqual(readStudyMetadata('not json'),{session:null,vocabularyBookmarks:{},idiomBookmarks:{},attempts:[]});
+ assert.deepEqual(readStudyMetadata('not json'),{session:null,vocabularyBookmarks:{},idiomBookmarks:{},memoryBookmarks:{},attempts:[]});
  const local={...emptyState(),vocabularyBookmarks:[a,b]};
  const changes=vocabularyMigration(local,JSON.stringify(session));assert.equal(changes.length,1);
  const json=applyStudyMutation(JSON.stringify(session),changes[0].patch,'migrate');assert.deepEqual(readStudyMetadata(json).session,session);assert.deepEqual(cloudState(new Map(),json,bank.questions).vocabularyBookmarks,[a,b]);
