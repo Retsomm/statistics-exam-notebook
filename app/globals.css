@@ -291,17 +291,31 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
 
 .memory-mode{display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:18px 0;}
 .memory-mode .checkbox{font-size:15px;min-height:44px;}
-.memory-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start;}
-.memory-card{display:flex;flex-direction:column;gap:16px;min-width:0;padding:24px;border:1px solid var(--line);border-radius:14px;background:var(--paper);overflow-wrap:anywhere;line-height:1.85;}
+/* Single-card study surface: faces share one fixed space, with a real 3D turn. */
+.memory-deck{max-width:820px;margin:22px auto;min-width:0;}
+.memory-deck-top{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:10px;color:var(--muted);}
+.memory-flashcard{display:flex;flex-direction:column;gap:18px;min-width:0;margin:18px 0 0;padding:22px;border:1px solid var(--line);border-radius:26px;background:var(--paper);}
 .memory-card-saved{border-color:var(--green);}
-.memory-card h3{font-size:21px;line-height:1.6;}
-.memory-card .eyebrow{font-size:13px;color:var(--muted);letter-spacing:normal;}
-.memory-card-question{font-size:18px;}
-.memory-card-answer{border-top:1px solid var(--line);padding-top:16px;font-size:17px;}
-.memory-card-answer[hidden]{display:none;}
-.memory-card-answer h4{font-size:16px;margin:0 0 8px;color:var(--green);}
-.memory-card-answer .link{margin-top:14px;min-height:44px;}
-.memory-card-actions{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:auto;}
-.memory-card-actions .btn{min-height:44px;}
-.memory-card-actions small{color:var(--muted);font-size:13px;}
-@media(max-width:720px){.memory-grid{grid-template-columns:minmax(0,1fr);}.memory-card{padding:20px;}}
+.memory-card-heading{display:flex;align-items:start;justify-content:space-between;gap:16px;}
+.memory-card-heading>div{min-width:0;}
+.memory-card-heading .eyebrow{font-size:13px;letter-spacing:normal;color:var(--muted);overflow-wrap:anywhere;}
+.memory-card-heading h3{font-size:15px;margin-top:4px;font-weight:500;color:var(--muted);}
+.memory-card-heading>span{white-space:nowrap;font-size:13px;color:var(--green);}
+.memory-flip-surface{display:block;width:100%;height:clamp(340px,48svh,500px);padding:0;border:0;border-radius:22px;perspective:1400px;text-align:left;background:transparent;}
+.memory-flip-rotor{position:relative;display:block;width:100%;height:100%;transform-style:preserve-3d;transition:transform 540ms cubic-bezier(.22,.7,.2,1);}
+.memory-flip-rotor.is-flipped{transform:rotateY(180deg);}
+.memory-face{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:24px;padding:28px;border:1px solid var(--line);border-radius:22px;background:var(--input);backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:auto;overflow-wrap:anywhere;}
+.memory-back{transform:rotateY(180deg);background:var(--sage);}
+.memory-face-label,.memory-face-hint{flex-shrink:0;color:var(--muted);font-size:14px;text-align:center;}
+.memory-card-question{margin:auto 0;max-width:32ch;font-size:clamp(23px,2.4vw,32px);font-weight:600;line-height:1.8;text-align:center;}
+.memory-card-answer-text{display:block;margin:auto 0;max-width:40ch;font-size:clamp(19px,1.8vw,25px);line-height:1.9;text-align:left;}
+.memory-card-actions{display:flex;flex-wrap:wrap;align-items:center;gap:10px 18px;}
+.memory-card-actions small{flex-basis:100%;font-size:13px;color:var(--muted);}
+.memory-card-actions .btn,.memory-card-actions .link{min-height:44px;}
+.memory-deck-controls{display:grid;grid-template-columns:1fr 1.3fr 1.3fr 1fr;gap:12px;margin-top:20px;}
+.memory-deck-controls .btn{min-height:52px;white-space:normal;justify-content:center;}
+.memory-deck-controls .memory-review{color:var(--orange);}
+.memory-deck-controls .memory-known{color:var(--green);}
+.memory-deck-help{margin-top:16px;color:var(--muted);font-size:13px;line-height:1.8;}
+@media(max-width:600px){.memory-flashcard{padding:14px;border-radius:22px;}.memory-face{padding:20px;}.memory-deck-controls{gap:6px;grid-template-columns:1fr 1.4fr 1.4fr 1fr;}.memory-deck-controls .btn{padding:10px 5px;font-size:13px;}.memory-card-question{font-size:23px;}.memory-card-answer-text{font-size:19px;}}
+@media(prefers-reduced-motion:reduce){.memory-flip-rotor{transition:none;}}

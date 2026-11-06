@@ -90,5 +90,5 @@ test('memory cards start hidden, expose persistent save state and disable saves 
  const Card=component('memory-card').default;
  const card={id:'memory-0123456789abcdef',term:'測試觀念',front:'問題',back:'回答',sourceTitle:'章節'};
  const html=render(h(Card,{card,saved:true,onToggle:noop,canSave:false}));
- assert.match(html,/aria-expanded="false"/);assert.match(html,/hidden=""/);assert.match(html,/aria-pressed="true"/);assert.match(html,/disabled=""/);assert.match(html,/正在讀取雲端收藏/);
+ assert.match(html,/memory-flip-rotor/);assert.match(html,/memory-front[^>]*aria-hidden="false"/);assert.match(html,/memory-back[^>]*aria-hidden="true"/);assert.doesNotMatch(html,/aria-expanded/);assert.match(html,/aria-pressed="true"/);assert.match(html,/disabled=""/);assert.match(html,/正在讀取雲端收藏/);
 });

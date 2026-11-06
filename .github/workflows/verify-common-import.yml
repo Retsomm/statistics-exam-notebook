@@ -2,12 +2,13 @@ name: Verify common-subject expansion
 
 on:
   push:
-    branches: [main, codex/common-paper-import, codex/civics-english-review, codex/question-layout-review, codex/data-processing-course-review, codex/statistics-course-review, codex/chinese-blanks-review, codex/memory-cards-review]
+    branches: [main, codex/common-paper-import, codex/civics-english-review, codex/question-layout-review, codex/data-processing-course-review, codex/statistics-course-review, codex/chinese-blanks-review, codex/memory-cards-review, codex/flip-card-review]
     paths:
       - lib/memory-cards.*
       - lib/study.mjs
       - lib/sync-model.mjs
       - lib/cloud-sync.ts
+      - components/memory-deck.tsx
       - components/memory-card.tsx
       - components/memory-collection.tsx
       - components/study-app.tsx
