@@ -13,9 +13,9 @@ for(const width of [390,1440])test(`memory cards flip, save, reload and remove a
  await expect(card.getByRole('button',{name:'取消收藏：資料鏈結層的責任',exact:true})).toHaveAttribute('aria-pressed','true');
  await page.getByLabel('只看收藏卡片').check();await expect(page.locator('.memory-card')).toHaveCount(1);
  await card.getByRole('button',{name:'閱讀完整重點',exact:true}).click();await expect(page.locator('.note-card')).toHaveCount(1);await expect(page.locator('.note-card h3')).toHaveText('3-3 資料鏈結層');
- await page.reload();await nav().getByRole('button',{name:'收藏與錯題',exact:true}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();
+ await page.reload();await nav().getByRole('button',{name:/^收藏與錯題/}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();
  const saved=page.getByRole('article',{name:'資料鏈結層的責任',exact:true});await expect(saved).toBeVisible();await expect(saved.locator('.memory-card-answer')).toBeHidden();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
  await saved.getByRole('button',{name:'取消收藏：資料鏈結層的責任',exact:true}).click();await expect(page.getByRole('heading',{name:'還沒有收藏記憶卡片',exact:true})).toBeVisible();
- await page.reload();await nav().getByRole('button',{name:'收藏與錯題',exact:true}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();await expect(page.locator('.memory-card')).toHaveCount(0);
+ await page.reload();await nav().getByRole('button',{name:/^收藏與錯題/}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();await expect(page.locator('.memory-card')).toHaveCount(0);
 });
