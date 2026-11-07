@@ -11,10 +11,11 @@ test('maintenance errors expose codes from streaming responses without leaking p
 });
 test('update-only IAM probe cannot change a report and does not mistake denied access for success',async()=>{
  const base='https://firestore.googleapis.com/v1/projects/p/databases/(default)/documents';
- const request=async(url,options)=>{assert.equal(options.method,'PATCH');const parsed=new URL(url),document=JSON.parse(options.body);assert.match(document.name,/^projects\/p\/databases\/\(default\)\/documents\/maintenancePermissionChecks\//);assert.equal(parsed.searchParams.get('currentDocument.updateTime'),'1970-01-01T00:00:00Z');assert.deepEqual(parsed.searchParams.getAll('updateMask.fieldPaths'),['probe']);throw safeRequestError('Firestore',400,{error:{status:'FAILED_PRECONDITION'}});};
+ const request=async(url,options)=>{if(url.endsWith(':runQuery')){const {structuredQuery}=JSON.parse(options.body);assert.deepEqual(structuredQuery.select.fields,[{fieldPath:'__name__'}]);assert.equal(structuredQuery.limit,1);return [{document:{name:doc('one').name}}];}assert.equal(options.method,'PATCH');const parsed=new URL(url),document=JSON.parse(options.body);assert.equal(document.name,doc('one').name);assert.equal(parsed.searchParams.get('currentDocument.updateTime'),'1970-01-01T00:00:00Z');assert.deepEqual(parsed.searchParams.getAll('updateMask.fieldPaths'),['probe']);throw safeRequestError('Firestore',400,{error:{status:'FAILED_PRECONDITION'}});};
  await verifyUpdatePermission({request,headers:{},base});
  for(const error of [safeRequestError('Firestore',403,[{error:{status:'PERMISSION_DENIED'}}]),safeRequestError('Firestore',500,{}),safeRequestError('GitHub',404,{error:{status:'NOT_FOUND'}}),safeRequestError('Firestore',404,{})])await assert.rejects(verifyUpdatePermission({request:async()=>{throw error;},headers:{},base}),error);
- await assert.rejects(verifyUpdatePermission({request:async()=>({}),headers:{},base}),/unexpectedly succeeded/);
+ await assert.rejects(verifyUpdatePermission({request:async url=>url.endsWith(':runQuery')?[{document:{name:doc('one').name}}]:{},headers:{},base}),/unexpectedly succeeded/);
+ await assert.rejects(verifyUpdatePermission({request:async()=>[],headers:{},base}),/No existing reports/);
 });
 test('maintenance batches all pending reports for the same question without exposing user data',()=>{
  const result=pendingQueue([doc('one'),doc('two','pending','scan'),doc('three','resolved')]);

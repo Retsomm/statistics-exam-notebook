@@ -41,11 +41,11 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 使用專案自訂角色 `projects/library-exam-notebook/roles/questionReportMaintainer`，只包含：
 
 - `datastore.entities.get`、`datastore.entities.list`：collection-group `runQuery` 的欄位投影查詢。
-- `datastore.entities.update`：以 REST PATCH 更新既有回報，維持 `currentDocument.updateTime` 前提與欄位遮罩。不要改回帶有 updateTime 的 commit；該呼叫在只有這三項權限時曾回傳 403。
+- `datastore.entities.update`：以 REST PATCH 更新既有回報，維持 `currentDocument.updateTime` 前提與欄位遮罩。
 
 將角色授予既有 GitHub Actions Hosting 服務帳戶，綁定條件為 `resource.name == "projects/library-exam-notebook/databases/(default)"`。修改 IAM 時保留其他綁定及條件，使用最新 policy 的 etag 避免覆蓋同步變更。不要改授 Owner、Editor 或含新增／刪除權限的廣泛角色。Firestore IAM 可限制資料庫，無法藉此限制特定 collection 或欄位；維護程式仍須只查回報並以精確鍵更新。
 
-IAM 變更可能需數分鐘生效。先手動執行 `Question report maintenance`，勾選 `verify_update_permission`：流程會向隨機命名的診斷路徑送出帶有 `1970-01-01T00:00:00Z` 版本前提的 update。這個早於 Firestore 建立時間的版本不可能成立，所以不會建立或修改任何文件；只有收到明確的版本前提拒絕或文件不存在錯誤，才視為更新權限檢查通過。403、網路錯誤與其他失敗都會讓流程失敗。預設排程不執行此診斷。
+IAM 變更可能需數分鐘生效。先手動執行 `Question report maintenance`，勾選 `verify_update_permission`：流程只查一筆既有回報的文件名稱，不載入原始欄位，再送出帶有 `1970-01-01T00:00:00Z` 版本前提的 update。這個早於 Firestore 建立時間的版本不可能成立，所以不會建立或修改任何文件；只有收到明確的版本前提拒絕或文件在查詢後已不存在的錯誤，才視為更新權限檢查通過。403、網路錯誤與其他失敗都會讓流程失敗。若完全沒有回報，診斷會明確失敗，無法宣稱已驗證更新；不要用不存在的文件測試 update-only IAM，因為那可能觸發新增文件權限的判斷。預設排程不執行此診斷。
 
 接著確認流程成功產生匿名題號清單。只有 IAM 設定存在、管理者能查詢，或 Hosting 發佈成功，都不足以證明維護服務帳戶可用。Google 串流 API 的錯誤也可能包在陣列中；日誌僅顯示安全的錯誤代碼，不輸出 Google 錯誤訊息、metadata 或原始回報。
 
