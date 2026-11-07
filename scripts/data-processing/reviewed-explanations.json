@@ -31,5 +31,384 @@
         "url": "https://opendsa-server.cs.vt.edu/ODSA/StandaloneModules/help/20221201151914/html/AVL.html"
       }
     ]
+  },
+  "114-3d-17": {
+    "summary": "先看「分別」的順序：前一個資料結構要對應 DFS，後一個要對應 BFS。題目不是只問 Stack 或 Queue 的名詞定義，而是問哪種取出規則能形成所需的走訪順序。\n\nDFS（深度優先）會沿一條路徑盡量往深處走，沒有可繼續的未訪節點才退回最近尚未完成的分岔。Stack（堆疊）後進先出，能保留這條尚未完成的探索路徑；用遞迴寫 DFS 時，這個工作由程式的呼叫堆疊負責。\n\nBFS（廣度優先）先處理距起點較近的同層節點，再處理下一層。Queue（佇列）先進先出，讓先發現的節點先展開，新發現的下一層節點排在後面，才不會跳過同層尚未處理的節點。\n\n以圖中的教學例子來看：A 連到 B、C，B 再連到 D、E，C 連到 F。從 A 開始，有多個可選鄰點時先選字母較前者；已訪問的節點不再重複展開。\n\nDFS 先沿 A、B 到 D；D 沒有新的鄰點，就退回 B，改走 E，再退回 A，走 C、F，次序為 A、B、D、E、C、F。遞迴時尚未完成的呼叫路徑一度是 A、B、D，D 結束後先回 B，正是最後進入的呼叫先結束。也可以用明確的 Stack 保存走訪狀態；鄰點入堆疊的順序必須配合想要的走訪順序。\n\nBFS 則把等待展開的節點排隊：處理 A 後，佇列由前到後為 B、C；處理 B 後變成 C、D、E，所以接下來先處理較早排隊的 C，而不是新發現的 D。再處理 C 後為 D、E、F，最後依序處理 D、E、F。因此次序是 A、B、C、D、E、F。\n\n所以答案是（D）Stack; Queue。走訪要記錄已發現或已訪問的節點，以免遇到環時重複繞圈；本例的順序另取決於起點與鄰點選擇順序，並非所有圖都固定先走 B。",
+    "options": {
+      "A": "Hash; Queue：Queue 對應 BFS 是正確的，錯在前半的 Hash。雜湊表或雜湊集合適合依鍵查找、記錄哪些節點已發現，卻沒有 Stack 的後進先出與回溯規則。DFS 可以另外使用 Hash 輔助去重，但控制探索路徑的典型結構仍是 Stack。",
+      "B": "Stack; Heap：Stack 對應 DFS 正確，錯在後半的 Heap。Heap（堆積）通常依優先權取出最小或最大值，不是按排隊先後；它可能讓後發現但優先權較高的節點先出來，不能直接維持標準 BFS 的分層順序。BFS 此處需要 FIFO 的 Queue。",
+      "C": "Heap; Hash：兩個位置都不合適。Heap 依優先權挑下一個項目，沒有 DFS 所需的最近探索狀態先返回規則；Hash 依鍵定位或記錄是否訪問，沒有 BFS 所需的先發現先展開順序。正確配對應是 DFS 用 Stack、BFS 用 Queue。",
+      "D": "Stack; Queue：兩個配對都正確。DFS 要先完成剛深入的路徑再回到較早的分岔，符合 Stack 後進先出；BFS 要讓較早發現的同層節點先處理，符合 Queue 先進先出。遞迴 DFS 沒有手寫 Stack，也仍然使用呼叫堆疊。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "114 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=Q"
+      },
+      {
+        "title": "114 年考選部官方標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=S"
+      },
+      {
+        "title": "OpenDSA 原著教材：DFS 與 BFS 圖形走訪",
+        "url": "https://opendsa.org/OpenDSA/Books/CS3/html/GraphTraversal.html"
+      },
+      {
+        "title": "NIST：廣度優先搜尋與佇列",
+        "url": "https://xlinux.nist.gov/dads/HTML/breadthfirst.html"
+      }
+    ],
+    "diagram": {
+      "kind": "graph-traversal",
+      "title": "同一張圖的 DFS 與 BFS（教學示意）",
+      "description": "無向邊 A—B、A—C、B—D、B—E、C—F。從 A 開始，同時有多個未訪鄰點時依字母順序；DFS 為 A、B、D、E、C、F，BFS 為 A、B、C、D、E、F。",
+      "nodes": [
+        {
+          "id": "A",
+          "label": "A",
+          "x": 300,
+          "y": 45
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "x": 170,
+          "y": 140
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "x": 430,
+          "y": 140
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "x": 90,
+          "y": 255
+        },
+        {
+          "id": "E",
+          "label": "E",
+          "x": 250,
+          "y": 255
+        },
+        {
+          "id": "F",
+          "label": "F",
+          "x": 430,
+          "y": 255
+        }
+      ],
+      "edges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "D"
+        ],
+        [
+          "B",
+          "E"
+        ],
+        [
+          "C",
+          "F"
+        ]
+      ],
+      "sequence": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "C",
+        "F"
+      ],
+      "breadthSequence": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    }
+  },
+  "115-3d-16": {
+    "summary": "這題要找能利用 Queue「先進先出」規則的演算法。BFS 先展開同一層，再往下一層，新發現的節點應排到先前等待者後面，所以最適合用佇列。\n\n以圖中的教學例子來看：A 連到 B、C，B 再連到 D、E，C 連到 F。從 A 開始，有多個可選鄰點時先選字母較前者；已訪問的節點不再重複展開。\n\nDFS 先沿 A、B 到 D；D 沒有新的鄰點，就退回 B，改走 E，再退回 A，走 C、F，次序為 A、B、D、E、C、F。遞迴時尚未完成的呼叫路徑一度是 A、B、D，D 結束後先回 B，正是最後進入的呼叫先結束。也可以用明確的 Stack 保存走訪狀態；鄰點入堆疊的順序必須配合想要的走訪順序。\n\nBFS 則把等待展開的節點排隊：處理 A 後，佇列由前到後為 B、C；處理 B 後變成 C、D、E，所以接下來先處理較早排隊的 C，而不是新發現的 D。再處理 C 後為 D、E、F，最後依序處理 D、E、F。因此次序是 A、B、C、D、E、F。\n\n因此選（D）廣度優先搜尋（BFS）。另外三項通常需要堆疊：運算式解析保存運算子與括號；函式與遞迴保存尚未返回的呼叫；DFS 保存深入路徑的探索狀態。",
+    "options": {
+      "A": "運算子優先順序解析：解析括號或運算子優先順序時，常用 Stack 保存尚待處理的運算子。例如遇到右括號，須回頭處理最近那個左括號內的內容，符合後進先出；不是先排入的運算子就一定先執行，因此不以 Queue 為典型解法。",
+      "B": "函式呼叫與遞迴執行：呼叫 A 進入 B、B 再進入 C，通常要先結束 C、回到 B，最後才回 A。保存返回位置與區域狀態的是呼叫堆疊 Stack，符合後進先出，不是 Queue 的先進先出。",
+      "C": "深度優先搜尋（DFS）：DFS 先沿一條路徑深入，走不下去再回到最近分岔，通常用明確的 Stack 或遞迴呼叫堆疊保存狀態。若改成一般 FIFO 佇列來安排待展開節點，就會偏向先廣後深的 BFS。",
+      "D": "廣度優先搜尋（BFS）：BFS 必須讓先發現的節點先展開，後發現的下一層節點不能插隊。Queue 從隊尾加入、隊首取出，恰好保留這個次序。圖中處理 B 後，C 仍排在新發現的 D、E 前面，就是先進先出的作用。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "115 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0701&q=1&t=Q"
+      },
+      {
+        "title": "115 年考選部官方標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0701&q=1&t=S"
+      },
+      {
+        "title": "OpenDSA 原著教材：DFS 與 BFS 圖形走訪",
+        "url": "https://opendsa.org/OpenDSA/Books/CS3/html/GraphTraversal.html"
+      },
+      {
+        "title": "NIST：廣度優先搜尋與佇列",
+        "url": "https://xlinux.nist.gov/dads/HTML/breadthfirst.html"
+      }
+    ],
+    "diagram": {
+      "kind": "graph-traversal",
+      "title": "同一張圖的 DFS 與 BFS（教學示意）",
+      "description": "無向邊 A—B、A—C、B—D、B—E、C—F。從 A 開始，同時有多個未訪鄰點時依字母順序；DFS 為 A、B、D、E、C、F，BFS 為 A、B、C、D、E、F。",
+      "nodes": [
+        {
+          "id": "A",
+          "label": "A",
+          "x": 300,
+          "y": 45
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "x": 170,
+          "y": 140
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "x": 430,
+          "y": 140
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "x": 90,
+          "y": 255
+        },
+        {
+          "id": "E",
+          "label": "E",
+          "x": 250,
+          "y": 255
+        },
+        {
+          "id": "F",
+          "label": "F",
+          "x": 430,
+          "y": 255
+        }
+      ],
+      "edges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "D"
+        ],
+        [
+          "B",
+          "E"
+        ],
+        [
+          "C",
+          "F"
+        ]
+      ],
+      "sequence": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "C",
+        "F"
+      ],
+      "breadthSequence": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    }
+  },
+  "108-3d-17": {
+    "summary": "BFS 的重點是「先處理同一層，再處理下一層」，所以等待展開的節點必須依發現先後排隊。從隊尾加入、隊首取出的 Queue 正好符合此規則，因此選（A）佇列（queue）。\n\n以圖中的教學例子來看：A 連到 B、C，B 再連到 D、E，C 連到 F。從 A 開始，有多個可選鄰點時先選字母較前者；已訪問的節點不再重複展開。\n\nDFS 先沿 A、B 到 D；D 沒有新的鄰點，就退回 B，改走 E，再退回 A，走 C、F，次序為 A、B、D、E、C、F。遞迴時尚未完成的呼叫路徑一度是 A、B、D，D 結束後先回 B，正是最後進入的呼叫先結束。也可以用明確的 Stack 保存走訪狀態；鄰點入堆疊的順序必須配合想要的走訪順序。\n\nBFS 則把等待展開的節點排隊：處理 A 後，佇列由前到後為 B、C；處理 B 後變成 C、D、E，所以接下來先處理較早排隊的 C，而不是新發現的 D。再處理 C 後為 D、E、F，最後依序處理 D、E、F。因此次序是 A、B、C、D、E、F。\n\n要分清楚抽象規則與底層存法：Queue 規定先進先出，底層可以用陣列或鏈結串列實作；因此鏈結串列並非不能拿來寫 BFS，而是單說這種存法，還沒有指定 FIFO 的操作規則。",
+    "options": {
+      "A": "佇列（queue）：佇列 Queue 採先進先出。BFS 發現鄰點後排到隊尾，每次從隊首取出最早等待的節點，便可先走完較近的一層，再走較遠一層。圖中 A 展開後是 B、C；B 發現 D、E，仍須讓原本在前面的 C 先處理。",
+      "B": "連結串列（linked list）：鏈結串列以節點與連結保存資料，可作為佇列的底層，例如尾端加入、頭端取出，所以它確實能用來實作 BFS。但它本身沒有強制先進先出；本題問最適用的資料結構，直接表達 BFS 排隊規則的 Queue 更精確。",
+      "C": "堆疊（stack）：堆疊 Stack 後進先出，較新的項目先被取出，適合 DFS 深入與回溯。若一般地用這個取出規則安排走訪，新發現的深入節點可能先於較早等待的同層節點展開，不符合 BFS 的先廣後深。",
+      "D": "二元搜尋樹（binary search tree）：二元搜尋樹依鍵值大小安排左右子樹，適合依鍵查找、排序或範圍查詢；它不會自然依「從起點發現的先後」取出節點。BFS 要維持的是距離層次與 FIFO，而不是鍵值的大小順序。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "108 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=108010&c=508&s=0701&q=1&t=Q"
+      },
+      {
+        "title": "108 年考選部官方標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=108010&c=508&s=0701&q=1&t=S"
+      },
+      {
+        "title": "OpenDSA 原著教材：DFS 與 BFS 圖形走訪",
+        "url": "https://opendsa.org/OpenDSA/Books/CS3/html/GraphTraversal.html"
+      },
+      {
+        "title": "NIST：廣度優先搜尋與佇列",
+        "url": "https://xlinux.nist.gov/dads/HTML/breadthfirst.html"
+      }
+    ],
+    "diagram": {
+      "kind": "graph-traversal",
+      "title": "同一張圖的 DFS 與 BFS（教學示意）",
+      "description": "無向邊 A—B、A—C、B—D、B—E、C—F。從 A 開始，同時有多個未訪鄰點時依字母順序；DFS 為 A、B、D、E、C、F，BFS 為 A、B、C、D、E、F。",
+      "nodes": [
+        {
+          "id": "A",
+          "label": "A",
+          "x": 300,
+          "y": 45
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "x": 170,
+          "y": 140
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "x": 430,
+          "y": 140
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "x": 90,
+          "y": 255
+        },
+        {
+          "id": "E",
+          "label": "E",
+          "x": 250,
+          "y": 255
+        },
+        {
+          "id": "F",
+          "label": "F",
+          "x": 430,
+          "y": 255
+        }
+      ],
+      "edges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "D"
+        ],
+        [
+          "B",
+          "E"
+        ],
+        [
+          "C",
+          "F"
+        ]
+      ],
+      "sequence": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "C",
+        "F"
+      ],
+      "breadthSequence": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    }
+  },
+  "107-3d-44": {
+    "summary": "本題比較演算法的設計策略，不只是各自能解什麼圖形問題。Floyd-Warshall 用動態規劃逐步增加允許的中繼頂點，重用前一階段已求得的最短距離，所以選（A）Floyd-Warshall 的全對最短路徑（all-pairs shortest-paths）演算法。\n\n令 d[i,j] 是目前允許的中繼頂點範圍下，i 到 j 的最短距離。加入頂點 k 作為可能中繼時，比較「不經過 k 的原路徑」和「i 到 k，再由 k 到 j」，更新為 d[i,j]=min(d[i,j], d[i,k]+d[k,j])。這就是把大問題拆成較小狀態、重用已算結果的動態規劃。\n\n例如目前 A 到 C 的距離是 10，A 到 B 是 3，B 到 C 是 4。考慮 B 作中繼後，A 到 C 更新成 min(10,3+4)=7。標準實作依 k、i、j 三層迴圈更新，時間為 O(V³)。若存在可達負環，則相關最短路徑不再有有限最小值，不能照一般結果解讀。\n\nBFS 的典型策略是佇列分層走訪；Dijkstra 與 Prim 則是貪婪法。Dijkstra 選目前暫定距離最小的未完成頂點，求非負邊權圖的單源最短路徑；Prim 選連接已選與未選頂點的最小跨界邊，求最小生成樹，兩者的最佳化目標不同。",
+    "options": {
+      "A": "Floyd-Warshall 的全對最短路徑（all-pairs shortest-paths）演算法：Floyd-Warshall 逐階段允許更多中繼頂點，並以 d[i,k]+d[k,j] 和原距離比較，重用較小子問題的答案。這是動態規劃，輸出所有頂點對之間的最短距離；不是只從一個起點分層拜訪。",
+      "B": "廣度優先搜索（breadth-first search）演算法：BFS 使用 Queue，依離起點的層次展開節點，能在無權或等邊權圖求最少邊數路徑。本題的典型策略分類是圖形走訪，不是 Floyd-Warshall 那種逐步增加中繼頂點、更新所有頂點對距離的動態規劃。",
+      "C": "Dijkstra 的單源最短路徑（single-source shortest-paths）演算法：Dijkstra 通常採貪婪法，每次確定暫定距離最小的未完成頂點，再放鬆其鄰邊；一般版本要求非負邊權。它求單源最短路徑，可用最小堆積優先佇列加速選點，但不是此題要選的動態規劃演算法。",
+      "D": "Prim 的最小生成樹（minimum spanning tree）演算法：Prim 也是貪婪法，逐次挑最小的跨界邊把新頂點接入，目標是使整棵生成樹的總邊權最小。它不是求所有頂點對最短路徑，也不是依 Floyd-Warshall 的中繼頂點狀態遞推。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "107 年考選部官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=107010&c=508&s=0701&q=1&t=Q"
+      },
+      {
+        "title": "107 年考選部官方標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=107010&c=508&s=0701&q=1&t=S"
+      },
+      {
+        "title": "OpenDSA 原著教材：DFS 與 BFS 圖形走訪",
+        "url": "https://opendsa.org/OpenDSA/Books/CS3/html/GraphTraversal.html"
+      },
+      {
+        "title": "NIST：廣度優先搜尋與佇列",
+        "url": "https://xlinux.nist.gov/dads/HTML/breadthfirst.html"
+      },
+      {
+        "title": "NIST：Floyd-Warshall 演算法",
+        "url": "https://xlinux.nist.gov/dads/HTML/floydWarshall.html"
+      }
+    ]
   }
 }

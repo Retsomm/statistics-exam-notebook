@@ -198,3 +198,28 @@ test('reviewed lookup explanation survives regeneration and is the deployed payl
  first.summary='temporary mutation';assert.deepEqual(buildDataProcessingExplanations(bank).get('114-3d')['114-3d-15'],expected);
  const published=JSON.parse(readFileSync(new URL('../public/explanations/114-3d.json',import.meta.url)))['114-3d-15'];assert.deepEqual(published,expected);
 });
+
+
+test('reviewed graph explanations persist and diagram sequences follow the edges',()=>{
+ const reviewed=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)));
+ for(const id of ['114-3d-17','115-3d-16','108-3d-17','107-3d-44']){
+  const exam=id.slice(0,id.lastIndexOf('-'));const expected=reviewed[id];
+  assert.deepEqual(buildDataProcessingExplanations(bank).get(exam)[id],expected);
+  assert.deepEqual(JSON.parse(readFileSync(new URL(`../public/explanations/${exam}.json`,import.meta.url)))[id],expected);
+  assert.equal(new Set(Object.values(expected.options)).size,4);
+  if(!expected.diagram)continue;
+  const d=expected.diagram,adj=new Map(d.nodes.map(n=>[n.id,[]]));
+  for(const [a,b]of d.edges){adj.get(a).push(b);adj.get(b).push(a);}
+  for(const list of adj.values())list.sort();
+  const seen=new Set(),dfs=[];const visit=n=>{seen.add(n);dfs.push(n);for(const next of adj.get(n))if(!seen.has(next))visit(next);};visit('A');
+  assert.deepEqual(d.sequence,dfs);
+  const found=new Set(['A']),queue=['A'],bfs=[];
+  while(queue.length){const n=queue.shift();bfs.push(n);for(const next of adj.get(n))if(!found.has(next)){found.add(next);queue.push(next);}}
+  assert.deepEqual(d.breadthSequence,bfs);
+ }
+ const entry=reviewed['114-3d-17'];
+ assert.match(entry.summary,/呼叫堆疊/);assert.match(entry.summary,/先進先出/);
+ assert.match(entry.options.A,/Hash.*已發現/s);assert.match(entry.options.B,/Heap.*優先/s);
+ assert.match(reviewed['108-3d-17'].options.B,/鏈結串列.*佇列/s);
+ assert.match(reviewed['107-3d-44'].summary,/d\[i,j\].*min/);
+});

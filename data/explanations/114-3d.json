@@ -348,12 +348,12 @@
     ]
   },
   "114-3d-17": {
-    "summary": "Stack 採後進先出，最後放入的資料最先取出。\n\n因此應選（D）Stack; Queue。本題涉及圖表、公式或版面時，請同時開啟官方原卷核對原始呈現。",
+    "summary": "先看「分別」的順序：前一個資料結構要對應 DFS，後一個要對應 BFS。題目不是只問 Stack 或 Queue 的名詞定義，而是問哪種取出規則能形成所需的走訪順序。\n\nDFS（深度優先）會沿一條路徑盡量往深處走，沒有可繼續的未訪節點才退回最近尚未完成的分岔。Stack（堆疊）後進先出，能保留這條尚未完成的探索路徑；用遞迴寫 DFS 時，這個工作由程式的呼叫堆疊負責。\n\nBFS（廣度優先）先處理距起點較近的同層節點，再處理下一層。Queue（佇列）先進先出，讓先發現的節點先展開，新發現的下一層節點排在後面，才不會跳過同層尚未處理的節點。\n\n以圖中的教學例子來看：A 連到 B、C，B 再連到 D、E，C 連到 F。從 A 開始，有多個可選鄰點時先選字母較前者；已訪問的節點不再重複展開。\n\nDFS 先沿 A、B 到 D；D 沒有新的鄰點，就退回 B，改走 E，再退回 A，走 C、F，次序為 A、B、D、E、C、F。遞迴時尚未完成的呼叫路徑一度是 A、B、D，D 結束後先回 B，正是最後進入的呼叫先結束。也可以用明確的 Stack 保存走訪狀態；鄰點入堆疊的順序必須配合想要的走訪順序。\n\nBFS 則把等待展開的節點排隊：處理 A 後，佇列由前到後為 B、C；處理 B 後變成 C、D、E，所以接下來先處理較早排隊的 C，而不是新發現的 D。再處理 C 後為 D、E、F，最後依序處理 D、E、F。因此次序是 A、B、C、D、E、F。\n\n所以答案是（D）Stack; Queue。走訪要記錄已發現或已訪問的節點，以免遇到環時重複繞圈；本例的順序另取決於起點與鄰點選擇順序，並非所有圖都固定先走 B。",
     "options": {
-      "A": "Hash; Queue：Queue 採先進先出，最早進入的資料最先離開。",
-      "B": "Stack; Heap：Stack 採後進先出，最後放入的資料最先取出。",
-      "C": "Heap; Hash：DFS 需要 Stack，BFS 需要 Queue；Heap 與 Hash 都不維持這兩種走訪所需的順序。",
-      "D": "Stack; Queue：Stack 採後進先出，最後放入的資料最先取出。"
+      "A": "Hash; Queue：Queue 對應 BFS 是正確的，錯在前半的 Hash。雜湊表或雜湊集合適合依鍵查找、記錄哪些節點已發現，卻沒有 Stack 的後進先出與回溯規則。DFS 可以另外使用 Hash 輔助去重，但控制探索路徑的典型結構仍是 Stack。",
+      "B": "Stack; Heap：Stack 對應 DFS 正確，錯在後半的 Heap。Heap（堆積）通常依優先權取出最小或最大值，不是按排隊先後；它可能讓後發現但優先權較高的節點先出來，不能直接維持標準 BFS 的分層順序。BFS 此處需要 FIFO 的 Queue。",
+      "C": "Heap; Hash：兩個位置都不合適。Heap 依優先權挑下一個項目，沒有 DFS 所需的最近探索狀態先返回規則；Hash 依鍵定位或記錄是否訪問，沒有 BFS 所需的先發現先展開順序。正確配對應是 DFS 用 Stack、BFS 用 Queue。",
+      "D": "Stack; Queue：兩個配對都正確。DFS 要先完成剛深入的路徑再回到較早的分岔，符合 Stack 後進先出；BFS 要讓較早發現的同層節點先處理，符合 Queue 先進先出。遞迴 DFS 沒有手寫 Stack，也仍然使用呼叫堆疊。"
     },
     "optionVerdicts": {
       "A": "不選。",
@@ -363,10 +363,103 @@
     },
     "sources": [
       {
-        "title": "114 年初等考試資料處理大意官方試題與答案",
+        "title": "114 年考選部官方試題",
         "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=Q"
+      },
+      {
+        "title": "114 年考選部官方標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=S"
+      },
+      {
+        "title": "OpenDSA 原著教材：DFS 與 BFS 圖形走訪",
+        "url": "https://opendsa.org/OpenDSA/Books/CS3/html/GraphTraversal.html"
+      },
+      {
+        "title": "NIST：廣度優先搜尋與佇列",
+        "url": "https://xlinux.nist.gov/dads/HTML/breadthfirst.html"
       }
-    ]
+    ],
+    "diagram": {
+      "kind": "graph-traversal",
+      "title": "同一張圖的 DFS 與 BFS（教學示意）",
+      "description": "無向邊 A—B、A—C、B—D、B—E、C—F。從 A 開始，同時有多個未訪鄰點時依字母順序；DFS 為 A、B、D、E、C、F，BFS 為 A、B、C、D、E、F。",
+      "nodes": [
+        {
+          "id": "A",
+          "label": "A",
+          "x": 300,
+          "y": 45
+        },
+        {
+          "id": "B",
+          "label": "B",
+          "x": 170,
+          "y": 140
+        },
+        {
+          "id": "C",
+          "label": "C",
+          "x": 430,
+          "y": 140
+        },
+        {
+          "id": "D",
+          "label": "D",
+          "x": 90,
+          "y": 255
+        },
+        {
+          "id": "E",
+          "label": "E",
+          "x": 250,
+          "y": 255
+        },
+        {
+          "id": "F",
+          "label": "F",
+          "x": 430,
+          "y": 255
+        }
+      ],
+      "edges": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "D"
+        ],
+        [
+          "B",
+          "E"
+        ],
+        [
+          "C",
+          "F"
+        ]
+      ],
+      "sequence": [
+        "A",
+        "B",
+        "D",
+        "E",
+        "C",
+        "F"
+      ],
+      "breadthSequence": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ]
+    }
   },
   "114-3d-18": {
     "summary": "f(5)=f(4)+f(6)=f(2)+f(3)=f(1)+f(2)=1+1=2。\n\n因此應選（C）3。",
