@@ -34,7 +34,7 @@ jobs:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK }}
         run: |
           node --input-type=module <<'JS'
-          const account=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+          let account;try{account=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);}catch{console.error('Firebase operator credentials have invalid JSON.');process.exit(1);}
           const projectMatches=account.project_id==='library-exam-notebook';
           const operatorMatches=account.client_email==='github-action-1424419298@library-exam-notebook.iam.gserviceaccount.com';
           console.log(JSON.stringify({projectMatches,operatorMatches}));
