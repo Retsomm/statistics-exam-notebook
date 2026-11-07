@@ -8,7 +8,9 @@ async function request(url,options={}){
  if(!response.ok){
   const service=url.startsWith(api)?'Firestore':url.includes('oauth2.googleapis.com')?'Google OAuth':'GitHub';
   let data;try{data=await response.json();}catch{}
-  throw safeRequestError(service,response.status,data);
+  const error=safeRequestError(service,response.status,data);
+  error.message=`${options.method||'GET'} ${error.message}`;
+  throw error;
  }
  return response.json();
 }
