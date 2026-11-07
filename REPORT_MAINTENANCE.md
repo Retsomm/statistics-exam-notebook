@@ -8,8 +8,8 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 
 1. 用 GitHub 工具讀取 `actions/runs?per_page=100` 並篩選名稱 `Question report maintenance`，選最新成功執行。
 2. 讀取 job log 的 `Report queue` 及 JSON；或下載 `pending-question-reports` artifact 的 `pending-question-reports.json`。
-3. JSON 只含題號、問題種類及不可回推帳戶路徑的 SHA-256 回報鍵。同題回報已合併。沒有使用者 ID、作答歷史、原始說明或題目快照，可直接用題號讀取題庫並批次檢查。
-4. 若需要原始補充文字，使用具權限的 Firebase CLI 執行 `node scripts/read-question-reports.cjs --details`。不得將原始回報或帳戶路徑放到公開 repository、Actions log、artifact 或網站。
+3. JSON 包含題號、問題種類、原始問題說明 detail、回報時間 createdAt，以及不可回推帳戶路徑的 SHA-256 回報鍵。同題回報已合併。使用者已明確授權回報說明以未加密形式放進公開 GitHub 維護檔案；只可匯出這份白名單，不得附上帳戶 ID、作答歷史、原始文件路徑或私人快照。前端回報表單明示說明會公開。
+4. 批次修正前必須下載 artifact 讀取每筆原始說明，配合題庫與官方來源確認使用者指出的問題。日誌仍只記錄匿名題號摘要；不能把題號摘要當成已讀原始說明。需要舊題完整快照時，使用具權限的 Firebase CLI 執行 `node scripts/read-question-reports.cjs --details`，快照不得公開。
 
 舊版 `年-2-題號` 格式也會列入清單，不會因現行題號使用 `2s`／`3d` 而被略過。清單與結案資料保留回報原有題號；若要找現行題庫的對應題目，先用受保護的原始快照及官方來源確認學科，不自行猜測或改寫舊題號。精確回報鍵仍依原始文件路徑計算。
 
@@ -32,7 +32,7 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 
 提交這份清單後，維護流程會檢查題號、種類、精確回報鍵及 fixCommit 的正式部署紀錄，再用 updateTime 前提只更新對應回報的 status、resolution、fixCommit、resolvedAt。失敗不會假裝成功。同題其他回報、新回報不受影響。重跑已完成項目不會重複寫入。
 
-前端收到雲端 `resolved` 狀態後，自動移到「已處理」，保留結果供查閱，不刪除原始回報。原始說明留在受權限保護的 Firestore。批次清單 artifact 保留14天，每次排程重新產生。
+前端收到雲端 `resolved` 狀態後，自動移到「已處理」，保留結果供查閱，不刪除原始回報。原始說明同時保存在 Firestore 與已授權的維護 artifact；帳戶資料、作答歷史及私人快照僅留在受保護的 Firestore。批次清單 artifact 保留14天，每次排程重新產生。
 
 若流程失敗，先確認 GitHub 服務帳戶是否有 Firestore IAM 權限。流程只會記錄服務名稱、HTTP 狀態及錯誤代碼，不記錄帳戶識別資訊。專案擁有者需在 Google Cloud IAM 確認部署服務帳戶的 Firestore 權限。Firestore 403 不等於沒有回報；必須授權後重跑，看到成功清單才能宣稱已讀取。不要將流程錯誤當成零筆回報，也不要放寬使用者資料的 Firestore 規則。
 
@@ -49,7 +49,7 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 
 IAM 變更可能需數分鐘生效。先手動執行 `Question report maintenance`，勾選 `verify_update_permission`：流程只查一筆既有回報的文件名稱，不載入原始欄位，再送出帶有 `1970-01-01T00:00:00Z` 版本前提的 update。這個早於 Firestore 建立時間的版本不可能成立，所以不會建立或修改任何文件；只有收到明確的版本前提拒絕或文件在查詢後已不存在的錯誤，才視為更新權限檢查通過。403、網路錯誤與其他失敗都會讓流程失敗。若完全沒有回報，診斷會明確失敗，無法宣稱已驗證更新；不要用不存在的文件測試 update-only IAM，因為那可能觸發新增文件權限的判斷。預設排程不執行此診斷。
 
-接著確認流程成功產生匿名題號清單。只有 IAM 設定存在、管理者能查詢，或 Hosting 發佈成功，都不足以證明維護服務帳戶可用。Google 串流 API 的錯誤也可能包在陣列中；日誌僅顯示安全的錯誤代碼，不輸出 Google 錯誤訊息、metadata 或原始回報。
+接著確認流程成功產生回報維護清單。只有 IAM 設定存在、管理者能查詢，或 Hosting 發佈成功，都不足以證明維護服務帳戶可用。Google 串流 API 的錯誤也可能包在陣列中；日誌僅顯示安全的錯誤代碼，不輸出 Google 錯誤訊息、metadata 或原始回報。
 
 若本機有多個 Google 帳號，使用具備本專案 IAM 管理權限的 Firebase CLI 登入帳號；ChatGPT 的登入帳號與 GitHub Actions 的服務帳戶是分開的。可以比對 secret 的專案與服務帳戶是否符合既有 Hosting 發佈紀錄，但只輸出比對結果，不能輸出憑證。
 

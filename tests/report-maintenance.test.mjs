@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {pendingQueue,reportKey,resolutionWrite,collectAndResolveReports,safeRequestError,verifyUpdatePermission} from '../lib/report-maintenance.mjs';
-const doc=(id,status='pending',kind='explanation')=>({name:`projects/p/databases/(default)/documents/users/private-user/questionReports/${id}`,updateTime:'2026-11-07T00:00:00Z',fields:{questionId:{stringValue:'114-3d-20'},kind:{stringValue:kind},status:{stringValue:status},detail:{stringValue:'sensitive free text'},snapshotJSON:{stringValue:'private snapshot'}}});
+const doc=(id,status='pending',kind='explanation')=>({name:`projects/p/databases/(default)/documents/users/private-user/questionReports/${id}`,updateTime:'2026-11-07T00:00:00Z',fields:{questionId:{stringValue:'114-3d-20'},kind:{stringValue:kind},status:{stringValue:status},detail:{stringValue:'請補上逐步計算過程'},createdAt:{stringValue:'2026-11-07T12:00:00Z'},snapshotJSON:{stringValue:'private snapshot'}}});
 test('maintenance errors expose codes from streaming responses without leaking private server details',()=>{
  const error={status:'PERMISSION_DENIED',message:'private-user sensitive credential',details:[{reason:'IAM_PERMISSION_DENIED',metadata:{token:'secret',resource:doc('one').name}}]};
  for(const response of [{error},[{error}],[{}, {error}]]){
@@ -17,11 +17,11 @@ test('update-only IAM probe cannot change a report and does not mistake denied a
  await assert.rejects(verifyUpdatePermission({request:async url=>url.endsWith(':runQuery')?[{document:{name:doc('one').name}}]:{},headers:{},base}),/unexpectedly succeeded/);
  await assert.rejects(verifyUpdatePermission({request:async()=>[],headers:{},base}),/No existing reports/);
 });
-test('maintenance batches all pending reports for the same question without exposing user data',()=>{
+test('maintenance batches all pending reports for the same question with original notes but without exposing account data',()=>{
  const result=pendingQueue([doc('one'),doc('two','pending','scan'),doc('three','resolved')]);
  assert.equal(result.pendingReports,2);assert.equal(result.questions.length,1);assert.deepEqual(result.questions[0].kinds,['explanation','scan']);
- assert.doesNotMatch(JSON.stringify(result),/private-user|sensitive|snapshot|documentPath/);
- assert.equal(result.questions[0].reports.length,2);assert.equal(new Set(result.questions[0].reports.map(r=>r.key)).size,2);
+ assert.doesNotMatch(JSON.stringify(result),/private-user|snapshot|documentPath/);
+ assert.equal(result.questions[0].reports.length,2);assert.equal(result.questions[0].reports[0].detail,'請補上逐步計算過程');assert.equal(result.questions[0].reports[0].createdAt,'2026-11-07T12:00:00Z');assert.deepEqual(Object.keys(result.questions[0].reports[0]).sort(),['createdAt','detail','key','kind']);assert.equal(new Set(result.questions[0].reports.map(r=>r.key)).size,2);
 });
 test('legacy subject-2 reports remain visible without guessing a replacement subject or changing report identity',()=>{
  const document=doc('legacy');document.fields.questionId={stringValue:'111-2-6'};
@@ -44,7 +44,7 @@ test('resolution targets one immutable report and cannot close a newer report on
 test('maintenance paginates past 200 reports and waits for successful hosting before resolving',async()=>{
  const first=Array.from({length:200},(_,i)=>doc(String(i))),last=doc('last');let queries=0,commits=0;
  const request=async(url,options)=>{const body=JSON.parse(options.body);if(url.endsWith(':runQuery')){
-  assert.deepEqual(body.structuredQuery.select.fields.map(f=>f.fieldPath),['questionId','kind','status']);
+  assert.deepEqual(body.structuredQuery.select.fields.map(f=>f.fieldPath),['questionId','kind','status','detail','createdAt']);
   if(queries++){assert.equal(body.structuredQuery.startAt.values[0].referenceValue,first.at(-1).name);return [{document:last}];}
   return first.map(document=>({document}));
  }commits++;return {};};
@@ -68,7 +68,7 @@ test('maintenance resolves only the reviewed report and leaves later reports on 
  const result=await collectAndResolveReports(options);
  assert.equal(result.resolved,1);assert.equal(commits.length,1);assert.equal(commits[0].name,doc('reviewed').name);
  assert.equal(result.queue.pendingReports,1);assert.equal(result.queue.questions[0].reports[0].key,reportKey(doc('later').name));
- assert.equal(documents[0].fields.detail.stringValue,'sensitive free text');assert.equal(documents[1].fields.status.stringValue,'pending');
+ assert.equal(documents[0].fields.detail.stringValue,'請補上逐步計算過程');assert.equal(documents[1].fields.status.stringValue,'pending');
  const rerun=await collectAndResolveReports(options);assert.equal(rerun.resolved,0);assert.equal(rerun.queue.pendingReports,1);assert.equal(commits.length,1);
 });
 

@@ -1,5 +1,11 @@
 name: Question report maintenance
 on:
+  push:
+    branches: [main]
+    paths:
+      - lib/report-maintenance.mjs
+      - scripts/maintain-question-reports.mjs
+      - .github/workflows/question-report-maintenance.yml
   schedule:
     - cron: '17,47 * * * *'
   workflow_dispatch:

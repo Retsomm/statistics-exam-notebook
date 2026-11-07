@@ -39,7 +39,8 @@ async function main(){
  const {queue,resolved}=await collectAndResolveReports({request,headers,base,resolutions,isDeployed:deployed});
  await mkdir('report-maintenance-output',{recursive:true});
  await writeFile('report-maintenance-output/pending-question-reports.json',JSON.stringify(queue,null,2)+'\n');
- console.log(JSON.stringify(queue));
+ // Keep raw descriptions out of logs; the maintenance artifact contains the authorized notes.
+ console.log(JSON.stringify({...queue,questions:queue.questions.map(question=>({...question,reports:question.reports.map(({key,kind})=>({key,kind}))}))}));
  console.log(`Report queue: ${queue.pendingReports} pending reports across ${queue.questions.length} questions; ${resolved} verified resolutions applied.`);
 }
 main().catch(error=>{console.error(error.message);process.exitCode=1;});

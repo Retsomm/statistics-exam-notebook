@@ -23,4 +23,4 @@
 - 考試倒數由 `lib/exam-countdown.mjs` 保存官方日期與來源，依臺灣日曆計算，不能假設考試開始時刻、顯示負值或自動推算未公告考期。考試日顯示應試提醒，日期過後顯示已過期提示。
 - 改名時維持既有 `yueri:*` 本機儲存鍵、同步佇列及 Firestore 路徑相容，不得為視覺改版清除或重置學習資料。
 
-- 題目回報不再透過 GitHub Issue。使用者要求批次查核時，先讀取 `Question report maintenance` 最新成功執行的匿名題號清單（job log 或 `pending-question-reports` artifact），操作細節見 `REPORT_MAINTENANCE.md`。原始補充文字僅透過具權限 Firestore 查詢，不可輸出到公開 artifact／log。修正與正式部署成功後，將精確回報鍵、題號、種類、修正提交與證據寫入 `data/maintenance/report-resolutions.json`，由維護流程驗證部署並更新雲端，前端移至已處理。不得依題號批次關閉後來新增的回報，不得宣稱回報會自行啟動 ChatGPT。
+- 題目回報不再透過 GitHub Issue。使用者要求批次查核時，先讀取 `Question report maintenance` 最新成功執行的匿名題號清單（job log 或 `pending-question-reports` artifact），操作細節見 `REPORT_MAINTENANCE.md`。使用者已明確授權原始問題說明與回報時間不加密匯出至公開維護 artifact；維護時必須下載並讀取 detail，不得僅憑題號猜測。帳戶識別、文件路徑、作答歷史及私人快照仍不得公開，日誌維持匿名摘要。修正與正式部署成功後，將精確回報鍵、題號、種類、修正提交與證據寫入 `data/maintenance/report-resolutions.json`，由維護流程驗證部署並更新雲端，前端移至已處理。不得依題號批次關閉後來新增的回報，不得宣稱回報會自行啟動 ChatGPT。
