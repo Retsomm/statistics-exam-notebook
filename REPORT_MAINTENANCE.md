@@ -41,7 +41,7 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 使用專案自訂角色 `projects/library-exam-notebook/roles/questionReportMaintainer`，只包含：
 
 - `datastore.entities.get`、`datastore.entities.list`：collection-group `runQuery` 的欄位投影查詢。
-- `datastore.entities.update`：更新既有回報，維持 `currentDocument.updateTime` 前提與欄位遮罩。
+- `datastore.entities.update`：以 REST PATCH 更新既有回報，維持 `currentDocument.updateTime` 前提與欄位遮罩。不要改回帶有 updateTime 的 commit；該呼叫在只有這三項權限時曾回傳 403。
 
 將角色授予既有 GitHub Actions Hosting 服務帳戶，綁定條件為 `resource.name == "projects/library-exam-notebook/databases/(default)"`。修改 IAM 時保留其他綁定及條件，使用最新 policy 的 etag 避免覆蓋同步變更。不要改授 Owner、Editor 或含新增／刪除權限的廣泛角色。Firestore IAM 可限制資料庫，無法藉此限制特定 collection 或欄位；維護程式仍須只查回報並以精確鍵更新。
 

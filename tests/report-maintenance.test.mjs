@@ -11,7 +11,7 @@ test('maintenance errors expose codes from streaming responses without leaking p
 });
 test('update-only IAM probe cannot change a report and does not mistake denied access for success',async()=>{
  const base='https://firestore.googleapis.com/v1/projects/p/databases/(default)/documents';
- const request=async(url,options)=>{assert.equal(url,`${base}:commit`);const {writes}=JSON.parse(options.body);assert.equal(writes.length,1);assert.match(writes[0].update.name,/^projects\/p\/databases\/\(default\)\/documents\/maintenancePermissionChecks\//);assert.deepEqual(writes[0].currentDocument,{updateTime:'1970-01-01T00:00:00Z'});throw safeRequestError('Firestore',400,{error:{status:'FAILED_PRECONDITION'}});};
+ const request=async(url,options)=>{assert.equal(options.method,'PATCH');const parsed=new URL(url),document=JSON.parse(options.body);assert.match(document.name,/^projects\/p\/databases\/\(default\)\/documents\/maintenancePermissionChecks\//);assert.equal(parsed.searchParams.get('currentDocument.updateTime'),'1970-01-01T00:00:00Z');assert.deepEqual(parsed.searchParams.getAll('updateMask.fieldPaths'),['probe']);throw safeRequestError('Firestore',400,{error:{status:'FAILED_PRECONDITION'}});};
  await verifyUpdatePermission({request,headers:{},base});
  for(const error of [safeRequestError('Firestore',403,[{error:{status:'PERMISSION_DENIED'}}]),safeRequestError('Firestore',500,{}),safeRequestError('GitHub',404,{error:{status:'NOT_FOUND'}}),safeRequestError('Firestore',404,{})])await assert.rejects(verifyUpdatePermission({request:async()=>{throw error;},headers:{},base}),error);
  await assert.rejects(verifyUpdatePermission({request:async()=>({}),headers:{},base}),/unexpectedly succeeded/);
@@ -52,13 +52,13 @@ test('maintenance resolves only the reviewed report and leaves later reports on 
  const resolution={key:reportKey(doc('reviewed').name),questionId:'114-3d-20',kind:'explanation',fixCommit:'a'.repeat(40),resolution:'已核對並部署',evidence:['https://example.com/source']};
  const request=async(url,options)=>{
   if(url.endsWith(':runQuery'))return documents.map(document=>({document}));
-  const {writes}=JSON.parse(options.body);commits.push(...writes);
-  for(const write of writes){const current=documents.find(document=>document.name===write.update.name);assert.equal(write.currentDocument.updateTime,current.updateTime);documents=documents.map(document=>document.name===write.update.name?{...document,fields:{...document.fields,...write.update.fields}}:document);}
+  assert.equal(options.method,'PATCH');const update=JSON.parse(options.body),parsed=new URL(url);commits.push(update);
+  const current=documents.find(document=>document.name===update.name);assert.equal(parsed.searchParams.get('currentDocument.updateTime'),current.updateTime);assert.deepEqual(parsed.searchParams.getAll('updateMask.fieldPaths'),['status','resolution','fixCommit','resolvedAt']);documents=documents.map(document=>document.name===update.name?{...document,fields:{...document.fields,...update.fields}}:document);
   return {};
  };
  const options={request,headers:{},base:'https://example.com',resolutions:[resolution],isDeployed:async()=>true};
  const result=await collectAndResolveReports(options);
- assert.equal(result.resolved,1);assert.equal(commits.length,1);assert.equal(commits[0].update.name,doc('reviewed').name);
+ assert.equal(result.resolved,1);assert.equal(commits.length,1);assert.equal(commits[0].name,doc('reviewed').name);
  assert.equal(result.queue.pendingReports,1);assert.equal(result.queue.questions[0].reports[0].key,reportKey(doc('later').name));
  assert.equal(documents[0].fields.detail.stringValue,'sensitive free text');assert.equal(documents[1].fields.status.stringValue,'pending');
  const rerun=await collectAndResolveReports(options);assert.equal(rerun.resolved,0);assert.equal(rerun.queue.pendingReports,1);assert.equal(commits.length,1);
@@ -75,7 +75,7 @@ test('all matching fixes must deploy before any report is closed',async()=>{
 test('a report changed after collection fails its version guard and remains pending',async()=>{
  const document=doc('one');let commits=0;
  const resolution={key:reportKey(document.name),questionId:'114-3d-20',kind:'explanation',fixCommit:'a'.repeat(40),resolution:'已查核',evidence:['https://example.com/source']};
- const request=async(url,options)=>{if(url.endsWith(':runQuery'))return [{document}];commits++;assert.deepEqual(JSON.parse(options.body).writes[0].currentDocument,{updateTime:document.updateTime});throw Error('FAILED_PRECONDITION');};
+ const request=async(url,options)=>{if(url.endsWith(':runQuery'))return [{document}];commits++;assert.equal(options.method,'PATCH');assert.equal(new URL(url).searchParams.get('currentDocument.updateTime'),document.updateTime);throw Error('FAILED_PRECONDITION');};
  await assert.rejects(collectAndResolveReports({request,headers:{},base:'https://example.com',resolutions:[resolution],isDeployed:async()=>true}),/FAILED_PRECONDITION/);
  assert.equal(commits,1);assert.equal(document.fields.status.stringValue,'pending');
 });
