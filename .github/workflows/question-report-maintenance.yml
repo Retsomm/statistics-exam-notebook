@@ -29,6 +29,17 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '22'
+      - name: Verify Firebase credential project without exposing credentials
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK }}
+        run: |
+          node --input-type=module <<'JS'
+          const account=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT);
+          const projectMatches=account.project_id==='library-exam-notebook';
+          const operatorMatches=account.client_email==='github-action-1424419298@library-exam-notebook.iam.gserviceaccount.com';
+          console.log(JSON.stringify({projectMatches,operatorMatches}));
+          if(!projectMatches||!operatorMatches)process.exitCode=1;
+          JS
       - name: Collect pending questions and apply deployed resolutions
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK }}
