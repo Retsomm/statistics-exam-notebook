@@ -223,3 +223,20 @@ test('reviewed graph explanations persist and diagram sequences follow the edges
  assert.match(reviewed['108-3d-17'].options.B,/鏈結串列.*佇列/s);
  assert.match(reviewed['107-3d-44'].summary,/d\[i,j\].*min/);
 });
+
+
+test('114 normalization explanation derives the dependencies, anomalies and lossless member split',()=>{
+ const id='114-3d-20';
+ const reviewed=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)))[id];
+ assert.match(reviewed.summary,/同一個 X.*Y 就必須相同/s);
+ assert.match(reviewed.summary,/tNo → mId → birthday/);
+ assert.match(reviewed.summary,/T001.*T002.*更新異常/s);
+ assert.match(reviewed.summary,/主鍵是 tNo.*主鍵是 mId.*外鍵/s);
+ assert.match(reviewed.summary,/相同的 mId 連接/);
+ assert.match(reviewed.options.A,/年月日/);
+ assert.match(reviewed.options.B,/複合候選鍵.*單一欄位 tNo/s);
+ assert.match(reviewed.options.C,/mId 不是超鍵.*birthday/s);
+ assert.match(reviewed.options.D,/不可能符合 4NF/);
+ assert.deepEqual(buildDataProcessingExplanations(bank).get('114-3d')[id],reviewed);
+ assert.deepEqual(JSON.parse(readFileSync(new URL('../public/explanations/114-3d.json',import.meta.url)))[id],reviewed);
+});
