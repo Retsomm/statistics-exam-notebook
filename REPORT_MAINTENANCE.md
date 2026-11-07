@@ -6,7 +6,7 @@
 
 GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 `Deploy Firebase Hosting` 成功後執行，可從 Actions 手動執行。排程可能因 GitHub 排隊延後。使用既有 Firebase 服務帳戶，須具備 Firestore 查詢與更新權限；不公開資料庫讀寫規則。
 
-1. 用 GitHub 工具讀取 `actions/workflows/question-report-maintenance.yml/runs`，選最新成功執行。
+1. 用 GitHub 工具讀取 `actions/runs?per_page=100` 並篩選名稱 `Question report maintenance`，選最新成功執行。
 2. 讀取 job log 的 `Report queue` 及 JSON；或下載 `pending-question-reports` artifact 的 `pending-question-reports.json`。
 3. JSON 只含題號、問題種類及不可回推帳戶路徑的 SHA-256 回報鍵。同題回報已合併。沒有使用者 ID、作答歷史、原始說明或題目快照，可直接用題號讀取題庫並批次檢查。
 4. 若需要原始補充文字，使用具權限的 Firebase CLI 執行 `node scripts/read-question-reports.cjs --details`。不得將原始回報或帳戶路徑放到公開 repository、Actions log、artifact 或網站。
@@ -32,4 +32,4 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 
 前端收到雲端 `resolved` 狀態後，自動移到「已處理」，保留結果供查閱，不刪除原始回報。原始說明留在受權限保護的 Firestore。批次清單 artifact 保留14天，每次排程重新產生。
 
-若流程失敗，先確認 GitHub 服務帳戶是否有 Firestore IAM 權限。不要將流程錯誤當成零筆回報，也不要放寬使用者資料的 Firestore 規則。
+若流程失敗，先確認 GitHub 服務帳戶是否有 Firestore IAM 權限。流程只會記錄服務名稱、HTTP 狀態及錯誤代碼，不記錄帳戶識別資訊。專案擁有者需在 Google Cloud IAM 確認部署服務帳戶的 Firestore 權限。Firestore 403 不等於沒有回報；必須授權後重跑，看到成功清單才能宣稱已讀取。不要將流程錯誤當成零筆回報，也不要放寬使用者資料的 Firestore 規則。

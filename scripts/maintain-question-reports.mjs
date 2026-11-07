@@ -4,10 +4,16 @@ import {collectAndResolveReports} from '../lib/report-maintenance.mjs';
 const project='library-exam-notebook',repository='Retsomm/statistics-exam-notebook';
 const api='https://firestore.googleapis.com/v1';
 async function request(url,options={}){
- const response=await fetch(url,options);if(!response.ok)throw Error(`Service request failed (${response.status}); check operator permissions. No report contents were logged.`);return response.json();
+ const response=await fetch(url,{...options,signal:AbortSignal.timeout(30000)});
+ if(!response.ok){
+  const service=url.startsWith(api)?'Firestore':url.includes('oauth2.googleapis.com')?'Google OAuth':'GitHub';
+  let code='';try{const data=await response.json();const raw=data.error?.status||data.error?.details?.find(item=>item.reason)?.reason;if(typeof raw==='string'&&/^[A-Z_]+$/.test(raw))code=raw;}catch{}
+  throw Error(`${service} request failed (${response.status}${code?`, ${code}`:''}). No report contents were logged.`);
+ }
+ return response.json();
 }
 async function accessToken(){
- const account=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT||'{}');
+ let account;try{account=JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT||'{}');}catch{throw Error('Firebase operator credentials have invalid JSON.');}
  if(!account.client_email||!account.private_key)throw Error('Firebase operator credentials are not configured.');
  const now=Math.floor(Date.now()/1000),encode=value=>Buffer.from(JSON.stringify(value)).toString('base64url');
  const unsigned=[encode({alg:'RS256',typ:'JWT'}),encode({iss:account.client_email,scope:'https://www.googleapis.com/auth/datastore',aud:'https://oauth2.googleapis.com/token',iat:now,exp:now+3600})].join('.');
