@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '17,47 * * * *'
   workflow_dispatch:
+    inputs:
+      verify_update_permission:
+        description: 'Verify update-only IAM with an impossible version precondition (no data changes)'
+        type: boolean
+        default: false
   workflow_run:
     workflows: [Deploy Firebase Hosting]
     types: [completed]
@@ -28,6 +33,7 @@ jobs:
         env:
           FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK }}
           GITHUB_TOKEN: ${{ github.token }}
+          VERIFY_FIRESTORE_UPDATE_PERMISSION: ${{ github.event_name == 'workflow_dispatch' && inputs.verify_update_permission && 'true' || 'false' }}
         run: node scripts/maintain-question-reports.mjs
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         with:

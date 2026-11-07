@@ -33,3 +33,20 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 前端收到雲端 `resolved` 狀態後，自動移到「已處理」，保留結果供查閱，不刪除原始回報。原始說明留在受權限保護的 Firestore。批次清單 artifact 保留14天，每次排程重新產生。
 
 若流程失敗，先確認 GitHub 服務帳戶是否有 Firestore IAM 權限。流程只會記錄服務名稱、HTTP 狀態及錯誤代碼，不記錄帳戶識別資訊。專案擁有者需在 Google Cloud IAM 確認部署服務帳戶的 Firestore 權限。Firestore 403 不等於沒有回報；必須授權後重跑，看到成功清單才能宣稱已讀取。不要將流程錯誤當成零筆回報，也不要放寬使用者資料的 Firestore 規則。
+
+## 最小 IAM 授權與驗證
+
+維護流程與 Hosting 部署共用 `FIREBASE_SERVICE_ACCOUNT_LIBRARY_EXAM_NOTEBOOK`。專案仍為 `library-exam-notebook`，網站儲存庫改名不代表 Firebase 專案或資料庫已搬移。Hosting 角色不包含 Firestore 資料權限。
+
+使用專案自訂角色 `projects/library-exam-notebook/roles/questionReportMaintainer`，只包含：
+
+- `datastore.entities.get`、`datastore.entities.list`：collection-group `runQuery` 的欄位投影查詢。
+- `datastore.entities.update`：更新既有回報，維持 `currentDocument.updateTime` 前提與欄位遮罩。
+
+將角色授予既有 GitHub Actions Hosting 服務帳戶，綁定條件為 `resource.name == "projects/library-exam-notebook/databases/(default)"`。修改 IAM 時保留其他綁定及條件，使用最新 policy 的 etag 避免覆蓋同步變更。不要改授 Owner、Editor 或含新增／刪除權限的廣泛角色。Firestore IAM 可限制資料庫，無法藉此限制特定 collection 或欄位；維護程式仍須只查回報並以精確鍵更新。
+
+IAM 變更可能需數分鐘生效。先手動執行 `Question report maintenance`，勾選 `verify_update_permission`：流程會向隨機命名的診斷路徑送出帶有 `1970-01-01T00:00:00Z` 版本前提的 update。這個早於 Firestore 建立時間的版本不可能成立，所以不會建立或修改任何文件；只有收到明確的版本前提拒絕或文件不存在錯誤，才視為更新權限檢查通過。403、網路錯誤與其他失敗都會讓流程失敗。預設排程不執行此診斷。
+
+接著確認流程成功產生匿名題號清單。只有 IAM 設定存在、管理者能查詢，或 Hosting 發佈成功，都不足以證明維護服務帳戶可用。Google 串流 API 的錯誤也可能包在陣列中；日誌僅顯示安全的錯誤代碼，不輸出 Google 錯誤訊息、metadata 或原始回報。
+
+權限依據：[Firestore IAM API 對照](https://firebase.google.com/docs/firestore/security/iam)、[資料庫條件式存取](https://firebase.google.com/docs/firestore/manage-databases#configure_per-database_access_permissions)。

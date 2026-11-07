@@ -1,14 +1,14 @@
 import {createSign} from 'node:crypto';
 import {readFile,writeFile,mkdir} from 'node:fs/promises';
-import {collectAndResolveReports} from '../lib/report-maintenance.mjs';
+import {collectAndResolveReports,safeRequestError,verifyUpdatePermission} from '../lib/report-maintenance.mjs';
 const project='library-exam-notebook',repository='Retsomm/statistics-exam-notebook';
 const api='https://firestore.googleapis.com/v1';
 async function request(url,options={}){
  const response=await fetch(url,{...options,signal:AbortSignal.timeout(30000)});
  if(!response.ok){
   const service=url.startsWith(api)?'Firestore':url.includes('oauth2.googleapis.com')?'Google OAuth':'GitHub';
-  let code='';try{const data=await response.json();const raw=data.error?.status||data.error?.details?.find(item=>item.reason)?.reason;if(typeof raw==='string'&&/^[A-Z_]+$/.test(raw))code=raw;}catch{}
-  throw Error(`${service} request failed (${response.status}${code?`, ${code}`:''}). No report contents were logged.`);
+  let data;try{data=await response.json();}catch{}
+  throw safeRequestError(service,response.status,data);
  }
  return response.json();
 }
@@ -28,8 +28,13 @@ async function deployed(commit){
 }
 async function main(){
  const token=await accessToken(),headers={Authorization:`Bearer ${token}`,'Content-Type':'application/json'};
+ const base=`${api}/projects/${project}/databases/(default)/documents`;
+ if(process.env.VERIFY_FIRESTORE_UPDATE_PERMISSION==='true'){
+  await verifyUpdatePermission({request,headers,base});
+  console.log('Firestore update permission verified by a rejected version precondition; no documents were changed.');
+ }
  const {resolutions}=JSON.parse(await readFile(new URL('../data/maintenance/report-resolutions.json',import.meta.url),'utf8'));
- const {queue,resolved}=await collectAndResolveReports({request,headers,base:`${api}/projects/${project}/databases/(default)/documents`,resolutions,isDeployed:deployed});
+ const {queue,resolved}=await collectAndResolveReports({request,headers,base,resolutions,isDeployed:deployed});
  await mkdir('report-maintenance-output',{recursive:true});
  await writeFile('report-maintenance-output/pending-question-reports.json',JSON.stringify(queue,null,2)+'\n');
  console.log(JSON.stringify(queue));

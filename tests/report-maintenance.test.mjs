@@ -1,7 +1,21 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {pendingQueue,reportKey,resolutionWrite,collectAndResolveReports} from '../lib/report-maintenance.mjs';
+import {pendingQueue,reportKey,resolutionWrite,collectAndResolveReports,safeRequestError,verifyUpdatePermission} from '../lib/report-maintenance.mjs';
 const doc=(id,status='pending',kind='explanation')=>({name:`projects/p/databases/(default)/documents/users/private-user/questionReports/${id}`,updateTime:'2026-11-07T00:00:00Z',fields:{questionId:{stringValue:'114-3d-20'},kind:{stringValue:kind},status:{stringValue:status},detail:{stringValue:'sensitive free text'},snapshotJSON:{stringValue:'private snapshot'}}});
+test('maintenance errors expose codes from streaming responses without leaking private server details',()=>{
+ const error={status:'PERMISSION_DENIED',message:'private-user sensitive credential',details:[{reason:'IAM_PERMISSION_DENIED',metadata:{token:'secret',resource:doc('one').name}}]};
+ for(const response of [{error},[{error}],[{}, {error}]]){
+  const errorResult=safeRequestError('Firestore',403,response);assert.equal(errorResult.code,'PERMISSION_DENIED');const message=errorResult.message;assert.match(message,/PERMISSION_DENIED, IAM_PERMISSION_DENIED/);assert.doesNotMatch(message,/private-user|sensitive|credential|secret|questionReports/);
+ }
+ for(const response of [undefined,null,'invalid JSON',{},[{error:{status:'private data',details:[{reason:'unsafe/token'}]}}]])assert.equal(safeRequestError('Firestore',403,response).message,'Firestore request failed (403). No report contents were logged.');
+});
+test('update-only IAM probe cannot change a report and does not mistake denied access for success',async()=>{
+ const base='https://firestore.googleapis.com/v1/projects/p/databases/(default)/documents';
+ const request=async(url,options)=>{assert.equal(url,`${base}:commit`);const {writes}=JSON.parse(options.body);assert.equal(writes.length,1);assert.match(writes[0].update.name,/^projects\/p\/databases\/\(default\)\/documents\/maintenancePermissionChecks\//);assert.deepEqual(writes[0].currentDocument,{updateTime:'1970-01-01T00:00:00Z'});throw safeRequestError('Firestore',400,{error:{status:'FAILED_PRECONDITION'}});};
+ await verifyUpdatePermission({request,headers:{},base});
+ for(const error of [safeRequestError('Firestore',403,[{error:{status:'PERMISSION_DENIED'}}]),safeRequestError('Firestore',500,{}),safeRequestError('GitHub',404,{error:{status:'NOT_FOUND'}}),safeRequestError('Firestore',404,{})])await assert.rejects(verifyUpdatePermission({request:async()=>{throw error;},headers:{},base}),error);
+ await assert.rejects(verifyUpdatePermission({request:async()=>({}),headers:{},base}),/unexpectedly succeeded/);
+});
 test('maintenance batches all pending reports for the same question without exposing user data',()=>{
  const result=pendingQueue([doc('one'),doc('two','pending','scan'),doc('three','resolved')]);
  assert.equal(result.pendingReports,2);assert.equal(result.questions.length,1);assert.deepEqual(result.questions[0].kinds,['explanation','scan']);
@@ -31,4 +45,37 @@ test('maintenance paginates past 200 reports and waits for successful hosting be
  const single=async(url)=>{if(url.endsWith(':runQuery'))return [{document:last}];commits++;return {};};
  await assert.rejects(collectAndResolveReports({request:single,headers:{},base:'https://example.com',resolutions:[resolution],isDeployed:async()=>false}),/not successfully deployed/);assert.equal(commits,0);
  const resolved=await collectAndResolveReports({request:single,headers:{},base:'https://example.com',resolutions:[resolution],isDeployed:async()=>true});assert.equal(commits,1);assert.equal(resolved.queue.pendingReports,0);assert.equal(resolved.resolved,1);
+});
+
+test('maintenance resolves only the reviewed report and leaves later reports on the same question pending',async()=>{
+ let documents=[doc('reviewed'),doc('later')];const commits=[];
+ const resolution={key:reportKey(doc('reviewed').name),questionId:'114-3d-20',kind:'explanation',fixCommit:'a'.repeat(40),resolution:'已核對並部署',evidence:['https://example.com/source']};
+ const request=async(url,options)=>{
+  if(url.endsWith(':runQuery'))return documents.map(document=>({document}));
+  const {writes}=JSON.parse(options.body);commits.push(...writes);
+  for(const write of writes){const current=documents.find(document=>document.name===write.update.name);assert.equal(write.currentDocument.updateTime,current.updateTime);documents=documents.map(document=>document.name===write.update.name?{...document,fields:{...document.fields,...write.update.fields}}:document);}
+  return {};
+ };
+ const options={request,headers:{},base:'https://example.com',resolutions:[resolution],isDeployed:async()=>true};
+ const result=await collectAndResolveReports(options);
+ assert.equal(result.resolved,1);assert.equal(commits.length,1);assert.equal(commits[0].update.name,doc('reviewed').name);
+ assert.equal(result.queue.pendingReports,1);assert.equal(result.queue.questions[0].reports[0].key,reportKey(doc('later').name));
+ assert.equal(documents[0].fields.detail.stringValue,'sensitive free text');assert.equal(documents[1].fields.status.stringValue,'pending');
+ const rerun=await collectAndResolveReports(options);assert.equal(rerun.resolved,0);assert.equal(rerun.queue.pendingReports,1);assert.equal(commits.length,1);
+});
+
+test('all matching fixes must deploy before any report is closed',async()=>{
+ const documents=[doc('one'),doc('two')];let commits=0;
+ const resolutions=documents.map((document,index)=>({key:reportKey(document.name),questionId:'114-3d-20',kind:'explanation',fixCommit:(index?'b':'a').repeat(40),resolution:'已查核',evidence:['https://example.com/source']}));
+ const request=async url=>{if(url.endsWith(':runQuery'))return documents.map(document=>({document}));commits++;return {};};
+ await assert.rejects(collectAndResolveReports({request,headers:{},base:'https://example.com',resolutions,isDeployed:async commit=>commit==='a'.repeat(40)}),/not successfully deployed/);
+ assert.equal(commits,0);
+});
+
+test('a report changed after collection fails its version guard and remains pending',async()=>{
+ const document=doc('one');let commits=0;
+ const resolution={key:reportKey(document.name),questionId:'114-3d-20',kind:'explanation',fixCommit:'a'.repeat(40),resolution:'已查核',evidence:['https://example.com/source']};
+ const request=async(url,options)=>{if(url.endsWith(':runQuery'))return [{document}];commits++;assert.deepEqual(JSON.parse(options.body).writes[0].currentDocument,{updateTime:document.updateTime});throw Error('FAILED_PRECONDITION');};
+ await assert.rejects(collectAndResolveReports({request,headers:{},base:'https://example.com',resolutions:[resolution],isDeployed:async()=>true}),/FAILED_PRECONDITION/);
+ assert.equal(commits,1);assert.equal(document.fields.status.stringValue,'pending');
 });
