@@ -22,3 +22,5 @@
 - 網站名稱為「書庫研習所」，靈感取自《小書痴的下剋上》的書庫與見習成長氛圍，使用原創書卷／羽毛筆圖形與深靛藍、古金、羊皮紙色；不再使用閱日或朱紅印章。品牌名稱與 metadata 依 `lib/brand.mjs`，所有頁面共用 `BrandLogo`，唯一圖形來源 `public/brand/library-mark.svg`。改圖後執行 `npm run brand:icons` 產生 favicon、Apple touch icon、manifest；品牌圖片可提交，試題掃描仍不可提交。
 - 考試倒數由 `lib/exam-countdown.mjs` 保存官方日期與來源，依臺灣日曆計算，不能假設考試開始時刻、顯示負值或自動推算未公告考期。考試日顯示應試提醒，日期過後顯示已過期提示。
 - 改名時維持既有 `yueri:*` 本機儲存鍵、同步佇列及 Firestore 路徑相容，不得為視覺改版清除或重置學習資料。
+
+- 題目回報不再透過 GitHub Issue。使用者要求批次查核時，先讀取 `Question report maintenance` 最新成功執行的匿名題號清單（job log 或 `pending-question-reports` artifact），操作細節見 `REPORT_MAINTENANCE.md`。原始補充文字僅透過具權限 Firestore 查詢，不可輸出到公開 artifact／log。修正與正式部署成功後，將精確回報鍵、題號、種類、修正提交與證據寫入 `data/maintenance/report-resolutions.json`，由維護流程驗證部署並更新雲端，前端移至已處理。不得依題號批次關閉後來新增的回報，不得宣稱回報會自行啟動 ChatGPT。
