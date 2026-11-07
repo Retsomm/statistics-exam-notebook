@@ -25,7 +25,7 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
-          ref: a4c18cc95eab855f2b9f7fb8646936e6c04e412e
+          ref: f4cd3b8a4257dadf263001de0be309d8a35ed3dc
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020
         with:
           node-version: '22'
