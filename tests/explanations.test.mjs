@@ -175,3 +175,26 @@ test('5 GHz negative question explains why option D reverses the band characteri
  assert.match(entry.options.D,/把特性說反.*穿牆能力.*較弱.*2\.4 GHz/s);
  assert.doesNotMatch(entry.options.D,/描述正確|敘述正確/);
 });
+
+test('114 data processing 15 explains value lookup in every structure and each incorrect ordering',()=>{
+ const entry=JSON.parse(readFileSync(new URL('../data/explanations/114-3d.json',import.meta.url)))['114-3d-15'];
+ assert.match(entry.summary,/不是比較.*取出隊首/);
+ assert.match(entry.summary,/負載因子.*平均／期望搜尋時間為 O\(1\)/);
+ assert.match(entry.summary,/左右子樹的高度差最多 1/);
+ assert.match(entry.summary,/環狀.*逐項比對/);
+ assert.match(entry.summary,/最差可能退化為 O\(N\)/);
+ assert.match(entry.summary,/1 與 9/);
+ for(const [letter,detail]of Object.entries(entry.options)){
+  for(const pattern of [/雜湊/,/AVL/,/O\(1\)/,/O\(log N\)/,/O\(N\)/])assert.match(detail,pattern,letter);
+ }
+ assert.match(entry.options.A,/排第一/);assert.match(entry.options.B,/排到最後/);assert.match(entry.options.D,/顛倒/);
+ assert.equal(new Set(Object.values(entry.options)).size,4);
+});
+
+import {buildDataProcessingExplanations} from '../scripts/data-processing/build-explanations.mjs';
+test('reviewed lookup explanation survives regeneration and is the deployed payload',()=>{
+ const expected=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)))['114-3d-15'];
+ const first=buildDataProcessingExplanations(bank).get('114-3d')['114-3d-15'];assert.deepEqual(first,expected);
+ first.summary='temporary mutation';assert.deepEqual(buildDataProcessingExplanations(bank).get('114-3d')['114-3d-15'],expected);
+ const published=JSON.parse(readFileSync(new URL('../public/explanations/114-3d.json',import.meta.url)))['114-3d-15'];assert.deepEqual(published,expected);
+});

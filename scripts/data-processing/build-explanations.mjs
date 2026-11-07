@@ -1,4 +1,7 @@
-import {mkdirSync,writeFileSync} from 'node:fs';
+import {mkdirSync,writeFileSync,readFileSync} from 'node:fs';
+
+// Reviewed explanations take priority over keyword-based generation on every build.
+const reviewedExplanations=JSON.parse(readFileSync(new URL('./reviewed-explanations.json',import.meta.url),'utf8'));
 
 const normalise=value=>String(value||'').normalize('NFKC').replace(/\s+/g,' ').trim();
 const displayText=value=>String(value||'').replace(/\s+/g,' ').trim();
@@ -1097,6 +1100,7 @@ function optionExplanation(question,option,correct,topic){
 }
 
 function explanationFor(question,exam){
+ if(reviewedExplanations[question.id])return structuredClone(reviewedExplanations[question.id]);
  const topic=topicFor(question);
  const correct=question.options.find(option=>question.accepted.includes(option.letter));
  if(!correct)throw Error(`Missing answer for ${question.id}`);
