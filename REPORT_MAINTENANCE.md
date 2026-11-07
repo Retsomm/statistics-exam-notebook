@@ -43,7 +43,7 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 - `datastore.entities.get`、`datastore.entities.list`：collection-group `runQuery` 的欄位投影查詢。
 - `datastore.entities.update`：以 REST PATCH 更新既有回報，維持 `currentDocument.updateTime` 前提與欄位遮罩。
 
-將角色授予既有 GitHub Actions Hosting 服務帳戶，綁定條件為 `resource.name == "projects/library-exam-notebook/databases/(default)"`。修改 IAM 時保留其他綁定及條件，使用最新 policy 的 etag 避免覆蓋同步變更。不要改授 Owner、Editor 或含新增／刪除權限的廣泛角色。Firestore IAM 可限制資料庫，無法藉此限制特定 collection 或欄位；維護程式仍須只查回報並以精確鍵更新。
+將角色授予既有 GitHub Actions Hosting 服務帳戶，條件綁定只涵蓋 `(default)` 資料庫及其文件資源；`library-exam-notebook` 與專案編號 `371206950927` 是同一專案的兩種名稱表示。修改 IAM 時保留其他綁定及條件，使用最新 policy 的 etag 避免覆蓋同步變更。不要改授 Owner、Editor 或含新增／刪除權限的廣泛角色。Firestore IAM 可限制資料庫，無法藉此限制特定 collection 或欄位；維護程式仍須只查回報並以精確鍵更新。
 
 IAM 變更可能需數分鐘生效。先手動執行 `Question report maintenance`，勾選 `verify_update_permission`：流程只查一筆既有回報的文件名稱，不載入原始欄位，再送出帶有 `1970-01-01T00:00:00Z` 版本前提的 update。這個早於 Firestore 建立時間的版本不可能成立，所以不會建立或修改任何文件；只有收到明確的版本前提拒絕或文件在查詢後已不存在的錯誤，才視為更新權限檢查通過。403、網路錯誤與其他失敗都會讓流程失敗。若完全沒有回報，診斷會明確失敗，無法宣稱已驗證更新；不要用不存在的文件測試 update-only IAM，因為那可能觸發新增文件權限的判斷。預設排程不執行此診斷。
 
