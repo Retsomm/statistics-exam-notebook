@@ -95,6 +95,8 @@ for path in sorted(Path(__file__).parent.glob('*.txt')):
    q=questions[qid]
    if 'NOT' in q['stem'] or 'not ' in q['stem']:
     e['optionVerdicts']={o['letter']:('不符本文或未按題意提及，因此本題應選；詳見逐項說明。' if o['letter'] in q['accepted'] else '本文有相應支持，因此本題不選。') for o in q['options']}
+ if year=='113':
+  for qid in ['113-1-4','113-1-49']:entries[qid].update(revision=3,reviewedAt='2026-11-07')
  assert len(entries)==50,(year,len(entries))
  (root/f'data/explanations/{year}-1.json').write_text(json.dumps(entries,ensure_ascii=False,indent=2)+'\n')
  print(year,len(entries),'questions;',sum(len(x.get('vocabulary',[])) for x in entries.values()),'vocabulary displays')

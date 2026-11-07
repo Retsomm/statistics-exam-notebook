@@ -8,7 +8,7 @@ test('115 civics and English provide 50 individual explanations and 200 option r
  assert.equal(questions.length,50);assert.equal(Object.keys(entries).length,50);
  const summaries=new Set();let optionCount=0;
  for(const q of questions){
-  const e=entries[q.id];assert.ok(e,q.id);assert.equal(e.revision,2);assert.ok(e.summary.length>=90,q.id);
+  const e=entries[q.id];assert.ok(e,q.id);assert.equal(e.revision,['113-1-4','113-1-49'].includes(q.id)?3:2);assert.ok(e.summary.length>=90,q.id);
   assert.ok(e.summary.includes('\n\n'),q.id);summaries.add(e.summary);
   assert.deepEqual(Object.keys(e.options).sort(),q.options.map(o=>o.letter).sort(),q.id);
   assert.deepEqual(Object.keys(e.optionVerdicts).sort(),q.options.map(o=>o.letter).sort(),q.id);
@@ -47,7 +47,7 @@ test('114 paper has complete individual teaching, original option coverage and c
  assert.equal(questions114.length,50);assert.equal(Object.keys(entries114).length,50);
  const summaries=new Set();
  for(const q of questions114){
-  const e=entries114[q.id];assert.ok(e,q.id);assert.equal(e.revision,2);
+  const e=entries114[q.id];assert.ok(e,q.id);assert.equal(e.revision,['113-1-4','113-1-49'].includes(q.id)?3:2);
   assert.ok(e.summary.length>=90);assert.ok(e.summary.includes('\n\n'));summaries.add(e.summary);
   for(const key of ['options','optionVerdicts'])assert.deepEqual(Object.keys(e[key]).sort(),q.options.map(o=>o.letter).sort(),q.id);
   for(const reason of Object.values(e.options))assert.ok(reason.length>=30,q.id);
@@ -90,7 +90,7 @@ test('all nine civics-English papers have 450 distinct full explanations and 180
  assert.equal(qs.length,450);assert.equal(allPapers.size,9);
  for(const [examId,items] of allPapers)assert.equal(Object.keys(items).length,50,examId);
  for(const q of qs){
-  const e=allPapers.get(q.examId)[q.id];assert.ok(e,q.id);assert.equal(e.revision,2);
+  const e=allPapers.get(q.examId)[q.id];assert.ok(e,q.id);assert.equal(e.revision,['113-1-4','113-1-49'].includes(q.id)?3:2);
   assert.ok(e.summary.length>=90,q.id);assert.ok(e.summary.includes('\n\n'),q.id);summaries.add(e.summary);
   for(const field of ['options','optionVerdicts'])assert.deepEqual(Object.keys(e[field]).sort(),q.options.map(o=>o.letter).sort(),q.id);
   for(const reason of Object.values(e.options)){assert.ok(reason.length>=30,q.id);reasons++;}

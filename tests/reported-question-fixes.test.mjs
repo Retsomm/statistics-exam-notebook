@@ -12,7 +12,7 @@ test('reported SQL NULL question teaches every syntax alternative and survives r
  assert.equal(new Set(Object.values(reviewed.options)).size,4);
 });
 test('reported fiscal-policy explanation separates each affected group and short versus long term',()=>{
- const entry=read('public/explanations/113-1.json')['113-1-4'];
+ const entry=read('public/explanations/113-1.json')['113-1-4'];assert.equal(entry.revision,3);assert.equal(entry.reviewedAt,'2026-11-07');
  assert.match(entry.summary,/2 萬元.*20 萬元.*5%.*0.5%/s);
  assert.match(entry.options.A,/消費者.*本國就業/s);assert.match(entry.options.B,/累進.*配套/s);assert.match(entry.options.C,/漲價歸公/);assert.match(entry.options.D,/總需求.*長期供給/s);
 });
