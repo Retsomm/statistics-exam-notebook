@@ -1,1 +1,74 @@
-{"resolutions":[]}
+{
+  "resolutions": [
+    {
+      "key": "ff167d817b12c80302f95a017f1e47ecda6eed057539639eec165a159bfc4bb6",
+      "questionId": "111-2-6",
+      "kind": "scan",
+      "fixCommit": "04d2237efc8800de23318fb643c482f6810c2519",
+      "resolution": "已查核：此題是舊版圖書館學大意的 Cranfield 研究題，原卷的「索引語／言」為 PDF 換行。該科目已下架，並非目前的統計學 111-2s-6；未復原舊科目或誤改統計題。已修正回報區退役題目的無效查看按鈕，改為明示此題不在現行題庫；本筆以題目退役完成查核，保留紀錄。",
+      "evidence": [
+        "https://github.com/Retsomm/statistics-exam-notebook/blob/5424e2206ba733fc694a9a9db9994a64c2940691/data/bank.json",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=111010&c=505&s=0402&q=1#page=1"
+      ]
+    },
+    {
+      "key": "af9358d9f1e1bb7283ec224f6ae44aea99208838b4edb52e6e3fe907677238e8",
+      "questionId": "113-1-4",
+      "kind": "scan",
+      "fixCommit": "04d2237efc8800de23318fb643c482f6810c2519",
+      "resolution": "已擴寫四選項：關稅對消費者與生產者的不同影響、消費稅占所得比例算例、土地增值稅漲價歸公的理由、公共支出短期總需求與長期供給。保留官方 C 答案，明示 D 未交代時間範圍的文字歧義，不把長期供給效果說成完全錯誤。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113010&c=505&s=0102&q=1#page=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113010&c=505&s=0102&q=1",
+        "https://www.imf.org/external/pubs/ft/fandd/basics/36-fiscal-policy.htm"
+      ]
+    },
+    {
+      "key": "50c4dc2a4de567e90b3670ed16f885b718dd1dbc3fc11266ef7b2e5007437e30",
+      "questionId": "113-1-49",
+      "kind": "scan",
+      "fixCommit": "04d2237efc8800de23318fb643c482f6810c2519",
+      "resolution": "已補題目與四個選項的完整中文翻譯、逐項判斷理由，補齊題目及選項缺少的 potential、risk、education、nation、social、cultural、development、talent 等字卡，沿用收藏與同步。核對原文及官方 A 答案，確認原已存在的三段完整文章翻譯在第46至50題皆可獨立閱讀；手機與桌面已驗證翻譯與 talent 收藏。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=113010&c=505&s=0102&q=1#page=4",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=113010&c=505&s=0102&q=1"
+      ]
+    },
+    {
+      "key": "4bedb231a36cf150e9fab4661836220ea193bb058aae0f7237fad0c9a014fb44",
+      "questionId": "114-3d-24",
+      "kind": "scan",
+      "fixCommit": "04d2237efc8800de23318fb643c482f6810c2519",
+      "resolution": "已依原始回報重寫四個選項：EQUAL EMPTY、EQUAL NULL、IS EMPYT 為何不適用，IS NULL 如何判斷空值。補上 NULL、空字串與一般值的差別、三筆 email 範例、= NULL 的 UNKNOWN 與 WHERE 的篩選規則。保留原卷 C 的 EMPYT 拼法及官方答案 D；已驗證 SQL 範例、手機桌面顯示與重建後解析仍保留。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=S",
+        "https://www.postgresql.org/docs/current/functions-comparison.html"
+      ]
+    },
+    {
+      "key": "cdf6f3639aec3ae516f6ebf68c8cc3e1c206fec9558cf7b2486915f33f744019",
+      "questionId": "114-3d-24",
+      "kind": "explanation",
+      "fixCommit": "04d2237efc8800de23318fb643c482f6810c2519",
+      "resolution": "已依原始回報重寫四個選項：EQUAL EMPTY、EQUAL NULL、IS EMPYT 為何不適用，IS NULL 如何判斷空值。補上 NULL、空字串與一般值的差別、三筆 email 範例、= NULL 的 UNKNOWN 與 WHERE 的篩選規則。保留原卷 C 的 EMPYT 拼法及官方答案 D；已驗證 SQL 範例、手機桌面顯示與重建後解析仍保留。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=S",
+        "https://www.postgresql.org/docs/current/functions-comparison.html"
+      ]
+    },
+    {
+      "key": "f5e0825d4a4f2be0b24c1e88fb1d5ccb5164bac58b0bd3ba06f8380d4de73db2",
+      "questionId": "114-3d-24",
+      "kind": "scan",
+      "fixCommit": "04d2237efc8800de23318fb643c482f6810c2519",
+      "resolution": "已依原始回報重寫四個選項：EQUAL EMPTY、EQUAL NULL、IS EMPYT 為何不適用，IS NULL 如何判斷空值。補上 NULL、空字串與一般值的差別、三筆 email 範例、= NULL 的 UNKNOWN 與 WHERE 的篩選規則。保留原卷 C 的 EMPYT 拼法及官方答案 D；已驗證 SQL 範例、手機桌面顯示與重建後解析仍保留。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=S",
+        "https://www.postgresql.org/docs/current/functions-comparison.html"
+      ]
+    }
+  ]
+}
