@@ -2001,5 +2001,89 @@
       "freeze",
       "freezes"
     ]
+  },
+  {
+    "word": "potential",
+    "partOfSpeech": "形容詞",
+    "meaning": "潛在的、可能發生的",
+    "usage": "potential risk 指可能發生的風險，不表示結果已經發生。",
+    "forms": [
+      "potential"
+    ]
+  },
+  {
+    "word": "risk",
+    "partOfSpeech": "名詞",
+    "meaning": "風險",
+    "usage": "the risk of a decline 指衰退的風險；of 後接可能出現的結果。",
+    "forms": [
+      "risk",
+      "risks"
+    ]
+  },
+  {
+    "word": "education",
+    "partOfSpeech": "名詞",
+    "meaning": "教育",
+    "usage": "a medium for education 指教育所使用的媒介。",
+    "forms": [
+      "education"
+    ]
+  },
+  {
+    "word": "nation",
+    "partOfSpeech": "名詞",
+    "meaning": "國家、民族",
+    "usage": "a nation’s social and cultural development 指一個國家的社會文化發展。",
+    "forms": [
+      "nation",
+      "nations"
+    ]
+  },
+  {
+    "word": "social",
+    "partOfSpeech": "形容詞",
+    "meaning": "社會的",
+    "usage": "social development 是社會發展，與個人的學習挫折不同。",
+    "forms": [
+      "social"
+    ]
+  },
+  {
+    "word": "cultural",
+    "partOfSpeech": "形容詞",
+    "meaning": "文化的",
+    "usage": "cultural decline 指文化衰退；本文關心文化規範與價值的傳承。",
+    "forms": [
+      "cultural"
+    ]
+  },
+  {
+    "word": "development",
+    "partOfSpeech": "名詞",
+    "meaning": "發展",
+    "usage": "social and cultural development 是社會與文化的發展。",
+    "forms": [
+      "development"
+    ]
+  },
+  {
+    "word": "talent",
+    "partOfSpeech": "名詞",
+    "meaning": "天分、才能",
+    "usage": "talents for language 指語言天分；talents 是複數。",
+    "forms": [
+      "talent",
+      "talents"
+    ]
+  },
+  {
+    "word": "those who",
+    "partOfSpeech": "代名詞片語",
+    "meaning": "那些……的人",
+    "usage": "those who cannot master English 是那些無法精通英語的人；who 子句說明是哪一群人。",
+    "forms": [
+      "those who"
+    ]
   }
 ]

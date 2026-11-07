@@ -439,5 +439,34 @@
         "url": "https://pressbooks.bccampus.ca/nelson/chapter/chapter07thirdedition/"
       }
     ]
+  },
+  "114-3d-24": {
+    "summary": "這題要判斷的是「欄位沒有已知值」，SQL 用 NULL 表示這種狀態。NULL 可能代表尚未填寫、未知或不適用，不是數字 0，也不是字串 'NULL'。檢查一個欄位是否為 NULL，正確寫法是 `欄位名稱 IS NULL`，因此選（D）IS NULL。\n\n例如會員表有三筆資料：小安的 email 是 'an@example.com'、小美的 email 是 NULL、小林的 email 是空字串 ''。在 PostgreSQL 等區分 NULL 與空字串的資料庫中，`WHERE email IS NULL` 只會找出小美；小林雖然沒有輸入任何字元，儲存的仍是已知的空字串，不是 NULL。這個例子是教學資料，不是原題新增的條件。\n\n為何不能用等號？一般比較 `email = NULL` 不會得到 TRUE，即使 email 本身也是 NULL，比較結果仍是 UNKNOWN（未知）。WHERE 只保留條件為 TRUE 的資料列，所以用 `= NULL` 找不到想找的空值資料。NULL 表示未知，兩個未知值不代表可以判定相等；要用專門的 IS NULL 判斷。\n\n反過來，若要找「有已知值」的資料，使用 `email IS NOT NULL`。若資料庫區分空字串與 NULL，這會包含小安與小林。若只想找空字串，可寫 `email = ''`；若想兩者都找，則要明確寫 `email IS NULL OR email = ''`。不同資料庫對空字串可能有特別處理，本題判斷 NULL 的答案仍是 IS NULL。\n\n本題四個選項是在比較語法是否能完成這項判斷，不是四種不同的空值。EQUAL EMPTY、EQUAL NULL 都不是這裡可用的標準判斷式；C 的 IS EMPYT 是原卷的拼法，即使把 EMPYT 改成 EMPTY，也不能取代 IS NULL。",
+    "options": {
+      "A": "EQUAL EMPTY：不選。這不是一般 SQL 檢查空值的語法。EQUAL 是英文「相等」的意思，但不能把它直接當作此處的比較運算子；EMPTY 也不是本題表示未知值的 NULL。若要比對已知的空字串，應使用 `email = ''`；若要找 NULL，則是 `email IS NULL`，兩者不能混在一起。",
+      "B": "EQUAL NULL：不選。首先，EQUAL NULL 不是此處正確的 SQL 判斷式；其次，就算改成常見的 `email = NULL`，也不能找出空值，因為與 NULL 的一般相等比較結果是 UNKNOWN，而不是 TRUE。要問「是否為未知值」，應改用 `email IS NULL`。",
+      "C": "IS EMPYT：不選。原卷此項拼作 EMPYT，並非 EMPTY；不過本題的重點不只是英文拼錯。即使寫成 IS EMPTY，也不是標準 SQL 用來判斷欄位是否為 NULL 的述詞。不要因為 IS 開頭就選它：後面必須是 NULL，才能完成題目要求的空值檢查。",
+      "D": "IS NULL：可以選。這是 SQL 專門判斷空值的述詞，完整使用方式如 `WHERE email IS NULL`。email 是 NULL 時條件為 TRUE，該資料列會被選出；email 有已知內容時則為 FALSE。它直接檢查是否為 NULL，避開了 `= NULL` 會得到 UNKNOWN 的問題。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "考選部：114 年資料處理大意官方試題（第 2 頁）",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=Q#page=2"
+      },
+      {
+        "title": "考選部：114 年資料處理大意標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=S"
+      },
+      {
+        "title": "PostgreSQL 官方文件：比較述詞與 NULL",
+        "url": "https://www.postgresql.org/docs/current/functions-comparison.html"
+      }
+    ]
   }
 }

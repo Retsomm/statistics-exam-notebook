@@ -6,6 +6,8 @@ bank=json.loads((root/'data/bank.json').read_text())
 questions={q['id']:q for q in bank['questions']}
 exams={e['id']:e for e in bank['exams']}
 refs={
+ 'fiscal':('IMF：財政政策與總需求','https://www.imf.org/external/pubs/ft/fandd/basics/36-fiscal-policy.htm'),
+ 'incrementTax':('財政部：土地增值稅課徵範圍','https://www.etax.nat.gov.tw/etwmain/tax-info/understanding/tax-q-and-a/local/land-value-increment-tax/o9RMNA8'),
  'correction108':('考選部：108年標準答案更正清冊（第15題一律給分）','https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=108010&t=A#page=1'),
  'neutral':('全國法規資料庫：公務人員行政中立法','https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=S0110036'),
  '718':('憲法法庭：釋字第718號','https://cons.judicial.gov.tw/docdata.aspx?fid=100&id=310899'),
