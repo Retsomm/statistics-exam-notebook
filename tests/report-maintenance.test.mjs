@@ -23,6 +23,13 @@ test('maintenance batches all pending reports for the same question without expo
  assert.doesNotMatch(JSON.stringify(result),/private-user|sensitive|snapshot|documentPath/);
  assert.equal(result.questions[0].reports.length,2);assert.equal(new Set(result.questions[0].reports.map(r=>r.key)).size,2);
 });
+test('legacy subject-2 reports remain visible without guessing a replacement subject or changing report identity',()=>{
+ const document=doc('legacy');document.fields.questionId={stringValue:'111-2-6'};
+ const queue=pendingQueue([document]);assert.equal(queue.pendingReports,1);assert.equal(queue.questions[0].questionId,'111-2-6');assert.equal(queue.questions[0].reports[0].key,reportKey(document.name));
+ const resolution={key:reportKey(document.name),questionId:'111-2-6',kind:'explanation',fixCommit:'a'.repeat(40),resolution:'已查核舊題號',evidence:['https://example.com/source']};
+ const write=resolutionWrite(document,resolution,'2026-11-07T01:00:00Z');assert.equal(write.update.name,document.name);assert.equal(document.fields.questionId.stringValue,'111-2-6');
+ assert.throws(()=>resolutionWrite(document,{...resolution,questionId:'111-2s-6'},'now'),/exact report/);
+});
 test('resolution targets one immutable report and cannot close a newer report on the same question',()=>{
  const document=doc('one'),resolution={key:reportKey(document.name),questionId:'114-3d-20',kind:'explanation',fixCommit:'a'.repeat(40),resolution:'已補推導',evidence:['https://example.com/source']};
  const write=resolutionWrite(document,resolution,'2026-11-07T01:00:00Z');
