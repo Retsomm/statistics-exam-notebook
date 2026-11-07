@@ -41,12 +41,14 @@ GitHub Actions 的 `Question report maintenance` 每半小時執行，也會在 
 使用專案自訂角色 `projects/library-exam-notebook/roles/questionReportMaintainer`，只包含：
 
 - `datastore.entities.get`、`datastore.entities.list`：collection-group `runQuery` 的欄位投影查詢。
-- `datastore.entities.update`：以 REST PATCH 更新既有回報，維持 `currentDocument.updateTime` 前提與欄位遮罩。
+- `datastore.entities.create`、`datastore.entities.update`：REST PATCH 的底層 `UpdateDocument` 授權需要兩者。程式仍強制 `currentDocument.updateTime` 前提與欄位遮罩，因此只能更新已讀取版本的既有回報，不會建立文件。
 
-將角色授予既有 GitHub Actions Hosting 服務帳戶，條件綁定只涵蓋 `(default)` 資料庫及其文件資源；`library-exam-notebook` 與專案編號 `371206950927` 是同一專案的兩種名稱表示。修改 IAM 時保留其他綁定及條件，使用最新 policy 的 etag 避免覆蓋同步變更。不要改授 Owner、Editor 或含新增／刪除權限的廣泛角色。Firestore IAM 可限制資料庫，無法藉此限制特定 collection 或欄位；維護程式仍須只查回報並以精確鍵更新。
+將角色授予既有 GitHub Actions Hosting 服務帳戶，條件綁定只涵蓋 `(default)` 資料庫及其文件資源；`library-exam-notebook` 與專案編號 `371206950927` 是同一專案的兩種名稱表示。修改 IAM 時保留其他綁定及條件，使用最新 policy 的 etag 避免覆蓋同步變更。不要改授 Owner、Editor、Datastore User 或含刪除／資料庫管理權限的廣泛角色。Firestore IAM 可限制資料庫，無法藉此限制特定 collection 或欄位；維護程式仍須只查回報並以精確鍵更新。
 
 IAM 變更可能需數分鐘生效。先手動執行 `Question report maintenance`，勾選 `verify_update_permission`：流程只查一筆既有回報的文件名稱，不載入原始欄位，再送出帶有 `1970-01-01T00:00:00Z` 版本前提的 update。這個早於 Firestore 建立時間的版本不可能成立，所以不會建立或修改任何文件；只有收到明確的版本前提拒絕或文件在查詢後已不存在的錯誤，才視為更新權限檢查通過。403、網路錯誤與其他失敗都會讓流程失敗。若完全沒有回報，診斷會明確失敗，無法宣稱已驗證更新；不要用不存在的文件測試 update-only IAM，因為那可能觸發新增文件權限的判斷。預設排程不執行此診斷。
 
 接著確認流程成功產生匿名題號清單。只有 IAM 設定存在、管理者能查詢，或 Hosting 發佈成功，都不足以證明維護服務帳戶可用。Google 串流 API 的錯誤也可能包在陣列中；日誌僅顯示安全的錯誤代碼，不輸出 Google 錯誤訊息、metadata 或原始回報。
 
-權限依據：[Firestore IAM API 對照](https://firebase.google.com/docs/firestore/security/iam)、[資料庫條件式存取](https://firebase.google.com/docs/firestore/manage-databases#configure_per-database_access_permissions)。
+若本機有多個 Google 帳號，使用具備本專案 IAM 管理權限的 Firebase CLI 登入帳號；ChatGPT 的登入帳號與 GitHub Actions 的服務帳戶是分開的。可以比對 secret 的專案與服務帳戶是否符合既有 Hosting 發佈紀錄，但只輸出比對結果，不能輸出憑證。
+
+權限依據：[Firestore UpdateDocument 稽核權限表](https://docs.cloud.google.com/firestore/native/docs/audit-logging)、[Firestore IAM API 簡表](https://firebase.google.com/docs/firestore/security/iam)、[資料庫條件式存取](https://firebase.google.com/docs/firestore/manage-databases#configure_per-database_access_permissions)。注意簡表只列 PATCH 的 update，完整方法表另列 create；請以相同服務帳戶的實測為準。
