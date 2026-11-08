@@ -81,6 +81,83 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S",
         "https://opendsa.org/OpenDSA/Books/Catalog/html/Huffman.html"
       ]
+    },
+    {
+      "key": "2b37e2d4b64ca3481b568ccfd6cf94235a8150eb5030a7c188a7299c956eb974",
+      "questionId": "113-3d-28",
+      "kind": "scan",
+      "fixCommit": "199728c300398c7cdffe5dc4dea96a7db8281802",
+      "resolution": "已在四個選項各自列計算：1300/40=32.5需33框架、2700/40=67.5需68框架、1200/40=30框架，總用131、剩19；說明向上取整與內部碎片，保留官方C。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
+      ]
+    },
+    {
+      "key": "6b7a8280d1bde9b2ec8a32d251963f80ce3799e0d0c16b747e274b5b02798136",
+      "questionId": "113-3d-33",
+      "kind": "scan",
+      "fixCommit": "199728c300398c7cdffe5dc4dea96a7db8281802",
+      "resolution": "已逐步說明ASCII數字字元連續排列、0x39=3×16+9=57、字元3比9小6，所以57−6=51；另用0x33=3×16+3=51驗算，逐項解釋誤選33、42、57的差異。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
+      ]
+    },
+    {
+      "key": "eaf156b3f555edfcdbbf9c1b81dc9beab4c9d18ad203ba9e01414c5ffb3c3c8c",
+      "questionId": "113-3d-35",
+      "kind": "scan",
+      "fixCommit": "199728c300398c7cdffe5dc4dea96a7db8281802",
+      "resolution": "已逐項列出正常分布與負載下雜湊平均O(1)、最差O(n)，已排序資料二元搜尋O(log n)，均勻數值下插值期望O(log log n)但最差O(n)，循序平均最差O(n)。說明適用前提並保留官方B，不宣稱雜湊在所有情形永遠最快。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
+      ]
+    },
+    {
+      "key": "0fa3649c71866917d4ccb50925dec6df982659f2f3b70dd42cdb388cf123d986",
+      "questionId": "113-3d-38",
+      "kind": "scan",
+      "fixCommit": "199728c300398c7cdffe5dc4dea96a7db8281802",
+      "resolution": "已分層解釋固定一次j會讓k執行20次，固定i時j執行i次，外層加總20(1+2+…+n)=20×n(n+1)/2=10n(n+1)，附n=2共60次驗算及四選項差異。原題稱C卻含C++ cout的語法差異亦已註明，依原題迴圈次數計分。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
+      ]
+    },
+    {
+      "key": "7719be07f65d6429bf324ae96ff6eee35930ab248fe0134c585fb7379f5c147a",
+      "questionId": "113-3d-43",
+      "kind": "scan",
+      "fixCommit": "199728c300398c7cdffe5dc4dea96a7db8281802",
+      "resolution": "已移除錯套的資料庫解析，改為網路層IP與路由表選下一跳；逐項區分URL應用層、MAC資料鏈結層、TCP可靠傳輸與密碼學完整性，避免將錯誤偵測與安全防竄改視為同一保證，保留官方C。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
+      ]
+    },
+    {
+      "key": "bdd46ac9a98410e8ed5ea2f1b0f27c6d4a6062b0013f2e635019f513098bb4a5",
+      "questionId": "113-3d-45",
+      "kind": "scan",
+      "fixCommit": "199728c300398c7cdffe5dc4dea96a7db8281802",
+      "resolution": "已明示這是反向題：官方排除DES，因此作答應選A，不表示認定A為交易協定。區分DES加密演算法與SSL/TLS/SET協定，保留官方答案，同時坦白指出安全機制一詞過寬及DES、SSL已過時，避免正誤語氣互相矛盾。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
+      ]
+    },
+    {
+      "key": "6139f8971187d64587b5e4a53b3326acc283870ad31834519e72308ab9a62e80",
+      "questionId": "113-3d-50",
+      "kind": "scan",
+      "fixCommit": "199728c300398c7cdffe5dc4dea96a7db8281802",
+      "resolution": "已逐項解釋DBMS可減少冗餘、不一致，並以主鍵、外鍵與限制維持完整性；介面友善度由上層工具或應用設計決定，不是DBMS必然優點。亦註明完整性限制不保證每個符合格式的數值都符合現實，保留官方C。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
+      ]
     }
   ]
 }
