@@ -13,6 +13,6 @@ export default function ExplanationDiagram({diagram}:{diagram:Diagram}){
     {node.step&&<><circle className="tree-step" cx="25" cy="-25" r="14"/><text className="tree-step-label" x="25" y="-25" textAnchor="middle" dominantBaseline="central">{node.step}</text></>}
    </g>)}
   </svg>
-  {diagram.kind==='graph-traversal'?<><p><strong>DFS（深度優先）：</strong>{diagram.sequence.join('，')}</p><p><strong>BFS（廣度優先）：</strong>{diagram.breadthSequence?.join('，')}</p><p className="text-muted">本圖為教學示意；從 A 開始，未訪問鄰點依字母順序選擇。</p></>:<p><strong>前序走訪順序：</strong>{diagram.sequence.join('，')}</p>}
+  {diagram.kind==='graph-traversal'?<><p><strong>DFS（深度優先）：</strong>{diagram.sequence.join('，')}</p><p><strong>BFS（廣度優先）：</strong>{diagram.breadthSequence?.join('，')}</p><p className="text-muted">本圖為教學示意；從 A 開始，未訪問鄰點依字母順序選擇。</p></>:<p><strong>{diagram.sequenceLabel||'前序走訪順序：'}</strong>{diagram.sequence.join('，')}</p>}
  </figure>;
 }
