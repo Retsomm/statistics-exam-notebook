@@ -39,3 +39,11 @@ test('critical numerical examples and the qualified topics have question-specifi
  assert.match(published['113-3d-45'].summary,/措辭.*官方 A/s);
  assert.doesNotMatch(JSON.stringify(published['113-3d-43']),/自然連接|ROM/);
 });
+
+test('additional original reports receive the explicit calculations and interpretation they requested',()=>{
+ const e=n=>published[`113-3d-${n}`];
+ assert.match(e(28).options.A,/1300\/40=32.5.*33/s);assert.match(e(28).options.B,/2700\/40=67.5.*68/s);assert.match(e(28).options.C,/1200\/40=30/);assert.match(e(28).options.D,/150−131=19/);
+ assert.match(e(33).summary,/3×16\+9=57.*57−6=51/s);assert.match(e(35).options.C,/最差.*O\(n\)/);
+ assert.match(e(38).summary,/20\(1\+2\+…\+n\).*10n\(n\+1\)/s);assert.match(e(43).options.B,/TCP.*不等於密碼學/s);
+ assert.match(e(45).summary,/反向題.*不表示 A/s);assert.match(e(45).options.A,/作答應選 A/);assert.match(e(50).options.B,/不能保證/);
+});
