@@ -69,6 +69,18 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0701&q=1&t=S",
         "https://www.postgresql.org/docs/current/functions-comparison.html"
       ]
+    },
+    {
+      "key": "fb3969f1617ad6399c4a3c1ecd94fe1c29ff9823b9b0f35c39bf295392cb3433",
+      "questionId": "113-3d-7",
+      "kind": "scan",
+      "fixCommit": "d79a35eebb1d4b0293c9664873db278d97e52bdf",
+      "resolution": "已核對原始回報、官方原卷與答案，確認應先合併 A10、B10，再合併 C15、F15；補齊五步合併與樹圖，D、E為2位元，A、B、C、F為3位元，四選項中選D。另逐題查核並重寫113年資料處理全卷50份主解析及200份選項解釋，修正錯套主題、計算步驟與反向題判斷，補上樹圖與題目限制。177項資料測試、26項手機桌面測試通過，全部原題、官方答案與分數規則保留。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q#page=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S",
+        "https://opendsa.org/OpenDSA/Books/Catalog/html/Huffman.html"
+      ]
     }
   ]
 }
