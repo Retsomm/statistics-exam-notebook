@@ -170,6 +170,19 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S",
         "https://opendsa.org/OpenDSA/Books/Catalog/html/Mergesort.html"
       ]
+    },
+    {
+      "key": "6604382c189055831955b0d0cc8885efe69b95f5a4f3ae433e0a85495dc62b74",
+      "questionId": "111-3d-18",
+      "kind": "scan",
+      "fixCommit": "69ec4f7d133ed422d028a4d3fe502a95493ecd79",
+      "resolution": "原卷與網站題幹選項一致，官方標準答案為D，查詢頁此科未列更正答案。回報實為D選項解析不足；已以商店即時結帳及歷年銷售分析對照OLTP與OLAP，說明交易資料可匯入資料倉儲，補充資料探勘、資料超市與四項特性，保留反向題官方答案D。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111010&y=2022",
+        "https://docs.oracle.com/en/database/oracle/oracle-database/18/dwhsg/introduction-data-warehouse-concepts.html"
+      ]
     }
   ]
 }
