@@ -183,6 +183,21 @@
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111010&y=2022",
         "https://docs.oracle.com/en/database/oracle/oracle-database/18/dwhsg/introduction-data-warehouse-concepts.html"
       ]
+    },
+    {
+      "key": "e8c266d1b5aeaac49eb499b354831dcc8095b4ab9fa90453d4caf91cc5550da4",
+      "questionId": "111-3d-28",
+      "kind": "explanation",
+      "fixCommit": "7254291e31d400c99b68bd830f1abdf3949d6fa0",
+      "resolution": "原卷題幹與選項一致，官方答案B，查詢頁此科未列更正答案。原B選項錯套USB PD解析；已改為GPIO通用輸入輸出腳位與按鈕、LED範例，並逐項解釋PCIe、USB-C和USB PD及USB-C不保證支援PD，保留反向題答案B。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111010&y=2022",
+        "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html",
+        "https://pcisig.com/faq?field_category_value%5B%5D=pci_express",
+        "https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf"
+      ]
     }
   ]
 }
