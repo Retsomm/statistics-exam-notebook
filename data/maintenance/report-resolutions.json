@@ -158,6 +158,18 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=Q",
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=113010&c=509&s=0601&q=1&t=S"
       ]
+    },
+    {
+      "key": "70282a1d2730fcae2b9fd0acb7c63b2521e145cf63399f4d7bab00dc1675ae48",
+      "questionId": "111-3d-12",
+      "kind": "explanation",
+      "fixCommit": "5893ce6921824f119bfe62840b16f21023405e4f",
+      "resolution": "已依原始回報重寫分治法解析：以3、1、2示範拆分、分別排序與逐步合併，並附拆分示意圖；氣泡、選擇、插入及合併排序各有具體步驟與獨立理由。保留官方B答案，修正原解析誤講穩定性及重複模板；已驗證重建、手機與桌面顯示。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=Q#page=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S",
+        "https://opendsa.org/OpenDSA/Books/Catalog/html/Mergesort.html"
+      ]
     }
   ]
 }
