@@ -259,3 +259,12 @@ test('reported warehouse question distinguishes incorrect OLTP from analytical u
  assert.match(reviewed.options.B,/資料探勘/);assert.match(reviewed.options.C,/非揮發/);
  assert.equal(reviewed.optionVerdicts.D,'可以選。');assert.match(reviewed.options.D,/描述錯誤/);
 });
+
+test('reported peripheral question explains GPIO and the correct PCIe description',()=>{
+ const id='111-3d-28',reviewed=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)))[id];
+ assert.deepEqual(buildDataProcessingExplanations(bank).get('111-3d')[id],reviewed);
+ assert.deepEqual(JSON.parse(readFileSync(new URL('../public/explanations/111-3d.json',import.meta.url)))[id],reviewed);
+ assert.match(reviewed.options.B,/通用輸入／輸出.*按鈕.*LED/s);
+ assert.match(reviewed.options.C,/PCIe.*顯示卡.*正確/s);
+ assert.match(reviewed.options.D,/接頭.*不代表一定支援 USB PD/s);
+});

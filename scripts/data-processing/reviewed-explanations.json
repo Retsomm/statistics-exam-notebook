@@ -2143,5 +2143,42 @@
         "url": "https://docs.oracle.com/en/database/oracle/oracle-database/18/dwhsg/introduction-data-warehouse-concepts.html"
       }
     ]
+  },
+  "111-3d-28": {
+    "summary": "題目要找「敘述錯誤」的一項。四個名詞分別描述接頭、通用輸出入腳位、擴充連線，以及供電規格，不能只因為都和電腦周邊有關就當成同一種東西。\n\nGPIO 是 General-Purpose Input/Output，也就是「通用輸入／輸出」。它通常指晶片或開發板上可依需要設定的數位腳位：設定為輸入時，可以讀取按鈕或感測器的訊號；設定為輸出時，可以控制 LED 亮或滅。它可以用在各種電子裝置，不是遊戲周邊專用標準。\n\n因此「GPIO 是一種遊戲周邊輸出入的專用標準」這句話錯誤；題目問錯誤，所以應選（B）。PCIe 則是電腦連接高速擴充元件的標準，例如顯示卡或 NVMe 固態硬碟，C 的敘述正確，因此不選 C。",
+    "options": {
+      "A": "USB-C（USB Type-C）是接頭與線材規格，定義接頭形狀及腳位，可用來連接電腦和周邊，所以描述正確，本題不選。接頭外形本身不保證支援特定傳輸速度、影像輸出或 USB PD；仍要看裝置與線材的實際規格。",
+      "B": "GPIO 全名為通用輸入／輸出，通常是可設定用途的數位腳位。它能讀取按鈕或感測器狀態，也能輸出訊號控制 LED；用途不限遊戲周邊，因此「遊戲周邊輸出入的專用標準」是錯誤的。題目要選錯誤敘述，所以選 B。",
+      "C": "PCIe（PCI Express）是一種高速序列擴充連線標準，讓電腦與顯示卡、網路卡等元件交換資料；使用 PCIe 的 NVMe 固態硬碟也可透過 M.2 等形式連接。它不是單純的充電規格，題目稱它為高速擴充匯流排標準是正確的，因此不選 C。",
+      "D": "USB PD（USB Power Delivery）是 USB 的供電與功率協商規格，裝置與充電器可依各自支援的能力協商電壓與電流，用來供電或充電，因此題目描述正確，不選 D。USB-C 是接頭規格，USB PD 是供電規格；有 USB-C 接頭不代表一定支援 USB PD。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "考選部：111 年初等考試資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=Q#page=2"
+      },
+      {
+        "title": "考選部：111 年初等考試資料處理大意標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S"
+      },
+      {
+        "title": "Raspberry Pi：GPIO 輸入與輸出",
+        "url": "https://www.raspberrypi.com/documentation/computers/raspberry-pi.html"
+      },
+      {
+        "title": "PCI-SIG：PCI Express 架構",
+        "url": "https://pcisig.com/faq?field_category_value%5B%5D=pci_express"
+      },
+      {
+        "title": "USB-IF：USB Type-C 與 USB Power Delivery",
+        "url": "https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf"
+      }
+    ]
   }
 }
