@@ -250,3 +250,12 @@ test('reported 111 merge-sort question explains the split, merge and every alter
  assert.deepEqual(reviewed.diagram.sequence,['1','2','3']);assert.equal(reviewed.diagram.sequenceLabel,'排序後的合併結果：');
  assert.equal(new Set(Object.values(reviewed.options)).size,4);
 });
+
+test('reported warehouse question distinguishes incorrect OLTP from analytical use',()=>{
+ const id='111-3d-18',reviewed=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)))[id];
+ assert.deepEqual(buildDataProcessingExplanations(bank).get('111-3d')[id],reviewed);
+ assert.deepEqual(JSON.parse(readFileSync(new URL('../public/explanations/111-3d.json',import.meta.url)))[id],reviewed);
+ assert.match(reviewed.options.D,/OLTP.*結帳/s);assert.match(reviewed.options.D,/OLAP.*分析/s);
+ assert.match(reviewed.options.B,/資料探勘/);assert.match(reviewed.options.C,/非揮發/);
+ assert.equal(reviewed.optionVerdicts.D,'可以選。');assert.match(reviewed.options.D,/描述錯誤/);
+});
