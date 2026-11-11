@@ -240,3 +240,13 @@ test('114 normalization explanation derives the dependencies, anomalies and loss
  assert.deepEqual(buildDataProcessingExplanations(bank).get('114-3d')[id],reviewed);
  assert.deepEqual(JSON.parse(readFileSync(new URL('../public/explanations/114-3d.json',import.meta.url)))[id],reviewed);
 });
+
+test('reported 111 merge-sort question explains the split, merge and every alternative',()=>{
+ const id='111-3d-12',reviewed=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)))[id];
+ assert.deepEqual(buildDataProcessingExplanations(bank).get('111-3d')[id],reviewed);
+ assert.deepEqual(JSON.parse(readFileSync(new URL('../public/explanations/111-3d.json',import.meta.url)))[id],reviewed);
+ assert.match(reviewed.summary,/拆成「3」與「1、2」/);assert.match(reviewed.summary,/先取 1、再取 2.*剩下的 3/s);
+ assert.match(reviewed.options.A,/相鄰.*交換/s);assert.match(reviewed.options.B,/拆.*合併/s);assert.match(reviewed.options.C,/最小值.*交換/s);assert.match(reviewed.options.D,/逐筆.*插/s);
+ assert.deepEqual(reviewed.diagram.sequence,['1','2','3']);assert.equal(reviewed.diagram.sequenceLabel,'排序後的合併結果：');
+ assert.equal(new Set(Object.values(reviewed.options)).size,4);
+});
