@@ -213,6 +213,18 @@
         "https://csrc.nist.gov/glossary/term/replay_attack",
         "https://csrc.nist.gov/glossary/term/denial_of_service"
       ]
+    },
+    {
+      "key": "2fa28787dc00508b28336b790a632ccbbfd084712454c1492dac98cf10c5c08b",
+      "questionId": "111-3d-34",
+      "kind": "scan",
+      "fixCommit": "72d7a892a6939af210738ed38ad6d136dea1e507",
+      "resolution": "核對原卷與標準答案B；針對解析過於簡陋，補上列優先索引14、32、47，根據位址差36除以元素差18推得每元素2個位址單位，最後以2048加33乘2得2114；逐項解釋其他選項與十進位下標。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=Q#page=3",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S",
+        "https://learn.microsoft.com/th-th/cpp/cpp/arrays-cpp?view=msvc-150"
+      ]
     }
   ]
 }
