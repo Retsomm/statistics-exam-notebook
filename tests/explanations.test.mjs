@@ -268,3 +268,13 @@ test('reported peripheral question explains GPIO and the correct PCIe descriptio
  assert.match(reviewed.options.C,/PCIe.*顯示卡.*正確/s);
  assert.match(reviewed.options.D,/接頭.*不代表一定支援 USB PD/s);
 });
+
+test('reported attack question distinguishes observation from replay and disruption',()=>{
+ const id='111-3d-44',reviewed=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)))[id];
+ assert.deepEqual(buildDataProcessingExplanations(bank).get('111-3d')[id],reviewed);
+ assert.deepEqual(JSON.parse(readFileSync(new URL('../public/explanations/111-3d.json',import.meta.url)))[id],reviewed);
+ assert.match(reviewed.options.A,/被動攻擊.*選 A/s);
+ assert.match(reviewed.options.B,/被動監聽.*重新發送.*主動攻擊/s);
+ assert.match(reviewed.options.C,/可用性.*主動攻擊/s);
+ assert.match(reviewed.options.D,/修改.*主動攻擊/s);
+});
