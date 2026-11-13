@@ -198,6 +198,21 @@
         "https://pcisig.com/faq?field_category_value%5B%5D=pci_express",
         "https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf"
       ]
+    },
+    {
+      "key": "92486eca844008be9cde18266c0c41154e88900d3ad8cc741fbb1b9579d1be01",
+      "questionId": "111-3d-44",
+      "kind": "explanation",
+      "fixCommit": "477617bdddcf0af59a3b28515ed3a3e380721284",
+      "resolution": "核對原卷題目與選項一致、官方標準答案A，查詢頁此科未列更正答案。原解析把窺探錯套為重送說明，已改為區分被動監聽與介入通訊的主動攻擊；逐項說明窺探、重送、阻斷服務與篡改，並特別解釋重送即使內容不變仍屬主動攻擊。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=Q#page=4",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=111010&y=2022",
+        "https://csrc.nist.gov/glossary/term/passive_attack",
+        "https://csrc.nist.gov/glossary/term/replay_attack",
+        "https://csrc.nist.gov/glossary/term/denial_of_service"
+      ]
     }
   ]
 }
