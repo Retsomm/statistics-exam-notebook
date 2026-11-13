@@ -278,3 +278,13 @@ test('reported attack question distinguishes observation from replay and disrupt
  assert.match(reviewed.options.C,/可用性.*主動攻擊/s);
  assert.match(reviewed.options.D,/修改.*主動攻擊/s);
 });
+
+test('reviewed Java and array questions explain their actual mechanisms',()=>{
+ const all=JSON.parse(readFileSync(new URL('../scripts/data-processing/reviewed-explanations.json',import.meta.url)));
+ for(const id of ['111-3d-33','111-3d-34']){
+  assert.deepEqual(buildDataProcessingExplanations(bank).get('111-3d')[id],all[id]);
+  assert.deepEqual(JSON.parse(readFileSync(new URL('../public/explanations/111-3d.json',import.meta.url)))[id],all[id]);
+ }
+ assert.match(all['111-3d-33'].options.C,/javac.*位元組碼.*JVM/s);
+ assert.match(all['111-3d-34'].summary,/32－14＝18.*36÷18＝2.*47－14＝33.*2114/s);
+});
