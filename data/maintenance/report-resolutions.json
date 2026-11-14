@@ -225,6 +225,18 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=111010&c=509&s=0601&q=1&t=S",
         "https://learn.microsoft.com/th-th/cpp/cpp/arrays-cpp?view=msvc-150"
       ]
+    },
+    {
+      "key": "a0441646fca21fa50ec312644ab8533864c07a62e2ccf058072f7b94c52a8bf3",
+      "questionId": "104-1-46",
+      "kind": "scan",
+      "fixCommit": "2434c7f8a297e06af248d0b00472073af48e0d6f",
+      "resolution": "核對原卷，第46題called a後有答案空格，網站將閱讀題排除於空格還原而隱藏空格；已恢復第46至50題經原卷核對的空格，保留原始文章與選項並驗證手機及桌面作答和解析畫面。標準及更正答案第46題均為A，更正檔只更正第30題。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=104010&c=508&s=0104&q=1#page=4",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
+      ]
     }
   ]
 }
