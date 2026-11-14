@@ -33,3 +33,18 @@ test('Chinese questions, English comprehension and reservation layouts are prese
  const q=standalone.find(q=>q.id==='109-1-37');
  assert.ok(restoreEnglishBlanks(q).stem.includes('\n     and attention'));
 });
+
+test('104 reading prompts restore only the five PDF answer slots',()=>{
+ for(let n=46;n<=50;n++){
+  const original=bank.questions.find(q=>q.id===`104-1-${n}`);
+  const restored=restoreEnglishBlanks(original);
+  assert.equal((restored.stem.match(/_____/g)||[]).length,1,original.id);
+  assert.equal(restored.passage,original.passage);
+  assert.equal(restored.text,original.text);
+  assert.strictEqual(restored.options,original.options);
+  assert.strictEqual(restored.accepted,original.accepted);
+  assert.deepEqual(restoreEnglishBlanks(restored),restored);
+ }
+ assert.match(restoreEnglishBlanks(bank.questions.find(q=>q.id==='104-1-46')).stem,/called a _____ \./);
+ assert.match(restoreEnglishBlanks(bank.questions.find(q=>q.id==='104-1-47')).stem,/unusual _____ on remote islands/);
+});
