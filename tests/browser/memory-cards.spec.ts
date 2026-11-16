@@ -49,3 +49,25 @@ test('memory deck returns to its saved card after navigation and reload',async({
  await page.reload();await open();await expect(page.getByText('第 2 / 7 張',{exact:true})).toBeVisible();
  await page.getByRole('button',{name:'重新複習',exact:true}).click();await page.reload();await open();await expect(page.getByText('第 1 / 7 張',{exact:true})).toBeVisible();
 });
+
+for(const width of [390,1440])test(`memory deck preserves ratings and revealed face at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:900});await page.goto('/demo/');
+ const open=async()=>{await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();await page.getByLabel('選擇資料處理章節').selectOption('3-3');};
+ await open();
+ await page.getByRole('button',{name:'翻面查看答案',exact:true}).click();await page.getByRole('button',{name:/^記住了/}).click();
+ await page.getByRole('button',{name:'翻面查看答案',exact:true}).click();await page.getByRole('button',{name:/^還不熟悉/}).click();
+ await page.getByRole('button',{name:'翻面查看答案',exact:true}).click();
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'學習總覽',exact:true}).click();await open();
+ await expect(page.getByText('第 3 / 7 張',{exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'翻回問題',exact:true})).toBeVisible();
+ await page.reload();await open();
+ await expect(page.getByText('第 3 / 7 張',{exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'翻回問題',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:/^記住了/})).toHaveText('記住了 · 1');
+ await expect(page.getByRole('button',{name:/^還不熟悉/})).toHaveText('還不熟悉 · 1');
+ await page.getByRole('button',{name:'重新複習',exact:true}).click();await page.reload();await open();
+ await expect(page.getByText('第 1 / 7 張',{exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:'翻面查看答案',exact:true})).toBeVisible();
+ await expect(page.getByRole('button',{name:/^記住了/})).toHaveText('記住了 · 0');
+ await expect(page.getByRole('button',{name:/^還不熟悉/})).toHaveText('還不熟悉 · 0');
+});
