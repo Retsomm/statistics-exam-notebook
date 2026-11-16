@@ -384,7 +384,8 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
 }
 .filter-row{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-control);}
 @media(max-width:620px){
- .sidebar nav{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));}
- .sidebar .navitem{min-height:52px;font-size:11px;padding:6px 8px;}
- .shell{padding-bottom:calc(156px + env(safe-area-inset-bottom));}
+ .sidebar nav{grid-template-columns:repeat(5,minmax(0,1fr));gap:4px;padding:10px 8px calc(10px + env(safe-area-inset-bottom));}
+ .sidebar .navitem[data-screen="settings"]{display:none;}
+ .sidebar .navitem{min-height:52px;font-size:10px;padding:6px 2px;}
+ .shell{padding-bottom:calc(100px + env(safe-area-inset-bottom));}
 }
