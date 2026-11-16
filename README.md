@@ -40,3 +40,5 @@ npm run build
 每回紀錄獨立保存在登入帳戶的 `users/{uid}/study/mock-{uuid}` 文件，與既有本機備份、離線佇列及匯入／匯出整合，不截斷模擬考歷史。訪客僅存目前瀏覽器；登入後才有雲端同步。每次新增寫入路徑需一併部署 `firestore.rules`。
 
 106–115 年統計類科錄取標準及 116 年考試時間的查核資料在 `data/mock-exam-reference.json`，包含考選部直接來源、原表統計列及原檔 SHA-256；不提交官方 PDF。錄取標準是各年四科總平均，僅供回顧比較。官方計分規則見該檔中的 `scoringSource` 與 `eligibilitySource`。
+
+部署服務帳戶必須具備 Firebase Rules 部署權限（`roles/firebaserules.admin`）。Hosting 成功不代表 Firestore 規則已更新；若 Rules API 回傳 403，需由專案管理員補上此角色後重跑「Deploy Firestore Rules」。規則未開通時，前端仍保留既有練習功能，模擬考資料先保留於本機與待同步佇列，並顯示同步失敗提示；不可宣稱已完成跨裝置保存。

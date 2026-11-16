@@ -9,7 +9,7 @@ import type {Question,StudyState} from './types';
 export type SyncStatus='connecting'|'synced'|'saving'|'offline'|'error';
 export class CloudSync {
  private db?:Firestore;private stops:Unsubscribe[]=[];private disposed=false;private initialized=false;
- private mockRemote=new Map<string,CloudQuestion>();private mReady=false;
+ private mockRemote=new Map<string,CloudQuestion>();private mReady=false;private mockUnavailable=false;
  private remote=new Map<string,CloudQuestion>();private sessionJSON?:string;private sessionExists=false;private sessionRevision=0;
  private fetching=false;
  private qReady=false;private sReady=false;private queue:Mutation[]=[];private inflight=new Set<string>();private timer?:ReturnType<typeof setTimeout>;
@@ -25,9 +25,10 @@ export class CloudSync {
    this.stops.push(onSnapshot(collection(this.db,'users',this.uid,'questions'),{includeMetadataChanges:true},snap=>{
     if(this.disposed||snap.metadata.fromCache)return;this.remote=new Map(snap.docs.map(d=>[d.id,d.data() as CloudQuestion]));if(!snap.metadata.fromCache)this.qReady=true;this.refresh();
    },fail));
+   const mockFail=()=>{this.mockUnavailable=true;this.mReady=true;this.refresh();};
    this.stops.push(onSnapshot(collection(this.db,'users',this.uid,'study'),{includeMetadataChanges:true},snap=>{
-    if(this.disposed||snap.metadata.fromCache)return;for(const d of snap.docs.filter(d=>d.id.startsWith('mock-'))){const previous=this.mockRemote.get(`_${d.id}`);if((d.data().revision||0)>=(previous?.revision||0))this.mockRemote.set(`_${d.id}`,{...d.data(),mockRun:JSON.parse(d.data().sessionJSON||'null')});}this.mReady=true;this.refresh();
-   },fail));
+    if(this.disposed||snap.metadata.fromCache)return;for(const d of snap.docs.filter(d=>d.id.startsWith('mock-'))){const previous=this.mockRemote.get(`_${d.id}`);if((d.data().revision||0)>=(previous?.revision||0))this.mockRemote.set(`_${d.id}`,{...d.data(),mockRun:JSON.parse(d.data().sessionJSON||'null')});}this.mockUnavailable=false;this.mReady=true;this.refresh();
+   },mockFail));
    this.stops.push(onSnapshot(doc(this.db,'users',this.uid,'study','session'),{includeMetadataChanges:true},snap=>{
     if(this.disposed||snap.metadata.fromCache)return;if((snap.data()?.revision||0)<this.sessionRevision)return;this.sessionExists=snap.exists();this.sessionJSON=snap.data()?.sessionJSON;this.sessionRevision=snap.data()?.revision||0;if(!snap.metadata.fromCache)this.sReady=true;this.refresh();
    },fail));
@@ -43,14 +44,14 @@ export class CloudSync {
    const [questions,session,mocks]=await Promise.all([
     getDocsFromServer(collection(this.db,'users',this.uid,'questions')),
     getDocFromServer(doc(this.db,'users',this.uid,'study','session')),
-    getDocsFromServer(collection(this.db,'users',this.uid,'study')),
+    getDocsFromServer(collection(this.db,'users',this.uid,'study')).catch(()=>{this.mockUnavailable=true;return null;}),
    ]);
    if(this.disposed)return;
    const docs=new Map(questions.docs.map(d=>[d.id,d.data() as CloudQuestion]));
    for(const [id,value]of this.remote)if((value.revision||0)>(docs.get(id)?.revision||0))docs.set(id,value);
    this.remote=docs;this.qReady=true;
    if((session.data()?.revision||0)>=this.sessionRevision){this.sessionExists=session.exists();this.sessionJSON=session.data()?.sessionJSON;this.sessionRevision=session.data()?.revision||0;}
-   for(const d of mocks.docs.filter(d=>d.id.startsWith('mock-'))){const old=this.mockRemote.get(`_${d.id}`);if((d.data().revision||0)>=(old?.revision||0))this.mockRemote.set(`_${d.id}`,{...d.data(),mockRun:JSON.parse(d.data().sessionJSON||'null')});}this.mReady=true;
+   if(mocks)this.mockUnavailable=false;for(const d of (mocks?.docs||[]).filter(d=>d.id.startsWith('mock-'))){const old=this.mockRemote.get(`_${d.id}`);if((d.data().revision||0)>=(old?.revision||0))this.mockRemote.set(`_${d.id}`,{...d.data(),mockRun:JSON.parse(d.data().sessionJSON||'null')});}this.mReady=true;
    this.sReady=true;this.refresh();
   }catch(error){if(!this.disposed)this.status('error',syncErrorMessage(error));}
   finally{this.fetching=false;}
@@ -82,14 +83,14 @@ export class CloudSync {
    this.initialized=true;
   }
   this.receive(cloudState(new Map([...this.remote,...this.mockRemote]),this.sessionJSON,this.questions,this.queue));
-  this.status(!navigator.onLine?'offline':this.queue.length?'saving':'synced');
+  this.status(!navigator.onLine?'offline':this.mockUnavailable?'error':this.queue.length?'saving':'synced',this.mockUnavailable?'模擬考雲端權限尚未開通；作答與成績已先保留在本機及待同步佇列。請匯出備份，待雲端權限修復後點此重試。':undefined);
   if(this.queue.length)this.schedule();
  }
  private schedule(delay=750){if(!this.initialized||this.disposed)return;clearTimeout(this.timer);this.timer=setTimeout(()=>void this.drain(),delay);}
  private async drain(){
   if(this.disposed||!this.db||!this.initialized||!navigator.onLine||this.inflight.size)return;
   const docs=new Set<string>();const batch=this.queue.filter(m=>{if(docs.has(m.docId)||docs.size>=8)return false;docs.add(m.docId);return true;});
-  if(!batch.length){this.status('synced');return;}
+  if(!batch.length){this.status(this.mockUnavailable?'error':'synced');return;}
   batch.forEach(m=>this.inflight.add(m.id));let failed=false;
   await Promise.all(batch.map(async mutation=>{
    try{
@@ -129,7 +130,7 @@ export class CloudSync {
   }));
   if(this.disposed)return;
   this.receive(cloudState(new Map([...this.remote,...this.mockRemote]),this.sessionJSON,this.questions,this.queue));
-  this.status(!navigator.onLine?'offline':failed?'error':this.queue.length?'saving':'synced');
+  this.status(!navigator.onLine?'offline':failed||this.mockUnavailable?'error':this.queue.length?'saving':'synced');
   if(this.queue.length)this.schedule(failed?5000:0);
  }
  retry(){if(this.disposed)return;this.stops.forEach(stop=>stop());this.stops=[];this.qReady=false;this.sReady=false;this.mReady=false;this.initialized=false;window.removeEventListener('online',this.online);window.removeEventListener('offline',this.offline);document.removeEventListener('visibilitychange',this.visibility);window.removeEventListener('pagehide',this.pagehide);this.status('connecting');void this.start();}

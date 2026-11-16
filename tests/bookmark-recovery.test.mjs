@@ -12,15 +12,15 @@ const questions=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.
 const [q1,q2]=questions;
 const local=()=>({...emptyState(),bookmarks:[q1.id],explanationBookmarks:[q2.id],vocabularyBookmarks:['vocabulary-0123456789abcdef'],memoryBookmarks:['memory-0123456789abcdef'],idiomBookmarks:['束之高閣']});
 const code=ts.transpileModule(readFileSync(new URL('../lib/cloud-sync.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
-function controller(initial,remote=new Map(),sessionJSON=undefined){
+function controller(initial,remote=new Map(),sessionJSON=undefined,denyMocks=false){
  const storage=new Map([['yueri:sync:migrated:v1:account','1']]),timers=new Map();let sequence=0,received;
  const questionSnap=()=>({docs:[...remote].filter(([id])=>!id.startsWith('_mock-')).map(([id,data])=>({id,data:()=>data})),metadata:{fromCache:false}});
  const mockSnap=()=>({docs:[...remote].filter(([id])=>id.startsWith('_mock-')).map(([id,data])=>({id:id.slice(1),data:()=>data})),metadata:{fromCache:false}});
  const sessionSnap=()=>({exists:()=>sessionJSON!==undefined,data:()=>sessionJSON===undefined?undefined:{sessionJSON,revision:1},metadata:{fromCache:false}});
  const firestore={
   getFirestore:()=>({}),collection:(_db,...parts)=>parts.join('/'),doc:(_db,...parts)=>parts.join('/'),serverTimestamp:()=>0,
-  onSnapshot:(ref,_options,callback)=>{callback(ref.endsWith('/questions')?questionSnap():ref.endsWith('/study')?mockSnap():sessionSnap());return()=>{};},
-  getDocsFromServer:async ref=>ref.endsWith('/study')?mockSnap():questionSnap(),getDocFromServer:async()=>sessionSnap(),
+  onSnapshot:(ref,_options,callback,onError)=>{if(denyMocks&&ref.endsWith('/study')){onError(Error('permission-denied'));return()=>{};}callback(ref.endsWith('/questions')?questionSnap():ref.endsWith('/study')?mockSnap():sessionSnap());return()=>{};},
+  getDocsFromServer:async ref=>{if(denyMocks&&ref.endsWith('/study'))throw Error('permission-denied');return ref.endsWith('/study')?mockSnap():questionSnap();},getDocFromServer:async()=>sessionSnap(),
   runTransaction:async(_db,fn)=>fn({get:async ref=>{const key=ref.split('/').at(-1),id=key.startsWith('mock-')?'_'+key:key;return ref.endsWith('/study/session')?sessionSnap():{exists:()=>remote.has(id),data:()=>remote.get(id)};},set:(ref,data)=>{const key=ref.split('/').at(-1),id=key.startsWith('mock-')?'_'+key:key;if(ref.endsWith('/study/session'))sessionJSON=data.sessionJSON;else remote.set(id,data);}}),
  };
  const module={exports:{}};
@@ -74,4 +74,13 @@ test('mock runs survive cloud transactions, queued stale edits and a second devi
  assert.equal(second.received.mockRuns[0].papers[0].elapsedMs,10000);
  assert.equal(second.received.mockRuns[0].papers[0].remainingMs,3590000);
  first.sync.stop();second.sync.stop();
+});
+
+test('unavailable mock permissions retain local pending results without blocking existing study data',async()=>{
+ const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))),initial=local();
+ initial.mockRuns=[mockExam.createMockRun(bank,[],crypto.randomUUID())];
+ const device=controller(initial,new Map(),undefined,true);await device.sync.start();
+ assert.deepEqual(device.received.bookmarks,initial.bookmarks);assert.equal(device.received.mockRuns.length,1);
+ assert.equal(device.received.mockRuns[0].id,initial.mockRuns[0].id);
+ device.sync.stop();
 });
