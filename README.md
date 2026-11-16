@@ -41,4 +41,16 @@ npm run build
 
 106–115 年統計類科錄取標準及 116 年考試時間的查核資料在 `data/mock-exam-reference.json`，包含考選部直接來源、原表統計列及原檔 SHA-256；不提交官方 PDF。錄取標準是各年四科總平均，僅供回顧比較。官方計分規則見該檔中的 `scoringSource` 與 `eligibilitySource`。
 
-部署服務帳戶必須具備 Firebase Rules 部署權限（`roles/firebaserules.admin`）。Hosting 成功不代表 Firestore 規則已更新；若 Rules API 回傳 403，需由專案管理員補上此角色後重跑「Deploy Firestore Rules」。規則未開通時，前端仍保留既有練習功能，模擬考資料先保留於本機與待同步佇列，並顯示同步失敗提示；不可宣稱已完成跨裝置保存。
+規則部署使用專案自訂角色 `projects/library-exam-notebook/roles/githubFirestoreRulesDeployer`，授予既有 GitHub Actions 部署服務帳戶。此角色只包含以下六項規則部署與驗證權限，不包含刪除或專案管理權限，無須授予 Owner、Editor 或完整的 `roles/firebaserules.admin`：
+
+```text
+firebaserules.rulesets.create
+firebaserules.rulesets.get
+firebaserules.rulesets.test
+firebaserules.releases.get
+firebaserules.releases.list
+firebaserules.releases.update
+```
+
+`Deploy Firestore Rules` 會在 `main` 的 `firestore.rules`、規則測試或該工作流程變更時先執行模擬器測試，再發布規則；同類新資料路徑可沿用這項持續性授權。Hosting 成功不代表 Firestore 規則已更新，仍須確認規則部署工作流程成功。若 Rules API 回傳 403，先核對上述自訂角色及其服務帳戶綁定，再重跑「Deploy Firestore Rules」。規則未開通時，前端仍保留既有練習功能，模擬考資料先保留於本機與待同步佇列，並顯示同步失敗提示；不可宣稱已完成跨裝置保存。
+
