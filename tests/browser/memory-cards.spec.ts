@@ -40,3 +40,12 @@ for(const width of [390,1440])test(`single-card navigation resets the face and r
  await page.emulateMedia({reducedMotion:'reduce'});await page.getByRole('button',{name:'翻面查看答案',exact:true}).click();await expect(page.locator('.memory-flip-rotor')).toHaveCSS('transition-duration','0s');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
+
+test('memory deck returns to its saved card after navigation and reload',async({page})=>{
+ await page.goto('/demo/');
+ const open=async()=>{await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();await page.getByLabel('選擇資料處理章節').selectOption('3-3');};
+ await open();await page.getByRole('button',{name:'下一張',exact:true}).click();await expect(page.getByText('第 2 / 7 張',{exact:true})).toBeVisible();
+ await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'學習總覽',exact:true}).click();await open();await expect(page.getByText('第 2 / 7 張',{exact:true})).toBeVisible();
+ await page.reload();await open();await expect(page.getByText('第 2 / 7 張',{exact:true})).toBeVisible();
+ await page.getByRole('button',{name:'重新複習',exact:true}).click();await page.reload();await open();await expect(page.getByText('第 1 / 7 張',{exact:true})).toBeVisible();
+});
