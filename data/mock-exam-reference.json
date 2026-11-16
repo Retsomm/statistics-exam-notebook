@@ -1,0 +1,119 @@
+{
+  "verifiedAt": "2026-11-16",
+  "exam": "公務人員初等考試",
+  "category": "統計",
+  "basis": "四科成績平均，總成績取小數點後二位，第三位四捨五入；歷年錄取標準僅供比較，並非未來保證錄取分數。",
+  "schedule": {
+    "year": 116,
+    "minutesPerSubject": 60,
+    "order": [
+      0,
+      1,
+      3,
+      2
+    ],
+    "source": "https://wwwc.moex.gov.tw/main/exam/FileHandler.ashx?f=116&t=P&PCode=5253&MCode=8113&File=4242",
+    "sourceTitle": "116年公務人員初等考試應試科目及考試日程表",
+    "slots": [
+      "09:00–10:00",
+      "10:40–11:40",
+      "13:30–14:30",
+      "15:10–16:10"
+    ],
+    "sha256": "3451c12ba4764b4db811d3d688459eacf920abe19cc2fadb5e6a5d44e881cceb"
+  },
+  "cutoffs": [
+    {
+      "year": 106,
+      "score": 77.43,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=169",
+      "sourceTitle": "106年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "faf3b4f2269eafc29364cc40b0c25852fb721b05a51b23d16df029b1fd16b93f",
+      "statisticsRow": "統計 309 167 54.05 142 45.95 239 126 52.72 113 47.28 7 77.43 8 2 25.00 6 75.00 77.35 75.45 79.58 3.35 1.59 5.31"
+    },
+    {
+      "year": 107,
+      "score": 78.45,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=83",
+      "sourceTitle": "107年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "cbf70d84b63996e1d8ed2a718740f2d2e8338949978da54c530f88aeb4bf37b1",
+      "statisticsRow": "統計 323 175 54.18 148 45.82 255 138 54.12 117 45.88 5 78.45 6 4 66.67 2 33.33 78.95 78.86 79.05 2.35 2.90 1.71"
+    },
+    {
+      "year": 108,
+      "score": 76.85,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=1797",
+      "sourceTitle": "108年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "6c432b54428d718174ba027502288ae746e2b98aba5ac94081881fe0b5822a39",
+      "statisticsRow": "統計 212 132 62.26 80 37.74 155 94 60.65 61 39.35 6 76.85 8 6 75.00 2 25.00 73.11 71.21 76.25 5.16 6.38 3.28"
+    },
+    {
+      "year": 109,
+      "score": 73.35,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=1891",
+      "sourceTitle": "109年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "a7ae88b0dd88ab0bb8894e5ab29d836a0f8bf98571f27069768294d781586683",
+      "statisticsRow": "統計 252 144 57.14 108 42.86 180 102 56.67 78 43.33 8 73.35 8 2 25.00 6 75.00 71.43 70.83 72.22 4.44 1.96 7.69"
+    },
+    {
+      "year": 110,
+      "score": 74.78,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=1990",
+      "sourceTitle": "110年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "a17c8178fccd80831f14d77aada042dbfbde198a09f297041bb9ec97c7960c66",
+      "statisticsRow": "統計 316 177 56.01 139 43.99 229 123 53.71 106 46.29 9 74.78 9 8 88.89 1 11.11 72.47 69.49 76.26 3.93 6.50 0.94"
+    },
+    {
+      "year": 111,
+      "score": 76.65,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=2088",
+      "sourceTitle": "111年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "20e0c4554ad0cb19c4fd048ed961a6702ec093c73c5a1f46a1fdfd0081e062a0",
+      "statisticsRow": "統計 235 141 60.00 94 40.00 181 104 57.46 77 42.54 7 76.65 7 3 42.86 4 57.14 77.02 73.76 81.91 3.87 2.88 5.19"
+    },
+    {
+      "year": 112,
+      "score": 76.8,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=2188",
+      "sourceTitle": "112年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "f1de1024a1a1cb185ae707e9678836d444ae3a738dafee791108fad5337d0450",
+      "statisticsRow": "統計 230 133 57.83 97 42.17 164 91 55.49 73 44.51 7 76.80 8 7 87.50 1 12.50 71.30 68.42 75.26 4.88 7.69 1.37"
+    },
+    {
+      "year": 113,
+      "score": 79.13,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=2299",
+      "sourceTitle": "113年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "09d6ed34c68527b39753d2a9e89b081ebbd0b57abe0bbff4423963f45513979c",
+      "statisticsRow": "統計 167 101 60.48 66 39.52 124 75 60.48 49 39.52 4 79.13 4 3 75.00 1 25.00 74.25 74.26 74.24 3.23 4.00 2.04"
+    },
+    {
+      "year": 114,
+      "score": 70.68,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=3402",
+      "sourceTitle": "114年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "d2280e49ae2d24fbbb48e0803d7a1a792a9cb68fabb73a8cc06a8cc369902dea",
+      "statisticsRow": "統計 121 71 58.68 50 41.32 92 52 56.52 40 43.48 7 70.68 14 9 64.29 5 35.71 76.03 73.24 80.00 15.22 17.31 12.50"
+    },
+    {
+      "year": 115,
+      "score": 71.08,
+      "source": "https://wwwc.moex.gov.tw/main/ExamReport/wHandStatisticsFile.ashx?file_id=3503",
+      "sourceTitle": "115年公務人員初等考試報考人數暨錄取或及格率按類科分",
+      "page": 1,
+      "sha256": "f3cd5eed241b16a176754ac040f1078ccf15fd8ffa8fa7752d70c4fb0e6767d6",
+      "statisticsRow": "統計 111 69 62.16 42 37.84 82 52 63.41 30 36.59 71.08 10 7 70.00 3 30.00 73.87 75.36 71.43 12.20 13.46 10.00"
+    }
+  ],
+  "scoringSource": "https://law.exam.gov.tw/LawContent.aspx?id=FL016734",
+  "eligibilitySource": "https://law.exam.gov.tw/LawContent.aspx?id=FL016761"
+}

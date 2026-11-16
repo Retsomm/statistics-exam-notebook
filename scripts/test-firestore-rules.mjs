@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {applyStudyMutation,readStudyMetadata} from '../lib/sync-model.mjs';
 import {memoryCardId} from '../lib/memory-cards.mjs';
 import {initializeApp,deleteApp} from 'firebase/app';
-import {connectFirestoreEmulator,doc,getDoc,getFirestore,serverTimestamp,setDoc,terminate} from 'firebase/firestore';
+import {collection,getDocs,connectFirestoreEmulator,doc,getDoc,getFirestore,serverTimestamp,setDoc,terminate} from 'firebase/firestore';
 
 const address=process.env.FIRESTORE_EMULATOR_HOST;
 if(!address)throw new Error('Run this test through the Firestore emulator.');
@@ -39,6 +39,14 @@ try{
  await setDoc(session,{sessionJSON:removed,applied:['memory-add','memory-remove'],revision:3,updatedAt:serverTimestamp()});
  assert.equal(readStudyMetadata((await getDoc(session)).data().sessionJSON).memoryBookmarks[cardId],false);
  await denied(setDoc(doc(db,'users','another-user','study','session'),{sessionJSON:saved,applied:[],revision:1,updatedAt:serverTimestamp()}));
+ const mockId='mock-11111111-1111-4111-8111-111111111111';
+ const mock=doc(db,'users',uid,'study',mockId),mockData={sessionJSON:JSON.stringify({id:mockId}),applied:[],revision:1,updatedAt:serverTimestamp()};
+ await setDoc(mock,mockData);assert.equal((await getDoc(mock)).data().revision,1);
+ assert.ok((await getDocs(collection(db,'users',uid,'study'))).docs.some(d=>d.id===mockId));
+ await denied(getDocs(collection(db,'users','another-user','study')));
+ await denied(setDoc(doc(db,'users','another-user','study',mockId),mockData));
+ await denied(setDoc(doc(db,'users',uid,'study','mock-invalid'),mockData));
+ await denied(setDoc(mock,{...mockData,unexpected:true}));
  console.log('Firestore rules accept the reported write and reject unauthorized writes.');
 }finally{
  await terminate(db);

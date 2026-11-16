@@ -15,9 +15,9 @@ test('initial loading and retry never present local progress as cloud progress',
  assert.match(app,/onClick=\{cloud.retry\}/);
  assert.match(hook,/retry:\(\)=>\{readyRef\.current=false;setReady\(false\);controller\.current\?\.retry\(\)/);
 });
-test('both Firestore subscriptions reject cached snapshots before publishing progress',()=>{
- assert.equal((sync.match(/if\(this.disposed\|\|snap.metadata.fromCache\)return/g)||[]).length,2);
- assert.match(sync,/if\(!this.qReady\|\|!this.sReady\)return/);
+test('all Firestore subscriptions reject cached snapshots before publishing progress',()=>{
+ assert.equal((sync.match(/if\(this.disposed\|\|snap.metadata.fromCache\)return/g)||[]).length,3);
+ assert.match(sync,/if\(!this.qReady\|\|!this.sReady\|\|!this.mReady\)return/);
  assert.match(sync,/if\(\(snap.data\(\)\?\.revision\|\|0\)<this.sessionRevision\)return/);
 });
 test('automatic score recovery also waits for cloud initialization',()=>{

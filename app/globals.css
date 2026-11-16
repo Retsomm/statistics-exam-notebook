@@ -319,3 +319,12 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
 .memory-deck-help{margin-top:16px;color:var(--muted);font-size:13px;line-height:1.8;}
 @media(max-width:600px){.memory-flashcard{padding:14px;border-radius:22px;}.memory-face{padding:20px;}.memory-deck-controls{gap:6px;grid-template-columns:1fr 1.4fr 1.4fr 1fr;}.memory-deck-controls .btn{padding:10px 5px;font-size:13px;}.memory-card-question{font-size:23px;}.memory-card-answer-text{font-size:19px;}}
 @media(prefers-reduced-motion:reduce){.memory-flip-rotor{transition:none;}}
+
+.mock-clock{position:sticky;top:0;z-index:5;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:16px;margin-bottom:20px;border:1px solid var(--line);border-radius:16px;background:var(--paper);}
+.mock-clock time{font-variant-numeric:tabular-nums;font-size:26px;}
+.mock-papers{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;}
+.mock-papers article{padding:16px;border:1px solid var(--line);border-radius:16px;}
+.mock-table-wrap{max-width:100%;overflow:auto;}
+.mock-table{width:100%;border-collapse:collapse;text-align:left;}
+.mock-table th,.mock-table td{padding:12px;border-bottom:1px solid var(--line);white-space:nowrap;}
+.mock-table a{text-decoration:underline;}
