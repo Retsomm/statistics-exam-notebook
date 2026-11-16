@@ -2,6 +2,7 @@ import {test,expect} from '@playwright/test';
 test('mobile practice, wrong answers, bookmarks and readable text',async({page})=>{
   await page.goto('/demo');
   await page.getByRole('button',{name:'開始今日練習'}).click();
+  await page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'國文',exact:true})}).first().getByRole('button',{name:/開始練習/}).click();
   await expect(page.locator('.question-stem')).toBeVisible();
   expect(await page.locator('.question-stem').evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(20);
   expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
@@ -19,7 +20,7 @@ test('mobile practice, wrong answers, bookmarks and readable text',async({page})
 test('Firebase setup failure is explicit and guest practice remains available',async({page})=>{
   await page.route('**/__/firebase/init.json',route=>route.fulfill({status:404,body:'Not configured'}));
   await page.goto('/sign-in/');
-  await expect(page.getByRole('alert')).toContainText('Firebase 設定');
+  await expect(page.locator('.login-card').getByRole('alert')).toContainText('Firebase 設定');
   await expect(page.getByRole('button',{name:'以 Google 帳戶登入'})).toBeDisabled();
   await page.getByRole('link',{name:'先以訪客模式練習'}).click();
   await expect(page.getByRole('heading',{name:'歡迎回到你的考試練習。'})).toBeVisible();
@@ -58,7 +59,7 @@ test('explanation popup is opt-in, saves independently, and next question closes
 test('English word cards can be saved, reviewed, searched and removed in unified favorites',async({page})=>{
  await page.goto('/demo/');
  await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'歷屆題庫',exact:true}).click();
- await page.getByRole('searchbox',{name:'搜尋題目'}).fill('reliable');
+ await page.getByRole('searchbox',{name:'搜尋題目'}).fill('talent');
  await page.locator('.question-row').first().getByRole('button',{name:'練習 →',exact:true}).click();
  await page.locator('.answer-list .option').first().click();await page.getByRole('button',{name:'確認答案',exact:true}).click();
  await expect(page.getByRole('dialog')).toHaveCount(0);
