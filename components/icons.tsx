@@ -1,5 +1,9 @@
 const shapes: Record<string,string> = {
   home:'M3 10 12 3l9 7v10h-6v-7H9v7H3Z',
+  library:'M3 4h4v16H3Zm6 0h4v16H9Zm6 1 4-1 3 15-4 1ZM3 8h4m2 0h4m-10 9h4m2 0h4',
+  stopwatch:'M10 2h4m-2 0v3m6 1 2-2M12 9v4l3 2M20 13a8 8 0 1 1-16 0 8 8 0 0 1 16 0',
+  notebook:'M5 3h14v18H5Zm-2 4h4m-4 5h4m-4 5h4m3-10h6m-6 4h6m-6 4h4',
+  archive:'M3 3h18v4H3Zm2 4v14h14V7m-10 5h6',
   chart:'M4 20V10m6 10V4m6 16v-7m6 7V7M3 20h18',
   star:'m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9Z',
   wrong:'M5 3h12l3 3v15H5Zm4 6h6m-6 4h6m-6 4h3',

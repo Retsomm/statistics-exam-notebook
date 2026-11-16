@@ -34,7 +34,7 @@ import type {ExplanationSelection} from '@/lib/explanation-flow.mjs';
 const MemoryCollection=dynamic(()=>import('./memory-collection'),{loading:()=> <LoadingState inline message="正在打開記憶卡片…"/>});
 const StudyNotes=dynamic(()=>import('./study-notes'),{loading:()=> <LoadingState inline message="正在打開重點整理…"/>});
 const names:Record<Screen,string>={mock:'模擬考',overview:'學習總覽',bank:'歷屆題庫',wrong:'錯題本',favorites:'收藏與錯題',notes:'重點整理',history:'學習紀錄',settings:'備份與資料',practice:'練習中',reports:'題目回報'};
-const tabs:{screen:Screen;icon:string}[]=[{screen:'overview',icon:'home'},{screen:'bank',icon:'chart'},{screen:'mock',icon:'chart'},{screen:'notes',icon:'chart'},{screen:'favorites',icon:'star'},{screen:'settings',icon:'settings'}];
+const tabs:{screen:Screen;icon:string}[]=[{screen:'overview',icon:'home'},{screen:'bank',icon:'library'},{screen:'mock',icon:'stopwatch'},{screen:'notes',icon:'notebook'},{screen:'favorites',icon:'star'},{screen:'settings',icon:'archive'}];
 const percent=(a:number,b:number)=>b?Math.round(a/b*100):0;
 
 const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:string;email:string;demo?:boolean;signOutAction?:()=>Promise<void>;uid?:string})=>{
