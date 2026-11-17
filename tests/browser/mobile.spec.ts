@@ -1,3 +1,4 @@
+import {openPersonalSection} from './personal-navigation';
 import {test,expect} from '@playwright/test';
 test('mobile practice, wrong answers, bookmarks and readable text',async({page})=>{
   await page.goto('/demo');
@@ -10,10 +11,10 @@ test('mobile practice, wrong answers, bookmarks and readable text',async({page})
   await page.locator('.answer-list .option').first().click();
   await page.getByRole('button',{name:'確認答案',exact:true}).click();
   await expect(page.getByRole('status')).toContainText('錯題本');
-  await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏與錯題/}).click();
+  await openPersonalSection(page,'收藏與錯題');
   await page.getByRole('tab',{name:/錯題本/}).click();
   await expect(page.locator('.question-row')).toHaveCount(1);
-  await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+  await openPersonalSection(page,'收藏與錯題');
   await page.getByRole('tab',{name:/收藏題目/}).click();
   await expect(page.locator('.question-row')).toHaveCount(1);
 });
@@ -42,14 +43,14 @@ test('explanation popup is opt-in, saves independently, and next question closes
  await dialog.getByRole('button',{name:'下一題',exact:false}).click();
  await expect(page.getByRole('dialog')).toHaveCount(0);
  await expect(page.getByText('115 年 · 國文 · 第 2 題',{exact:false})).toBeVisible();
- await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+ await openPersonalSection(page,'收藏與錯題');
  await page.getByRole('tab',{name:/收藏解析/}).click();
  await expect(page.locator('.question-row')).toHaveCount(1);
  await page.getByRole('button',{name:'查看解析 →',exact:true}).click();
  await expect(page.getByRole('dialog')).toBeVisible();
  await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);
  await page.reload();
- await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+ await openPersonalSection(page,'收藏與錯題');
  await page.getByRole('tab',{name:/收藏解析/}).click();
  await expect(page.locator('.question-row')).toHaveCount(1);
  await page.getByRole('button',{name:/取消收藏第/}).click();
@@ -68,14 +69,14 @@ test('English word cards can be saved, reviewed, searched and removed in unified
  const word=(await save.getAttribute('aria-label'))!.replace('收藏單字 ','');await save.click();
  await expect(page.getByRole('dialog').getByRole('button',{name:`取消收藏單字 ${word}`,exact:true})).toHaveAttribute('aria-pressed','true');
  await page.getByRole('button',{name:'關閉解析',exact:true}).click();
- await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();
+ await openPersonalSection(page,'收藏與錯題');
  await page.getByRole('tab',{name:/收藏單字/}).click();
  const card=page.locator('.saved-vocabulary .vocabulary-card');await expect(card).toHaveCount(1);
  await expect(card.getByRole('button',{name:'顯示中文與例句'})).toHaveAttribute('aria-expanded','false');
  await card.getByRole('button',{name:'顯示中文與例句'}).click();
  await expect(card.getByRole('button',{name:'隱藏中文與例句'})).toHaveAttribute('aria-expanded','true');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
- await page.reload();await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:/^收藏/}).click();await page.getByRole('tab',{name:/收藏單字/}).click();
+ await page.reload();await openPersonalSection(page,'收藏與錯題');await page.getByRole('tab',{name:/收藏單字/}).click();
  await expect(page.locator('.saved-vocabulary .vocabulary-card')).toHaveCount(1);
  await page.getByRole('searchbox',{name:'搜尋收藏單字'}).fill('zzzz_no_match');await expect(page.getByRole('heading',{name:'沒有符合的收藏單字'})).toBeVisible();
  await page.getByRole('searchbox',{name:'搜尋收藏單字'}).fill(word);

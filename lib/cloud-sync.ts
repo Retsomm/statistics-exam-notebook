@@ -1,6 +1,7 @@
 'use client';
 import { collection, doc, getFirestore, getDocsFromServer, getDocFromServer, onSnapshot, runTransaction, serverTimestamp, type Firestore, type Unsubscribe } from 'firebase/firestore';
 import {mergeMockRun} from './mock-exam.mjs';
+import {mergeVisitDays,readVisitDays} from './visit-days.mjs';
 import { mergeAttempts } from './attempts.mjs';
 import { firebaseAuth } from './firebase-client';
 import {applyStudyMutation,vocabularyMigration,bookmarkMigration,applyQuestionMutation,canCoalesceStudyMutations,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
@@ -17,7 +18,14 @@ export class CloudSync {
  constructor(private uid:string,private questions:Question[],private initial:StudyState,private receive:(s:StudyState)=>void,private status:(s:SyncStatus,detail?:string)=>void){
   this.queueKey=`yueri:sync:queue:v1:${uid}`;this.markerKey=`yueri:sync:migrated:v1:${uid}`;
   const known=new Set(questions.map(q=>q.id));
-  try{this.migrated=localStorage.getItem(this.markerKey)==='1';const saved=JSON.parse(localStorage.getItem(this.queueKey)||'[]');if(Array.isArray(saved))this.queue=saved.filter(m=>m&&typeof m.id==='string'&&m.patch&&['update','migrate'].includes(m.mode)&&(known.has(m.docId)||m.docId==='_session'||/^_mock-[a-f0-9-]{36}$/.test(m.docId)));}catch{this.status('error');}
+  try{this.migrated=localStorage.getItem(this.markerKey)==='1';const saved=JSON.parse(localStorage.getItem(this.queueKey)||'[]');if(Array.isArray(saved))this.queue=saved.filter(m=>m&&typeof m.id==='string'&&m.patch&&['update','migrate'].includes(m.mode)&&(known.has(m.docId)||m.docId==='_session'||m.docId==='_activity'||/^_mock-[a-f0-9-]{36}$/.test(m.docId)));}catch{this.status('error');}
+ }
+ private readStudyDocuments(documents:{id:string;data:()=>{sessionJSON?:string;revision?:number;applied?:string[]}}[]){
+  for(const document of documents){
+   const activity=document.id==='activity';if(!activity&&!document.id.startsWith('mock-'))continue;
+   const key=`_${document.id}`,data=document.data(),previous=this.mockRemote.get(key);
+   if((data.revision||0)>=(previous?.revision||0))this.mockRemote.set(key,{...data,...(activity?{visitDays:readVisitDays(data.sessionJSON)}:{mockRun:JSON.parse(data.sessionJSON||'null')})});
+  }
  }
  async start(){
   try{const auth=await firebaseAuth();if(this.disposed)return;if(auth.currentUser?.uid!==this.uid)throw Error('Account changed');this.db=getFirestore(auth.app);
@@ -27,7 +35,7 @@ export class CloudSync {
    },fail));
    const mockFail=()=>{this.mockUnavailable=true;this.mReady=true;this.refresh();};
    this.stops.push(onSnapshot(collection(this.db,'users',this.uid,'study'),{includeMetadataChanges:true},snap=>{
-    if(this.disposed||snap.metadata.fromCache)return;for(const d of snap.docs.filter(d=>d.id.startsWith('mock-'))){const previous=this.mockRemote.get(`_${d.id}`);if((d.data().revision||0)>=(previous?.revision||0))this.mockRemote.set(`_${d.id}`,{...d.data(),mockRun:JSON.parse(d.data().sessionJSON||'null')});}this.mockUnavailable=false;this.mReady=true;this.refresh();
+    if(this.disposed||snap.metadata.fromCache)return;this.readStudyDocuments(snap.docs);this.mockUnavailable=false;this.mReady=true;this.refresh();
    },mockFail));
    this.stops.push(onSnapshot(doc(this.db,'users',this.uid,'study','session'),{includeMetadataChanges:true},snap=>{
     if(this.disposed||snap.metadata.fromCache)return;if((snap.data()?.revision||0)<this.sessionRevision)return;this.sessionExists=snap.exists();this.sessionJSON=snap.data()?.sessionJSON;this.sessionRevision=snap.data()?.revision||0;if(!snap.metadata.fromCache)this.sReady=true;this.refresh();
@@ -51,7 +59,7 @@ export class CloudSync {
    for(const [id,value]of this.remote)if((value.revision||0)>(docs.get(id)?.revision||0))docs.set(id,value);
    this.remote=docs;this.qReady=true;
    if((session.data()?.revision||0)>=this.sessionRevision){this.sessionExists=session.exists();this.sessionJSON=session.data()?.sessionJSON;this.sessionRevision=session.data()?.revision||0;}
-   if(mocks)this.mockUnavailable=false;for(const d of (mocks?.docs||[]).filter(d=>d.id.startsWith('mock-'))){const old=this.mockRemote.get(`_${d.id}`);if((d.data().revision||0)>=(old?.revision||0))this.mockRemote.set(`_${d.id}`,{...d.data(),mockRun:JSON.parse(d.data().sessionJSON||'null')});}this.mReady=true;
+   if(mocks)this.mockUnavailable=false;this.readStudyDocuments(mocks?.docs||[]);this.mReady=true;
    this.sReady=true;this.refresh();
   }catch(error){if(!this.disposed)this.status('error',syncErrorMessage(error));}
   finally{this.fetching=false;}
@@ -65,7 +73,7 @@ export class CloudSync {
   if(this.disposed)return;
   for(const change of changes){
    const previous=[...this.queue].reverse().find(m=>m.docId===change.docId);
-   if(previous&&previous.mode===change.mode&&!this.inflight.has(previous.id)&&(change.docId!=='_session'||canCoalesceStudyMutations(previous.patch,change.patch))){previous.patch={...previous.patch,...change.patch,...(Object.hasOwn(previous.patch,'baseSessionJSON')?{baseSessionJSON:previous.patch.baseSessionJSON}:{}),...(change.patch.mockRun?{mockRun:mergeMockRun(previous.patch.mockRun,change.patch.mockRun)}:{}),...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.memoryBookmarks?{memoryBookmarks:{...previous.patch.memoryBookmarks,...change.patch.memoryBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
+   if(previous&&previous.mode===change.mode&&!this.inflight.has(previous.id)&&(change.docId!=='_session'||canCoalesceStudyMutations(previous.patch,change.patch))){previous.patch={...previous.patch,...change.patch,...(change.patch.visitDays?{visitDays:mergeVisitDays(previous.patch.visitDays,change.patch.visitDays)}:{}),...(Object.hasOwn(previous.patch,'baseSessionJSON')?{baseSessionJSON:previous.patch.baseSessionJSON}:{}),...(change.patch.mockRun?{mockRun:mergeMockRun(previous.patch.mockRun,change.patch.mockRun)}:{}),...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.memoryBookmarks?{memoryBookmarks:{...previous.patch.memoryBookmarks,...change.patch.memoryBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
    else this.queue.push({...change,id:crypto.randomUUID()});
   }
   if(changes.length){this.persist();this.status(navigator.onLine?'saving':'offline');this.schedule();}
@@ -94,15 +102,16 @@ export class CloudSync {
   batch.forEach(m=>this.inflight.add(m.id));let failed=false;
   await Promise.all(batch.map(async mutation=>{
    try{
-    const ref=mutation.docId.startsWith('_mock-')?doc(this.db!,'users',this.uid,'study',mutation.docId.slice(1)):mutation.docId==='_session'?doc(this.db!,'users',this.uid,'study','session'):doc(this.db!,'users',this.uid,'questions',mutation.docId);
+    const ref=mutation.docId==='_activity'?doc(this.db!,'users',this.uid,'study','activity'):mutation.docId.startsWith('_mock-')?doc(this.db!,'users',this.uid,'study',mutation.docId.slice(1)):mutation.docId==='_session'?doc(this.db!,'users',this.uid,'study','session'):doc(this.db!,'users',this.uid,'questions',mutation.docId);
     const committed=await runTransaction(this.db!,async tx=>{
      const snap=await tx.get(ref);const current=snap.data()||{};
      if(current.applied?.includes(mutation.id))return current;
-     if(mutation.docId.startsWith('_mock-')){
-      const existing={...current,mockRun:current.sessionJSON?JSON.parse(current.sessionJSON):undefined};
+     if(mutation.docId==='_activity'||mutation.docId.startsWith('_mock-')){
+      const activity=mutation.docId==='_activity';
+      const existing={...current,...(activity?{visitDays:readVisitDays(current.sessionJSON)}:{mockRun:current.sessionJSON?JSON.parse(current.sessionJSON):undefined})};
       const merged=applyQuestionMutation(existing,mutation);
-      const sessionJSON=JSON.stringify(merged.mockRun);
-      if(sessionJSON.length>200000)throw Error('Mock examination exceeds its storage limit');
+      const sessionJSON=JSON.stringify(activity?{visitDays:merged.visitDays}:merged.mockRun);
+      if(sessionJSON.length>(activity?150000:200000))throw Error('Study activity exceeds its storage limit');
       const next={sessionJSON,revision:(current.revision||0)+1,applied:merged.applied};tx.set(ref,{...next,updatedAt:serverTimestamp()});return next;
      }else if(mutation.docId==='_session'){
       const sessionJSON=applyStudyMutation(current.sessionJSON,mutation.patch,mutation.mode,snap.exists());
@@ -123,7 +132,7 @@ export class CloudSync {
     });
     // A transaction response is authoritative even if the realtime snapshot arrives later.
     if(mutation.docId==='_session'){const data=committed as {sessionJSON?:string;revision?:number};if((data.revision||0)>=this.sessionRevision){this.sessionJSON=data.sessionJSON;this.sessionRevision=data.revision||0;this.sessionExists=true;}}
-    else if(mutation.docId.startsWith('_mock-')){const data=committed as {sessionJSON:string;revision:number};if(data.revision>=(this.mockRemote.get(mutation.docId)?.revision||0))this.mockRemote.set(mutation.docId,{...data,mockRun:JSON.parse(data.sessionJSON)});}
+    else if(mutation.docId==='_activity'||mutation.docId.startsWith('_mock-')){const data=committed as {sessionJSON:string;revision:number};if(data.revision>=(this.mockRemote.get(mutation.docId)?.revision||0))this.mockRemote.set(mutation.docId,{...data,...(mutation.docId==='_activity'?{visitDays:readVisitDays(data.sessionJSON)}:{mockRun:JSON.parse(data.sessionJSON)})});}
     else if(((committed as CloudQuestion).revision||0)>=(this.remote.get(mutation.docId)?.revision||0))this.remote.set(mutation.docId,committed as CloudQuestion);
     this.queue=this.queue.filter(m=>m.id!==mutation.id);this.persist();
    }catch(error){failed=true;this.status('error',syncErrorMessage(error));}finally{this.inflight.delete(mutation.id);}

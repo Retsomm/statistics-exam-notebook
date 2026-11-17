@@ -8,8 +8,8 @@ export type ExamAttempt = {id:string;examId:string;startedAt:string;completedAt:
 export type StudySession = {attemptId?:string;examId?:string;startedAt?:string;ids:string[];index:number;title:string;choices:Record<string,string[]>;checked:Record<string,boolean>};
 export type MockPaper = {subjectIndex:number;ids:string[];choices:Record<string,string[]>;index:number;durationMs:number;points:number;startedAt?:string;completedAt?:string;elapsedMs?:number;remainingMs?:number;timedOut?:boolean;score?:number;max?:number};
 export type MockRun = {id:string;createdAt:string;papers:MockPaper[]};
-export type StudyState = {version:1;mockRuns:MockRun[];attempts:ExamAttempt[];bookmarks:string[];explanationBookmarks:string[];vocabularyBookmarks:string[];idiomBookmarks:string[];memoryBookmarks:string[];notes:Record<string,string>;records:Record<string,StudyRecord>;wrong:Record<string,Wrong>;history:History[];session:StudySession|null};
-export type Screen = 'mock'|'overview'|'bank'|'wrong'|'favorites'|'history'|'settings'|'practice'|'reports'|'notes';
+export type StudyState = {version:1;visitDays:string[];mockRuns:MockRun[];attempts:ExamAttempt[];bookmarks:string[];explanationBookmarks:string[];vocabularyBookmarks:string[];idiomBookmarks:string[];memoryBookmarks:string[];notes:Record<string,string>;records:Record<string,StudyRecord>;wrong:Record<string,Wrong>;history:History[];session:StudySession|null};
+export type Screen = 'mock'|'overview'|'bank'|'wrong'|'favorites'|'history'|'settings'|'backup'|'practice'|'reports'|'notes';
 
 export type CollectionTab = 'wrong'|'questions'|'explanations'|'idioms'|'words'|'memory';
 export type Vocabulary = {word:string;partOfSpeech:string;meaning:string;usage:string};

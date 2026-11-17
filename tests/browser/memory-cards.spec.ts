@@ -1,8 +1,9 @@
+import {openPersonalSection} from './personal-navigation';
 import {test,expect} from '@playwright/test';
 for(const width of [390,1440])test(`memory cards flip, save, reload and remove at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});await page.goto('/demo/');
  const nav=()=>page.getByRole('navigation',{name:'主要導覽'});
- await nav().getByRole('button',{name:'重點整理',exact:true}).click();
+ await openPersonalSection(page,'重點整理');
  await expect(page.getByRole('button',{name:'記憶卡片',exact:true})).toHaveAttribute('aria-pressed','true');
  await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();
  await page.getByLabel('選擇資料處理章節').selectOption('3-3');
@@ -19,16 +20,16 @@ for(const width of [390,1440])test(`memory cards flip, save, reload and remove a
  await expect(card.getByRole('button',{name:'取消收藏：資料鏈結層的責任',exact:true})).toHaveAttribute('aria-pressed','true');
  await page.getByLabel('只看收藏卡片').check();await expect(page.locator('.memory-card')).toHaveCount(1);
  await card.getByRole('button',{name:'閱讀完整重點',exact:true}).click();await expect(page.locator('.note-card')).toHaveCount(1);await expect(page.locator('.note-card h3')).toHaveText('3-3 資料鏈結層');
- await page.reload();await nav().getByRole('button',{name:/^收藏與錯題/}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();
+ await page.reload();await openPersonalSection(page,'收藏與錯題');await page.getByRole('tab',{name:/^記憶卡片/}).click();
  const saved=page.getByRole('article',{name:'資料鏈結層的責任',exact:true});await expect(saved).toBeVisible();await expect(saved.locator('.memory-back')).toHaveAttribute('aria-hidden','true');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
  await saved.getByRole('button',{name:'取消收藏：資料鏈結層的責任',exact:true}).click();await expect(page.getByRole('heading',{name:'還沒有收藏記憶卡片',exact:true})).toBeVisible();
- await page.reload();await nav().getByRole('button',{name:/^收藏與錯題/}).click();await page.getByRole('tab',{name:/^記憶卡片/}).click();await expect(page.locator('.memory-card')).toHaveCount(0);
+ await page.reload();await openPersonalSection(page,'收藏與錯題');await page.getByRole('tab',{name:/^記憶卡片/}).click();await expect(page.locator('.memory-card')).toHaveCount(0);
 });
 
 for(const width of [390,1440])test(`single-card navigation resets the face and rates without duplicate saves at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});await page.goto('/demo/');
- await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();
+ await openPersonalSection(page,'重點整理');
  await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();await page.getByLabel('選擇資料處理章節').selectOption('3-3');
  await expect(page.locator('.memory-card')).toHaveCount(1);await expect(page.getByText('第 1 / 7 張',{exact:true})).toBeVisible();
  await page.getByRole('button',{name:'翻面查看答案',exact:true}).click();await page.getByRole('button',{name:/^還不熟悉/}).click();
@@ -43,7 +44,7 @@ for(const width of [390,1440])test(`single-card navigation resets the face and r
 
 test('memory deck returns to its saved card after navigation and reload',async({page})=>{
  await page.goto('/demo/');
- const open=async()=>{await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();await page.getByLabel('選擇資料處理章節').selectOption('3-3');};
+ const open=async()=>{await openPersonalSection(page,'重點整理');await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();await page.getByLabel('選擇資料處理章節').selectOption('3-3');};
  await open();await page.getByRole('button',{name:'下一張',exact:true}).click();await expect(page.getByText('第 2 / 7 張',{exact:true})).toBeVisible();
  await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'學習總覽',exact:true}).click();await open();await expect(page.getByText('第 2 / 7 張',{exact:true})).toBeVisible();
  await page.reload();await open();await expect(page.getByText('第 2 / 7 張',{exact:true})).toBeVisible();
@@ -52,7 +53,7 @@ test('memory deck returns to its saved card after navigation and reload',async({
 
 for(const width of [390,1440])test(`memory deck preserves ratings and revealed face at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});await page.goto('/demo/');
- const open=async()=>{await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();await page.getByLabel('選擇資料處理章節').selectOption('3-3');};
+ const open=async()=>{await openPersonalSection(page,'重點整理');await page.getByRole('group',{name:'重點整理科目'}).getByRole('button',{name:/^資料處理大意/}).click();await page.getByLabel('選擇資料處理章節').selectOption('3-3');};
  await open();
  await page.getByRole('button',{name:'翻面查看答案',exact:true}).click();await page.getByRole('button',{name:/^記住了/}).click();
  await page.getByRole('button',{name:'翻面查看答案',exact:true}).click();await page.getByRole('button',{name:/^還不熟悉/}).click();

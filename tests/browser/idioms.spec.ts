@@ -1,8 +1,9 @@
+import {openPersonalSection} from './personal-navigation';
 import {test,expect} from '@playwright/test';
 for(const width of [390,1440])test(`idiom dictionary and shared answers at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:900});
  await page.goto('/demo/');
- await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'重點整理',exact:true}).click();
+ await openPersonalSection(page,'重點整理');
  await page.getByRole('button',{name:/歷屆成語庫/}).click();
  await expect(page.locator('.idiom-card')).toHaveCount(20);
  const first=await page.locator('.idiom-card h3').first().textContent();

@@ -1,5 +1,5 @@
 import type {StudyState,Question,History} from './types';
-export type CloudQuestion={mockRun?:StudyState['mockRuns'][number];revision?:number;bookmark?:boolean;explanationBookmark?:boolean;note?:string;record?:StudyState['records'][string];wrong?:StudyState['wrong'][string];history?:History[];applied?:string[]};
+export type CloudQuestion={visitDays?:string[];mockRun?:StudyState['mockRuns'][number];revision?:number;bookmark?:boolean;explanationBookmark?:boolean;note?:string;record?:StudyState['records'][string];wrong?:StudyState['wrong'][string];history?:History[];applied?:string[]};
 export type Mutation={id:string;docId:string;patch:CloudQuestion&{attempts?:StudyState['attempts'];sessionJSON?:string;baseSessionJSON?:string;vocabularyBookmarks?:Record<string,boolean>;memoryBookmarks?:Record<string,boolean>;idiomBookmarks?:Record<string,boolean>};mode:'update'|'migrate'};
 export function mergeHistory(a?:History[],b?:History[]):History[];
 export function stateChanges(before:StudyState,after:StudyState):Omit<Mutation,'id'>[];

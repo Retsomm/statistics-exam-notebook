@@ -47,6 +47,13 @@ try{
  await denied(setDoc(doc(db,'users','another-user','study',mockId),mockData));
  await denied(setDoc(doc(db,'users',uid,'study','mock-invalid'),mockData));
  await denied(setDoc(mock,{...mockData,unexpected:true}));
+ const activity=doc(db,'users',uid,'study','activity');
+ const activityData={sessionJSON:JSON.stringify({visitDays:['2026-11-17']}),applied:[],revision:1,updatedAt:serverTimestamp()};
+ await setDoc(activity,activityData);assert.equal((await getDoc(activity)).data().revision,1);
+ await denied(getDoc(doc(db,'users','another-user','study','activity')));
+ await denied(setDoc(doc(db,'users','another-user','study','activity'),activityData));
+ await denied(setDoc(activity,{...activityData,unexpected:true}));
+ await denied(setDoc(activity,{...activityData,sessionJSON:'x'.repeat(150001)}));
  console.log('Firestore rules accept the reported write and reject unauthorized writes.');
 }finally{
  await terminate(db);

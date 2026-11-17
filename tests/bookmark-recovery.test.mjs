@@ -7,25 +7,26 @@ import * as model from '../lib/sync-model.mjs';
 import * as mockExam from '../lib/mock-exam.mjs';
 import * as attempts from '../lib/attempts.mjs';
 import * as errors from '../lib/sync-errors.mjs';
+import * as visits from '../lib/visit-days.mjs';
 import {emptyState} from '../lib/study.mjs';
 const questions=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))).questions;
 const [q1,q2]=questions;
 const local=()=>({...emptyState(),bookmarks:[q1.id],explanationBookmarks:[q2.id],vocabularyBookmarks:['vocabulary-0123456789abcdef'],memoryBookmarks:['memory-0123456789abcdef'],idiomBookmarks:['束之高閣']});
 const code=ts.transpileModule(readFileSync(new URL('../lib/cloud-sync.ts',import.meta.url),'utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
-function controller(initial,remote=new Map(),sessionJSON=undefined,denyMocks=false){
- const storage=new Map([['yueri:sync:migrated:v1:account','1']]),timers=new Map();let sequence=0,received;
- const questionSnap=()=>({docs:[...remote].filter(([id])=>!id.startsWith('_mock-')).map(([id,data])=>({id,data:()=>data})),metadata:{fromCache:false}});
- const mockSnap=()=>({docs:[...remote].filter(([id])=>id.startsWith('_mock-')).map(([id,data])=>({id:id.slice(1),data:()=>data})),metadata:{fromCache:false}});
+function controller(initial,remote=new Map(),sessionJSON=undefined,denyMocks=false,storage=new Map([['yueri:sync:migrated:v1:account','1']])){
+ const timers=new Map();let received;
+ const questionSnap=()=>({docs:[...remote].filter(([id])=>!id.startsWith('_')).map(([id,data])=>({id,data:()=>data})),metadata:{fromCache:false}});
+ const mockSnap=()=>({docs:[...remote].filter(([id])=>id.startsWith('_mock-')||id==='_activity').map(([id,data])=>({id:id.slice(1),data:()=>data})),metadata:{fromCache:false}});
  const sessionSnap=()=>({exists:()=>sessionJSON!==undefined,data:()=>sessionJSON===undefined?undefined:{sessionJSON,revision:1},metadata:{fromCache:false}});
  const firestore={
   getFirestore:()=>({}),collection:(_db,...parts)=>parts.join('/'),doc:(_db,...parts)=>parts.join('/'),serverTimestamp:()=>0,
   onSnapshot:(ref,_options,callback,onError)=>{if(denyMocks&&ref.endsWith('/study')){onError(Error('permission-denied'));return()=>{};}callback(ref.endsWith('/questions')?questionSnap():ref.endsWith('/study')?mockSnap():sessionSnap());return()=>{};},
   getDocsFromServer:async ref=>{if(denyMocks&&ref.endsWith('/study'))throw Error('permission-denied');return ref.endsWith('/study')?mockSnap():questionSnap();},getDocFromServer:async()=>sessionSnap(),
-  runTransaction:async(_db,fn)=>fn({get:async ref=>{const key=ref.split('/').at(-1),id=key.startsWith('mock-')?'_'+key:key;return ref.endsWith('/study/session')?sessionSnap():{exists:()=>remote.has(id),data:()=>remote.get(id)};},set:(ref,data)=>{const key=ref.split('/').at(-1),id=key.startsWith('mock-')?'_'+key:key;if(ref.endsWith('/study/session'))sessionJSON=data.sessionJSON;else remote.set(id,data);}}),
+  runTransaction:async(_db,fn)=>fn({get:async ref=>{const key=ref.split('/').at(-1),id=key==='activity'||key.startsWith('mock-')?'_'+key:key;return ref.endsWith('/study/session')?sessionSnap():{exists:()=>remote.has(id),data:()=>remote.get(id)};},set:(ref,data)=>{const key=ref.split('/').at(-1),id=key==='activity'||key.startsWith('mock-')?'_'+key:key;if(ref.endsWith('/study/session'))sessionJSON=data.sessionJSON;else remote.set(id,data);}}),
  };
  const module={exports:{}};
- vm.runInNewContext(code,{exports:module.exports,module,require:name=>name==='firebase/firestore'?firestore:name==='./firebase-client'?{firebaseAuth:async()=>({currentUser:{uid:'account'},app:{}})}:name==='./sync-model.mjs'?model:name==='./attempts.mjs'?attempts:name==='./mock-exam.mjs'?mockExam:errors,
- localStorage:{getItem:key=>storage.get(key)??null,setItem:(key,value)=>storage.set(key,value)},navigator:{onLine:true},window:{addEventListener(){},removeEventListener(){}},document:{addEventListener(){},removeEventListener(){},visibilityState:'visible'},crypto:{randomUUID:()=>`mutation-${++sequence}`},setTimeout:fn=>{const id=++sequence;timers.set(id,fn);return id;},clearTimeout:id=>timers.delete(id)});
+ vm.runInNewContext(code,{exports:module.exports,module,require:name=>name==='firebase/firestore'?firestore:name==='./firebase-client'?{firebaseAuth:async()=>({currentUser:{uid:'account'},app:{}})}:name==='./sync-model.mjs'?model:name==='./attempts.mjs'?attempts:name==='./mock-exam.mjs'?mockExam:name==='./visit-days.mjs'?visits:errors,
+ localStorage:{getItem:key=>storage.get(key)??null,setItem:(key,value)=>storage.set(key,value)},navigator:{onLine:true},window:{addEventListener(){},removeEventListener(){}},document:{addEventListener(){},removeEventListener(){},visibilityState:'visible'},crypto:{randomUUID:()=>crypto.randomUUID()},setTimeout:fn=>{const id=crypto.randomUUID();timers.set(id,fn);return id;},clearTimeout:id=>timers.delete(id)});
  const sync=new module.exports.CloudSync('account',questions,initial,state=>{received=state;},()=>{});
  return {sync,remote,get received(){return received;},get sessionJSON(){return sessionJSON;},flush:async()=>{const callbacks=[...timers.values()];timers.clear();callbacks.forEach(fn=>fn());for(let i=0;i<30;i++)await Promise.resolve();}};
 }
@@ -83,4 +84,21 @@ test('unavailable mock permissions retain local pending results without blocking
  assert.deepEqual(device.received.bookmarks,initial.bookmarks);assert.equal(device.received.mockRuns.length,1);
  assert.equal(device.received.mockRuns[0].id,initial.mockRuns[0].id);
  device.sync.stop();
+});
+
+test('visit dates survive queued reload, coalescing and stale concurrent devices',async()=>{
+ const storage=new Map([['yueri:sync:migrated:v1:account','1']]),remote=new Map();
+ const first=controller(emptyState(),remote,undefined,false,storage);await first.sync.start();
+ first.sync.enqueue([{docId:'_activity',mode:'update',patch:{visitDays:['2026-11-15']}}]);
+ first.sync.enqueue([{docId:'_activity',mode:'update',patch:{visitDays:['2026-11-16']}}]);
+ first.sync.stop();
+ const restored=controller(emptyState(),remote,undefined,false,storage);await restored.sync.start();
+ const stale=controller(emptyState(),remote);await stale.sync.start();
+ stale.sync.enqueue([{docId:'_activity',mode:'update',patch:{visitDays:['2026-11-17','2026-11-16']}}]);
+ await restored.flush();await stale.flush();
+ assert.deepEqual(visits.readVisitDays(remote.get('_activity').sessionJSON),['2026-11-15','2026-11-16','2026-11-17']);
+ const second=controller(emptyState(),remote);await second.sync.start();
+ assert.deepEqual(second.received.visitDays,['2026-11-15','2026-11-16','2026-11-17']);
+ assert.equal(remote.has('activity'),false);
+ restored.sync.stop();stale.sync.stop();second.sync.stop();
 });
