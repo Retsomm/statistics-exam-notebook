@@ -1,4 +1,5 @@
 import {mkdirSync,writeFileSync} from 'node:fs';
+import {reviewedProfessionalExplanation} from '../professional-import/reviewed.mjs';
 
 const normalise=value=>String(value||'').normalize('NFKC').replace(/\s+/g,' ').trim();
 const topics=[
@@ -119,6 +120,7 @@ const checkedCalculations={
  },
 };
 function explanationFor(question,exam){
+ const reviewed=reviewedProfessionalExplanation(question,exam);if(reviewed)return reviewed;
  const checked=checkedCalculations[question.id];
  if(checked)return {summary:checked.summary.replace('。','。\n\n'),options:checked.options,optionVerdicts:Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)?'可以選。':'不選。'])),sources:[{title:`${exam.year} 年初等考試統計學大意官方試題與答案`,url:exam.source}]};
  const topic=topicFor(question),correct=question.options.find(option=>question.accepted.includes(option.letter));
@@ -134,10 +136,15 @@ function explanationFor(question,exam){
  return {summary,options,optionVerdicts,sources:[{title:`${exam.year} 年初等考試統計學大意官方試題與答案`,url:exam.source}]};
 }
 
-export function writeStatisticsExplanations(bank,baseUrl=new URL('../../data/explanations/',import.meta.url)){
- mkdirSync(baseUrl,{recursive:true});
+export function buildStatisticsExplanations(bank){
+ const output=new Map();
  for(const exam of bank.exams.filter(exam=>exam.subjectIndex===2)){
   const entries=Object.fromEntries(bank.questions.filter(question=>question.examId===exam.id).map(question=>[question.id,explanationFor(question,exam)]));
-  writeFileSync(new URL(`${exam.id}.json`,baseUrl),JSON.stringify(entries,null,2)+'\n');
+  output.set(exam.id,entries);
  }
+ return output;
+}
+export function writeStatisticsExplanations(bank,baseUrl=new URL('../../data/explanations/',import.meta.url)){
+ mkdirSync(baseUrl,{recursive:true});
+ for(const [examId,entries] of buildStatisticsExplanations(bank))writeFileSync(new URL(`${examId}.json`,baseUrl),JSON.stringify(entries,null,2)+'\n');
 }

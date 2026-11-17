@@ -1,0 +1,1564 @@
+[
+  {
+    "id": "097-2s-1",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 1,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "調查班上10位同學的身高並根據所得的資料做下列陳述：全校同學的平均身高165公分，這是下列那一個\n  名詞的例子？\n(A) 敘述統計（descriptive statistics）\n(B) 推論統計（inferential statistics）\n(C) 參數（parameter）\n(D) 母體（population）",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "調查班上10位同學的身高並根據所得的資料做下列陳述：全校同學的平均身高165公分，這是下列那一個\n  名詞的例子？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "敘述統計（descriptive statistics）"
+      },
+      {
+        "letter": "B",
+        "text": "推論統計（inferential statistics）"
+      },
+      {
+        "letter": "C",
+        "text": "參數（parameter）"
+      },
+      {
+        "letter": "D",
+        "text": "母體（population）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-2",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 2,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不是用來測量資料的分散情形？\n(A) 全距（range）\n(B) 變異數（variance）\n(C) 算術平均（arithmetic mean）\n(D) 標準差（standard deviation）",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列何者不是用來測量資料的分散情形？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "全距（range）"
+      },
+      {
+        "letter": "B",
+        "text": "變異數（variance）"
+      },
+      {
+        "letter": "C",
+        "text": "算術平均（arithmetic mean）"
+      },
+      {
+        "letter": "D",
+        "text": "標準差（standard deviation）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-3",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 3,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "就資料7, 5, 6, 4, 7, 8, 12而言，下列何者正確？\n(A) 均數、中位數及眾數都相等\n(B) 只有均數及中位數相等\n(C) 只有均數及眾數相等\n(D) 只有中位數及眾數相等",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "就資料7, 5, 6, 4, 7, 8, 12而言，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "均數、中位數及眾數都相等"
+      },
+      {
+        "letter": "B",
+        "text": "只有均數及中位數相等"
+      },
+      {
+        "letter": "C",
+        "text": "只有均數及眾數相等"
+      },
+      {
+        "letter": "D",
+        "text": "只有中位數及眾數相等"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-4",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 4,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "相關係數r的範圍，下列何者正確？\n(A) 0 ≦ r ≦ 1\n(B) -1≦ r ≦ 1\n(C) -∞< r <+∞\n(D) 1≦  r ≦100",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "相關係數r的範圍，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0 ≦ r ≦ 1"
+      },
+      {
+        "letter": "B",
+        "text": "-1≦ r ≦ 1"
+      },
+      {
+        "letter": "C",
+        "text": "-∞< r <+∞"
+      },
+      {
+        "letter": "D",
+        "text": "1≦  r ≦100"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-5",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 5,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "單峰左偏（或稱負偏）的資料，其均數、中位數及眾數具有下列何種特性？\n(A) 均數=中位數=眾數\n(B) 均數<中位數<眾數\n(C) 均數>中位數>眾數\n(D) 均數<眾數<中位數",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "單峰左偏（或稱負偏）的資料，其均數、中位數及眾數具有下列何種特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "均數=中位數=眾數"
+      },
+      {
+        "letter": "B",
+        "text": "均數<中位數<眾數"
+      },
+      {
+        "letter": "C",
+        "text": "均數>中位數>眾數"
+      },
+      {
+        "letter": "D",
+        "text": "均數<眾數<中位數"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-6",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 6,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若每一個可能的樣本被抽的機會相等，此抽樣方法稱為：\n(A) 簡單隨機抽樣（simple  random sampling）\n(B) 分層隨機抽樣（stratified random sampling）\n(C) 部落抽樣（cluster sampling）\n(D) 系統抽樣（systematic sampling）",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "若每一個可能的樣本被抽的機會相等，此抽樣方法稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "簡單隨機抽樣（simple  random sampling）"
+      },
+      {
+        "letter": "B",
+        "text": "分層隨機抽樣（stratified random sampling）"
+      },
+      {
+        "letter": "C",
+        "text": "部落抽樣（cluster sampling）"
+      },
+      {
+        "letter": "D",
+        "text": "系統抽樣（systematic sampling）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-7",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 7,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若A與B事件互斥（mutually exclusive），P(A) = 0.3且P(B) = 0.5，則P(A∩B) 等於：\n(A) 0.30\n(B) 0.50\n(C) 0.00\n(D) 0.20",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "若A與B事件互斥（mutually exclusive），P(A) = 0.3且P(B) = 0.5，則P(A∩B) 等於：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.30"
+      },
+      {
+        "letter": "B",
+        "text": "0.50"
+      },
+      {
+        "letter": "C",
+        "text": "0.00"
+      },
+      {
+        "letter": "D",
+        "text": "0.20"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-8",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 8,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若A與B事件互相獨立，P(A)  = 0.38且P(B) = 0.55，則P(A⎮B) 等於：\n(A) 0.17\n(B) 0.00\n(C) 0.55\n(D) 0.38",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "若A與B事件互相獨立，P(A)  = 0.38且P(B) = 0.55，則P(A⎮B) 等於：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.17"
+      },
+      {
+        "letter": "B",
+        "text": "0.00"
+      },
+      {
+        "letter": "C",
+        "text": "0.55"
+      },
+      {
+        "letter": "D",
+        "text": "0.38"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-9",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 9,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某一電子工廠有  4 條電子零件生產線（L1、L2、L3、L4），其電子零件在L1、L2、L3、L4  之生產比例分\n  別是20%、25%、15%、40%，根據該廠之品管記錄，L1、L2、L3、L4生產電子零件之不良率分別是1.5%、\n  2%、1%、3%，如果該廠隨機抽出一個不良電子零件，則該零件來自L4生產線之機率為：\n(A) 0.0215\n(B) 0.55814\n(C) 0.075\n(D) 0.4",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "某一電子工廠有  4 條電子零件生產線（L1、L2、L3、L4），其電子零件在L1、L2、L3、L4  之生產比例分\n  別是20%、25%、15%、40%，根據該廠之品管記錄，L1、L2、L3、L4生產電子零件之不良率分別是1.5%、\n  2%、1%、3%，如果該廠隨機抽出一個不良電子零件，則該零件來自L4生產線之機率為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.0215"
+      },
+      {
+        "letter": "B",
+        "text": "0.55814"
+      },
+      {
+        "letter": "C",
+        "text": "0.075"
+      },
+      {
+        "letter": "D",
+        "text": "0.4"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-10",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 10,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某家商店200位顧客的性別及婚姻狀況之分布如下表：\n\n  男  女\n\n  單身  20  30\n  已婚  100  50\n\n  若已知某一顧客是男的，則該顧客已婚的機率為：\n(A) 0.1\n(B) 0.5\n(C) 0.167\n(D) 0.833",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "某家商店200位顧客的性別及婚姻狀況之分布如下表：\n\n  男  女\n\n  單身  20  30\n  已婚  100  50\n\n  若已知某一顧客是男的，則該顧客已婚的機率為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.1"
+      },
+      {
+        "letter": "B",
+        "text": "0.5"
+      },
+      {
+        "letter": "C",
+        "text": "0.167"
+      },
+      {
+        "letter": "D",
+        "text": "0.833"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "097-2s-11",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 11,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "有關波松隨機變數（Poisson  random variable）的陳述下列何者正確？\n(A) 具無限多個可能值的離散隨機變數\n(B) 具有限多個可能值的離散隨機變數\n(C) 具無限多個可能值的連續隨機變數\n(D) 具有限多個可能值的連續隨機變數",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "有關波松隨機變數（Poisson  random variable）的陳述下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "具無限多個可能值的離散隨機變數"
+      },
+      {
+        "letter": "B",
+        "text": "具有限多個可能值的離散隨機變數"
+      },
+      {
+        "letter": "C",
+        "text": "具無限多個可能值的連續隨機變數"
+      },
+      {
+        "letter": "D",
+        "text": "具有限多個可能值的連續隨機變數"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-12",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 12,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "具有n = 100與p = 0.20之二項分配（binomial distribution）的變異數為：\n(A) 100\n(B) 80\n(C) 20\n(D) 16",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "具有n = 100與p = 0.20之二項分配（binomial distribution）的變異數為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "100"
+      },
+      {
+        "letter": "B",
+        "text": "80"
+      },
+      {
+        "letter": "C",
+        "text": "20"
+      },
+      {
+        "letter": "D",
+        "text": "16"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-13",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 13,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若隨機變數X服從均勻分配（uniform  distribution），且40≤ X ≤50，則P（35≤ X ≤45）為：\n(A) 1.0\n(B) 0.5\n(C) 0.25\n(D) 10",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若隨機變數X服從均勻分配（uniform  distribution），且40≤ X ≤50，則P（35≤ X ≤45）為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1.0"
+      },
+      {
+        "letter": "B",
+        "text": "0.5"
+      },
+      {
+        "letter": "C",
+        "text": "0.25"
+      },
+      {
+        "letter": "D",
+        "text": "10"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-14",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 14,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若某公司生產燈泡不良率為4%，則一批含1450個燈泡的貨，其不良燈泡之期望個數為：\n(A) 145\n(B) 4\n(C) 50\n(D) 58",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "若某公司生產燈泡不良率為4%，則一批含1450個燈泡的貨，其不良燈泡之期望個數為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "145"
+      },
+      {
+        "letter": "B",
+        "text": "4"
+      },
+      {
+        "letter": "C",
+        "text": "50"
+      },
+      {
+        "letter": "D",
+        "text": "58"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-15",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 15,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "假設大學入學考試成績分布為具有均數  500 及標準差 100 之常態分配，則考生成績落在  400 到 600 之間的\n\n  機率為何？\n(A) 0.6826\n(B) 0.3413\n(C) 0.6667\n(D) 0.3174",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "假設大學入學考試成績分布為具有均數  500 及標準差 100 之常態分配，則考生成績落在  400 到 600 之間的\n\n  機率為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.6826"
+      },
+      {
+        "letter": "B",
+        "text": "0.3413"
+      },
+      {
+        "letter": "C",
+        "text": "0.6667"
+      },
+      {
+        "letter": "D",
+        "text": "0.3174"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-16",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 16,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若Z是一個標準常態隨機變數，則P(0<Z<1.5)將會比P(1.5<Z<3.0)：\n(A) 相等\n(B) 大\n(C) 小\n(D) A、B、C都不正確",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若Z是一個標準常態隨機變數，則P(0<Z<1.5)將會比P(1.5<Z<3.0)：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "相等"
+      },
+      {
+        "letter": "B",
+        "text": "大"
+      },
+      {
+        "letter": "C",
+        "text": "小"
+      },
+      {
+        "letter": "D",
+        "text": "A、B、C都不正確"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-17",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 17,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "大小n₁、n₂的兩個獨立隨機樣本，來自變異數σ₁²、σ₂²的母體，樣本平均差X̄₁−X̄₂的標準誤為何？\n(A) √((σ₁²−σ₂²)/(n₁n₂))\n(B) √((σ₁²+σ₂²)/(n₁n₂))\n(C) √(σ₁²/n₁−σ₂²/n₂)\n(D) √(σ₁²/n₁+σ₂²/n₂)",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "大小n₁、n₂的兩個獨立隨機樣本，來自變異數σ₁²、σ₂²的母體，樣本平均差X̄₁−X̄₂的標準誤為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "√((σ₁²−σ₂²)/(n₁n₂))"
+      },
+      {
+        "letter": "B",
+        "text": "√((σ₁²+σ₂²)/(n₁n₂))"
+      },
+      {
+        "letter": "C",
+        "text": "√(σ₁²/n₁−σ₂²/n₂)"
+      },
+      {
+        "letter": "D",
+        "text": "√(σ₁²/n₁+σ₂²/n₂)"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-18",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 18,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "下列何者是對稱的分配？\n(A) 指數分配與均勻分配\n(B) 常態分配與均勻分配\n(C) 常態分配與指數分配\n(D) 所有的連續分配都是",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者是對稱的分配？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "指數分配與均勻分配"
+      },
+      {
+        "letter": "B",
+        "text": "常態分配與均勻分配"
+      },
+      {
+        "letter": "C",
+        "text": "常態分配與指數分配"
+      },
+      {
+        "letter": "D",
+        "text": "所有的連續分配都是"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-19",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 19,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "已知某生產線6公斤裝的麵粉其標準差為0.6公斤，欲估計母體均數，在95%信賴水準下並使估計誤差不超\n\n  過0.15公斤，至少應抽多少包的麵粉來秤重？\n(A) 62\n(B) 75\n(C) 51\n(D) 116",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "已知某生產線6公斤裝的麵粉其標準差為0.6公斤，欲估計母體均數，在95%信賴水準下並使估計誤差不超\n\n  過0.15公斤，至少應抽多少包的麵粉來秤重？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "62"
+      },
+      {
+        "letter": "B",
+        "text": "75"
+      },
+      {
+        "letter": "C",
+        "text": "51"
+      },
+      {
+        "letter": "D",
+        "text": "116"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-20",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 20,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "具有下列機率密度函數之連續隨機變數X的期望值為：\n\n  f(x) = 2e−2x, x ≥0\n(A) 2\n(B) 0.5\n(C) 1\n(D) 0.25",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "具有下列機率密度函數之連續隨機變數X的期望值為：\n\n  f(x) = 2e−2x, x ≥0",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "0.5"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      },
+      {
+        "letter": "D",
+        "text": "0.25"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-21",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 21,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "欲建立母體均數的區間估計值，假設母體標準差σ等於10，其母體均數的區間估計值為50.92±2.14，則當\n  σ等於20時，其母體均數的區間估計值應為：\n(A) 60.92±2.14\n(B) 50.92±12.14\n(C) 101.84±4.28\n(D) 50.92±4.28",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "欲建立母體均數的區間估計值，假設母體標準差σ等於10，其母體均數的區間估計值為50.92±2.14，則當\n  σ等於20時，其母體均數的區間估計值應為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "60.92±2.14"
+      },
+      {
+        "letter": "B",
+        "text": "50.92±12.14"
+      },
+      {
+        "letter": "C",
+        "text": "101.84±4.28"
+      },
+      {
+        "letter": "D",
+        "text": "50.92±4.28"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-22",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 22,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "欲建立母體均數的區間估計值，假設使用50個觀察值時，其母體均數的區間估計值為19.76±1.32，則當樣\n  本大小n以200取代50時，其母體均數的區間估計值應為：\n(A) 19.76±0.33\n(B) 19.76±0.66\n(C) 9.88±1.32\n(D) 4.94±1.32",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "欲建立母體均數的區間估計值，假設使用50個觀察值時，其母體均數的區間估計值為19.76±1.32，則當樣\n  本大小n以200取代50時，其母體均數的區間估計值應為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "19.76±0.33"
+      },
+      {
+        "letter": "B",
+        "text": "19.76±0.66"
+      },
+      {
+        "letter": "C",
+        "text": "9.88±1.32"
+      },
+      {
+        "letter": "D",
+        "text": "4.94±1.32"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-23",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 23,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不是一個好估計式的特性？\n(A) 偏性（Biasedness）\n(B) 一致性（Consistency）\n(C) 相對有效性（Relative efficiency）\n(D) 不偏性（Unbiasedness）",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者不是一個好估計式的特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "偏性（Biasedness）"
+      },
+      {
+        "letter": "B",
+        "text": "一致性（Consistency）"
+      },
+      {
+        "letter": "C",
+        "text": "相對有效性（Relative efficiency）"
+      },
+      {
+        "letter": "D",
+        "text": "不偏性（Unbiasedness）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-24",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 24,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "當你建好一母體均數的區間估計值後，卻發覺該信賴區間因為太寬而沒有用，此時你可透過下列何種方式\n  來修正問題？\n(A) 提高母體標準差\n(B) 提高樣本大小n\n(C) 提高信賴水準\n(D) 提高樣本均數",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "當你建好一母體均數的區間估計值後，卻發覺該信賴區間因為太寬而沒有用，此時你可透過下列何種方式\n  來修正問題？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "提高母體標準差"
+      },
+      {
+        "letter": "B",
+        "text": "提高樣本大小n"
+      },
+      {
+        "letter": "C",
+        "text": "提高信賴水準"
+      },
+      {
+        "letter": "D",
+        "text": "提高樣本均數"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-25",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 25,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若某一假設檢定結果，虛無假設（null  hypothesis）在0.10與0.05的顯著水準下皆會被否決，但在0.01的顯\n\n  著水準下不會被否決，則下列何者為此檢定之p-值（p-value）最正確的陳述？\n(A) p-value = 0.01\n(B) p-value = 0.10\n(C) 0.01 < p-value < 0.05\n(D) 0.05 < p-value < 0.10",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "若某一假設檢定結果，虛無假設（null  hypothesis）在0.10與0.05的顯著水準下皆會被否決，但在0.01的顯\n\n  著水準下不會被否決，則下列何者為此檢定之p-值（p-value）最正確的陳述？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "p-value = 0.01"
+      },
+      {
+        "letter": "B",
+        "text": "p-value = 0.10"
+      },
+      {
+        "letter": "C",
+        "text": "0.01 < p-value < 0.05"
+      },
+      {
+        "letter": "D",
+        "text": "0.05 < p-value < 0.10"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-26",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 26,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "統計式 (x̄−μ)/(s/√n) 只有在樣本抽自下列何種分配時才具有t分配？\n(A) t分配（t distribution）\n(B) 常態分配\n(C) 左偏（或稱負偏）分配\n(D) 右偏（或稱正偏）分配",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "統計式 (x̄−μ)/(s/√n) 只有在樣本抽自下列何種分配時才具有t分配？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "t分配（t distribution）"
+      },
+      {
+        "letter": "B",
+        "text": "常態分配"
+      },
+      {
+        "letter": "C",
+        "text": "左偏（或稱負偏）分配"
+      },
+      {
+        "letter": "D",
+        "text": "右偏（或稱正偏）分配"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-27",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 27,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "顯著水準α不變，如果樣本大小n提高，則型Ⅱ錯誤的機率（Type  II error）將會：\n(A) 不變\n(B) 提高\n(C) 降低\n(D) 等於1",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "顯著水準α不變，如果樣本大小n提高，則型Ⅱ錯誤的機率（Type  II error）將會：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不變"
+      },
+      {
+        "letter": "B",
+        "text": "提高"
+      },
+      {
+        "letter": "C",
+        "text": "降低"
+      },
+      {
+        "letter": "D",
+        "text": "等於1"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-28",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 28,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "自一個具有變異數  25 之常態母體抽出大小為  20 之隨機樣本，下列何者適用於建立母體均數之  90%信賴區\n\n  間？\n(A) t = 1.328\n(B) t = 1.729\n(C) χ2= 11.6509\n(D) z = 1.645",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "自一個具有變異數  25 之常態母體抽出大小為  20 之隨機樣本，下列何者適用於建立母體均數之  90%信賴區\n\n  間？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "t = 1.328"
+      },
+      {
+        "letter": "B",
+        "text": "t = 1.729"
+      },
+      {
+        "letter": "C",
+        "text": "χ2= 11.6509"
+      },
+      {
+        "letter": "D",
+        "text": "z = 1.645"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-29",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 29,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "在檢定H  :μ=200相對於H  :μ<200時，若樣本均數為120，則虛無假設（null  hypothesis）：\n  0  1\n(A) 會被否決\n(B) 不會被否決\n(C) 只有當n  > 30才會被否決\n(D) A、B、C都不正確",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "在檢定H  :μ=200相對於H  :μ<200時，若樣本均數為120，則虛無假設（null  hypothesis）：\n  0  1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "會被否決"
+      },
+      {
+        "letter": "B",
+        "text": "不會被否決"
+      },
+      {
+        "letter": "C",
+        "text": "只有當n  > 30才會被否決"
+      },
+      {
+        "letter": "D",
+        "text": "A、B、C都不正確"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-30",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 30,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "一假設檢定的p-值（p-value）是：\n(A) 虛無假設（null hypothesis）會被否決的最小α值\n(B) 虛無假設（null hypothesis）會被否決的最大α值\n(C) 虛無假設（null hypothesis）不會被否決的最小α值\n(D) 虛無假設（null hypothesis）不會被否決的最大α值",
+    "page": 2,
+    "accepted": [
+      "A",
+      "D",
+      "AD"
+    ],
+    "correction": "依考選部更正公告，接受答案：A、D、AD。",
+    "stem": "一假設檢定的p-值（p-value）是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "虛無假設（null hypothesis）會被否決的最小α值"
+      },
+      {
+        "letter": "B",
+        "text": "虛無假設（null hypothesis）會被否決的最大α值"
+      },
+      {
+        "letter": "C",
+        "text": "虛無假設（null hypothesis）不會被否決的最小α值"
+      },
+      {
+        "letter": "D",
+        "text": "虛無假設（null hypothesis）不會被否決的最大α值"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-31",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 31,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "兩個獨立樣本抽自常態母體，且母體變異數相等，則兩個樣本變異數的比是何種分配？\n(A) 常態分配\n(B) t分配\n(C) F分配\n(D) 卡方分配（chi-square distribution）",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "兩個獨立樣本抽自常態母體，且母體變異數相等，則兩個樣本變異數的比是何種分配？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "常態分配"
+      },
+      {
+        "letter": "B",
+        "text": "t分配"
+      },
+      {
+        "letter": "C",
+        "text": "F分配"
+      },
+      {
+        "letter": "D",
+        "text": "卡方分配（chi-square distribution）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-32",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 32,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "40與50個觀察的兩個獨立隨機樣本抽自任兩個母體，以檢定μ₁−μ₂，樣本平均差X̄₁−X̄₂的抽樣分配為何？\n(A) 常態分配\n(B) 近似於常態分配\n(C) 自由度88之t分配\n(D) 自由度90之卡方分配（chi-square  distribution）",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "40與50個觀察的兩個獨立隨機樣本抽自任兩個母體，以檢定μ₁−μ₂，樣本平均差X̄₁−X̄₂的抽樣分配為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "常態分配"
+      },
+      {
+        "letter": "B",
+        "text": "近似於常態分配"
+      },
+      {
+        "letter": "C",
+        "text": "自由度88之t分配"
+      },
+      {
+        "letter": "D",
+        "text": "自由度90之卡方分配（chi-square  distribution）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-33",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 33,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "n₁與n₂個觀察的兩個獨立隨機樣本抽自兩個非常態母體，樣本平均差X̄₁−X̄₂的抽樣分配為何？\n(A) 一定非常態分配\n(B) 一定為常態分配\n(C) 當n₁與n₂都大於30時，將近似於常態分配\n(D) 不管n₁與n₂的大小，都將近似於常態分配",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "n₁與n₂個觀察的兩個獨立隨機樣本抽自兩個非常態母體，樣本平均差X̄₁−X̄₂的抽樣分配為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "一定非常態分配"
+      },
+      {
+        "letter": "B",
+        "text": "一定為常態分配"
+      },
+      {
+        "letter": "C",
+        "text": "當n₁與n₂都大於30時，將近似於常態分配"
+      },
+      {
+        "letter": "D",
+        "text": "不管n₁與n₂的大小，都將近似於常態分配"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-34",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 34,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "將一元變異數分析（One-way  ANOVA）用在抽自具有等變異數的4個常態母體的獨立樣本資料的分析上，\n  如果虛無假設（null  hypothesis）被否決，則可做下列何種推論？\n(A) 所有的母體均數都相等\n(B) 所有的母體均數都不相等\n(C) 至少有兩個母體均數相等\n(D) 至少有兩個母體均數不相等",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "將一元變異數分析（One-way  ANOVA）用在抽自具有等變異數的4個常態母體的獨立樣本資料的分析上，\n  如果虛無假設（null  hypothesis）被否決，則可做下列何種推論？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "所有的母體均數都相等"
+      },
+      {
+        "letter": "B",
+        "text": "所有的母體均數都不相等"
+      },
+      {
+        "letter": "C",
+        "text": "至少有兩個母體均數相等"
+      },
+      {
+        "letter": "D",
+        "text": "至少有兩個母體均數不相等"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "097-2s-35",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 35,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "就下列不完整的變異數分析表，檢定統計量F值為何？（—表示原表空白，*為原題待求處。）\n變異來源  平方和  自由度  均方  F\n組間  75  3  *  *\n組內  60  *  *  —\n總和  135  18  —  —\n(A) 1.25\n(B) 6.25\n(C) 0.86\n(D) 25",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "就下列不完整的變異數分析表，檢定統計量F值為何？（—表示原表空白，*為原題待求處。）\n變異來源  平方和  自由度  均方  F\n組間  75  3  *  *\n組內  60  *  *  —\n總和  135  18  —  —",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1.25"
+      },
+      {
+        "letter": "B",
+        "text": "6.25"
+      },
+      {
+        "letter": "C",
+        "text": "0.86"
+      },
+      {
+        "letter": "D",
+        "text": "25"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "097-2s-36",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 36,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "簡單線性迴歸的10個觀察值，Σ(xᵢ−x̄)(yᵢ−ȳ)=2250，sₓ=10，Σxᵢ=50、Σyᵢ=75。估計迴歸線的斜率與截距分別為何？\n(A) 1.5 與 0.5\n(B) 2.5與 1.5\n(C) 1.5與  2.5\n(D) 2.5與  –5",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "簡單線性迴歸的10個觀察值，Σ(xᵢ−x̄)(yᵢ−ȳ)=2250，sₓ=10，Σxᵢ=50、Σyᵢ=75。估計迴歸線的斜率與截距分別為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1.5 與 0.5"
+      },
+      {
+        "letter": "B",
+        "text": "2.5與 1.5"
+      },
+      {
+        "letter": "C",
+        "text": "1.5與  2.5"
+      },
+      {
+        "letter": "D",
+        "text": "2.5與  –5"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-37",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 37,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "在一個複迴歸分析中使用了40個觀察值及5個獨立變數（或稱自變數），其總平方和  SSY = 350且誤差平\n  方和SSE = 50，則其複判定係數（multiple coefficient of determination）為：\n(A) 0.8408\n(B) 0.8571\n(C) 0.8469\n(D) 0.1429",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在一個複迴歸分析中使用了40個觀察值及5個獨立變數（或稱自變數），其總平方和  SSY = 350且誤差平\n  方和SSE = 50，則其複判定係數（multiple coefficient of determination）為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.8408"
+      },
+      {
+        "letter": "B",
+        "text": "0.8571"
+      },
+      {
+        "letter": "C",
+        "text": "0.8469"
+      },
+      {
+        "letter": "D",
+        "text": "0.1429"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-38",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 38,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "50個觀察得到複迴歸 ŷ=10.5+3.2x₁+5.8x₂+6.5x₃，總平方和SSY=625、SSE=175，迴歸均方MSR為何？\n(A) 12.50\n(B) 275\n(C) 150\n(D) 3.804",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "50個觀察得到複迴歸 ŷ=10.5+3.2x₁+5.8x₂+6.5x₃，總平方和SSY=625、SSE=175，迴歸均方MSR為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "12.50"
+      },
+      {
+        "letter": "B",
+        "text": "275"
+      },
+      {
+        "letter": "C",
+        "text": "150"
+      },
+      {
+        "letter": "D",
+        "text": "3.804"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-39",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 39,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不是二項試驗（binomial  experiment）的特性？\n(A) 由一系列相同的試行所組成\n(B) 每次試行的結果有兩個或兩個以上的可能\n(C) 每次試行彼此獨立\n(D) 每次試行成功的機率都相同",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者不是二項試驗（binomial  experiment）的特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "由一系列相同的試行所組成"
+      },
+      {
+        "letter": "B",
+        "text": "每次試行的結果有兩個或兩個以上的可能"
+      },
+      {
+        "letter": "C",
+        "text": "每次試行彼此獨立"
+      },
+      {
+        "letter": "D",
+        "text": "每次試行成功的機率都相同"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-2s-40",
+    "examId": "097-2s",
+    "year": 97,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 40,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "母體標準差σ已知，在0.05的顯著水準下檢定H  :μ=100相對於H  :μ≠100之否決區為：\n  0  1\n(A) |z| < 0.95\n(B) |z| > 1.96\n(C) z > 1.65\n(D) z < 2.33",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "母體標準差σ已知，在0.05的顯著水準下檢定H  :μ=100相對於H  :μ≠100之否決區為：\n  0  1",
+    "options": [
+      {
+        "letter": "A",
+        "text": "|z| < 0.95"
+      },
+      {
+        "letter": "B",
+        "text": "|z| > 1.96"
+      },
+      {
+        "letter": "C",
+        "text": "z > 1.65"
+      },
+      {
+        "letter": "D",
+        "text": "z < 2.33"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "097-3d-1",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 1,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "TCP/IP網路中，一個B類的位址，其主機部分占用多少位元？\n(A) 2\n(B) 4\n(C) 8\n(D) 16",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "TCP/IP網路中，一個B類的位址，其主機部分占用多少位元？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "4"
+      },
+      {
+        "letter": "C",
+        "text": "8"
+      },
+      {
+        "letter": "D",
+        "text": "16"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-2",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 2,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "將(011010)₂轉換成十進位為：\n(A) 26\n(B) 13\n(C) 32\n(D) 62",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "將(011010)₂轉換成十進位為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "26"
+      },
+      {
+        "letter": "B",
+        "text": "13"
+      },
+      {
+        "letter": "C",
+        "text": "32"
+      },
+      {
+        "letter": "D",
+        "text": "62"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-3",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 3,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "循序檔的優點為何？\n(A) 可直接更改\n(B) 空間最省\n(C) 線上查詢處理快\n(D) 適合即時系統",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "循序檔的優點為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "可直接更改"
+      },
+      {
+        "letter": "B",
+        "text": "空間最省"
+      },
+      {
+        "letter": "C",
+        "text": "線上查詢處理快"
+      },
+      {
+        "letter": "D",
+        "text": "適合即時系統"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-4",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 4,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在超級市場中，常使用「條碼」來作何種資料處理？\n(A) 計算\n(B) 輸出用\n(C) 輸入用\n(D) 更新用",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在超級市場中，常使用「條碼」來作何種資料處理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "計算"
+      },
+      {
+        "letter": "B",
+        "text": "輸出用"
+      },
+      {
+        "letter": "C",
+        "text": "輸入用"
+      },
+      {
+        "letter": "D",
+        "text": "更新用"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-5",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 5,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "(011)₂的二補數為何？\n(A) 100\n(B) 110\n(C) 111\n(D) 101",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "(011)₂的二補數為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "100"
+      },
+      {
+        "letter": "B",
+        "text": "110"
+      },
+      {
+        "letter": "C",
+        "text": "111"
+      },
+      {
+        "letter": "D",
+        "text": "101"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-6",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 6,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "CPU稱為：\n(A) 中央處理機\n(B) 輸入器\n(C) 輸出設備\n(D) 記憶體",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "CPU稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "中央處理機"
+      },
+      {
+        "letter": "B",
+        "text": "輸入器"
+      },
+      {
+        "letter": "C",
+        "text": "輸出設備"
+      },
+      {
+        "letter": "D",
+        "text": "記憶體"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-7",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 7,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "何者不是資料庫的優點？\n(A) 避免重複\n(B) 成本低\n(C) 資料標準化\n(D) 可安全管制",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "何者不是資料庫的優點？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "避免重複"
+      },
+      {
+        "letter": "B",
+        "text": "成本低"
+      },
+      {
+        "letter": "C",
+        "text": "資料標準化"
+      },
+      {
+        "letter": "D",
+        "text": "可安全管制"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-8",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 8,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料處理時，可以用電話線傳送何種類型的訊號？\n(A) 數位\n(B) 電子波\n(C) 類比\n(D) 光波",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "資料處理時，可以用電話線傳送何種類型的訊號？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "數位"
+      },
+      {
+        "letter": "B",
+        "text": "電子波"
+      },
+      {
+        "letter": "C",
+        "text": "類比"
+      },
+      {
+        "letter": "D",
+        "text": "光波"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-9",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 9,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料傳輸率800  bps 表示每秒傳送多少字元？\n(A) 100\n(B) 200\n(C) 400\n(D) 800",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "資料傳輸率800  bps 表示每秒傳送多少字元？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "100"
+      },
+      {
+        "letter": "B",
+        "text": "200"
+      },
+      {
+        "letter": "C",
+        "text": "400"
+      },
+      {
+        "letter": "D",
+        "text": "800"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-10",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 10,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料操作不包含下列那項資料處理運算？\n(A) 新增\n(B) 删除\n(C) 翻譯\n(D) 修改",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "資料操作不包含下列那項資料處理運算？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "新增"
+      },
+      {
+        "letter": "B",
+        "text": "删除"
+      },
+      {
+        "letter": "C",
+        "text": "翻譯"
+      },
+      {
+        "letter": "D",
+        "text": "修改"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-11",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 11,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "為了確保電源穩定及防止資料突然損壞，可以使用下列何種裝置？\n(A) 不斷電系統\n(B) 空調系統\n(C) 保護系統\n(D) 網路系統",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "為了確保電源穩定及防止資料突然損壞，可以使用下列何種裝置？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不斷電系統"
+      },
+      {
+        "letter": "B",
+        "text": "空調系統"
+      },
+      {
+        "letter": "C",
+        "text": "保護系統"
+      },
+      {
+        "letter": "D",
+        "text": "網路系統"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-12",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 12,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不包含在辦公室自動化（OA）的處理項目中？\n(A) 資料處理\n(B) 影像管理\n(C) 電腦輔助製造\n(D) 檔案分類",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列何者不包含在辦公室自動化（OA）的處理項目中？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資料處理"
+      },
+      {
+        "letter": "B",
+        "text": "影像管理"
+      },
+      {
+        "letter": "C",
+        "text": "電腦輔助製造"
+      },
+      {
+        "letter": "D",
+        "text": "檔案分類"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-13",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 13,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那種作業系統被使用於PDA？\n(A) Window CE\n(B) OS/2\n(C) Unix\n(D) Mac",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那種作業系統被使用於PDA？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Window CE"
+      },
+      {
+        "letter": "B",
+        "text": "OS/2"
+      },
+      {
+        "letter": "C",
+        "text": "Unix"
+      },
+      {
+        "letter": "D",
+        "text": "Mac"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-14",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 14,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在 Windows 作業系統中操作滑鼠時，按右鍵表示：\n(A) 選取\n(B) 功能表\n(C) 開啟\n(D) 結束",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在 Windows 作業系統中操作滑鼠時，按右鍵表示：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "選取"
+      },
+      {
+        "letter": "B",
+        "text": "功能表"
+      },
+      {
+        "letter": "C",
+        "text": "開啟"
+      },
+      {
+        "letter": "D",
+        "text": "結束"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-15",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 15,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何種系統不包含於自動提款機（ATM）中？\n(A) 即時系統\n(B) 多使用者系統\n(C) 整批系統\n(D) 連線系統",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列何種系統不包含於自動提款機（ATM）中？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "即時系統"
+      },
+      {
+        "letter": "B",
+        "text": "多使用者系統"
+      },
+      {
+        "letter": "C",
+        "text": "整批系統"
+      },
+      {
+        "letter": "D",
+        "text": "連線系統"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-16",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 16,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "工商普查是下列何種資料處理方式？\n(A) 防毒處理\n(B) 即時處理\n(C) 交談式處理\n(D) 批次處理",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "工商普查是下列何種資料處理方式？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "防毒處理"
+      },
+      {
+        "letter": "B",
+        "text": "即時處理"
+      },
+      {
+        "letter": "C",
+        "text": "交談式處理"
+      },
+      {
+        "letter": "D",
+        "text": "批次處理"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-17",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 17,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "原來的資料在檔案「複製」後，會有何變化？\n(A) 移至新位置\n(B) 不變動\n(C) 被删除\n(D) 變形",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "原來的資料在檔案「複製」後，會有何變化？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "移至新位置"
+      },
+      {
+        "letter": "B",
+        "text": "不變動"
+      },
+      {
+        "letter": "C",
+        "text": "被删除"
+      },
+      {
+        "letter": "D",
+        "text": "變形"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-18",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 18,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "為什麼「學號」適合作為主索引鍵？\n(A) 方便性\n(B) 安全性\n(C) 唯一性\n(D) 廣泛性",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "為什麼「學號」適合作為主索引鍵？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "方便性"
+      },
+      {
+        "letter": "B",
+        "text": "安全性"
+      },
+      {
+        "letter": "C",
+        "text": "唯一性"
+      },
+      {
+        "letter": "D",
+        "text": "廣泛性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-19",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 19,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "通稱的LAN是指那一種電腦網路？\n(A) 同一建物社區\n(B) 城區\n(C) 國對國\n(D) 全球",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "通稱的LAN是指那一種電腦網路？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "同一建物社區"
+      },
+      {
+        "letter": "B",
+        "text": "城區"
+      },
+      {
+        "letter": "C",
+        "text": "國對國"
+      },
+      {
+        "letter": "D",
+        "text": "全球"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-20",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 20,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "乙太網路被廣泛使用於：\n(A) 全球\n(B) 企業\n(C) 國對國\n(D) 大都會",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "乙太網路被廣泛使用於：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "全球"
+      },
+      {
+        "letter": "B",
+        "text": "企業"
+      },
+      {
+        "letter": "C",
+        "text": "國對國"
+      },
+      {
+        "letter": "D",
+        "text": "大都會"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-21",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 21,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "全球資訊網  WWW（World  Wide Web）使用何種語言？\n(A) ML\n(B) GSL\n(C) GML\n(D) HTML",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "全球資訊網  WWW（World  Wide Web）使用何種語言？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ML"
+      },
+      {
+        "letter": "B",
+        "text": "GSL"
+      },
+      {
+        "letter": "C",
+        "text": "GML"
+      },
+      {
+        "letter": "D",
+        "text": "HTML"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-22",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 22,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者有資訊高速公路之稱？\n(A) 國家資訊基礎建設（NII）\n(B) 全球資訊網（WWW）\n(C) E-mail 電子郵件\n(D) 電子商務",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者有資訊高速公路之稱？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "國家資訊基礎建設（NII）"
+      },
+      {
+        "letter": "B",
+        "text": "全球資訊網（WWW）"
+      },
+      {
+        "letter": "C",
+        "text": "E-mail 電子郵件"
+      },
+      {
+        "letter": "D",
+        "text": "電子商務"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-23",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 23,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "數位（Digital）訊號是：\n(A) 連續波\n(B) 不連續訊號\n(C) 曲線\n(D) 拋物線",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "數位（Digital）訊號是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "連續波"
+      },
+      {
+        "letter": "B",
+        "text": "不連續訊號"
+      },
+      {
+        "letter": "C",
+        "text": "曲線"
+      },
+      {
+        "letter": "D",
+        "text": "拋物線"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-24",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 24,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "滑鼠屬於何種設備？\n(A) 輸入\n(B) 輸出\n(C) 控制系統\n(D) 記憶體",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "滑鼠屬於何種設備？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "輸入"
+      },
+      {
+        "letter": "B",
+        "text": "輸出"
+      },
+      {
+        "letter": "C",
+        "text": "控制系統"
+      },
+      {
+        "letter": "D",
+        "text": "記憶體"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-25",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 25,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "拷貝別人光碟的行為，違反何種智慧財產權法？\n(A) 商標法\n(B) 專利法\n(C) 著作權法\n(D) 營業事業登記法",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "拷貝別人光碟的行為，違反何種智慧財產權法？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "商標法"
+      },
+      {
+        "letter": "B",
+        "text": "專利法"
+      },
+      {
+        "letter": "C",
+        "text": "著作權法"
+      },
+      {
+        "letter": "D",
+        "text": "營業事業登記法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-26",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 26,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "傳輸快、不受電路干擾、保密的電腦網路通訊傳輸媒體是：\n(A) 光纖\n(B) 微波\n(C) 電話線\n(D) 無線電",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "傳輸快、不受電路干擾、保密的電腦網路通訊傳輸媒體是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "光纖"
+      },
+      {
+        "letter": "B",
+        "text": "微波"
+      },
+      {
+        "letter": "C",
+        "text": "電話線"
+      },
+      {
+        "letter": "D",
+        "text": "無線電"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-27",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 27,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "病毒不會寄生於下列那個地方？\n(A) 執行檔\n(B) ROM\n(C) 系統\n(D) 開啟磁片",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "病毒不會寄生於下列那個地方？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "執行檔"
+      },
+      {
+        "letter": "B",
+        "text": "ROM"
+      },
+      {
+        "letter": "C",
+        "text": "系統"
+      },
+      {
+        "letter": "D",
+        "text": "開啟磁片"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-28",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 28,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者可增加通訊的安全？\n(A) 加密\n(B) 壓縮\n(C) 備分\n(D) 傳真",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者可增加通訊的安全？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "加密"
+      },
+      {
+        "letter": "B",
+        "text": "壓縮"
+      },
+      {
+        "letter": "C",
+        "text": "備分"
+      },
+      {
+        "letter": "D",
+        "text": "傳真"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-29",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 29,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "記錄使用者在網路上活動狀況的檔案是：\n(A) 備份檔\n(B) 線上系統檔\n(C) Cookie 檔\n(D) 隨機檔",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "記錄使用者在網路上活動狀況的檔案是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "備份檔"
+      },
+      {
+        "letter": "B",
+        "text": "線上系統檔"
+      },
+      {
+        "letter": "C",
+        "text": "Cookie 檔"
+      },
+      {
+        "letter": "D",
+        "text": "隨機檔"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-30",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 30,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "從網路下載檔案可使用何種方式？\n(A) FTP\n(B) E-mail\n(C) Telnet\n(D) 無法處理",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "從網路下載檔案可使用何種方式？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "FTP"
+      },
+      {
+        "letter": "B",
+        "text": "E-mail"
+      },
+      {
+        "letter": "C",
+        "text": "Telnet"
+      },
+      {
+        "letter": "D",
+        "text": "無法處理"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-31",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 31,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "首頁（Home  page）與下列何者有關？\n(A) LAN\n(B) WWW  網站\n(C) 終端機\n(D) 電子書",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "首頁（Home  page）與下列何者有關？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "LAN"
+      },
+      {
+        "letter": "B",
+        "text": "WWW  網站"
+      },
+      {
+        "letter": "C",
+        "text": "終端機"
+      },
+      {
+        "letter": "D",
+        "text": "電子書"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-32",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 32,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一個英文字母使用的記憶體空間稱為：\n(A) byte\n(B) bit\n(C) item\n(D) file",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "一個英文字母使用的記憶體空間稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "byte"
+      },
+      {
+        "letter": "B",
+        "text": "bit"
+      },
+      {
+        "letter": "C",
+        "text": "item"
+      },
+      {
+        "letter": "D",
+        "text": "file"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-33",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 33,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "使用下列何種軟體列出統計圖表較為方便？\n(A) Flash\n(B) Excel\n(C) Edit\n(D) Power Point",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "使用下列何種軟體列出統計圖表較為方便？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Flash"
+      },
+      {
+        "letter": "B",
+        "text": "Excel"
+      },
+      {
+        "letter": "C",
+        "text": "Edit"
+      },
+      {
+        "letter": "D",
+        "text": "Power Point"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-34",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 34,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電子商務包含那項資料處理？\n(A) 電子資料交換\n(B) 消除病毒\n(C) 壓縮\n(D) 省電控制",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "電子商務包含那項資料處理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "電子資料交換"
+      },
+      {
+        "letter": "B",
+        "text": "消除病毒"
+      },
+      {
+        "letter": "C",
+        "text": "壓縮"
+      },
+      {
+        "letter": "D",
+        "text": "省電控制"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-35",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 35,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電腦透過電話線通訊，會使用何種通訊設備？\n(A) 天線\n(B) 多工機\n(C) 視訊盒\n(D) 數據機（Modem）",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "電腦透過電話線通訊，會使用何種通訊設備？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "天線"
+      },
+      {
+        "letter": "B",
+        "text": "多工機"
+      },
+      {
+        "letter": "C",
+        "text": "視訊盒"
+      },
+      {
+        "letter": "D",
+        "text": "數據機（Modem）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-36",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 36,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者屬於同步式通訊？\n(A) 打電話\n(B) E-mail\n(C) 傳真\n(D) 閉路電視",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者屬於同步式通訊？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "打電話"
+      },
+      {
+        "letter": "B",
+        "text": "E-mail"
+      },
+      {
+        "letter": "C",
+        "text": "傳真"
+      },
+      {
+        "letter": "D",
+        "text": "閉路電視"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-37",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 37,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者儲存容量最大？\n(A) 隨身碟\n(B) 硬碟\n(C) 軟碟\n(D) 光碟",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者儲存容量最大？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "隨身碟"
+      },
+      {
+        "letter": "B",
+        "text": "硬碟"
+      },
+      {
+        "letter": "C",
+        "text": "軟碟"
+      },
+      {
+        "letter": "D",
+        "text": "光碟"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-38",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 38,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何種資料庫模型被廣泛使用？\n(A) 關聯式\n(B) 階層式\n(C) 網狀式\n(D) 循序式",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何種資料庫模型被廣泛使用？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "關聯式"
+      },
+      {
+        "letter": "B",
+        "text": "階層式"
+      },
+      {
+        "letter": "C",
+        "text": "網狀式"
+      },
+      {
+        "letter": "D",
+        "text": "循序式"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-39",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 39,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "分析大量資料中的潛在特質，稱為下列何者？\n(A) 資料倉儲\n(B) 資料挖掘\n(C) 資料管理\n(D) 資料傳遞",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "分析大量資料中的潛在特質，稱為下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資料倉儲"
+      },
+      {
+        "letter": "B",
+        "text": "資料挖掘"
+      },
+      {
+        "letter": "C",
+        "text": "資料管理"
+      },
+      {
+        "letter": "D",
+        "text": "資料傳遞"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-40",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 40,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料安全提供下列何者作用？\n(A) 排序措施\n(B) 複製措施\n(C) 保密措施\n(D) 省時措施",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "資料安全提供下列何者作用？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "排序措施"
+      },
+      {
+        "letter": "B",
+        "text": "複製措施"
+      },
+      {
+        "letter": "C",
+        "text": "保密措施"
+      },
+      {
+        "letter": "D",
+        "text": "省時措施"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-41",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 41,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在網路上作二手貨交易的網站模式是：\n(A) C2B\n(B) C2C\n(C) B2B\n(D) B2A",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在網路上作二手貨交易的網站模式是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "C2B"
+      },
+      {
+        "letter": "B",
+        "text": "C2C"
+      },
+      {
+        "letter": "C",
+        "text": "B2B"
+      },
+      {
+        "letter": "D",
+        "text": "B2A"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-42",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 42,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電腦發展至今大約有幾年歷史？\n(A) 約50年內\n(B) 約100年\n(C) 約150年\n(D) 200年以上",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "電腦發展至今大約有幾年歷史？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "約50年內"
+      },
+      {
+        "letter": "B",
+        "text": "約100年"
+      },
+      {
+        "letter": "C",
+        "text": "約150年"
+      },
+      {
+        "letter": "D",
+        "text": "200年以上"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-43",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 43,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "1KB =？\n(A) 2000 bytes\n(B) 1024 bytes\n(C) 21 bytes\n(D) 21000 bytes",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "1KB =？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2000 bytes"
+      },
+      {
+        "letter": "B",
+        "text": "1024 bytes"
+      },
+      {
+        "letter": "C",
+        "text": "21 bytes"
+      },
+      {
+        "letter": "D",
+        "text": "21000 bytes"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-44",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 44,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "可讓使用者在一部電腦上執行兩個以上程式的處理模式稱為：\n(A) 即時作業\n(B) 多單元作業\n(C) 雙工作業\n(D) 多工作業",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "可讓使用者在一部電腦上執行兩個以上程式的處理模式稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "即時作業"
+      },
+      {
+        "letter": "B",
+        "text": "多單元作業"
+      },
+      {
+        "letter": "C",
+        "text": "雙工作業"
+      },
+      {
+        "letter": "D",
+        "text": "多工作業"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-45",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 45,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "地理資訊系統可以用來：\n(A) 行駛交通路線\n(B) 地理學考試\n(C) 查看風水\n(D) 線上購物",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "地理資訊系統可以用來：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "行駛交通路線"
+      },
+      {
+        "letter": "B",
+        "text": "地理學考試"
+      },
+      {
+        "letter": "C",
+        "text": "查看風水"
+      },
+      {
+        "letter": "D",
+        "text": "線上購物"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-46",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 46,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "會計系統、薪資系統是屬於何種處理系統？\n(A) 策略資訊系統\n(B) 電子資料處理\n(C) 人工智慧\n(D) 專家系統",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "會計系統、薪資系統是屬於何種處理系統？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "策略資訊系統"
+      },
+      {
+        "letter": "B",
+        "text": "電子資料處理"
+      },
+      {
+        "letter": "C",
+        "text": "人工智慧"
+      },
+      {
+        "letter": "D",
+        "text": "專家系統"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-47",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 47,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "以下那一種程式語言其指令是可直接執行的？\n(A) 機器語言\n(B) 組合語言\n(C) 高階語言\n(D) 人工智慧語言",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "以下那一種程式語言其指令是可直接執行的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "機器語言"
+      },
+      {
+        "letter": "B",
+        "text": "組合語言"
+      },
+      {
+        "letter": "C",
+        "text": "高階語言"
+      },
+      {
+        "letter": "D",
+        "text": "人工智慧語言"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-48",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 48,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "以下那一種記憶體存放資料，在電源關掉後就不見了？\n(A) 光碟\n(B) 硬碟\n(C) 軟碟\n(D) RAM",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "以下那一種記憶體存放資料，在電源關掉後就不見了？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "光碟"
+      },
+      {
+        "letter": "B",
+        "text": "硬碟"
+      },
+      {
+        "letter": "C",
+        "text": "軟碟"
+      },
+      {
+        "letter": "D",
+        "text": "RAM"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-49",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 49,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在HTML  文件語法中，指定顏色的三原色為何？\n(A) 紅藍綠\n(B) 黑白紅\n(C) 紅黑藍\n(D) 黃藍白",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在HTML  文件語法中，指定顏色的三原色為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "紅藍綠"
+      },
+      {
+        "letter": "B",
+        "text": "黑白紅"
+      },
+      {
+        "letter": "C",
+        "text": "紅黑藍"
+      },
+      {
+        "letter": "D",
+        "text": "黃藍白"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "097-3d-50",
+    "examId": "097-3d",
+    "year": 97,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 50,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不是壓縮資料的特性？\n(A) 省傳輸時間\n(B) 可壓縮文字與圖像聲音\n(C) 省空間\n(D) 需壓縮機器",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列何者不是壓縮資料的特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "省傳輸時間"
+      },
+      {
+        "letter": "B",
+        "text": "可壓縮文字與圖像聲音"
+      },
+      {
+        "letter": "C",
+        "text": "省空間"
+      },
+      {
+        "letter": "D",
+        "text": "需壓縮機器"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

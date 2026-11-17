@@ -1,0 +1,1955 @@
+[
+  {
+    "id": "098-3d-1",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 1,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般所稱的電腦記憶體大小，如512MB，指的是下列那部分的硬體空間？\n(A) Cache\n(B) Buffer\n(C) ROM\n(D) RAM",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "一般所稱的電腦記憶體大小，如512MB，指的是下列那部分的硬體空間？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Cache"
+      },
+      {
+        "letter": "B",
+        "text": "Buffer"
+      },
+      {
+        "letter": "C",
+        "text": "ROM"
+      },
+      {
+        "letter": "D",
+        "text": "RAM"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-2",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 2,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般所謂的電腦硬碟，指的是下列那種裝置？\n(A) ROM\n(B) RAM\n(C) 光碟機\n(D) 磁碟機",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "一般所謂的電腦硬碟，指的是下列那種裝置？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ROM"
+      },
+      {
+        "letter": "B",
+        "text": "RAM"
+      },
+      {
+        "letter": "C",
+        "text": "光碟機"
+      },
+      {
+        "letter": "D",
+        "text": "磁碟機"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-3",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 3,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在2的補數法系統中，12位元能夠表示的最大值為何？\n(A) 2047\n(B) 2048\n(C) 4095\n(D) 4096",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在2的補數法系統中，12位元能夠表示的最大值為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2047"
+      },
+      {
+        "letter": "B",
+        "text": "2048"
+      },
+      {
+        "letter": "C",
+        "text": "4095"
+      },
+      {
+        "letter": "D",
+        "text": "4096"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-4",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 4,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在2的補數法系統中，下列那一個位元組所代表的值最大？\n(A) 00000000\n(B) 10000000\n(C) 01111111\n(D) 1111111",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在2的補數法系統中，下列那一個位元組所代表的值最大？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "00000000"
+      },
+      {
+        "letter": "B",
+        "text": "10000000"
+      },
+      {
+        "letter": "C",
+        "text": "01111111"
+      },
+      {
+        "letter": "D",
+        "text": "1111111"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-5",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 5,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關有限狀態機器（Finite  State Machine）的應用，下列敘述何者不正確？\n(A) 程式語言中，文法檢查的應用\n(B) 網路通訊協定的運作\n(C) XML語法中文字轉換的辨識\n(D) 處理輸出數為有限的計算機器",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關有限狀態機器（Finite  State Machine）的應用，下列敘述何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "程式語言中，文法檢查的應用"
+      },
+      {
+        "letter": "B",
+        "text": "網路通訊協定的運作"
+      },
+      {
+        "letter": "C",
+        "text": "XML語法中文字轉換的辨識"
+      },
+      {
+        "letter": "D",
+        "text": "處理輸出數為有限的計算機器"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-6",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 6,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關尤拉路徑（Euler  Path）的敘述，何者不正確？\n(A) 尤拉路徑指的是必需造訪每個點（Vertex）的路徑\n(B) 每個點的連接邊數是偶數的無方向圖就一定會有尤拉路徑\n(C) 剛好有兩個點的連接邊數是偶數的無方向圖就一定會有尤拉路徑\n(D) 有尤拉路徑的無方向圖不會只有一個點的連接邊數是偶數的",
+    "page": 0,
+    "accepted": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correction": "依考選部更正公告，接受答案：A、B、C、D。",
+    "stem": "下列有關尤拉路徑（Euler  Path）的敘述，何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "尤拉路徑指的是必需造訪每個點（Vertex）的路徑"
+      },
+      {
+        "letter": "B",
+        "text": "每個點的連接邊數是偶數的無方向圖就一定會有尤拉路徑"
+      },
+      {
+        "letter": "C",
+        "text": "剛好有兩個點的連接邊數是偶數的無方向圖就一定會有尤拉路徑"
+      },
+      {
+        "letter": "D",
+        "text": "有尤拉路徑的無方向圖不會只有一個點的連接邊數是偶數的"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-7",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 7,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "八進位之25表示成十六進位，其值為何？\n(A) 25\n(B) 21\n(C) 15\n(D) 1E",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "八進位之25表示成十六進位，其值為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "25"
+      },
+      {
+        "letter": "B",
+        "text": "21"
+      },
+      {
+        "letter": "C",
+        "text": "15"
+      },
+      {
+        "letter": "D",
+        "text": "1E"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-8",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 8,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電腦處理資料的單位中，奈秒（Nanosecond）指的是下列那個值？\n(A) 10⁻³秒\n(B) 10⁻⁶秒\n(C) 10⁻⁹秒\n(D) 10⁻¹²秒",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "電腦處理資料的單位中，奈秒（Nanosecond）指的是下列那個值？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10⁻³秒"
+      },
+      {
+        "letter": "B",
+        "text": "10⁻⁶秒"
+      },
+      {
+        "letter": "C",
+        "text": "10⁻⁹秒"
+      },
+      {
+        "letter": "D",
+        "text": "10⁻¹²秒"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-9",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 9,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "將二進位之11001010表示成十六進位，其值為何？\n(A) CA\n(B) 4A\n(C) AC\n(D) C4",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "將二進位之11001010表示成十六進位，其值為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CA"
+      },
+      {
+        "letter": "B",
+        "text": "4A"
+      },
+      {
+        "letter": "C",
+        "text": "AC"
+      },
+      {
+        "letter": "D",
+        "text": "C4"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-10",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 10,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "網域名稱的使用，下列敘述何者不正確？\n(A) 一個網域名稱中，最後的符號.tw指的是「臺灣」的網域\n(B) 網域名稱愈後面其所涵蓋的範圍愈大\n(C) 網域名稱中第一個符號指的是電腦機器名稱\n(D) 資料經由網路傳輸時，網域名稱會先被轉成IP位址",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "網域名稱的使用，下列敘述何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "一個網域名稱中，最後的符號.tw指的是「臺灣」的網域"
+      },
+      {
+        "letter": "B",
+        "text": "網域名稱愈後面其所涵蓋的範圍愈大"
+      },
+      {
+        "letter": "C",
+        "text": "網域名稱中第一個符號指的是電腦機器名稱"
+      },
+      {
+        "letter": "D",
+        "text": "資料經由網路傳輸時，網域名稱會先被轉成IP位址"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-11",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 11,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般電腦的BIOS程式，以放在下列那個硬體空間居多？\n(A) Registers\n(B) Cache\n(C) ROM\n(D) RAM",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "一般電腦的BIOS程式，以放在下列那個硬體空間居多？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Registers"
+      },
+      {
+        "letter": "B",
+        "text": "Cache"
+      },
+      {
+        "letter": "C",
+        "text": "ROM"
+      },
+      {
+        "letter": "D",
+        "text": "RAM"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-12",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 12,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "對位元串10011010與11001001作XOR的運算，其結果為何？\n(A) 01010011\n(B) 11111111\n(C) 10101100\n(D) 11011011",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "對位元串10011010與11001001作XOR的運算，其結果為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "01010011"
+      },
+      {
+        "letter": "B",
+        "text": "11111111"
+      },
+      {
+        "letter": "C",
+        "text": "10101100"
+      },
+      {
+        "letter": "D",
+        "text": "11011011"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-13",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 13,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列對虛擬碼（Pseudocode）的描述，何者不正確？\n(A) 是一套符號系統\n(B) 是一套非正式的程式語言\n(C) 是一種機器與人皆可以識別的語法\n(D) 是一套輔助程式寫作的語法",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列對虛擬碼（Pseudocode）的描述，何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "是一套符號系統"
+      },
+      {
+        "letter": "B",
+        "text": "是一套非正式的程式語言"
+      },
+      {
+        "letter": "C",
+        "text": "是一種機器與人皆可以識別的語法"
+      },
+      {
+        "letter": "D",
+        "text": "是一套輔助程式寫作的語法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-14",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 14,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "目前網路中所謂的WWW指的是下列的那一項？\n(A) What Where and Why\n(B) What a Wonderful World\n(C) World Web Watch\n(D) World Wide Web",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "目前網路中所謂的WWW指的是下列的那一項？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "What Where and Why"
+      },
+      {
+        "letter": "B",
+        "text": "What a Wonderful World"
+      },
+      {
+        "letter": "C",
+        "text": "World Web Watch"
+      },
+      {
+        "letter": "D",
+        "text": "World Wide Web"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-15",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 15,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般電腦所使用的磁碟機存取檔案所花費的時間中，延遲時間（Latency  Time）所指為何？\n(A) 尋找磁軌的時間\n(B) 資料從硬碟到記憶體的時間\n(C) 資料傳輸的時間\n(D) 磁盤轉動的時間",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "一般電腦所使用的磁碟機存取檔案所花費的時間中，延遲時間（Latency  Time）所指為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "尋找磁軌的時間"
+      },
+      {
+        "letter": "B",
+        "text": "資料從硬碟到記憶體的時間"
+      },
+      {
+        "letter": "C",
+        "text": "資料傳輸的時間"
+      },
+      {
+        "letter": "D",
+        "text": "磁盤轉動的時間"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-16",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 16,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關CD（Compact Disk）的描述，下列何者不正確？\n(A) CD-ROM的容量可以達到數Giga  Bytes\n(B) CD-WORM可以重複讀寫資料\n(C) CD的資料密度為均勻分佈（Uniform）\n(D) CD的資料可經由雷射光束讀取",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有關CD（Compact Disk）的描述，下列何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CD-ROM的容量可以達到數Giga  Bytes"
+      },
+      {
+        "letter": "B",
+        "text": "CD-WORM可以重複讀寫資料"
+      },
+      {
+        "letter": "C",
+        "text": "CD的資料密度為均勻分佈（Uniform）"
+      },
+      {
+        "letter": "D",
+        "text": "CD的資料可經由雷射光束讀取"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-17",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 17,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關磁碟機與磁帶機的使用，下列描述何者不正確？\n(A) 磁碟機適合隨機存取資料\n(B) 磁帶機適合循序存取資料\n(C) 兩者皆以當資料備份使用為主\n(D) 一般磁碟機的速度比磁帶機要快",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關磁碟機與磁帶機的使用，下列描述何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "磁碟機適合隨機存取資料"
+      },
+      {
+        "letter": "B",
+        "text": "磁帶機適合循序存取資料"
+      },
+      {
+        "letter": "C",
+        "text": "兩者皆以當資料備份使用為主"
+      },
+      {
+        "letter": "D",
+        "text": "一般磁碟機的速度比磁帶機要快"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-18",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 18,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "組合語言（Assembly Language）是屬於：\n(A) 第一代電腦程式語言\n(B) 第二代電腦程式語言\n(C) 第三代電腦程式語言\n(D) 第四代電腦程式語言",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "組合語言（Assembly Language）是屬於：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "第一代電腦程式語言"
+      },
+      {
+        "letter": "B",
+        "text": "第二代電腦程式語言"
+      },
+      {
+        "letter": "C",
+        "text": "第三代電腦程式語言"
+      },
+      {
+        "letter": "D",
+        "text": "第四代電腦程式語言"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-19",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 19,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關副程式的使用，下列何者不正確？\n(A) 以傳值（Pass-by-Value）做參數傳遞\n(B) 常配合堆疊（Stack）結構使用\n(C) C程式中函式呼叫（Function  Call）為副程式的一種\n(D) 副程式可以呼叫另一副程式",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "有關副程式的使用，下列何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "以傳值（Pass-by-Value）做參數傳遞"
+      },
+      {
+        "letter": "B",
+        "text": "常配合堆疊（Stack）結構使用"
+      },
+      {
+        "letter": "C",
+        "text": "C程式中函式呼叫（Function  Call）為副程式的一種"
+      },
+      {
+        "letter": "D",
+        "text": "副程式可以呼叫另一副程式"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-20",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 20,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種不是CPU可以直接存取資料的儲存裝置？\n(A) 磁碟（Magnetic Disk）\n(B) 暫存器（Registers）\n(C) 快取記憶體（Cache）\n(D) 主記憶體（Main  Memory）",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那一種不是CPU可以直接存取資料的儲存裝置？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "磁碟（Magnetic Disk）"
+      },
+      {
+        "letter": "B",
+        "text": "暫存器（Registers）"
+      },
+      {
+        "letter": "C",
+        "text": "快取記憶體（Cache）"
+      },
+      {
+        "letter": "D",
+        "text": "主記憶體（Main  Memory）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-21",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 21,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種儲存裝置的資料存取速度最快？\n(A) 磁碟（Magnetic Disk）\n(B) 主記憶體（Main  Memory）\n(C) 快取記憶體（Cache）\n(D) 暫存器（Registers）",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列那一種儲存裝置的資料存取速度最快？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "磁碟（Magnetic Disk）"
+      },
+      {
+        "letter": "B",
+        "text": "主記憶體（Main  Memory）"
+      },
+      {
+        "letter": "C",
+        "text": "快取記憶體（Cache）"
+      },
+      {
+        "letter": "D",
+        "text": "暫存器（Registers）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-22",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 22,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關置換空間（Swap  Space）的使用，下列描述何者不正確？\n(A) 為主記憶體之延伸虛擬記憶體\n(B) 存放暫時不使用的資料\n(C) 只存放分頁的資料而非整個檔案\n(D) 一般以磁碟空間當置換空間",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關置換空間（Swap  Space）的使用，下列描述何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "為主記憶體之延伸虛擬記憶體"
+      },
+      {
+        "letter": "B",
+        "text": "存放暫時不使用的資料"
+      },
+      {
+        "letter": "C",
+        "text": "只存放分頁的資料而非整個檔案"
+      },
+      {
+        "letter": "D",
+        "text": "一般以磁碟空間當置換空間"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-23",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 23,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關圖結構（Graph  Structure）的描述，下列何者不正確？\n(A) N維立方體（N-Cube）中，每一節點與其他N個節點相連\n(B) 圖（Graph）可以用表列（List）或陣列（Array）加以表示\n(C) 一個圖的結構中，不可以有起點與終點都是同一節點的邊（Edge）存在\n(D) 在一個沒有方向性的簡單圖（Undirected  Simple Graph）中，連接每個節點的邊的總和會剛好是兩倍的節\n  點數",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關圖結構（Graph  Structure）的描述，下列何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "N維立方體（N-Cube）中，每一節點與其他N個節點相連"
+      },
+      {
+        "letter": "B",
+        "text": "圖（Graph）可以用表列（List）或陣列（Array）加以表示"
+      },
+      {
+        "letter": "C",
+        "text": "一個圖的結構中，不可以有起點與終點都是同一節點的邊（Edge）存在"
+      },
+      {
+        "letter": "D",
+        "text": "在一個沒有方向性的簡單圖（Undirected  Simple Graph）中，連接每個節點的邊的總和會剛好是兩倍的節\n  點數"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-24",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 24,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種元件不屬於實體關連資料模型的組成成份？\n(A) 查詢語言（Query  Languages）\n(B) 實體集（Entity Sets）\n(C) 屬性欄位（Attributes）\n(D) 關連集（Relationship Sets）",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那一種元件不屬於實體關連資料模型的組成成份？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "查詢語言（Query  Languages）"
+      },
+      {
+        "letter": "B",
+        "text": "實體集（Entity Sets）"
+      },
+      {
+        "letter": "C",
+        "text": "屬性欄位（Attributes）"
+      },
+      {
+        "letter": "D",
+        "text": "關連集（Relationship Sets）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-25",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 25,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "關連式資料庫中有關索引鍵（Key）的特性，下列描述何者不正確？\n(A) 具有獨一性\n(B) 主索引鍵（Primary Key）可以包括二個資料欄位\n(C) 一個資料表中可以有兩個索引鍵\n(D) 主索引鍵（Primary Key）可以不是該資料表的欄位",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "關連式資料庫中有關索引鍵（Key）的特性，下列描述何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "具有獨一性"
+      },
+      {
+        "letter": "B",
+        "text": "主索引鍵（Primary Key）可以包括二個資料欄位"
+      },
+      {
+        "letter": "C",
+        "text": "一個資料表中可以有兩個索引鍵"
+      },
+      {
+        "letter": "D",
+        "text": "主索引鍵（Primary Key）可以不是該資料表的欄位"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-26",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 26,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "SQL查詢語言中用以選取資料表中行（Column）的資料的運算為何？\n(A) Selection\n(B) Join\n(C) Projection\n(D) Update",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "SQL查詢語言中用以選取資料表中行（Column）的資料的運算為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Selection"
+      },
+      {
+        "letter": "B",
+        "text": "Join"
+      },
+      {
+        "letter": "C",
+        "text": "Projection"
+      },
+      {
+        "letter": "D",
+        "text": "Update"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-27",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 27,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者是常用的關連式資料庫查詢語言？\n(A) XML\n(B) QBE\n(C) Regular Languages\n(D) Context-Free Languages",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者是常用的關連式資料庫查詢語言？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "XML"
+      },
+      {
+        "letter": "B",
+        "text": "QBE"
+      },
+      {
+        "letter": "C",
+        "text": "Regular Languages"
+      },
+      {
+        "letter": "D",
+        "text": "Context-Free Languages"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-28",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 28,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一個敘述對資料庫第一正規化性質的描述是正確的？\n(A) 不限制每個欄位的資料數量\n(B) 比第二正規化要有嚴格的限制\n(C) 規範各欄位的資料單一化\n(D) 要求每個資料表需有主索引鍵的存在",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列那一個敘述對資料庫第一正規化性質的描述是正確的？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "不限制每個欄位的資料數量"
+      },
+      {
+        "letter": "B",
+        "text": "比第二正規化要有嚴格的限制"
+      },
+      {
+        "letter": "C",
+        "text": "規範各欄位的資料單一化"
+      },
+      {
+        "letter": "D",
+        "text": "要求每個資料表需有主索引鍵的存在"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-29",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 29,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那種情況下不可能造成死結（Dead  Lock）的發生？\n(A) 資源的使用是可以共享的情況\n(B) 數個程序間沒有優先使用資源的情況\n(C) 程序間有正在使用資源又等待另一資源的情況\n(D) 資源的使用必須要互斥的情況",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那種情況下不可能造成死結（Dead  Lock）的發生？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資源的使用是可以共享的情況"
+      },
+      {
+        "letter": "B",
+        "text": "數個程序間沒有優先使用資源的情況"
+      },
+      {
+        "letter": "C",
+        "text": "程序間有正在使用資源又等待另一資源的情況"
+      },
+      {
+        "letter": "D",
+        "text": "資源的使用必須要互斥的情況"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-30",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 30,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般副檔名為txt的檔案，以儲存何種檔案的內容為主？\n(A) 文字\n(B) 聲音\n(C) 視訊\n(D) 圖片",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "一般副檔名為txt的檔案，以儲存何種檔案的內容為主？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "文字"
+      },
+      {
+        "letter": "B",
+        "text": "聲音"
+      },
+      {
+        "letter": "C",
+        "text": "視訊"
+      },
+      {
+        "letter": "D",
+        "text": "圖片"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-31",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 31,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般副檔名為bmp的檔案，以儲存何種內容為主？\n(A) 數字\n(B) 文字\n(C) 圖片\n(D) 影片",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "一般副檔名為bmp的檔案，以儲存何種內容為主？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "數字"
+      },
+      {
+        "letter": "B",
+        "text": "文字"
+      },
+      {
+        "letter": "C",
+        "text": "圖片"
+      },
+      {
+        "letter": "D",
+        "text": "影片"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-32",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 32,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列常見的副檔名中，那一個以儲存執行檔為主？\n(A) exe\n(B) html\n(C) doc\n(D) txt",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列常見的副檔名中，那一個以儲存執行檔為主？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "exe"
+      },
+      {
+        "letter": "B",
+        "text": "html"
+      },
+      {
+        "letter": "C",
+        "text": "doc"
+      },
+      {
+        "letter": "D",
+        "text": "txt"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-33",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 33,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那種性質不是磁碟陣列（RAID）的主要功能？\n(A) 容錯性（Fault Tolerant）\n(B) 可信性（Reliability）\n(C) 增加執行速度（Speed）\n(D) 資料的一致性（Consistency）",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列那種性質不是磁碟陣列（RAID）的主要功能？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "容錯性（Fault Tolerant）"
+      },
+      {
+        "letter": "B",
+        "text": "可信性（Reliability）"
+      },
+      {
+        "letter": "C",
+        "text": "增加執行速度（Speed）"
+      },
+      {
+        "letter": "D",
+        "text": "資料的一致性（Consistency）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-34",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 34,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在微軟Windows作業系統下，下列那個動作可以顯示工作管理員視窗？\n(A) Ctrl+Alt+Del\n(B) Ctrl+Enter\n(C) Ctrl+Alt+Shift\n(D) Ctrl+Alt+Esc",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在微軟Windows作業系統下，下列那個動作可以顯示工作管理員視窗？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Ctrl+Alt+Del"
+      },
+      {
+        "letter": "B",
+        "text": "Ctrl+Enter"
+      },
+      {
+        "letter": "C",
+        "text": "Ctrl+Alt+Shift"
+      },
+      {
+        "letter": "D",
+        "text": "Ctrl+Alt+Esc"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-35",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 35,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那種檔案格式，不是常用的聲音格式？\n(A) HTML\n(B) MP3\n(C) WMA\n(D) MIDI",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那種檔案格式，不是常用的聲音格式？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "HTML"
+      },
+      {
+        "letter": "B",
+        "text": "MP3"
+      },
+      {
+        "letter": "C",
+        "text": "WMA"
+      },
+      {
+        "letter": "D",
+        "text": "MIDI"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-36",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 36,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那個資訊系統不屬於電子商務的領域？\n(A) ERP（Enterprise Resources Planning）\n(B) SCM（Supply Chain Management）\n(C) MIB（Management Information Base）\n(D) CRM（Customer Relationship Management）",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列那個資訊系統不屬於電子商務的領域？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ERP（Enterprise Resources Planning）"
+      },
+      {
+        "letter": "B",
+        "text": "SCM（Supply Chain Management）"
+      },
+      {
+        "letter": "C",
+        "text": "MIB（Management Information Base）"
+      },
+      {
+        "letter": "D",
+        "text": "CRM（Customer Relationship Management）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-37",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 37,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關TCP/IP網路的應用，下列何者正確？\n(A) 專為區域網路所定義的網路\n(B) 支援封包交換的網路\n(C) 支援電路交換的網路\n(D) 為群播式的網路",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有關TCP/IP網路的應用，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "專為區域網路所定義的網路"
+      },
+      {
+        "letter": "B",
+        "text": "支援封包交換的網路"
+      },
+      {
+        "letter": "C",
+        "text": "支援電路交換的網路"
+      },
+      {
+        "letter": "D",
+        "text": "為群播式的網路"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-38",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 38,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關IP位址的描述，下列何者不正確？\n(A) IPv4的位址長度為32  bits\n(B) 一部可以上網的電腦只能有一個IP位址\n(C) IPv4的位址一般以四個十進位數表示\n(D) IPv6的位址長度為128  bits",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有關IP位址的描述，下列何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "IPv4的位址長度為32  bits"
+      },
+      {
+        "letter": "B",
+        "text": "一部可以上網的電腦只能有一個IP位址"
+      },
+      {
+        "letter": "C",
+        "text": "IPv4的位址一般以四個十進位數表示"
+      },
+      {
+        "letter": "D",
+        "text": "IPv6的位址長度為128  bits"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-39",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 39,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "當前一般所謂的快速乙太網路，指的是其資料傳輸可以達到下列何種速度？\n(A) 10 Mbps\n(B) 100 Mbps\n(C) 1000 Mbps\n(D) 10 Gbps",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "當前一般所謂的快速乙太網路，指的是其資料傳輸可以達到下列何種速度？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10 Mbps"
+      },
+      {
+        "letter": "B",
+        "text": "100 Mbps"
+      },
+      {
+        "letter": "C",
+        "text": "1000 Mbps"
+      },
+      {
+        "letter": "D",
+        "text": "10 Gbps"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-40",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 40,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種通訊協定不是屬於應用層（Application  Layer）的協定？\n(A) CMIP\n(B) SMTP\n(C) HTTP\n(D) FTP",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那一種通訊協定不是屬於應用層（Application  Layer）的協定？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CMIP"
+      },
+      {
+        "letter": "B",
+        "text": "SMTP"
+      },
+      {
+        "letter": "C",
+        "text": "HTTP"
+      },
+      {
+        "letter": "D",
+        "text": "FTP"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-41",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 41,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那個通訊協定其主要的功能是作為檔案的傳輸？\n(A) SMTP\n(B) TFTP\n(C) SNMP\n(D) CMIP",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列那個通訊協定其主要的功能是作為檔案的傳輸？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SMTP"
+      },
+      {
+        "letter": "B",
+        "text": "TFTP"
+      },
+      {
+        "letter": "C",
+        "text": "SNMP"
+      },
+      {
+        "letter": "D",
+        "text": "CMIP"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-42",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 42,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般所謂的第三代（3G）網路指的是下列何種網路？\n(A) GSM\n(B) Internet\n(C) WLAN\n(D) CDMA",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "一般所謂的第三代（3G）網路指的是下列何種網路？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "GSM"
+      },
+      {
+        "letter": "B",
+        "text": "Internet"
+      },
+      {
+        "letter": "C",
+        "text": "WLAN"
+      },
+      {
+        "letter": "D",
+        "text": "CDMA"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-43",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 43,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列標準中，何者為目前電子安全交易所常使用的協定？\n(A) SMTP\n(B) HTTP\n(C) ISO\n(D) SSL",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列標準中，何者為目前電子安全交易所常使用的協定？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SMTP"
+      },
+      {
+        "letter": "B",
+        "text": "HTTP"
+      },
+      {
+        "letter": "C",
+        "text": "ISO"
+      },
+      {
+        "letter": "D",
+        "text": "SSL"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-44",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 44,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "撰寫程式前所繪製的流程圖中，一般以何種圖形表示「選擇」用途？\n(A) 正方形\n(B) 長方形\n(C) 三角形\n(D) 菱形",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "撰寫程式前所繪製的流程圖中，一般以何種圖形表示「選擇」用途？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "正方形"
+      },
+      {
+        "letter": "B",
+        "text": "長方形"
+      },
+      {
+        "letter": "C",
+        "text": "三角形"
+      },
+      {
+        "letter": "D",
+        "text": "菱形"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-45",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 45,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般所謂的WiFi網路，指的是下列何種網路？\n(A) 區域網路\n(B) 通訊網路\n(C) 無線網路\n(D) 衛星網路",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "一般所謂的WiFi網路，指的是下列何種網路？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "區域網路"
+      },
+      {
+        "letter": "B",
+        "text": "通訊網路"
+      },
+      {
+        "letter": "C",
+        "text": "無線網路"
+      },
+      {
+        "letter": "D",
+        "text": "衛星網路"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-46",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 46,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "關於公開金鑰的描述，下列敘述何者正確？\n(A) 使用者只需準備一把公開的鑰匙\n(B) 使用者只需準備一把私密的鑰匙\n(C) 使用者需準備一把公開的鑰匙及一把私密的鑰匙\n(D) 使用者完全不需準備鑰匙",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "關於公開金鑰的描述，下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "使用者只需準備一把公開的鑰匙"
+      },
+      {
+        "letter": "B",
+        "text": "使用者只需準備一把私密的鑰匙"
+      },
+      {
+        "letter": "C",
+        "text": "使用者需準備一把公開的鑰匙及一把私密的鑰匙"
+      },
+      {
+        "letter": "D",
+        "text": "使用者完全不需準備鑰匙"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-47",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 47,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列關於RSA加密法的描述，何者不正確？\n(A) RSA為一公開加密法\n(B) 溝通的對方必須要有共同的私密金鑰\n(C) 用私密金鑰加密是為了確認身分\n(D) 用公開金鑰加密是為了保密",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列關於RSA加密法的描述，何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RSA為一公開加密法"
+      },
+      {
+        "letter": "B",
+        "text": "溝通的對方必須要有共同的私密金鑰"
+      },
+      {
+        "letter": "C",
+        "text": "用私密金鑰加密是為了確認身分"
+      },
+      {
+        "letter": "D",
+        "text": "用公開金鑰加密是為了保密"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-48",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 48,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關電腦訊號的描述，何者不正確？\n(A) 一般電腦處理的資料為數位訊號\n(B) 魔電（Modem）處理類比與數位訊號之轉換\n(C) 訊號線的頻寬（Bandwidth）指的是其承載的容量\n(D) 一般電腦處理的訊號都是類比訊號",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列有關電腦訊號的描述，何者不正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "一般電腦處理的資料為數位訊號"
+      },
+      {
+        "letter": "B",
+        "text": "魔電（Modem）處理類比與數位訊號之轉換"
+      },
+      {
+        "letter": "C",
+        "text": "訊號線的頻寬（Bandwidth）指的是其承載的容量"
+      },
+      {
+        "letter": "D",
+        "text": "一般電腦處理的訊號都是類比訊號"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-49",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 49,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那種語言是處理人工智慧方面的代表性語言？\n(A) C++\n(B) LISP\n(C) PASCAL\n(D) COBOL",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列那種語言是處理人工智慧方面的代表性語言？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "C++"
+      },
+      {
+        "letter": "B",
+        "text": "LISP"
+      },
+      {
+        "letter": "C",
+        "text": "PASCAL"
+      },
+      {
+        "letter": "D",
+        "text": "COBOL"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "098-3d-50",
+    "examId": "098-3d",
+    "year": 98,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 50,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一張640 × 480的圖片，其數字代表的是下列那種意義？\n(A) 圖片大小（Size）\n(B) 像素（Pixel）\n(C) 位元數（Bit）\n(D) 顏色（Color）",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一張640 × 480的圖片，其數字代表的是下列那種意義？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "圖片大小（Size）"
+      },
+      {
+        "letter": "B",
+        "text": "像素（Pixel）"
+      },
+      {
+        "letter": "C",
+        "text": "位元數（Bit）"
+      },
+      {
+        "letter": "D",
+        "text": "顏色（Color）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

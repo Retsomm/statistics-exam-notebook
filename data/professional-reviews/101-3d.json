@@ -1,0 +1,1411 @@
+{
+  "reviewedOn": "2026-11-17",
+  "questionPdfSha256": "edf727c6a28a55a2a71ee28c18ee8379de9e6b54bd3f4b3d5203469483346338",
+  "answerPdfSha256": "1c83630bea41e062691edf411790961473c023b7ce0295b4217816624c5cf573",
+  "entries": {
+    "101-3d-1": {
+      "questionSha256": "db1998a27bd2ac8c5483549044a92a1aa8fa924d60b5a86c1092a06587ad4516",
+      "explanation": {
+        "summary": "11₈=9₁₀，11₄=5₁₀，兩者差為 4，轉成二進位就是 100，選 A。相同數字符號在不同基底有不同位值，不能直接把兩個 11 當成一樣大而相減為零。",
+        "options": {
+          "A": "100₂=4，符合 9−5 的差值。",
+          "B": "101₂=5，不是兩基底數值之差。",
+          "C": "110₂=6，比正確結果多 2。",
+          "D": "111₂=7，沒有依原基底換算得到。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-2": {
+      "questionSha256": "dc65feac353a478f0372a5d07aac62b443c94b168ffffda23ef26ba22546447b",
+      "explanation": {
+        "summary": "由 6＋6=14 得十進位 12=B＋4，基底 B=8；7＋71₈=7＋57=64=100₈也驗證。44₈＋44₈=36＋36=72₁₀=110₈，所以選 C。",
+        "options": {
+          "A": "88 含基底 8 不允許的數字 8，不能是合法結果。",
+          "B": "90 也含八進位不合法的 9。",
+          "C": "110₈=64＋8=72，等於兩個 44₈之和。",
+          "D": "132₈=90₁₀，與正確總和 72 不符。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-3": {
+      "questionSha256": "307eb3885cadff79e17a3214f49f10bc2977a48c8f0a4ff45107377c763e51bb",
+      "explanation": {
+        "summary": "依題目常見語言型別約定，byte 用一個位元組，float、integer 常為數個位元組，double 更多，因此選 C。各語言及實作的精確大小仍須查規格，不能把 integer 一律當固定大小；本題作基本型別容量比較。",
+        "options": {
+          "A": "double 通常需八個位元組等較大儲存空間，不是最少。",
+          "B": "float 常為四個位元組，比 byte 大。",
+          "C": "byte 通常代表一位元組，為所列常見型別最小者。",
+          "D": "integer 的具體寬度依語言，但本題約定不比單一 byte 小。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-4": {
+      "questionSha256": "5d0be9334b2a81f540dea264e4035f9d5c5ca18aacd96bdf008886fb271df1d8",
+      "explanation": {
+        "summary": "死結發生在行程彼此占住又等待資源，形成無法自行推進的循環等待；核心問題是資源競爭及配置條件，所以選 A。CPU 再快也無法單靠提高速度解開所有參與者都在等對方的邏輯狀態。",
+        "options": {
+          "A": "互斥資源的占用與等待可能形成循環，是死結議題核心。",
+          "B": "CPU 慢會延遲完成，但不是死結的必要原因。",
+          "C": "超頻可能造成不穩定，並非死結的資源等待定義。",
+          "D": "編譯器與直譯器的差別不是作業系統死結的基本原因。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-5": {
+      "questionSha256": "9e4111d082257343ef07842878ecd378dccc975e69815dbcc84ded79370b5209",
+      "explanation": {
+        "summary": "單淘汰每場恰淘汰一位，從 32 人留下唯一冠軍必淘汰 31 人，因此需 31 場，選 A。若分輪舉行雖有 5 輪，但輪數與比賽總場數不同。",
+        "options": {
+          "A": "31 場各淘汰一人，才能從 32 人留下 1 人。",
+          "B": "32 會比所需淘汰人數多一場。",
+          "C": "5 是完整 32 人淘汰賽輪數，不是所有場次總和。",
+          "D": "6 不是所需淘汰人數，也不是此 32 人賽制輪數。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-6": {
+      "questionSha256": "c4d73d591343b4bac75789d9b93d3056b12cbe6d32411af7a11f6abc00d1b131",
+      "explanation": {
+        "summary": "一般佇列從尾端加入、頭端取出，最早加入者先接受服務，稱 FIFO，先進先出，因此選 D。左右哪一側畫成入口只是圖示約定，不是資料結構的核心定義。",
+        "options": {
+          "A": "先進後出是堆疊的 LIFO 行為，不是一般佇列。",
+          "B": "左進右出只是畫圖方向，不能定義所有佇列。",
+          "C": "同進同出不是一般佇列的先後順序規則。",
+          "D": "FIFO 保留加入先後次序，正是一般佇列功能。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-7": {
+      "questionSha256": "8cc12931f7d3599882ae28759345a8dac3d35b670080ee75dc15ce22a5108448",
+      "explanation": {
+        "summary": "二分搜尋 n 筆已排序資料，成功查詢的最深比較層數約 floor(log₂n)＋1。n=100 最多 7 次，不可能有人需 8、9 次；1000 以上則可有深至 9 次的節點，因此不可能的人數為 A。題目採標準每輪比較中點一次的計次方式。",
+        "options": {
+          "A": "100 筆的標準二分成功搜尋最多七次，不能出現所述九次。",
+          "B": "1000 筆深度可達十次，出現七、八、九次皆可能。",
+          "C": "10000 筆有更深節點，不能由所給三次成功查詢排除。",
+          "D": "100000 筆同樣可能在第七至九層找到指定項目。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-8": {
+      "questionSha256": "caad54b6fd6716f0c6a894103916adc96930685879dbc995ec5c6c004847204d",
+      "explanation": {
+        "summary": "LOAD 一般把記憶體內容載入暫存器，而不是記憶體兩處彼此搬移，所以 B 錯誤。它可依定址模式計算有效位址，也可有載入單一 Byte 的形式。A 的快慢只是常見記憶體存取比整數加法慢的概括，實際要看架構、快取命中與指令延遲。",
+        "options": {
+          "A": "存取主記憶體通常較加法慢，但這不是所有架構與快取情況的絕對定理。",
+          "B": "LOAD 主要是記憶體到暫存器，不是一般記憶體到記憶體搬移。",
+          "C": "基底加偏移等定址模式會計算有效記憶體位址。",
+          "D": "部分架構提供載入單一位元組的指令，敘述可成立。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-9": {
+      "questionSha256": "a9be9d882e5d9b2be0c9d2d1dd9c8cea716614461e95d1fd4bcc7a3a0e0e567b",
+      "explanation": {
+        "summary": "三位員工各守一個階段，不同客人可同時分別在理髮、洗頭、吹整；這是把工作切成階段並重疊處理的管線，選 C。它提高連續服務吞吐量，不保證第一個客人的總流程時間減成三分之一。",
+        "options": {
+          "A": "排程決定工作順序，但題目特別強調三階段同時重疊。",
+          "B": "輪轉指時間片輪流服務，不是固定三階段流水處理。",
+          "C": "pipeline 把工作分階段，讓不同項目在不同階段並行。",
+          "D": "預取提前取得可能要用資料，並非此完整三工序模型。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-10": {
+      "questionSha256": "b6853fd45f3dee60b95c89e2d46000bb4090e81bbcbe55eb6f217447d089583c",
+      "explanation": {
+        "summary": "程式計數器保存指令流程的位址；一般可往下一指令，也能因分支、跳躍、呼叫、中斷而改變。因此不一定從第一行按文字順序走到最後，D 錯誤。增加四個 Byte 只是某些固定四 Byte 指令架構的常見情形，不是跨架構定律。",
+        "options": {
+          "A": "下一值可由順序位址或分支目標等多來源決定，敘述成立。",
+          "B": "部分固定長指令架構常加四位元組，但其他架構可能不同。",
+          "C": "它與目前或下一指令位址有關，具體定義依架構時點。",
+          "D": "控制轉移會改變執行順序，不會保證逐原碼第一到最後一行。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-11": {
+      "questionSha256": "28fe7475b21fe029532e75e39751e750508a6ac31097358aaf4d1c019f2df360",
+      "explanation": {
+        "summary": "半加器的和位只在兩輸入相異時為 1，真值 00→0、01→1、10→1、11→0，正是 XOR，選 B。兩輸入皆為 1 時，和位為 0、進位為 1；題目已說不管進位。",
+        "options": {
+          "A": "AND 對應兩輸入皆 1 的進位條件，不是和位。",
+          "B": "XOR 產生模二加法的和位，符合四種輸入組合。",
+          "C": "NAND 是 AND 取反，其 00 輸出 1，不符合和位。",
+          "D": "NOR 只有 00 輸出 1，也不是加法和位。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-12": {
+      "questionSha256": "97155230066cfa717d3ad5155247f24dec372c9118f7472951619b6dcb0f793c",
+      "explanation": {
+        "summary": "不要被前面的中置式範例帶偏。所問前序 * + * A B C D 對應 ((A×B)＋C)×D。代 A=2、B=3、C=4，得 (6＋4)D=30，所以 D=3，選 A。",
+        "options": {
+          "A": "3 使 (2×3＋4)×3=30，完全符合前序樹。",
+          "B": "4 會使結果成為 40，並非題目 30。",
+          "C": "5 會得到 50，與給定運算結果不符。",
+          "D": "6 會得到 60，不能由方程 10D=30 得到。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-13": {
+      "questionSha256": "c946b6289810d6aa2b1576da0f7c6dcb2d7781e3895aee42b5e2b9edd6624214",
+      "explanation": {
+        "summary": "一般記憶體階層中，暫存器最靠近運算核心且容量小，快取比主記憶體更快但容量通常小得多、每容量成本較高。因此 B「快取容量比主記憶體大」顛倒常見階層，選 B。這是在相同系統的一般架構比較。",
+        "options": {
+          "A": "一般暫存器存取較快取更直接，符合記憶體階層概念。",
+          "B": "快取為成本較高的小容量層，通常遠小於主記憶體。",
+          "C": "一般暫存器總容量比快取與 RAM 小，敘述符合。",
+          "D": "快取所用高速記憶體每容量成本通常高於主記憶體。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-14": {
+      "questionSha256": "42ba9b3950f2165538358cb00e41ffbbbc312154d813eee52a40fd705786f733",
+      "explanation": {
+        "summary": "採十進位 SI 倍數，1 TB=10¹² Byte、100 MB=100×10⁶ Byte，比值=10000，選 D。若採 1 TiB 與 100 MiB，精確比為 10485.76，仍最接近 D；實務應區分 TB、MB 與 TiB、MiB。",
+        "options": {
+          "A": "10 相差太小，忽略 T 與 M 之間相差六個十進位次方。",
+          "B": "100 也未正確換算 1 TB 與 100 MB 的比例。",
+          "C": "1000 比本題十進位結果少十倍。",
+          "D": "10000＝10¹²/10⁸，符合 SI 單位的精確比值。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-15": {
+      "questionSha256": "62ace2d4f600f0b942cb772edffe0e33a39c9b2d569e67c76fcf36a5f1cb031e",
+      "explanation": {
+        "summary": "本題以最初開機韌體／bootstrap 為脈絡：斷電後仍須保留，不能只放揮發性 RAM，故 B 錯誤。但 A 的「不可放硬碟」不能泛指整套開機流程，後續 bootloader 與作業系統核心常在硬碟；只有重設後最初可執行的韌體須先可被處理器取得。",
+        "options": {
+          "A": "若指最初啟動韌體有其要求，但後續開機載入器與核心實際可放硬碟，原句範圍不精確。",
+          "B": "RAM 斷電會遺失，不能以放 RAM 作為防止啟動碼消失的方法。",
+          "C": "初始載入程式通常較小，但大小比較是教材情境而非必要定義。",
+          "D": "一般開機不需每次重新編譯韌體，與韌體開發本身仍需建置不同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-16": {
+      "questionSha256": "63f67aa4d4d2537321b3250a07dbdb8a0799d396762a9d90dbc0b6809967843f",
+      "explanation": {
+        "summary": "IC 是 Integrated Circuit，中文為積體電路，意指在晶片上整合電晶體及互連等電路元件，選 D。不是把 entire computer 或 intensive 當成縮寫全名。",
+        "options": {
+          "A": "Intensive 不是 IC 的 I，英文全名不符。",
+          "B": "Intensive Computer 既不符字義，也不是 IC 標準全名。",
+          "C": "I 的 Integrated 正確，但 C 應為 Circuit 而非 Computer。",
+          "D": "Integrated Circuit 正確對應積體電路。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-17": {
+      "questionSha256": "323c4098fe6f8284f40183700a2eb976b039eb44e082472422682bfe75c1b68d",
+      "explanation": {
+        "summary": "8×8=64 個像素，每像素需 log₂8=3 bit 才能分辨八種顏色。基本像素資料=64×3=192 bit=24 Byte，即 8×3，選 D。題目未計檔頭、調色盤或列對齊等格式額外負擔。",
+        "options": {
+          "A": "64 Byte 等於每像素一 Byte，超過此題最低三 bit 需求。",
+          "B": "8 Byte 僅足每像素一 bit，無法分辨八種顏色。",
+          "C": "16 Byte 只提供每像素兩 bit，最多四種顏色。",
+          "D": "24 Byte 正好提供 64 像素各三 bit 的最低資料量。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-18": {
+      "questionSha256": "2a805be4fbad8c5eaba92a92b9abb9c3471def35baf0fae0325d20ef3a3b5f3b",
+      "explanation": {
+        "summary": "官方答案 C，但原題存在明顯疑義：RTP（Real-time Transport Protocol）本來就用於即時音訊、視訊等媒體資料傳輸，RFC 3550 直接支持這個用途。不能為配合答案說 RTP 與串流無關。RTSP 偏向串流會話控制，RTP 偏向媒體傳輸，兩者可配合；原選項文字未充分區分。",
+        "options": {
+          "A": "FTP 是檔案傳輸協定，敘述成立。",
+          "B": "HTTP 是超文字傳輸協定，此基本用途描述成立。",
+          "C": "RTP 確實可傳遞串流媒體，官方將此列錯誤有題意疑義，保留計分但不能否定其用途。",
+          "D": "TCP 是 Transmission Control Protocol，名稱對照成立。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "RFC 3550：RTP 即時音訊與視訊傳輸",
+            "url": "https://www.rfc-editor.org/rfc/rfc3550"
+          }
+        ]
+      }
+    },
+    "101-3d-19": {
+      "questionSha256": "e1a76b2e5415dcb53fc40df726c67d618756f26122280681ba13f8ae0c34c221",
+      "explanation": {
+        "summary": "題目預期將 Router、Bridge、Hub 歸為連接電腦網段的設備，而 Multiplexer 合併多路訊號到共享通道，功能重點不同，選 D。原文將 Bridge 翻成分享器不精確，正確通常為橋接器；多工器也會用於通訊系統，並非與網路完全無關。",
+        "options": {
+          "A": "Router 依網路層位址轉送跨網段封包，屬網路互連設備。",
+          "B": "英文 Bridge 是橋接器，依第二層位址連接網段，中文分享器用字不精確。",
+          "C": "Hub 將訊號送往連接埠，屬基本區域網連接設備。",
+          "D": "Multiplexer 著重多路訊號共用通道，與前三者分類重心不同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-20": {
+      "questionSha256": "842b770a60b28fffc61fb2bc85fbef0c344e8bc23c8e6abb76bb9a9a9e696a6e",
+      "explanation": {
+        "summary": "OSI 由下而上為實體、資料鏈結、網路、傳輸、會議、表達、應用。題目若指緊接資料鏈結層上一層，就是網路層 B。若將「之上」按所有較高層字面解讀，應用、傳輸也都在其上，所以必須交代是相鄰上一層的命題意思。",
+        "options": {
+          "A": "應用層確在較高處，但不是緊鄰資料鏈結層上一層。",
+          "B": "第 3 層網路層直接位於第 2 層資料鏈結層之上。",
+          "C": "傳輸層在第 4 層，中間還隔著網路層，不是相鄰。",
+          "D": "實體層是第 1 層，在資料鏈結層下方。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-21": {
+      "questionSha256": "8f13e38c37c6bd9326f78233d16ad47f5cc61fa17bbeaa25ba1f1d99bfc3198d",
+      "explanation": {
+        "summary": "FPS 是 Frames Per Second，每秒呈現幾個影格，用來描述動畫或影片的時間取樣密度，選 C。它不是 Frequency 的這組縮寫，也不等於空間解析度；高 FPS 與高像素分別是不同品質面向。",
+        "options": {
+          "A": "F 應為 Frames，S 應為 Second，不是此選項。",
+          "B": "雖然 per second 方向相近，但正式名稱第一字是影格 Frames。",
+          "C": "Frames Per Second 正是每秒影格數。",
+          "D": "每來源影格數不是 FPS 的標準全名。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-22": {
+      "questionSha256": "ba56afdc74e1942261081029adeb47f74d43f9a8829d1c70b442a6b214532484",
+      "explanation": {
+        "summary": "DNS 是名稱解析系統，可用 A、AAAA 等記錄查名稱對應 IP，也可用 PTR 作反向解析，因此選 A。正向與反向資料由各自區域管理，不保證任意 IP 都必然有唯一名稱可查。",
+        "options": {
+          "A": "DNS 提供名稱與位址相關記錄查詢，符合題意。",
+          "B": "GPS 是衛星定位系統，不負責網域名稱解析。",
+          "C": "DPS 不是本題所指網際網路名稱解析系統。",
+          "D": "GNS 並非此一般網域名稱查 IP 的標準答案。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-23": {
+      "questionSha256": "05a37109504203588c84a07c7b3e8631017e41c52477df7a179cba33c6d64cdc",
+      "explanation": {
+        "summary": "合併列印把主文件與資料來源逐筆結合，可用 Word 表格、Excel 工作表、Access 資料等，因此 B 正確。資料來源不必與主文件同資料夾，Outlook 聯絡人也可作為來源。圖像常需透過路徑與欄位等方法處理，不能一概說無法合併圖片。",
+        "options": {
+          "A": "圖片可透過相應欄位與來源路徑等方式處理，不是絕對只能文字。",
+          "B": "所列三種常見表格式資料均可用於合併列印。",
+          "C": "只要連線或路徑可存取，不要求來源一定在同一資料夾。",
+          "D": "Outlook 聯絡人可作來源，因此此一概排除的敘述錯誤。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-24": {
+      "questionSha256": "8d12f41712afd8245a0df538f96216c6c5c3be894b897f9937145905adf7dfd6",
+      "explanation": {
+        "summary": "影像基本儲存量由像素個數及每像素位元數決定。兩個螢幕選相同像素解析度、相同色彩格式，雖然實體吋數不同，存一個畫面的資料量仍為 Y，選 B。若固定的是 PPI 而非像素解析度，才會有不同計算。",
+        "options": {
+          "A": "螢幕變大不會在相同像素數下使畫面資料量減半。",
+          "B": "相同像素解析度與位元深度，所需基本畫面資料量不變。",
+          "C": "兩倍吋數不是兩倍像素個數，原題已固定像素解析度。",
+          "D": "四倍面積只有固定像素密度時才意味四倍像素，與此設定不同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-25": {
+      "questionSha256": "4687b989c48f4517babd98a9b30283f187490541e7cb25be93b8e760d7a2e366",
+      "explanation": {
+        "summary": "正規化依功能相依等資料規則進行適當分解，以減少冗餘、更新異常及不一致，選 A。它不是隨意刪掉看起來重複的紀錄，也不保證每個分解後的查詢都更快；仍要維持無損連接及適當相依。",
+        "options": {
+          "A": "正規化以資料相依性改善關聯結構，符合題目需求。",
+          "B": "均質化不是此關聯分解程序的標準名稱。",
+          "C": "統一化是一般用語，沒有指定關聯正規化的條件與分解。",
+          "D": "入庫化並非此資料庫結構設計程序的名稱。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-26": {
+      "questionSha256": "64b9266a29867b0ac70214096c22ad3a2bda0f7de0b5ee87ff90e6e2373c6602",
+      "explanation": {
+        "summary": "FTP 提供檔案上傳、下載與伺服器檔案操作，包含可授權的重新命名等；一般網頁瀏覽則以 HTTP/HTTPS 取得網頁內容並由瀏覽器呈現。因此 C 不是 FTP 的核心功能，選 C。能取回 HTML 檔不等於提供完整 Web 服務。",
+        "options": {
+          "A": "FTP 可把本地檔案上傳到遠端伺服器。",
+          "B": "FTP 可將遠端檔案下載到本地。",
+          "C": "一般瀏覽網頁是 HTTP/HTTPS 等 Web 功能，不是 FTP 的標準服務。",
+          "D": "FTP 協定提供檔案重新命名等操作，仍受權限控制。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-27": {
+      "questionSha256": "1fb2824ab523ec04bb2d9259fcecba61e8f28984d36a0ad51c0f5da40dd57c26",
+      "explanation": {
+        "summary": "向下封裝時，應用資料先成傳輸層區段，再加網路層表頭成封包，接著成資料鏈結層訊框，最後以實體位元傳送。故順序①資料③區段④封包②訊框⑤位元，選 A。這是教材對常見 TCP/IP 與 OSI 對照的用語。",
+        "options": {
+          "A": "資料→區段→封包→訊框→位元，順序與各層封裝一致。",
+          "B": "將訊框放在網路封包之前，資料鏈結與網路層顛倒。",
+          "C": "先封包後區段，錯置網路與傳輸兩層順序。",
+          "D": "不僅網路傳輸順序有誤，也把訊框與區段位置混用。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-28": {
+      "questionSha256": "4c585ffea5b2e39b2f1ebb3e990cc0892b0c5832d2eda6ca28c1e5f5861042d0",
+      "explanation": {
+        "summary": "OLAP 專注歷史與多維彙總分析，可做 roll-up、drill-down、pivot；OLTP 則處理日常短交易與一致性更新，例如結帳。兩者負載與設計目標不同，所以 B「相同系統」錯誤。它們可以整合，並不代表概念相同。",
+        "options": {
+          "A": "多維分析與向上彙總、下鑽、樞紐操作符合 OLAP。",
+          "B": "OLAP 與 OLTP 的分析及交易目標不同，不能視為同一概念。",
+          "C": "Cube 可組織多維分析資料，屬 OLAP 常見表現方式。",
+          "D": "歷史與彙總資料的複雜分析符合 OLAP 的典型用途。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-29": {
+      "questionSha256": "5d9e058eef57a2e6533085e9346410ebbd3b8609b704f1766cbcc223456f3495",
+      "explanation": {
+        "summary": "依本題年代的主要服務定位，Yahoo 是入口網站，整合搜尋、新聞、郵件等入口服務，所以選 B。Google 主要以搜尋服務著稱，Wiki 是協作式內容概念，Facebook 是社群平台；不能把題目「目前最流行」當成今日未查證的排名結論。",
+        "options": {
+          "A": "Google 並非本題所指百科全書服務的主要分類。",
+          "B": "Yahoo 的入口網站定位符合原題背景與功能。",
+          "C": "Wiki 是協作編輯網站技術與形式，不是特定最受歡迎搜尋引擎。",
+          "D": "Facebook 主要為社群平台，不能直接等同通訊軟體熱門排名。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-30": {
+      "questionSha256": "0938eb35aadbdfe57687fd7084456a1f3f9df679e7636210cf48c08e06ec3971",
+      "explanation": {
+        "summary": "DNS 是具有階層式命名與分散管理的系統，透過資源記錄查詢名稱及 IP 等資料，故 B 正確。一般 DNS 服務使用 UDP/TCP 53，而非 35；各區域也需由相應管理者維護。",
+        "options": {
+          "A": "DNS 有階層命名，且不負責描述網頁內容格式。",
+          "B": "網域名稱對應主機位址等資源記錄，是 DNS 的核心用途。",
+          "C": "一般服務埠為 53，選項的 35 對調數字。",
+          "D": "分散管理不代表不需要任何管理者或區域維護。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-31": {
+      "questionSha256": "f0eb0a2108e93cad138d9ff3d412a9ee47176514d4117dbe24597bec9c18833a",
+      "explanation": {
+        "summary": "關聯代數 selection 是依條件選「列」，projection 才是選「欄」。A 把 Selection 說成擷取欄位，概念混淆，因此錯誤。Join 依連接條件結合資料列，SQL 則用具體查詢語法表達這類操作。",
+        "options": {
+          "A": "欄位擷取應稱 projection，selection 挑的是符合條件的資料列。",
+          "B": "Join 可依對應鍵或條件結合兩表資料，描述符合。",
+          "C": "這些是歷史上常列的資料庫系統產品，本題按教材分類判讀。",
+          "D": "SQL 的歷史名稱及關聯查詢用途與題目背景大致相符，不是本題概念錯置處。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-32": {
+      "questionSha256": "b2096364c6cd6fd199180fd5fb675d47a79f5bc3b1b09c60aab97219fd9a0909",
+      "explanation": {
+        "summary": "Google Talk 本來就是即時通訊服務，提供即時文字與語音等功能，所以 C 的「不是即時通訊」錯誤。其他產品也應按題目當時版本理解，其中多項服務後來已退役；不能把舊產品清單當成現行使用建議。",
+        "options": {
+          "A": "所列產品在原題年代都曾提供即時通訊功能。",
+          "B": "文字、語音與檔案傳送是即時通訊常見能力，實際仍依產品版本。",
+          "C": "Google Talk 是即時通訊服務，否定其分類的敘述錯誤。",
+          "D": "即時通訊與會議影音整合是其功能發展方向之一。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-33": {
+      "questionSha256": "1092f83b529ddf64118284fa4cac24b050bdaaec3ee2dfd7df59d23565481ee5",
+      "explanation": {
+        "summary": "本題官方已更正接受 A、B 或 AB。不同郵件用戶端介面可用逗點或分號分隔多位收件者，不能不分程式硬定只有一種。標準郵件標頭的地址列表另有語法；內容或主旨空白也不是 SMTP 一律禁止傳送的條件。",
+        "options": {
+          "A": "逗點為常見地址列表分隔方式，依本題更正可選。",
+          "B": "某些郵件用戶端接受分號輸入，依本題更正也可選。",
+          "C": "協定不因一般信件本文空白就必然拒絕；用戶端可能另行提醒。",
+          "D": "主旨可留白，部分程式只提醒確認，並非協定一律無法送出。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-34": {
+      "questionSha256": "106579ce9a5adfb3532acbc03ad92e08d26f351001397b971e116560d9af8cf0",
+      "explanation": {
+        "summary": "企業賣商品給個人是 B2C，不是 A 的 C2C 或 B 的 C2B。個人之間透過平台拍賣，可歸 C2C，所以官方選 C。平台上也可能有企業賣家，須依實際交易雙方角色分類，不是所有網路拍賣一律 C2C。",
+        "options": {
+          "A": "題述企業到消費者應為 B2C，不是 C2C。",
+          "B": "同一企業向個人銷售也不是消費者主導向企業的 C2B。",
+          "C": "若拍賣雙方是個人消費者，C2C 分類成立，為題目預期情境。",
+          "D": "一般個人拍賣不符合企業對企業 B2B，除非雙方實際都是企業。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-35": {
+      "questionSha256": "f5bc4ada1ab0715263a1042d7f3c6cd818720d8e5bed587f07f95c3ee97534b2",
+      "explanation": {
+        "summary": "IMAP 移到垃圾桶通常仍在伺服器某個資料夾，其他裝置可依同步與權限存取，直到永久刪除等操作完成。因此 B 說一移入刪除資料夾就一定無法再存取太絕對。POP3 也可設定保留副本，不能一律認定收完就刪。",
+        "options": {
+          "A": "IMAP 可先取得標頭或部分內容，不必一次下載完整本文。",
+          "B": "移到垃圾桶不等於永久清除；仍可能從其他裝置存取，原句過度絕對。",
+          "C": "IMAP 適合多裝置保留伺服器狀態，但 POP3 也能設定保留副本。",
+          "D": "IMAP 可支援多個同時連線存取，具體仍受伺服器權限與政策限制。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-36": {
+      "questionSha256": "d7eb90e7ea7ea2a23db658b27bbc504c048bce987a3e882c514c77a475e9da9c",
+      "explanation": {
+        "summary": "A 都是資料庫，B 都是程式語言，C 都是行動作業系統；D 的 Excel 是試算表、Word 是文書處理，依題目採用的功能分類不在同一子類，所以選 D。若只用「都是軟體」的更粗分類就無法作這種比較。",
+        "options": {
+          "A": "Access、MySQL 同屬資料庫管理產品的比較。",
+          "B": "Java、C++ 同屬程式語言。",
+          "C": "Android、iOS 同屬行動作業系統平台。",
+          "D": "Excel 與 Word 分別處理試算表與文書，子功能分類不同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-37": {
+      "questionSha256": "d46bbc499257c387d414a9c112a6ef561bf19e423c05fe7147a6d70ec1fdc18f",
+      "explanation": {
+        "summary": "一般網路 P2P 影音軟體可利用既有電腦與網路收看，不必一律加購硬體，所以官方選 B。但 D 說「免費使用」也不是 P2P 技術必然性，服務可以收費；A 的分享亦受實作與設定影響。要學的是分散傳送機制，而非把所有 P2P 服務都當永久免費。",
+        "options": {
+          "A": "典型 P2P 參與者可同時接收與分享，但實際行為仍依系統設計。",
+          "B": "不必必然加購硬體才可收看 P2P 影音，原句過度絕對。",
+          "C": "P2P 可分攤伺服器傳輸負載；最廣使用的說法屬原題年代背景。",
+          "D": "免費是特定服務商政策，不是 P2P 技術保證，原句也有過度概括。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-38": {
+      "questionSha256": "042678368997a5bf81bac23d1ba43c3bf9aaaf89ac1536fcaac6b17c7cc9f4af",
+      "explanation": {
+        "summary": "本題將普通 USB 隨身碟視為僅提供儲存、沒有獨立網路堆疊與操作介面的裝置，故選 D。智慧手機、具連線能力相機與 iPad 可直接使用網路服務；「數位相機」也不是所有型號都有網路，需依配備判斷。",
+        "options": {
+          "A": "智慧型手機具網路與應用功能，可使用網際網路服務。",
+          "B": "具 Wi-Fi 等功能的數位相機可連網，不宜按所有型號一概判斷。",
+          "C": "iPad 可透過支援的網路介面及應用使用網路服務。",
+          "D": "普通 USB 儲存碟本身不獨立運行網路服務，需主機協助。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-39": {
+      "questionSha256": "e38a01fe19d006d8c4a09e667044bcf5837e7d58c1176ebb1cfcfbdc1edea983",
+      "explanation": {
+        "summary": "利用他人知名標誌等惡意搶註網域，俗稱網路蟑螂或 cybersquatting，可能涉及商標等權益，所以本題選 C。但先註冊某名稱本身不必然違法，仍須看商標使用、混淆、惡意與具體規範，也可能透過網域爭議處理機制解決。",
+        "options": {
+          "A": "網域搶註不是一般破解系統的駭客行為，專利也非此名稱識別的主要權利。",
+          "B": "著作權主要保護表達，不是本題網域與商標混淆的典型配對。",
+          "C": "網路蟑螂是本題俗稱，商標為可能相關權利，但非每案自動構成侵權。",
+          "D": "此用語與所列法律不是題目要辨認的典型名稱配對。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-40": {
+      "questionSha256": "5c0c0050702b71c79edd2681faed6ac935a6e01f15f9fca98b91f965a14ec965",
+      "explanation": {
+        "summary": "FULL OUTER JOIN 保留符合條件的配對，再補左右未匹配列的 NULL；CROSS JOIN 則列出兩表所有可能配對，沒有配對條件，兩者不同。因此 D 最後一句錯誤，選 D。不要把「保留所有來源列」誤解成「每列與每列全部交叉」。",
+        "options": {
+          "A": "以相等條件做 INNER JOIN，可產生對應欄值相同的配對列。",
+          "B": "LEFT JOIN 保留左側每列，沒有右匹配時右欄補 NULL。",
+          "C": "CROSS JOIN 產生笛卡兒積，符合所有可能組合的敘述。",
+          "D": "FULL JOIN 有條件匹配及未匹配補列，不等於無條件笛卡兒積。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-41": {
+      "questionSha256": "32b9c4c9a18113f7611d2399dd8e2ed5b94e3bfe618fd464c71a41f6d8f53990",
+      "explanation": {
+        "summary": "DRM 管理數位內容的授權與使用限制，例如播放次數、裝置或有效期。VHS 是類比錄影帶，類比防拷另有技術，不能把一般數位 DRM 直接說成可防止 VHS 拷貝，因此 D 不符本題分類。DRM 也不是絕對無法繞過的保證。",
+        "options": {
+          "A": "數位內容授權及使用限制正是 DRM 的用途。",
+          "B": "DRM 可設計播放或開啟次數限制，實際依內容平台。",
+          "C": "可攜裝置的數位內容也能納入授權與裝置控制。",
+          "D": "VHS 的類比防拷與本題數位內容 DRM 不同，不能直接等同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-42": {
+      "questionSha256": "5101dda4c8ccf1d202465f1d48aed4504367598722e268771854a161719c0d5f",
+      "explanation": {
+        "summary": "本題問類別式物件導向的基礎概念：class、encapsulation 常見，Category 不是各語言共同必要的核心特性，因此官方選 D。但 Objective-C 確有 category 機制，不能教成所有物件導向語言都不可能含分類；也有原型式物件模型不以傳統類別為核心。",
+        "options": {
+          "A": "標準 C 沒有內建 class 式物件導向語法，雖可用結構與函式模擬部分概念。",
+          "B": "類別是本題類別式物件導向的基本概念。",
+          "C": "封裝限制資料與操作的可見性，是常見物件導向特性。",
+          "D": "Category 不是通用必要特性，但特定語言如 Objective-C 有此機制。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-43": {
+      "questionSha256": "3c1398d29e33dbfbb454f63f7524503e3a47236fce0eb7a0a19bd0379b20ceaf",
+      "explanation": {
+        "summary": "WiMAX 對應 IEEE 802.16 家族，可提供寬頻無線接取，作為最後一哩或有線接取的替代，所以選 B。具體可移動與漫遊能力依固定式、行動式版本而異，不能一概說無法漫遊；全名中也沒有 Xml。",
+        "options": {
+          "A": "覆蓋範圍不必與 Wi-Fi 一樣，且是否支援移動依版本決定。",
+          "B": "IEEE 802.16 與最後一哩寬頻接取的配對正確。",
+          "C": "不能將所有 WiMAX 都說成無法提供遊牧式或移動接取。",
+          "D": "正確全名為 Worldwide Interoperability for Microwave Access，沒有 Xml。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-44": {
+      "questionSha256": "211603baef25059c2dff83e363e8438d9d131604c5a41893a2d049175599fa24",
+      "explanation": {
+        "summary": "題目採 CRM 常見三類：操作型支援銷售、行銷與服務流程；分析型從顧客資料找洞見；協同型整合接觸通路與互動。Hierarchy CRM 不在此三分法，所以選 A。其他教材可能有不同分類，但不能任意替換本題指定架構。",
+        "options": {
+          "A": "層級型不是本題操作、分析、協同三類中的名稱。",
+          "B": "操作型處理銷售、行銷及客服等日常顧客流程。",
+          "C": "分析型運用顧客資料分析以支援決策。",
+          "D": "協同型整合跨部門或通路的顧客互動資訊。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-45": {
+      "questionSha256": "49636e37521c9c39bdc5981421cb398219b9d4c8974437026d9307023e0174b7",
+      "explanation": {
+        "summary": "E-Commerce 著重透過電子方式進行交易；E-Business 較廣，還涵蓋組織內部與供應鏈等數位營運。因此不能說兩者範圍完全相同，D 錯誤。其他選項是原題年代的功能與產品例子，Google Checkout 等歷史產品不代表仍在提供服務。",
+        "options": {
+          "A": "廣義電子商務可涉及交易與其支援流程，題述為相關應用範圍。",
+          "B": "所列網路、郵件、資料庫、行動裝置可參與電子商務處理。",
+          "C": "這些為原題當時的支付服務例子，應按歷史背景理解。",
+          "D": "E-Business 比電子交易更廣，不能說屬性與範圍完全相同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-46": {
+      "questionSha256": "535e48d84c285f06571b7db7d8970d4fbe222b8060933afe2a871841fe7a768d",
+      "explanation": {
+        "summary": "顧客端關係由 CRM 管理，企業內部資源由 ERP 整合，供應端流程由 SCM 協調，通常可示意顧客↔CRM↔ERP↔SCM↔供應商。因此 C 把 SCM 與 CRM 位置反置，錯誤。這是功能示意，不是要求所有企業只能照同一線性架構連線。",
+        "options": {
+          "A": "ERP 整合內部資源與流程，是其核心用途。",
+          "B": "SCM 面向供應鏈、CRM 面向客戶，可支援企業外部關係。",
+          "C": "把顧客接 SCM、供應商接 CRM，混淆兩者主要管理對象。",
+          "D": "三種系統需資訊協調，不能各自孤立，敘述符合題意。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-47": {
+      "questionSha256": "1d5ae17b8c5f62af36c6ee16a72c408707ccd753769306f4936b8339bc962ba5",
+      "explanation": {
+        "summary": "虛擬碼用清楚、近似程式的記法描述演算法，通常不綁定某一語言的完整語法，也不是自動可編譯執行的特定語言。因此 B 錯誤。它可混合自然語言與控制結構供溝通，但實作前仍需轉成正式程式。",
+        "options": {
+          "A": "自然語言配合程式式結構描述流程，符合虛擬碼的用途。",
+          "B": "一般 pseudo code 不具統一執行規格，不能說它是既定可直接執行的語言。",
+          "C": "虛擬碼可兼具文字易讀與流程結構清楚的優點。",
+          "D": "面向分析師、程式設計師溝通的描述大致符合教材用途，仍非嚴格唯一對象。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-48": {
+      "questionSha256": "77f57b04b1cda930a19812cb28bd258a0f7904a10a6925f5487eb6b2cddbb8b5",
+      "explanation": {
+        "summary": "資安要依資產、風險與工作需求設定適當控制，下載權限、防護與密碼保護都直接相關。全面封鎖特定社群網站不是每家企業必需的通用要素，所以官方選 D；它仍可在有風險評估的特定組織政策中成為一項措施。",
+        "options": {
+          "A": "依需要限制資料下載可降低未授權外洩風險。",
+          "B": "防火牆可降低部分不當連線風險，但不能保證擋下所有病毒木馬。",
+          "C": "不將密碼公開貼放，可降低旁觀者直接取得憑證的風險。",
+          "D": "封鎖 Facebook 不是普遍必需，是否採取應依工作與風險政策評估。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-49": {
+      "questionSha256": "dbe5a5b50df0b8e96ad104b2d2106d3d1042003c01927a9a6ed24659fd12bc6f",
+      "explanation": {
+        "summary": "輸出每個 Region_name 一列，所以依 Region_name 分組；Total 是 Quantity 的合計，使用 SUM(Quantity) AS Total。因此選 C，East=1500＋250=1750，West=300＋700=1000。原表名 Order 為 SQL 保留字，實際執行需依方言引用。",
+        "options": {
+          "A": "按 Quantity 分組無法產生按地區彙總的兩列，且原表沒有 Total 欄。",
+          "B": "SUM(Total) 使用不存在的原欄位，分組欄位也不對。",
+          "C": "依地區分組並加總 Quantity，欄名以 AS Total 指定，與輸出一致。",
+          "D": "分組雖正確，但原表沒有可直接加總的 Total 欄，應加總 Quantity。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    },
+    "101-3d-50": {
+      "questionSha256": "b3b164a4ed0a6bff5ab40fe1f62e2efa447372f28d11f8968dc6f63a63228afa",
+      "explanation": {
+        "summary": "number 從 1 每次加 1，直到包含 num=6，所以累加 1＋2＋3＋4＋5＋6=21，選 A。可用等差和 6×7/2 驗算；for 的 <= 表示末項 6 也會計入。",
+        "options": {
+          "A": "21 是完整累加 1 至 6 的結果。",
+          "B": "6 是最後 number 的有效值，不是 sum 總和。",
+          "C": "15 只加到 5，漏掉條件允許的第 6 項。",
+          "D": "10 只加到 4，未完整執行所給迴圈。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "101 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=101020&c=508&s=0703&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=101020&c=508&s=0703&q=1"
+          }
+        ]
+      }
+    }
+  }
+}

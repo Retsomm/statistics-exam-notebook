@@ -1,4 +1,5 @@
 import {mkdirSync,writeFileSync,readFileSync} from 'node:fs';
+import {reviewedProfessionalExplanation} from '../professional-import/reviewed.mjs';
 
 // Reviewed explanations take priority over keyword-based generation on every build.
 const reviewedExplanations=JSON.parse(readFileSync(new URL('./reviewed-explanations.json',import.meta.url),'utf8'));
@@ -1100,6 +1101,7 @@ function optionExplanation(question,option,correct,topic){
 }
 
 function explanationFor(question,exam){
+ const authored=reviewedProfessionalExplanation(question,exam);if(authored)return authored;
  if(reviewedExplanations[question.id])return structuredClone(reviewedExplanations[question.id]);
  const topic=topicFor(question);
  const correct=question.options.find(option=>question.accepted.includes(option.letter));

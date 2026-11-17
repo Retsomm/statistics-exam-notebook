@@ -1,0 +1,1127 @@
+{
+  "reviewedOn": "2026-11-17",
+  "questionPdfSha256": "2fafb2c63818d9116510b142e628f48ee9f4caa44aab9e270cb0af39d860d906",
+  "answerPdfSha256": "e88a99bfa03979c353ba18dee1c77cc4ba6a4d4019f78f6fa2efeb9d0074d809",
+  "entries": {
+    "097-2s-1": {
+      "questionSha256": "cd1b84d4564ace48525a01670e23bf0f06e4d20a1ff3565495d4b2393f57619a",
+      "explanation": {
+        "summary": "由10位同學的樣本，推估全校學生的平均身高，是由部分觀察推及更大群體的推論統計。樣本是否足以代表全校仍需查抽樣方法；即使推估可能不可靠，這項行為的類型仍是推論，而非只整理那10人。",
+        "options": {
+          "A": "若只描述受調查10人的平均，才是敘述統計。",
+          "B": "用樣本推估全校平均，符合推論統計。",
+          "C": "全校真實平均是參數，但題目問的是由樣本作陳述的行為。",
+          "D": "母體是全校學生這個群體，不是推估行為的名稱。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-2": {
+      "questionSha256": "eb99cdf6524c202fdbb019bf48a9f864d2428be273b4c2d6963d152fb199a762",
+      "explanation": {
+        "summary": "平均數衡量中心位置；全距、變異數與標準差衡量數值分散程度。因此C不是分散量數。兩組資料可有相同平均卻差異很大的標準差，不能只看平均就知道資料是否集中。",
+        "options": {
+          "A": "全距=最大值−最小值，衡量整體延伸範圍。",
+          "B": "變異數利用平方偏差衡量離散程度。",
+          "C": "算術平均描述中心，不直接量測分散。",
+          "D": "標準差是變異數平方根，衡量典型偏離平均的大小。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-3": {
+      "questionSha256": "65043b4f96b274edf397a8bd82e879bd5d0c3673df3c1cd42797792aa071b96f",
+      "explanation": {
+        "summary": "先排序為4、5、6、7、7、8、12。總和49除7為平均7，中間第4筆也為7，出現最多的7是眾數，所以三者都等於7。不要因12看起來較大，就略過計算直接猜偏態次序。",
+        "options": {
+          "A": "平均、中位與眾數皆為7，三者全相等。",
+          "B": "不只有平均與中位，眾數也同為7。",
+          "C": "不只有平均與眾數，中位也同為7。",
+          "D": "中位與眾數確相等，但平均也相等，不能說只有兩者。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-4": {
+      "questionSha256": "09d9124a6874f6983c9649ca9b09028791af55fb438b179331b3101b9f3087be",
+      "explanation": {
+        "summary": "Pearson相關係數在兩變數都有正有限變異時介於−1與1。正負代表線性關聯方向，絕對值代表線性關聯強度；0不排除非線性關係，±1則是完全線性關係，因此選B。",
+        "options": {
+          "A": "漏掉負相關，並非完整範圍。",
+          "B": "相關係數的合法範圍是−1至1，包含兩端。",
+          "C": "無界範圍較像一般斜率，不是相關係數。",
+          "D": "相關不是1至100的百分分數，也可為負或0。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-5": {
+      "questionSha256": "b1705d5b42406cd8f81c67033c3b50a94a63e4ce4fc760bd8d9bf365bb787585",
+      "explanation": {
+        "summary": "教科書典型單峰左偏圖形，左側長尾會把平均往小值拉，中位居中、眾數靠峰，故官方順序為平均<中位<眾數。這是常見形狀的經驗關係，單靠「單峰且負偏」並非對所有可能分布都能保證這個嚴格次序。",
+        "options": {
+          "A": "三者相等較常見於對稱單峰情境，不是此題典型左偏圖。",
+          "B": "左尾拉低平均，符合原題採用的典型排序。",
+          "C": "這是典型右偏的相反次序，方向不對。",
+          "D": "把中位放在眾數右側，不符本題教材的典型左偏配置。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-6": {
+      "questionSha256": "6d2844e51514cc3b73ee2af575ee8f9542c9e33138cc7d97e2f5fb364193e3d1",
+      "explanation": {
+        "summary": "簡單隨機抽樣要求固定大小的每個可能樣本組合都有相同入選機會，選A。只說每個「個體」機率相同還不夠，某些系統抽樣也可能有這個特性，卻不是所有樣本組合都能被選中。",
+        "options": {
+          "A": "固定樣本大小下每個可能組合等機會，符合簡單隨機抽樣。",
+          "B": "分層會限制每層樣本配置，不是所有組合皆可等機會。",
+          "C": "集群先抽整群，個體組合受到群的限制。",
+          "D": "系統抽樣依起點與間隔取樣，許多組合根本不可能出現。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-7": {
+      "questionSha256": "30f35f3321b3bfb6ce5f1a7feaef4a0244fdb1761584e5ac8677337c41a33c61",
+      "explanation": {
+        "summary": "互斥表示A與B不能同時發生，因此P(A∩B)=0，不需再乘0.3與0.5。兩者聯集機率才是0.3+0.5=0.8；互斥與獨立是不同概念，本題兩事件都有正機率，並不獨立。",
+        "options": {
+          "A": "0.30是P(A)，不是互斥兩事件交集。",
+          "B": "0.50是P(B)，不是同時發生的機率。",
+          "C": "互斥交集為空，機率0。",
+          "D": "0.20是聯集補事件機率1−0.8，非交集。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-8": {
+      "questionSha256": "5e097ff9af8daa429a654e8485936cbec114f98819f9d4bc0103baace3d8bee5",
+      "explanation": {
+        "summary": "A與B獨立，得知B發生不改變A的機率，所以P(A∣B)=P(A)=0.38。條件分母P(B)=0.55>0，也可由P(A∩B)/P(B)=0.38×0.55/0.55驗證。",
+        "options": {
+          "A": "0.17是兩邊際機率的差，與此條件機率無關。",
+          "B": "0代表互斥情境，但本題是獨立且A機率正。",
+          "C": "0.55是P(B)，條件方向不能顛倒。",
+          "D": "獨立時P(A∣B)不變，仍為0.38。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-9": {
+      "questionSha256": "c406830d28dc81e14b890e6ead81f82879a7f7528b1689e25012823e13c58648",
+      "explanation": {
+        "summary": "先算總不良率0.20×0.015+0.25×0.02+0.15×0.01+0.40×0.03=0.0215。L4且不良機率0.012，因此看到不良後來自L4的機率0.012/0.0215≈0.55814。必須以所有產線的不良來源作分母。",
+        "options": {
+          "A": "0.0215是全廠不良率，不是已知不良後的來源機率。",
+          "B": "L4不良權重0.012除總不良0.0215，約0.55814。",
+          "C": "0.075未依貝氏條件方向更新來源機率。",
+          "D": "0.4是L4的生產比例，尚未利用不良品證據。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-10": {
+      "questionSha256": "e45f9b8a4dee07fa6fb8f7654019c15a432db9fe39e77aaae4c2c76b706d1f8f",
+      "explanation": {
+        "summary": "條件已知是男性，分母只能用男性總數20+100=120，其中已婚100人，所以P(已婚∣男)=100/120≈0.833。若除200得到0.5，算的是同時男性且已婚，不是條件機率。",
+        "options": {
+          "A": "0.1是20/200，為男性單身占全體比例。",
+          "B": "0.5是已婚男性占全體比例，未縮小條件分母。",
+          "C": "0.167是男性之中單身的比例，是所問的補事件。",
+          "D": "100/120約0.833，符合已知男性的條件。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-11": {
+      "questionSha256": "d1474613218f9c5a458bd98343ec491a58ac0512dc3b0f0b17534a0fc0e479ab",
+      "explanation": {
+        "summary": "參數λ>0的Poisson分配可能取0、1、2、…，支撐集可數無限，故是無限多可能值的離散變數。雖然大數值的機率可能極小，仍不表示分配有一個固定最大次數。",
+        "options": {
+          "A": "非負整數有無限多個，且每點可有正機率，符合此描述。",
+          "B": "沒有固定有限上界，與固定n的二項分配不同。",
+          "C": "可能值雖無限，仍是離散整數，不是連續。",
+          "D": "既非有限支撐，也非連續分配。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-12": {
+      "questionSha256": "bd9ca89b83af62fdab85b8aa02f97891d0eb8c54cba7c49951471aa166215868",
+      "explanation": {
+        "summary": "二項分配的變異數是np(1−p)，代入100×0.2×0.8=16。np=20是平均，不能用在變異數；再開根號才是標準差4，所以本題選D。",
+        "options": {
+          "A": "100是試驗次數n，不是變異數。",
+          "B": "80是預期失敗次數n(1−p)，尚未乘p。",
+          "C": "20是成功次數期望np，不是變異數。",
+          "D": "np(1−p)=16，公式及數值都正確。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-13": {
+      "questionSha256": "17c3488fb3f507528275f863b7f2613cc9f65e1f05160ad0b65a69028e575aee",
+      "explanation": {
+        "summary": "X只會在40至50取值，題目區間35至45與支撐集交集是40至45，長5；整個支撐區間長10，所以機率5/10=0.5。35至40雖在事件文字內，但分布密度為0。",
+        "options": {
+          "A": "只有支撐集的一半落入事件，不是全部。",
+          "B": "有效區間40至45占40至50的一半，機率0.5。",
+          "C": "0.25沒有按有效區間長度5除總長10。",
+          "D": "10是支撐區間長度，機率不可能大於1。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-14": {
+      "questionSha256": "97e78888d4e6264257bfaaa24c958b5cf646110581653e3d7af9ae5c646b1cd7",
+      "explanation": {
+        "summary": "每顆燈泡不良指標的期望為0.04，1450顆加總的期望1450×0.04=58。期望線性本身不需獨立；若要說不良總數完整服從二項分配，才還需要獨立且同成功率等假設。",
+        "options": {
+          "A": "145對應10%不良率，不是題給4%。",
+          "B": "4是百分數的數字，沒有乘上批量並除100。",
+          "C": "50未按1450顆與4%相乘。",
+          "D": "1450×0.04=58，是預期不良個數。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-15": {
+      "questionSha256": "b6566d34242a42be2472d877b23a9f8868afb65535460a42e0675ada22be8e5f",
+      "explanation": {
+        "summary": "400與600分別是平均500下、上一個標準差，所以標準化區間為−1至1。常態面積約0.682689，按表取0.6826，選A。0.3413只是一側從平均到一個標準差的面積。",
+        "options": {
+          "A": "−1到1的雙側中心面積約0.6826。",
+          "B": "只算平均到600的一半面積，漏掉400到500。",
+          "C": "2/3接近但不是常態表給的精確近似。",
+          "D": "0.3174是落在此中心區間之外的補機率。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-16": {
+      "questionSha256": "3fc4e0e6e3b681cb54cb2818c9edb8a6bb9c47e1885ecc649886b36bc33affb9",
+      "explanation": {
+        "summary": "兩區間寬都1.5，但標準常態密度在0附近高、往右尾逐漸降低，所以0至1.5面積大於1.5至3。實算前者約0.4332，後者約0.0655；不能只因區間等寬就說機率相等。",
+        "options": {
+          "A": "等寬只有在均勻分配等特定密度下才表示等機率。",
+          "B": "前段密度較高，面積0.4332大於後段約0.0655。",
+          "C": "靠中心的前段不是較小，而是較大。",
+          "D": "B已正確描述兩面積大小，不需選此項。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-17": {
+      "questionSha256": "622a90ded37dd06949b200cda765581d4320deb8fb34ed308b9129679b488a21",
+      "explanation": {
+        "summary": "獨立樣本平均的變異數分別σ₁²/n₁與σ₂²/n₂。相減時因共變異數0，變異數仍相加，再開根號得SE=√(σ₁²/n₁+σ₂²/n₂)。不要因平均「相減」就把變異數也相減。",
+        "options": {
+          "A": "平均差的變異數不是兩母體變異數差除樣本數乘積。",
+          "B": "雖用加號，但應分別除各組樣本數，不是一起除n₁n₂。",
+          "C": "相減的隨機變數在獨立時變異數仍相加，不能相減。",
+          "D": "先加兩組平均的變異數再開根號，公式正確。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-18": {
+      "questionSha256": "71b8056296c80f0201a3fc16561aedc6c90c4f3acde30a030e8743c1a6394643",
+      "explanation": {
+        "summary": "常態分配關於μ對稱，連續均勻分配U(a,b)關於中點(a+b)/2對稱，所以B兩者皆對稱。指數分配有右側長尾，不對稱；連續只是取值型態，並不保證形狀對稱。",
+        "options": {
+          "A": "均勻對稱，但指數右偏，因此不全對。",
+          "B": "常態與均勻都有對稱中心，兩者皆符合。",
+          "C": "常態對稱，但指數分配右偏。",
+          "D": "指數等連續分配即可作反例，不是所有連續分配都對稱。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-19": {
+      "questionSha256": "3087e5d819eb54e1f5568e2151599242427632ca2e9b5666ab44c783f945e127",
+      "explanation": {
+        "summary": "已知σ=0.6、95%誤差上限0.15，規劃樣本n≥(1.96×0.6/0.15)²=61.4656。樣本數須向上取整為62，不是四捨五入成61；包裝標示6公斤不參與這個精度公式。",
+        "options": {
+          "A": "向上取整62，符合至少所需樣本。",
+          "B": "75雖足夠，但不是最低數量。",
+          "C": "51小於61.4656，誤差仍超過要求。",
+          "D": "116超過所需，並非最少。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-20": {
+      "questionSha256": "23f89693177dd117ad779b257cb57be92a8ce7307c712b3a2b35cbd7fe478e45",
+      "explanation": {
+        "summary": "f(x)=2e^(−2x)，x≥0，是率參數λ=2的指數密度。其期望為1/λ=0.5，變異數則1/λ²=0.25。要分清率越大代表等候越短，平均不是直接讀前面的係數2。",
+        "options": {
+          "A": "2是率參數，非平均等待時間。",
+          "B": "率2的倒數為0.5，符合期望公式。",
+          "C": "1不是此參數下的第一動差。",
+          "D": "0.25是變異數，不是期望。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-21": {
+      "questionSha256": "1dcbb8dead9291d1248127483b0a263420ba37547c8801bc90414a877f2848cc",
+      "explanation": {
+        "summary": "在相同樣本平均、樣本數及信心水準下，區間半寬與已知σ成正比。σ由10變20，半寬2.14變4.28，但中心50.92不變，所以選D。這是比較同一估計資料下的精度，不是把觀察值全部乘2。",
+        "options": {
+          "A": "調整σ不會把樣本平均加10。",
+          "B": "誤差按比例倍增，不是直接加10。",
+          "C": "中心不能因σ倍增而也倍增，只有半寬改變。",
+          "D": "中心仍50.92，半寬2×2.14=4.28。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-22": {
+      "questionSha256": "527474fdc57cadd03119a226b344b7ad02faea24436093da9bdd66cd5019a606",
+      "explanation": {
+        "summary": "原題預設樣本平均、母體尺度與信心水準保持不變，n從50增到200是4倍，標準誤變成原來1/2，半寬1.32變0.66，因此官方B。若真的重新抽200筆，樣本平均未必仍19.76；這是比較寬度的假設性計算。",
+        "options": {
+          "A": "除4是把標準誤錯當與n成反比，應與√n成反比。",
+          "B": "n增4倍，半寬減半至0.66，預設中心不變。",
+          "C": "樣本平均不會機械地因n變4倍就減半。",
+          "D": "平均也不會除4，半寬反而應變窄。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-23": {
+      "questionSha256": "826af030776464939e8875abe6ab41e96f1dfadeef3bdf1d74eec66720177eaf",
+      "explanation": {
+        "summary": "基礎教材通常以不偏、一致及相對有效作為估計量的理想特性，因此刻意有偏不是這份清單中的優點，選A。但現代估計可為降低均方誤差而接受偏差，如收縮估計；不能把「有偏」理解成任何用途都一定較差。",
+        "options": {
+          "A": "偏差本身不是此題列舉的理想特性，因此是要選的非優點。",
+          "B": "一致性表示樣本增大時估計趨近真實參數。",
+          "C": "相對有效性比較估計量變異或風險，較有效通常較理想。",
+          "D": "不偏表示重複抽樣期望等於參數，是常見理想特性。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-24": {
+      "questionSha256": "9aa1d01ec6b119905b64ed86308789e5c7b2e3d8854e03e71983fb1ff13b61eb",
+      "explanation": {
+        "summary": "平均數區間寬度通常與σ成正比、與√n成反比。若太寬，增加樣本數可縮小標準誤，在保留同樣信心水準下增加精度；單純改變中心不會縮短區間，因此選B。",
+        "options": {
+          "A": "母體變異越大，區間反而越寬，而且通常不能任意調整母體σ。",
+          "B": "增加獨立樣本數可縮小標準誤及區間寬度。",
+          "C": "提高信心水準需更大臨界值，會使區間更寬。",
+          "D": "提高平均只移動中心，不會自動改善估計精度。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-25": {
+      "questionSha256": "9a2ab19b40308eb3cf0df0978660ae6e70e2181d60df79273fa552f8ce792a17",
+      "explanation": {
+        "summary": "在5%拒絕而1%不拒絕，P值落在兩門檻間，所以四項以C最符合。若採p≤α拒絕，嚴格範圍應為0.01<p≤0.05；原選項C把上端寫成<而非≤，有邊界用語不完整，但其餘選項更不符合。",
+        "options": {
+          "A": "p=0.01在常用≤規則下應於1%拒絕，與題意矛盾。",
+          "B": "p=0.10不能在5%拒絕，與題意不符。",
+          "C": "最接近所需介於1%與5%的範圍，精確上端應允許等於0.05。",
+          "D": "大於0.05就不會在5%拒絕，與題意矛盾。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-26": {
+      "questionSha256": "eee0a29d70b0a8f889e6d040389021214269e58bb5d5041195fe79c3fc6eecbd",
+      "explanation": {
+        "summary": "獨立常態樣本下，(x̄−μ)/(S/√n)服從自由度n−1的t分配。原因是常態樣本平均與樣本變異數獨立，且後者經標準化有卡方分配；對一般偏態小樣本，不能宣稱精確t分布。",
+        "options": {
+          "A": "原始資料服從t分配，不會一般性保證此統計量仍為t。",
+          "B": "常態隨機樣本提供精確Student t統計量的標準條件。",
+          "C": "左偏母體小樣本沒有相同精確t保證。",
+          "D": "右偏同樣不能直接套用精確t分配結論。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-27": {
+      "questionSha256": "c496353a29c355eeabbd819ca92f23723ea1af13b138657fccde4d0bf61d6712",
+      "explanation": {
+        "summary": "固定顯著水準、真實效應與其他條件，增加獨立樣本通常降低標準誤，讓偏離H₀更容易被偵測，因此檢力提高、第二型錯誤β下降。這是可比檢定設計下的方向，不代表每一次抽樣結果都必然顯著。",
+        "options": {
+          "A": "一般正效應下樣本增加會改善檢力，而非必然不變。",
+          "B": "β通常下降，不是上升。",
+          "C": "更容易正確拒絕錯誤H₀，因此第二型錯誤降低。",
+          "D": "β不會因多抽樣就等於1，那代表完全無法發現效應。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-28": {
+      "questionSha256": "e57efb44dd2377276ac55aa0436bbf1d427ca32b6c9e976eb5a8e64ab7af6972",
+      "explanation": {
+        "summary": "題目已知母體變異數25，即σ=5，且母體常態，因此即使n=20也可用標準常態建立平均數區間。雙尾90%用z₀.₉₅≈1.645，選D；t分配是σ未知以S替代時的另一種方法。",
+        "options": {
+          "A": "1.328是不同尾部機率的t值，且本題不需以t取代已知σ。",
+          "B": "1.729是t₁₉的90%雙尾臨界值，但本題已知σ應用z。",
+          "C": "卡方主要用於常態母體變異數區間，不是此平均數區間。",
+          "D": "已知σ的雙尾90%平均區間使用z=1.645。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-29": {
+      "questionSha256": "213a8dcb498b09583ee5c0a56dd205fbfd9db3674430ee1685df54d535759983",
+      "explanation": {
+        "summary": "只知道平均120低於假設200，無法知道差距相對標準誤有多大。檢定還需樣本數、母體或樣本變異及顯著水準，才能判斷左尾是否足夠極端，因此A、B、C的確定結論都不成立，選D。",
+        "options": {
+          "A": "若變異很大或樣本很少，120仍未必足以拒絕。",
+          "B": "若標準誤很小，差80可能極顯著，不能保證不拒絕。",
+          "C": "30不是檢定必然顯著的門檻，還需尺度與α。",
+          "D": "資訊不足以作前三項的確定判斷，因此選此項。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-30": {
+      "questionSha256": "807caf7dc09ffd15a0bfd81fd378ab74023db282ad33a3aac1a48fec674ce501",
+      "explanation": {
+        "summary": "P值常定義為依相容檢定規則剛好開始拒絕H₀的顯著水準門檻，標準答案意義為A。官方更正接受A、D或AD；D把不拒絕區間的上界稱最大值，有端點是否包含的數學疑義。保留公告計分，同時以「拒絕門檻」理解，避免死背相互衝突的最大最小句子。",
+        "options": {
+          "A": "依p≤α拒絕的規則，p是開始拒絕的最小顯著水準，為標準解釋。",
+          "B": "更大的α仍可拒絕，p不是拒絕的最大α。",
+          "C": "不拒絕通常發生在α<p，其最小值不是p。",
+          "D": "官方公告接受；嚴格α<p沒有最大值而只有上確界p，需注意端點問題。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-31": {
+      "questionSha256": "edfec5b7ffd4669e62cd16cc68f2b0f00845a8c598286ae02cf4bd800882fc73",
+      "explanation": {
+        "summary": "兩個獨立常態樣本的變異數各經母體變異數標準化後為獨立卡方量；各除自由度再相除得到F。若兩母體變異數相等，S₁²/S₂²直接服從F(n₁−1,n₂−1)，因此C。",
+        "options": {
+          "A": "變異數比非負且通常右偏，不是常態。",
+          "B": "t可正可負，且是平均與估計標準誤的比，不是兩變異數之比。",
+          "C": "獨立常態樣本變異數比在等母體變異數下服從F。",
+          "D": "單一標準化樣本變異數是卡方，兩者比值則是F。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-32": {
+      "questionSha256": "599fba94ed363ac7bcfa5bde14f21d70d6a49f761478d23ee8f6a5e7d9a4c1c7",
+      "explanation": {
+        "summary": "兩個樣本40與50在基礎教材視為大樣本，若母體有限變異且符合中央極限定理條件，平均差可近似常態，因此B。不是任意母體都只憑超過30就有精確常態；重尾或無有限變異時，需更審慎。",
+        "options": {
+          "A": "母體未必常態，所以不能宣稱平均差精確常態。",
+          "B": "在常見有限變異的隨機樣本條件下，大樣本可作常態近似。",
+          "C": "標準化且用合併S才可能形成t統計量；原始平均差不直接是t。",
+          "D": "平均差可能為負，不是非負的卡方統計量。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-33": {
+      "questionSha256": "eb67fa7a9c444c31fd2de9d32cf82455314b8cf121f2e34b016a1d1036dac33c",
+      "explanation": {
+        "summary": "對非常態母體，獨立同分配且有限變異的兩個平均在樣本都夠大時可各作常態近似，差也可近似常態。官方C以n>30作入門經驗準則，並非通用定理；重偏態可能需要更多樣本，無限變異母體更不能直接使用。",
+        "options": {
+          "A": "母體非常態不表示平均在大樣本下也一定非常態。",
+          "B": "小樣本時並無必然常態，甚至大樣本也需適用條件。",
+          "C": "在常見有限變異條件下對應大樣本近似，30只是題目採用的經驗界線。",
+          "D": "樣本很小時不能一概保證常態近似良好。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-34": {
+      "questionSha256": "13d0ae2af6e04af5529ac8c88b1531c79e1ee829cdd94ffc3b81750f340dabad",
+      "explanation": {
+        "summary": "ANOVA的H₀是四個母體平均全部相等，拒絕它只表示至少存在一對平均不同，所以D。要知道哪些組不同，仍需適當事後比較；不能把整體顯著解讀為每一對都不相等。",
+        "options": {
+          "A": "這是被拒絕的虛無假設，不是拒絕後支持的結論。",
+          "B": "可能只有一組與其餘三組不同，不能推成所有兩兩皆不同。",
+          "C": "拒絕不保證有一對相同，四個都不同也有可能。",
+          "D": "不全相等的邏輯正是至少一對平均不相等。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-35": {
+      "questionSha256": "2ff668e911b7fe2b37404c46aa1857c740fd76f74ba33ed1af473623ddd7245a",
+      "explanation": {
+        "summary": "總自由度18、組間3，所以組內自由度15。組間均方75/3=25，組內均方60/15=4，因此F=25/4=6.25。先補自由度再算均方，不能直接以平方和75/60當F。",
+        "options": {
+          "A": "1.25是75/60，未調整不同自由度。",
+          "B": "25除4得到6.25，符合組間／組內均方比。",
+          "C": "0.86不是這個ANOVA表的正確均方比。",
+          "D": "25只是組間均方，還需要除組內均方4。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-36": {
+      "questionSha256": "0284e25f88e9f964588812386f282eae258947c5bd125a81c7adad2995115a0b",
+      "explanation": {
+        "summary": "n=10且sx=10，所以Sxx=(n−1)sx²=900。斜率b=2250/900=2.5；x̄=50/10=5、ȳ=75/10=7.5，截距a=7.5−2.5×5=−5。因此題目要求斜率、截距順序為2.5與−5。",
+        "options": {
+          "A": "斜率1.5不符Sxy/Sxx，截距也不符通過平均點。",
+          "B": "斜率2.5對，但截距應−5而非1.5。",
+          "C": "兩個值既不符正確斜率，也未正確求截距。",
+          "D": "斜率2.5、截距−5，代回平均點得7.5。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-37": {
+      "questionSha256": "fe50ab64fa247180c629ead50cbb9cbceaca7453c6564fbe0eb1745a67faba84",
+      "explanation": {
+        "summary": "複判定係數仍用R²=1−SSE/SST=1−50/350=6/7≈0.8571。40筆及5解釋變數用於調整後R²與檢定自由度，不能混入原始R²公式；原始R²只是樣本變異解釋比例。",
+        "options": {
+          "A": "0.8408接近採自由度調整後的R²，不是所問原始值。",
+          "B": "300/350約0.8571，為正確複判定係數。",
+          "C": "0.8469不是這個平方和比值。",
+          "D": "0.1429是未解釋比例SSE/SST，與R²互補。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-38": {
+      "questionSha256": "439453c3a9bbb7194003b375c2b801f1644ed0f9e236ca66bf4603f4ee07c23d",
+      "explanation": {
+        "summary": "總平方和625、誤差175，故迴歸平方和SSR=450。模型有三個解釋變數，迴歸自由度3，所以MSR=450/3=150。50筆資料主要用於算殘差自由度46，不是MSR的分母。",
+        "options": {
+          "A": "12.50是625/50，未按迴歸來源及自由度計算。",
+          "B": "275不是總平方和減誤差後再除3的結果。",
+          "C": "SSR450除三個斜率自由度，得到150。",
+          "D": "3.804約為175/46，是MSE而非MSR。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-39": {
+      "questionSha256": "1667314bb500da409d3961577e3c83bc184b2ba267b56d491b4bd011cac2cce6",
+      "explanation": {
+        "summary": "二項試驗的每次結果按成功與失敗分為恰好兩類，並要求固定次數、獨立、成功率相同。B說兩個「或兩個以上」允許三類以上，超出二項模型，因此是要選的錯誤特性。",
+        "options": {
+          "A": "固定n次同類型Bernoulli試驗，符合二項架構。",
+          "B": "二項的結果需二分類，不能直接允許三個以上互異類別。",
+          "C": "各次獨立是標準二項分配假設。",
+          "D": "固定成功率p是另一個必要條件。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    },
+    "097-2s-40": {
+      "questionSha256": "878401a646e29b55a27d00d357d0aa6327ff7fc03932b55876ed82547dae2d7a",
+      "explanation": {
+        "summary": "已知σ、雙尾α=0.05，兩端各留0.025，所以拒絕域Z<−1.96或Z>1.96，等價於∣Z∣>1.96。此用法還需常態母體或適當大樣本近似；不能把單尾1.645門檻套到雙尾5%。",
+        "options": {
+          "A": "中心附近的∣Z∣小值不屬拒絕域，且0.95不是此臨界值。",
+          "B": "雙尾各2.5%，合併寫成∣Z∣>1.96正確。",
+          "C": "只取右尾1.65是不同對立假設及尾部配置。",
+          "D": "z<2.33包含大部分中心區，不是此雙尾5%拒絕域。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "97 年統計學大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=097020&c=507&s=2001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=097020&c=507&s=2001&q=1"
+          }
+        ]
+      }
+    }
+  }
+}

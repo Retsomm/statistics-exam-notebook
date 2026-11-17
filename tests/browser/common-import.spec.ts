@@ -6,7 +6,7 @@ for(const width of [390,1440])test(`new common-subject papers are usable at ${wi
  const bankButton=page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'歷屆題庫',exact:true});
  await bankButton.click();
  await page.getByRole('combobox',{name:'選擇年度'}).selectOption('112');
- await expect(page.locator('.exam-card')).toHaveCount(2);
+ await expect(page.locator('.exam-card')).toHaveCount(4);
  const chinese=page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'國文',exact:true})});
  await expect(chinese).toContainText('逐題解析已完成');
  await chinese.getByRole('button',{name:/開始練習/}).click();

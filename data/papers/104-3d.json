@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "104-3d-1",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 1,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "Windows 作業系統中「附屬應用程式」下的「系統工具」內有一個「磁碟重組工具」，下列有關此工具的\n  敘述何者錯誤？\n(A) 可重新排列分散在磁碟機的資料，使磁碟機運作更有效率\n(B) 僅能重組電腦內建的磁碟，無法重組USB隨身碟之類的卸除式裝置\n(C) 磁碟重組前不須先進行「磁碟分析」作業，可直接執行「磁碟重組」作業\n(D) 可以設定排程執行「磁碟重組」作業",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "Windows 作業系統中「附屬應用程式」下的「系統工具」內有一個「磁碟重組工具」，下列有關此工具的\n  敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "可重新排列分散在磁碟機的資料，使磁碟機運作更有效率"
+      },
+      {
+        "letter": "B",
+        "text": "僅能重組電腦內建的磁碟，無法重組USB隨身碟之類的卸除式裝置"
+      },
+      {
+        "letter": "C",
+        "text": "磁碟重組前不須先進行「磁碟分析」作業，可直接執行「磁碟重組」作業"
+      },
+      {
+        "letter": "D",
+        "text": "可以設定排程執行「磁碟重組」作業"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-2",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 2,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "隨著技術演進，為提供各種不同的傳輸應用，越來越多高速傳輸介面問世，下列何者錯誤？\n(A) USB由各家電視業者推出，提供與DVI介面相容的影音連接器\n(B) SATA提供PC主機板連接硬碟、光碟等各種儲存裝置\n(C) HDMI提供數位裝置、電腦監視器、數位電視等之連接\n(D) PCI express取代PCI，提供主機板上各種擴充卡、晶片組間的內部連接",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "隨著技術演進，為提供各種不同的傳輸應用，越來越多高速傳輸介面問世，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "USB由各家電視業者推出，提供與DVI介面相容的影音連接器"
+      },
+      {
+        "letter": "B",
+        "text": "SATA提供PC主機板連接硬碟、光碟等各種儲存裝置"
+      },
+      {
+        "letter": "C",
+        "text": "HDMI提供數位裝置、電腦監視器、數位電視等之連接"
+      },
+      {
+        "letter": "D",
+        "text": "PCI express取代PCI，提供主機板上各種擴充卡、晶片組間的內部連接"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-3",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 3,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在Windows作業系統與Office環境中，將下列那一按鍵按住，並利用滑鼠，可以同時選取不相鄰的多個物件？\n(A) Alt鍵\n(B) Ctrl鍵\n(C) Enter鍵\n(D) Shift鍵",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在Windows作業系統與Office環境中，將下列那一按鍵按住，並利用滑鼠，可以同時選取不相鄰的多個物件？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Alt鍵"
+      },
+      {
+        "letter": "B",
+        "text": "Ctrl鍵"
+      },
+      {
+        "letter": "C",
+        "text": "Enter鍵"
+      },
+      {
+        "letter": "D",
+        "text": "Shift鍵"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-4",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 4,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關64位元作業系統的敘述何者錯誤？\n(A) 可使用到最少4  GB以上的記憶體空間\n(B) 所有應用程式需要全部採用64位元版本\n(C) 需要安裝在配備有x64處理器的電腦\n(D) 相關驅動程式需要安裝  64位元版本",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有關64位元作業系統的敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "可使用到最少4  GB以上的記憶體空間"
+      },
+      {
+        "letter": "B",
+        "text": "所有應用程式需要全部採用64位元版本"
+      },
+      {
+        "letter": "C",
+        "text": "需要安裝在配備有x64處理器的電腦"
+      },
+      {
+        "letter": "D",
+        "text": "相關驅動程式需要安裝  64位元版本"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-5",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 5,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關固態硬碟（Solid  State Disk/Solid State Drive, SSD）的敘述何者錯誤？\n(A) 關掉電源後資料仍然可以保存\n(B) 屬於記憶體型式的電腦儲存裝置\n(C) 透過低噪音馬達驅動的硬碟\n(D) 具有低耗電與抗震等特點",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關固態硬碟（Solid  State Disk/Solid State Drive, SSD）的敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "關掉電源後資料仍然可以保存"
+      },
+      {
+        "letter": "B",
+        "text": "屬於記憶體型式的電腦儲存裝置"
+      },
+      {
+        "letter": "C",
+        "text": "透過低噪音馬達驅動的硬碟"
+      },
+      {
+        "letter": "D",
+        "text": "具有低耗電與抗震等特點"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-6",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 6,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種IC卡不具有小型CPU功能？\n(A) 手機SIM卡\n(B) 捷運悠遊卡\n(C) 健保卡\n(D) IC公共電話卡",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列那一種IC卡不具有小型CPU功能？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "手機SIM卡"
+      },
+      {
+        "letter": "B",
+        "text": "捷運悠遊卡"
+      },
+      {
+        "letter": "C",
+        "text": "健保卡"
+      },
+      {
+        "letter": "D",
+        "text": "IC公共電話卡"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-7",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 7,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那種規格是一種進階組態與電源介面，用以電源控制與管理？\n(A) ODBC\n(B) ACPI\n(C) IRQ\n(D) IMAPI",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列那種規格是一種進階組態與電源介面，用以電源控制與管理？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ODBC"
+      },
+      {
+        "letter": "B",
+        "text": "ACPI"
+      },
+      {
+        "letter": "C",
+        "text": "IRQ"
+      },
+      {
+        "letter": "D",
+        "text": "IMAPI"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-8",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 8,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一種作業系統可以在平板電腦上使用？\n(A) WINDOWS  XP\n(B) UNIX\n(C) WINDOWS 8\n(D) MAC  OS 10.0",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列那一種作業系統可以在平板電腦上使用？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "WINDOWS  XP"
+      },
+      {
+        "letter": "B",
+        "text": "UNIX"
+      },
+      {
+        "letter": "C",
+        "text": "WINDOWS 8"
+      },
+      {
+        "letter": "D",
+        "text": "MAC  OS 10.0"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-9",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 9,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "DIMM與RIMM是下列何種系統元件的類型？\n(A) 處理器\n(B) 記憶體\n(C) 擴充連結埠\n(D) 硬碟",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "DIMM與RIMM是下列何種系統元件的類型？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "處理器"
+      },
+      {
+        "letter": "B",
+        "text": "記憶體"
+      },
+      {
+        "letter": "C",
+        "text": "擴充連結埠"
+      },
+      {
+        "letter": "D",
+        "text": "硬碟"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-10",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 10,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "請問下列何者是與外部介面卡連結的匯流排？\n(A) PCI-E\n(B) BIOS\n(C) DRAM\n(D) DDR",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "請問下列何者是與外部介面卡連結的匯流排？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PCI-E"
+      },
+      {
+        "letter": "B",
+        "text": "BIOS"
+      },
+      {
+        "letter": "C",
+        "text": "DRAM"
+      },
+      {
+        "letter": "D",
+        "text": "DDR"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-11",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 11,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "二維陣列 D 中，D(1,4) 的十進位位址為 1111，D(3,4) 的十進位位址為 1125，則 D(6,1) 的位址為何？\n(A) 1135\n(B) 1136\n(C) 1142\n(D) 1143",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "二維陣列 D 中，D(1,4) 的十進位位址為 1111，D(3,4) 的十進位位址為 1125，則 D(6,1) 的位址為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1135"
+      },
+      {
+        "letter": "B",
+        "text": "1136"
+      },
+      {
+        "letter": "C",
+        "text": "1142"
+      },
+      {
+        "letter": "D",
+        "text": "1143"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-12",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 12,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一項不是電視播放系統規格？\n(A) NTSC\n(B) PAL\n(C) FLA\n(D) SECAM",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列那一項不是電視播放系統規格？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "NTSC"
+      },
+      {
+        "letter": "B",
+        "text": "PAL"
+      },
+      {
+        "letter": "C",
+        "text": "FLA"
+      },
+      {
+        "letter": "D",
+        "text": "SECAM"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-13",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 13,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列行動裝置作業系統，何者具有開放原始碼的特性？\n(A) iOS\n(B) Android\n(C) Windows 8\n(D) Windows Phone",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列行動裝置作業系統，何者具有開放原始碼的特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "iOS"
+      },
+      {
+        "letter": "B",
+        "text": "Android"
+      },
+      {
+        "letter": "C",
+        "text": "Windows 8"
+      },
+      {
+        "letter": "D",
+        "text": "Windows Phone"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-14",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 14,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "如果我們洗一張5×7吋的照片，假設列印照片的解析度是300dpi，則相機至少需要多少像素？\n(A) 1250000\n(B) 3150000\n(C) 1350000\n(D) 2150000",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "如果我們洗一張5×7吋的照片，假設列印照片的解析度是300dpi，則相機至少需要多少像素？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1250000"
+      },
+      {
+        "letter": "B",
+        "text": "3150000"
+      },
+      {
+        "letter": "C",
+        "text": "1350000"
+      },
+      {
+        "letter": "D",
+        "text": "2150000"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-15",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 15,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關電腦上圖片格式的敘述，何者錯誤？\n(A) PNG是一種無失真壓縮的點陣圖圖形格式\n(B) GIF是一種點陣圖圖形檔案格式的壓縮文件\n(C) SVG是一種點陣圖圖形檔案格式\n(D) JPEG是一種針對相片影像而廣泛使用的一種失真壓縮標準方法",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列有關電腦上圖片格式的敘述，何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "PNG是一種無失真壓縮的點陣圖圖形格式"
+      },
+      {
+        "letter": "B",
+        "text": "GIF是一種點陣圖圖形檔案格式的壓縮文件"
+      },
+      {
+        "letter": "C",
+        "text": "SVG是一種點陣圖圖形檔案格式"
+      },
+      {
+        "letter": "D",
+        "text": "JPEG是一種針對相片影像而廣泛使用的一種失真壓縮標準方法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-16",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 16,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "十六進制數54與36做XOR運算後，所得的十六進制數為何？\n(A) 62\n(B) 89\n(C) 8A\n(D) 90",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "十六進制數54與36做XOR運算後，所得的十六進制數為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "62"
+      },
+      {
+        "letter": "B",
+        "text": "89"
+      },
+      {
+        "letter": "C",
+        "text": "8A"
+      },
+      {
+        "letter": "D",
+        "text": "90"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-17",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 17,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一項不是網頁開發有關的工具或規格？\n(A) Dreamweaver MX 2004\n(B) Visual C\n(C) Microsoft Script Editor\n(D) HTML5",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列那一項不是網頁開發有關的工具或規格？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Dreamweaver MX 2004"
+      },
+      {
+        "letter": "B",
+        "text": "Visual C"
+      },
+      {
+        "letter": "C",
+        "text": "Microsoft Script Editor"
+      },
+      {
+        "letter": "D",
+        "text": "HTML5"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-18",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 18,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "Microsoft Excel儲存格中，若要直接顯示「0028」，則在資料編輯列中應輸入下列何者？\n(A) 0028\n(B) =0028\n(C) ='0028\n(D) '0028",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "Microsoft Excel儲存格中，若要直接顯示「0028」，則在資料編輯列中應輸入下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0028"
+      },
+      {
+        "letter": "B",
+        "text": "=0028"
+      },
+      {
+        "letter": "C",
+        "text": "='0028"
+      },
+      {
+        "letter": "D",
+        "text": "'0028"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-19",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 19,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "將二進位數字(11010101.01) 轉換成16進位的數值，應該為何？\n  2\n(A) (125.2)₁₆\n(B) (D5.4)₁₆\n(C) (AA.8)₁₆\n(D) (15.5)₁₆",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "將二進位數字(11010101.01) 轉換成16進位的數值，應該為何？\n  2",
+    "options": [
+      {
+        "letter": "A",
+        "text": "(125.2)₁₆"
+      },
+      {
+        "letter": "B",
+        "text": "(D5.4)₁₆"
+      },
+      {
+        "letter": "C",
+        "text": "(AA.8)₁₆"
+      },
+      {
+        "letter": "D",
+        "text": "(15.5)₁₆"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-20",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 20,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "字母F的ASCII碼之十進位值是70，若採偶同位檢查（even  parity checking），則應該加入之同位位元值為\n  何？\n(A) -1\n(B) 0\n(C) 1\n(D) 2",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "字母F的ASCII碼之十進位值是70，若採偶同位檢查（even  parity checking），則應該加入之同位位元值為\n  何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "-1"
+      },
+      {
+        "letter": "B",
+        "text": "0"
+      },
+      {
+        "letter": "C",
+        "text": "1"
+      },
+      {
+        "letter": "D",
+        "text": "2"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-21",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 21,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若 (147)ₐ=(507)ᵦ，假設 B=8，下列何者為 A 的值？\n(A) 2\n(B) 8\n(C) 10\n(D) 16",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "若 (147)ₐ=(507)ᵦ，假設 B=8，下列何者為 A 的值？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "8"
+      },
+      {
+        "letter": "C",
+        "text": "10"
+      },
+      {
+        "letter": "D",
+        "text": "16"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-22",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 22,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "依序將A、B、C、D、E、F、G存入堆疊（stack），再從堆疊讀出四筆資料後，則目前堆疊頂端資料為何？\n(A) C\n(B) B\n(C) D\n(D) E",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "依序將A、B、C、D、E、F、G存入堆疊（stack），再從堆疊讀出四筆資料後，則目前堆疊頂端資料為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "C"
+      },
+      {
+        "letter": "B",
+        "text": "B"
+      },
+      {
+        "letter": "C",
+        "text": "D"
+      },
+      {
+        "letter": "D",
+        "text": "E"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-23",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 23,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若要在一個實體機器上執行多個系統來達到節能，需要透過下列那種方法？\n(A) 多執行緒\n(B) 多工\n(C) 雙工\n(D) 系統虛擬機器",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "若要在一個實體機器上執行多個系統來達到節能，需要透過下列那種方法？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "多執行緒"
+      },
+      {
+        "letter": "B",
+        "text": "多工"
+      },
+      {
+        "letter": "C",
+        "text": "雙工"
+      },
+      {
+        "letter": "D",
+        "text": "系統虛擬機器"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-24",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 24,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何種程式撰寫程式完畢後，電腦在執行程式時是將程式一行一行的讀入，逐行翻譯，並送交電腦執行？\n(A) VBScript\n(B) C++\n(C) PASCAL\n(D) C",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何種程式撰寫程式完畢後，電腦在執行程式時是將程式一行一行的讀入，逐行翻譯，並送交電腦執行？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "VBScript"
+      },
+      {
+        "letter": "B",
+        "text": "C++"
+      },
+      {
+        "letter": "C",
+        "text": "PASCAL"
+      },
+      {
+        "letter": "D",
+        "text": "C"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-25",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 25,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列程式執行後，S 值為何？\nS = 0 : C = 2\nDo While C <= 5\n  For I = 1 To C\n  S = S + 1\n  Next I\n  C = C + 2\nLoop\nPrint S\n(A) 2\n(B) 6\n(C) 9\n(D) 14",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列程式執行後，S 值為何？\nS = 0 : C = 2\nDo While C <= 5\n  For I = 1 To C\n  S = S + 1\n  Next I\n  C = C + 2\nLoop\nPrint S",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2"
+      },
+      {
+        "letter": "B",
+        "text": "6"
+      },
+      {
+        "letter": "C",
+        "text": "9"
+      },
+      {
+        "letter": "D",
+        "text": "14"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-26",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 26,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "為了建構有效率的關聯式資料庫，通常會先進行組織資料的正規化（normalization）程序，以產生正規式\n  （normal form, NF）。下列有關正規化的敘述何者錯誤？\n(A) 可刪除重複性、不一致的相依性資料\n(B) 一種資料表分割的方法，讓資料庫運作更有效率\n(C) 1NF是解決各欄位與主鍵間沒有部分相依（partial  dependencies）的問題\n(D) 3NF要確保各欄位與主鍵間沒有間接相依（indirect  dependencies）的問題",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "為了建構有效率的關聯式資料庫，通常會先進行組織資料的正規化（normalization）程序，以產生正規式\n  （normal form, NF）。下列有關正規化的敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "可刪除重複性、不一致的相依性資料"
+      },
+      {
+        "letter": "B",
+        "text": "一種資料表分割的方法，讓資料庫運作更有效率"
+      },
+      {
+        "letter": "C",
+        "text": "1NF是解決各欄位與主鍵間沒有部分相依（partial  dependencies）的問題"
+      },
+      {
+        "letter": "D",
+        "text": "3NF要確保各欄位與主鍵間沒有間接相依（indirect  dependencies）的問題"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-27",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 27,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不是軟體雛型模型的優點？\n(A) 強調快速設計及使用者高度參與\n(B) 以雛型作為使用者及系統設計者的溝通及學習機制\n(C) 每一階段的輸出會成為下一階段的輸入\n(D) 從需求最清楚的部分進行，由使用者進行評估來作為軟體開發的改良點",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列何者不是軟體雛型模型的優點？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "強調快速設計及使用者高度參與"
+      },
+      {
+        "letter": "B",
+        "text": "以雛型作為使用者及系統設計者的溝通及學習機制"
+      },
+      {
+        "letter": "C",
+        "text": "每一階段的輸出會成為下一階段的輸入"
+      },
+      {
+        "letter": "D",
+        "text": "從需求最清楚的部分進行，由使用者進行評估來作為軟體開發的改良點"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-28",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 28,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "微軟的Access中，資料表A以「一對多」關聯到資料表B，為避免在未刪除B的紀錄前就先刪除A的紀錄，\n  可設定何種功能？\n(A) 設定驗證規則屬性\n(B) 設定主索引\n(C) 設定為查詢精靈資料類型\n(D) 設定強迫參考完整性",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "微軟的Access中，資料表A以「一對多」關聯到資料表B，為避免在未刪除B的紀錄前就先刪除A的紀錄，\n  可設定何種功能？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "設定驗證規則屬性"
+      },
+      {
+        "letter": "B",
+        "text": "設定主索引"
+      },
+      {
+        "letter": "C",
+        "text": "設定為查詢精靈資料類型"
+      },
+      {
+        "letter": "D",
+        "text": "設定強迫參考完整性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-29",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 29,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者是設計資料庫時用以表示相關資料的抽象模型？\n(A) 決策樹（decision tree）\n(B) 實體關係圖（ER  diagram）\n(C) 資料流程圖（data  flow diagram）\n(D) 決策表（decision table）",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者是設計資料庫時用以表示相關資料的抽象模型？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "決策樹（decision tree）"
+      },
+      {
+        "letter": "B",
+        "text": "實體關係圖（ER  diagram）"
+      },
+      {
+        "letter": "C",
+        "text": "資料流程圖（data  flow diagram）"
+      },
+      {
+        "letter": "D",
+        "text": "決策表（decision table）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-30",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 30,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在資料庫中，下列何者不是資料操作語言的指令？\n(A) SELECT\n(B) GRANT\n(C) UPDATE\n(D) INSERT",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在資料庫中，下列何者不是資料操作語言的指令？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SELECT"
+      },
+      {
+        "letter": "B",
+        "text": "GRANT"
+      },
+      {
+        "letter": "C",
+        "text": "UPDATE"
+      },
+      {
+        "letter": "D",
+        "text": "INSERT"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-31",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 31,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在SQL中，對於常用的或複雜的工作以較冗長的SQL敘述，可以使用下列那種最佳方法存取資料庫？\n(A) 預存程序\n(B) 表單\n(C) 資料表\n(D) 索引",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在SQL中，對於常用的或複雜的工作以較冗長的SQL敘述，可以使用下列那種最佳方法存取資料庫？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "預存程序"
+      },
+      {
+        "letter": "B",
+        "text": "表單"
+      },
+      {
+        "letter": "C",
+        "text": "資料表"
+      },
+      {
+        "letter": "D",
+        "text": "索引"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-32",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 32,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列 SQL 查詢的回傳結果何者最正確？\nSELECT A.員工姓名, A.員工代碼, B.部門代號\nFROM EMPLOYEE A, DEPARTMENT B\nWHERE A.部門代碼 = B.部門代號\nAND B.部門名稱 = '業務部門'\n(A) 選取員工姓名、員工代碼、部門代號\n(B) 選取所有業務部門員工的姓名\n(C) 選取所有部門的員工姓名、員工代碼、部門代號\n(D) 選取所有業務部門的員工姓名、員工代碼、部門代號",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列 SQL 查詢的回傳結果何者最正確？\nSELECT A.員工姓名, A.員工代碼, B.部門代號\nFROM EMPLOYEE A, DEPARTMENT B\nWHERE A.部門代碼 = B.部門代號\nAND B.部門名稱 = '業務部門'",
+    "options": [
+      {
+        "letter": "A",
+        "text": "選取員工姓名、員工代碼、部門代號"
+      },
+      {
+        "letter": "B",
+        "text": "選取所有業務部門員工的姓名"
+      },
+      {
+        "letter": "C",
+        "text": "選取所有部門的員工姓名、員工代碼、部門代號"
+      },
+      {
+        "letter": "D",
+        "text": "選取所有業務部門的員工姓名、員工代碼、部門代號"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-33",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 33,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "SQL SERVER的資料整合服務不能連結下列那種資料來源？\n(A) ORACL\n(B) EXCEL\n(C) ACCESS\n(D) WORD",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "SQL SERVER的資料整合服務不能連結下列那種資料來源？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ORACL"
+      },
+      {
+        "letter": "B",
+        "text": "EXCEL"
+      },
+      {
+        "letter": "C",
+        "text": "ACCESS"
+      },
+      {
+        "letter": "D",
+        "text": "WORD"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-34",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 34,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "小珍使用手機上網，在網路上看到一個專賣進口服飾的店，且手機打卡就可得到至實體店購買的折扣優惠\n  券，於是小珍在網路訂購一件衣服，並到此實體店取貨，請問小珍這種交易型態屬於下列那種商業交易型\n\n  態？\n(A) B To B\n(B) C To B\n(C) O To O\n(D) C To C",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小珍使用手機上網，在網路上看到一個專賣進口服飾的店，且手機打卡就可得到至實體店購買的折扣優惠\n  券，於是小珍在網路訂購一件衣服，並到此實體店取貨，請問小珍這種交易型態屬於下列那種商業交易型\n\n  態？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "B To B"
+      },
+      {
+        "letter": "B",
+        "text": "C To B"
+      },
+      {
+        "letter": "C",
+        "text": "O To O"
+      },
+      {
+        "letter": "D",
+        "text": "C To C"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-35",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 35,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者是4G行動通訊標準之一？\n(A) GSM\n(B) LTE-Advanced\n(C) GPRS\n(D) CDMA2000",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者是4G行動通訊標準之一？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "GSM"
+      },
+      {
+        "letter": "B",
+        "text": "LTE-Advanced"
+      },
+      {
+        "letter": "C",
+        "text": "GPRS"
+      },
+      {
+        "letter": "D",
+        "text": "CDMA2000"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-36",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 36,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "小明最近買了一台能夠使用802.11n的筆記型電腦，但發現其網路連線速度比預期要慢很多，維修人員發現\n  到，當小明的無線訊號強度較強時，他的連線速度僅為54Mbps，下列那項是導致此問題之原因？\n(A) 小明的無線網卡之軟體驅動程式需要升級\n(B) 小明距離最近的無線基地台太遠\n(C) 小明連線到802.11g無線基地台\n(D) 小明輸入不正確的WPA加密金鑰",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "小明最近買了一台能夠使用802.11n的筆記型電腦，但發現其網路連線速度比預期要慢很多，維修人員發現\n  到，當小明的無線訊號強度較強時，他的連線速度僅為54Mbps，下列那項是導致此問題之原因？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "小明的無線網卡之軟體驅動程式需要升級"
+      },
+      {
+        "letter": "B",
+        "text": "小明距離最近的無線基地台太遠"
+      },
+      {
+        "letter": "C",
+        "text": "小明連線到802.11g無線基地台"
+      },
+      {
+        "letter": "D",
+        "text": "小明輸入不正確的WPA加密金鑰"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-37",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 37,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那項不為資訊傳遞中資訊安全威脅來源之一？\n(A) 更新資料\n(B) 截取資料\n(C) 中斷資料\n(D) 仿造資料",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列那項不為資訊傳遞中資訊安全威脅來源之一？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "更新資料"
+      },
+      {
+        "letter": "B",
+        "text": "截取資料"
+      },
+      {
+        "letter": "C",
+        "text": "中斷資料"
+      },
+      {
+        "letter": "D",
+        "text": "仿造資料"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-38",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 38,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那項不是資料倉儲的特性？\n(A) 包含各種不同來源與型態的資料\n(B) 資料以系統化排列方式儲存在倉儲系統中\n(C) 將長期資料保留以轉化為營運資訊\n(D) 對企業所有需要的資源如製造、配銷或服務做有效計畫和控制",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列那項不是資料倉儲的特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "包含各種不同來源與型態的資料"
+      },
+      {
+        "letter": "B",
+        "text": "資料以系統化排列方式儲存在倉儲系統中"
+      },
+      {
+        "letter": "C",
+        "text": "將長期資料保留以轉化為營運資訊"
+      },
+      {
+        "letter": "D",
+        "text": "對企業所有需要的資源如製造、配銷或服務做有效計畫和控制"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-39",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 39,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "對C語言陣列，“int  Score [2][30]；”，下列敘述何者錯誤？\n(A) 這是個二維陣列\n(B) 陣列名稱是Score\n(C) 最後一個元素是Score  [2][30]\n(D) 陣列中共有60個元素",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "對C語言陣列，“int  Score [2][30]；”，下列敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "這是個二維陣列"
+      },
+      {
+        "letter": "B",
+        "text": "陣列名稱是Score"
+      },
+      {
+        "letter": "C",
+        "text": "最後一個元素是Score  [2][30]"
+      },
+      {
+        "letter": "D",
+        "text": "陣列中共有60個元素"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-40",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 40,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "小明是資安人員，想要維護公司無線網路的安全性，請問他可以使用下列何種方式？\n(A) SSID\n(B) WEP\n(C) DHCP\n(D) SSL",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "小明是資安人員，想要維護公司無線網路的安全性，請問他可以使用下列何種方式？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SSID"
+      },
+      {
+        "letter": "B",
+        "text": "WEP"
+      },
+      {
+        "letter": "C",
+        "text": "DHCP"
+      },
+      {
+        "letter": "D",
+        "text": "SSL"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-41",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 41,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若收到一封佯裝是電子郵件（email）伺服器管理員寄來的信，表明因為電子郵件主機遭到駭客入侵，請你\n  提供信箱帳號、密碼等資料，以便協助你檢查帳號是否被盜用並重新進行身分驗證，否則將關閉你的電子\n\n  郵件帳號。此一電子郵件的安全威脅，是屬於下列何種方法？\n(A) 阻斷服務攻擊（denial  of service attack）\n(B) 社交工程法（social engineering）\n(C) 猜測攻擊法（guessing  attack）\n(D) 病毒式攻擊法",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若收到一封佯裝是電子郵件（email）伺服器管理員寄來的信，表明因為電子郵件主機遭到駭客入侵，請你\n  提供信箱帳號、密碼等資料，以便協助你檢查帳號是否被盜用並重新進行身分驗證，否則將關閉你的電子\n\n  郵件帳號。此一電子郵件的安全威脅，是屬於下列何種方法？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "阻斷服務攻擊（denial  of service attack）"
+      },
+      {
+        "letter": "B",
+        "text": "社交工程法（social engineering）"
+      },
+      {
+        "letter": "C",
+        "text": "猜測攻擊法（guessing  attack）"
+      },
+      {
+        "letter": "D",
+        "text": "病毒式攻擊法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-42",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 42,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關強化資訊安全管理的作法，下列何者錯誤？\n(A) 建立有效的資訊安全風險評鑑機制\n(B) 建立資訊安全管理系統（ISMS）\n(C) 落實盤點資訊資產的CIA\n(D) 導入ISO  20000的認證系統",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關強化資訊安全管理的作法，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "建立有效的資訊安全風險評鑑機制"
+      },
+      {
+        "letter": "B",
+        "text": "建立資訊安全管理系統（ISMS）"
+      },
+      {
+        "letter": "C",
+        "text": "落實盤點資訊資產的CIA"
+      },
+      {
+        "letter": "D",
+        "text": "導入ISO  20000的認證系統"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-43",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 43,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關防範電腦遭受威脅的措施，下列何者錯誤？\n(A) 安裝防毒軟體並定期更新病毒碼\n(B) 不開啟陌生人寄來的電子郵件\n(C) 只使用好同學好朋友借來的軟體\n(D) 定期更新作業系統之修補程式（patches  or updates）",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關防範電腦遭受威脅的措施，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "安裝防毒軟體並定期更新病毒碼"
+      },
+      {
+        "letter": "B",
+        "text": "不開啟陌生人寄來的電子郵件"
+      },
+      {
+        "letter": "C",
+        "text": "只使用好同學好朋友借來的軟體"
+      },
+      {
+        "letter": "D",
+        "text": "定期更新作業系統之修補程式（patches  or updates）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-44",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 44,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關物聯網（Internet of Things, IoT）的敘述，下列何者錯誤？\n(A) 每個物件（thing）要有可獨立定址的IP，以便互聯互通\n(B) 電子標籤（e-tag）可以讓所有物體成為物聯網的一部分\n(C) 物聯網可以透過無線網路傳輸訊息\n(D) IPv4可以滿足物聯網的技術需求",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關物聯網（Internet of Things, IoT）的敘述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "每個物件（thing）要有可獨立定址的IP，以便互聯互通"
+      },
+      {
+        "letter": "B",
+        "text": "電子標籤（e-tag）可以讓所有物體成為物聯網的一部分"
+      },
+      {
+        "letter": "C",
+        "text": "物聯網可以透過無線網路傳輸訊息"
+      },
+      {
+        "letter": "D",
+        "text": "IPv4可以滿足物聯網的技術需求"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-45",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 45,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不是網際網路（Internet）應用程式的通訊協定？\n(A) SMTP\n(B) POP3\n(C) ERP\n(D) SNMP",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列何者不是網際網路（Internet）應用程式的通訊協定？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SMTP"
+      },
+      {
+        "letter": "B",
+        "text": "POP3"
+      },
+      {
+        "letter": "C",
+        "text": "ERP"
+      },
+      {
+        "letter": "D",
+        "text": "SNMP"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-46",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 46,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "國道電子收費系統（Electronic  Toll Collection, ETC）是一種自動收費方式，下列有關臺灣現行ETC系統的\n  敘述何者錯誤？\n(A) 使用紅外線傳輸技術\n(B) 屬於無線射頻辨識（RFID）的應用\n(C) 車上需要黏貼電子標籤（eTag）\n(D) 門架上的裝置是一種主動式讀卡機（reader）",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "國道電子收費系統（Electronic  Toll Collection, ETC）是一種自動收費方式，下列有關臺灣現行ETC系統的\n  敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "使用紅外線傳輸技術"
+      },
+      {
+        "letter": "B",
+        "text": "屬於無線射頻辨識（RFID）的應用"
+      },
+      {
+        "letter": "C",
+        "text": "車上需要黏貼電子標籤（eTag）"
+      },
+      {
+        "letter": "D",
+        "text": "門架上的裝置是一種主動式讀卡機（reader）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-47",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 47,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者是巨量資料類型與傳統資料類型最大的差異？\n(A) SQLite\n(B) MySQL\n(C) xSQL\n(D) NoSQL",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列何者是巨量資料類型與傳統資料類型最大的差異？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SQLite"
+      },
+      {
+        "letter": "B",
+        "text": "MySQL"
+      },
+      {
+        "letter": "C",
+        "text": "xSQL"
+      },
+      {
+        "letter": "D",
+        "text": "NoSQL"
+      }
+    ],
+    "textFallback": false,
+    "passage": "題組主題：雲端運算與巨量資料的趨勢。",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-48",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 48,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "巨量資料具有3V的特性，下列何者不屬於3V？\n(A) 有效性（validity）\n(B) 產生速度快（velocity）\n(C) 資料大量（volume）\n(D) 資料類型多樣性（variety）",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "巨量資料具有3V的特性，下列何者不屬於3V？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "有效性（validity）"
+      },
+      {
+        "letter": "B",
+        "text": "產生速度快（velocity）"
+      },
+      {
+        "letter": "C",
+        "text": "資料大量（volume）"
+      },
+      {
+        "letter": "D",
+        "text": "資料類型多樣性（variety）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "題組主題：雲端運算與巨量資料的趨勢。",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-49",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 49,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不是常見的雲端運算中定義的服務模式？\n(A) CaaS\n(B) IaaS\n(C) PaaS\n(D) SaaS",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者不是常見的雲端運算中定義的服務模式？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CaaS"
+      },
+      {
+        "letter": "B",
+        "text": "IaaS"
+      },
+      {
+        "letter": "C",
+        "text": "PaaS"
+      },
+      {
+        "letter": "D",
+        "text": "SaaS"
+      }
+    ],
+    "textFallback": false,
+    "passage": "題組主題：雲端運算與巨量資料的趨勢。",
+    "hasVisual": false
+  },
+  {
+    "id": "104-3d-50",
+    "examId": "104-3d",
+    "year": 104,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 50,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不屬於巨量資料處理的相關技術？\n(A) DBMS\n(B) Hadoop\n(C) HBase/HDFS\n(D) MapReduce",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者不屬於巨量資料處理的相關技術？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DBMS"
+      },
+      {
+        "letter": "B",
+        "text": "Hadoop"
+      },
+      {
+        "letter": "C",
+        "text": "HBase/HDFS"
+      },
+      {
+        "letter": "D",
+        "text": "MapReduce"
+      }
+    ],
+    "textFallback": false,
+    "passage": "題組主題：雲端運算與巨量資料的趨勢。",
+    "hasVisual": false
+  }
+]

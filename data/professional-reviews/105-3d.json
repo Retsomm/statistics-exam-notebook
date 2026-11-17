@@ -1,0 +1,1419 @@
+{
+  "reviewedOn": "2026-11-17",
+  "questionPdfSha256": "51ce69aebf04dfe37f75c6689dea5e1e05a9860a7c60bc247ef8227fa29bdbf3",
+  "answerPdfSha256": "b58321e736fb7c2f50f709276d790ffa9058483f5600b8d38c617376b233e9ab",
+  "entries": {
+    "105-3d-1": {
+      "questionSha256": "e5af135cfe3fa09b4d1f1de08f0f63f4de5dbe0113fed74ed6b669ee23baed50",
+      "explanation": {
+        "summary": "外鍵 CASCADE 會將被參照資料的更新或刪除傳播到相關資料列。原動作與連鎖動作必須作為完整且符合約束的異動處理，不能只改第一筆或留下孤立參照，所以選 C。它操作欄位值及資料列，不是在刪除外鍵欄位名稱。",
+        "options": {
+          "A": "忽略相依資料會破壞參考完整性，與 CASCADE 的目的相反。",
+          "B": "CASCADE 不等於只把第一筆設成 NULL；設空值另有 SET NULL 動作。",
+          "C": "連鎖更新或刪除應與原異動一併完整完成，避免部分狀態不一致。",
+          "D": "刪除或更改的是相關資料值或資料列，不是外鍵欄位名稱。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "PostgreSQL：外鍵與 CASCADE",
+            "url": "https://www.postgresql.org/docs/current/ddl-constraints.html"
+          }
+        ]
+      }
+    },
+    "105-3d-2": {
+      "questionSha256": "1b4f97865d8b798d7741a4544eeeed7b84569d8db28fb22465fcd726c8b8f2a2",
+      "explanation": {
+        "summary": "CRUD 的 Create、Read、Update、Delete 是新增、讀取、更新、刪除資料列，通常以 INSERT、SELECT、UPDATE、DELETE 實現，屬資料操作範疇，選 B。CRUD 的 Create 指新增紀錄，不要與 DDL 的 CREATE TABLE 建表混淆。",
+        "options": {
+          "A": "資料定義語言建立或變更表格等結構，與 CRUD 的資料列操作不同。",
+          "B": "資料操作語言負責讀取及異動資料，符合本題 CRUD 用途。",
+          "C": "資料控制語言常處理 GRANT、REVOKE 等權限，不是 CRUD 本身。",
+          "D": "資料分析語言不是本題 SQL 指令的標準分類答案。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-3": {
+      "questionSha256": "7e0e5cacd7dab4f62e30f378156c1265033964d2eab69e915306aaea5a128342",
+      "explanation": {
+        "summary": "第二正規化排除部分相依；第三正規化進一步避免非鍵屬性經由另一非鍵屬性傳遞依賴鍵。例如員工編號→部門編號→部門名稱，部門名稱應另放部門表。題目問的是這種功能相依，選 C；正式定義仍須按所有候選鍵與非主屬性判斷。",
+        "options": {
+          "A": "功能獨立不構成本題要排除的傳遞相依問題。",
+          "B": "多重值獨立不是 3NF 在此題要辨認的功能相依概念。",
+          "C": "非鍵欄位之間形成導致傳遞依賴的功能相依，是本題重點。",
+          "D": "多值相依主要在更高的 4NF 討論，並非此題 3NF 的用語。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-4": {
+      "questionSha256": "a692fd02c139583bc95e1f28a7c907da692cbf6ba986f3ab51e422d588ccf755",
+      "explanation": {
+        "summary": "題幹強調檢查資料分散到各磁碟，而非集中一顆同位元磁碟。選項中 RAID 6 使用分散式雙重同位元檢查，能容忍兩顆磁碟失效，故選 D。RAID 5 也使用分散式同位元檢查，但只有一組且不在選項中；「單純 striping」本身則不保證容錯。",
+        "options": {
+          "A": "RAID 0 只有條帶化，沒有同位元檢查，不能靠它容忍磁碟故障。",
+          "B": "RAID 2 以位元層級條帶與錯誤更正碼區分，不是本題分散同位元設計。",
+          "C": "RAID 4 使用專用同位元磁碟，不是各磁碟分攤同位元資料。",
+          "D": "RAID 6 以分散式雙重同位元資料提供容錯，符合給定選項。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-5": {
+      "questionSha256": "1a7de68cc37266d5b39513139dafa85769ad6568d9cc1090a02db6abc0200588",
+      "explanation": {
+        "summary": "依題目假設四工作同時可排程且不搶先。FCFS 次序 P1、P2、P3、P4，等待為 0、6、14、21，平均 10.25。SJF 次序 P4、P1、P3、P2，等待為 0、3、9、16，平均 7。平均等待時間縮短 10.25−7=3.25 毫秒，選 A。",
+        "options": {
+          "A": "3.25 是兩種排程平均等待時間相減的結果。",
+          "B": "10.2 接近 FCFS 自己的平均等待時間，不是兩者改善量。",
+          "C": "21 是 FCFS 最後一個工作的等待時間，不是平均差。",
+          "D": "28 是 SJF 四個等待時間的總和，還沒除以 4，也未求差。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-6": {
+      "questionSha256": "16ab67e21ac904acb22d66b49e9d77e14c23a5105e272c9cebd44252e0795551",
+      "explanation": {
+        "summary": "在支援此縮放手勢的 Windows 應用程式中，按 Ctrl 並將滑鼠滾輪向前、遠離自己方向轉動通常會放大內容，選 D。這是常見程式的內容縮放，不應當成每個 Windows 畫面都支援的全螢幕放大功能。",
+        "options": {
+          "A": "Shift 加向後滾輪通常不是內容放大的通用手勢。",
+          "B": "Shift 並非本題慣用的縮放修飾鍵。",
+          "C": "Ctrl 加向自己方向通常是縮小，方向與題目相反。",
+          "D": "Ctrl 加向前滾輪通常提高縮放比例，符合題目預期。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-7": {
+      "questionSha256": "43264a8a96866e2f81424e89d73bac2ff69d6adad0ad5634fd792b8d3a17d7b2",
+      "explanation": {
+        "summary": "本題資料字典採 + 為組合、( ) 為可選、[a∣b] 為二擇一、{a} 為可重複。官方將 {a} 解讀成可零次或多次，因此 B 強制「一個或多個」錯誤，選 B。重複次數記法依教材會有差異，若要指定最小一次應明寫下界，不能把此記號當成跨系統固定定義。",
+        "options": {
+          "A": "a＋b 表示同時由 a 與 b 組成，符合資料組合符號。",
+          "B": "按本題採用的記法可重複也可為零次，不能逕自要求至少一次。",
+          "C": "b 有括號表示可選，所以可為 a，也可為 a 與 b 的組合。",
+          "D": "中括號與分隔符表示從 a、b 擇一，符合題述意義。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-8": {
+      "questionSha256": "32be79cfffb3003f0d44eb78b2cbcd52a9c3056b7c7b82b5d5106fddbd3a35b3",
+      "explanation": {
+        "summary": "A 中 age>20 的 id 為 01、03、05；B 中 NOT(grade<80) 等同本資料的 grade≥80，得到 03、06。UNION 做聯集且去重複，合併為 01、03、05、06，選 D。沒有 ORDER BY 時 SQL 不保證顯示順序，此處 List 是集合內容表示。",
+        "options": {
+          "A": "只列出第一段查詢，漏掉 B 表成績 88 的 06。",
+          "B": "只列出第二段查詢，漏掉 A 表符合年齡條件的 01、05。",
+          "C": "把兩個結果直接並列並重複保留 03，沒有完成 UNION 去重複。",
+          "D": "四個 id 是兩個查詢結果的聯集，03 僅保留一次。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-9": {
+      "questionSha256": "c1e33ff1a6d183046e2ee02b17d9e7b6804b17dd81fb24a5edf510f5aed894fe",
+      "explanation": {
+        "summary": "每季三個月，所求為 ceil(月份/3)。月份 1、2、3 得第 1 季，4、5、6 得第 2 季，依序到 12 月得第 4 季，因此 X=3，選 A。ceil 是向上取整，不是一般四捨五入。",
+        "options": {
+          "A": "每三個月形成一季，ceil(M/3) 恰將 1 至 12 分成四組。",
+          "B": "除以 4 會形成三個四月區間，不能得到正確季度。",
+          "C": "除以 6 只有上、下半年兩組，不是四季。",
+          "D": "除以 12 使所有正常月份結果均為 1，無法辨別季度。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "PHP：ceil 向上取整",
+            "url": "https://www.php.net/manual/en/function.ceil.php"
+          }
+        ]
+      }
+    },
+    "105-3d-10": {
+      "questionSha256": "092b8f4317f5bd438d734ded2b6eb7f73bad6338e459096459ed78e3fa27ef95",
+      "explanation": {
+        "summary": "Mod 求整數除法餘數，15=2×6＋3，所以 W=3。Select Case 只有列出 0、1、2，三者都不符，落入 Case Else，印出 David，選 D。不是印出餘數 3 本身。",
+        "options": {
+          "A": "John 只在 W=0 時印出，而本題餘數為 3。",
+          "B": "Mary 對應 W=1，並非 15 除以 6 的餘數。",
+          "C": "Peter 對應 W=2，與本題 W=3 不符。",
+          "D": "W=3 不符合前三個分支，會執行 Case Else 的 David。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-11": {
+      "questionSha256": "36fc0e21c4ab13541f84e5c6f9382283cf2f9b4a4831103cb66813600bf65a10",
+      "explanation": {
+        "summary": "此題依傳統 Visual Basic 的預設 ByRef 參數語義：M 的參數 B 參照 X，執行 B=B＋1 後 X 變為 101。回到主程式，X=100 為假，印出字串 B，選 B。VB.NET 的預設是 ByVal，若改用該語言版本會有不同結果，原題版本條件需注意。",
+        "options": {
+          "A": "按本題傳統 ByRef 語義，X 已改成 101，不能進入印 A 的分支。",
+          "B": "X=100 不成立，所以執行 Else 並印字串 B。",
+          "C": "程式沒有直接 Print X=100 的數值，而是選擇印 A 或 B。",
+          "D": "101 是副程式後的 X 值，但主程式實際印的是字串 B。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-12": {
+      "questionSha256": "e843c1501dc022c4cfc6cfc5136f225796ff13ec282dc744861fe30ae6258081",
+      "explanation": {
+        "summary": "遞迴基底是 SUM(1)=0，接著 SUM(2)=0＋2=2、SUM(3)=5、SUM(4)=9、SUM(5)=14，選 C。名稱雖為 SUM，不能直接套用 1 到 5 的和；本程式特別把 1 排除在累加之外。",
+        "options": {
+          "A": "12 未按遞迴由 SUM(1)=0 逐層加到 5。",
+          "B": "13 比正確的 2＋3＋4＋5 少 1，無此遞迴步驟。",
+          "C": "14 是實際遞迴計算出的 2＋3＋4＋5。",
+          "D": "15 是一般 1 到 5 的和，忽略基底 SUM(1)=0。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-13": {
+      "questionSha256": "0da4903ca07dd2a7320e4af87bcc30fba1ab34442189a2060712f6b71cb9519b",
+      "explanation": {
+        "summary": "Goto 可任意跳到其他標號，使控制流程不再單靠循序、選擇、重複三種結構表示，較容易產生交錯路徑並增加白箱測試難度，所以選 B。問題在於不受結構限制的跳躍，不是任何分支都不能使用。",
+        "options": {
+          "A": "If-then-else 是有清楚進出點的選擇結構，屬結構化程式設計。",
+          "B": "Goto 可打破區塊控制結構，造成複雜且難追蹤的跳躍路徑。",
+          "C": "Do-while 是可辨識的重複結構，可依條件及迴圈路徑測試。",
+          "D": "Case 是多路選擇結構，具有明確分支而非任意跳躍。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-14": {
+      "questionSha256": "153d525b2cfd847f901d8bf15f5633d755a4ccde8f39d0cccf1e9f134c7a6e39",
+      "explanation": {
+        "summary": "負載平衡器將用戶連線或請求分配到多台可提供同類服務的後端伺服器，例如分別交給三台網站伺服器，以分攤工作並改善可用性，選 D。它不是「杜絕所有攻擊」的保證，也不是單靠下載檔案平衡流量。",
+        "options": {
+          "A": "下載資料中心檔案不是負載平衡器的核心分配服務工作。",
+          "B": "平衡流量不能保證杜絕駭客攻擊，仍須其他安全設計。",
+          "C": "統計攻擊次數與排除攻擊連結不是一般負載平衡的定義。",
+          "D": "依策略將連線或請求分派給一組後端伺服器，符合定義。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-15": {
+      "questionSha256": "894ff4bfd698c589b2d1c5a2cac6f52b07d184f882b9b1ccbcda2208b069afdc",
+      "explanation": {
+        "summary": "IPv4 位址長度為 32 bit，常寫成四組十進位數；IPv6 為 128 bit，常寫成八組十六進位數，選 B。這是網路位址欄位的位元數，不是網卡 MAC 位址的 48 bit。",
+        "options": {
+          "A": "IPv4 並非 16 bit，IPv6 也不只是 64 bit。",
+          "B": "32 與 128 分別是 IPv4、IPv6 的標準位址長度。",
+          "C": "64 與 256 都將實際位址長度放大了一倍。",
+          "D": "128 是 IPv6 的長度，不能誤放在 IPv4 欄位。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "IETF：IPv6 規範",
+            "url": "https://www.rfc-editor.org/rfc/rfc8200"
+          }
+        ]
+      }
+    },
+    "105-3d-16": {
+      "questionSha256": "75aa8b5eb594d04caf84840a64b9d43aedd3b63147d0b9e6f0ce75d9130b7493",
+      "explanation": {
+        "summary": "SMTP 全名是 Simple Mail Transfer Protocol，主要用於郵件提交與郵件伺服器間傳送，選 C。題目 Received 標頭記錄郵件經過的傳送節點；讀取信箱常另使用 IMAP、POP3 等協定。",
+        "options": {
+          "A": "S 並非 Simulation，SMTP 不叫模擬郵件傳送協定。",
+          "B": "S 並非 Syntax，不能只依字首相同選取。",
+          "C": "Simple Mail Transfer Protocol 是 SMTP 的正確全名。",
+          "D": "System 不是此標準協定的 S 所代表的單字。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-17": {
+      "questionSha256": "6f3441d36622b519b7f8d6ae4637cb9f1c88f1fbbb355bcdc9e65fe219ec9edd",
+      "explanation": {
+        "summary": "13.56 MHz、非常近距離的非接觸通訊，是 NFC 的典型特徵，選 C。實際讀取哪些卡片欄位仍受卡片類型及安全機制限制，不能將題目的描述推廣成所有信用卡個資都可任意讀取。",
+        "options": {
+          "A": "Wi-Fi 以區域網路連線為主，不符合題述 13.56 MHz 近場介面。",
+          "B": "WiMAX 是較大範圍的寬頻無線接取，非近場感應卡通訊。",
+          "C": "NFC 使用 13.56 MHz 並適用近距離非接觸互動。",
+          "D": "Bluetooth 的典型工作頻段與通訊機制不同，不是題目所述。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-18": {
+      "questionSha256": "93350164ca66e4ee546db2aee187b94e12c1d25b395a2dff54b1346602c1bcce",
+      "explanation": {
+        "summary": "ISMS 的 management system 指組織的管理制度，包括政策、風險評估、責任分工、控制流程、稽核與紀錄文件。因此 D 最符合，不是買一套資訊設備或網站就等於完成 ISMS。",
+        "options": {
+          "A": "資訊系統可協助管理，但不是 ISMS 中管理體系的完整意義。",
+          "B": "網站系統只是一類技術服務，無法涵蓋組織的資安管理制度。",
+          "C": "偵防工具是控制措施的一部分，不是整套風險與管理流程。",
+          "D": "規範、流程及文件支持組織落實、維護與改善資安管理體系。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-19": {
+      "questionSha256": "228a451bf3933995dfd1e3def09b0f018b838f3d6a1c8aa4e22f0234ef290d61",
+      "explanation": {
+        "summary": "傳輸加密不能代替網站程式修補、存取控制與防火牆，所以 C 錯誤，選 C。SSL 是題目年代用語，現代應使用安全設定的 TLS。另須補充 A 過度簡化：這類連線通常以非對稱機制處理身分或金鑰協商，再以對稱金鑰保護資料，不是全程只用非對稱加密。",
+        "options": {
+          "A": "公鑰機制可參與握手，但整套 SSL/TLS 是混合機制，原句分類過度簡化。",
+          "B": "某些歷史套件或憑證可用 2048-bit RSA，但不表示所有會議加密鍵都是 2048 bit。",
+          "C": "加密只保護特定傳輸，不會讓網站免除防火牆及其他防護需要。",
+          "D": "安全傳輸可保護傳輸內容的機密性及完整性，仍需正確驗證對端。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-20": {
+      "questionSha256": "e9f61b2a8c1aee255735ecc6b79b79948ecd2b171fb82074e746ee77b1807fe0",
+      "explanation": {
+        "summary": "題目所指是政府建立的「全字庫」中文造字與用字資源，選 A。BIG-5 與 Unicode 是字元編碼或字元標準，不等同這項提供罕用字形、相關查詢及用字工具的政府服務名稱。",
+        "options": {
+          "A": "全字庫是題述政府中文造字及用字資源的服務名稱。",
+          "B": "罕字庫只是一般描述，不是此服務的正式簡稱。",
+          "C": "BIG-5 是傳統中文字元編碼，並不是這個造字系統的名稱。",
+          "D": "Unicode 是跨語言字元標準，與政府全字庫服務不能混為一談。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-21": {
+      "questionSha256": "2328a456a8e263f15c420728c6cf524e20a2ee5a63a861baafedfe720378390f",
+      "explanation": {
+        "summary": "官方 B 的 4 次是二分搜尋 12 筆資料的最差比較次數：ceil(log₂(12＋1))=4。但原題寫「最少」有疑義，若目標小於 1，取中點 64、8、1 後三次即可判定不存在。應將官方答案理解為保證在最差情況也能判定的次數，不能教成每個不存在值都要四次。",
+        "options": {
+          "A": "有些不存在值確實三次即可判定，例如小於最小值的目標；這與題目「最少」用字有關。",
+          "B": "四次是常見二分實作在 12 筆資料上的最差查詢比較次數，為官方答案。",
+          "C": "不需五次資料比較，12 筆可在最多四層完成判定。",
+          "D": "八次遠超過二分每次約減半的搜尋深度。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-22": {
+      "questionSha256": "ade6a728815c3015894649554dc007d05aa14cfde1688e89469ab975829ac1bc",
+      "explanation": {
+        "summary": "原式最外層是加法，左右分別為 (a＋b)×c 與 d/[e＋(f×g−h**i)]。前序依根、左、右寫為 + * + a b c / d + e - * f g ** h i，因此選 B。** 是單一冪次運算子，h、i 的先後不能交換。",
+        "options": {
+          "A": "最後的 ** i h 把 h 的 i 次方改成 i 的 h 次方。",
+          "B": "由最外層加法逐層展開，兩子樹與冪次運算元順序均正確。",
+          "C": "以除法開頭，已把原式最外層的加法與整體結構改掉。",
+          "D": "同樣以除法為根，不符合原式左右兩項相加的結構。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-23": {
+      "questionSha256": "666bc578ca7ea652fa5972a0bfe468d6a3073f3511a2087dbb1ded3284f917c9",
+      "explanation": {
+        "summary": "資料 1000010 原有兩個 1，已為偶數，因此前方偶同位位元為 0。傳送八位為 01000010，分成 0100、0010，即十六進位 42，選 C。同位檢查只能偵測部分錯誤，不是用來把資料重新排序。",
+        "options": {
+          "A": "C2 為 11000010，多加一個 1 會使總 1 數成奇數。",
+          "B": "85 對應 10000101，改變了原始七位資料的次序。",
+          "C": "42 對應 01000010，前置 0 後仍維持偶數個 1。",
+          "D": "84 對應 10000100，並不是前置同位位元後的原資料。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-24": {
+      "questionSha256": "23e937fa3d49898db31948429f7ea1d2cc2a6b1f50787e1541fb253d698ddb49",
+      "explanation": {
+        "summary": "n bit 二補數有 2ⁿ 種位元樣式，其中非負值有 0 到 2^(n−1)−1，負值有 −2^(n−1) 到 −1。因此整體範圍為 −2^(n−1) 至 2^(n−1)−1，對應 C。負端會比正端多一個數值。",
+        "options": {
+          "A": "正端多出的＋1 不符合二補數最大正數的位元限制。",
+          "B": "正端與負端都未符合 n bit 二補數的不對稱範圍。",
+          "C": "最大正數 2^(n−1)−1、最小負數 −2^(n−1)，範圍正確。",
+          "D": "此對稱端點較接近符號大小或一補數的數值範圍，漏掉二補數最小值。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-25": {
+      "questionSha256": "d7337fcfb0e76a81e55b0f278456f16e1f90bb1ab36299e07e9c274cb65e1fb2",
+      "explanation": {
+        "summary": "官方 A 隱含的編碼方式是「以 0 分隔各段 1，記每段 1 的長度，各用四位元」：原串可寫成 11 0 11111111111 0 空段 0 11111，長度 2、11、0、5，編為 0010 1011 0000 0101。一般 RLE 也可記所有交替游程長度 2、1、11、2、5；原題未明說編碼規格，須交代這項隱含約定。",
+        "options": {
+          "A": "以四位記每個 0 分隔之 1 游程長度 2、11、0、5，可解回原字串。",
+          "B": "此組四位值不是 2、11、0、5，按題目隱含解碼無法還原原串。",
+          "C": "此碼缺少原串各段長度與連續兩個 0 所需的空段表示。",
+          "D": "此碼既不是四位長度序列，也無法依相同約定解回原串。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-26": {
+      "questionSha256": "ba8d9a77d6fe4f70fb6265fc726bb3d59605a2042c147279f7e6ed781bb305c0",
+      "explanation": {
+        "summary": "依本題使用的傳統二進位容量慣例，KB、MB、GB、TB 對應 2¹⁰、2²⁰、2³⁰、2⁴⁰ Byte。C 把 TB 說成 2²⁰ Byte，差了 2²⁰ 倍，因此選 C。嚴謹標示時，IEC 的 KiB、MiB、GiB、TiB 才明確代表這些二進位倍數。",
+        "options": {
+          "A": "每 Byte 八位正確；MB=1024 KB 是本題採用的傳統二進位慣例。",
+          "B": "依本題慣例 KB=2¹⁰ Byte，GB 也確實大於 KB。",
+          "C": "2²⁰ Byte 是 MiB 等級，不是 TB；本題 TB 應為 2⁴⁰ Byte。",
+          "D": "本題以二進位慣例表示 GB=2³⁰ Byte，數值對應正確。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-27": {
+      "questionSha256": "ac238a9deecb019c32ebab25c8c640e1d31bba18b594c0286ab305e85fce427d",
+      "explanation": {
+        "summary": "ADSL 是 Asymmetric Digital Subscriber Line，PDA 是 Personal Digital Assistant，兩者 D 都是 Digital，因此選 C。比較縮寫要對照完整名稱及所問字母的位置，不能只看字母相同。",
+        "options": {
+          "A": "CPU 的 C 是 Central，CRC 的第一個 C 是 Cyclic，並不相同。",
+          "B": "CPU 的 C 是 Central，ECC 通常指 Error Correcting Code，C 不是 Central。",
+          "C": "ADSL 與 PDA 的 D 均代表 Digital。",
+          "D": "ECC 的 C 與 CRC 中 Cyclic／Check 的 C 不應視為相同全名。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-28": {
+      "questionSha256": "8d01ba1431444bf2de0360f31086270dfc472244057fced04489599f393c0692",
+      "explanation": {
+        "summary": "國文前三名為 105005、105002、105004（90 並列第二）；英文前三名為 105002、105003、105001；數學前三名為 105006、105002、105004（90 並列第二）。三個集合交集只有 105002，一人，選 A。不是把任兩科前三名的人相加。",
+        "options": {
+          "A": "只有學號 105002 同時出現在三科前三名集合中。",
+          "B": "找不到第二位同時滿足國文、英文、數學三條件的學生。",
+          "C": "三是各科要求的名次範圍，並不等於三科交集人數。",
+          "D": "四位是部分科目表現靠前的人數估計，不符合三科皆前三名。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-29": {
+      "questionSha256": "46ac655c3cee4b27f781d1c6bbf48de950d893d3706f75b671b772af1c49f222",
+      "explanation": {
+        "summary": "逐位比較 11110110 與 11111010，只有第 5、6 個位置不同，異或 XOR 對相異位給 1、相同位給 0，得到 00001100，因此選 B。OR 與 AND 會保留大量共同的 1，不會得到這個結果。",
+        "options": {
+          "A": "NOT 是單一運算元取反，與兩個字串逐位比對的要求不同。",
+          "B": "XOR 對不同位元輸出 1，逐位可得 00001100。",
+          "C": "OR 只要任一位為 1 就輸出 1，結果會是 11111110。",
+          "D": "AND 要兩位都為 1 才輸出 1，結果是 11110010。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-30": {
+      "questionSha256": "40bca1e317cc69ae77c1c3adad41c5f185b0b11fa0484c4c1a7f2ff3d535fcc2",
+      "explanation": {
+        "summary": "防火牆依安全政策控制允許或拒絕的網路流量，是題目所問的安全設施，選 A。它不能保證擋下所有入侵，仍要配合作業系統、程式與權限管理；路由器或閘道器也可能整合防火牆功能，但概念不同。",
+        "options": {
+          "A": "防火牆以流量規則與政策控制網路存取，符合題述目的。",
+          "B": "中繼器重生或轉送訊號，不以資安政策過濾連線為主要工作。",
+          "C": "路由器主要選擇轉送路徑，不等於題目所稱的安全設施。",
+          "D": "閘道器是跨網路或協定的出入口泛稱，不能直接等同防火牆。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-31": {
+      "questionSha256": "0a8883531e8c664336d2c1233b134b7ed16788b226a6b9ec2bfd7b20d822195f",
+      "explanation": {
+        "summary": "Excel 的 SUM 將範圍內數值相加，例如 SUM(A1:A10) 計算十格數值的總和，因此選 B。COUNT 則計算數值儲存格的個數，不是把它們的數字加總。",
+        "options": {
+          "A": "TOTAL 不是本題 Excel 一般加總的標準函數名稱。",
+          "B": "SUM 專門對數值或範圍求和，符合題目需求。",
+          "C": "ALL 不是用來加總範圍數值的 Excel 函數。",
+          "D": "COUNT 回傳數值項目個數，與總和是不同統計量。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-32": {
+      "questionSha256": "24ae9ad871afa43e1e7a88cae3a024003a097d7d6e987cc4efc7a70e5f7a8fd2",
+      "explanation": {
+        "summary": "漢明距離是等長字串在相同位置上不同符號的個數。10010 與 01011 第 1、2、5 位不同，因此距離為 3，選 C；也可先 XOR 得 11001，再數其中三個 1。",
+        "options": {
+          "A": "只數到一個位置，漏掉另外兩個不同位元。",
+          "B": "不同位元有三處，不是只比較前兩位。",
+          "C": "第 1、2、5 位不同，共三處，符合漢明距離定義。",
+          "D": "第 3、4 位相同，所以不可能有四處不同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-33": {
+      "questionSha256": "59f4ed61e462cfa8b03f554a2d2315333fdd7d1ad377182433c0e7052df71023",
+      "explanation": {
+        "summary": "依原圖 A 左為 B；B 左為 D、右為 C；D 右為 E。中序採左、根、右：先 D、E，再 B、C，最後 A，得到 D E B C A。E 原本沒有右孩子，其右引線指向中序後繼 B，因此選 C。",
+        "options": {
+          "A": "A 為根卻排第一，不是此樹的中序；E 的後繼也不是 C。",
+          "B": "中序須先訪問 B 的左子樹 D、E，不能以 B 開頭。",
+          "C": "DEBCA 為正確中序，E 之後緊接 B，所以右引線指向 B。",
+          "D": "以根 A 開頭屬前序風格，與題目要求的中序不同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-34": {
+      "questionSha256": "5ba747369ce2827db391855d6b057eca43b2fdb04ac329c66f9a8881cfd67873",
+      "explanation": {
+        "summary": "本題已有官方更正公告「一律給分」，不應從選項硬湊解。由 (122)ₓ=(21)₈=17，得 x²＋2x＋2=17，合法整數基底 x=3。第二式要求 y³＋y²＋1=(71)₈=57，但 y=3 得 37、y=4 得 81，且在正基底間遞增，沒有合法整數 y，因此四組選項都不成立。",
+        "options": {
+          "A": "x=4 時第一式為 26，已不等於 17；依更正公告仍給分。",
+          "B": "x=4 同樣不符合第一式，無法作為兩式共同解。",
+          "C": "x=3 雖滿足第一式，但 y=6 明顯不滿足第二式；依公告給分。",
+          "D": "x=3 正確而 y=7 不成立，不能把本項教成數學上的正確解。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "可以選。",
+          "C": "可以選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-35": {
+      "questionSha256": "5d23f0f666939040d3f05fb50832ff0aaabe852097387d8df518228ca687d7f9",
+      "explanation": {
+        "summary": "臺灣中文網域名稱註冊相關管理由 TWNIC（臺灣網路資訊中心）負責，gov 是政府用途的網域標記，因此配對為 TWNIC、gov，選 B。edu 則屬教育用途，APNIC 主要管理區域網際網路號碼資源。",
+        "options": {
+          "A": "ETF 不是本題臺灣中文網域註冊管理單位的正確名稱。",
+          "B": "TWNIC 與 gov 分別符合臺灣網域管理及政府用途。",
+          "C": "APNIC 管理區域位址等號碼資源，edu 又是教育而非政府。",
+          "D": "ISOC 是網際網路社群組織，edu 也不代表政府部門。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-36": {
+      "questionSha256": "aa02761fa5d958d734afe9e6af77c2fde361a0628d51e65422c649c0c3515899",
+      "explanation": {
+        "summary": "先用吸收與分配：X＋X′Y=(X＋X′)(X＋Y)=X＋Y。再取反，用德摩根定律得 (X＋Y)′=X′Y′，因此選 C。可用 X=0、Y=0 時應為 1、其他情況為 0 的真值再檢查。",
+        "options": {
+          "A": "X＋Y 是取反前的化簡式，題目外面還有一個反相。",
+          "B": "X′＋Y′ 是 (XY)′，不是 (X＋Y)′。",
+          "C": "X′Y′ 是外層反相後按德摩根定律所得結果。",
+          "D": "X＋Y′ 無法在 X=1 時輸出 0，與原式真值不符。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-37": {
+      "questionSha256": "a103aa6b6df8c501e895ccf399ccd7038216a46b2616569e262a289d595565d4",
+      "explanation": {
+        "summary": "後序走訪依左子樹、右子樹、根的順序，所以整棵樹根一定是後序序列最後一個節點。序列末端為 H，故選 D。無須先還原完整二元樹，就能判定這個位置。",
+        "options": {
+          "A": "A 是後序序列開頭，不會是此非單節點樹的根。",
+          "B": "B 在序列前段，後序的根必須最後才輸出。",
+          "C": "E 仍不是整個序列的最後節點，不能判定為根。",
+          "D": "H 位於序列最後，符合後序最後處理整棵樹根的規則。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-38": {
+      "questionSha256": "ebf6fa8df9e391c3f9443e59cc4216c71d3f9d6caeb7c838f131becaa74dd0a2",
+      "explanation": {
+        "summary": "官方以傳統 C 類預設遮罩 /24（255.255.255.0）判斷，只有 B 兩者網路部分都為 203.72.36，故選 B。但原題沒有指定遮罩；在 CIDR 中不能只看 IP 就判定同網段，例如 /16 下四組都會同屬 203.72.0.0/16，因此必須交代這個前提。",
+        "options": {
+          "A": "依 /24 兩者網路分別為 203.72.36.0 與 203.72.10.0，不同網段。",
+          "B": "在本題隱含 /24 前提下，兩者都屬 203.72.36.0/24。",
+          "C": "依 /24 第三組數不同，網路位址不相同。",
+          "D": "依 /24 分別為 203.72.36.0 與 203.72.96.0，並不相同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-39": {
+      "questionSha256": "8f80218ef967cd01494e72bf7b0304be39270a5cf1122ff4a1196d6914d36948",
+      "explanation": {
+        "summary": "傳統每指令三階段依序耗時 12＋10＋15=37 ns，100 指令需 3700 ns。管線時脈取最慢階段 15 ns，理想三階段管線需 3＋100−1=102 個週期，共 1530 ns，選 B。假設無停滯及管線額外成本，不能直接把總時間除以三。",
+        "options": {
+          "A": "925 不是以最慢階段 15 ns 計時並加上初始填管線成本的結果。",
+          "B": "3700 與 1530 分別為循序總和及 102 個理想管線週期。",
+          "C": "1850 是循序時間的一半，未依三階段管線時脈及填充次數計算。",
+          "D": "3700、3700 表示沒有任何重疊執行，不是題目管線模型。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-40": {
+      "questionSha256": "0b5a672f6076a133a815fd71d14201fe72b6ebadc7d5dc2ef5e6f6322f6e03f8",
+      "explanation": {
+        "summary": "陣列以 0 起算位置初始化為零。計算對角線即可追蹤目標：A(1,1)=A(0,0)＋(1＋1)×2=4；A(2,2)=4＋8=12；A(3,3)=12＋12=24，所以選 B。內外迴圈順序確保所依賴的前一對角元素已計算。",
+        "options": {
+          "A": "16 未把前面對角元素 4、8 與最後增量 12 全部累積。",
+          "B": "24＝4＋8＋12，是題目遞推式在 A(3,3) 的值。",
+          "C": "30 並非沿 A(0,0) 到 A(3,3) 對角線的增量總和。",
+          "D": "36 重複或多算了部分增量，與索引依賴關係不符。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-41": {
+      "questionSha256": "9de7262b6bdafc794218a04d41df964027736d0ce4e3ebc127d055a70899fc0e",
+      "explanation": {
+        "summary": "先有 A(1)=0、A(2)=1。依 B 遞增：A(3)=3＋1＋0=4；A(4)=4＋4＋1=9；A(5)=5＋9＋4=18。因此印出 18，選 A。這不是純費氏數列，每一輪還要加上索引 B。",
+        "options": {
+          "A": "18 是三輪逐次更新後的 A(5)，符合給定遞推式。",
+          "B": "20 不是 5＋A(4)＋A(3)=5＋9＋4 的結果。",
+          "C": "22 在前兩輪或最後一輪多加了數值，無對應程式步驟。",
+          "D": "24 與此一維陣列遞推結果不符，不能套用前題答案。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-42": {
+      "questionSha256": "18cb1c05cf00332daeac40faeaa2e967e0defdd50586bac02f6c582310fa3ee4",
+      "explanation": {
+        "summary": "本題選項中以快速排序對應 divide and conquer，官方選 C。快速排序先分割成小於與大於樞紐的部分，再遞迴排序；插入排序則把新元素插入已排序部分。「ranking sort」不是各教材一致採用的插入排序別名，學習時應優先記 insertion sort 與實際機制，勿將該別名當唯一標準。",
+        "options": {
+          "A": "選擇排序反覆選取最小值，並非本題插入排序及分治快速排序的配對。",
+          "B": "partition exchange 通常與快速排序有關，氣泡排序也不是此分治配對。",
+          "C": "後半的快速排序確實使用分割再遞迴，為本題官方所採配對。",
+          "D": "pranking 並非標準排序名稱，氣泡排序也不是此處的分治答案。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-43": {
+      "questionSha256": "aaf5abb70ef241707f6317c740b4b31bc9cf6c5eb419fe451e5c90515f1503f5",
+      "explanation": {
+        "summary": "後序 AB+CDE−×+ 先求 A＋B=2＋3=5，再求 D−E=4−1=3，接著 C×3=15，最後 5＋15=20，因此選 B。遇減法時，堆疊先取出的 E 是右運算元，不可顛倒成 E−D。",
+        "options": {
+          "A": "16 不能由 (2＋3)＋5×(4−1) 的運算結構得到。",
+          "B": "20 依序完成加、減、乘及最後加法，符合後序式。",
+          "C": "30 把括號或運算次序改掉，並非此後序結構。",
+          "D": "32 不是給定五個運算元代入後的計算結果。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-44": {
+      "questionSha256": "cf250f19679b08e0fe7338bc31a4a5970d6ec5659d2662852138ec27e9825a76",
+      "explanation": {
+        "summary": "逐字母向後移一位，COMPUTER 依序變成 D、P、N、Q、V、U、F、S，密文為 DPNQVUFS。RSA 屬公私金鑰的非對稱密碼，DES、AES、IDEA 則為對稱密碼，因此兩條件都符合的是 C。",
+        "options": {
+          "A": "DPMNRSTY 並非逐字位移一位的結果，DES 也不是非對稱密碼。",
+          "B": "密文正確，但 AES 為對稱式加密，不符合後半條件。",
+          "C": "密文 DPNQVUFS 正確，RSA 的非對稱分類也正確。",
+          "D": "密文不符，IDEA 也屬對稱式區塊密碼。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-45": {
+      "questionSha256": "7ed107491a94b406a8d0e0b1846240a22d38bf43be54fa28fd7fd5241e8a8f77",
+      "explanation": {
+        "summary": "POS 是 Point of Sale 銷售時點系統，不是與 FTP、WWW、IRC 同層次的傳統 Internet 基礎服務名稱，故本題選 A。但現代 POS 可以連網提供雲端服務，因此不宜把答案擴大成 POS 一定不能使用網際網路。",
+        "options": {
+          "A": "POS 指銷售時點系統，在本題傳統服務分類中不是 Internet 服務名稱。",
+          "B": "FTP 提供檔案傳輸，Telnet 提供遠端終端登入，都屬傳統服務。",
+          "C": "WWW 是全球資訊網，Telnet 也是傳統遠端存取服務。",
+          "D": "Netnews 是新聞群組服務，IRC 是即時聊天協定及服務。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-46": {
+      "questionSha256": "ea5725e37d07e4a0adc46f798dcee0f81bd1a5766b1a871dbee4c151a0252e8e",
+      "explanation": {
+        "summary": "由底到頂追蹤堆疊：Push A 後 Pop 變空；Push B、Push C 後 Pop 留 B；再 Push D、Push E 後 Pop 移除 E。最後底到頂為 B、D，因此頂端為 D，選 D。Pop 每次只移走最近加入的一項。",
+        "options": {
+          "A": "A 已在第一個 Pop 被移除，不會留到最後。",
+          "B": "B 留在堆疊底端，但它上面還有 D。",
+          "C": "C 已被第二個 Pop 移除，不能是最後頂端。",
+          "D": "E 被最後 Pop 移除後，露出的頂端就是 D。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-47": {
+      "questionSha256": "e420a28c6c386bd7ad304e39a08d47075434c51dc7a604245e31e9ff2cfdc1c9",
+      "explanation": {
+        "summary": "SQL 的 WHERE 子句決定哪些資料列符合條件。本題 SELECT 選 NAME、NO、MATH，FROM 指向 STUDENT，而 WHERE 後的 MATH>90 才是查詢條件，所以選 A。它篩選數學成績大於 90 的學生。",
+        "options": {
+          "A": "MATH>90 是可對每列判斷真假的篩選條件。",
+          "B": "STUDENT 是資料來源表名，不是條件判斷式。",
+          "C": "NAME 是要投影顯示的欄位，並非 WHERE 條件。",
+          "D": "這是輸出欄位清單，沒有規定資料列是否符合篩選。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-48": {
+      "questionSha256": "d8d6392fdc99a404b07c78cd8971737e9ffc98614a81725199fd0e358a6132d5",
+      "explanation": {
+        "summary": "資料因故損壞或異動錯誤後，透過備份、紀錄檔或回滾等方式恢復到所需正確狀態，稱為 recovery（復原），選 D。完整性是資料需滿足的限制與正確性性質，並不是復原動作的名稱。",
+        "options": {
+          "A": "Integrity 是正確、一致與符合限制的性質，不是將錯誤資料還原的程序。",
+          "B": "Concurrency 指多個作業並行處理的議題，並非復原動作。",
+          "C": "Security 指權限、防護等安全性範疇，沒有直接命名資料復原。",
+          "D": "Recovery 是利用備援與紀錄將資料回到一致、可用狀態的處理。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-49": {
+      "questionSha256": "55bc9fe3152eb5b96fbce7d4319591621a3bd5a6154534268572744b59b87bec",
+      "explanation": {
+        "summary": "SWOT 的 S、W 是內部優勢與劣勢，O、T 是外部機會與威脅。因此評估外在環境的是 Opportunities、Threats，合為 OT，選 D。內外部的界線是分析對象的資源與可控制性，不能只依正面或負面分類。",
+        "options": {
+          "A": "S、W 都是內部條件，並非外部環境。",
+          "B": "S 是內部優勢，O 才是外部機會，不是全為外在。",
+          "C": "W 是內部劣勢，T 是外部威脅，混合了內外分類。",
+          "D": "O 與 T 分別代表外部機會、外部威脅，兩項皆屬環境。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    },
+    "105-3d-50": {
+      "questionSha256": "d2472ea7bdca1886691bf33f46cc3e36be4b0131f57330171cbdeeecef9e4562",
+      "explanation": {
+        "summary": "ping 通常以 ICMP Echo Request／Reply 測試目的端是否回應及往返時間，也可測試本機迴送位址，所以選 B。未收到回覆不必然證明網站或所有網路服務都不通，因防火牆也可能阻擋 ICMP。",
+        "options": {
+          "A": "mail 與郵件處理有關，不是一般連線回應測試工具。",
+          "B": "ping 以回應封包觀察連線可達性與往返延遲。",
+          "C": "FTP 是檔案傳輸用途，不是本題主要的自我或遠端連線測試命令。",
+          "D": "ipconfig 主要顯示或調整本機 IP 設定，不直接測試遠端回應。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "105 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=105010&c=509&s=0701&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=105010&c=509&s=0701&q=1"
+          }
+        ]
+      }
+    }
+  }
+}

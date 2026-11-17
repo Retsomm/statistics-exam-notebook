@@ -1,0 +1,1423 @@
+{
+  "reviewedOn": "2026-11-17",
+  "questionPdfSha256": "7f39b91a4745fdae110aef64fb2af3dd741cccc247aad85b851e76cbda7ab2ec",
+  "answerPdfSha256": "77a046663f1f34e814629c8fdbab8f1fc21f07a0b98f61caa8b4aba253f6d980",
+  "entries": {
+    "098-3d-1": {
+      "questionSha256": "1dcc0d800d69364f28d867235bfb7335c2d269469578fb32e4b15093969c7dfb",
+      "explanation": {
+        "summary": "電腦規格一般說「記憶體512MB」，指執行程式與存放工作資料的主記憶體RAM。快取通常另列容量，ROM存韌體，buffer則是資料緩衝用途名稱；它們都可存資料，但不是本題規格的預期對象。",
+        "options": {
+          "A": "Cache是CPU附近的高速快取，通常不以此規格代表整機主記憶體。",
+          "B": "Buffer是暫存資料的用途，可能由RAM一部分實作。",
+          "C": "ROM主要保存韌體，通常不是電腦廣告中的工作記憶體容量。",
+          "D": "RAM承載程式執行中的資料，是此處一般所指記憶體。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-2": {
+      "questionSha256": "eb48cb45c7262a0b53e1a2488a6c724e1c3a2688df389b1a63ca97847d396107",
+      "explanation": {
+        "summary": "傳統硬碟由旋轉磁性盤片與讀寫頭組成，屬磁碟機，所以選D。它是可持續保存資料的輔助儲存，與易失性RAM不同，也不採光碟機的雷射讀取原理；現代「硬碟」口語有時也泛指SSD，需另辨技術。",
+        "options": {
+          "A": "ROM是唯讀或韌體儲存類型，非傳統硬碟裝置名稱。",
+          "B": "RAM是主記憶體，斷電通常不保留資料。",
+          "C": "光碟機以光學方式讀取光碟，非磁性盤片硬碟。",
+          "D": "傳統硬碟使用磁性盤片讀寫，屬磁碟儲存裝置。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-3": {
+      "questionSha256": "a8d58fb461a40dc49f636bf4ad503eece1ce29749c5109ac703bdf63bec52c0a",
+      "explanation": {
+        "summary": "n位元二補數的範圍是−2^(n−1)到2^(n−1)−1。12位元最大正值為2¹¹−1=2047；最高位必須為0，所以不能把全部12個bit都作正數大小。",
+        "options": {
+          "A": "正號位0、其餘11位全1，數值2047。",
+          "B": "2048是2¹¹，已超過二補數最大正值。",
+          "C": "4095是12bit無號數最大值，非有號二補數。",
+          "D": "4096連12bit無號數都無法表示。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-4": {
+      "questionSha256": "29b8ffb95b9131cecaedf54b660e76d1d668657c06d809f12bbd205322595f86",
+      "explanation": {
+        "summary": "按8bit二補數，00000000為0、10000000為−128、01111111為127，因此官方C。原卷D實際只印七個1，位數不一致；若按7bit二補數為−1，若補前導0當8bit則與C同為127，原題存在寬度歧義，不能偷偷把D補成另一個題目。",
+        "options": {
+          "A": "00000000代表0，小於127。",
+          "B": "8bit的10000000是最小值−128。",
+          "C": "8bit的01111111代表最大正數127，符合官方答案。",
+          "D": "原卷只有7位；按7bit有號為−1，但若補0則與C相同，題目位寬不完整。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-5": {
+      "questionSha256": "9d0c8e51706c0d921391536d12f8cca5ffa4e779e474d932dfa06351c6b51176",
+      "explanation": {
+        "summary": "有限狀態機的「有限」指內部狀態數，不是只要輸出種類有限就符合，故官方D抓的是定義混淆。A若泛指完整程式文法、C若泛指任意巢狀XML，也超出有限狀態機能力；FSM能做詞彙或有限狀態辨識，任意巢狀結構通常需堆疊。",
+        "options": {
+          "A": "FSM可用於詞彙及規則模式檢查，但不能獨自驗證所有任意巢狀程式文法。",
+          "B": "通訊協定常用狀態、輸入事件與轉移來描述。",
+          "C": "可辨識有限規則的字元轉換；完整巢狀XML結構並非只靠FSM即可處理。",
+          "D": "有限輸出不等於有限內部狀態，不能據此定義FSM。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-6": {
+      "questionSha256": "8530c396d15a00fe8cff4c029266fe3ec0f6e3df4d67cc1b2ffbe9ef1c8c53c9",
+      "explanation": {
+        "summary": "官方更正本題A、B、C、D任選一項皆給分。正確歐拉路徑概念是每條邊恰走一次；無向圖需忽略孤立點後連通，且奇度頂點數為0或2。原選項混淆點與邊、偶度與奇度，還漏連通條件；這是公告接受任一作答，不是四項都正確。",
+        "options": {
+          "A": "歐拉路徑要求走遍每條邊，不是只要求造訪每個點。",
+          "B": "全偶度還需非零度部分連通，兩個分離環就是反例。",
+          "C": "應限制奇度頂點為0或2，不是偶度頂點剛好2個。",
+          "D": "三頂點鏈的度數1、2、1只有一個偶度點，卻有歐拉路徑，足以反駁。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "可以選。",
+          "C": "可以選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-7": {
+      "questionSha256": "af1ccce241edbc4d01ae916e332abf768fbf46e382d8f738dacc67d169bd6a1a",
+      "explanation": {
+        "summary": "25₈=2×8+5=21₁₀，再轉十六進位為1×16+5=15₁₆，所以選C。不能只把原本數字25換個基底標籤，必須保持代表的數值相同。",
+        "options": {
+          "A": "25₁₆等於37₁₀，不等於原值21。",
+          "B": "21是中途十進位值；若寫作十六進位21則為33。",
+          "C": "15₁₆等於21₁₀，與25₈相同。",
+          "D": "1E₁₆等於30₁₀，並非本題數值。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-8": {
+      "questionSha256": "deace69f69a8687efb7f0cc0b44d3eaee93ff0a963f42086f01b72d47eb701cb",
+      "explanation": {
+        "summary": "SI前綴nano為10⁻⁹，所以奈秒ns=10⁻⁹秒。毫秒milli為10⁻³，微秒micro為10⁻⁶，皮秒pico為10⁻¹²；每相鄰一級在這四項中相差1000倍，選C。",
+        "options": {
+          "A": "10⁻³秒是毫秒ms，比奈秒長一百萬倍。",
+          "B": "10⁻⁶秒是微秒μs，比奈秒長1000倍。",
+          "C": "10⁻⁹秒是奈秒ns的正確定義。",
+          "D": "10⁻¹²秒是皮秒ps，比奈秒短1000倍。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-9": {
+      "questionSha256": "c873cc34a2bf28efc99fea6162c691e538981f0b923770acb8cffdd23b4c9d50",
+      "explanation": {
+        "summary": "二進位轉十六進位可每四位分組，11001010=1100 1010，前組1100=12=C，後組1010=10=A，所以得到CA。分組順序不能反轉，也不能忽略第一組的高位1。",
+        "options": {
+          "A": "1100對C、1010對A，依序組合為CA。",
+          "B": "4A會把高四位1100誤寫成0100。",
+          "C": "AC把高低兩組的位置顛倒了。",
+          "D": "C4的低四位0100不等於原來1010。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-10": {
+      "questionSha256": "f324a6356fe67ac77f9ef1f5ce6c2aa2d152993ed20a38b493369475baaebc41",
+      "explanation": {
+        "summary": "網域名稱由右向左呈現階層，最左標籤常用於主機或服務，但不是必然的電腦機器名稱，例如子網域也能再包含多個主機，所以C的固定解釋錯誤。名稱解析取得IP後才進行一般IP連線。",
+        "options": {
+          "A": "tw是臺灣的國碼頂級網域標籤，敘述方向正確。",
+          "B": "右側通常是較上層、涵蓋範圍較大的網域層級。",
+          "C": "最左標籤可表示子網域或服務，不能保證就是一台機器名稱。",
+          "D": "使用名稱建立IP連線時通常先透過DNS或快取解析位址。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-11": {
+      "questionSha256": "9f9fffdf9b87524dd1b623a5c24971baedd36482d6f2f714cbf3469b60c1f6b0",
+      "explanation": {
+        "summary": "BIOS需在尚未載入作業系統時即可執行，通常保存於非揮發韌體記憶體，歷史教材以ROM概括，因此選C。現代多採可更新的快閃記憶體；開機後可能把部分內容映到RAM，不改變主要持久儲存的位置。",
+        "options": {
+          "A": "暫存器容量小且易失，不保存整套開機韌體。",
+          "B": "Cache是易失的高速副本，不是BIOS斷電保存處。",
+          "C": "ROM類非揮發儲存保存BIOS，現代常以Flash實作。",
+          "D": "RAM可承載執行中的副本，但斷電不能保存原始BIOS。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-12": {
+      "questionSha256": "7201739bc4ef1567d0dd7de7d7efc243113a7393f2bdf5126e0f2bc1fed47ccb",
+      "explanation": {
+        "summary": "XOR逐位元比較，相同為0、不同為1：10011010 XOR 11001001=01010011。因此選A。它不同於OR的任一為1就1，也不同於AND要求兩者都1。",
+        "options": {
+          "A": "依八個位置逐一比異同，可得到01010011。",
+          "B": "全1表示每個位置都不同，但原兩串有多個相同位元。",
+          "C": "10101100是正確XOR的逐位反相，不是原結果。",
+          "D": "11011011其實是兩串OR的結果，不是XOR。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-13": {
+      "questionSha256": "04bd4da1825ad3ca818aed710b7458717271005e41f00443827d4b0a896b4f5c",
+      "explanation": {
+        "summary": "虛擬碼用接近自然語言的非正式結構描述演算法，主要讓人理解流程，不存在所有機器都能直接執行的統一語法。因此C錯。它可使用IF、WHILE等概念，但真正執行通常仍要轉寫成具體程式語言。",
+        "options": {
+          "A": "可用約定符號與縮排描述步驟，這種概括說法成立。",
+          "B": "不受單一正式語言語法約束，屬非正式描述。",
+          "C": "一般機器不能直接辨識並執行任意虛擬碼，原句過度保證。",
+          "D": "先用虛擬碼規劃邏輯，可輔助後續程式撰寫。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-14": {
+      "questionSha256": "ead848d3539e973a9aceb7e7f171c319d8a6fa8268964467605e3369ab71a988",
+      "explanation": {
+        "summary": "WWW是World Wide Web，指以網址、HTTP及超連結等組成的全球資訊網服務。Web運作在Internet之上，但兩者不是同義詞；電子郵件等Internet服務也不一定屬於Web。",
+        "options": {
+          "A": "What Where and Why不是WWW的正式展開。",
+          "B": "What a Wonderful World是另一英文片語，不是技術名稱。",
+          "C": "World Web Watch並非此縮寫的標準意義。",
+          "D": "World Wide Web正是全球資訊網名稱。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-15": {
+      "questionSha256": "93d96b066738e9b8807336e35b2e281903e1611e63350026499beebb960b31ad",
+      "explanation": {
+        "summary": "機械磁碟的rotational latency是等目標磁區旋轉到讀寫頭下的時間，因此D最接近。嚴格說不是任意「磁盤轉動的時間」都叫延遲，而是定位到磁軌後的旋轉等待；找磁軌則是seek time。",
+        "options": {
+          "A": "尋找並移動到磁軌是搜尋時間，不是旋轉延遲。",
+          "B": "從硬碟把資料搬到記憶體涉及傳輸，不是等磁區轉到位。",
+          "C": "資料傳輸時間應與旋轉等待分開計算。",
+          "D": "等待盤片把目標磁區轉到讀寫頭下，符合旋轉延遲。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-16": {
+      "questionSha256": "52551d236bf438388c46a3afcc18974915fe29998d5bc022d9af4d6d5c98b270",
+      "explanation": {
+        "summary": "WORM是Write Once Read Many，一次寫入、多次讀取，不能重複覆寫，所以官方B。原卷A的CD-ROM「數Giga Bytes」也有問題：一般CD約650至700MB，數GB較像DVD，應同時指出，不能為維持單選而把CD容量教錯。",
+        "options": {
+          "A": "普通CD-ROM約650至700MB，不是數GB，這也是原題的技術疑義。",
+          "B": "WORM只可寫一次，不能像可重寫媒體反覆改寫，所以官方選此錯誤敘述。",
+          "C": "CD採近似固定線密度的記錄方式，應與磁碟同心軌配置區分。",
+          "D": "CD使用雷射光束讀取反射訊號，基本原理正確。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "Ecma光碟容量與格式說明",
+            "url": "https://www.ecma-international.org/wp-content/uploads/cc-2011-016.pdf"
+          }
+        ]
+      }
+    },
+    "098-3d-17": {
+      "questionSha256": "07c48589d71fd50c3efb57415194749c0e7e8e6abf4355282c7a75251899c1df",
+      "explanation": {
+        "summary": "磁碟可作日常系統與資料儲存，不是「以備份為主」；磁帶常作大量備份與歸檔，所以C把兩者用途一概而論是錯誤。速度也要分隨機與循序，現代磁帶串流吞吐量可能很高，不能永久概括所有磁碟都比磁帶快。",
+        "options": {
+          "A": "磁碟可定位到指定區段，適合隨機存取。",
+          "B": "磁帶需沿帶移動，典型適合循序讀寫與歸檔。",
+          "C": "磁碟主要也用於線上工作資料，不是兩者都以備份為主。",
+          "D": "當年一般存取比較以磁碟較快理解；大量循序傳輸仍需看設備規格。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-18": {
+      "questionSha256": "ecff65e7735f52c7b60a6d3b292a8cbead5532387d658feeed8b8c0f57427cbf",
+      "explanation": {
+        "summary": "組合語言以助記符與暫存器名稱表示機器指令，通常歸第二代。第一代是機器碼，第三代是C等高階語言，第四代常指較宣告式的特定領域語言；分類依抽象層級，不單是年代。",
+        "options": {
+          "A": "第一代直接使用機器碼位元或數值表示。",
+          "B": "組合語言使用指令助記符，屬第二代。",
+          "C": "第三代如C、COBOL等，抽象層級較高。",
+          "D": "第四代通常較偏問題導向或宣告式，不是組合語言。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-19": {
+      "questionSha256": "c73310191f5d6195655fc3afa2890f947171faf7d0262e408dd865a931b17380",
+      "explanation": {
+        "summary": "官方選A，但原句單純說副程式使用傳值，技術上可以成立；例如C函式的參數就是傳值，連指標也是複製指標值。副程式也可使用其他參數模式，不能由「不是所有副程式都必須傳值」推成「傳值不正確」。此題缺少限定，應保留答案並註明疑義。",
+        "options": {
+          "A": "傳值是合法參數方式；若解讀成所有副程式只能傳值才不正確，原題未寫這個限制。",
+          "B": "呼叫堆疊常保存返回位置與區域狀態，是常見實作而非所有架構強制。",
+          "C": "C函式是副程式的具體形式，這項合理。",
+          "D": "副程式可呼叫其他副程式，也可在支援下遞迴呼叫自身。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "Microsoft C函式引數：傳值",
+            "url": "https://learn.microsoft.com/en-us/cpp/c-language/arguments"
+          }
+        ]
+      }
+    },
+    "098-3d-20": {
+      "questionSha256": "7e21e20faa9951413817a1fae71b32f1e770316f68b14f08fa55ea75abb6ef5b",
+      "explanation": {
+        "summary": "一般CPU指令可直接操作暫存器，並以記憶體位址存取RAM；快取由硬體配合這些存取自動運作。磁碟需經控制器與I/O把資料搬入可運算的記憶體，不能像RAM般直接作一般運算元，故A。",
+        "options": {
+          "A": "磁碟資料通常先經I/O載入主記憶體，非普通CPU資料存取的直接對象。",
+          "B": "暫存器位於CPU內，指令可直接使用。",
+          "C": "快取由CPU記憶體階層服務讀寫，屬此題直接存取範圍。",
+          "D": "主記憶體透過位址提供CPU載入與儲存指令存取。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-21": {
+      "questionSha256": "dd918fd41e269b769ff56288819d1d89199d8e3a3dd375d0793495d3c3e1abf8",
+      "explanation": {
+        "summary": "典型記憶體階層中，CPU暫存器最接近運算單元，延遲最低；接著快取、主記憶體，再到磁碟。題目比較一般存取速度而非容量或每bit成本，因此D；高速層通常容量較小且較昂貴。",
+        "options": {
+          "A": "磁碟有I/O與機械或控制延遲，四項中通常最慢。",
+          "B": "主記憶體比快取與暫存器慢，容量則較大。",
+          "C": "快取雖快，仍通常不及CPU內部暫存器的存取延遲。",
+          "D": "暫存器在CPU內直接配合指令運作，典型最快。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-22": {
+      "questionSha256": "b4659606210deb826070ee7ef2b2d60f164dabb7db7694bbef3028810128695c",
+      "explanation": {
+        "summary": "官方C意在反對把swap的內容範圍絕對限定；早期交換可移出整個行程，現代分頁系統多交換記憶體頁。但「分頁資料而非整個檔案」對現代實作又可能合理，原題沒分清歷史swapping、paging與一般檔案備份，不能教成swap就是拿來保存任意整份使用者檔案。",
+        "options": {
+          "A": "磁碟swap可作虛擬記憶體後援，但速度與真正RAM不同。",
+          "B": "不活躍的記憶體頁或行程狀態可暫時移出，描述方向合理。",
+          "C": "官方否定「只存分頁」的絕對說法；現代頁交換與早期整行程交換須分清。",
+          "D": "常以磁碟分割區或交換檔作後援儲存。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-23": {
+      "questionSha256": "111f77bbe68a7fc75ef95d470f687574d6a95c73e2aed7b307b9c38216d823be",
+      "explanation": {
+        "summary": "一般圖可以有自迴圈，因此C的完全禁止錯誤；只有「簡單圖」才排除自迴圈與平行邊。原卷D也把握手定理印成兩倍節點數，正確應是度數總和=2×邊數。官方C保留，但應指出D同樣有錯，不能照答案硬解。",
+        "options": {
+          "A": "N維超立方體各點可沿N個位元方向連到N個鄰點，正確。",
+          "B": "可用相鄰串列或相鄰矩陣等表示圖。",
+          "C": "一般圖允許自迴圈，只有額外限定簡單圖才禁止，因此官方選此錯誤敘述。",
+          "D": "正確握手定理是度數和等於兩倍邊數，原句的節點數也不對。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-24": {
+      "questionSha256": "8b2a9b87016c7a74dc07679b8ff55327900a1bf98f02ef0c35c0f7df9541869b",
+      "explanation": {
+        "summary": "ER模型以實體、屬性與關聯表達資料概念；查詢語言用於操作或檢索資料，不是ER圖的基本組成元件，因此選A。先分清描述「資料是什麼」的模型，與「如何向系統發問」的語言。",
+        "options": {
+          "A": "查詢語言是操作資料的工具，不是ER模型基本元件。",
+          "B": "實體集代表同類型的對象，如學生。",
+          "C": "屬性描述實體或關聯的特徵，如學號。",
+          "D": "關聯集表達實體間的連結，如學生選修課程。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-25": {
+      "questionSha256": "b7ff47b1107cf4dfbbc43b454e52972337b3d4015f20ef6de8e0aff9c8b2c204",
+      "explanation": {
+        "summary": "關聯模型的鍵由資料表中的一個或多個屬性組成，用來唯一識別一列；不能選一個根本不在該表的欄位作這張表的主鍵，因此D錯。題中Key按候選鍵概念理解，一般非唯一索引則另當別論。",
+        "options": {
+          "A": "候選鍵需具有唯一識別性，但不能擴張成所有一般索引都唯一。",
+          "B": "主鍵可以是複合鍵，由兩個或更多欄位組成。",
+          "C": "同表可有多個候選鍵；指定的PRIMARY KEY則只有一個。",
+          "D": "主鍵必須由該表屬性組成，不可憑空指定表外欄位。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-26": {
+      "questionSha256": "3a411f49cf582bfe13aeee50b31e71852fd3277933673b76a05509136ac0f684",
+      "explanation": {
+        "summary": "關聯代數的Projection投影挑出欄位，例如從學生表只取學號與姓名。Selection選擇則依條件挑列；SQL的SELECT可同時表達兩者，不能因字面有select就把關聯代數選列、選欄混淆。",
+        "options": {
+          "A": "Selection是挑符合條件的資料列，不是挑欄位。",
+          "B": "Join依條件結合多個關聯，不是單純抽欄。",
+          "C": "Projection將關聯映到指定屬性欄位，符合題意。",
+          "D": "Update修改既有值，而非選取結果的欄位。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-27": {
+      "questionSha256": "4cf373aa8a45118cd17d8d0ac57eed8a156facae2f57834d246ca8bd2b155fff",
+      "explanation": {
+        "summary": "QBE是Query By Example，以範例欄位及條件讓使用者描述要查的資料，屬關聯式資料庫查詢方式。XML是結構化標記格式；正規與上下文無關語言是形式語言分類，並非此處資料庫查詢產品或語法名稱。",
+        "options": {
+          "A": "XML描述階層資料，不是這裡預期的關聯查詢語言。",
+          "B": "QBE以表格式範例指定查詢條件，可查關聯資料。",
+          "C": "Regular Languages是形式語言類別，非此題的關聯查詢語言。",
+          "D": "Context-Free Languages同樣是文法分類，不是QBE式查詢工具。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-28": {
+      "questionSha256": "004c5ebcc2826f69ee6f3d3663c6bf4b2f608fcb8dd08f1a9178da4ec58b4460",
+      "explanation": {
+        "summary": "第一正規化要求每個列欄交點存單一、可視為原子的值，避免同格塞入一串重複資料。它比2NF基本，不能只因宣告主鍵就保證每格單一；原子性的判定也需配合資料模型及需求。",
+        "options": {
+          "A": "同格重複群組違反此題採用的第一正規化要求。",
+          "B": "2NF包含1NF再加限制，不是1NF更嚴。",
+          "C": "欄位單值、排除重複群組，符合1NF核心概念。",
+          "D": "主鍵有助識別列，但不是此題要考的欄位單值性本身。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-29": {
+      "questionSha256": "322e80481be453ffb7a5d8c4e5963a7faf0dd1013835b5dbdc52474c78d04d0e",
+      "explanation": {
+        "summary": "若所有涉及的資源都可同時共享、不存在互斥使用需求，就破壞死結的必要條件之一，因此A。要注意是相關資源全面可共享；只多一項共享資源，不能保證其他互斥資源不會死結。",
+        "options": {
+          "A": "在全部相關資源都無需互斥的前提，無法形成典型資源死結。",
+          "B": "沒有優先順序本身不保證可打破循環等待。",
+          "C": "占有資源又等待其他資源，正是死結必要條件之一。",
+          "D": "互斥資源可能參與死結，並非不可能。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-30": {
+      "questionSha256": "bce1eb9bb7e2dbbd49297e46d0fad291d71bdec71849145e0b73b7b8d81d8f34",
+      "explanation": {
+        "summary": "txt一般表示純文字檔，儲存字元編碼後的內容，不含特定文書格式。它仍需要正確編碼才能顯示，也可能被任意改副檔名，因此副檔名只是通常用途，不保證實際內容或安全性。",
+        "options": {
+          "A": "txt是純文字最常見的副檔名之一。",
+          "B": "聲音通常使用MP3、WAV等格式，不是txt典型用途。",
+          "C": "視訊通常使用MP4等容器與編碼，不是純文字。",
+          "D": "圖片通常使用PNG、JPG、BMP等格式，非txt預期內容。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-31": {
+      "questionSha256": "3c5dcc4057a588035f4b999844a5b0f35be9ec72a742a7a3034b1589025857d9",
+      "explanation": {
+        "summary": "BMP是bitmap點陣圖檔，以像素資料表達圖片，因此選C。圖像裡可以看見文字或數字，但檔案仍是圖片格式，不會因此變成可直接編輯的純文字或數值表格。",
+        "options": {
+          "A": "BMP內可畫數字，但其結構仍是圖片而非數值資料格式。",
+          "B": "畫面中的文字是像素，不代表檔案為純文字。",
+          "C": "BMP以點陣像素表達圖像，符合此分類。",
+          "D": "BMP通常表示單張點陣圖，不是影片容器。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-32": {
+      "questionSha256": "e56b0de35ea44e17703c69d01e60d9d163c831a3afd6e6981551d991d984f6c1",
+      "explanation": {
+        "summary": "在Windows慣例中，exe是可執行程式檔副檔名，選A。HTML是網頁標記，doc是文件，txt是純文字。副檔名並不驗證檔案真正格式，尤其下載未知exe需先確認來源。",
+        "options": {
+          "A": "exe通常對應可執行檔，例如Windows PE程式。",
+          "B": "html表示網頁文件，雖可引用腳本但非一般原生執行檔。",
+          "C": "doc通常是文書文件格式，不是主要執行檔類型。",
+          "D": "txt通常是純文字，沒有原生程式載入格式。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-33": {
+      "questionSha256": "2f46ce88d054d23e65b331570654d72caff9c6c432de2451b934d3db0d231743",
+      "explanation": {
+        "summary": "RAID用多顆磁碟以條帶、鏡射或同位資料改善效能、可靠性或故障容忍，依等級而異；它不自動提供資料庫交易一致性，所以D。RAID 0甚至沒有冗餘，不能說每一等級都同時具備前三項。",
+        "options": {
+          "A": "具冗餘的RAID等級可容忍特定磁碟故障，但RAID 0例外。",
+          "B": "鏡射或同位資料可提高對磁碟故障的可靠性。",
+          "C": "條帶化與平行I/O可能提高吞吐量，效果依工作負載。",
+          "D": "檔案與交易邏輯一致性不是RAID自行保證的主要功能。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-34": {
+      "questionSha256": "53daf6f60e80f6608d103710982b595652ff8d2d25f614f74907ad53fa81883c",
+      "explanation": {
+        "summary": "Ctrl+Alt+Del在舊Windows可直接或經安全畫面開啟工作管理員，所以四項中選A。現代Windows通常先顯示安全選項；若要直接開工作管理員，常用Ctrl+Shift+Esc。應按版本分清，不能把原題描述當所有Windows的完全相同操作。",
+        "options": {
+          "A": "可進入安全畫面並選工作管理員，部分舊版本曾直接顯示。",
+          "B": "Ctrl+Enter沒有一般開啟工作管理員的標準作用。",
+          "C": "Ctrl+Alt+Shift不是此用途的Windows標準快捷鍵。",
+          "D": "正確常用直接快捷鍵是Ctrl+Shift+Esc，原選項多了Alt。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-35": {
+      "questionSha256": "84174f5bf39804523aea4f07781c0133e833ee644ac72fd13096feb59f1b70a3",
+      "explanation": {
+        "summary": "HTML用標記描述網頁結構，不是聲音格式，所以選A。MP3與WMA編碼音訊；MIDI則記錄音符、樂器及演奏事件，嚴格說不是錄音波形，但在此題按音樂資料格式分類。",
+        "options": {
+          "A": "HTML是超文字標記文件，非聲音或音樂資料格式。",
+          "B": "MP3是常見有損音訊編碼格式。",
+          "C": "WMA是Windows Media Audio的音訊格式。",
+          "D": "MIDI存音樂演奏指令而非波形，仍屬此題音樂格式範圍。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-36": {
+      "questionSha256": "930693ee3e6e76fbbc670014f93f5ceebff8605a78e6dfba9459fdbc7e6c54fc",
+      "explanation": {
+        "summary": "ERP、SCM與CRM可支援企業資源、供應鏈與顧客等商務流程。MIB是網路管理資訊庫，通常供SNMP等管理協定描述設備狀態，層次與用途不同，因此C不屬此題的電子商務應用系統分類。",
+        "options": {
+          "A": "ERP整合企業內部資源與交易流程，可支援商務營運。",
+          "B": "SCM管理供應商、物流與供應鏈協作。",
+          "C": "MIB描述受管理設備的物件與狀態，不是商務流程系統。",
+          "D": "CRM管理顧客互動、銷售及服務資訊。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-37": {
+      "questionSha256": "a5529d5a98186c960ffa1c4199f8571e796e4229782b40957b4853e0469c0feb",
+      "explanation": {
+        "summary": "TCP/IP以IP資料報在網路間傳送封包，是封包交換架構，不需每次建立專屬端到端電路，因此B。它可運作於多種底層網路，也支援單播與多播，不可把它限定在LAN或只稱群播網路。",
+        "options": {
+          "A": "TCP/IP適用跨網路互連，並非專為LAN限定。",
+          "B": "IP把資料分封包定址與轉送，符合封包交換。",
+          "C": "底層可以使用不同媒介，但TCP/IP本身不是預先保留專用電路的交換方式。",
+          "D": "可支援多播卻不等於整個架構只採群播。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-38": {
+      "questionSha256": "f07cb241111570e5bdab318859a0cdf70fab8872079d82e5f8a0ad4070c3423f",
+      "explanation": {
+        "summary": "一台主機可以有多張網卡、每介面多個IP，也可同時用IPv4與IPv6，因此「只能一個IP」錯誤，選B。位址綁定的是介面等網路端點，不必永遠與一台實體電腦一對一。",
+        "options": {
+          "A": "IPv4位址欄位為32bit，正確。",
+          "B": "多介面、別名位址或雙協定皆可有多個IP，原句錯誤。",
+          "C": "常見IPv4以四個0至255十進位數分段書寫。",
+          "D": "IPv6位址欄位為128bit，正確。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-39": {
+      "questionSha256": "5c8ba5eb3d8b9f33fb5d06f2911de7657a77bba5976766a5c5bc7f22db4bad02",
+      "explanation": {
+        "summary": "Fast Ethernet快速乙太網路是100Mbit/s技術家族的名稱，不是「目前最快乙太網路」的意思。因此即使現代已有更高速網路，本題專有名稱仍對應100Mbps，選B。",
+        "options": {
+          "A": "10Mbps是較早期一般Ethernet速率。",
+          "B": "100Mbps正是Fast Ethernet的名稱對應速率。",
+          "C": "1000Mbps通常稱Gigabit Ethernet。",
+          "D": "10Gbps稱10 Gigabit Ethernet，不是Fast Ethernet。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-40": {
+      "questionSha256": "6448ee5d703c686d8252a3daf447f4ecc8bd233bc7a87484a40cbbe07b600290",
+      "explanation": {
+        "summary": "官方答案A，但CMIP是OSI系統管理的應用層協定，不能說它不是應用層。RFC 1189也說明CMIP與相關應用協定堆疊；其餘SMTP、HTTP、FTP同樣屬應用層，因此本題沒有技術上明確唯一的非應用層選項。保留官方計分，同時明列答案疑義。",
+        "options": {
+          "A": "CMIP用於管理資訊交換，屬應用層，官方將它排除有疑義。",
+          "B": "SMTP提供郵件傳遞服務，是應用層協定。",
+          "C": "HTTP提供資源請求與回應，是應用層協定。",
+          "D": "FTP提供檔案傳輸服務，也是應用層協定。"
+        },
+        "optionVerdicts": {
+          "A": "可以選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "CMIP及CMOT協定RFC 1189",
+            "url": "https://www.rfc-editor.org/rfc/rfc1189"
+          }
+        ]
+      }
+    },
+    "098-3d-41": {
+      "questionSha256": "b3e6c4ebbdb82be28cdc34419f2f979b7195b242039ca18dd10e1c2231c934ce",
+      "explanation": {
+        "summary": "TFTP是Trivial File Transfer Protocol，提供簡化檔案傳輸，通常用UDP，常見於設備開機映像等受控環境，故選B。它缺乏FTP式完整認證與功能，不宜把簡單誤解成具備安全加密。",
+        "options": {
+          "A": "SMTP負責電子郵件傳遞，不是通用檔案傳輸協定。",
+          "B": "TFTP的主要用途就是簡化檔案傳輸。",
+          "C": "SNMP負責網路設備管理及監控。",
+          "D": "CMIP同樣屬系統管理資訊交換，而非主要傳檔服務。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-42": {
+      "questionSha256": "ef3a447cd412c9e485c63fae691c0be11843b0e6f27e3699d3eae19813e4e754",
+      "explanation": {
+        "summary": "官方D把CDMA作為3G相關技術的簡稱，較精確例子是WCDMA、CDMA2000及TD-SCDMA。單說CDMA並不足以等同3G，因第二代IS-95也採CDMA；3G是IMT-2000的一組標準，不是任何CDMA系統都算第三代。",
+        "options": {
+          "A": "GSM原本是第二代行動系統，後續演進不應與所有3G畫等號。",
+          "B": "Internet是全球互連網路，不是行動通訊世代名稱。",
+          "C": "WLAN是無線區域網路，與行動蜂巢3G分類不同。",
+          "D": "WCDMA、CDMA2000等屬3G技術，但CDMA本身只是多重存取技術，原題用語較粗略。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "ITU行動通訊標準名稱對照",
+            "url": "https://www.itu.int/ITU-D/tech/MobileCommunications/IMT_Intermediate/Correspondence_Terminology.html"
+          }
+        ]
+      }
+    },
+    "098-3d-43": {
+      "questionSha256": "53d1b60cf2a8798bffa9d4194672ad0f90ea01cd6655f79298ac78a4fe4661e5",
+      "explanation": {
+        "summary": "在本題當年，SSL常用來保護電子交易的傳輸機密性與完整性，所以選D。今日已淘汰舊SSL，應使用適當TLS版本；這是歷史考題辨識，不代表建議新網站啟用SSLv2或SSLv3。",
+        "options": {
+          "A": "SMTP是郵件傳遞協定，本身不等於交易傳輸加密。",
+          "B": "單純HTTP未提供加密，HTTPS才結合TLS等安全層。",
+          "C": "ISO是標準化組織名稱，不是一個具體電子交易安全協定。",
+          "D": "SSL是當年常見安全傳輸技術，現代由TLS承接。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-44": {
+      "questionSha256": "5527bda724db3dc6a9186f1618232a966b01cce674e0b4fc0f630889cc971d8b",
+      "explanation": {
+        "summary": "流程圖中的菱形表示判斷與分支，依條件結果走不同路徑，因此選D。一般矩形表示處理程序，平行四邊形常表示輸入輸出；圖形差異能幫讀者快速看出控制流程。",
+        "options": {
+          "A": "正方形不是此題標準判斷符號。",
+          "B": "長方形通常表示運算或處理步驟。",
+          "C": "三角形不是一般二選分支的標準圖形。",
+          "D": "菱形內放判斷條件，再由不同出口分支。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-45": {
+      "questionSha256": "2c79985c6bbf82de6feeb885c5733eb3ce7e3360d4da76476ddb0fc98b64d6bc",
+      "explanation": {
+        "summary": "Wi-Fi通常指符合IEEE 802.11相關技術及認證的無線區域網路，因此四項中C最能表達它的無線特徵。A也涵蓋其LAN範圍，但沒有說明無線；原題分類有包含關係，應理解為選最具辨識度的描述。",
+        "options": {
+          "A": "Wi-Fi屬無線區域網路，LAN範圍並非錯，但此選項未指出無線特性。",
+          "B": "通訊網路過於籠統，包含有線與無線多種技術。",
+          "C": "無線網路最能在這四項中辨識Wi-Fi的連線特徵。",
+          "D": "Wi-Fi通常是近距離無線接取，不是衛星通訊。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-46": {
+      "questionSha256": "efe00c5fe29c34037f4ba381f34a6e9f4a1c207fa5287de00ccfd29e9c94566a",
+      "explanation": {
+        "summary": "公開金鑰系統使用配對的公鑰與私鑰：公鑰可分送，私鑰須保密。不同用途可用於加解密或簽署驗證，但不是只準備一把公開鑰匙就能完成所有角色，因此C。",
+        "options": {
+          "A": "只有公鑰缺少需保密的私鑰操作能力。",
+          "B": "只有私鑰也沒有可公開分送供他人驗證或加密的部分。",
+          "C": "成對公私鑰是非對稱密碼系統的基本配置。",
+          "D": "公鑰系統仍需金鑰，不是完全免金鑰。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "可以選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-47": {
+      "questionSha256": "5348a056794d40dddaaebdc01cb6b8f16a5903d86a6eb3790ffbcab7724dd7b8",
+      "explanation": {
+        "summary": "RSA是非對稱系統，雙方不需要共享同一把私鑰，B錯。要保密通常以收件者公鑰加密、收件者私鑰解密；要認證則使用適當RSA簽章算法，不能把裸RSA「私鑰加密」當完整安全簽章實作。",
+        "options": {
+          "A": "RSA屬公開金鑰密碼技術，分類正確。",
+          "B": "私鑰應由各自持有者保密，不是雙方共同分享。",
+          "C": "教材以私鑰運算描述身分簽署；實作須使用安全雜湊及標準簽章填補。",
+          "D": "以收件人公鑰加密可提供保密，實作仍需安全填補與協定。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-48": {
+      "questionSha256": "021f61f6db478c5a3802e1ff71582bf2d734b8ee9ecacaa23b5263d7c65d5b49",
+      "explanation": {
+        "summary": "一般數位電腦以離散位元表示與處理資料，並非所有訊號都按類比資訊處理，所以D錯。實際電路電壓是物理量，但邏輯上以0、1判讀，需區分物理連續性與數位編碼。",
+        "options": {
+          "A": "數位電腦在邏輯層處理離散資料，敘述正確。",
+          "B": "Modem進行調變與解調，連結數位資料及通道訊號。",
+          "C": "頻寬可指頻率範圍或通俗資料率能力，需留意兩種單位。",
+          "D": "把一般電腦資料處理一概說成類比，與數位邏輯不符。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "不選。",
+          "C": "不選。",
+          "D": "可以選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-49": {
+      "questionSha256": "0d6bed46e97b88db18c4fab150bb32c023c5bcb04ddaef26510ea9c9ea189312",
+      "explanation": {
+        "summary": "LISP以串列、符號運算與遞迴等特性，在人工智慧早期研究與應用中特別有代表性，因此B。這是歷史代表語言的辨識，不表示C++等不能開發AI，也不表示現代AI只用LISP。",
+        "options": {
+          "A": "C++可實作AI與高效運算，但不是此題歷史代表的預期名稱。",
+          "B": "LISP與符號式人工智慧發展關係密切。",
+          "C": "Pascal以結構化程式設計與教學著名，非此題最典型AI代表。",
+          "D": "COBOL主要以商業與報表資料處理著稱。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    },
+    "098-3d-50": {
+      "questionSha256": "c4b92d21ed65e552e0effb0c80e79cbe28aa9f3b0dd5fbe0967e58460453385a",
+      "explanation": {
+        "summary": "640×480通常表示圖片寬640像素、高480像素，共307200像素，因此選B。單靠這兩個數不能知道檔案容量，還需色深、壓縮及標頭等資訊；也不能直接當公分等實體尺寸。",
+        "options": {
+          "A": "若大小指檔案bytes，僅寬高像素不足以決定。",
+          "B": "數字表示水平與垂直像素數，符合解析度描述。",
+          "C": "每像素bit數另由色深決定，不是這兩個維度。",
+          "D": "可用顏色數需知道色深，與寬高不同。"
+        },
+        "optionVerdicts": {
+          "A": "不選。",
+          "B": "可以選。",
+          "C": "不選。",
+          "D": "不選。"
+        },
+        "sources": [
+          {
+            "title": "98 年資料處理大意官方試題",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=098030&c=508&s=1001&q=1"
+          },
+          {
+            "title": "考選部答案更正",
+            "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=098030&c=508&s=1001&q=1"
+          }
+        ]
+      }
+    }
+  }
+}

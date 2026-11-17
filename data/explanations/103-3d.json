@@ -1,0 +1,1276 @@
+{
+  "103-3d-1": {
+    "summary": "Linux 傳統 ifconfig 可檢視或設定網路介面位址等組態，選 D。現代 Linux 常以 ip addr、ip link 取代，系統也可能未預裝 ifconfig；這不改變本題歷史指令的分類。",
+    "options": {
+      "A": "ipconfig 是 Windows 常見網路設定命令，不是這裡的 Linux 傳統答案。",
+      "B": "ls -l 顯示檔案詳細列表，不設定網路介面。",
+      "C": "netstat 主要顯示連線、路由等資訊，並非本題介面組態設定指令。",
+      "D": "ifconfig 是傳統 Linux 網路介面檢視、組態指令。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-2": {
+    "summary": "FCFS 依到達次序且不搶先，一個很長的 CPU 工作若在最前面，後面許多短工作只能一起等待，形成像車隊跟隨慢車的 convoy effect（護送現象），選 A。不是說 FCFS 本身能消除這種現象。",
+    "options": {
+      "A": "先到先做容易讓長工作擋住後面的短工作，形成護送現象。",
+      "B": "最短工作優先讓短工作先執行，典型問題較偏向長工作可能飢餓。",
+      "C": "先到後做不是本題 convoy effect 的典型排程背景。",
+      "D": "優先權排程常討論低優先權飢餓，並非此題長工作隊首阻塞。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-3": {
+    "summary": "LDAP 是存取目錄服務的協定，目錄項目可按階層與識別名稱形成樹，用以集中管理帳號、群組與驗證資料，所以選 D。LDAP 可支援單一登入體系，但單靠 LDAP 協定不等於完整自動提供所有 SSO 流程。",
+    "options": {
+      "A": "WWW 提供網頁服務，不是本題階層式帳號目錄的名稱。",
+      "B": "AP 泛指應用程式伺服器等用途，未指明目錄存取服務。",
+      "C": "DNS 也有階層樹，但主要解析名稱，不是帳號驗證目錄服務。",
+      "D": "LDAP 存取階層式目錄，可作為集中身分及 SSO 系統的基礎。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-4": {
+    "summary": "TRIM 讓作業系統告訴 SSD 哪些邏輯區塊已不再需要，例如檔案刪除後的區塊。控制器可避免垃圾回收時繼續搬移無效資料，降低寫入放大與後續寫入負擔，所以選 B。它不是直接提高每個晶片的硬體寫入速度。",
+    "options": {
+      "A": "快取可暫存資料，但不直接通知 SSD 哪些區塊已失效。",
+      "B": "TRIM 傳達可釋放區塊資訊，讓回收與寫入管理更有效率。",
+      "C": "ReadyBoost 是 Windows 的快取輔助功能，不是 SSD 區塊失效通知。",
+      "D": "IOPS 是每秒輸出入操作次數的性能量數，不是一項管理指令。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-5": {
+    "summary": "SSTF 每次選離目前磁頭最近的請求。路徑為 58→70→75→33→12→118→120→139→167，移動量為 12＋5＋42＋21＋106＋2＋19＋28=235，選 B。在 75 時，33 距 42、118 距 43，所以須先去 33。",
+    "options": {
+      "A": "383 不是每一步都取最近請求的路徑總和。",
+      "B": "235 正確依當下位置反覆選最近磁軌，並累加全部移動。",
+      "C": "329 與 SSTF 的逐步最近路徑不符。",
+      "D": "190 漏算部分往返移動，無法涵蓋此路徑所有請求。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-6": {
+    "summary": "總時脈數=6×10⁶ 指令×20 cycle/指令=120×10⁶ cycle。以 2.4×10⁹ cycle/s 執行，時間=0.05 s=50 ms，選 B。GHz 是每秒週期數，不能直接當成每秒指令數。",
+    "options": {
+      "A": "0.5 秒多算了十倍，正確除法為 120×10⁶/2.4×10⁹。",
+      "B": "50 ms 等於 0.05 s，符合指令數、CPI 與時脈換算。",
+      "C": "500 μs 只有 0.0005 s，比正確值少一百倍。",
+      "D": "500 ns 遠不足完成 1.2 億個時脈週期。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-7": {
+    "summary": "iOS、Linux、Android 都是作業系統或作業系統平台；DDoS 是 Distributed Denial of Service，意指分散式阻斷服務攻擊，並不是作業系統，所以選 D。不能只因縮寫尾端有 OS 字樣就將它歸為 operating system。",
+    "options": {
+      "A": "iOS 是 Apple 的行動作業系統平台，屬題述類型。",
+      "B": "Linux 是作業系統核心，也常泛指以它組成的作業系統。",
+      "C": "Android 是以 Linux 等元件組成的行動作業系統平台。",
+      "D": "DDoS 是攻擊型態，不是電腦資源管理的作業系統。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-8": {
+    "summary": "依題目「同樣設定」隱含同一實體螢幕尺寸、相同縮放且圖像按固定像素數顯示，解析度越高，每像素越小，圖像看起來越小，因此選 1200×900 的 D。若螢幕尺寸或系統 DPI 縮放不同，不能只憑解析度就判定實際大小。",
+    "options": {
+      "A": "800×600 在同尺寸螢幕上像素較大，固定像素圖片反而較大。",
+      "B": "1024×768 的像素密度仍低於同尺寸 1200×900。",
+      "C": "1024×800 仍不是選項中總像素與對應密度最高者。",
+      "D": "在同尺寸、同縮放前提下，1200×900 使固定像素圖片占較小實體範圍。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-9": {
+    "summary": "未壓縮大小=800×600×24/8=1,440,000 Byte。題目把壓縮率明定為壓後/壓前，所以再乘 0.083 得 119,520 Byte，約 120 kB，選 A。若用二進位 KiB 表示約 116.7 KiB；差異在單位慣例，不影響最近選項。",
+    "options": {
+      "A": "約 120 kB 與 119520 Byte 的壓縮後資料量相符。",
+      "B": "960 KB 沒有正確乘上題目定義的 8.3% 壓後比例。",
+      "C": "1440 KB 是未壓縮影像大小，尚未套用壓縮率。",
+      "D": "12 MB 反而比原始影像大許多，不符合 8.3% 壓縮後大小。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-10": {
+    "summary": "7 吋是螢幕對角線長。對角像素數 √(1200²＋900²)=1500，因此每英吋像素數 PPI=1500/7≈214.29，選 D。不能拿單邊 1200 或 900 直接除以對角線英吋。",
+    "options": {
+      "A": "129 約由短邊 900/7 得到，分子與分母不是同一方向。",
+      "B": "171 約由長邊 1200/7 得到，仍混用邊長與對角線。",
+      "C": "198 不是對角像素 1500 除以 7 的結果。",
+      "D": "214 為對角像素數與對角實體長度的正確比值。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-11": {
+    "summary": "依題目假設每 18 個月翻倍，102−72=30 年等於 360 個月，共 360/18=20 次翻倍，倍率為 2²⁰，選 D。摩爾定律原本是電晶體密度的歷史觀察，不能在現實中保證各種電腦性能都依此精確翻倍。",
+    "options": {
+      "A": "30 是相隔年數，不是連續翻倍後的倍率。",
+      "B": "20 是翻倍次數，倍率須進一步計為 2 的 20 次方。",
+      "C": "2³⁰ 把每年當成一次翻倍，與 18 個月設定不同。",
+      "D": "2²⁰ 由 20 次相乘的翻倍得到，符合題目假設模型。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-12": {
+    "summary": "逐個選項反算，547₈=5×64＋4×8＋7=359，故選 B。二進位正確值為 101100111，十六進位為 167；不要因為其他選項外觀接近就省略基底。",
+    "options": {
+      "A": "168₁₆=360，比題目 359 多 1。",
+      "B": "547₈=320＋32＋7=359，數值相符。",
+      "C": "101110111₂=375，不是十進位 359。",
+      "D": "100110111₂=311，與題目值不相符。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-13": {
+    "summary": "Android 4.4 曾以可選方式引入 ART（Android Runtime）作為 Dalvik 的替代執行環境，後續版本成為預設，故選 A。ART 是執行環境名稱；Jelly Bean、Gingerbread 是不同 Android 版本代號，不是這個新執行環境。",
+    "options": {
+      "A": "ART 是 Android Runtime，符合題目 Dalvik 替代環境。",
+      "B": "CAR 不是此 Android 執行環境的名稱。",
+      "C": "Jelly Bean 是 Android 版本代號，不是 4.4 引入的 ART 架構。",
+      "D": "Gingerbread 也是較早版本代號，並非題目新執行環境。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-14": {
+    "summary": "先合併前兩項：X′Y′＋X′Y=X′(Y′＋Y)=X′。再用 X′＋XY=(X′＋X)(X′＋Y)=X′＋Y，所以最簡式為 X′＋Y，選 C。這裡 + 表 OR，相乘表 AND，不是一般實數加乘。",
+    "options": {
+      "A": "X＋Y 在 X=1、Y=0 時為 1，原式卻為 0。",
+      "B": "X＋Y′ 在 X=1、Y=0 時也與原式真值不同。",
+      "C": "X′＋Y 由補律、分配律化簡而得，與原式完全等價。",
+      "D": "X′＋Y′ 在 X=1、Y=1 時為 0，原式為 1。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-15": {
+    "summary": "Excel 的日期通常以數值序號儲存，因此 COUNT 會計入日期 A2 與數字 A3，共 2 格；COUNTA 計所有非空格，A1 的 ROC 也算，共 3 格，所以選 B。前提是 A2 確實為日期值而非只有日期外觀的文字。",
+    "options": {
+      "A": "COUNT 也會計日期序號，不是只有 A3 一格。",
+      "B": "日期與數字共兩個數值格，三格又全部非空，故為 2、3。",
+      "C": "COUNT 少算日期，COUNTA 又漏掉其中一個非空格。",
+      "D": "COUNT 雖為 2，但 COUNTA 必須連文字 ROC 也計入而為 3。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-16": {
+    "summary": "不同 ISA 可有固定或可變長指令，①並非普遍正確；指令可改一般暫存器，分支跳躍也可改指令指標，②③正確；不同機器架構的指令集不必相同，④錯誤，所以選 C。應分清處理器架構規格與同一架構不同型號。",
+    "options": {
+      "A": "①、④都不是所有機器都成立，不能全部選。",
+      "B": "④把不同架構也說成相同指令集，過度概括。",
+      "C": "②資料操作及③分支跳躍分別能改一般暫存器與指令指標。",
+      "D": "除了②之外，③的控制轉移指令也確實存在。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-17": {
+    "summary": "內容「使用幾個位元」共有使、用、幾、個、位、元六個中文字。依題目 BIG-5 每個這類中文字兩個 Byte，共 6×2=12 Byte，選 A。界定用的 <<、>> 已明說不計，B 與 b 也要區分。",
+    "options": {
+      "A": "12B＝6 字×2 Byte，大小與單位都正確。",
+      "B": "12b 是 12 bit，僅 1.5 Byte，與六個 BIG-5 中文字不符。",
+      "C": "86 bit 不是六字各 16 bit 的整數乘積。",
+      "D": "102 bit 也不是題目 BIG-5 編碼的 96 bit。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-18": {
+    "summary": "官方此題把中文大數「兆」解讀為 10¹²，因此 100 兆 Byte=100×10¹²=10¹⁴ Byte，選 C。但資訊慣用語有時把「兆」用作 mega，容易混淆；本題不是 100 MB。實務應寫明 MB、TB 或完整倍數，避免單用中文兆。",
+    "options": {
+      "A": "10¹² Byte 是一兆，不是 100 兆（依本題大數定義）。",
+      "B": "10¹³ Byte 是十兆，仍少十倍。",
+      "C": "10¹⁴ Byte＝100×10¹²，符合官方採用的中文大數定義。",
+      "D": "10¹⁵ Byte 是一千兆，較題目多十倍。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-19": {
+    "summary": "46=00101110₂，78=01001110₂；XOR 得 01100000₂=96。再做題目另定的普通加法 96＋46=142，因此選 B。不能把最後的 + 也誤當 XOR 或將十進位輸入當成十六進位。",
+    "options": {
+      "A": "124＝46＋78，只做原兩數相加，漏掉 XOR 步驟。",
+      "B": "142＝(46 XOR 78)＋46，完整依兩種運算順序計算。",
+      "C": "164 不是 XOR 結果 96 再加 46 的值。",
+      "D": "170 亦不符合逐位異或後的數值運算。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-20": {
+    "summary": "1001011.110₂=64＋8＋2＋1＋0.5＋0.25=75.75。加 2.75 得 78.5，整數 78=4E₁₆、小數 0.5×16=8，所以 X=4E.8，選 B。先統一基底再相加，可避免小數進位出錯。",
+    "options": {
+      "A": "8E.2₁₆ 的整數為 142，已與總和 78.5 不符。",
+      "B": "4E.8₁₆＝78＋8/16=78.5，與兩輸入和一致。",
+      "C": "8C.8 的整數 140 並非 78。",
+      "D": "4C.8 等於 76.5，比正確結果少 2。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-21": {
+    "summary": "Excel 欄號用 A=1 到 Z=26 計算，DA=4×26＋1=105，D=4，所以欄數 105−4＋1=102。列數 654−234＋1=421，共 102×421=42942 格，選 A。兩端都包含，行列各要加回 1。",
+    "options": {
+      "A": "42942 正確同時計入 D、DA 欄及 234、654 列端點。",
+      "B": "42521＝101×421，漏算一個端點欄。",
+      "C": "42420＝101×420，列與欄各少算一個端點。",
+      "D": "42000 並非完整的 102 欄乘 421 列。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-22": {
+    "summary": "最後依序壓入的為 Q、R、S、T。Pop 三次依序拿走 T、S、R，剩下最上層為 Q，所以選 A。P 仍位於 Q 的下方，不會在只取三筆後露出。",
+    "options": {
+      "A": "Q 在 T、S、R 被取走後成為頂端。",
+      "B": "P 下方雖保留，但要再取走 Q 才會成為頂端。",
+      "C": "R 已是第三次 Pop 被移除的資料。",
+      "D": "S 已在第二次 Pop 移除，不能留在頂端。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-23": {
+    "summary": "Visual Basic 可用半形單引號開始行內註解，該行之後的文字不作程式執行，選 D。另有 Rem 等寫法；不要把其他語言的 //、/* */ 或字串雙引號搬來當同一個註解標記。",
+    "options": {
+      "A": "// 是 C、Java 等語言的常見註解形式，不是此 VB 單行註解符號。",
+      "B": "/* */ 是 C 類語言區塊註解，非本題 VB 語法。",
+      "C": "雙引號用於字串，單獨開始會涉及字串語法，不是註解。",
+      "D": "半形單引號是 VB 的單行或行尾註解起始符號。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-24": {
+    "summary": "官方 D 的 ffbf 是把 64 的 16-bit 位元 0040 反相後得到。但 C 的 ~n 會先做整數提升；在常見 32-bit int 系統，unsigned short 提升成 int 後，低 32 位反相為 ffffffbf，而不只 ffbf。本機已以明確轉型驗證此差異。若要穩定得到 16-bit 結果，應明確截成 uint16_t 再以合適 printf 型別輸出，原題僅說 short 大小不足以唯一決定原碼行為。",
+    "options": {
+      "A": "ffff 是 16-bit 零反相的結果，不是 0040 的反相。",
+      "B": "0000 不符合任何正常將 0040 逐位反相的結果。",
+      "C": "ffdf 是反相 0020 的低 16 位，原數 64 應為 0040。",
+      "D": "ffbf 為官方採用的低 16-bit 反相結果；原 C 表達式在現代整數提升環境另有差異。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "WG14：C11 公開委員會草案（整數提升）",
+        "url": "https://www.open-std.org/jtc1/sc22/wg14/www/docs/n1570.pdf"
+      }
+    ]
+  },
+  "103-3d-25": {
+    "summary": "官方選 A，是在比較組合語言能以暫存器操作指令直接表達硬體動作，而其餘為高階語言。但原題「不經翻譯器」不嚴謹：組合語言文字仍須經 assembler 組譯成機器碼，CPU 才能執行。若嚴格要求完全不用任何翻譯工具，應是機器碼而選項未提供。",
+    "options": {
+      "A": "組語可直接表達暫存器指令，為官方答案，但仍需組譯器轉成機器碼。",
+      "B": "COBOL 為高階語言，通常須編譯，未直接指定處理器暫存器指令。",
+      "C": "Java 一般先成位元碼再由執行環境處理，不是本題低階指令答案。",
+      "D": "C# 也經相應編譯與執行環境，不以直接硬體暫存器指令為主要語法。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-26": {
+    "summary": "本題年代以 Java 位元碼在不同 JVM 上執行的設計作跨平台代表，因此選 C；組合語言通常緊繫 ISA。現代 C#/.NET 也能在多平台執行，COBOL 也可透過不同實作移植，所以不能將此舊考答案解讀成只有 Java 能跨平台。",
+    "options": {
+      "A": "組合語言與處理器架構及系統介面關聯很深，移植通常需重寫。",
+      "B": "COBOL 可移植但需相容編譯器及系統環境，非本題所指位元碼平台代表。",
+      "C": "Java 以 JVM 與位元碼提供本題所強調的跨平台執行機制。",
+      "D": "現代 .NET 也支援跨平台；本題比較須放在當時產品與執行環境背景。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-27": {
+    "summary": "索引由 18 到 108 相差 90，每元素 3 位址單位，故偏移 270₁₀=10E₁₆。起始 A2C₁₆＋10E₁₆=B3A₁₆，選 A。不需知道陣列真正的最低索引，已知任一元素與索引差即可計算。",
+    "options": {
+      "A": "B3A＝A2C＋(108−18)×3，基底與單位換算一致。",
+      "B": "B3D 比正確值多 3，常見於多算一個元素的端點。",
+      "C": "B41 不是偏移 90 個、每個 3 單位的結果。",
+      "D": "A86 的位移不足，未完整計入索引差 90。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-28": {
+    "summary": "設葉節點 n₀、一子節點 n₁=50、二子節點 n₂=30。樹的邊數同時為 n₀＋n₁＋n₂−1 與 n₁＋2n₂，兩式相等得 n₀=n₂＋1=31，選 D。只有一個孩子的節點數會相消，不影響這個關係。",
+    "options": {
+      "A": "80 是把一子與二子節點相加，並不是葉節點數。",
+      "B": "79 仍未使用樹邊數等於總節點減一的限制。",
+      "C": "29 將二子節點數減一，方向與 n₀=n₂＋1 相反。",
+      "D": "31 由二子節點 30 加一得到，符合二元樹邊數恆等式。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-29": {
+    "summary": "number 從 7 開始，每次加 2，且包含不超過 15 的值，所以累加 7、9、11、13、15。五項和為 (7＋15)×5/2=55，選 B。不能把迴圈上界 15 當成要執行 15 次。",
+    "options": {
+      "A": "40 漏掉部分應執行項目，未包含五個奇數的總和。",
+      "B": "55 是 7 到 15 的五個奇數相加。",
+      "C": "72 多算了未執行的項目或使用錯誤的間距。",
+      "D": "74 也不是 step=2、末項為 15 的等差數列和。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-30": {
+    "summary": "CONSTRAINT 後先寫限制名稱 FK1，再寫 FOREIGN KEY(本表欄位) REFERENCES 被參照表(被參照欄位)，完整為 FK1 FOREIGN KEY (license_id) REFERENCES license (license_id)，選 A。外鍵欄名相同不會自動建立跨表限制。",
+    "options": {
+      "A": "名稱、外鍵欄位、目標表與目標鍵欄位四部分均正確。",
+      "B": "REFERENCES 後應為資料表及鍵欄位，不能只寫 license_id。",
+      "C": "雖有 FK1 名稱，但仍漏掉被參照的 license 表及括號欄位。",
+      "D": "FOREIGN KEY 括號內要本表欄位 license_id，不是資料表名 student。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-31": {
+    "summary": "TRUNCATE TABLE quota 可清空資料列而保留資料表結構，為官方 C。DROP TABLE 會移除物件，不是本題需求。另需注意 SQL 方言：SQL Server 允許 DELETE quota 省略 FROM，也可刪全部列，因此 D 並非在所有資料庫都語法錯誤；本題按標準完整寫法選 C，存在方言歧義。",
+    "options": {
+      "A": "REMOVE FROM 不是此處標準 SQL 清空資料的指令。",
+      "B": "DROP FROM 不是正確標準語法；DROP TABLE 又會刪除表格結構。",
+      "C": "TRUNCATE TABLE 直接清空表格資料列並保留表格，為官方答案。",
+      "D": "SQL Server 支援省略 FROM 的 DELETE，此項有方言可行性，不能一概教為錯誤。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "Microsoft：DELETE 語法允許省略 FROM",
+        "url": "https://learn.microsoft.com/en-us/sql/t-sql/statements/delete-transact-sql"
+      }
+    ]
+  },
+  "103-3d-32": {
+    "summary": "UPDATE 後要寫資料表 B，SET 後寫欄位 A='C'；沒有 WHERE 時修改該表全部資料列，所以選 C。A 欄為文數字，C 值用引號表示文字，不能把欄名、表名位置互換。",
+    "options": {
+      "A": "把 A 當表名、B 當欄位，與題目定義顛倒。",
+      "B": "UPDATE 後缺少要修改的資料表名稱。",
+      "C": "UPDATE B SET A='C' 正確指定表、欄位與文字值，且作用於全部列。",
+      "D": "UPDATE ALL 不是此題更新全部資料列的標準語法。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-33": {
+    "summary": "符合 1NF，且非主屬性完整依賴整個候選鍵，表示排除了對複合鍵一部分的部分相依，屬 2NF，選 B。題目用主鍵簡化描述，正式判斷應看全部候選鍵，而非只看任選的一個主鍵。",
+    "options": {
+      "A": "1NF 要求原子值，尚不足以排除對複合鍵的部分相依。",
+      "B": "2NF 在 1NF 上排除非主屬性的部分功能相依，符合題幹。",
+      "C": "3NF 還要處理傳遞相依等條件，原題未提供。",
+      "D": "BCNF 要求每個非平凡相依的決定項都是超鍵，條件更強。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-34": {
+    "summary": "QBE 的正確全名是 Query By Example，讓使用者藉範例形式描述查詢，不是 Query By Excel，因此 D 錯誤。SQL、DML、DBA 的其他三個英文對照均符合通常用語。",
+    "options": {
+      "A": "Structured Query Language 是 SQL 的正確全名。",
+      "B": "Data Manipulation Language 為資料操作語言，縮寫 DML 正確。",
+      "C": "Database Administrator 是資料庫管理員，DBA 對照正確。",
+      "D": "QBE 是 Query By Example，不是以 Excel 為全名。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-35": {
+    "summary": "WHERE Qty>300 只留下 Qty=350 與 400 的兩列，對應 Price=100 與 40。SUM(Price×Qty)=100×350＋40×400=35000＋16000=51000，選 A。原表名 order 為常見保留字，實際執行應依資料庫以引號或方括號等適當引用。",
+    "options": {
+      "A": "51000 正確只加總兩個 Qty 嚴格大於 300 的資料列。",
+      "B": "60000 額外計入 Qty=300、Price=30 的列，但條件不含等於 300。",
+      "C": "90000 並非符合篩選後的兩列乘積合計。",
+      "D": "114000 是把未篩選的五列全部加總，忽略 WHERE。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-36": {
+    "summary": "MySQL 並非 Microsoft 開發的資料庫產品，最初由 MySQL AB 發展，後經 Sun、Oracle 的併購脈絡，因此 C 錯誤。Oracle 與 Access 的產品來源描述符合題意；XQL 則是歷史上用於 XML 查詢的名稱，不應與 SQL 直接混同。",
+    "options": {
+      "A": "Oracle Database 為 Oracle 的關聯資料庫管理系統，描述相符。",
+      "B": "Access 是 Microsoft 的桌面關聯資料庫產品，描述相符。",
+      "C": "MySQL 不是 Microsoft 開發，不能因名稱相似就誤認。",
+      "D": "XQL 為歷史 XML 查詢技術名稱，定位與過濾 XML 內容是其用途描述。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-37": {
+    "summary": "UNION 的每個 SELECT 都可以有自己的 WHERE，分別篩選後再做聯集；所以 B 說不允許 WHERE 為錯誤，選 B。原範例的排序也應留意：一般寫法把 ORDER BY 放在整個 UNION 末端，若需分支局部排序要依方言使用適當子查詢形式。",
+    "options": {
+      "A": "通常應移除第一段的局部 ORDER BY，改在合併後統一排序。",
+      "B": "WHERE 可以存在於每個 SELECT，原句將合法篩選錯誤地禁止。",
+      "C": "UNION 兩邊輸出欄數須一致，並須具有可相容的欄位型別。",
+      "D": "合併結果的欄位名稱通常取第一個 SELECT 的輸出名稱。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-38": {
+    "summary": "IPv4 的 IHL 以 32-bit word 為單位，合法值為 5 到 15，所以表頭含選項長度為 20 到 60 Byte 且是 4 的倍數。18 Byte 小於最小值又不是 4 的倍數，因此選 A。這與資料封包的整體長度不同。",
+    "options": {
+      "A": "18 Byte 不符最小表頭 20 Byte，也不符合四位元組單位。",
+      "B": "20 Byte 是無選項時的基本 IPv4 表頭長度。",
+      "C": "56 Byte＝14 個 32-bit word，屬合法 IHL 長度。",
+      "D": "60 Byte＝15 個 32-bit word，為 IPv4 表頭含選項上限。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-39": {
+    "summary": "在題目所列標準的理論規格比較中，802.11ac 可使用較寬頻道與多空間串流，其最高理論速率高於 a、b、n，因此選 B。實際單台設備速率還受串流數、頻寬、距離與環境影響，不能只看標準名稱保證每次都更快。",
+    "options": {
+      "A": "802.11a 的典型最高實體速率為 54 Mb/s，低於 ac 規格上限。",
+      "B": "802.11ac 在所列選項中的最高理論傳輸能力最高。",
+      "C": "802.11b 的規格上限約 11 Mb/s，明顯較低。",
+      "D": "802.11n 可達較高速度，但其標準最高規格仍低於 ac。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-40": {
+    "summary": "遮罩 255.255.255.128 即 /25，留下 32−25=7 個主機位元，共 2⁷=128 個位址。一般子網須扣網路位址與廣播位址，得可用主機 126，選 B。這裡不是 /31 特殊點對點情境。",
+    "options": {
+      "A": "62 是 /26、六個主機位元扣二後的數目。",
+      "B": "126＝128−2，符合 /25 一般主機配置。",
+      "C": "14 是 /28、四個主機位元扣二後的數目。",
+      "D": "30 是 /27、五個主機位元扣二後的數目。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-41": {
+    "summary": "CSS 四個值的順序為上、右、下、左，所以 10、1、5、20 px 應寫 border-width:10px 1px 5px 20px，選 D。但 border-width 設定的是邊框厚度，若原意是元素外間距應用 margin；題目文字「邊界距離」須與實際屬性意義分開。",
+    "options": {
+      "A": "第二值是右邊，不是左邊；此項把右與左的 1、20 顛倒。",
+      "B": "上邊被設成 5、下邊變 10，不符題目。",
+      "C": "第二、第三值不是所問的右 1、下 5，順序錯誤。",
+      "D": "依上、右、下、左順序代入，四個數值完全符合。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-42": {
+    "summary": "IEEE 802.22 是無線區域網 WRAN 的標準，運用認知無線電與電視白頻譜等設計服務較廣範圍，為本題 Super Wi-Fi 的預期答案 C。Super Wi-Fi 是易混淆的俗稱，不能因此把它等同一般 IEEE 802.11 Wi-Fi。",
+    "options": {
+      "A": "802.11ac 屬一般無線區域網規格，不是題述 WRAN 標準。",
+      "B": "802.11n 同樣屬 WLAN，不是此區域型網路規範。",
+      "C": "802.22 對應 IEEE 的 WRAN 工作與標準。",
+      "D": "802.16 通常與寬頻都會接取及 WiMAX 關聯，不是本題 WRAN。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "IEEE 802.22 WRAN 工作小組",
+        "url": "https://www.ieee802.org/22/"
+      }
+    ]
+  },
+  "103-3d-43": {
+    "summary": "PPTP 控制連線使用 TCP 1723，因此選 B；其資料隧道另使用 GRE，IP 協定號為 47，不是 TCP 47。此為舊協定的知識辨識，不表示建議新系統部署 PPTP 作為現代安全 VPN。",
+    "options": {
+      "A": "443 通常用於 HTTPS 等 TLS 服務，非 PPTP 控制連接埠。",
+      "B": "1723 是 PPTP 的 TCP 控制連線連接埠。",
+      "C": "3389 通常與遠端桌面 RDP 有關，不是 PPTP。",
+      "D": "3306 是 MySQL 常見連接埠，與本題協定不同。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "RFC 2637：PPTP",
+        "url": "https://www.rfc-editor.org/rfc/rfc2637"
+      }
+    ]
+  },
+  "103-3d-44": {
+    "summary": "原題意圖辨認 NIST 的五項基本特性：A、B、D 分別是其中三項；SaaS 屬服務模式，非五項特性，因此官方選 C。但 SaaS 也確實被同一份 NIST SP 800-145 定義，不能按原題籠統的「規範」二字教成 NIST 不包含 SaaS。",
+    "options": {
+      "A": "隨需自助服務是 NIST 五項基本特性之一。",
+      "B": "廣泛網路存取是 NIST 五項基本特性之一。",
+      "C": "SaaS 是 NIST 定義的服務模式，但不是五項基本特性，題意需此區分。",
+      "D": "快速彈性伸縮是 NIST 五項基本特性之一。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "NIST：雲端定義、五項特性與三服務模式",
+        "url": "https://csrc.nist.gov/pubs/sp/800/145/final"
+      }
+    ]
+  },
+  "103-3d-45": {
+    "summary": "傳統電子商務角色有企業對企業 B2B、企業對消費者 B2C、消費者對消費者 C2C，以及消費者對企業 C2B，故③④⑤⑥成立，選 C。A2D、D2A 並不是這組商務交易角色的標準名稱。",
+    "options": {
+      "A": "①②不屬此題的標準電子商務交易角色分類，不能全部納入。",
+      "B": "①不是所問商務角色模式，且本選項沒有完整正確排除。",
+      "C": "B2B、B2C、C2C、C2B 皆是常見商務角色模式，組合正確。",
+      "D": "C2B 也是既有模式，不能只保留前三種。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-46": {
+    "summary": "RFC 1918 的 IPv4 私有範圍包括 10.0.0.0/8、172.16.0.0/12、192.168.0.0/16。10.23.34.56 落在第一段，因此選 D。注意 192.166 並不是 192.168，不能只看開頭 192 就判為私有。",
+    "options": {
+      "A": "163.13.200.99 不在三段 RFC 1918 私有範圍中。",
+      "B": "192.166.100.56 不是 192.168/16，數字相近但分類不同。",
+      "C": "3.1.1.2 不在 RFC 1918 的私有區間。",
+      "D": "10.23.34.56 位於 10/8 私有位址區間。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-47": {
+    "summary": "DSA 是 Digital Signature Algorithm，屬數位簽章演算法，不是對稱式資料加密，所以選 C。AES、3DES、IDEA 都是對稱式區塊密碼；「非對稱技術」也不代表每一種都能用來加密本文，DSA 的用途是簽章。",
+    "options": {
+      "A": "AES 是以共享秘密金鑰運作的對稱區塊密碼。",
+      "B": "3DES 由 DES 組合而成，仍屬對稱密碼。",
+      "C": "DSA 用於公私金鑰數位簽章，不是對稱加密演算法。",
+      "D": "IDEA 也是對稱式區塊密碼，分類與 AES、3DES 相同。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-48": {
+    "summary": "實體安全處理建物、設備、環境與人員出入等物理風險。資料加密屬邏輯與密碼保護措施，因此 C 不屬此題實體安全分類。兩者可相互補充，不能只做加密就忽略火災與設備失竊。",
+    "options": {
+      "A": "防火、偵煙及災害因應保護實體環境，屬實體安全。",
+      "B": "設備放置地點涉及水患、溫度、出入等物理風險。",
+      "C": "原始資料加密是密碼與邏輯控制，不是物理環境控制。",
+      "D": "對設備的人為破壞及入侵防範屬實體保護措施。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-49": {
+    "summary": "DNS 將名稱查成 IP；在 IPv4 乙太網路等需要 MAC 的環境，ARP 再把「下一跳」的 IPv4 位址解析成鏈結層位址，因此選 A。遠端目的端通常由路由器逐跳轉送，發送端不是用 ARP 直接查遠端主機的 MAC；IPv6 則改用鄰居探索。",
+    "options": {
+      "A": "DNS 處理名稱到 IP，ARP 處理本地下一跳 IPv4 到 MAC，角色相符。",
+      "B": "SNMP 是網路管理協定，不負責 IPv4 至 MAC 的位址解析。",
+      "C": "HTTP 為網頁應用協定，並不取代第一階段 DNS 名稱解析。",
+      "D": "第二階段需要本地鏈結位址解析，不是再次執行 DNS。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      }
+    ]
+  },
+  "103-3d-50": {
+    "summary": "官方選 C，依原題把③的「自由軟體」理解為授權容許重製散布，故不認定單因收費就必然侵權。但英文 Freeware 與 Free Software 不是同義：免費使用不保證可重製販售，仍須看授權。①②④也要在無授權、無其他合法依據或例外的前提下判斷；此題不能替代具體法律個案認定。",
+    "options": {
+      "A": "若③實為 Freeware 且授權禁止販售，它也可能有侵權問題；原題用詞使全選與否有歧義。",
+      "B": "此組合漏掉題目所採的②未授權公開播放情境，不是官方答案。",
+      "C": "按原題對自由授權與未授權行為的假設，官方採①②④，須同時保留③授權用詞警語。",
+      "D": "漏掉原題①未經合法依據洩露個資的情境，不符合官方題意。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "103 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=103010&c=508&s=0701&q=1"
+      },
+      {
+        "title": "智慧財產局：免費軟體重製與散布仍受授權限制",
+        "url": "https://www.tipo.gov.tw/tw/copyright/692-12371.html"
+      }
+    ]
+  }
+}

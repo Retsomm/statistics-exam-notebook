@@ -1,0 +1,1956 @@
+[
+  {
+    "id": "105-3d-1",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 1,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若採連鎖反應（Cascades）法，對外來鍵（Foreign  Key）的參考對象做刪除或更新動作，當參考的外來鍵\n  有相對匹配值時，下列何者正確？\n(A) 立即異動之，別管其他檔案的匹配值，以免會有連鎖反應\n(B) 將第一個匹配值改為null，以防連鎖反應\n(C) 整個反應動作應該視為是一個完整的異動\n(D) 整個反應動作應該視為是一個對外來鍵欄名做刪除或更新的異動",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "若採連鎖反應（Cascades）法，對外來鍵（Foreign  Key）的參考對象做刪除或更新動作，當參考的外來鍵\n  有相對匹配值時，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "立即異動之，別管其他檔案的匹配值，以免會有連鎖反應"
+      },
+      {
+        "letter": "B",
+        "text": "將第一個匹配值改為null，以防連鎖反應"
+      },
+      {
+        "letter": "C",
+        "text": "整個反應動作應該視為是一個完整的異動"
+      },
+      {
+        "letter": "D",
+        "text": "整個反應動作應該視為是一個對外來鍵欄名做刪除或更新的異動"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-2",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 2,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在做資料處理時，常會對資料檔案使用CRUD的動作，試問要用SQL的什麼語言完成？\n(A) 資料定義語言\n(B) 資料操作語言\n(C) 資料控制語言\n(D) 資料分析語言",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在做資料處理時，常會對資料檔案使用CRUD的動作，試問要用SQL的什麼語言完成？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資料定義語言"
+      },
+      {
+        "letter": "B",
+        "text": "資料操作語言"
+      },
+      {
+        "letter": "C",
+        "text": "資料控制語言"
+      },
+      {
+        "letter": "D",
+        "text": "資料分析語言"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-3",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 3,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "3NF係指關聯表T必須符合2NF，且所有非候選鍵的屬性，都不能彼此有下列何種關係？\n(A) 功能獨立\n(B) 多重值獨立\n(C) 功能相依\n(D) 多重值相依",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "3NF係指關聯表T必須符合2NF，且所有非候選鍵的屬性，都不能彼此有下列何種關係？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "功能獨立"
+      },
+      {
+        "letter": "B",
+        "text": "多重值獨立"
+      },
+      {
+        "letter": "C",
+        "text": "功能相依"
+      },
+      {
+        "letter": "D",
+        "text": "多重值相依"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-4",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 4,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "Disk-striping係將檢查資料平均分布到各個磁碟中，使得各個磁碟都存放容錯資料，所以若一個磁碟壞了，\n  可以由其他磁碟回復；此特性為磁碟陣列技術的那一等級？\n(A) RAID 0\n(B) RAID 2\n(C) RAID 4\n(D) RAID 6",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "Disk-striping係將檢查資料平均分布到各個磁碟中，使得各個磁碟都存放容錯資料，所以若一個磁碟壞了，\n  可以由其他磁碟回復；此特性為磁碟陣列技術的那一等級？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RAID 0"
+      },
+      {
+        "letter": "B",
+        "text": "RAID 2"
+      },
+      {
+        "letter": "C",
+        "text": "RAID 4"
+      },
+      {
+        "letter": "D",
+        "text": "RAID 6"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-5",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 5,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "令CPU要處理的工作行程依次序為：P1,  P2, P3, P4，其相對應的分割時間（單位：毫秒）分別為T1,  T2, T3,\n  T4，若  T1=6，T2=8，T3=7，T4=3，試問最短工作先做的排班演算法比先來先做的排班演算法，在平均\n  等待時間方面快多少？\n(A) 3.25毫秒\n(B) 10.2毫秒\n(C) 21毫秒\n(D) 28毫秒",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "令CPU要處理的工作行程依次序為：P1,  P2, P3, P4，其相對應的分割時間（單位：毫秒）分別為T1,  T2, T3,\n  T4，若  T1=6，T2=8，T3=7，T4=3，試問最短工作先做的排班演算法比先來先做的排班演算法，在平均\n  等待時間方面快多少？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3.25毫秒"
+      },
+      {
+        "letter": "B",
+        "text": "10.2毫秒"
+      },
+      {
+        "letter": "C",
+        "text": "21毫秒"
+      },
+      {
+        "letter": "D",
+        "text": "28毫秒"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-6",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 6,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在Windows作業系統中操作畫面，若要放大畫面中的內容，要如何操作？\n(A) 先按住Shift鍵，再向自己之方向轉入滑鼠滾輪\n(B) 先按住Shift鍵，再向自己之反方向轉出滑鼠滾輪\n(C) 先按住Ctrl鍵，再向自己之方向轉入滑鼠滾輪\n(D) 先按住Ctrl鍵，再向自己之反方向轉出滑鼠滾輪",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "在Windows作業系統中操作畫面，若要放大畫面中的內容，要如何操作？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "先按住Shift鍵，再向自己之方向轉入滑鼠滾輪"
+      },
+      {
+        "letter": "B",
+        "text": "先按住Shift鍵，再向自己之反方向轉出滑鼠滾輪"
+      },
+      {
+        "letter": "C",
+        "text": "先按住Ctrl鍵，再向自己之方向轉入滑鼠滾輪"
+      },
+      {
+        "letter": "D",
+        "text": "先按住Ctrl鍵，再向自己之反方向轉出滑鼠滾輪"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-7",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 7,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料字典（Data  Dictionary）之符號與意義，下列敘述何者錯誤？\n(A) x=a+b：x由a與b組成\n(B) x={a}：x由一個或多個a組成\n(C) x=a+(b)：x為a或a與b的組合\n(D) x=[a | b]：x由a或b組成",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "資料字典（Data  Dictionary）之符號與意義，下列敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "x=a+b：x由a與b組成"
+      },
+      {
+        "letter": "B",
+        "text": "x={a}：x由一個或多個a組成"
+      },
+      {
+        "letter": "C",
+        "text": "x=a+(b)：x為a或a與b的組合"
+      },
+      {
+        "letter": "D",
+        "text": "x=[a | b]：x由a或b組成"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-8",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 8,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "Table A 的 Schema 為 (id, name, age)，資料為：\nid  name  age\n01  Tom  29\n02  Amy  18\n03  Kim  25\n04  Lee  19\n05  Joe  23\n06  Tim  10\n\nTable B 的 Schema 為 (id, grade)，資料為：\nid  grade\n01  30\n02  45\n03  80\n04  70\n05  60\n06  88\n\n下列 SQL 的結果以 List 表示為何？\nSELECT id FROM A WHERE age > 20\nUNION\nSELECT id FROM B WHERE NOT (grade < 80)\n(A) (01 03 05)\n(B) (03 06)\n(C) (01 03 05) (03 06)\n(D) (01 03 05 06)",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "Table A 的 Schema 為 (id, name, age)，資料為：\nid  name  age\n01  Tom  29\n02  Amy  18\n03  Kim  25\n04  Lee  19\n05  Joe  23\n06  Tim  10\n\nTable B 的 Schema 為 (id, grade)，資料為：\nid  grade\n01  30\n02  45\n03  80\n04  70\n05  60\n06  88\n\n下列 SQL 的結果以 List 表示為何？\nSELECT id FROM A WHERE age > 20\nUNION\nSELECT id FROM B WHERE NOT (grade < 80)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "(01 03 05)"
+      },
+      {
+        "letter": "B",
+        "text": "(03 06)"
+      },
+      {
+        "letter": "C",
+        "text": "(01 03 05) (03 06)"
+      },
+      {
+        "letter": "D",
+        "text": "(01 03 05 06)"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-9",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 9,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "ceil(float number) 為 PHP 的向上取整函數。下列程式中 M、X 為整數，M 代表月份，X 為常數；若返回值要代表第幾季，X 應為何？\n<?php\n$nextint = ceil(M / X);\necho $nextint;\n?>\n(A) 3\n(B) 4\n(C) 6\n(D) 12",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "ceil(float number) 為 PHP 的向上取整函數。下列程式中 M、X 為整數，M 代表月份，X 為常數；若返回值要代表第幾季，X 應為何？\n<?php\n$nextint = ceil(M / X);\necho $nextint;\n?>",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3"
+      },
+      {
+        "letter": "B",
+        "text": "4"
+      },
+      {
+        "letter": "C",
+        "text": "6"
+      },
+      {
+        "letter": "D",
+        "text": "12"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-10",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 10,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列程式的輸出結果為何？\nA = 15\nW = A Mod 6\nSelect Case W\nCase 0\n  Print \"John\";\nCase 1\n  Print \"Mary\";\nCase 2\n  Print \"Peter\";\nCase Else\n  Print \"David\";\nEnd Select\n(A) John\n(B) Mary\n(C) Peter\n(D) David",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列程式的輸出結果為何？\nA = 15\nW = A Mod 6\nSelect Case W\nCase 0\n  Print \"John\";\nCase 1\n  Print \"Mary\";\nCase 2\n  Print \"Peter\";\nCase Else\n  Print \"David\";\nEnd Select",
+    "options": [
+      {
+        "letter": "A",
+        "text": "John"
+      },
+      {
+        "letter": "B",
+        "text": "Mary"
+      },
+      {
+        "letter": "C",
+        "text": "Peter"
+      },
+      {
+        "letter": "D",
+        "text": "David"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-11",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 11,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列程式的輸出結果為何？\nX = 100\nCall M(X)\nIF X = 100 Then\n  Print \"A\";\nElse\n  Print \"B\";\nEnd IF\nSub M(B)\n  B = B + 1\nEnd Sub\n(A) A\n(B) B\n(C) 100\n(D) 101",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列程式的輸出結果為何？\nX = 100\nCall M(X)\nIF X = 100 Then\n  Print \"A\";\nElse\n  Print \"B\";\nEnd IF\nSub M(B)\n  B = B + 1\nEnd Sub",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A"
+      },
+      {
+        "letter": "B",
+        "text": "B"
+      },
+      {
+        "letter": "C",
+        "text": "100"
+      },
+      {
+        "letter": "D",
+        "text": "101"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-12",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 12,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列程式的 Print SUM(5) 結果為何？\nFunction SUM(N)\n  IF N <= 1 Then\n  SUM = 0\n  Else\n  SUM = SUM(N - 1) + N\n  End IF\nEnd Function\n(A) 12\n(B) 13\n(C) 14\n(D) 15",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列程式的 Print SUM(5) 結果為何？\nFunction SUM(N)\n  IF N <= 1 Then\n  SUM = 0\n  Else\n  SUM = SUM(N - 1) + N\n  End IF\nEnd Function",
+    "options": [
+      {
+        "letter": "A",
+        "text": "12"
+      },
+      {
+        "letter": "B",
+        "text": "13"
+      },
+      {
+        "letter": "C",
+        "text": "14"
+      },
+      {
+        "letter": "D",
+        "text": "15"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-13",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 13,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "結構化程式設計強調程式應該僅有一個輸入與輸出點，下面那一個邏輯會將程式變複雜，且不易做白箱\n  測試（White Box Testing）？\n(A) If-then-else\n(B) Goto\n(C) Do-while\n(D) Case",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "結構化程式設計強調程式應該僅有一個輸入與輸出點，下面那一個邏輯會將程式變複雜，且不易做白箱\n  測試（White Box Testing）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "If-then-else"
+      },
+      {
+        "letter": "B",
+        "text": "Goto"
+      },
+      {
+        "letter": "C",
+        "text": "Do-while"
+      },
+      {
+        "letter": "D",
+        "text": "Case"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-14",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 14,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "負載平衡器（Load  Balancer）的功能是：\n(A) 主動下載雲端資料中心磁碟檔案中的資料，以平衡網路流量\n(B) 平衡網路流量，以杜絕駭客攻擊\n(C) 計算駭客攻擊次數，並消弭網路超重負載之連結\n(D) 將網路的連結，分配到一群相似的伺服器上",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "負載平衡器（Load  Balancer）的功能是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "主動下載雲端資料中心磁碟檔案中的資料，以平衡網路流量"
+      },
+      {
+        "letter": "B",
+        "text": "平衡網路流量，以杜絕駭客攻擊"
+      },
+      {
+        "letter": "C",
+        "text": "計算駭客攻擊次數，並消弭網路超重負載之連結"
+      },
+      {
+        "letter": "D",
+        "text": "將網路的連結，分配到一群相似的伺服器上"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-15",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 15,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "IPv4與IPv6分別使用多少位元（Bit）定址？\n(A) 16, 64\n(B) 32, 128\n(C) 64, 256\n(D) 128, 512",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "IPv4與IPv6分別使用多少位元（Bit）定址？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "16, 64"
+      },
+      {
+        "letter": "B",
+        "text": "32, 128"
+      },
+      {
+        "letter": "C",
+        "text": "64, 256"
+      },
+      {
+        "letter": "D",
+        "text": "128, 512"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-16",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 16,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有一字串如下：Received:  from mail174.nps.gov (202.61.254.180) by mail174.nps.gov (202.61.254.180) with\n  Microsoft SMTP Server (TLS) id 11.0.123.7; Fri, 20 Nov 2015 14:10:55 +0800，試問SMTP指的是什麼？\n(A) Simulation Mail Transfer Protocol\n(B) Syntax Mail Transfer Protocol\n(C) Simple Mail Transfer Protocol\n(D) System Mail Transfer Protocol",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有一字串如下：Received:  from mail174.nps.gov (202.61.254.180) by mail174.nps.gov (202.61.254.180) with\n  Microsoft SMTP Server (TLS) id 11.0.123.7; Fri, 20 Nov 2015 14:10:55 +0800，試問SMTP指的是什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Simulation Mail Transfer Protocol"
+      },
+      {
+        "letter": "B",
+        "text": "Syntax Mail Transfer Protocol"
+      },
+      {
+        "letter": "C",
+        "text": "Simple Mail Transfer Protocol"
+      },
+      {
+        "letter": "D",
+        "text": "System Mail Transfer Protocol"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-17",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 17,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若手機上的某一特製  App，可以用來感應信用卡上的資料，讓卡上的個資清楚呈現在螢幕上，它是利用\n  一種點對點的通訊技術，在20公分距離內，以13.56  MHz頻率範圍運作，試問這種通訊技術稱為：\n(A) Wi-Fi\n(B) WiMAX\n(C) NFC\n(D) Bluetooth",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "若手機上的某一特製  App，可以用來感應信用卡上的資料，讓卡上的個資清楚呈現在螢幕上，它是利用\n  一種點對點的通訊技術，在20公分距離內，以13.56  MHz頻率範圍運作，試問這種通訊技術稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Wi-Fi"
+      },
+      {
+        "letter": "B",
+        "text": "WiMAX"
+      },
+      {
+        "letter": "C",
+        "text": "NFC"
+      },
+      {
+        "letter": "D",
+        "text": "Bluetooth"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-18",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 18,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "為了確保資料處理的安全性，政府機關通常會導入「資訊安全管理系統（Information  Security Management\n  System, ISMS）」，此處所指的「系統」是：\n(A) 資訊系統\n(B) 網站系統\n(C) 偵防系統\n(D) 管理規範、作業流程及文件表單",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "為了確保資料處理的安全性，政府機關通常會導入「資訊安全管理系統（Information  Security Management\n  System, ISMS）」，此處所指的「系統」是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資訊系統"
+      },
+      {
+        "letter": "B",
+        "text": "網站系統"
+      },
+      {
+        "letter": "C",
+        "text": "偵防系統"
+      },
+      {
+        "letter": "D",
+        "text": "管理規範、作業流程及文件表單"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-19",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 19,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電子商務相關網站在要求客戶認證時，會採用先進的SSL安全機制，下列何者不是此機制的特性？\n(A) 屬於「非對稱性」加解密系統\n(B) 可將金鑰長度延展為2048位元\n(C) 由於安全機制高，故網站不須加裝防火牆，即可防止不法入侵\n(D) 可提供資料加密功能，以確保資料在傳遞過程中的隱密性及完整性",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "電子商務相關網站在要求客戶認證時，會採用先進的SSL安全機制，下列何者不是此機制的特性？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "屬於「非對稱性」加解密系統"
+      },
+      {
+        "letter": "B",
+        "text": "可將金鑰長度延展為2048位元"
+      },
+      {
+        "letter": "C",
+        "text": "由於安全機制高，故網站不須加裝防火牆，即可防止不法入侵"
+      },
+      {
+        "letter": "D",
+        "text": "可提供資料加密功能，以確保資料在傳遞過程中的隱密性及完整性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-20",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 20,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "國家發展委員會所建置的中文造字系統，是一套免費的造字與用字軟體，其中涵括了多數公家機關所發\n  現而建立的罕見字，估計應足以提供各種罕見字需求。這種中文造字系統簡稱為：\n(A) 全字庫\n(B) 罕字庫\n(C) BIG-5\n(D) Unicode",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "國家發展委員會所建置的中文造字系統，是一套免費的造字與用字軟體，其中涵括了多數公家機關所發\n  現而建立的罕見字，估計應足以提供各種罕見字需求。這種中文造字系統簡稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "全字庫"
+      },
+      {
+        "letter": "B",
+        "text": "罕字庫"
+      },
+      {
+        "letter": "C",
+        "text": "BIG-5"
+      },
+      {
+        "letter": "D",
+        "text": "Unicode"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-21",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 21,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若對下列List資料（1  4 8 16 32 64 128 256 512 1024 2048 4096）進行二分搜尋（Binary Search），試問最\n  少要搜尋幾次，才能發現要搜尋的資料不在此List中？\n(A) 3次\n(B) 4次\n(C) 5次\n(D) 8次",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若對下列List資料（1  4 8 16 32 64 128 256 512 1024 2048 4096）進行二分搜尋（Binary Search），試問最\n  少要搜尋幾次，才能發現要搜尋的資料不在此List中？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3次"
+      },
+      {
+        "letter": "B",
+        "text": "4次"
+      },
+      {
+        "letter": "C",
+        "text": "5次"
+      },
+      {
+        "letter": "D",
+        "text": "8次"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-22",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 22,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若將(a+b)*c+d/(e+(f*g-h**i))轉成前序（Prefix）算術式，其結果為：\n(A) +*+abc/d+e-*fg**ih\n(B) +*+abc/d+e-*fg**hi\n(C) /+-**ih*gfe+d*c+ba\n(D) /+-**hi*gfe+d*c+ba",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若將(a+b)*c+d/(e+(f*g-h**i))轉成前序（Prefix）算術式，其結果為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "+*+abc/d+e-*fg**ih"
+      },
+      {
+        "letter": "B",
+        "text": "+*+abc/d+e-*fg**hi"
+      },
+      {
+        "letter": "C",
+        "text": "/+-**ih*gfe+d*c+ba"
+      },
+      {
+        "letter": "D",
+        "text": "/+-**hi*gfe+d*c+ba"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-23",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 23,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "當資料傳送時，可能因某不明原因會有誤差，若採偶同位檢查（Even  Parity Check）方法，設定偶同位位\n  元落於前，欲將  1000010 資料傳遞，則實際傳遞的資料，以十六進位表示為：\n(A) C2\n(B) 85\n(C) 42\n(D) 84",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "當資料傳送時，可能因某不明原因會有誤差，若採偶同位檢查（Even  Parity Check）方法，設定偶同位位\n  元落於前，欲將  1000010 資料傳遞，則實際傳遞的資料，以十六進位表示為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "C2"
+      },
+      {
+        "letter": "B",
+        "text": "85"
+      },
+      {
+        "letter": "C",
+        "text": "42"
+      },
+      {
+        "letter": "D",
+        "text": "84"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-24",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 24,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若有一n位元的二進位系統，其2的補數可表達數值之範圍為：\n(A) 2^(n−1)＋1 至 −2^(n−1)\n(B) 2^(n−1)＋1 至 −(2^(n−1)−1)\n(C) 2^(n−1)−1 至 −2^(n−1)\n(D) 2^(n−1)−1 至 −(2^(n−1)−1)",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "若有一n位元的二進位系統，其2的補數可表達數值之範圍為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2^(n−1)＋1 至 −2^(n−1)"
+      },
+      {
+        "letter": "B",
+        "text": "2^(n−1)＋1 至 −(2^(n−1)−1)"
+      },
+      {
+        "letter": "C",
+        "text": "2^(n−1)−1 至 −2^(n−1)"
+      },
+      {
+        "letter": "D",
+        "text": "2^(n−1)−1 至 −(2^(n−1)−1)"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-25",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 25,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若以變動長度編碼（Run  Length Encoding）方式，將110111111111110011111資料壓縮，試問經壓縮後所\n  得的資料為：\n(A) 0010101100000101\n(B) 1101010011111010\n(C) 001111110000\n(D) 001000000000001100000",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "若以變動長度編碼（Run  Length Encoding）方式，將110111111111110011111資料壓縮，試問經壓縮後所\n  得的資料為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0010101100000101"
+      },
+      {
+        "letter": "B",
+        "text": "1101010011111010"
+      },
+      {
+        "letter": "C",
+        "text": "001111110000"
+      },
+      {
+        "letter": "D",
+        "text": "001000000000001100000"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-26",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 26,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列電腦記憶容量單位，何者敘述錯誤？\n(A) 1 Byte=8 bits 且 1 MB=1024 KB\n(B) 1 KB=2¹⁰ bytes 且 1 GB>1 KB\n(C) 1 TB=2²⁰ bytes\n(D) 1 GB=2³⁰ bytes",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列電腦記憶容量單位，何者敘述錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1 Byte=8 bits 且 1 MB=1024 KB"
+      },
+      {
+        "letter": "B",
+        "text": "1 KB=2¹⁰ bytes 且 1 GB>1 KB"
+      },
+      {
+        "letter": "C",
+        "text": "1 TB=2²⁰ bytes"
+      },
+      {
+        "letter": "D",
+        "text": "1 GB=2³⁰ bytes"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-27",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 27,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關電腦名詞縮寫的敘述，下列何者正確？\n(A) CPU與CRC中的C相同縮寫\n(B) CPU與ECC中的C相同縮寫\n(C) ADSL與PDA中的D相同縮寫\n(D) ECC與CRC中的C相同縮寫",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關電腦名詞縮寫的敘述，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CPU與CRC中的C相同縮寫"
+      },
+      {
+        "letter": "B",
+        "text": "CPU與ECC中的C相同縮寫"
+      },
+      {
+        "letter": "C",
+        "text": "ADSL與PDA中的D相同縮寫"
+      },
+      {
+        "letter": "D",
+        "text": "ECC與CRC中的C相同縮寫"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-28",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 28,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料庫學生成績檔案如表所示，國英數三科皆前三名的學生數目為何？\n  學號  國文  英文  數學\n  105001  80  85  76\n  105002  90  95  90\n\n  105003  75  90  85\n  105004  90  80  90\n  105005  95  80  80\n  105006  85  80  95\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "資料庫學生成績檔案如表所示，國英數三科皆前三名的學生數目為何？\n  學號  國文  英文  數學\n  105001  80  85  76\n  105002  90  95  90\n\n  105003  75  90  85\n  105004  90  80  90\n  105005  95  80  80\n  105006  85  80  95",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1"
+      },
+      {
+        "letter": "B",
+        "text": "2"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      },
+      {
+        "letter": "D",
+        "text": "4"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-29",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 29,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若邏輯運算（logic  operation）11110110 與 11111010 的結果為 00001100，則運算子應為何？\n(A) NOT\n(B) XOR\n(C) OR\n(D) AND",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若邏輯運算（logic  operation）11110110 與 11111010 的結果為 00001100，則運算子應為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "NOT"
+      },
+      {
+        "letter": "B",
+        "text": "XOR"
+      },
+      {
+        "letter": "C",
+        "text": "OR"
+      },
+      {
+        "letter": "D",
+        "text": "AND"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-30",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 30,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "現在電腦駭客（hacker）盛行，一般企業及機關為防止入侵，必須設置安全設施，稱為什麼？\n(A) 防火牆（firewall）\n(B) 中繼器（repeater）\n(C) 路由器（router）\n(D) 閘道器（gateway）",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "現在電腦駭客（hacker）盛行，一般企業及機關為防止入侵，必須設置安全設施，稱為什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "防火牆（firewall）"
+      },
+      {
+        "letter": "B",
+        "text": "中繼器（repeater）"
+      },
+      {
+        "letter": "C",
+        "text": "路由器（router）"
+      },
+      {
+        "letter": "D",
+        "text": "閘道器（gateway）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-31",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 31,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者是在Microsoft Excel中專門用來計算總和的內建函數？\n(A) TOTAL( )\n(B) SUM( )\n(C) ALL( )\n(D) COUNT( )",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者是在Microsoft Excel中專門用來計算總和的內建函數？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TOTAL( )"
+      },
+      {
+        "letter": "B",
+        "text": "SUM( )"
+      },
+      {
+        "letter": "C",
+        "text": "ALL( )"
+      },
+      {
+        "letter": "D",
+        "text": "COUNT( )"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-32",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 32,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "數字串10010與01011的漢明距離（Hamming  distance）為：\n(A) 1\n(B) 2\n(C) 3\n(D) 4",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "數字串10010與01011的漢明距離（Hamming  distance）為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1"
+      },
+      {
+        "letter": "B",
+        "text": "2"
+      },
+      {
+        "letter": "C",
+        "text": "3"
+      },
+      {
+        "letter": "D",
+        "text": "4"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-33",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 33,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "試對圖示二元樹（binary  tree）進行中序追蹤（inorder Traversal），其結果為何？若為二元樹穿上中序引\n  線（thread），於引線二元樹中節點E的右鏈結指向那個節點？\n(A) ABCDE；C\n(B) BDCAE；D\n(C) DEBCA；B\n(D) ABDCE；B",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "試對圖示二元樹（binary  tree）進行中序追蹤（inorder Traversal），其結果為何？若為二元樹穿上中序引\n  線（thread），於引線二元樹中節點E的右鏈結指向那個節點？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ABCDE；C"
+      },
+      {
+        "letter": "B",
+        "text": "BDCAE；D"
+      },
+      {
+        "letter": "C",
+        "text": "DEBCA；B"
+      },
+      {
+        "letter": "D",
+        "text": "ABDCE；B"
+      }
+    ],
+    "textFallback": false,
+    "passage": "原卷二元樹：A 的左子節點是 B；B 的左子節點 D、右子節點 C；D 的右子節點是 E。其餘未列出的子節點均為空。",
+    "hasVisual": true
+  },
+  {
+    "id": "105-3d-34",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 34,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若數字系統的基底轉換為 (122)ₓ=(21)₈、(1101)ᵧ=(71)₈，則 x、y 分別為何？\n(A) 4, 4\n(B) 4, 5\n(C) 3, 6\n(D) 3, 7",
+    "page": 2,
+    "accepted": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "correction": "依考選部更正公告，本題一律給分。",
+    "stem": "若數字系統的基底轉換為 (122)ₓ=(21)₈、(1101)ᵧ=(71)₈，則 x、y 分別為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "4, 4"
+      },
+      {
+        "letter": "B",
+        "text": "4, 5"
+      },
+      {
+        "letter": "C",
+        "text": "3, 6"
+      },
+      {
+        "letter": "D",
+        "text": "3, 7"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false,
+    "allCredit": true
+  },
+  {
+    "id": "105-3d-35",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 35,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "中文網域名稱的註冊由x機構負責，網域名稱（Domain  name）y代表政府部門，試問x,  y分別為何？\n(A) ETF, gov\n(B) TWNIC, gov\n(C) APNIC, edu\n(D) ISOC, edu",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "中文網域名稱的註冊由x機構負責，網域名稱（Domain  name）y代表政府部門，試問x,  y分別為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ETF, gov"
+      },
+      {
+        "letter": "B",
+        "text": "TWNIC, gov"
+      },
+      {
+        "letter": "C",
+        "text": "APNIC, edu"
+      },
+      {
+        "letter": "D",
+        "text": "ISOC, edu"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-36",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 36,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "布爾代數（Boolean algebra）表示式(X+X'Y)' 等同於下列何者？\n(A) X+Y\n(B) X'+Y'\n(C) X'‧Y'\n(D) X+Y'",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "布爾代數（Boolean algebra）表示式(X+X'Y)' 等同於下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "X+Y"
+      },
+      {
+        "letter": "B",
+        "text": "X'+Y'"
+      },
+      {
+        "letter": "C",
+        "text": "X'‧Y'"
+      },
+      {
+        "letter": "D",
+        "text": "X+Y'"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-37",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 37,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "二元樹（binary tree）之後序（postfix order）追蹤結果為：A、B、C、D、E、F、G、H，則其樹根（root）\n  為何？\n(A) A\n(B) B\n(C) E\n(D) H",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "二元樹（binary tree）之後序（postfix order）追蹤結果為：A、B、C、D、E、F、G、H，則其樹根（root）\n  為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A"
+      },
+      {
+        "letter": "B",
+        "text": "B"
+      },
+      {
+        "letter": "C",
+        "text": "E"
+      },
+      {
+        "letter": "D",
+        "text": "H"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-38",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 38,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關網路之敘述，何者正確？\n(A) 203.72.36.96和203.72.10.96為同一子網域\n(B) 203.72.36.36和203.72.36.10為同一子網域\n(C) 203.72.36.96和203.72.10.36為同一子網域\n(D) 203.72.36.36和203.72.96.10為同一子網域",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列有關網路之敘述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "203.72.36.96和203.72.10.96為同一子網域"
+      },
+      {
+        "letter": "B",
+        "text": "203.72.36.36和203.72.36.10為同一子網域"
+      },
+      {
+        "letter": "C",
+        "text": "203.72.36.96和203.72.10.36為同一子網域"
+      },
+      {
+        "letter": "D",
+        "text": "203.72.36.36和203.72.96.10為同一子網域"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-39",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 39,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "假設CPU裡面有三個元件分別負責指令的擷取、解碼、執行/存回，而所需時間分別為12  ns、10 ns、15 ns。\n  若以傳統的做法執行100個指令，所需的時間為x。若改以管線的技術執行100個指令，則所需的時間為\n  y。試問x,  y分別為何？\n(A) 3700 ns, 925 ns\n(B) 3700 ns, 1530 ns\n(C) 3700 ns, 1850 ns\n(D) 3700 ns, 3700 ns",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "假設CPU裡面有三個元件分別負責指令的擷取、解碼、執行/存回，而所需時間分別為12  ns、10 ns、15 ns。\n  若以傳統的做法執行100個指令，所需的時間為x。若改以管線的技術執行100個指令，則所需的時間為\n  y。試問x,  y分別為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3700 ns, 925 ns"
+      },
+      {
+        "letter": "B",
+        "text": "3700 ns, 1530 ns"
+      },
+      {
+        "letter": "C",
+        "text": "3700 ns, 1850 ns"
+      },
+      {
+        "letter": "D",
+        "text": "3700 ns, 3700 ns"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-40",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 40,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列 Visual Basic 程式執行後，會印出什麼結果？\nDim A(3,3), B, C As Integer\nFor C = 1 To 3\n  For B = 1 To 3\n  A(B,C) = A(B-1,C-1) + (B+C)*2\n  Next B\nNext C\nPrint A(3,3)\n(A) 16\n(B) 24\n(C) 30\n(D) 36",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列 Visual Basic 程式執行後，會印出什麼結果？\nDim A(3,3), B, C As Integer\nFor C = 1 To 3\n  For B = 1 To 3\n  A(B,C) = A(B-1,C-1) + (B+C)*2\n  Next B\nNext C\nPrint A(3,3)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "16"
+      },
+      {
+        "letter": "B",
+        "text": "24"
+      },
+      {
+        "letter": "C",
+        "text": "30"
+      },
+      {
+        "letter": "D",
+        "text": "36"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-41",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 41,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列 Visual Basic 程式執行後，會印出什麼結果？\nDim A(5), B As Integer\nA(1) = 0\nA(2) = 1\nFor B = 3 To 5\n  A(B) = B + A(B-1) + A(B-2)\nNext B\nPrint A(5)\n(A) 18\n(B) 20\n(C) 22\n(D) 24",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列 Visual Basic 程式執行後，會印出什麼結果？\nDim A(5), B As Integer\nA(1) = 0\nA(2) = 1\nFor B = 3 To 5\n  A(B) = B + A(B-1) + A(B-2)\nNext B\nPrint A(5)",
+    "options": [
+      {
+        "letter": "A",
+        "text": "18"
+      },
+      {
+        "letter": "B",
+        "text": "20"
+      },
+      {
+        "letter": "C",
+        "text": "22"
+      },
+      {
+        "letter": "D",
+        "text": "24"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-42",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 42,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "插入排序法又稱為什麼？又採用個別擊破/分而治之（divide  and conquer）的排序法稱為什麼？\n(A) selection sort；選擇排序法\n(B) partition exchange sort；氣泡排序法\n(C) ranking sort；快速排序法\n(D) pranking sort；氣泡排序法",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "插入排序法又稱為什麼？又採用個別擊破/分而治之（divide  and conquer）的排序法稱為什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "selection sort；選擇排序法"
+      },
+      {
+        "letter": "B",
+        "text": "partition exchange sort；氣泡排序法"
+      },
+      {
+        "letter": "C",
+        "text": "ranking sort；快速排序法"
+      },
+      {
+        "letter": "D",
+        "text": "pranking sort；氣泡排序法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-43",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 43,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一後序運算式（postfix  order expression）為AB+CDE－×+，其中A=2, B=3, C=5, D=4, E=1，則此運算式之\n\n  值為：\n(A) 16\n(B) 20\n(C) 30\n(D) 32",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一後序運算式（postfix  order expression）為AB+CDE－×+，其中A=2, B=3, C=5, D=4, E=1，則此運算式之\n\n  值為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "16"
+      },
+      {
+        "letter": "B",
+        "text": "20"
+      },
+      {
+        "letter": "C",
+        "text": "30"
+      },
+      {
+        "letter": "D",
+        "text": "32"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-44",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 44,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "明文（plaintext）「A」以「B」替代、「B」以「C」替代、「C」以「D」替代，以此類推，「Z」以「A」\n  替代，試問明文「COMPUTER」經此替代法後，密文（ciphertext）為何？又下列何者為非對稱性加密演\n  算法（asymmetric encryption algorithm）？\n(A) DPMNRSTY；DES\n(B) DPNQVUFS；AES\n(C) DPNQVUFS；RSA\n(D) DPMNRSTY；IDEA",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "明文（plaintext）「A」以「B」替代、「B」以「C」替代、「C」以「D」替代，以此類推，「Z」以「A」\n  替代，試問明文「COMPUTER」經此替代法後，密文（ciphertext）為何？又下列何者為非對稱性加密演\n  算法（asymmetric encryption algorithm）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DPMNRSTY；DES"
+      },
+      {
+        "letter": "B",
+        "text": "DPNQVUFS；AES"
+      },
+      {
+        "letter": "C",
+        "text": "DPNQVUFS；RSA"
+      },
+      {
+        "letter": "D",
+        "text": "DPMNRSTY；IDEA"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-45",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 45,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不屬於網際網路（Internet）所提供的服務？\n(A) POS\n(B) FTP, Telnet\n(C) WWW,  Telnet\n(D) Netnews, IRC",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者不屬於網際網路（Internet）所提供的服務？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "POS"
+      },
+      {
+        "letter": "B",
+        "text": "FTP, Telnet"
+      },
+      {
+        "letter": "C",
+        "text": "WWW,  Telnet"
+      },
+      {
+        "letter": "D",
+        "text": "Netnews, IRC"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-46",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 46,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在一個空堆疊（empty  stack）中，依序執行以下指令：Push(A)、Pop、Push(B)、Push(C)、Pop、Push(D)、\n  Push(E)、Pop，試問在最頂端的元素（the  top element）為何？\n(A) A\n(B) B\n(C) C\n(D) D",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "在一個空堆疊（empty  stack）中，依序執行以下指令：Push(A)、Pop、Push(B)、Push(C)、Pop、Push(D)、\n  Push(E)、Pop，試問在最頂端的元素（the  top element）為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A"
+      },
+      {
+        "letter": "B",
+        "text": "B"
+      },
+      {
+        "letter": "C",
+        "text": "C"
+      },
+      {
+        "letter": "D",
+        "text": "D"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-47",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 47,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在下列 SQL 語言中，何者為查詢條件？\nSELECT NAME, NO, MATH FROM STUDENT WHERE MATH > 90\n(A) MATH  >90\n(B) STUDENT\n(C) NAME\n(D) NAME,NO,MATH",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在下列 SQL 語言中，何者為查詢條件？\nSELECT NAME, NO, MATH FROM STUDENT WHERE MATH > 90",
+    "options": [
+      {
+        "letter": "A",
+        "text": "MATH  >90"
+      },
+      {
+        "letter": "B",
+        "text": "STUDENT"
+      },
+      {
+        "letter": "C",
+        "text": "NAME"
+      },
+      {
+        "letter": "D",
+        "text": "NAME,NO,MATH"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-48",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 48,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "將錯誤資料回復到正確之資料，稱為：\n(A) 完整（integrity）\n(B) 同作（concurrency）\n(C) 安全（security）\n(D) 復原（recovery）",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "將錯誤資料回復到正確之資料，稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "完整（integrity）"
+      },
+      {
+        "letter": "B",
+        "text": "同作（concurrency）"
+      },
+      {
+        "letter": "C",
+        "text": "安全（security）"
+      },
+      {
+        "letter": "D",
+        "text": "復原（recovery）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-49",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 49,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "行銷SWOT分析中，試問下列何者評估外在環境？\n(A) SW\n(B) SO\n(C) WT\n(D) OT",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "行銷SWOT分析中，試問下列何者評估外在環境？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SW"
+      },
+      {
+        "letter": "B",
+        "text": "SO"
+      },
+      {
+        "letter": "C",
+        "text": "WT"
+      },
+      {
+        "letter": "D",
+        "text": "OT"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "105-3d-50",
+    "examId": "105-3d",
+    "year": 105,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 50,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何種Windows  命令主要是用來自我測試與遠端網路的連線狀況？\n(A) mail\n(B) ping\n(C) FTP\n(D) ipconfig",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何種Windows  命令主要是用來自我測試與遠端網路的連線狀況？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "mail"
+      },
+      {
+        "letter": "B",
+        "text": "ping"
+      },
+      {
+        "letter": "C",
+        "text": "FTP"
+      },
+      {
+        "letter": "D",
+        "text": "ipconfig"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

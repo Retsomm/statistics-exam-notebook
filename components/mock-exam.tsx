@@ -1,4 +1,5 @@
 'use client';
+import {allowsMultipleChoices} from '@/lib/scoring.mjs';
 import {useEffect,useMemo,useState} from 'react';
 import type {Bank,StudyState,MockRun,MockPaper,StudySession} from '@/lib/types';
 import {createMockRun,finishMockPaper,formatDuration,mockAverage,remainingMs} from '@/lib/mock-exam.mjs';
@@ -21,7 +22,7 @@ export default function MockExam({renderPractice,bank,study,update,onStar,onRepo
  useEffect(()=>setConfirm(false),[active?.subjectIndex,run?.id]);
  const next=run?.papers.find(p=>!p.completedAt);
  const finish=()=>{if(!active)return;change(r=>{const i=r.papers.findIndex(p=>p.subjectIndex===active.subjectIndex);r.papers[i]=finishMockPaper(r.papers[i],questions,Date.now());});setConfirm(false);};
- const choose=(paper:MockPaper,letter:string)=>change(r=>{const p=r.papers.find(p=>p.subjectIndex===paper.subjectIndex)!;if(p.completedAt||remainingMs(p,Date.now())===0)return;const q=questions.get(p.ids[p.index])!,a=p.choices[q.id]||[];p.choices[q.id]=q.multi?(a.includes(letter)?a.filter(v=>v!==letter):[...a,letter].sort()):[letter];});
+ const choose=(paper:MockPaper,letter:string)=>change(r=>{const p=r.papers.find(p=>p.subjectIndex===paper.subjectIndex)!;if(p.completedAt||remainingMs(p,Date.now())===0)return;const q=questions.get(p.ids[p.index])!,a=p.choices[q.id]||[];p.choices[q.id]=allowsMultipleChoices(q)?(a.includes(letter)?a.filter(v=>v!==letter):[...a,letter].sort()):[letter];});
  const comparison=(r:MockRun)=>{const avg=mockAverage(r);return <section className="settings-card"><h2>近十年統計類科錄取標準</h2><p>{avg===null?'完成同回四科後，顯示總平均與各年錄取標準的差距。':`本回四科平均 ${formatScore(avg)} 分`}</p><p className="text-muted">{reference.basis} 任一科零分或總平均未滿 50 分不予錄取。資料查核：{reference.verifiedAt}。<a href={reference.scoringSource} target="_blank" rel="noreferrer">總成績計算規則 ↗</a> · <a href={reference.eligibilitySource} target="_blank" rel="noreferrer">初等考試規則 ↗</a></p><div className="mock-table-wrap"><table className="mock-table"><thead><tr><th>年度</th><th>錄取標準</th><th>本回差距</th><th>官方依據</th></tr></thead><tbody>{[...reference.cutoffs].reverse().map(row=><tr key={row.year}><th>{row.year} 年</th><td>{row.score.toFixed(2)}</td><td>{avg===null?'待完成四科':`${avg>=row.score?'+':''}${(avg-row.score).toFixed(2)}`}</td><td><a href={row.source} target="_blank" rel="noreferrer">考選部統計表 ↗</a></td></tr>)}</tbody></table></div></section>;};
  const paperUI=(paper:MockPaper,index:number,reviewing=false)=>{
   const q=questions.get(paper.ids[index]);if(!q)return <p role="alert">題目尚未載入，請保留備份後重新載入。</p>;

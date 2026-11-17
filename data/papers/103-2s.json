@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "103-2s-1",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 1,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "「溫度」（單位：℃）在資料測量尺度分類應屬於：\n(A) 名目尺度（Nominal  Scale）\n(B) 順序尺度（Ordinal Scale）\n(C) 區間尺度（Interval Scale）\n(D) 比率尺度（Ratio  Scale）",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "「溫度」（單位：℃）在資料測量尺度分類應屬於：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "名目尺度（Nominal  Scale）"
+      },
+      {
+        "letter": "B",
+        "text": "順序尺度（Ordinal Scale）"
+      },
+      {
+        "letter": "C",
+        "text": "區間尺度（Interval Scale）"
+      },
+      {
+        "letter": "D",
+        "text": "比率尺度（Ratio  Scale）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-2",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 2,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若要比較兩組不同單位資料的分散程度，應以下列何者來衡量？\n(A) 變異數（Variance）\n(B) 全距（Range）\n(C) 四分位距（Interquartile Range）\n(D) 變異係數（Coefficient of Variation）",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "若要比較兩組不同單位資料的分散程度，應以下列何者來衡量？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "變異數（Variance）"
+      },
+      {
+        "letter": "B",
+        "text": "全距（Range）"
+      },
+      {
+        "letter": "C",
+        "text": "四分位距（Interquartile Range）"
+      },
+      {
+        "letter": "D",
+        "text": "變異係數（Coefficient of Variation）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-3",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 3,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某學校語文能力評量，發現國文成績呈現左傾（skewed  to the left），如下圖：\n\n  請問該校國文成績的平均數與中位數的順序關係為何？\n(A) 平均數  < 中位數\n(B) 平均數  = 中位數\n(C) 平均數  > 中位數\n(D) 兩者沒有一定的順序關係",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "某學校語文能力評量，發現國文成績呈現左傾（skewed  to the left），如下圖：\n\n  請問該校國文成績的平均數與中位數的順序關係為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "平均數  < 中位數"
+      },
+      {
+        "letter": "B",
+        "text": "平均數  = 中位數"
+      },
+      {
+        "letter": "C",
+        "text": "平均數  > 中位數"
+      },
+      {
+        "letter": "D",
+        "text": "兩者沒有一定的順序關係"
+      }
+    ],
+    "textFallback": false,
+    "passage": "原卷圖形為單峰左偏分布：大部分成績集中在較高分區，左側低分方向有較長尾巴。請併看官方原卷第 1 頁。",
+    "hasVisual": true
+  },
+  {
+    "id": "103-2s-4",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 4,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "一個不平衡六面骰子，1點及4點之面標紅色，其出現的機率都是1/4，2點、3點、5點及6點之面\n\n  標黑色，其出現的機率都是1/8。請問擲這個骰子兩次的點數和小於5的機率為何？\n(A) 3/32\n(B) 3/16\n(C) 13/64\n(D) 7/32",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "一個不平衡六面骰子，1點及4點之面標紅色，其出現的機率都是1/4，2點、3點、5點及6點之面\n\n  標黑色，其出現的機率都是1/8。請問擲這個骰子兩次的點數和小於5的機率為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3/32"
+      },
+      {
+        "letter": "B",
+        "text": "3/16"
+      },
+      {
+        "letter": "C",
+        "text": "13/64"
+      },
+      {
+        "letter": "D",
+        "text": "7/32"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-5",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 5,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某疾病醫學檢驗，對於有罹病的患者檢驗的結果陽性率為  88%，對於沒有罹病的受測者檢驗的結果\n\n  陰性率為85%。假設該疾病的罹患率為5%。某人在健康檢查時該項檢驗為陰性，請問他沒有罹患此\n\n  疾病的機率是多少？\n(A) 0.74%\n(B) 23.59%\n(C) 76.41%\n(D) 99.26%",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "某疾病醫學檢驗，對於有罹病的患者檢驗的結果陽性率為  88%，對於沒有罹病的受測者檢驗的結果\n\n  陰性率為85%。假設該疾病的罹患率為5%。某人在健康檢查時該項檢驗為陰性，請問他沒有罹患此\n\n  疾病的機率是多少？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.74%"
+      },
+      {
+        "letter": "B",
+        "text": "23.59%"
+      },
+      {
+        "letter": "C",
+        "text": "76.41%"
+      },
+      {
+        "letter": "D",
+        "text": "99.26%"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-6",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 6,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某大學商學院300  位同學，每人至少選修一科。其中選修英文的有220  人，選修統計學的有  180 人，\n\n  選修微積分的有150人，同時選統計學、英文的有150人，同時選英文、微積分的有80人，同時選\n\n  統計學、微積分的有100人。請問隨機抽訪一位同學，該同學三科都選的機率為何？\n(A) 1/15\n(B) 1/10\n(C) 3/15\n(D) 4/15",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "某大學商學院300  位同學，每人至少選修一科。其中選修英文的有220  人，選修統計學的有  180 人，\n\n  選修微積分的有150人，同時選統計學、英文的有150人，同時選英文、微積分的有80人，同時選\n\n  統計學、微積分的有100人。請問隨機抽訪一位同學，該同學三科都選的機率為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1/15"
+      },
+      {
+        "letter": "B",
+        "text": "1/10"
+      },
+      {
+        "letter": "C",
+        "text": "3/15"
+      },
+      {
+        "letter": "D",
+        "text": "4/15"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-7",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 7,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若P(A) = 0.3，P(B) = 0.4，且A的餘集合Ac與B的餘集合Bc互為獨立事件，則P(Ac∩Bc)  =？\n(A) 0.42\n(B) 0.12\n(C) 0.75\n(D) 0.7",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "若P(A) = 0.3，P(B) = 0.4，且A的餘集合Ac與B的餘集合Bc互為獨立事件，則P(Ac∩Bc)  =？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.42"
+      },
+      {
+        "letter": "B",
+        "text": "0.12"
+      },
+      {
+        "letter": "C",
+        "text": "0.75"
+      },
+      {
+        "letter": "D",
+        "text": "0.7"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-8",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 8,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若P(A|B) = 0.25，P(B) = 0.3，P(B|A) = 0.5，則P(A) =？\n(A) 0.55\n(B) 0.6\n(C) 0.125\n(D) 0.15",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "若P(A|B) = 0.25，P(B) = 0.3，P(B|A) = 0.5，則P(A) =？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.55"
+      },
+      {
+        "letter": "B",
+        "text": "0.6"
+      },
+      {
+        "letter": "C",
+        "text": "0.125"
+      },
+      {
+        "letter": "D",
+        "text": "0.15"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-9",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 9,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某小型高中300位應屆畢業生中有180位考取大學。從該應屆畢業生中隨機選出20位中考取大學的\n\n  人數為X，請問X的變異數為何？\n(A) 2.12\n(B) 2.191\n(C) 4.495\n(D) 4.8",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "某小型高中300位應屆畢業生中有180位考取大學。從該應屆畢業生中隨機選出20位中考取大學的\n\n  人數為X，請問X的變異數為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "2.12"
+      },
+      {
+        "letter": "B",
+        "text": "2.191"
+      },
+      {
+        "letter": "C",
+        "text": "4.495"
+      },
+      {
+        "letter": "D",
+        "text": "4.8"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-10",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 10,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "超幾何分配機率為 f(x)=C(K,x)C(N−K,n−x)/C(N,n)。在何條件下，超幾何分配會趨近於二項分配？\n(A) N →∞\n(B) n = 30\n(C) n/N > 0.05\n(D) k > 30",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "超幾何分配機率為 f(x)=C(K,x)C(N−K,n−x)/C(N,n)。在何條件下，超幾何分配會趨近於二項分配？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "N →∞"
+      },
+      {
+        "letter": "B",
+        "text": "n = 30"
+      },
+      {
+        "letter": "C",
+        "text": "n/N > 0.05"
+      },
+      {
+        "letter": "D",
+        "text": "k > 30"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-11",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 11,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "欲研究賣場快速結帳收銀櫃臺的顧客排隊情形。調查結果顯示，某時段平均一小時有43位顧客完成\n  結帳。假設該櫃臺顧客排隊的時機互相獨立，且極短時間內最多只有一顧客進來排隊。令  Y 為任兩\n  位顧客之間的時間差，則Y服從：\n(A) Poisson 分配，期望值 43\n(B) Poisson 分配，期望值 1/23\n(C) 指數分配，期望值 43\n(D) 指數分配，期望值 1/43",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "欲研究賣場快速結帳收銀櫃臺的顧客排隊情形。調查結果顯示，某時段平均一小時有43位顧客完成\n  結帳。假設該櫃臺顧客排隊的時機互相獨立，且極短時間內最多只有一顧客進來排隊。令  Y 為任兩\n  位顧客之間的時間差，則Y服從：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Poisson 分配，期望值 43"
+      },
+      {
+        "letter": "B",
+        "text": "Poisson 分配，期望值 1/23"
+      },
+      {
+        "letter": "C",
+        "text": "指數分配，期望值 43"
+      },
+      {
+        "letter": "D",
+        "text": "指數分配，期望值 1/43"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-12",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 12,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "X~Poisson(λ)，機率質量函數為 P(X=x)=λˣe^(−λ)/x!；Y 為速率 λ 的指數分布，密度 f(y)=λe^(−λy)。下列何者正確？\n(A) E(X) = E(Y)\n(B) E(X) = Var(Y)\n(C) E(Y) = Var(X)\n(D) E(X)E(Y) = 1",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "X~Poisson(λ)，機率質量函數為 P(X=x)=λˣe^(−λ)/x!；Y 為速率 λ 的指數分布，密度 f(y)=λe^(−λy)。下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "E(X) = E(Y)"
+      },
+      {
+        "letter": "B",
+        "text": "E(X) = Var(Y)"
+      },
+      {
+        "letter": "C",
+        "text": "E(Y) = Var(X)"
+      },
+      {
+        "letter": "D",
+        "text": "E(X)E(Y) = 1"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-13",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 13,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "t分配當自由度為∞時，則t分配會近似什麼分配？\n(A) χ2(1)\n(B) F(1,1)\n(C) N(0,1)\n(D) Z2",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "t分配當自由度為∞時，則t分配會近似什麼分配？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "χ2(1)"
+      },
+      {
+        "letter": "B",
+        "text": "F(1,1)"
+      },
+      {
+        "letter": "C",
+        "text": "N(0,1)"
+      },
+      {
+        "letter": "D",
+        "text": "Z2"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-14",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 14,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某大型高中應屆畢業生有40%考取大學。隨機選出10位應屆畢業生中考取大學的人數為X。請算出\n  X大於或等於2的機率為何？\n(A) 0.6536\n(B) 0.7536\n(C) 0.8536\n(D) 0.9536",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "某大型高中應屆畢業生有40%考取大學。隨機選出10位應屆畢業生中考取大學的人數為X。請算出\n  X大於或等於2的機率為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.6536"
+      },
+      {
+        "letter": "B",
+        "text": "0.7536"
+      },
+      {
+        "letter": "C",
+        "text": "0.8536"
+      },
+      {
+        "letter": "D",
+        "text": "0.9536"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-15",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 15,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "一項電訪調查成功訪問1200位受訪者，調查結果顯示560位男性受訪者中有上網人數為310人，女\n\n  性受訪者中上網人數為300人。計算兩性之上網比例差之信賴區間所需的標準誤為何？\n(A) 0.02041\n(B) 0.02882\n(C) 0.02893\n(D) 0.04034",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一項電訪調查成功訪問1200位受訪者，調查結果顯示560位男性受訪者中有上網人數為310人，女\n\n  性受訪者中上網人數為300人。計算兩性之上網比例差之信賴區間所需的標準誤為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.02041"
+      },
+      {
+        "letter": "B",
+        "text": "0.02882"
+      },
+      {
+        "letter": "C",
+        "text": "0.02893"
+      },
+      {
+        "letter": "D",
+        "text": "0.04034"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-16",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 16,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "若θ ˆ為參數θ的點估計量，則偏誤（bias）=？\n(A) |θ̂−θ|\n(B) E[(θ̂−θ)²]\n(C) E(θ̂)−θ\n(D) Var(θ̂)",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "若θ ˆ為參數θ的點估計量，則偏誤（bias）=？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "|θ̂−θ|"
+      },
+      {
+        "letter": "B",
+        "text": "E[(θ̂−θ)²]"
+      },
+      {
+        "letter": "C",
+        "text": "E(θ̂)−θ"
+      },
+      {
+        "letter": "D",
+        "text": "Var(θ̂)"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-17",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 17,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "X₁,…,Xₙ 為來自 U(0,θ) 的 i.i.d. 樣本，令 X̄=(1/n)ΣXᵢ，求 θ 的動差法估計量。\n(A) X̄\n(B) X̄/2\n(C) 2X̄\n(D) nX̄",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "X₁,…,Xₙ 為來自 U(0,θ) 的 i.i.d. 樣本，令 X̄=(1/n)ΣXᵢ，求 θ 的動差法估計量。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "X̄"
+      },
+      {
+        "letter": "B",
+        "text": "X̄/2"
+      },
+      {
+        "letter": "C",
+        "text": "2X̄"
+      },
+      {
+        "letter": "D",
+        "text": "nX̄"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-18",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 18,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "有關推論母體比率p的問題，希望估計誤差能控制在3%之內信賴度訂為95%，假設母體數未知，且\n\n  p根據經驗已知在0.3上下，則樣本數應至少多少才夠？\n(A) 620\n(B) 897\n(C) 945\n(D) 1068",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有關推論母體比率p的問題，希望估計誤差能控制在3%之內信賴度訂為95%，假設母體數未知，且\n\n  p根據經驗已知在0.3上下，則樣本數應至少多少才夠？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "620"
+      },
+      {
+        "letter": "B",
+        "text": "897"
+      },
+      {
+        "letter": "C",
+        "text": "945"
+      },
+      {
+        "letter": "D",
+        "text": "1068"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-19",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 19,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "母體平均 μ、變異數 σ²，X₁,…,Xₙ 為隨機樣本。下列何者正確？\n① σ̂²=(1/n)Σᵢ₌₁ⁿ(Xᵢ−X̄)² 是 σ²的不偏估計量。\n② (1/n)Σᵢ₌₁ⁿXᵢ² 是 σ²＋μ²的不偏估計量。\n(A) 僅①正確\n(B) 僅②正確\n(C) ①②都正確\n(D) ①②都不正確",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "母體平均 μ、變異數 σ²，X₁,…,Xₙ 為隨機樣本。下列何者正確？\n① σ̂²=(1/n)Σᵢ₌₁ⁿ(Xᵢ−X̄)² 是 σ²的不偏估計量。\n② (1/n)Σᵢ₌₁ⁿXᵢ² 是 σ²＋μ²的不偏估計量。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "僅①正確"
+      },
+      {
+        "letter": "B",
+        "text": "僅②正確"
+      },
+      {
+        "letter": "C",
+        "text": "①②都正確"
+      },
+      {
+        "letter": "D",
+        "text": "①②都不正確"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-20",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 20,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "在估計母體平均數  μ 時，若調查資料不變，則  95%常態信賴區間的長度是  90%常態信賴區間長度的\n\n  多少倍？\n(A) 0.7793\n(B) 0.8393\n(C) 1.1915\n(D) 1.2832",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在估計母體平均數  μ 時，若調查資料不變，則  95%常態信賴區間的長度是  90%常態信賴區間長度的\n\n  多少倍？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.7793"
+      },
+      {
+        "letter": "B",
+        "text": "0.8393"
+      },
+      {
+        "letter": "C",
+        "text": "1.1915"
+      },
+      {
+        "letter": "D",
+        "text": "1.2832"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-21",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 21,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "假設檢定時，設定顯著水準α，若從樣本結果算出p值，當p值為何時會拒絕虛無假設？\n(A) p值=α\n(B) p值<α\n(C) p值>α\n(D) −α<p值<α",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "假設檢定時，設定顯著水準α，若從樣本結果算出p值，當p值為何時會拒絕虛無假設？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "p值=α"
+      },
+      {
+        "letter": "B",
+        "text": "p值<α"
+      },
+      {
+        "letter": "C",
+        "text": "p值>α"
+      },
+      {
+        "letter": "D",
+        "text": "−α<p值<α"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-22",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 22,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "給定一顯著水準α，若增加樣本數，則犯型II錯誤之機率會如何變動？\n(A) 增加\n(B) 減少\n(C) 不變\n(D) 不一定",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "給定一顯著水準α，若增加樣本數，則犯型II錯誤之機率會如何變動？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "增加"
+      },
+      {
+        "letter": "B",
+        "text": "減少"
+      },
+      {
+        "letter": "C",
+        "text": "不變"
+      },
+      {
+        "letter": "D",
+        "text": "不一定"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-23",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 23,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "有一論述說臺灣的空屋率（p）大於30%，若有一位學者想要證明這是正確的，下列何者為對立假設？\n(A) p≤0.3\n(B) p≥0.3\n(C) p=0.3\n(D) p>0.3",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有一論述說臺灣的空屋率（p）大於30%，若有一位學者想要證明這是正確的，下列何者為對立假設？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "p≤0.3"
+      },
+      {
+        "letter": "B",
+        "text": "p≥0.3"
+      },
+      {
+        "letter": "C",
+        "text": "p=0.3"
+      },
+      {
+        "letter": "D",
+        "text": "p>0.3"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-24",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 24,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "H₀ 為虛無假設、H₁ 為對立假設，C 為拒絕域，Cᶜ 為不拒絕域。α=P(C∣H₀)，β=P(Cᶜ∣H₁)，power=P(C∣H₁)。樣本數固定時，下列何者正確？\n(A) α風險+β風險=1\n(B) α風險變大，則β風險變小\n(C) α風險變小，則檢定力就變大\n(D) α風險>β風險",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "H₀ 為虛無假設、H₁ 為對立假設，C 為拒絕域，Cᶜ 為不拒絕域。α=P(C∣H₀)，β=P(Cᶜ∣H₁)，power=P(C∣H₁)。樣本數固定時，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "α風險+β風險=1"
+      },
+      {
+        "letter": "B",
+        "text": "α風險變大，則β風險變小"
+      },
+      {
+        "letter": "C",
+        "text": "α風險變小，則檢定力就變大"
+      },
+      {
+        "letter": "D",
+        "text": "α風險>β風險"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-25",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 25,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某檢定只剩 P 值 0.006，下列敘述何者正確？\n① 在 0.1% 顯著水準拒絕 H₀。\n② 在 1% 顯著水準拒絕 H₀。\n③ 在 5% 顯著水準拒絕 H₀。\n(A) ①②③都敘述正確\n(B) 僅②③敘述正確\n(C) 僅③敘述正確\n(D) 資訊不足無法判斷",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "某檢定只剩 P 值 0.006，下列敘述何者正確？\n① 在 0.1% 顯著水準拒絕 H₀。\n② 在 1% 顯著水準拒絕 H₀。\n③ 在 5% 顯著水準拒絕 H₀。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②③都敘述正確"
+      },
+      {
+        "letter": "B",
+        "text": "僅②③敘述正確"
+      },
+      {
+        "letter": "C",
+        "text": "僅③敘述正確"
+      },
+      {
+        "letter": "D",
+        "text": "資訊不足無法判斷"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-26",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 26,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "瓶裝飲料裝量服從常態，母體平均 μ、變異數 50。抽出 20 瓶，樣本平均為 x̄。檢定 H₀:μ≥600 對 H₁:μ<600，在 5% 顯著水準的拒絕規則為何？\n(A) x<586.141\n(B) x<588.368\n(C) x<596.901\n(D) x<597.399",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "瓶裝飲料裝量服從常態，母體平均 μ、變異數 50。抽出 20 瓶，樣本平均為 x̄。檢定 H₀:μ≥600 對 H₁:μ<600，在 5% 顯著水準的拒絕規則為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "x<586.141"
+      },
+      {
+        "letter": "B",
+        "text": "x<588.368"
+      },
+      {
+        "letter": "C",
+        "text": "x<596.901"
+      },
+      {
+        "letter": "D",
+        "text": "x<597.399"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-27",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 27,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "變異數分析（ANOVA）的虛無假設為：\n(A) μ₁≠μ₂≠…≠μₖ\n(B) σ₁²=σ₂²=…=σₖ²\n(C) p₁=p₂=…=pₖ\n(D) μ₁=μ₂=…=μₖ",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "變異數分析（ANOVA）的虛無假設為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "μ₁≠μ₂≠…≠μₖ"
+      },
+      {
+        "letter": "B",
+        "text": "σ₁²=σ₂²=…=σₖ²"
+      },
+      {
+        "letter": "C",
+        "text": "p₁=p₂=…=pₖ"
+      },
+      {
+        "letter": "D",
+        "text": "μ₁=μ₂=…=μₖ"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "103-2s-28",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 28,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "變異數分析（ANOVA）在假設檢定中，應為下列何種檢定？\n(A) 雙尾檢定\n(B) 右尾檢定\n(C) 左尾檢定\n(D) 視情形而定",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "變異數分析（ANOVA）在假設檢定中，應為下列何種檢定？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "雙尾檢定"
+      },
+      {
+        "letter": "B",
+        "text": "右尾檢定"
+      },
+      {
+        "letter": "C",
+        "text": "左尾檢定"
+      },
+      {
+        "letter": "D",
+        "text": "視情形而定"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "103-2s-29",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 29,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "一因子模型 yᵢⱼ=μ＋αᵢ＋εᵢⱼ，i=1,…,k，j=1,…,nᵢ，組間平方和 SSB 的自由度為何？\n(A) k\n(B) k−1\n(C) Σᵢ₌₁ᵏnᵢ−1\n(D) Σᵢ₌₁ᵏnᵢ−k",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一因子模型 yᵢⱼ=μ＋αᵢ＋εᵢⱼ，i=1,…,k，j=1,…,nᵢ，組間平方和 SSB 的自由度為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "k"
+      },
+      {
+        "letter": "B",
+        "text": "k−1"
+      },
+      {
+        "letter": "C",
+        "text": "Σᵢ₌₁ᵏnᵢ−1"
+      },
+      {
+        "letter": "D",
+        "text": "Σᵢ₌₁ᵏnᵢ−k"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "103-2s-30",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 30,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "一因子 ANOVA 模型 yᵢⱼ=μ＋αᵢ＋εᵢⱼ，i=1,…,k，j=1,…,nᵢ，在此模型中有多少個參數？\n(A) k\n(B) k＋1\n(C) Σᵢ₌₁ᵏnᵢ−1\n(D) Σᵢ₌₁ᵏnᵢ−k",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一因子 ANOVA 模型 yᵢⱼ=μ＋αᵢ＋εᵢⱼ，i=1,…,k，j=1,…,nᵢ，在此模型中有多少個參數？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "k"
+      },
+      {
+        "letter": "B",
+        "text": "k＋1"
+      },
+      {
+        "letter": "C",
+        "text": "Σᵢ₌₁ᵏnᵢ−1"
+      },
+      {
+        "letter": "D",
+        "text": "Σᵢ₌₁ᵏnᵢ−k"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "103-2s-31",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 31,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "教育主管單位調查1000位國小學童身高（公分）與體重（公斤）之間的關係，發現兩者高度正相關，利用其敘述性統計資料求出兩條最小平方迴歸直線如下：\n身高 = 70.065 + 1.5916 × 體重\n體重 = −40.161 + 0.6011 × 身高\n敘述性統計資料如下：\nVariable  N  Mean  Median  StDev\n身高  1000  142.20  140.15  14.45\n體重  1000  45.32  45.44  8.88\n請問相關係數為何？\n(A) 0.3613\n(B) 0.6011\n(C) 0.9567\n(D) 0.9781",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "教育主管單位調查1000位國小學童身高（公分）與體重（公斤）之間的關係，發現兩者高度正相關，利用其敘述性統計資料求出兩條最小平方迴歸直線如下：\n身高 = 70.065 + 1.5916 × 體重\n體重 = −40.161 + 0.6011 × 身高\n敘述性統計資料如下：\nVariable  N  Mean  Median  StDev\n身高  1000  142.20  140.15  14.45\n體重  1000  45.32  45.44  8.88\n請問相關係數為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0.3613"
+      },
+      {
+        "letter": "B",
+        "text": "0.6011"
+      },
+      {
+        "letter": "C",
+        "text": "0.9567"
+      },
+      {
+        "letter": "D",
+        "text": "0.9781"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-32",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 32,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "θ̂₁、θ̂₂、θ̂₃皆為 θ 的估計量，E(θ̂₁)=E(θ̂₂)=θ，E(θ̂₃)=θ−1.5。何者為不偏估計量？\n(A) 僅 θ̂₁\n(B) 僅 θ̂₂\n(C) 僅 θ̂₃\n(D) θ̂₁與 θ̂₂",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "θ̂₁、θ̂₂、θ̂₃皆為 θ 的估計量，E(θ̂₁)=E(θ̂₂)=θ，E(θ̂₃)=θ−1.5。何者為不偏估計量？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "僅 θ̂₁"
+      },
+      {
+        "letter": "B",
+        "text": "僅 θ̂₂"
+      },
+      {
+        "letter": "C",
+        "text": "僅 θ̂₃"
+      },
+      {
+        "letter": "D",
+        "text": "θ̂₁與 θ̂₂"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-33",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 33,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "5×8 的列聯表，利用卡方獨立性檢定分析資料時，其拒絕域中的右尾卡方臨界值，是查多少自由度\n  的卡方分配？\n(A) 54\n(B) 40\n(C) 28\n(D) 27",
+    "page": 4,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "5×8 的列聯表，利用卡方獨立性檢定分析資料時，其拒絕域中的右尾卡方臨界值，是查多少自由度\n  的卡方分配？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "54"
+      },
+      {
+        "letter": "B",
+        "text": "40"
+      },
+      {
+        "letter": "C",
+        "text": "28"
+      },
+      {
+        "letter": "D",
+        "text": "27"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-34",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 34,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "列聯表之獨立性檢定中，E  （第i格之期望次數）有那些限制條件？\n  i\n(A) 必須小於行的個數\n(B) 必須小於列的個數\n(C) 必須皆大於（等於）5\n(D) 無限制條件",
+    "page": 4,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "列聯表之獨立性檢定中，E  （第i格之期望次數）有那些限制條件？\n  i",
+    "options": [
+      {
+        "letter": "A",
+        "text": "必須小於行的個數"
+      },
+      {
+        "letter": "B",
+        "text": "必須小於列的個數"
+      },
+      {
+        "letter": "C",
+        "text": "必須皆大於（等於）5"
+      },
+      {
+        "letter": "D",
+        "text": "無限制條件"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-35",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 35,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "欲檢定賣場櫃臺等候時間的資料是否來自一參數β未知之指數分配，將  1000 筆資料以等機率分成\n  10 組，且檢定過程中並無併組之情況，則當以卡方統計量做分配的適合度檢定時，請問該統計量的\n\n  近似卡方分配的自由度為何？\n(A) 7\n(B) 8\n(C) 9\n(D) 10",
+    "page": 4,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "欲檢定賣場櫃臺等候時間的資料是否來自一參數β未知之指數分配，將  1000 筆資料以等機率分成\n  10 組，且檢定過程中並無併組之情況，則當以卡方統計量做分配的適合度檢定時，請問該統計量的\n\n  近似卡方分配的自由度為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "7"
+      },
+      {
+        "letter": "B",
+        "text": "8"
+      },
+      {
+        "letter": "C",
+        "text": "9"
+      },
+      {
+        "letter": "D",
+        "text": "10"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-36",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 36,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "某調查隨機抽出200位受訪者，其居住地與贊成與否的資料以雙向表呈現如下：\n\n  北部  中部  南部\n  贊成  35  20  35\n\n  反對  55  30  25\n\n  欲檢定居住地與贊成與否是否相關，將採用獨立性檢定。請計算中部反對者的預期人數為多少？\n(A) 27.5\n(B) 31.5\n(C) 42.75\n(D) 47.25",
+    "page": 4,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "某調查隨機抽出200位受訪者，其居住地與贊成與否的資料以雙向表呈現如下：\n\n  北部  中部  南部\n  贊成  35  20  35\n\n  反對  55  30  25\n\n  欲檢定居住地與贊成與否是否相關，將採用獨立性檢定。請計算中部反對者的預期人數為多少？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "27.5"
+      },
+      {
+        "letter": "B",
+        "text": "31.5"
+      },
+      {
+        "letter": "C",
+        "text": "42.75"
+      },
+      {
+        "letter": "D",
+        "text": "47.25"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-37",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 37,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "承上題，獨立性檢定的檢定統計量為何？\n(A) 4.0515\n(B) 4.6073\n(C) 5.9718\n(D) 6.173",
+    "page": 4,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "承上題，獨立性檢定的檢定統計量為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "4.0515"
+      },
+      {
+        "letter": "B",
+        "text": "4.6073"
+      },
+      {
+        "letter": "C",
+        "text": "5.9718"
+      },
+      {
+        "letter": "D",
+        "text": "6.173"
+      }
+    ],
+    "textFallback": false,
+    "passage": "前題資料：\n居住地  北部  中部  南部\n贊成  35  20  35\n反對  55  30  25",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-38",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 38,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "傳統的時間數列分析法，將影響時間數列資料的因素分解成四個部分，下列何者不屬於這四部分？\n(A) 長期趨勢（Secular Trend）\n(B) 季節變動（Seasonal Fluctuation）\n(C) 循環變動（Cyclical Fluctuation）\n(D) 規則變動（Regular Fluctuation）",
+    "page": 4,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "傳統的時間數列分析法，將影響時間數列資料的因素分解成四個部分，下列何者不屬於這四部分？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "長期趨勢（Secular Trend）"
+      },
+      {
+        "letter": "B",
+        "text": "季節變動（Seasonal Fluctuation）"
+      },
+      {
+        "letter": "C",
+        "text": "循環變動（Cyclical Fluctuation）"
+      },
+      {
+        "letter": "D",
+        "text": "規則變動（Regular Fluctuation）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "103-2s-39",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 39,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "「好歌聲」主辦單位將分搖滾、抒情、RAP  及創作曲等四種類型的歌曲選拔優勝者，由  3 位評審分\n\n  別給分。每類歌曲都有10位參賽者，最後以每位參賽者在3位評審的總分高低來決定入圍人選。主\n  辦單位想以變異數分析，了解評審打分是否有差異，不同類型的歌曲分數是否有差異。製作的ANOVA\n\n  表中，評審之自由度為何？\n(A) 3\n(B) 2\n(C) 6\n(D) 9",
+    "page": 4,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "「好歌聲」主辦單位將分搖滾、抒情、RAP  及創作曲等四種類型的歌曲選拔優勝者，由  3 位評審分\n\n  別給分。每類歌曲都有10位參賽者，最後以每位參賽者在3位評審的總分高低來決定入圍人選。主\n  辦單位想以變異數分析，了解評審打分是否有差異，不同類型的歌曲分數是否有差異。製作的ANOVA\n\n  表中，評審之自由度為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3"
+      },
+      {
+        "letter": "B",
+        "text": "2"
+      },
+      {
+        "letter": "C",
+        "text": "6"
+      },
+      {
+        "letter": "D",
+        "text": "9"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": true
+  },
+  {
+    "id": "103-2s-40",
+    "examId": "103-2s",
+    "year": 103,
+    "subject": "統計學大意",
+    "subjectIndex": 2,
+    "number": 40,
+    "points": 2.5,
+    "multi": false,
+    "images": [],
+    "text": "臺灣地區民國102年1月到10月的失業人口數，資料如下（單位：萬人）：\n月份  1月  2月  3月  4月  5月  6月  7月  8月  9月  10月\n失業人口  47.5  48.3  47.5  46.4  46.3  47.3  48.7  49.7  48.6  48.7\n資料來源：行政院主計總處。\n試用平滑係數0.4以平滑法預測民國102年11月的臺灣地區失業人口數為多少人？若已知據此法所得10月份預測值為48.536。\n(A) 486,016\n(B) 486,930\n(C) 487,284\n(D) 487,286",
+    "page": 4,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "臺灣地區民國102年1月到10月的失業人口數，資料如下（單位：萬人）：\n月份  1月  2月  3月  4月  5月  6月  7月  8月  9月  10月\n失業人口  47.5  48.3  47.5  46.4  46.3  47.3  48.7  49.7  48.6  48.7\n資料來源：行政院主計總處。\n試用平滑係數0.4以平滑法預測民國102年11月的臺灣地區失業人口數為多少人？若已知據此法所得10月份預測值為48.536。",
+    "options": [
+      {
+        "letter": "A",
+        "text": "486,016"
+      },
+      {
+        "letter": "B",
+        "text": "486,930"
+      },
+      {
+        "letter": "C",
+        "text": "487,284"
+      },
+      {
+        "letter": "D",
+        "text": "487,286"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

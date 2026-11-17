@@ -1,0 +1,1953 @@
+[
+  {
+    "id": "099-3d-1",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 1,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "中文BIG-5碼使用幾個位元來表示字元？\n(A) 7\n(B) 8\n(C) 16\n(D) 32",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "中文BIG-5碼使用幾個位元來表示字元？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "7"
+      },
+      {
+        "letter": "B",
+        "text": "8"
+      },
+      {
+        "letter": "C",
+        "text": "16"
+      },
+      {
+        "letter": "D",
+        "text": "32"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-2",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 2,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關循序搜尋法（sequential search）的敘述，下列何者正確？\n(A) 在平均狀況下，當有n筆資料，假設資料出現的機率相等，則需(n＋1)/2次比較\n(B) 當有n筆資料時，平均狀況之時間複雜度為O(n2)\n(C) 又稱為二元搜尋法（binary  search）\n(D) 被搜尋的資料須事先排序好，才可使用循序搜尋法",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "有關循序搜尋法（sequential search）的敘述，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "在平均狀況下，當有n筆資料，假設資料出現的機率相等，則需(n＋1)/2次比較"
+      },
+      {
+        "letter": "B",
+        "text": "當有n筆資料時，平均狀況之時間複雜度為O(n2)"
+      },
+      {
+        "letter": "C",
+        "text": "又稱為二元搜尋法（binary  search）"
+      },
+      {
+        "letter": "D",
+        "text": "被搜尋的資料須事先排序好，才可使用循序搜尋法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-3",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 3,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在一有五個頂點（vertices）的無向圖形（undirected graph）中，需正好具有多少個邊（edges），才稱為完\n  整圖形（complete graph）？\n(A) 10\n(B) 20\n(C) 5\n(D) 6",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "在一有五個頂點（vertices）的無向圖形（undirected graph）中，需正好具有多少個邊（edges），才稱為完\n  整圖形（complete graph）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10"
+      },
+      {
+        "letter": "B",
+        "text": "20"
+      },
+      {
+        "letter": "C",
+        "text": "5"
+      },
+      {
+        "letter": "D",
+        "text": "6"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-4",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 4,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若有5個節點，最多可以組成多少個不同的二元樹（binary  tree）？\n(A) 45\n(B) 42\n(C) 15\n(D) 60",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若有5個節點，最多可以組成多少個不同的二元樹（binary  tree）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "45"
+      },
+      {
+        "letter": "B",
+        "text": "42"
+      },
+      {
+        "letter": "C",
+        "text": "15"
+      },
+      {
+        "letter": "D",
+        "text": "60"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-5",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 5,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關陣列的描述，何者正確？\n(A) 陣列的元素常以不連續方式儲存於記憶體中\n(B) 陣列的元素必須以循序方式存取\n(C) 二維陣列的元素只能以列為主（row-major）方式儲存，不能以行為主（column-major）方式儲存\n(D) 陣列的元素可以索引值（index  value）隨意存取",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列有關陣列的描述，何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "陣列的元素常以不連續方式儲存於記憶體中"
+      },
+      {
+        "letter": "B",
+        "text": "陣列的元素必須以循序方式存取"
+      },
+      {
+        "letter": "C",
+        "text": "二維陣列的元素只能以列為主（row-major）方式儲存，不能以行為主（column-major）方式儲存"
+      },
+      {
+        "letter": "D",
+        "text": "陣列的元素可以索引值（index  value）隨意存取"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-6",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 6,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "假設陣列索引值（index  value）皆自1開始，有一個5×5的左上三角形矩陣（left  upper triangular matrix）A，\n  以列為主（row-major）方式對映到一維陣列B，例如A(1,1)對映到B(1)，則A(3,2)所對映B(k)的k值為何？\n(A) 11\n(B) 8\n(C) 7\n(D) 6",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "假設陣列索引值（index  value）皆自1開始，有一個5×5的左上三角形矩陣（left  upper triangular matrix）A，\n  以列為主（row-major）方式對映到一維陣列B，例如A(1,1)對映到B(1)，則A(3,2)所對映B(k)的k值為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "11"
+      },
+      {
+        "letter": "B",
+        "text": "8"
+      },
+      {
+        "letter": "C",
+        "text": "7"
+      },
+      {
+        "letter": "D",
+        "text": "6"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-7",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 7,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關數位簽章（digital signature）的敘述，下列何者錯誤？\n(A) 可達到網路安全目標的不可否認性（non-repudiation）\n(B) 可達到網路安全目標的資料完整性（integrity）\n(C) 利用雜湊函數（hash  function）將欲傳送的資料加以運算，以產生訊息摘要（message  digest）\n(D) 採用對稱式加密法（symmetric  encryption）",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關數位簽章（digital signature）的敘述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "可達到網路安全目標的不可否認性（non-repudiation）"
+      },
+      {
+        "letter": "B",
+        "text": "可達到網路安全目標的資料完整性（integrity）"
+      },
+      {
+        "letter": "C",
+        "text": "利用雜湊函數（hash  function）將欲傳送的資料加以運算，以產生訊息摘要（message  digest）"
+      },
+      {
+        "letter": "D",
+        "text": "採用對稱式加密法（symmetric  encryption）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-8",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 8,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "使用者之識別資料或其他機密資料，在網路傳輸過程中被非法的第三者得知或取得，此種網路非法攻擊模\n  式為：\n(A) 竊聽\n(B) 資料竄改\n(C) 阻絕服務\n(D) 否認",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "使用者之識別資料或其他機密資料，在網路傳輸過程中被非法的第三者得知或取得，此種網路非法攻擊模\n  式為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "竊聽"
+      },
+      {
+        "letter": "B",
+        "text": "資料竄改"
+      },
+      {
+        "letter": "C",
+        "text": "阻絕服務"
+      },
+      {
+        "letter": "D",
+        "text": "否認"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-9",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 9,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一雜湊函數（hash  function）為h(key)＝key mod 11，則h(21)與下列何者會碰撞（collision）？\n(A) h(45)\n(B) h(65)\n(C) h(22)\n(D) h(38)",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "一雜湊函數（hash  function）為h(key)＝key mod 11，則h(21)與下列何者會碰撞（collision）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "h(45)"
+      },
+      {
+        "letter": "B",
+        "text": "h(65)"
+      },
+      {
+        "letter": "C",
+        "text": "h(22)"
+      },
+      {
+        "letter": "D",
+        "text": "h(38)"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-10",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 10,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料1101010₂的尾端增加一個同位核對位元，採奇數同位核對，傳輸串列為何？\n(A) 00101011₂\n(B) 00101010₂\n(C) 11010101₂\n(D) 11010100₂",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "資料1101010₂的尾端增加一個同位核對位元，採奇數同位核對，傳輸串列為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "00101011₂"
+      },
+      {
+        "letter": "B",
+        "text": "00101010₂"
+      },
+      {
+        "letter": "C",
+        "text": "11010101₂"
+      },
+      {
+        "letter": "D",
+        "text": "11010100₂"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-11",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 11,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有一棵二元樹（binary tree），總節點數為80個，分枝度（branch  factor）為1的節點數有39個，則分枝度\n  為2的節點數有幾個？\n(A) 41\n(B) 20\n(C) 40\n(D) 21",
+    "page": 0,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有一棵二元樹（binary tree），總節點數為80個，分枝度（branch  factor）為1的節點數有39個，則分枝度\n  為2的節點數有幾個？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "41"
+      },
+      {
+        "letter": "B",
+        "text": "20"
+      },
+      {
+        "letter": "C",
+        "text": "40"
+      },
+      {
+        "letter": "D",
+        "text": "21"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-12",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 12,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關網路安全技術的敘述，下列何者錯誤？\n(A) 平均而言，RSA演算法處理速率快過DES（data  encryption standard）演算法\n(B) 「加密與解密使用兩支不同金鑰，且這兩支金鑰是成對的」是公開金鑰加密（public  key encryption）法特色\n(C) SSL（secure socket layer）是數位信封（digital envelope）的應用\n(D) SET（secure electronic transaction）協定可確保網路商店看不到消費者的付款隱私資料（如信用卡號）",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "有關網路安全技術的敘述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "平均而言，RSA演算法處理速率快過DES（data  encryption standard）演算法"
+      },
+      {
+        "letter": "B",
+        "text": "「加密與解密使用兩支不同金鑰，且這兩支金鑰是成對的」是公開金鑰加密（public  key encryption）法特色"
+      },
+      {
+        "letter": "C",
+        "text": "SSL（secure socket layer）是數位信封（digital envelope）的應用"
+      },
+      {
+        "letter": "D",
+        "text": "SET（secure electronic transaction）協定可確保網路商店看不到消費者的付款隱私資料（如信用卡號）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-13",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 13,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "「企業為了支援整體的運作，整合了企業內外部各種結構與非結構、靜態與動態的資訊與知識，利用單一\n  的Web介面，並以個人化的需求來呈現的一種網站設計」，此描述為那一項資訊應用系統？\n(A) B2C電子商務\n(B) 企業資源規劃（enterprise resource planning）\n(C) 即時通訊（instant message）\n(D) 企業入口網站（enterprise information portal）",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "「企業為了支援整體的運作，整合了企業內外部各種結構與非結構、靜態與動態的資訊與知識，利用單一\n  的Web介面，並以個人化的需求來呈現的一種網站設計」，此描述為那一項資訊應用系統？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "B2C電子商務"
+      },
+      {
+        "letter": "B",
+        "text": "企業資源規劃（enterprise resource planning）"
+      },
+      {
+        "letter": "C",
+        "text": "即時通訊（instant message）"
+      },
+      {
+        "letter": "D",
+        "text": "企業入口網站（enterprise information portal）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-14",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 14,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "傳送訊息時，傳送端必須能夠將目的端之應用層位址（或伺服器名稱）轉譯成網路層位址，然後再轉譯成\n  資料連結層位址，此程序稱為：\n(A) 動態定址（dynamic addressing）\n(B) 位址解析（address resolution）\n(C) 路由（routing）\n(D) 同步傳輸（synchronous transmission）",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "傳送訊息時，傳送端必須能夠將目的端之應用層位址（或伺服器名稱）轉譯成網路層位址，然後再轉譯成\n  資料連結層位址，此程序稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "動態定址（dynamic addressing）"
+      },
+      {
+        "letter": "B",
+        "text": "位址解析（address resolution）"
+      },
+      {
+        "letter": "C",
+        "text": "路由（routing）"
+      },
+      {
+        "letter": "D",
+        "text": "同步傳輸（synchronous transmission）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-15",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 15,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關網路安全的服務與目標，下列敘述何者錯誤？\n(A) 資料完整性（integrity）：意指當資料送達時，必須保證資料沒有被竄改的疑慮\n(B) 身分認證性（authentication）：意指當傳送方送出資訊時，必須能確認傳送者的身分是否為冒名\n(C) 資料可用性（availability）：意指使用者只能擷取被授權部分的資訊\n(D) 不可否認性（non-repudiation）：意指使用者已使用或接受某項服務時，不能否認其未使用過",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關網路安全的服務與目標，下列敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資料完整性（integrity）：意指當資料送達時，必須保證資料沒有被竄改的疑慮"
+      },
+      {
+        "letter": "B",
+        "text": "身分認證性（authentication）：意指當傳送方送出資訊時，必須能確認傳送者的身分是否為冒名"
+      },
+      {
+        "letter": "C",
+        "text": "資料可用性（availability）：意指使用者只能擷取被授權部分的資訊"
+      },
+      {
+        "letter": "D",
+        "text": "不可否認性（non-repudiation）：意指使用者已使用或接受某項服務時，不能否認其未使用過"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-16",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 16,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關開放系統互連參考模型（OSI  model），下列敘述何者錯誤？\n(A) 傳輸層（transport layer）負責定義網路所使用的傳輸媒介、規格、訊號傳送順序、電流等特性，然後將由\n  0、1所組成的位元訊號傳送給網路媒介（例如網路線）\n(B) 資料連結層（data  link layer）負責將來自實體層（physical layer）的訊框（frame）還原為封包（packet），再\n  傳送給網路層（network  layer）\n(C) 表達層（presentation layer）負責傳送語法、協調資料交換格式\n(D) 資料連結層（data  link layer）可以分成邏輯連結控制（logical link control）與媒介存取控制（media access\n  control）兩個子層",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "有關開放系統互連參考模型（OSI  model），下列敘述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "傳輸層（transport layer）負責定義網路所使用的傳輸媒介、規格、訊號傳送順序、電流等特性，然後將由\n  0、1所組成的位元訊號傳送給網路媒介（例如網路線）"
+      },
+      {
+        "letter": "B",
+        "text": "資料連結層（data  link layer）負責將來自實體層（physical layer）的訊框（frame）還原為封包（packet），再\n  傳送給網路層（network  layer）"
+      },
+      {
+        "letter": "C",
+        "text": "表達層（presentation layer）負責傳送語法、協調資料交換格式"
+      },
+      {
+        "letter": "D",
+        "text": "資料連結層（data  link layer）可以分成邏輯連結控制（logical link control）與媒介存取控制（media access\n  control）兩個子層"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-17",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 17,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者在開放系統互連參考模型（OSI  model）中，運作的層次最低？\n(A) 路由器（router）\n(B) 中繼器（repeater）\n(C) 橋接器（bridge）\n(D) 閘道器（gateway）",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "下列何者在開放系統互連參考模型（OSI  model）中，運作的層次最低？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "路由器（router）"
+      },
+      {
+        "letter": "B",
+        "text": "中繼器（repeater）"
+      },
+      {
+        "letter": "C",
+        "text": "橋接器（bridge）"
+      },
+      {
+        "letter": "D",
+        "text": "閘道器（gateway）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-18",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 18,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "以終端使用者觀點（end  users’ view）所繪製之資料模式，稱為：\n(A) 關聯模式（relational model）\n(B) 實體模式（physical model）\n(C) 內部模式（internal model）\n(D) 外部模式（external model）",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "以終端使用者觀點（end  users’ view）所繪製之資料模式，稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "關聯模式（relational model）"
+      },
+      {
+        "letter": "B",
+        "text": "實體模式（physical model）"
+      },
+      {
+        "letter": "C",
+        "text": "內部模式（internal model）"
+      },
+      {
+        "letter": "D",
+        "text": "外部模式（external model）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-19",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 19,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那一項協定（protocol）是設計讓具備小型顯示螢幕之電腦與設備，能透過低速無線之連線，使用一般\n  web應用？\n(A) 多用途網際網路郵件延伸協定（Multipurpose  Internet Mail Extension Protocol）\n(B) 網際網路控制訊息協定（Internet  Control Message Protocol）\n(C) 無線應用協定（Wireless Application Protocol）\n(D) 可延伸式驗證協定（Extensible  Authentication Protocol）",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列那一項協定（protocol）是設計讓具備小型顯示螢幕之電腦與設備，能透過低速無線之連線，使用一般\n  web應用？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "多用途網際網路郵件延伸協定（Multipurpose  Internet Mail Extension Protocol）"
+      },
+      {
+        "letter": "B",
+        "text": "網際網路控制訊息協定（Internet  Control Message Protocol）"
+      },
+      {
+        "letter": "C",
+        "text": "無線應用協定（Wireless Application Protocol）"
+      },
+      {
+        "letter": "D",
+        "text": "可延伸式驗證協定（Extensible  Authentication Protocol）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-20",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 20,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "IP位址為「140.113.17.154」是屬於那一網路等級（Class）？\n(A) A\n(B) B\n(C) C\n(D) D",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "IP位址為「140.113.17.154」是屬於那一網路等級（Class）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "A"
+      },
+      {
+        "letter": "B",
+        "text": "B"
+      },
+      {
+        "letter": "C",
+        "text": "C"
+      },
+      {
+        "letter": "D",
+        "text": "D"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-21",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 21,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關屬性之描述，下列何者錯誤？\n(A) 複合屬性（composite attribute）可分割成多個簡單屬性（simple attributes）\n(B) 衍生屬性（derived attribute）可不必實際儲存於資料庫中\n(C) 值域（domain）是屬性可能值（possible  values）的集合\n(D) 單值屬性（single-valued attribute）必定是簡單屬性（simple attribute）",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關屬性之描述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "複合屬性（composite attribute）可分割成多個簡單屬性（simple attributes）"
+      },
+      {
+        "letter": "B",
+        "text": "衍生屬性（derived attribute）可不必實際儲存於資料庫中"
+      },
+      {
+        "letter": "C",
+        "text": "值域（domain）是屬性可能值（possible  values）的集合"
+      },
+      {
+        "letter": "D",
+        "text": "單值屬性（single-valued attribute）必定是簡單屬性（simple attribute）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-22",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 22,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關主鍵（primary key）的描述，下列何者錯誤？\n(A) 每個資料表必須有一主鍵\n(B) 主鍵只能由單一屬性組成，不能多個屬性組成\n(C) 主鍵具有唯一性（unique）\n(D) 主鍵不可為空值（null）",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有關主鍵（primary key）的描述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "每個資料表必須有一主鍵"
+      },
+      {
+        "letter": "B",
+        "text": "主鍵只能由單一屬性組成，不能多個屬性組成"
+      },
+      {
+        "letter": "C",
+        "text": "主鍵具有唯一性（unique）"
+      },
+      {
+        "letter": "D",
+        "text": "主鍵不可為空值（null）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-23",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 23,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關正規化（normalization）的描述，下列何者錯誤？\n(A) 當某一資料表已符合第二階正規化時，且此資料表沒有部分依賴（partial  dependency），此資料表符合第\n  三階正規化\n(B) 當某一資料表已符合第一階正規化時，此資料表主鍵僅由單一屬性構成，此資料表將必定也符合第二階\n  正規化\n(C) 當某一資料表已符合第二階正規化時，此資料表仍可能存在遞移依賴（transitive  dependency）\n(D) 只有當資料表主鍵是組合鍵（composite  key）時，部分依賴（partial dependency）才可能存在",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "有關正規化（normalization）的描述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "當某一資料表已符合第二階正規化時，且此資料表沒有部分依賴（partial  dependency），此資料表符合第\n  三階正規化"
+      },
+      {
+        "letter": "B",
+        "text": "當某一資料表已符合第一階正規化時，此資料表主鍵僅由單一屬性構成，此資料表將必定也符合第二階\n  正規化"
+      },
+      {
+        "letter": "C",
+        "text": "當某一資料表已符合第二階正規化時，此資料表仍可能存在遞移依賴（transitive  dependency）"
+      },
+      {
+        "letter": "D",
+        "text": "只有當資料表主鍵是組合鍵（composite  key）時，部分依賴（partial dependency）才可能存在"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-24",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 24,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關實體（entity）與關聯（relationship）之描述，下列何者錯誤？\n(A) 遞迴關聯（recursive relationship）即是一元關聯（unary relationship）\n(B) 當三個實體間具有相關性時，將存在三元關聯（ternary  relationship）\n(C) 二元關聯（binary relationship）是最常見的實體間關聯\n(D) 當強關聯（strong relationship）存在時，相關聯的實體必定皆是強實體（strong  entity）",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關實體（entity）與關聯（relationship）之描述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "遞迴關聯（recursive relationship）即是一元關聯（unary relationship）"
+      },
+      {
+        "letter": "B",
+        "text": "當三個實體間具有相關性時，將存在三元關聯（ternary  relationship）"
+      },
+      {
+        "letter": "C",
+        "text": "二元關聯（binary relationship）是最常見的實體間關聯"
+      },
+      {
+        "letter": "D",
+        "text": "當強關聯（strong relationship）存在時，相關聯的實體必定皆是強實體（strong  entity）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-25",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 25,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在延伸式實體關聯模式（extended  entity relationship model）中，有關實體超型（entity supertype）與實體子\n\n  型（entity subtype）之敘述，下列何者錯誤？\n(A) 實體超型不會繼承實體子型所有屬性\n(B) 實體子型會繼承實體超型所有關聯\n(C) 實體子型不會繼承實體超型之主鍵\n(D) 實體超型具有其所有實體子型之共同屬性",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在延伸式實體關聯模式（extended  entity relationship model）中，有關實體超型（entity supertype）與實體子\n\n  型（entity subtype）之敘述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "實體超型不會繼承實體子型所有屬性"
+      },
+      {
+        "letter": "B",
+        "text": "實體子型會繼承實體超型所有關聯"
+      },
+      {
+        "letter": "C",
+        "text": "實體子型不會繼承實體超型之主鍵"
+      },
+      {
+        "letter": "D",
+        "text": "實體超型具有其所有實體子型之共同屬性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-26",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 26,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "磁碟機將讀寫頭（heads）移到資料所在的磁軌（track），所需的時間稱為：\n(A) 旋轉延遲時間（rotational delay time）\n(B) 資料傳送時間（data  transfer time）\n(C) 搜尋時間（seek  time）\n(D) 存取時間（access  time）",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "磁碟機將讀寫頭（heads）移到資料所在的磁軌（track），所需的時間稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "旋轉延遲時間（rotational delay time）"
+      },
+      {
+        "letter": "B",
+        "text": "資料傳送時間（data  transfer time）"
+      },
+      {
+        "letter": "C",
+        "text": "搜尋時間（seek  time）"
+      },
+      {
+        "letter": "D",
+        "text": "存取時間（access  time）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-27",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 27,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在執行程式時，CPU需至主記憶體、快取記憶體（Cache  Memory）及輔助記憶體抓取指令或資料時，其讀\n  取之先後順序為何？\n(A) 主記憶體、快取記憶體、輔助記憶體\n(B) 快取記憶體、主記憶體、輔助記憶體\n(C) 快取記憶體、輔助記憶體、主記憶體\n(D) 輔助記憶體、快取記憶體、主記憶體",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在執行程式時，CPU需至主記憶體、快取記憶體（Cache  Memory）及輔助記憶體抓取指令或資料時，其讀\n  取之先後順序為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "主記憶體、快取記憶體、輔助記憶體"
+      },
+      {
+        "letter": "B",
+        "text": "快取記憶體、主記憶體、輔助記憶體"
+      },
+      {
+        "letter": "C",
+        "text": "快取記憶體、輔助記憶體、主記憶體"
+      },
+      {
+        "letter": "D",
+        "text": "輔助記憶體、快取記憶體、主記憶體"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-28",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 28,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關物件導向式資料模式敘述，下列何者錯誤？\n(A) 一個物件導向式資料庫是由一群相關的類別（class）所組成\n(B) 類別（class）之間的關係是以「物件識別碼」（object  id）來聯繫\n(C) 類別（class）中每一筆資料稱作一個「實例」（instance）\n(D) 物件導向式資料模式不允許多值屬性（multi-valued  attribute）",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關物件導向式資料模式敘述，下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "一個物件導向式資料庫是由一群相關的類別（class）所組成"
+      },
+      {
+        "letter": "B",
+        "text": "類別（class）之間的關係是以「物件識別碼」（object  id）來聯繫"
+      },
+      {
+        "letter": "C",
+        "text": "類別（class）中每一筆資料稱作一個「實例」（instance）"
+      },
+      {
+        "letter": "D",
+        "text": "物件導向式資料模式不允許多值屬性（multi-valued  attribute）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-29",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 29,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若某訊息其前36位元（編號從1到36）以16進位表示為：A3CD55BCD。請問其第27位元到30位元為何？\n(A) 1111\n(B) 1011\n(C) 1001\n(D) 0001",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "若某訊息其前36位元（編號從1到36）以16進位表示為：A3CD55BCD。請問其第27位元到30位元為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1111"
+      },
+      {
+        "letter": "B",
+        "text": "1011"
+      },
+      {
+        "letter": "C",
+        "text": "1001"
+      },
+      {
+        "letter": "D",
+        "text": "0001"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-30",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 30,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若已知布林函數為f(X,  Y, Z)＝YZ＋X'Z，求f(0, 1, 1)之運算結果為何？\n(A) 0\n(B) 1\n(C) 2\n(D) 3",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若已知布林函數為f(X,  Y, Z)＝YZ＋X'Z，求f(0, 1, 1)之運算結果為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "0"
+      },
+      {
+        "letter": "B",
+        "text": "1"
+      },
+      {
+        "letter": "C",
+        "text": "2"
+      },
+      {
+        "letter": "D",
+        "text": "3"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-31",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 31,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "藉由過去已知的分類，推論出一套最有效的規則來識別群體的類型。此為下列那一種資料探勘類型？\n(A) 分類分析（classification analysis）\n(B) 聯結分析（association rule analysis）\n(C) 集群分析（cluster analysis）\n(D) 次序相關分析（sequential pattern analysis）",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "藉由過去已知的分類，推論出一套最有效的規則來識別群體的類型。此為下列那一種資料探勘類型？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "分類分析（classification analysis）"
+      },
+      {
+        "letter": "B",
+        "text": "聯結分析（association rule analysis）"
+      },
+      {
+        "letter": "C",
+        "text": "集群分析（cluster analysis）"
+      },
+      {
+        "letter": "D",
+        "text": "次序相關分析（sequential pattern analysis）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-32",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 32,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "英文字母a的10進位ASCII值為97，則字母f的16進位ASCII值為何？\n(A) 102\n(B) 101\n(C) 65\n(D) 66",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "英文字母a的10進位ASCII值為97，則字母f的16進位ASCII值為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "102"
+      },
+      {
+        "letter": "B",
+        "text": "101"
+      },
+      {
+        "letter": "C",
+        "text": "65"
+      },
+      {
+        "letter": "D",
+        "text": "66"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-33",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 33,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在多程序（process）運作中，下列何者不是發生死結（deadlock）的充分必要條件？\n(A) 互斥（mutual exclusion）\n(B) 資源競用（preemption）\n(C) 占有並等待（hold  and wait）\n(D) 循環等待（circular wait）",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在多程序（process）運作中，下列何者不是發生死結（deadlock）的充分必要條件？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "互斥（mutual exclusion）"
+      },
+      {
+        "letter": "B",
+        "text": "資源競用（preemption）"
+      },
+      {
+        "letter": "C",
+        "text": "占有並等待（hold  and wait）"
+      },
+      {
+        "letter": "D",
+        "text": "循環等待（circular wait）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-34",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 34,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在CPU中有一程式計數器（Program  Counter），請問其作用為何？\n(A) 存放暫存器指令的個數\n(B) 存放指令處理的結果\n(C) 存放程式指令\n(D) 存放下一個要被執行的指令位址",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "在CPU中有一程式計數器（Program  Counter），請問其作用為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "存放暫存器指令的個數"
+      },
+      {
+        "letter": "B",
+        "text": "存放指令處理的結果"
+      },
+      {
+        "letter": "C",
+        "text": "存放程式指令"
+      },
+      {
+        "letter": "D",
+        "text": "存放下一個要被執行的指令位址"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-35",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 35,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "兩個十六進位數(2A)₁₆與(CB)₁₆之和為何？\n(A) F5₁₆\n(B) F4₁₆\n(C) 115₁₆\n(D) 114₁₆",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "兩個十六進位數(2A)₁₆與(CB)₁₆之和為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "F5₁₆"
+      },
+      {
+        "letter": "B",
+        "text": "F4₁₆"
+      },
+      {
+        "letter": "C",
+        "text": "115₁₆"
+      },
+      {
+        "letter": "D",
+        "text": "114₁₆"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-36",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 36,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "為提升電腦中央處理器運算與處理的能力，在CPU與主記憶體間另有一種記憶體作為資料緩衝用途，此記\n  憶體稱之為何？\n(A) DRAM\n(B) ROM\n(C) EPROM\n(D) CACHE",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "為提升電腦中央處理器運算與處理的能力，在CPU與主記憶體間另有一種記憶體作為資料緩衝用途，此記\n  憶體稱之為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DRAM"
+      },
+      {
+        "letter": "B",
+        "text": "ROM"
+      },
+      {
+        "letter": "C",
+        "text": "EPROM"
+      },
+      {
+        "letter": "D",
+        "text": "CACHE"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-37",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 37,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電腦若以使用電子元件：①積體電路  ②大型積體電路  ③電晶體  ④真空管，來區分其演進過程，下列\n  順序那一項為正確？\n(A) ④③①②\n(B) ④①③②\n(C) ①②③④\n(D) ①③②④",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "電腦若以使用電子元件：①積體電路  ②大型積體電路  ③電晶體  ④真空管，來區分其演進過程，下列\n  順序那一項為正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "④③①②"
+      },
+      {
+        "letter": "B",
+        "text": "④①③②"
+      },
+      {
+        "letter": "C",
+        "text": "①②③④"
+      },
+      {
+        "letter": "D",
+        "text": "①③②④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-38",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 38,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "系統發展生命週期（SDLC）有一連串發展步驟：①系統分析  ②系統設計  ③系統規劃與選擇  ④系統實\n  作與操作，下列順序那一項為正確？\n(A) ①②③④\n(B) ③①②④\n(C) ①②④③\n(D) ③②①④",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "系統發展生命週期（SDLC）有一連串發展步驟：①系統分析  ②系統設計  ③系統規劃與選擇  ④系統實\n  作與操作，下列順序那一項為正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "①②③④"
+      },
+      {
+        "letter": "B",
+        "text": "③①②④"
+      },
+      {
+        "letter": "C",
+        "text": "①②④③"
+      },
+      {
+        "letter": "D",
+        "text": "③②①④"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-39",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 39,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若依OSI參考模式的定義之七層架構，路由器（Router）屬於那一層？\n(A) 實體層\n(B) 網路層\n(C) 表達層\n(D) 應用層",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "若依OSI參考模式的定義之七層架構，路由器（Router）屬於那一層？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "實體層"
+      },
+      {
+        "letter": "B",
+        "text": "網路層"
+      },
+      {
+        "letter": "C",
+        "text": "表達層"
+      },
+      {
+        "letter": "D",
+        "text": "應用層"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-40",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 40,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "檔案的副檔名經常用來作為檔案型態的區別，請問下列何者不是圖片檔案的副檔名？\n(A) .BMP\n(B) .PNG\n(C) .AVI\n(D) .JPG",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "檔案的副檔名經常用來作為檔案型態的區別，請問下列何者不是圖片檔案的副檔名？",
+    "options": [
+      {
+        "letter": "A",
+        "text": ".BMP"
+      },
+      {
+        "letter": "B",
+        "text": ".PNG"
+      },
+      {
+        "letter": "C",
+        "text": ".AVI"
+      },
+      {
+        "letter": "D",
+        "text": ".JPG"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-41",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 41,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "某個人電腦執行速度為100  MIPS，執行1000個指令共需多少時間？\n(A) 10微秒\n(B) 10毫秒\n(C) 10奈秒\n(D) 1000奈秒",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "某個人電腦執行速度為100  MIPS，執行1000個指令共需多少時間？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10微秒"
+      },
+      {
+        "letter": "B",
+        "text": "10毫秒"
+      },
+      {
+        "letter": "C",
+        "text": "10奈秒"
+      },
+      {
+        "letter": "D",
+        "text": "1000奈秒"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-42",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 42,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "某些網站會在您的電腦中儲存一些文字檔資訊，以辨識您的身分，或是記錄一些您的資料與喜好等，這種\n  小型文字檔稱之為：\n(A) IE\n(B) cookie\n(C) P2P\n(D) SSL",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "某些網站會在您的電腦中儲存一些文字檔資訊，以辨識您的身分，或是記錄一些您的資料與喜好等，這種\n  小型文字檔稱之為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "IE"
+      },
+      {
+        "letter": "B",
+        "text": "cookie"
+      },
+      {
+        "letter": "C",
+        "text": "P2P"
+      },
+      {
+        "letter": "D",
+        "text": "SSL"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-43",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 43,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "某電腦賣場的入門機種廣告單中，指出「記憶體容量為2  G」，請問該記憶體最可能是指下列那一種記憶設\n  備的容量？\n(A) DRAM\n(B) PROM\n(C) SRAM\n(D) Hard Disk",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "某電腦賣場的入門機種廣告單中，指出「記憶體容量為2  G」，請問該記憶體最可能是指下列那一種記憶設\n  備的容量？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DRAM"
+      },
+      {
+        "letter": "B",
+        "text": "PROM"
+      },
+      {
+        "letter": "C",
+        "text": "SRAM"
+      },
+      {
+        "letter": "D",
+        "text": "Hard Disk"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-44",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 44,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "以下那一種電腦網路傳輸媒介，收訊端必須對準發訊端（誤差不得超過收訊角度）？\n(A) 光纖\n(B) 微波\n(C) Wi-Fi\n(D) 紅外線",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "以下那一種電腦網路傳輸媒介，收訊端必須對準發訊端（誤差不得超過收訊角度）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "光纖"
+      },
+      {
+        "letter": "B",
+        "text": "微波"
+      },
+      {
+        "letter": "C",
+        "text": "Wi-Fi"
+      },
+      {
+        "letter": "D",
+        "text": "紅外線"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-45",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 45,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "Wi-Fi的媒介存取控制（media  access control）方式為何？\n(A) 載波偵測多重存取/碰撞避免（carrier  sense multiple access with collision avoidance, CSMA/CA）\n(B) 載波偵測多重存取/碰撞偵測（carrier  sense multiple access with collision detection, CSMA/CD）\n(C) 記號傳遞  （token passing）\n(D) 點座標功能（point  coordination function）",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "Wi-Fi的媒介存取控制（media  access control）方式為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "載波偵測多重存取/碰撞避免（carrier  sense multiple access with collision avoidance, CSMA/CA）"
+      },
+      {
+        "letter": "B",
+        "text": "載波偵測多重存取/碰撞偵測（carrier  sense multiple access with collision detection, CSMA/CD）"
+      },
+      {
+        "letter": "C",
+        "text": "記號傳遞  （token passing）"
+      },
+      {
+        "letter": "D",
+        "text": "點座標功能（point  coordination function）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-46",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 46,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "作業系統將目的碼程式載入記憶體執行，包含多項工作步驟，下列何者不屬之？\n(A) 連結（linking）\n(B) 重新定址（relocation）\n(C) 載入（loading）\n(D) 直譯（interpret）",
+    "page": 3,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "作業系統將目的碼程式載入記憶體執行，包含多項工作步驟，下列何者不屬之？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "連結（linking）"
+      },
+      {
+        "letter": "B",
+        "text": "重新定址（relocation）"
+      },
+      {
+        "letter": "C",
+        "text": "載入（loading）"
+      },
+      {
+        "letter": "D",
+        "text": "直譯（interpret）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-47",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 47,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "FTP傳輸資料所使用的內定連線埠號為何？\n(A) 20\n(B) 21\n(C) 22\n(D) 23",
+    "page": 3,
+    "accepted": [
+      "A",
+      "B"
+    ],
+    "correction": "依考選部更正公告，接受答案：A、B。",
+    "stem": "FTP傳輸資料所使用的內定連線埠號為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "20"
+      },
+      {
+        "letter": "B",
+        "text": "21"
+      },
+      {
+        "letter": "C",
+        "text": "22"
+      },
+      {
+        "letter": "D",
+        "text": "23"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-48",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 48,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者不屬於TCP/IP網路中應用層的通訊協定？\n(A) UDP\n(B) SMTP\n(C) SNMP\n(D) HTTP",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列何者不屬於TCP/IP網路中應用層的通訊協定？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "UDP"
+      },
+      {
+        "letter": "B",
+        "text": "SMTP"
+      },
+      {
+        "letter": "C",
+        "text": "SNMP"
+      },
+      {
+        "letter": "D",
+        "text": "HTTP"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-49",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 49,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關堆疊（stack）與佇列（queue）之敘述，下列何者正確？\n(A) 堆疊之新增、刪除不在串列之同一端進行\n(B) 佇列具有後進先出（last  in, first out）的特性\n(C) 堆疊具有先進後出（first  in, last out）的特性\n(D) 佇列之新增、刪除都在同一端進行",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關堆疊（stack）與佇列（queue）之敘述，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "堆疊之新增、刪除不在串列之同一端進行"
+      },
+      {
+        "letter": "B",
+        "text": "佇列具有後進先出（last  in, first out）的特性"
+      },
+      {
+        "letter": "C",
+        "text": "堆疊具有先進後出（first  in, last out）的特性"
+      },
+      {
+        "letter": "D",
+        "text": "佇列之新增、刪除都在同一端進行"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "099-3d-50",
+    "examId": "099-3d",
+    "year": 99,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 50,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關資料庫交易特性（transaction properties），下列敘述何者正確？\n(A) 資料的交易中，一般有所謂ACID的特性，其中D表示「決定性」（Determination）\n(B) 當一個交易開始處理之後，應該要完整且正確地執行完成，否則就應該將其操作取消，還原到最原始未\n  開始處理前的情形，此特性稱為「一致性」（consistency）\n(C) 單人資料庫系統（single-user database system）一定能確保交易「隔離性」（isolation）\n(D) 當一個交易進行完成也被確認提交（committed）之後，所有資料項目應該永久地被記錄在資料庫中，不\n\n  應該隨著時間或任何狀況導致其資料改變，除非下一次的交易進行改變，此特性稱為「單元性」（atomicity）",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "有關資料庫交易特性（transaction properties），下列敘述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資料的交易中，一般有所謂ACID的特性，其中D表示「決定性」（Determination）"
+      },
+      {
+        "letter": "B",
+        "text": "當一個交易開始處理之後，應該要完整且正確地執行完成，否則就應該將其操作取消，還原到最原始未\n  開始處理前的情形，此特性稱為「一致性」（consistency）"
+      },
+      {
+        "letter": "C",
+        "text": "單人資料庫系統（single-user database system）一定能確保交易「隔離性」（isolation）"
+      },
+      {
+        "letter": "D",
+        "text": "當一個交易進行完成也被確認提交（committed）之後，所有資料項目應該永久地被記錄在資料庫中，不\n\n  應該隨著時間或任何狀況導致其資料改變，除非下一次的交易進行改變，此特性稱為「單元性」（atomicity）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  }
+]

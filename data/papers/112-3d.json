@@ -1,0 +1,1952 @@
+[
+  {
+    "id": "112-3d-1",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 1,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "對於關聯式資料庫的闡述，下列何者正確？\n(A) 資料會被儲存成類似JSON的文件\n(B) 是最早出現的資料庫結構\n(C) 資料表間可透過主鍵與外鍵建立關係\n(D) 是以物件導向的方式來設計資料庫",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "對於關聯式資料庫的闡述，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "資料會被儲存成類似JSON的文件"
+      },
+      {
+        "letter": "B",
+        "text": "是最早出現的資料庫結構"
+      },
+      {
+        "letter": "C",
+        "text": "資料表間可透過主鍵與外鍵建立關係"
+      },
+      {
+        "letter": "D",
+        "text": "是以物件導向的方式來設計資料庫"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-2",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 2,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "某顆CPU其系統匯流排傳輸頻率為1333MHz，資料寬度為64位元，因此其資料頻寬應為：\n(A) 10.664GigaBytes/Sec\n(B) 1333MegaBits/Sec\n(C) 85312MegaBytes/Sec\n(D) 10664MegaBits/Sec",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "某顆CPU其系統匯流排傳輸頻率為1333MHz，資料寬度為64位元，因此其資料頻寬應為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "10.664GigaBytes/Sec"
+      },
+      {
+        "letter": "B",
+        "text": "1333MegaBits/Sec"
+      },
+      {
+        "letter": "C",
+        "text": "85312MegaBytes/Sec"
+      },
+      {
+        "letter": "D",
+        "text": "10664MegaBits/Sec"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-3",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 3,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者為可直接在電腦內直接重寫，不須特別設備才能寫入資料的非揮發性記憶體？\n(A) RAM\n(B) EPROM\n(C) PROM\n(D) EEPROM",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列何者為可直接在電腦內直接重寫，不須特別設備才能寫入資料的非揮發性記憶體？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "RAM"
+      },
+      {
+        "letter": "B",
+        "text": "EPROM"
+      },
+      {
+        "letter": "C",
+        "text": "PROM"
+      },
+      {
+        "letter": "D",
+        "text": "EEPROM"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-4",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 4,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "若將10進位數字90.375轉為8進位數字，其結果應該為下列何者？\n(A) (132.3)₈\n(B) (721.3)₈\n(C) (273.1)₈\n(D) (731.2)₈",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "若將10進位數字90.375轉為8進位數字，其結果應該為下列何者？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "(132.3)₈"
+      },
+      {
+        "letter": "B",
+        "text": "(721.3)₈"
+      },
+      {
+        "letter": "C",
+        "text": "(273.1)₈"
+      },
+      {
+        "letter": "D",
+        "text": "(731.2)₈"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-5",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 5,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在物件導向程式設計中，有關抽象類別的描述下列何者錯誤？\n(A) 抽象類別可定義抽象方法\n(B) 抽象類別可被一般類別直接繼承\n(C) 可生成抽象類別的物件\n(D) 抽象類別可實作一般方法",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "在物件導向程式設計中，有關抽象類別的描述下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "抽象類別可定義抽象方法"
+      },
+      {
+        "letter": "B",
+        "text": "抽象類別可被一般類別直接繼承"
+      },
+      {
+        "letter": "C",
+        "text": "可生成抽象類別的物件"
+      },
+      {
+        "letter": "D",
+        "text": "抽象類別可實作一般方法"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-6",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 6,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列SQL指令何者只能傳回不同值的結果？\n(A) SELECT DIFFERENCE\n(B) SELECT UNIQUE\n(C) SELECT FIRST\n(D) SELECT DISTINCT",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列SQL指令何者只能傳回不同值的結果？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SELECT DIFFERENCE"
+      },
+      {
+        "letter": "B",
+        "text": "SELECT UNIQUE"
+      },
+      {
+        "letter": "C",
+        "text": "SELECT FIRST"
+      },
+      {
+        "letter": "D",
+        "text": "SELECT DISTINCT"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-7",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 7,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列何者是正確的HTML超連結寫法？\n(A) <a url=http://www.google.com>Google</a>\n(B) <a name=Google>http://www.google.com></a>\n(C) <a href=http://www.google.com>Google</a>\n(D) <a address=http://www.google.com>Google</a>",
+    "page": 0,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列何者是正確的HTML超連結寫法？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "<a url=http://www.google.com>Google</a>"
+      },
+      {
+        "letter": "B",
+        "text": "<a name=Google>http://www.google.com></a>"
+      },
+      {
+        "letter": "C",
+        "text": "<a href=http://www.google.com>Google</a>"
+      },
+      {
+        "letter": "D",
+        "text": "<a address=http://www.google.com>Google</a>"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-8",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 8,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "將員工資料表中，部門欄位為“財會”的所有員工“姓名”搜尋出來，其正確的SQL指令為：\n(A) SELECT 姓名  FROM 員工  WHERE 部門=‘財會’;\n(B) SELECT 員工.姓名  WHERE  部門=‘財會’;\n(C) FROM  員工  WHERE 部門=‘財會’EXTRACT  姓名;\n(D) EXTRACT  姓名 FROM  員工 WHERE 部門=‘財會’;",
+    "page": 0,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "將員工資料表中，部門欄位為“財會”的所有員工“姓名”搜尋出來，其正確的SQL指令為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SELECT 姓名  FROM 員工  WHERE 部門=‘財會’;"
+      },
+      {
+        "letter": "B",
+        "text": "SELECT 員工.姓名  WHERE  部門=‘財會’;"
+      },
+      {
+        "letter": "C",
+        "text": "FROM  員工  WHERE 部門=‘財會’EXTRACT  姓名;"
+      },
+      {
+        "letter": "D",
+        "text": "EXTRACT  姓名 FROM  員工 WHERE 部門=‘財會’;"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-9",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 9,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列指令何者屬於SQL指令中的資料操作語言（DataManipulationLanguage,DML）？\n(A) ALTER\n(B) ADD\n(C) MODIFY\n(D) UPDATE",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列指令何者屬於SQL指令中的資料操作語言（DataManipulationLanguage,DML）？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ALTER"
+      },
+      {
+        "letter": "B",
+        "text": "ADD"
+      },
+      {
+        "letter": "C",
+        "text": "MODIFY"
+      },
+      {
+        "letter": "D",
+        "text": "UPDATE"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-10",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 10,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列那個SQL的關鍵詞是用來對查詢的結果進行排序？\n(A) SORT BY\n(B) SORT\n(C) HAVING\n(D) ORDER BY",
+    "page": 0,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列那個SQL的關鍵詞是用來對查詢的結果進行排序？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SORT BY"
+      },
+      {
+        "letter": "B",
+        "text": "SORT"
+      },
+      {
+        "letter": "C",
+        "text": "HAVING"
+      },
+      {
+        "letter": "D",
+        "text": "ORDER BY"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-11",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 11,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "MVC是軟體工程中的一種軟體架構模式，用來簡化應用程式開發並增加程式的可維護性。請問MVC\n\n  指的是：\n(A) Module,Verification,Consistent\n(B) Model,View,Controller\n(C) Module,View,Container\n(D) Model,View,Container",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "MVC是軟體工程中的一種軟體架構模式，用來簡化應用程式開發並增加程式的可維護性。請問MVC\n\n  指的是：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Module,Verification,Consistent"
+      },
+      {
+        "letter": "B",
+        "text": "Model,View,Controller"
+      },
+      {
+        "letter": "C",
+        "text": "Module,View,Container"
+      },
+      {
+        "letter": "D",
+        "text": "Model,View,Container"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-12",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 12,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關資料編碼的說明下列何者正確？\n(A) ASCII原始編碼一開始就是用8個位元來編碼\n(B) BCDIC編碼是由  ASCII編碼擴充而來\n(C) EBCDIC編碼利用6個位元來編碼，且前2個位元為區域位元\n(D) BCD編碼以4個位元為一組，僅能用於表達數字",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關資料編碼的說明下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "ASCII原始編碼一開始就是用8個位元來編碼"
+      },
+      {
+        "letter": "B",
+        "text": "BCDIC編碼是由  ASCII編碼擴充而來"
+      },
+      {
+        "letter": "C",
+        "text": "EBCDIC編碼利用6個位元來編碼，且前2個位元為區域位元"
+      },
+      {
+        "letter": "D",
+        "text": "BCD編碼以4個位元為一組，僅能用於表達數字"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-13",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 13,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一般電腦主機板中負責CPU、RAM與顯示卡等主要高速裝置溝通的晶片為：\n(A) 北橋晶片\n(B) 南橋晶片\n(C) 顯示晶片\n(D) 數位類比轉換器",
+    "page": 1,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "一般電腦主機板中負責CPU、RAM與顯示卡等主要高速裝置溝通的晶片為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "北橋晶片"
+      },
+      {
+        "letter": "B",
+        "text": "南橋晶片"
+      },
+      {
+        "letter": "C",
+        "text": "顯示晶片"
+      },
+      {
+        "letter": "D",
+        "text": "數位類比轉換器"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-14",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 14,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "比特幣是一種被廣泛使用的電子貨幣，請問下列對比特幣的特性描述何者錯誤？\n(A) 沒有類似銀行的發行單位\n(B) 比特幣交易中，交易送出被確認後交易就算完成，而完成後的交易仍可被取消\n(C) 比特幣的數量不會無限制成長\n(D) 不具匿名性",
+    "page": 1,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "比特幣是一種被廣泛使用的電子貨幣，請問下列對比特幣的特性描述何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "沒有類似銀行的發行單位"
+      },
+      {
+        "letter": "B",
+        "text": "比特幣交易中，交易送出被確認後交易就算完成，而完成後的交易仍可被取消"
+      },
+      {
+        "letter": "C",
+        "text": "比特幣的數量不會無限制成長"
+      },
+      {
+        "letter": "D",
+        "text": "不具匿名性"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-15",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 15,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "二元搜尋樹是建立在樹節點鍵值的大小上。左子樹的所有鍵值均小於樹根的鍵值，右子樹所有鍵值\n  均大於樹根的鍵值。而高度平衡二元搜尋樹則又定義某一個節點右子樹跟左子樹的高度，高度差的\n\n  絕對值要小於等於1，否則需要做調整，但調整的方法，最後必須維持二元搜尋樹的特質。在建立二\n  元搜尋樹時，如果鍵值分別是50、40、60、30、45。此時若再加入20，此二元搜尋樹的高度平衡原\n  則就會被破壞。請問根據高度平衡的原則去調整後，最後的二元搜尋樹的前序走訪的結果為何？\n(A) 20 30 40 50 45 60\n(B) 40 30 20 45 50 60\n(C) 50 40 30 60 20 45\n(D) 40 30 20 50 45 60",
+    "page": 1,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "二元搜尋樹是建立在樹節點鍵值的大小上。左子樹的所有鍵值均小於樹根的鍵值，右子樹所有鍵值\n  均大於樹根的鍵值。而高度平衡二元搜尋樹則又定義某一個節點右子樹跟左子樹的高度，高度差的\n\n  絕對值要小於等於1，否則需要做調整，但調整的方法，最後必須維持二元搜尋樹的特質。在建立二\n  元搜尋樹時，如果鍵值分別是50、40、60、30、45。此時若再加入20，此二元搜尋樹的高度平衡原\n  則就會被破壞。請問根據高度平衡的原則去調整後，最後的二元搜尋樹的前序走訪的結果為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "20 30 40 50 45 60"
+      },
+      {
+        "letter": "B",
+        "text": "40 30 20 45 50 60"
+      },
+      {
+        "letter": "C",
+        "text": "50 40 30 60 20 45"
+      },
+      {
+        "letter": "D",
+        "text": "40 30 20 50 45 60"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-16",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 16,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列 Java 程式執行後的輸出為何？\n\npublic class Test {\n  public static void main(String[] args) {\n  int a = 0;\n  int b = 0;\n  for (int c = 0; c < 4; c++) {\n  if ((++a > 2)) {\n  a++;\n  }\n  }\n  System.out.println(a);\n  }\n}\n(A) 4\n(B) 5\n(C) 6\n(D) 7",
+    "page": 1,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列 Java 程式執行後的輸出為何？\n\npublic class Test {\n  public static void main(String[] args) {\n  int a = 0;\n  int b = 0;\n  for (int c = 0; c < 4; c++) {\n  if ((++a > 2)) {\n  a++;\n  }\n  }\n  System.out.println(a);\n  }\n}",
+    "options": [
+      {
+        "letter": "A",
+        "text": "4"
+      },
+      {
+        "letter": "B",
+        "text": "5"
+      },
+      {
+        "letter": "C",
+        "text": "6"
+      },
+      {
+        "letter": "D",
+        "text": "7"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-17",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 17,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列圖形檔案格式何者屬於向量圖型？\n(A) SVG\n(B) PNG\n(C) GIF\n(D) JPEG",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列圖形檔案格式何者屬於向量圖型？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "SVG"
+      },
+      {
+        "letter": "B",
+        "text": "PNG"
+      },
+      {
+        "letter": "C",
+        "text": "GIF"
+      },
+      {
+        "letter": "D",
+        "text": "JPEG"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-18",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 18,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "於HTML中，那個標籤可直接在網頁中產生一個獨立區域用來嵌入來自另一個網站的內容？\n(A) <script>\n(B) <style>\n(C) <span>\n(D) <iframe>",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "於HTML中，那個標籤可直接在網頁中產生一個獨立區域用來嵌入來自另一個網站的內容？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "<script>"
+      },
+      {
+        "letter": "B",
+        "text": "<style>"
+      },
+      {
+        "letter": "C",
+        "text": "<span>"
+      },
+      {
+        "letter": "D",
+        "text": "<iframe>"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-19",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 19,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列對於常見的數位聲音格式說明何者錯誤？\n(A) WMA是微軟公司所推出的聲音格式\n(B) MP3會將聲音用MPEG壓縮法壓縮\n(C) RealAudio是一種不壓縮的音樂格式\n(D) WAV檔會因為取樣頻率愈高，所產生的資料量愈大",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列對於常見的數位聲音格式說明何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "WMA是微軟公司所推出的聲音格式"
+      },
+      {
+        "letter": "B",
+        "text": "MP3會將聲音用MPEG壓縮法壓縮"
+      },
+      {
+        "letter": "C",
+        "text": "RealAudio是一種不壓縮的音樂格式"
+      },
+      {
+        "letter": "D",
+        "text": "WAV檔會因為取樣頻率愈高，所產生的資料量愈大"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-20",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 20,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關TCP與UDP協定的說明何者正確？\n(A) TCP與UDP都具有建立連線的功能\n(B) TCP與UDP都具有控制流量的功能\n(C) TCP與UDP都具有確認與傳送的功能\n(D) UDP的傳輸方式是送出後不理",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列有關TCP與UDP協定的說明何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "TCP與UDP都具有建立連線的功能"
+      },
+      {
+        "letter": "B",
+        "text": "TCP與UDP都具有控制流量的功能"
+      },
+      {
+        "letter": "C",
+        "text": "TCP與UDP都具有確認與傳送的功能"
+      },
+      {
+        "letter": "D",
+        "text": "UDP的傳輸方式是送出後不理"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-21",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 21,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有一個關聯表，它的所有非主鍵欄位值都必須由整個主鍵才能決定，則這個關聯表至少達到第幾正\n  規化？\n(A) 第一正規化\n(B) 第二正規化\n(C) 第三正規化\n(D) 第五正規化",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "有一個關聯表，它的所有非主鍵欄位值都必須由整個主鍵才能決定，則這個關聯表至少達到第幾正\n  規化？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "第一正規化"
+      },
+      {
+        "letter": "B",
+        "text": "第二正規化"
+      },
+      {
+        "letter": "C",
+        "text": "第三正規化"
+      },
+      {
+        "letter": "D",
+        "text": "第五正規化"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-22",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 22,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "有關虛擬記憶體的描述下列何者錯誤？\n(A) 可使得程式在實體記憶體不足的狀況下也可執行\n(B) 作法是讓作業系統將目前正使用的程式頁放在主記憶體中，其他的則存放在磁碟中\n(C) 分段（Segmentation）模式是常用的一種設計方式\n(D) 分頁（Paging）模式中邏輯記憶體會被分割成大小不等的分段",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "有關虛擬記憶體的描述下列何者錯誤？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "可使得程式在實體記憶體不足的狀況下也可執行"
+      },
+      {
+        "letter": "B",
+        "text": "作法是讓作業系統將目前正使用的程式頁放在主記憶體中，其他的則存放在磁碟中"
+      },
+      {
+        "letter": "C",
+        "text": "分段（Segmentation）模式是常用的一種設計方式"
+      },
+      {
+        "letter": "D",
+        "text": "分頁（Paging）模式中邏輯記憶體會被分割成大小不等的分段"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-23",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 23,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關程式語言的描述何者正確？\n(A) C語言可對記憶體直接處理，UNIX作業系統就是利用C語言開發完成\n(B) C++語言是一種結構化程式設計語言\n(C) ADA是一種早期的標記語言\n(D) JAVA是由微軟公司開發的物件導向程式語言",
+    "page": 2,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下列有關程式語言的描述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "C語言可對記憶體直接處理，UNIX作業系統就是利用C語言開發完成"
+      },
+      {
+        "letter": "B",
+        "text": "C++語言是一種結構化程式設計語言"
+      },
+      {
+        "letter": "C",
+        "text": "ADA是一種早期的標記語言"
+      },
+      {
+        "letter": "D",
+        "text": "JAVA是由微軟公司開發的物件導向程式語言"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-24",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 24,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "橋接器可用於連接兩個相同類型但通訊協定不同的子網路，並可藉由MAC位址表判斷與過濾是否要\n  傳送到另一子網路。請問橋接器是屬於OSI參考模型中那一層運作的裝置？\n(A) 應用層\n(B) 傳輸層\n(C) 資料連結層\n(D) 網路層",
+    "page": 2,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "橋接器可用於連接兩個相同類型但通訊協定不同的子網路，並可藉由MAC位址表判斷與過濾是否要\n  傳送到另一子網路。請問橋接器是屬於OSI參考模型中那一層運作的裝置？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "應用層"
+      },
+      {
+        "letter": "B",
+        "text": "傳輸層"
+      },
+      {
+        "letter": "C",
+        "text": "資料連結層"
+      },
+      {
+        "letter": "D",
+        "text": "網路層"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-25",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 25,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列資料加密系統何者屬於非對稱加密法？\n(A) DES\n(B) AES\n(C) MD5\n(D) RSA",
+    "page": 2,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "下列資料加密系統何者屬於非對稱加密法？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "DES"
+      },
+      {
+        "letter": "B",
+        "text": "AES"
+      },
+      {
+        "letter": "C",
+        "text": "MD5"
+      },
+      {
+        "letter": "D",
+        "text": "RSA"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-26",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 26,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "藍牙（Bluetooth）網路是屬於下列那一種無線網路類型？\n(A) 無線區域網路WLAN\n(B) 無線個人網路WPAN\n(C) 無線都會網路WMAN\n(D) 無線廣域網路WWAN",
+    "page": 2,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "藍牙（Bluetooth）網路是屬於下列那一種無線網路類型？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "無線區域網路WLAN"
+      },
+      {
+        "letter": "B",
+        "text": "無線個人網路WPAN"
+      },
+      {
+        "letter": "C",
+        "text": "無線都會網路WMAN"
+      },
+      {
+        "letter": "D",
+        "text": "無線廣域網路WWAN"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-27",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 27,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關軟體使用授權的描述何者正確？\n(A) Freeware可任意使用不須付費，因為開發者已放棄對產品的所有權利\n(B) 對於Shareware使用者可無限期免費使用\n(C) 不須版權擁有者的授權，我們可對Opensource軟體進行使用、修改及再分發\n(D) Freeware都是屬於Opensource的軟體",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列有關軟體使用授權的描述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "Freeware可任意使用不須付費，因為開發者已放棄對產品的所有權利"
+      },
+      {
+        "letter": "B",
+        "text": "對於Shareware使用者可無限期免費使用"
+      },
+      {
+        "letter": "C",
+        "text": "不須版權擁有者的授權，我們可對Opensource軟體進行使用、修改及再分發"
+      },
+      {
+        "letter": "D",
+        "text": "Freeware都是屬於Opensource的軟體"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-28",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 28,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在一個網頁上有一個按鈕，當使用者按了這個按鈕後會執行某段程式，使得頁面文字動態逐漸變大\n\n  且顏色也隨著改變。請問這段程式最可能使用的技術為何？\n(A) CSS\n(B) Javascript\n(C) HTML\n(D) XML",
+    "page": 3,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "在一個網頁上有一個按鈕，當使用者按了這個按鈕後會執行某段程式，使得頁面文字動態逐漸變大\n\n  且顏色也隨著改變。請問這段程式最可能使用的技術為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "CSS"
+      },
+      {
+        "letter": "B",
+        "text": "Javascript"
+      },
+      {
+        "letter": "C",
+        "text": "HTML"
+      },
+      {
+        "letter": "D",
+        "text": "XML"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-29",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 29,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一首4分鐘的音樂，若以取樣頻率為44.1KHz，取樣樣本為2個8bits（立體聲）的數字儲存，則所\n\n  需的儲存空間大小約略等於：\n(A) 21.17Mbytes\n(B) 169.34Mbytes\n(C) 13.2Mbytes\n(D) 132Kbytes",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "一首4分鐘的音樂，若以取樣頻率為44.1KHz，取樣樣本為2個8bits（立體聲）的數字儲存，則所\n\n  需的儲存空間大小約略等於：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "21.17Mbytes"
+      },
+      {
+        "letter": "B",
+        "text": "169.34Mbytes"
+      },
+      {
+        "letter": "C",
+        "text": "13.2Mbytes"
+      },
+      {
+        "letter": "D",
+        "text": "132Kbytes"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-30",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 30,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下列有關網際網路的描述何者正確？\n(A) 相同網路區段內的電腦，不可以直接傳遞IP封包，需要路由器協助\n(B) 要判斷兩台網路上電腦是否在相同網路區段，可分別將其  IP 位址與子網路遮罩做  XOR 運算，看\n\n  結果是否相同\n(C) DNS伺服器主要功能為正向名稱解析（Forward  Name Resolution），也就是將輸入網址轉為對應\n\n  的IP位址\n(D) 網址的格式為“主機名稱.網域名稱”，其中的主機名稱使用長度沒有任何限制",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "下列有關網際網路的描述何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "相同網路區段內的電腦，不可以直接傳遞IP封包，需要路由器協助"
+      },
+      {
+        "letter": "B",
+        "text": "要判斷兩台網路上電腦是否在相同網路區段，可分別將其  IP 位址與子網路遮罩做  XOR 運算，看\n\n  結果是否相同"
+      },
+      {
+        "letter": "C",
+        "text": "DNS伺服器主要功能為正向名稱解析（Forward  Name Resolution），也就是將輸入網址轉為對應\n\n  的IP位址"
+      },
+      {
+        "letter": "D",
+        "text": "網址的格式為“主機名稱.網域名稱”，其中的主機名稱使用長度沒有任何限制"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-31",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 31,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "由多個遠端主機在同一時段傳送許多訊息給目標主機，使目標主機在短時間內因接收過多訊息而癱\n\n  瘓，這種網路攻擊稱為：\n(A) 分散式阻斷攻擊（DistributedDoS）\n(B) 回覆氾濫攻擊（SmurfFloodingAttack）\n(C) 死亡偵測攻擊（Ping-of-DeathAttack）\n(D) 分割重組攻擊（TeardropAttack）",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "由多個遠端主機在同一時段傳送許多訊息給目標主機，使目標主機在短時間內因接收過多訊息而癱\n\n  瘓，這種網路攻擊稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "分散式阻斷攻擊（DistributedDoS）"
+      },
+      {
+        "letter": "B",
+        "text": "回覆氾濫攻擊（SmurfFloodingAttack）"
+      },
+      {
+        "letter": "C",
+        "text": "死亡偵測攻擊（Ping-of-DeathAttack）"
+      },
+      {
+        "letter": "D",
+        "text": "分割重組攻擊（TeardropAttack）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-32",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 32,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "自駕車是傳統汽車運輸能力加上整合感知器、電腦視覺、高速運算及全球定位系統等技術而有的現\n  代高科技產物。請問根據美國國家公路交通安全管理局（NHTSA）所定義的自駕車等級（Level），\n\n  其中「駕駛人可以在某些有限服務區域內讓車輛自動駕駛，車內所有人僅充當乘客無需參與駕駛工\n\n  作」，是屬於下列那一個等級？\n(A) 等級2\n(B) 等級3\n(C) 等級4\n(D) 等級5",
+    "page": 3,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "自駕車是傳統汽車運輸能力加上整合感知器、電腦視覺、高速運算及全球定位系統等技術而有的現\n  代高科技產物。請問根據美國國家公路交通安全管理局（NHTSA）所定義的自駕車等級（Level），\n\n  其中「駕駛人可以在某些有限服務區域內讓車輛自動駕駛，車內所有人僅充當乘客無需參與駕駛工\n\n  作」，是屬於下列那一個等級？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "等級2"
+      },
+      {
+        "letter": "B",
+        "text": "等級3"
+      },
+      {
+        "letter": "C",
+        "text": "等級4"
+      },
+      {
+        "letter": "D",
+        "text": "等級5"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-33",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 33,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "所謂智慧物聯網AIoT（ArtificialIntelligenceofThings）是指人工智慧（AI）結合物聯網（IoT）的科\n\n  技。這項技術採用了一種特殊的分散式網路計算，將運算資源直接嵌入端點設備，能夠有效降低網\n\n  路寬頻的使用量，同時加速及時運算。請問這項特殊的計算方式，稱為：\n(A) 邊緣運算EdgeComputing\n(B) 高效能運算HighPerformanceComputing\n(C) 雲端運算CloudComputing\n(D) 數位計算DigitalComputing",
+    "page": 3,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "所謂智慧物聯網AIoT（ArtificialIntelligenceofThings）是指人工智慧（AI）結合物聯網（IoT）的科\n\n  技。這項技術採用了一種特殊的分散式網路計算，將運算資源直接嵌入端點設備，能夠有效降低網\n\n  路寬頻的使用量，同時加速及時運算。請問這項特殊的計算方式，稱為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "邊緣運算EdgeComputing"
+      },
+      {
+        "letter": "B",
+        "text": "高效能運算HighPerformanceComputing"
+      },
+      {
+        "letter": "C",
+        "text": "雲端運算CloudComputing"
+      },
+      {
+        "letter": "D",
+        "text": "數位計算DigitalComputing"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-34",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 34,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電子商務交易機制的安全是電子商務可以推動很主要的原因。以前當信用卡遺失，陌生人就有可能\n  拿到信用卡卡號、到期年限及信用卡背面末三碼，也就可以在電子商務上進行消費。為了改善這個\n\n  問題，有一個新的安全機制產生。當消費者在網路上進行刷卡消費時，系統會自動跳出驗證視窗，\n\n  消費者須輸入認證密碼才能進行刷卡付款，而驗證碼通常是由系統發簡訊送到持卡者的手機上。\n  請問這樣的安全機制，是下列那一種：\n(A) 3D認證機制（3DSecure）\n(B) 網路銀行憑證\n(C) 金融XML憑證（FinancialeXtensibleMarkupLanguage）\n(D) 代理人伺服器（ProxyServer）",
+    "page": 4,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "電子商務交易機制的安全是電子商務可以推動很主要的原因。以前當信用卡遺失，陌生人就有可能\n  拿到信用卡卡號、到期年限及信用卡背面末三碼，也就可以在電子商務上進行消費。為了改善這個\n\n  問題，有一個新的安全機制產生。當消費者在網路上進行刷卡消費時，系統會自動跳出驗證視窗，\n\n  消費者須輸入認證密碼才能進行刷卡付款，而驗證碼通常是由系統發簡訊送到持卡者的手機上。\n  請問這樣的安全機制，是下列那一種：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "3D認證機制（3DSecure）"
+      },
+      {
+        "letter": "B",
+        "text": "網路銀行憑證"
+      },
+      {
+        "letter": "C",
+        "text": "金融XML憑證（FinancialeXtensibleMarkupLanguage）"
+      },
+      {
+        "letter": "D",
+        "text": "代理人伺服器（ProxyServer）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-35",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 35,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電腦中的2進位系統對整數的表示法，有帶符號大小（Signed-magnitude），1’s補數（1’sComplement），\n  2’s補數（2’sComplement）。假設使用8位元來儲存整數，請問下列何者正確？\n(A) 96的帶符號大小表示法為11000000\n(B) -96的1’s補數表示法為10011111\n(C) 96的2’s補數表示法為01110000\n(D) -96的2’s補數表示法為10011111",
+    "page": 4,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "電腦中的2進位系統對整數的表示法，有帶符號大小（Signed-magnitude），1’s補數（1’sComplement），\n  2’s補數（2’sComplement）。假設使用8位元來儲存整數，請問下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "96的帶符號大小表示法為11000000"
+      },
+      {
+        "letter": "B",
+        "text": "-96的1’s補數表示法為10011111"
+      },
+      {
+        "letter": "C",
+        "text": "96的2’s補數表示法為01110000"
+      },
+      {
+        "letter": "D",
+        "text": "-96的2’s補數表示法為10011111"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-36",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 36,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電腦常見的一些數碼系統可以用來表示10進位數字，請問下列何者正確？\n(A) 9的BCD碼為1001\n(B) 3的2421碼為0100\n(C) 8的84-2-1碼為1001\n(D) 4的超三碼為0100",
+    "page": 4,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "電腦常見的一些數碼系統可以用來表示10進位數字，請問下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "9的BCD碼為1001"
+      },
+      {
+        "letter": "B",
+        "text": "3的2421碼為0100"
+      },
+      {
+        "letter": "C",
+        "text": "8的84-2-1碼為1001"
+      },
+      {
+        "letter": "D",
+        "text": "4的超三碼為0100"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-37",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 37,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電腦的浮點數表示可根據 IEEE 754 規範。若要以 single（單精度）格式表示十進位 −22.5，請問 b₃₁b₃₀b₂₉…b₂₃（第 31 至 23 位元）的值為何？\n(A) 010000011\n(B) 110010011\n(C) 011000011\n(D) 110000011",
+    "page": 4,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "電腦的浮點數表示可根據 IEEE 754 規範。若要以 single（單精度）格式表示十進位 −22.5，請問 b₃₁b₃₀b₂₉…b₂₃（第 31 至 23 位元）的值為何？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "010000011"
+      },
+      {
+        "letter": "B",
+        "text": "110010011"
+      },
+      {
+        "letter": "C",
+        "text": "011000011"
+      },
+      {
+        "letter": "D",
+        "text": "110000011"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-38",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 38,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "視訊（Video）指的是同步播放的畫面與聲音，最常見的就是電視的影像。由於面板製作技術的進步，\n\n  市場上除了有LED的電視，現在也已經有大尺寸的OLED或MiniLED面板的數位電視。我國在2012\n\n  年進入數位電視時代，電視畫面的播出、傳送與接收均使用數位系統。請問下列何者不是數位視訊\n  標準？\n(A) HDTV\n(B) NTSC\n(C) SDTV\n(D) UHDTV",
+    "page": 4,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "視訊（Video）指的是同步播放的畫面與聲音，最常見的就是電視的影像。由於面板製作技術的進步，\n\n  市場上除了有LED的電視，現在也已經有大尺寸的OLED或MiniLED面板的數位電視。我國在2012\n\n  年進入數位電視時代，電視畫面的播出、傳送與接收均使用數位系統。請問下列何者不是數位視訊\n  標準？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "HDTV"
+      },
+      {
+        "letter": "B",
+        "text": "NTSC"
+      },
+      {
+        "letter": "C",
+        "text": "SDTV"
+      },
+      {
+        "letter": "D",
+        "text": "UHDTV"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-39",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 39,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "邏輯閘（LogicGate）是用來進行二元邏輯運算與布林函數的數位邏輯電路（通常以兩個輸入訊號，\n\n  一個結果訊號為輸出）。請問有關XNOR閘，下列何者正確？\n(A) 運算符號是 ⊗\n(B) 只有兩個輸入訊號均為 0 的情況，輸出訊號才會是 1，其他不同的輸入情況，輸出訊號都是 0\n(C) 運算符號是 ⊕\n(D) 只有兩個輸入訊號其中一個是 1 的情況，輸出訊號才會是 0，其他不同的輸入情況，其輸出訊號都是 1",
+    "page": 4,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "邏輯閘（LogicGate）是用來進行二元邏輯運算與布林函數的數位邏輯電路（通常以兩個輸入訊號，\n\n  一個結果訊號為輸出）。請問有關XNOR閘，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "運算符號是 ⊗"
+      },
+      {
+        "letter": "B",
+        "text": "只有兩個輸入訊號均為 0 的情況，輸出訊號才會是 1，其他不同的輸入情況，輸出訊號都是 0"
+      },
+      {
+        "letter": "C",
+        "text": "運算符號是 ⊕"
+      },
+      {
+        "letter": "D",
+        "text": "只有兩個輸入訊號其中一個是 1 的情況，輸出訊號才會是 0，其他不同的輸入情況，其輸出訊號都是 1"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-40",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 40,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "利用一把會議金鑰（Session  Key）使用對稱式密碼機制對所要傳遞的訊息進行加密。另外再利用接\n  收方的公開金鑰，使用公開金鑰加密演算法將會議金鑰作加密與密文同時傳給接收方。這種機制稱\n\n  之為：\n(A) 數位簽章\n(B) 數位金鑰\n(C) 數位信封\n(D) 數位稽核",
+    "page": 5,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "利用一把會議金鑰（Session  Key）使用對稱式密碼機制對所要傳遞的訊息進行加密。另外再利用接\n  收方的公開金鑰，使用公開金鑰加密演算法將會議金鑰作加密與密文同時傳給接收方。這種機制稱\n\n  之為：",
+    "options": [
+      {
+        "letter": "A",
+        "text": "數位簽章"
+      },
+      {
+        "letter": "B",
+        "text": "數位金鑰"
+      },
+      {
+        "letter": "C",
+        "text": "數位信封"
+      },
+      {
+        "letter": "D",
+        "text": "數位稽核"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-41",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 41,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "由於手機、平板電腦的普及，網路的頻寬也大幅的改善。電子商務也進步到所謂的行動商務。消費\n\n  者可以由行動終端設備透過無線通訊的方式，進行線上購物、訂票、金融付款或行動銀行等商業行\n\n  為。而相關的國際行動支付也非常的普及（如Apple  Pay、Google Pay）。這些國際行動支付裝在手\n\n  機上，手機若有提供一項特別功能，就可以讓裝置進行非接觸式點對點資料傳輸。例如將手機靠近\n  相關感應裝置，不需要實際的接觸，即可完成刷卡付款的動作。請問這項功能是什麼？\n(A) 藍芽（Bluetooth）\n(B) 近場通訊（NFCNearFieldCommunication）\n(C) 紅外線傳輸（infraredcommunication）\n(D) 無線網路（Wi-Fi）",
+    "page": 5,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "由於手機、平板電腦的普及，網路的頻寬也大幅的改善。電子商務也進步到所謂的行動商務。消費\n\n  者可以由行動終端設備透過無線通訊的方式，進行線上購物、訂票、金融付款或行動銀行等商業行\n\n  為。而相關的國際行動支付也非常的普及（如Apple  Pay、Google Pay）。這些國際行動支付裝在手\n\n  機上，手機若有提供一項特別功能，就可以讓裝置進行非接觸式點對點資料傳輸。例如將手機靠近\n  相關感應裝置，不需要實際的接觸，即可完成刷卡付款的動作。請問這項功能是什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "藍芽（Bluetooth）"
+      },
+      {
+        "letter": "B",
+        "text": "近場通訊（NFCNearFieldCommunication）"
+      },
+      {
+        "letter": "C",
+        "text": "紅外線傳輸（infraredcommunication）"
+      },
+      {
+        "letter": "D",
+        "text": "無線網路（Wi-Fi）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-42",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 42,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "電子商務/行動商務越來越普及，許多銀行實體的交易，如轉帳或匯款，很多也可以在網路上進行。\n  線上銀行為了防止詐騙橫行，也提出許多的方法來防止。其中有一種是由臺灣網路認證公司（TWCA）\n\n  所簽發，使用於銀行、證券、保險等金融領域之電子憑證。通常適用於大量、大筆金額的金融交易，\n\n  一般企業往來的金融交易或員工薪資匯款，都會使用這種憑證來進行交易，這樣的方法也可使用於\n  查詢下載所得資料及進行網路報稅作業。請問這種方法是什麼？\n(A) 電子安全交易SET（SecureElectronicTransactions）\n(B) 電子晶片卡交易\n(C) 自然人憑證\n(D) 金融XML憑證（FinancialeXtensibleMarkupLanguage）",
+    "page": 5,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "電子商務/行動商務越來越普及，許多銀行實體的交易，如轉帳或匯款，很多也可以在網路上進行。\n  線上銀行為了防止詐騙橫行，也提出許多的方法來防止。其中有一種是由臺灣網路認證公司（TWCA）\n\n  所簽發，使用於銀行、證券、保險等金融領域之電子憑證。通常適用於大量、大筆金額的金融交易，\n\n  一般企業往來的金融交易或員工薪資匯款，都會使用這種憑證來進行交易，這樣的方法也可使用於\n  查詢下載所得資料及進行網路報稅作業。請問這種方法是什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "電子安全交易SET（SecureElectronicTransactions）"
+      },
+      {
+        "letter": "B",
+        "text": "電子晶片卡交易"
+      },
+      {
+        "letter": "C",
+        "text": "自然人憑證"
+      },
+      {
+        "letter": "D",
+        "text": "金融XML憑證（FinancialeXtensibleMarkupLanguage）"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-43",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 43,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "因為陣列的資料在記憶體存放的位置是連續的，所以若是知道陣列第一個元素的位址及該陣列每一\n\n  個元素資料儲存位址的大小（占幾個  byte），就可以根據排放的方式，算出某一個特定元素在記憶\n\n  體中的位址。假設有一個三維陣列A[-3:5,  -4:2, 1:5]，且其起始位置為A[-3, -4, 1]=100，陣列每一元\n  素占記憶體大小2bytes，以列為主排列（RowMajor），請計算A[1,1,3]所在的位置？\n(A) 1345\n(B) 2826\n(C) 267\n(D) 434",
+    "page": 5,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "因為陣列的資料在記憶體存放的位置是連續的，所以若是知道陣列第一個元素的位址及該陣列每一\n\n  個元素資料儲存位址的大小（占幾個  byte），就可以根據排放的方式，算出某一個特定元素在記憶\n\n  體中的位址。假設有一個三維陣列A[-3:5,  -4:2, 1:5]，且其起始位置為A[-3, -4, 1]=100，陣列每一元\n  素占記憶體大小2bytes，以列為主排列（RowMajor），請計算A[1,1,3]所在的位置？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "1345"
+      },
+      {
+        "letter": "B",
+        "text": "2826"
+      },
+      {
+        "letter": "C",
+        "text": "267"
+      },
+      {
+        "letter": "D",
+        "text": "434"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-44",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 44,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "下三角矩陣以 aᵢ,ⱼ（i=1…n，j=1…n）表示各元素，對角線以上的元素為零。若不儲存這些零，可依列優先（Row Major）把對角線及以下元素存入 D[1:n(n＋1)/2]。若 n=6，請問 D[14] 是哪一個矩陣元素？\n(A) a₅,₄\n(B) a₆,₂\n(C) a₄,₂\n(D) a₆,₅",
+    "page": 5,
+    "accepted": [
+      "A"
+    ],
+    "correction": null,
+    "stem": "下三角矩陣以 aᵢ,ⱼ（i=1…n，j=1…n）表示各元素，對角線以上的元素為零。若不儲存這些零，可依列優先（Row Major）把對角線及以下元素存入 D[1:n(n＋1)/2]。若 n=6，請問 D[14] 是哪一個矩陣元素？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "a₅,₄"
+      },
+      {
+        "letter": "B",
+        "text": "a₆,₂"
+      },
+      {
+        "letter": "C",
+        "text": "a₄,₂"
+      },
+      {
+        "letter": "D",
+        "text": "a₆,₅"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-45",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 45,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "資料結構的表示法中，運算元及運算子的位置會形成所謂前序或後序的表示法。若有兩個後序表示法，\n  第一個是10  8  + 6 5  * - 而第二個後序表示法是6  3 5  * - 2 4 - +  2 - 。請問\n\n  這兩個後序表示法若用堆疊法運算後，將個別的答案加起來，結果是多少？\n(A) -30\n(B) -25\n(C) 27\n(D) -8",
+    "page": 6,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "資料結構的表示法中，運算元及運算子的位置會形成所謂前序或後序的表示法。若有兩個後序表示法，\n  第一個是10  8  + 6 5  * - 而第二個後序表示法是6  3 5  * - 2 4 - +  2 - 。請問\n\n  這兩個後序表示法若用堆疊法運算後，將個別的答案加起來，結果是多少？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "-30"
+      },
+      {
+        "letter": "B",
+        "text": "-25"
+      },
+      {
+        "letter": "C",
+        "text": "27"
+      },
+      {
+        "letter": "D",
+        "text": "-8"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-46",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 46,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "二元樹的走訪有前序追蹤（Pre-order）、中序追蹤（In-order）及後序追蹤（Post-order）三種。下列\n\n  的二元樹，請問若用前序追蹤結果其第三個輸出的節點，中序追蹤結果其第五個輸出的節點，及後\n  序追蹤結果其第八個輸出的節點，各分別是什麼？\n(A) (B,E,G)\n(B) (D,A,C)\n(C) (H,F,G)\n(D) (H,E,G)",
+    "page": 6,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "二元樹的走訪有前序追蹤（Pre-order）、中序追蹤（In-order）及後序追蹤（Post-order）三種。下列\n\n  的二元樹，請問若用前序追蹤結果其第三個輸出的節點，中序追蹤結果其第五個輸出的節點，及後\n  序追蹤結果其第八個輸出的節點，各分別是什麼？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "(B,E,G)"
+      },
+      {
+        "letter": "B",
+        "text": "(D,A,C)"
+      },
+      {
+        "letter": "C",
+        "text": "(H,F,G)"
+      },
+      {
+        "letter": "D",
+        "text": "(H,E,G)"
+      }
+    ],
+    "textFallback": false,
+    "passage": "原卷二元樹的左右子節點如下，空白表示無該側子節點：\n節點  左子節點  右子節點\nA  B  C\nB  D  E\nC  F  G\nD  無  H\nF  無  I\nE、G、H、I 為葉節點。",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-47",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 47,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "一個有n個節點的二元樹，共有2n個Link，但實際上有很多鏈結（Link）是浪費掉。為了改善這個\n\n  問題，就有引線二元樹（Thread  Binary Tree）的出現。每一個節點都會有左引線跟右引線分別指到\n\n  其他合適的節點，並且有額外的欄位來辨識是引線還是正常的指標。若把下圖二元樹的引線畫出來，\n  請問節點I的右引線及節點G的左引線分別指到那個節點？\n(A) 節點E跟節點F\n(B) 節點B跟節點F\n(C) 節點B跟節點C\n(D) 節點E跟節點C",
+    "page": 6,
+    "accepted": [
+      "C"
+    ],
+    "correction": null,
+    "stem": "一個有n個節點的二元樹，共有2n個Link，但實際上有很多鏈結（Link）是浪費掉。為了改善這個\n\n  問題，就有引線二元樹（Thread  Binary Tree）的出現。每一個節點都會有左引線跟右引線分別指到\n\n  其他合適的節點，並且有額外的欄位來辨識是引線還是正常的指標。若把下圖二元樹的引線畫出來，\n  請問節點I的右引線及節點G的左引線分別指到那個節點？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "節點E跟節點F"
+      },
+      {
+        "letter": "B",
+        "text": "節點B跟節點F"
+      },
+      {
+        "letter": "C",
+        "text": "節點B跟節點C"
+      },
+      {
+        "letter": "D",
+        "text": "節點E跟節點C"
+      }
+    ],
+    "textFallback": false,
+    "passage": "原卷二元樹的左右子節點如下：\n節點  左子節點  右子節點\nA  B  C\nB  D  E\nC  F  G\nD  H  I\nF  J  K\nE、G、H、I、J、K 為葉節點。本題使用中序引線。",
+    "hasVisual": true
+  },
+  {
+    "id": "112-3d-48",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 48,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "在圖形理論（GraphTheory）中，有一個理論叫做尤拉循環（EulerianCycle）。該理論表示，每一個\n\n  圖（Graph）的頂點（Vertex）有邊（Edge）來連接頂點，若從其中某一個頂點出發，經過所有的邊，\n  然後又回到原先出發的頂點，請問需要具備什麼條件？\n(A) 連接到每一個頂點的邊數必須是奇數\n(B) 該圖中所有的邊數總和必須可以讓頂點數總和整除\n(C) 該圖中所有的邊數總和必須是頂點數總和的偶數倍數\n(D) 連接到每一個頂點的邊數必須是偶數",
+    "page": 6,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "在圖形理論（GraphTheory）中，有一個理論叫做尤拉循環（EulerianCycle）。該理論表示，每一個\n\n  圖（Graph）的頂點（Vertex）有邊（Edge）來連接頂點，若從其中某一個頂點出發，經過所有的邊，\n  然後又回到原先出發的頂點，請問需要具備什麼條件？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "連接到每一個頂點的邊數必須是奇數"
+      },
+      {
+        "letter": "B",
+        "text": "該圖中所有的邊數總和必須可以讓頂點數總和整除"
+      },
+      {
+        "letter": "C",
+        "text": "該圖中所有的邊數總和必須是頂點數總和的偶數倍數"
+      },
+      {
+        "letter": "D",
+        "text": "連接到每一個頂點的邊數必須是偶數"
+      }
+    ],
+    "textFallback": false,
+    "passage": "",
+    "hasVisual": false
+  },
+  {
+    "id": "112-3d-49",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 49,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "擴展樹（SpanningTree）是圖形理論（GraphTheory）中的一種運用。擴展樹是以最少的邊數來連接\n  圖形中所有的頂點，若圖形中的每一個邊加上一些數值當作權重（Weight），這樣的權重可以是\n\n  成本（Cost）或距離（Distance）。雖然一個圖形可能會有許多的擴張樹，但若考慮每個邊上的權重\n\n  （或成本），我們可以找到一個最小成本的擴張樹（Minimum  Cost Spanning Tree）。以下的圖形，\n\n  G=(V,E)，V是頂點，V={1,2,3,...,n}，E是連接兩個頂點的邊，邊上的數值代表權重（或成本）。\n  請問下圖中，關於這個圖形的最小成本擴張樹（從頂點1開始出發），下列何者正確？\n(A) 頂點4跟頂點7的邊包含在這個最小成本擴張樹中\n(B) 最小成本擴張樹所有權重總和為50\n(C) 頂點5跟頂點7的邊包含在這個最小成本擴張樹中\n(D) 最小成本擴張樹所有權重總和為48",
+    "page": 7,
+    "accepted": [
+      "B"
+    ],
+    "correction": null,
+    "stem": "擴展樹（SpanningTree）是圖形理論（GraphTheory）中的一種運用。擴展樹是以最少的邊數來連接\n  圖形中所有的頂點，若圖形中的每一個邊加上一些數值當作權重（Weight），這樣的權重可以是\n\n  成本（Cost）或距離（Distance）。雖然一個圖形可能會有許多的擴張樹，但若考慮每個邊上的權重\n\n  （或成本），我們可以找到一個最小成本的擴張樹（Minimum  Cost Spanning Tree）。以下的圖形，\n\n  G=(V,E)，V是頂點，V={1,2,3,...,n}，E是連接兩個頂點的邊，邊上的數值代表權重（或成本）。\n  請問下圖中，關於這個圖形的最小成本擴張樹（從頂點1開始出發），下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "頂點4跟頂點7的邊包含在這個最小成本擴張樹中"
+      },
+      {
+        "letter": "B",
+        "text": "最小成本擴張樹所有權重總和為50"
+      },
+      {
+        "letter": "C",
+        "text": "頂點5跟頂點7的邊包含在這個最小成本擴張樹中"
+      },
+      {
+        "letter": "D",
+        "text": "最小成本擴張樹所有權重總和為48"
+      }
+    ],
+    "textFallback": false,
+    "passage": "原卷無向圖的邊與權重如下：\n端點  權重\n1–6  1\n1–2  25\n1–7  30\n2–7  4\n2–3  6\n3–4  2\n4–7  8\n4–5  16\n5–7  18\n5–6  21",
+    "hasVisual": true
+  },
+  {
+    "id": "112-3d-50",
+    "examId": "112-3d",
+    "year": 112,
+    "subject": "資料處理大意",
+    "subjectIndex": 3,
+    "number": 50,
+    "points": 2.0,
+    "multi": false,
+    "images": [],
+    "text": "最小成本的擴張樹（Minimum  Cost Spanning Tree）上的權重若是距離，就可以求從某一個起始節點\n  到終止節點的最小路徑。這可以運用到現今的物流運輸。兩個節點間的箭頭表示行進的方向。如下\n\n  圖，請問從起始節點1到終止節點7，最短的路徑，下列何者正確？\n(A) 最短路徑距離總和19\n(B) 節點4到節點3是路徑的一部分\n(C) 節點3到節點5是路徑的一部分\n(D) 包含起始節點跟終止節點，共經過6個節點",
+    "page": 7,
+    "accepted": [
+      "D"
+    ],
+    "correction": null,
+    "stem": "最小成本的擴張樹（Minimum  Cost Spanning Tree）上的權重若是距離，就可以求從某一個起始節點\n  到終止節點的最小路徑。這可以運用到現今的物流運輸。兩個節點間的箭頭表示行進的方向。如下\n\n  圖，請問從起始節點1到終止節點7，最短的路徑，下列何者正確？",
+    "options": [
+      {
+        "letter": "A",
+        "text": "最短路徑距離總和19"
+      },
+      {
+        "letter": "B",
+        "text": "節點4到節點3是路徑的一部分"
+      },
+      {
+        "letter": "C",
+        "text": "節點3到節點5是路徑的一部分"
+      },
+      {
+        "letter": "D",
+        "text": "包含起始節點跟終止節點，共經過6個節點"
+      }
+    ],
+    "textFallback": false,
+    "passage": "原卷有向圖的邊與距離如下（方向不可反用）：\n有向邊  距離\n1→2  4\n1→3  6\n1→4  6\n2→3  1\n2→5  7\n4→3  2\n4→6  5\n3→5  6\n3→6  4\n6→5  1\n5→7  6\n6→7  8",
+    "hasVisual": false
+  }
+]

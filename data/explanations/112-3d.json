@@ -1,0 +1,1268 @@
+{
+  "112-3d-1": {
+    "summary": "關聯式資料庫以關聯（通常呈現為資料表）組織資料；例如訂單表的客戶編號作為外鍵，參照客戶表的主鍵，就能建立跨表關係，選 C。文件型、物件型與關聯式模型的基本組織方式不同。",
+    "options": {
+      "A": "JSON 文件是文件型資料庫的典型組織方式，不是關聯模型的核心定義。",
+      "B": "階層式、網狀式模型早於關聯式資料庫，不能說關聯式最早出現。",
+      "C": "主鍵識別被參照資料，外鍵連接另一資料表並可維護參考完整性。",
+      "D": "以物件身分、類別及物件關係設計的是物件式資料庫模型。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-2": {
+    "summary": "依題目將 1333 MHz 視為每秒 1333×10⁶ 次資料傳送，每次 64 bit=8 Byte。頻寬=1333×10⁶×8=10.664×10⁹ Byte/s，即 10.664 GB/s，選 A。此題採十進位 G、M，沒有另外提供 DDR 倍率可再乘。",
+    "options": {
+      "A": "10.664 GB/s 是傳送頻率乘上每次 8 Byte 的結果。",
+      "B": "1333 Mb/s 漏掉每次傳送的 64 個 bit。",
+      "C": "85312 是 Mb/s 的數字，把 bit 誤標成 Byte 會多算八倍。",
+      "D": "10664 應以 MB/s 為單位，寫成 Mb/s 會少算八倍。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-3": {
+    "summary": "題目同時要求斷電保存與電性重寫。EEPROM 可用電性方式擦除、重新寫入，通常可在電路中處理，選 D。EPROM 雖可重寫，傳統型須以紫外線擦除；PROM 則通常只可寫一次。",
+    "options": {
+      "A": "一般 RAM 斷電後資料消失，缺少非揮發性。",
+      "B": "傳統 EPROM 須以紫外線擦除，不是直接電性重寫。",
+      "C": "PROM 通常一次可程式化，不能反覆直接擦寫。",
+      "D": "EEPROM 可電性擦除、寫入，符合斷電保存與可重寫兩條件。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-4": {
+    "summary": "整數 90 連除 8，餘數由後往前讀為 132；小數 0.375×8=3，恰好沒有剩餘小數。因此 90.375₁₀=132.3₈，選 A。可反算 1×64＋3×8＋2＋3/8=90.375。",
+    "options": {
+      "A": "132.3₈ 的整數與小數部分反算都等於題目數值。",
+      "B": "721.3₈ 的整數部分為 465，不是 90。",
+      "C": "273.1₈ 的整數部分為 187，小數也是 1/8 而非 3/8。",
+      "D": "731.2₈ 的整數部分為 473，小數為 0.25，兩部分皆不符。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-5": {
+    "summary": "抽象類別用來提供共同設計，可含抽象方法，也可含已有實作的一般方法。它本身不能直接實例化；必須由合適的具體子類別實作未完成的方法後建立物件。因此 C 是錯誤敘述，應選 C。",
+    "options": {
+      "A": "抽象類別可以宣告尚無具體實作的抽象方法，此敘述成立。",
+      "B": "一般類別可直接繼承抽象類別，但要成為具體類別須完成必要方法。",
+      "C": "不能直接 new 抽象類別；可建立的是完成抽象方法的具體子類別物件。",
+      "D": "抽象類別也能包含已有方法本體的一般方法，不必全部抽象。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-6": {
+    "summary": "標準 SQL 用 SELECT DISTINCT 移除選取欄位組合重複的結果，官方答案為 D。例如 SELECT DISTINCT 部門 FROM 員工，只保留各部門一列。須注意本題未指定資料庫產品：Oracle 的 SELECT UNIQUE 也與 DISTINCT 同義，因此不能教成 UNIQUE 在所有 SQL 系統都不合法。",
+    "options": {
+      "A": "DIFFERENCE 不是標準 SELECT 的去重複修飾詞；集合差另有 EXCEPT 等語法。",
+      "B": "Oracle 確實支援 SELECT UNIQUE 去重複；本題採標準 DISTINCT 為計分答案，題意有方言歧義。",
+      "C": "FIRST 常涉及取前幾筆，不等於刪除所有重複結果。",
+      "D": "DISTINCT 是標準且可攜的去重複關鍵字，為本題官方答案。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "Oracle：DISTINCT 與 UNIQUE 為同義關鍵字",
+        "url": "https://docs.oracle.com/en/database/oracle/oracle-database/19/sqlrf/SELECT.html"
+      }
+    ]
+  },
+  "112-3d-7": {
+    "summary": "HTML 的 a 元素用 href 屬性指定連結目標，元素內容則是顯示給讀者的文字。因此 <a href=\"http://www.google.com\">Google</a> 能建立超連結，選 C。引號可提升清楚度；題目這個不含空白的 URL 也可使用未加引號屬性值。",
+    "options": {
+      "A": "a 元素沒有以 url 屬性設定連結目標的標準用法。",
+      "B": "name 過去可命名錨點，但未提供 href，不能完成此連結目標。",
+      "C": "href 指定 URL，Google 為可見連結文字，符合超連結語法。",
+      "D": "address 不是 a 元素用來指定連結目的地的屬性。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-8": {
+    "summary": "SELECT 指定要顯示的姓名，FROM 指定資料來源員工，WHERE 再篩選部門等於財會。完整查詢為 SELECT 姓名 FROM 員工 WHERE 部門='財會';，選 A。正式執行時應使用 SQL 的半形單引號，而非排版用的彎引號。",
+    "options": {
+      "A": "同時具有選取欄位、來源表及篩選條件，三者順序正確。",
+      "B": "即使寫了表名.欄位，也仍須以 FROM 指定來源資料表。",
+      "C": "EXTRACT 不是放在 WHERE 後面用來選出欄位的查詢子句。",
+      "D": "EXTRACT 在部分系統用於日期等值的擷取，不取代 SELECT 查詢。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-9": {
+    "summary": "DML 操作資料列，例如 INSERT、UPDATE、DELETE。UPDATE 改變已存在資料列的值，選 D。ALTER TABLE 則改變表格結構；ADD、MODIFY 常是 ALTER TABLE 的結構修改子句。",
+    "options": {
+      "A": "ALTER 屬資料定義語言，通常用來變更資料庫物件結構。",
+      "B": "ADD 常出現在 ALTER TABLE 新增欄位，不是本題資料列更新命令。",
+      "C": "MODIFY 常用於調整欄位定義，是結構修改而非 DML 更新列。",
+      "D": "UPDATE 可配合 SET、WHERE 修改資料列內容，屬 DML。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-10": {
+    "summary": "查詢結果要依某欄位排列，使用 ORDER BY；ASC 表示遞增，DESC 表示遞減。例如 ORDER BY 成績 DESC 會依成績由高到低排列，選 D。HAVING 的工作是篩選分組結果，並不排序。",
+    "options": {
+      "A": "SORT BY 不是本題標準 SQL 的查詢排序子句。",
+      "B": "單獨 SORT 不能取代 SELECT 尾端的 ORDER BY。",
+      "C": "HAVING 篩選 GROUP BY 形成的群組，不決定輸出次序。",
+      "D": "ORDER BY 指定排序欄位與方向，符合查詢排序需求。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-11": {
+    "summary": "MVC 是 Model、View、Controller。Model 處理領域資料與邏輯，View 呈現介面，Controller 接收操作並協調模型與畫面。把三種責任分開有助於維護與測試，選 B。",
+    "options": {
+      "A": "Verification 與 Consistent 並不是 MVC 的 V、C 所代表的名稱。",
+      "B": "Model、View、Controller 分別對應模型、視圖與控制器。",
+      "C": "Module 與 Container 並不是此架構中 M、C 的正確全名。",
+      "D": "Model、View 雖正確，C 應為 Controller 而非 Container。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-12": {
+    "summary": "BCD 用四個位元表示一個十進位數字，例如十進位 59 分別編成 0101、1001；它不是將 59 整體轉成一般二進位。原始 ASCII 是 7 bit，EBCDIC 是 8 bit，BCDIC 常指 6 bit 字元碼，因此選 D。",
+    "options": {
+      "A": "原始 ASCII 使用 7 bit；後來的各種 8 bit 擴充不是原始規格。",
+      "B": "BCDIC 並非由 ASCII 擴充而來，兩者的歷史與編碼系統不同。",
+      "C": "EBCDIC 使用 8 bit，並不是題述的 6 bit 編碼。",
+      "D": "基本 BCD 以四位元編一個十進位數字，通常使用 0000 到 1001。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-13": {
+    "summary": "本題使用傳統南北橋主機板架構：北橋負責 CPU、主記憶體與高速顯示介面的通訊，南橋負責較低速周邊，所以選 A。現代處理器常將記憶體控制器及部分高速介面整合進 CPU，不能把舊架構當成每台現代電腦必有的獨立晶片。",
+    "options": {
+      "A": "傳統北橋連接 CPU、RAM 及高速顯示介面，正是題目所列裝置。",
+      "B": "南橋主要處理儲存與較低速周邊，並非傳統高速通訊樞紐。",
+      "C": "顯示晶片負責圖形運算與輸出，不等於統籌 CPU 與 RAM 的北橋。",
+      "D": "數位類比轉換器轉換訊號形式，不是主機板高速匯流排控制晶片。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-14": {
+    "summary": "比特幣沒有可讓使用者單方取消已確認交易的中央機構；若需退還，一般須由收款方另發交易。因此 B 的「完成後仍可取消」不符合此機制，選 B。區塊鏈重組是共識層風險，與一般使用者可任意撤銷不同；比特幣也較精確稱為假名制，公開交易可能被追蹤。",
+    "options": {
+      "A": "比特幣由共識規則與挖礦等機制發行，沒有中央銀行式發行單位。",
+      "B": "已確認交易不能由付款人單方面取消；退款需另做交易。",
+      "C": "依協定的發行規則，總量有上限，並非無限制增發。",
+      "D": "地址是假名而非保證匿名，公開交易可追蹤，這是本題採取的解讀。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-15": {
+    "summary": "插入 20 後，50 的左子樹比右子樹高兩層，新增點落在其左孩子 40 的左子樹，屬 LL 失衡。對 50 做一次右旋：40 成為根，左為 30（左為 20），右為 50（左 45、右 60）。前序根、左、右得到 40、30、20、50、45、60，選 D。",
+    "options": {
+      "A": "以 20 開頭會把最小值當成根，不是此處 LL 失衡的一次右旋結果。",
+      "B": "45 應是 50 的左子節點，前序須先訪問父節點 50 再訪問 45。",
+      "C": "仍以 50 為根，未修正造成失衡的左子樹高度。",
+      "D": "右旋後根為 40，前序順序與每個父子關係及 BST 大小性質一致。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-16": {
+    "summary": "for 迴圈執行 c=0、1、2、3 四次。每次先 ++a 再比較：第一輪 a=1，不進 if；第二輪 a=2，不進 if；第三輪 ++a 成 3，進 if 再加成 4；第四輪 ++a 成 5，再加成 6。最後輸出 6，選 C。變數 b 沒有參與計算。",
+    "options": {
+      "A": "4 只算四次條件內的前置遞增，漏掉兩次 if 本體的 a++。",
+      "B": "5 少算第四輪條件成立後的那一次額外遞增。",
+      "C": "四輪結束 a 依序為 1、2、4、6，最後輸出 6。",
+      "D": "7 多算了一次遞增；迴圈僅執行四次，額外遞增只發生兩次。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-17": {
+    "summary": "SVG 以路徑、線段、文字等可縮放圖形元素描述圖像，放大時能重新繪製幾何形狀，屬向量格式，選 A。PNG、GIF、JPEG 則以像素陣列為基本影像表示。",
+    "options": {
+      "A": "SVG 可用向量路徑描述幾何圖形，符合向量圖型。",
+      "B": "PNG 是像素影像格式，常用無失真壓縮與透明度。",
+      "C": "GIF 是調色盤式點陣影像，可支援簡單動畫，並非向量格式。",
+      "D": "JPEG 是常用的有失真點陣影像格式，放大仍受原像素解析度限制。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-18": {
+    "summary": "iframe 會建立獨立的內嵌瀏覽內容區域，可用 src 指定另一頁面，因此選 D。能否實際嵌入仍受對方的 CSP、X-Frame-Options 等政策限制；標籤正確不代表任何網站都允許被嵌入。",
+    "options": {
+      "A": "script 用來載入或執行程式碼，不建立顯示另一頁面的獨立瀏覽區域。",
+      "B": "style 放置 CSS 規則，負責樣式，並不嵌入另一個網站頁面。",
+      "C": "span 是一般行內容器，沒有內建的獨立頁面瀏覽功能。",
+      "D": "iframe 建立內嵌瀏覽內容，可由 src 指定要顯示的頁面。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-19": {
+    "summary": "RealAudio 為網路音訊串流設計，採用音訊編碼與壓縮，不能說成不壓縮的音樂格式，所以錯誤敘述為 C。未壓縮 PCM 音訊在聲道數、位元深度與時間相同時，取樣頻率越高，資料量越大；WAV 是容器，也可能裝載壓縮內容。",
+    "options": {
+      "A": "WMA 是 Microsoft 推出的音訊格式家族，此敘述符合歷史事實。",
+      "B": "MP3 是 MPEG Audio Layer III，會以壓縮減少音訊資料量。",
+      "C": "RealAudio 並非單純未壓縮音樂格式，這是本題要選的錯誤敘述。",
+      "D": "在其他條件固定且使用 PCM 時，提高取樣率會增加 WAV 資料量。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-20": {
+    "summary": "UDP 核心提供無連線資料報服務，不內建 TCP 式握手、確認重傳、順序及流量控制。官方 D 的「送出後不理」是在描述不保證送達、也不等待確認，並不是禁止應用程式自己設計回覆或重傳。",
+    "options": {
+      "A": "TCP 需建立連線，UDP 本身沒有相同的連線建立機制。",
+      "B": "TCP 有接收視窗等流量控制，UDP 核心沒有對應機制。",
+      "C": "UDP 可以傳送資料，但沒有內建 TCP 式確認與重傳保證。",
+      "D": "此為 UDP 不內建送達確認及重傳的口語說法，符合本題意圖。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "RFC 768：UDP",
+        "url": "https://www.rfc-editor.org/rfc/rfc768"
+      }
+    ]
+  },
+  "112-3d-21": {
+    "summary": "在關聯已符合第一正規化的前提下，若非鍵屬性完整依賴整個候選鍵，而沒有只依賴複合鍵一部分的部分依賴，就是第二正規化，選 B。本題用「非主鍵」作簡化；嚴謹定義需考量所有候選鍵與非主屬性。",
+    "options": {
+      "A": "第一正規化要求值具原子性，還不能排除對複合鍵的部分依賴。",
+      "B": "第二正規化排除非主屬性對候選鍵的部分依賴，符合完整依賴條件。",
+      "C": "第三正規化還須處理傳遞依賴等條件，題幹並未保證。",
+      "D": "第五正規化涉及連接依賴，遠超過題目只說完整鍵依賴的條件。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-22": {
+    "summary": "分頁把虛擬位址空間切成固定大小的頁，實體記憶體則有對應頁框；分段才依程式或資料的邏輯區段使用可變大小。D 將兩種切割方式混在一起，敘述錯誤，因此選 D。磁碟是傳統頁面交換的後援，不等同所有未駐留頁一定已有磁碟副本。",
+    "options": {
+      "A": "虛擬記憶體讓程式位址空間與實體 RAM 分離，可執行大於可用 RAM 的程式。",
+      "B": "傳統需求分頁會保留所需頁於 RAM，其他頁可由磁碟等後援取得。",
+      "C": "分段是虛擬記憶體的設計方式之一，具有邏輯區段概念。",
+      "D": "分頁使用固定大小頁面，不是大小不等的邏輯分段。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-23": {
+    "summary": "官方選 A：C 支援指標及低階記憶體操作，UNIX 的主要實作曾由組合語言改寫為 C。須注意 B 若只說「C++ 支援結構化程式」也成立，因 C++ 是多範式語言；不能為配合單選答案教成 C++ 不支援結構化。C、D 則各有明確的語言分類或開發者錯誤。",
+    "options": {
+      "A": "C 的指標與系統程式用途符合題意，UNIX 的主要實作歷史也支持此選項。",
+      "B": "C++ 支援結構化，也支援物件導向等範式；把它僅分類為結構化語言過度簡化，此題有語義歧義。",
+      "C": "Ada 是具型別與結構化特性的程式語言，不是標記語言。",
+      "D": "Java 最初由 Sun Microsystems 團隊開發，並非 Microsoft。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-24": {
+    "summary": "橋接器依 MAC 位址學習及轉送乙太網路訊框，運作在 OSI 第 2 層資料連結層，選 C。它可連接或分割第二層網段；題目前述「通訊協定不同」不能擴大成橋接器可任意轉換各種第三層協定。",
+    "options": {
+      "A": "應用層處理應用服務，不是依 MAC 位址過濾訊框的層級。",
+      "B": "傳輸層處理端到端 TCP、UDP 等服務，與橋接器的 MAC 表不同。",
+      "C": "資料連結層依第二層位址及訊框轉送，對應橋接器。",
+      "D": "網路層依 IP 等邏輯位址路由，主要對應路由器。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-25": {
+    "summary": "RSA 使用公開金鑰與私密金鑰配對，屬非對稱密碼系統，選 D。DES、AES 使用共享秘密金鑰，屬對稱式加密；MD5 是雜湊函數，沒有可用來還原原文的解密金鑰。",
+    "options": {
+      "A": "DES 是對稱式區塊密碼，不是公私金鑰配對的非對稱系統。",
+      "B": "AES 也是對稱式區塊密碼，加解密雙方需共享相應秘密金鑰。",
+      "C": "MD5 產生摘要，不是加解密演算法，也不能當作非對稱密碼。",
+      "D": "RSA 以公私金鑰配對運作，符合非對稱加密分類。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-26": {
+    "summary": "Bluetooth 常用於個人周邊裝置互連，例如耳機、滑鼠、手機，分類為無線個人區域網路 WPAN，選 B。此處按典型網路用途分類，不是宣稱所有藍牙裝置只能在固定幾公尺內工作。",
+    "options": {
+      "A": "WLAN 是無線區域網路，典型技術為 Wi-Fi，範圍與用途分類不同。",
+      "B": "WPAN 著重個人裝置周邊互連，符合 Bluetooth 的典型分類。",
+      "C": "WMAN 著重都會區範圍，不是藍牙個人周邊網路類型。",
+      "D": "WWAN 是廣域無線網路，典型如行動通訊網路，不是本題藍牙。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-27": {
+    "summary": "官方答案 C 應解讀為：開源授權已預先允許在遵守條款下使用、修改與散布，所以通常不必逐次另向權利人請求個別許可。原句「不須授權」不夠精確；開源仍以著作權人的授權條款為依據，不是沒有著作權。",
+    "options": {
+      "A": "免費軟體可不收使用費，但開發者並未因此放棄所有權利。",
+      "B": "Shareware 通常附試用期或功能限制，不保證可永久免費完整使用。",
+      "C": "符合開源授權條款即可依預先許可使用、修改、散布，不能解讀成完全不需要授權。",
+      "D": "Freeware 只是免費使用，不表示一定公開原始碼或符合開源授權。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-28": {
+    "summary": "點擊按鈕後，程式可透過 JavaScript 事件處理器改變 DOM 元素的樣式，並配合計時或動畫機制逐步調整字體大小、顏色，故本題預期選 B。CSS 也能定義動畫及狀態樣式，但題幹強調按鈕觸發執行一段程式。",
+    "options": {
+      "A": "CSS 可描述外觀及動畫，但題目問的是處理按鈕事件的互動程式技術。",
+      "B": "JavaScript 可回應點擊事件，操作頁面元素並動態改變樣式。",
+      "C": "HTML 定義頁面結構與內容，不單獨負責一般互動程式流程。",
+      "D": "XML 是資料標記格式，不是瀏覽器按鈕互動的執行語言。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-29": {
+    "summary": "4 分鐘=240 秒。依原題「2 個 8 bits（立體聲）」解讀為左右聲道各 8 bit，合計每取樣時刻 16 bit=2 Byte。未壓縮資料量=44100×240×2=21,168,000 Byte≈21.17 MB，選 A。此處不能再額外乘兩個聲道一次。",
+    "options": {
+      "A": "21.17 MB 是每秒 44100 次、240 秒及總共 2 Byte 的乘積。",
+      "B": "169.34 約為總 Mbit 數，若標成 MByte 就未除以 8。",
+      "C": "13.2 MB 不是題目給定取樣率、時間及位元數的乘積。",
+      "D": "132 KB 遠小於未壓縮四分鐘音訊所需資料量。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-30": {
+    "summary": "DNS 正向解析可將主機名稱查成對應 IP 位址，選 C；完整 URL 的路徑並不是交給 DNS 轉成位址。判斷網段應將 IP 與遮罩做逐位元 AND，而非 XOR。同網段主機通常能直接以鏈結層傳送，不必經路由器轉送。",
+    "options": {
+      "A": "同一網段通常能直接將封包交給對方的鏈結層位址，不必先經路由器。",
+      "B": "網路位址計算採 IP AND 遮罩，不是排他或 XOR。",
+      "C": "正向 DNS 解析以主機名稱查詢 A、AAAA 等記錄取得位址。",
+      "D": "DNS 標籤與名稱有長度限制，不能說主機名稱長度無限制。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-31": {
+    "summary": "多個來源在同時對同一目標施加大量請求，耗盡頻寬或服務資源，符合分散式阻斷服務 DDoS，選 A。其他選項描述特定封包、反射或分割漏洞；題幹沒有給出那些必要細節。",
+    "options": {
+      "A": "多來源共同使目標無法服務，是 DDoS 的核心特徵。",
+      "B": "Smurf 需偽造來源位址、利用廣播回覆放大，題幹沒有此設定。",
+      "C": "Ping of Death 利用異常超大封包等處理漏洞，不只是多主機大量送訊息。",
+      "D": "Teardrop 利用重疊分段重組的漏洞，題目未提到分段異常。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-32": {
+    "summary": "關鍵有兩項：限定服務區域內運行，而且乘員不必監控或接手。這是 Level 4 高度自動化，選 C。Level 3 仍要求人可在系統請求時接管；Level 5 則不以特定操作範圍作同樣限制。",
+    "options": {
+      "A": "Level 2 仍由人監控環境並負責駕駛，不能只當乘客。",
+      "B": "Level 3 仍需備援駕駛人在請求時接手，不符合題述不參與駕駛。",
+      "C": "Level 4 在限定操作範圍內可由系統完成駕駛及必要備援。",
+      "D": "Level 5 是更全面的全自動化，不以題述的有限服務區域為辨識點。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "NHTSA：自動駕駛分級",
+        "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicle-safety"
+      }
+    ]
+  },
+  "112-3d-33": {
+    "summary": "在感測器或端點附近直接做資料判讀，而不把所有原始資料先傳到遠端資料中心，可降低傳輸量與等待時間，屬邊緣運算，選 A。例如攝影機先在裝置上辨認事件，只回傳辨認結果。",
+    "options": {
+      "A": "邊緣運算將計算靠近資料產生的端點，符合降低傳輸與延遲的條件。",
+      "B": "高效能運算強調大量計算能力，不保證計算部署在端點。",
+      "C": "雲端運算通常由遠端資源提供服務，並不是題目強調的端點就地計算。",
+      "D": "數位計算是廣泛總稱，沒有指出資料產生處附近的部署特性。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-34": {
+    "summary": "題目描述網路刷卡時由發卡端額外驗證持卡者身分，例如輸入簡訊一次性驗證碼，是 3-D Secure，選 A。現代 3DS 也有風險評估與其他驗證方式，不是每次都必須跳出簡訊視窗。",
+    "options": {
+      "A": "3-D Secure 為網路刷卡提供持卡者驗證流程，符合題目情境。",
+      "B": "網路銀行憑證用於銀行身分及交易安全，不等同信用卡 3DS 流程。",
+      "C": "金融 XML 憑證常服務電子金融交易，並非題目簡訊刷卡驗證的名稱。",
+      "D": "Proxy 負責中介網路請求，不是信用卡持卡者驗證機制。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-35": {
+    "summary": "先將＋96 寫成 8 bit：01100000。−96 的一補數是逐位反相得到 10011111；二補數還要再加 1，得到 10100000。因此 B 正確，D 把一補數當成二補數。",
+    "options": {
+      "A": "＋96 的符號大小表示為 01100000；11000000 的符號位為負，大小也不是 96。",
+      "B": "將 01100000 各位反相即為 10011111，這是 −96 的一補數。",
+      "C": "01110000 的值為 112，不是正 96 的二補數表示。",
+      "D": "−96 的二補數是 10100000；10011111 是其一補數。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-36": {
+    "summary": "BCD 的 9 直接以 4 bit 表成 1001，所以選 A。2421 加權碼的 0100 加權為 4；84−2−1 碼的 1001 加權為 8−1=7；超三碼則須將十進位數加 3，故 4 應編成 0111。",
+    "options": {
+      "A": "1001 的 8421 加權為 8＋1=9，符合 BCD 數字 9。",
+      "B": "0100 在 2421 權重下是 4，不是 3。",
+      "C": "1001 在 8、4、−2、−1 權重下是 7，不是 8。",
+      "D": "超三碼將 4 加 3 得 7，應為 0111，並非 0100。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-37": {
+    "summary": "22.5₁₀=10110.1₂=1.01101₂×2⁴。負數符號位為 1，單精度指數偏移量為 127，所以儲存指數為 4＋127=131=10000011₂。第 31 到 23 位由符號加 8 位指數組成：1 10000011，即 110000011，選 D。",
+    "options": {
+      "A": "指數欄位接近正確，但最高符號位為 0，不能表示負的 22.5。",
+      "B": "符號為負，但指數 10010011 不是 4＋127。",
+      "C": "最高符號位為 0，指數也未對應 131。",
+      "D": "符號位 1 接上偏移指數 10000011，得到正確的九位序列。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-38": {
+    "summary": "NTSC 在本題傳統電視制式分類中是類比彩色電視標準，因此不是題目所問的數位視訊等級，選 B。SDTV、HDTV、UHDTV 分別描述標準、高畫質與超高畫質的電視影像規格層級。",
+    "options": {
+      "A": "HDTV 是高畫質電視的影像規格分類，屬題目所列數位視訊範疇。",
+      "B": "傳統 NTSC 是類比彩色電視制式，為本題要排除的選項。",
+      "C": "SDTV 是標準畫質電視，可作為數位電視的影像格式層級。",
+      "D": "UHDTV 是超高畫質電視，屬數位視訊規格分類。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-39": {
+    "summary": "XNOR 是 XOR 取反，真值為 00→1、01→0、10→0、11→1，即兩輸入相同輸出 1、相異輸出 0，所以 D 的敘述符合。原題 A 的 ⊗ 標記並非跨教材一致的 XNOR 記號；判斷時應以完整真值表為準，不宜只背外形相似的圓圈符號。",
+    "options": {
+      "A": "⊗ 並非一致通用的 XNOR 標記；本題官方未採此項，完整真值條件以 D 為準。",
+      "B": "這是 NOR 的真值條件，漏掉 XNOR 在 11 時也輸出 1。",
+      "C": "⊕ 通常表示 XOR，輸入相異時為 1，與 XNOR 相反。",
+      "D": "只有恰好一個輸入為 1 時輸出 0，兩輸入相同時均輸出 1。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "Texas Instruments：XNOR 真值表",
+        "url": "https://www.ti.com/lit/ds/symlink/sn74hc266.pdf"
+      }
+    ]
+  },
+  "112-3d-40": {
+    "summary": "這是混合式加密：先用效率高的對稱會議金鑰加密本文，再用接收者公開金鑰保護那把會議金鑰。接收者用私鑰取回會議金鑰，再解開本文，稱為數位信封，選 C。單靠這個描述並沒有額外提供發送者簽章驗證。",
+    "options": {
+      "A": "數位簽章主要以發送者私鑰產生可驗證簽章，與此處保護會議金鑰不同。",
+      "B": "數位金鑰是泛稱，並非題目整套混合式封裝機制的名稱。",
+      "C": "數位信封將本文密文與受公鑰保護的對稱金鑰一起封裝。",
+      "D": "數位稽核是檢查或追蹤紀錄的活動，不是本題的加密封裝流程。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-41": {
+    "summary": "手機貼近感應式刷卡讀取器進行短距離非接觸通訊，使用 NFC 近場通訊，選 B。Bluetooth 與 Wi-Fi 也屬無線通訊，但不是題目所描述的貼近式感應付款介面。",
+    "options": {
+      "A": "Bluetooth 常連接耳機等周邊，並非題述貼近讀卡器的感應付款技術。",
+      "B": "NFC 支援近距離非接觸式通訊，符合手機感應付款情境。",
+      "C": "紅外線多需光學方向與可見路徑，不是這類感應支付的主要介面。",
+      "D": "Wi-Fi 提供區域網路連線，不等同近場感應刷卡功能。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-42": {
+    "summary": "題幹已指定 TWCA、企業大量或大額匯款、金融交易及相關電子申報，指向金融 XML 憑證，選 D。它是金融電子憑證的服務用途，不能只因也可報稅就誤認為內政部的自然人憑證。",
+    "options": {
+      "A": "SET 是早期安全電子交易協定名稱，不是題述 TWCA 金融 XML 憑證。",
+      "B": "晶片卡是可承載金鑰的媒介，不是題幹指定的憑證服務名稱。",
+      "C": "自然人憑證的發證與服務體系不同，不能僅依報稅用途就混同。",
+      "D": "金融 XML 憑證與題述金融交易、企業匯款及 TWCA 情境相符。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-43": {
+    "summary": "三維 row-major 是最後一維變動最快。各維長度為 9、7、5，目標的零起算偏移為 [(1−(−3))×7＋(1−(−4))]×5＋(3−1)=(28＋5)×5＋2=167 個元素。位址=100＋167×2=434，選 D。",
+    "options": {
+      "A": "1345 不是依最後一維連續、每元素 2 Byte 計算的位址。",
+      "B": "2826 未使用三維列優先的正確步幅 35、5、1。",
+      "C": "267＝100＋167，只加了元素偏移，漏乘每元素 2 Byte。",
+      "D": "434＝100＋167×2，同時處理索引下界與元素大小。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-44": {
+    "summary": "下三角含對角線逐列儲存，第 1 到第 4 列共 1＋2＋3＋4=10 個元素。D[14] 是第 5 列的第 14−10=4 個元素，所以為 a₅,₄，選 A。公式為一維序號 k=i(i−1)/2＋j。",
+    "options": {
+      "A": "a₅,₄ 的序號為 5×4/2＋4=14，正確。",
+      "B": "a₆,₂ 的序號為 6×5/2＋2=17，不是 14。",
+      "C": "a₄,₂ 的序號為 4×3/2＋2=8，不是 14。",
+      "D": "a₆,₅ 的序號為 6×5/2＋5=20，不是 14。"
+    },
+    "optionVerdicts": {
+      "A": "可以選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-45": {
+    "summary": "後序遇數字入堆疊，遇運算子先取右運算元、再取左運算元。第一式=(10＋8)−6×5=−12；第二式=(6−3×5)＋(2−4)−2=−13。兩式合計 −25，選 B。減號不可把兩次彈出的先後順序顛倒。",
+    "options": {
+      "A": "−30 不是依兩個後序式各自得到 −12、−13 後的合計。",
+      "B": "−25＝−12＋(−13)，符合堆疊的左、右運算元順序。",
+      "C": "27 的正號與兩式都為負的正確運算結果不符。",
+      "D": "−8 未依後序的兩次減法與乘法次序完整計算。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-46": {
+    "summary": "依原圖還原：A 的左右為 B、C；B 的左右為 D、E；D 的右為 H；C 的左右為 F、G；F 的右為 I。前序為 A B D H E C F I G，第 3 個 D；中序為 D H B E A F I C G，第 5 個 A；後序為 H D E B I F G C A，第 8 個 C。合成 (D,A,C)，選 B。",
+    "options": {
+      "A": "前序第 3 個應為 D，不是 B；中序第 5 個也不是 E。",
+      "B": "D、A、C 分別位於三種走訪要求的位置，完整順序可逐一核對。",
+      "C": "H 是前序第 4 個，F 是中序第 6 個，不符合所問位置。",
+      "D": "H、E、G 都不是各走訪在指定位置的正確組合。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-47": {
+    "summary": "中序引線用原本空的左指標指向中序前驅，空的右指標指向中序後繼。依圖中序順序為 H D I B E A J F K C G；I 的後繼為 B，G 的前驅為 C，因此選 C。引線不等於任意連回父節點，而是依中序相鄰關係決定。",
+    "options": {
+      "A": "I 的右引線應接 B，不是跳到 E；G 的前驅也不是 F。",
+      "B": "I 的後繼 B 正確，但 G 的前驅為 C，並非 F。",
+      "C": "中序相鄰的 I→B 與 C→G，決定兩條引線的目標。",
+      "D": "G 的左引線 C 正確，但 I 的右引線不應跳過 B 指向 E。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "可以選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-48": {
+    "summary": "在無向圖中，若要每條邊恰走一次後回到起點，進入某頂點與離開它的邊須成對，因此每個頂點度數須為偶數，選 D。此外所有有邊的頂點還須位在同一連通分量；原題只列出度數條件，不能漏教連通性。",
+    "options": {
+      "A": "所有頂點都是奇度數不可能形成封閉的逐邊一次走訪。",
+      "B": "邊數是否能被頂點數整除，並非尤拉循環的判定條件。",
+      "C": "總邊數與總頂點數的倍數關係，不能保證每個頂點都是偶度。",
+      "D": "每個頂點偶度為必要條件；連同非孤立部分連通才構成完整條件。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-49": {
+    "summary": "依邊權重作 Kruskal：選 1–6(1)、3–4(2)、2–7(4)、2–3(6)，接著 4–7(8) 會成環而略過；再選 4–5(16)，5–7(18) 同樣成環略過；最後選 5–6(21) 接上兩部分。六條邊總重 1＋2＋4＋6＋16＋21=50，選 B。最小生成樹不因指定從 1 開始就變成最短路徑樹。",
+    "options": {
+      "A": "4–7 權重 8 雖小，但與已選的 4–3–2–7 形成迴圈，須排除。",
+      "B": "六條選邊連接七個頂點且不成環，總權重為 50。",
+      "C": "5–7 權重 18 會與已連通的路徑成環，不納入最小生成樹。",
+      "D": "48 小於依最小跨割選邊計算的 50，並非本圖生成樹總重。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "可以選。",
+      "C": "不選。",
+      "D": "不選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  },
+  "112-3d-50": {
+    "summary": "逐步比較距離：到 2 為 4，到 3 可經 2 得 5；到 6 可經 3 得 9；到 5 再經 6 得 10；到 7 得 10＋6=16。故最短路徑為 1→2→3→6→5→7，共 6 個節點，選 D。原題開頭把最小生成樹與最短路徑混用，兩者一般並不等價，此題應按有向加權最短路徑計算。",
+    "options": {
+      "A": "最短距離為 16，並非 19，可由 1→2→3→6→5→7 直接驗算。",
+      "B": "4→3 雖是一條合法有向邊，但最佳路徑是 1→2→3，沒有經過 4。",
+      "C": "從 3 經 6 到 5 的代價 4＋1=5，比直接 3→5 的 6 更低。",
+      "D": "最佳路徑依序經 1、2、3、6、5、7，共六個節點，總距離 16。"
+    },
+    "optionVerdicts": {
+      "A": "不選。",
+      "B": "不選。",
+      "C": "不選。",
+      "D": "可以選。"
+    },
+    "sources": [
+      {
+        "title": "112 年資料處理大意官方試題",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=112010&c=508&s=0601&q=1"
+      },
+      {
+        "title": "考選部標準答案",
+        "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=112010&c=508&s=0601&q=1"
+      }
+    ]
+  }
+}
