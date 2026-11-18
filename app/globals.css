@@ -522,3 +522,7 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
  .personal-record-table{font-size:11px;}
  .personal-record-table th,.personal-record-table td{padding:13px 3px;}
 }
+
+/* Clear the browser's button padding so the account icon centers in its circle. */
+.avatar{padding:0;flex-shrink:0;line-height:1;}
+.avatar svg{display:block;}
