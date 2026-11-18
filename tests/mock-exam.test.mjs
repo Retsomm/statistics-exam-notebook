@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {createMockRun,drawMockPaper,finishMockPaper,mergeMockRuns,remainingMs,mockAverage,MOCK_DURATION,validMockRun} from '../lib/mock-exam.mjs';
+import {createMockRun,drawMockPaper,finishMockPaper,mergeMockRuns,remainingMs,mockAverage,MOCK_DURATION,validMockRun,resetMockRuns,latestMockScores} from '../lib/mock-exam.mjs';
 import {emptyState,validateBackup,mergeStates} from '../lib/study.mjs';
 import {stateChanges,cloudState,applyQuestionMutation} from '../lib/sync-model.mjs';
 import {resolveExplanation} from '../lib/explanation-flow.mjs';
@@ -48,4 +48,34 @@ test('mock explanations require an explicit click and a submitted paper',()=>{
  const selection={questionId:bank.questions[0].id,context:'mock'},base={questions:qmap,session:null,screen:'mock',result:false,savedIds:[]};
  assert.equal(resolveExplanation(null,base),null);assert.equal(resolveExplanation(selection,base),null);
  assert.equal(resolveExplanation(selection,{...base,mockReviewIds:[selection.questionId]}).question.id,selection.questionId);
+});
+
+test('a subject can be completed and repeated without taking the other three',()=>{
+ const r=createMockRun(bank,[],id,start,()=>0.4,[2]);assert.equal(r.papers.length,1);assert.equal(r.papers[0].subjectIndex,2);assert.ok(validMockRun(r));
+ r.papers[0]=finishMockPaper({...r.papers[0],startedAt:new Date(start).toISOString()},qmap,start+1000);
+ assert.ok(validMockRun(r));assert.equal(mockAverage(r),null);
+ const next=createMockRun(bank,[r],crypto.randomUUID(),start+2000,()=>0.4,[2]);
+ assert.ok(next.papers[0].ids.every(id=>!r.papers[0].ids.includes(id)));
+ assert.deepEqual(validateBackup({...emptyState(),mockRuns:[r,next]},known).mockRuns,[next,r]);
+});
+test('reset scores survive offline queues, stale imports and remote completion while preserving coverage',()=>{
+ const r=make();r.papers[0]=finishMockPaper({...r.papers[0],startedAt:new Date(start).toISOString(),choices:{[r.papers[0].ids[0]]:qmap.get(r.papers[0].ids[0]).accepted[0].split('')}},qmap,start+1000);
+ const reset=resetMockRuns([r],start+2000)[0];assert.ok(validMockRun(reset));assert.equal(reset.papers[0].score,undefined);assert.deepEqual(reset.papers[0].choices,{});assert.deepEqual(reset.papers[0].ids,r.papers[0].ids);
+ assert.equal(mockAverage(reset),null);assert.equal(latestMockScores([reset]).papers[0],null);
+ assert.deepEqual(mergeMockRuns([reset],[r]),[reset]);assert.deepEqual(mergeMockRuns([r],[reset]),[reset]);
+ const before={...emptyState(),mockRuns:[r],bookmarks:[r.papers[0].ids[0]]},after={...before,mockRuns:[reset]};
+ const mutations=stateChanges(before,after).map((m,i)=>({...m,id:`reset-${i}`}));
+ const safe=cloudState(new Map([[`_mock-${r.id}`,{mockRun:r}]]),undefined,bank.questions,mutations);
+ assert.deepEqual(safe.mockRuns,[reset]);assert.deepEqual(mergeStates(after,before).mockRuns,[reset]);assert.deepEqual(after.bookmarks,before.bookmarks);
+ const next=drawMockPaper(bank,0,[reset],()=>0.4);assert.ok(next.ids.every(id=>!reset.papers[0].ids.includes(id)));
+});
+test('cross-attempt benchmark average requires one completed result for every distinct subject',()=>{
+ const runs=[0,1,2,3].map(subject=>{const r=createMockRun(bank,[],crypto.randomUUID(),start,()=>0.4,[subject]);r.papers[0]=finishMockPaper({...r.papers[0],startedAt:new Date(start).toISOString()},qmap,start+1000);return r;});
+ assert.equal(latestMockScores(runs.slice(0,3)).average,null);assert.equal(latestMockScores(runs).papers.length,4);assert.equal(latestMockScores(runs).average,0);
+ const newer=createMockRun(bank,runs,crypto.randomUUID(),start+1000,()=>0.4,[0]);
+ newer.papers[0].startedAt=new Date(start+1000).toISOString();for(const id of newer.papers[0].ids)newer.papers[0].choices[id]=qmap.get(id).accepted[0].split('');
+ newer.papers[0]=finishMockPaper(newer.papers[0],qmap,start+2000);
+ assert.equal(latestMockScores([...runs,newer]).average,25);
+ assert.equal(latestMockScores([...runs,...resetMockRuns([newer])]).average,0);
+ assert.equal(latestMockScores(resetMockRuns(runs)).average,null);
 });

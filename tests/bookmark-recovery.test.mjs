@@ -102,3 +102,16 @@ test('visit dates survive queued reload, coalescing and stale concurrent devices
  assert.equal(remote.has('activity'),false);
  restored.sync.stop();stale.sync.stop();second.sync.stop();
 });
+
+test('single-subject score reset survives coalescing, reconnect and stale device upload',async()=>{
+ const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url))),qmap=new Map(questions.map(q=>[q.id,q]));
+ const run=mockExam.createMockRun(bank,[],crypto.randomUUID(),Date.parse('2026-11-18T00:00:00Z'),()=>0.4,[2]);
+ run.papers[0]=mockExam.finishMockPaper({...run.papers[0],startedAt:'2026-11-18T00:00:00Z'},qmap,Date.parse('2026-11-18T00:00:10Z'));
+ const state={...emptyState(),mockRuns:[run]},reset={...state,mockRuns:mockExam.resetMockRuns([run],Date.parse('2026-11-18T00:00:20Z'))};
+ const first=controller(emptyState());await first.sync.start();
+ first.sync.enqueue(model.stateChanges(emptyState(),state));first.sync.enqueue(model.stateChanges(state,reset));first.sync.enqueue(model.stateChanges(emptyState(),state));await first.flush();
+ const second=controller(state,first.remote,first.sessionJSON);await second.sync.start();
+ assert.equal(second.received.mockRuns[0].resetAt,'2026-11-18T00:00:20.000Z');assert.equal(second.received.mockRuns[0].papers[0].score,undefined);
+ assert.deepEqual(second.received.mockRuns[0].papers[0].choices,{});
+ first.sync.stop();second.sync.stop();
+});

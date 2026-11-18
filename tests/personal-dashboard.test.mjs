@@ -56,3 +56,9 @@ test('visit mutations are additive, replay safe and independent of legacy sessio
  assert.deepEqual(state.visitDays,merged.visitDays);
  assert.deepEqual(stateChanges(after,emptyState()),[]);
 });
+
+test('reset mock attempts no longer contribute to personal learning totals',()=>{
+ const paper={subjectIndex:q.subjectIndex,ids:[q.id],choices:{[q.id]:q.accepted[0].split('')},completedAt:new Date(now).toISOString()};
+ const state={...emptyState(),mockRuns:[{id:'reset',resetAt:new Date(now).toISOString(),papers:[paper]}]};
+ const data=personalDashboard(state,questions,now);assert.equal(data.completedPapers,0);assert.equal(data.todayActivity.mock,0);
+});
