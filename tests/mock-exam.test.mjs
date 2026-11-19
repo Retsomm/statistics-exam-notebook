@@ -79,3 +79,40 @@ test('cross-attempt benchmark average requires one completed result for every di
  assert.equal(latestMockScores([...runs,...resetMockRuns([newer])]).average,0);
  assert.equal(latestMockScores(resetMockRuns(runs)).average,null);
 });
+
+test('English groups remain complete, contiguous and in original order for raw and reflowed banks',async()=>{
+ const {prepareQuestionText}=await import('../lib/question-text.mjs');
+ const passages=JSON.parse(readFileSync(new URL('../data/english-passages.json',import.meta.url)));
+ const sourceGroups=Object.values(passages).map(p=>p.questionIds.filter(id=>qmap.has(id))).filter(ids=>ids.length);
+ const groupSizes=new Set(),seen=new Set(),runs=[];
+ let seed=123456;const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+ for(let round=0;round<60;round++){
+  const source=round%2?{...bank,questions:bank.questions.map(prepareQuestionText)}:bank;
+  const paper=drawMockPaper(source,1,runs,random);assert.equal(paper.ids.length,50);assert.equal(new Set(paper.ids).size,50);
+  assert.ok(paper.ids.slice(0,35).every(id=>qmap.get(id).number<=35));
+  const english=paper.ids.slice(35),kinds=english.map(id=>{const q=qmap.get(id);return !q.passage.trim()?0:q.englishFormat==='cloze'||q.clozeNumbers?.length||/空格/.test(q.stem)?1:2;});
+  assert.deepEqual(kinds,[...kinds].sort((a,b)=>a-b));
+  for(const ids of sourceGroups){
+   const positions=ids.map(id=>paper.ids.indexOf(id));if(positions.every(p=>p<0))continue;
+   assert.ok(positions.every(p=>p>=35),'every question in a selected passage must appear');
+   const ordered=[...ids].sort((a,b)=>qmap.get(a).number-qmap.get(b).number);
+   const start=paper.ids.indexOf(ordered[0]);assert.deepEqual(paper.ids.slice(start,start+ordered.length),ordered);groupSizes.add(ids.length);
+  }
+  const selected=paper.ids.map(id=>qmap.get(id));const answers=Object.fromEntries(selected.map(q=>[q.id,q.accepted[0].split('')]));
+  const finished=finishMockPaper({...paper,startedAt:new Date(start).toISOString(),choices:answers},qmap,start+1000);assert.equal(finished.score,100);assert.equal(finished.max,100);
+  for(const id of english)seen.add(id);
+  runs.push({id:crypto.randomUUID(),createdAt:new Date(start+round).toISOString(),papers:[{...paper,startedAt:new Date(start).toISOString()}]});
+  if(seen.size===bank.questions.filter(q=>q.subjectIndex===1&&q.number>35).length)break;
+ }
+ assert.equal(seen.size,bank.questions.filter(q=>q.subjectIndex===1&&q.number>35).length,'every English question remains reachable');
+ assert.deepEqual([...groupSizes].sort(),[3,4,5]);
+});
+
+test('a partially seen legacy passage is drawn as a whole when it is the only remaining unseen unit',()=>{
+ const passages=JSON.parse(readFileSync(new URL('../data/english-passages.json',import.meta.url)));
+ const target=passages['114-1-41'].questionIds,unseenId=target.at(-1);
+ const runs=[{papers:[{subjectIndex:1,startedAt:new Date(start).toISOString(),ids:bank.questions.filter(q=>q.subjectIndex===1&&q.id!==unseenId).map(q=>q.id)}]}];
+ const paper=drawMockPaper(bank,1,runs,()=>0.4);
+ for(const id of target)assert.ok(paper.ids.includes(id));
+ const position=paper.ids.indexOf(target[0]);assert.deepEqual(paper.ids.slice(position,position+target.length),target);
+});

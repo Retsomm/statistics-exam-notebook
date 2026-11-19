@@ -54,3 +54,26 @@ test('legacy incomplete four-paper attempts do not block a new subject',async({p
  await page.addInitScript(run=>{const key='yueri:next:v1:guest';if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify({version:1,bookmarks:[],history:[],notes:{},records:{},wrong:{},mockRuns:[run]}));},run);
  await page.goto('/demo/');await open(page);await page.getByRole('button',{name:'開始資料處理大意模擬考',exact:true}).click();await expect(page.getByRole('heading',{name:'模擬考 · 資料處理大意',exact:true})).toBeVisible();
 });
+
+for(const width of [390,1440])test(`English mock passages stay together, ordered and resumable at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:1000});await page.goto('/demo/');await open(page);
+ await page.getByRole('button',{name:'開始公民與英文模擬考',exact:true}).click();
+ const bank=JSON.parse(readFileSync('data/bank.json','utf8')),questions=new Map<string,any>(bank.questions.map((q:any)=>[q.id,q]));
+ const ids:string[]=await page.evaluate(()=>JSON.parse(localStorage.getItem('yueri:next:v1:guest')!).mockRuns[0].papers[0].ids);
+ expect(ids).toHaveLength(50);expect(ids.slice(0,35).every(id=>questions.get(id).number<=35)).toBeTruthy();
+ const sourceGroups=Object.values(JSON.parse(readFileSync('data/english-passages.json','utf8'))) as {questionIds:string[]}[];
+ const selected=sourceGroups.filter(group=>group.questionIds.some(id=>ids.includes(id)));
+ expect(selected.length).toBeGreaterThan(0);
+ for(const group of selected){const position=ids.indexOf(group.questionIds[0]);expect(position).toBeGreaterThan(35);expect(ids.slice(position,position+group.questionIds.length)).toEqual(group.questionIds);}
+ const jump=async(index:number)=>{await page.locator('.question-navigation summary').click();await page.getByRole('button',{name:`跳到本回合第 ${index+1} 題`,exact:true}).click();};
+ await jump(35);await expect(page.locator('.question-passage')).toHaveCount(0);
+ for(const group of selected){
+  const position=ids.indexOf(group.questionIds[0]);await jump(position);
+  const passage=await page.locator('.question-passage').innerText();expect(passage.length).toBeGreaterThan(20);
+  for(let offset=1;offset<group.questionIds.length;offset++){await jump(position+offset);await expect(page.locator('.question-passage')).toHaveText(passage,{useInnerText:true});}
+ }
+ const lastId=ids[ids.indexOf(selected.at(-1)!.questionIds[0])+selected.at(-1)!.questionIds.length-1];
+ await page.reload();await open(page);await expect(page.locator('.question-passage')).toBeVisible();
+ const stored=await page.evaluate(()=>JSON.parse(localStorage.getItem('yueri:next:v1:guest')!).mockRuns[0].papers[0]);expect(stored.ids).toEqual(ids);expect(stored.ids[stored.index]).toBe(lastId);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});
