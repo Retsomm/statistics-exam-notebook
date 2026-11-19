@@ -65,7 +65,7 @@ for(const width of [390,1440])test(`English mock passages stay together, ordered
  const selected=sourceGroups.filter(group=>group.questionIds.some(id=>ids.includes(id)));
  expect(selected.length).toBeGreaterThan(0);
  for(const group of selected){const position=ids.indexOf(group.questionIds[0]);expect(position).toBeGreaterThan(35);expect(ids.slice(position,position+group.questionIds.length)).toEqual(group.questionIds);}
- const jump=async(index:number)=>{await page.locator('.question-navigation summary').click();await page.getByRole('button',{name:`跳到本回合第 ${index+1} 題`,exact:true}).click();};
+ const jump=async(index:number)=>{if(await page.locator('.question-navigation').getAttribute('open')===null)await page.locator('.question-navigation summary').click();await page.getByRole('button',{name:`跳到本回合第 ${index+1} 題`,exact:true}).click();};
  await jump(35);await expect(page.locator('.question-passage')).toHaveCount(0);
  for(const group of selected){
   const position=ids.indexOf(group.questionIds[0]);await jump(position);
@@ -92,7 +92,7 @@ for(const width of [390,1440])for(const [subject,linked] of [
  await page.getByRole('button',{name:`開始${bank.subjects[subject]}模擬考`,exact:true}).click();
  const ids:string[]=await page.evaluate(()=>JSON.parse(localStorage.getItem('yueri:next:v1:guest')!).mockRuns.find((r:any)=>!r.resetAt).papers[0].ids);
  const position=ids.indexOf(linked[0]);expect(position).toBeGreaterThanOrEqual(0);expect(ids.slice(position,position+linked.length)).toEqual(linked);
- await page.locator('.question-navigation summary').click();await page.getByRole('button',{name:`跳到本回合第 ${position+1} 題`,exact:true}).click();
+ if(await page.locator('.question-navigation').getAttribute('open')===null)await page.locator('.question-navigation summary').click();await page.getByRole('button',{name:`跳到本回合第 ${position+1} 題`,exact:true}).click();
  for(let i=0;i<linked.length;i++){
   await expect(page.locator('.practice-head p')).toContainText(`第 ${questions.get(linked[i]).number} 題`);
   if(i<linked.length-1){await page.getByRole('group',{name:/選項/}).getByRole('button').first().click();await page.getByRole('button',{name:'保存並下一題',exact:true}).click();}
