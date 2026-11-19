@@ -237,6 +237,18 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=104010&c=508&s=0104&q=1",
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=M&code=104010&c=508&s=0104&q=1"
       ]
+    },
+    {
+      "key": "096bdde189d895894d4f080e9a90195b11989f759f26b62006447be528cdbcc5",
+      "questionId": "109-3d-47",
+      "kind": "scan",
+      "fixCommit": "1345859cbe6f431efbd2cbfcd957af62b453992a",
+      "resolution": "已核對官方原卷第 4 頁二元樹與四選項、標準答案第 47 題 A，官方查詢頁未列本卷更正答案。文字辨識與網站計分正確，實際問題為解析不足，未發現官方答案疑義。已補上左子樹 4275 → 根 1 → 右子樹 3869 的五步中序走訪、標示九個輸出步驟的重繪樹圖，並逐項解釋 B 為前序及 C、D 的錯誤；保留 A（427513869）計分。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=109010&c=508&s=0701&q=1&t=Q#page=4",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=109010&c=508&s=0701&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=109010&y=2020"
+      ]
     }
   ]
 }
