@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {createMockRun,drawMockPaper,finishMockPaper,mergeMockRuns,remainingMs,mockAverage,MOCK_DURATION,validMockRun,resetMockRuns,latestMockScores} from '../lib/mock-exam.mjs';
+import {createMockRun,drawMockPaper,finishMockPaper,mergeMockRuns,remainingMs,mockAverage,MOCK_DURATION,validMockRun,resetMockRuns,latestMockScores,buildQuestionBlocks} from '../lib/mock-exam.mjs';
 import {emptyState,validateBackup,mergeStates} from '../lib/study.mjs';
 import {stateChanges,cloudState,applyQuestionMutation} from '../lib/sync-model.mjs';
 import {resolveExplanation} from '../lib/explanation-flow.mjs';
@@ -71,12 +71,12 @@ test('reset scores survive offline queues, stale imports and remote completion w
 });
 test('cross-attempt benchmark average requires one completed result for every distinct subject',()=>{
  const runs=[0,1,2,3].map(subject=>{const r=createMockRun(bank,[],crypto.randomUUID(),start,()=>0.4,[subject]);r.papers[0]=finishMockPaper({...r.papers[0],startedAt:new Date(start).toISOString()},qmap,start+1000);return r;});
- assert.equal(latestMockScores(runs.slice(0,3)).average,null);assert.equal(latestMockScores(runs).papers.length,4);assert.equal(latestMockScores(runs).average,0);
+ assert.equal(latestMockScores(runs.slice(0,3)).average,null);assert.equal(latestMockScores(runs).papers.length,4);const baseline=Math.round((runs.reduce((sum,r)=>sum+r.papers[0].score,0)/4+Number.EPSILON)*100)/100;assert.equal(latestMockScores(runs).average,baseline);
  const newer=createMockRun(bank,runs,crypto.randomUUID(),start+1000,()=>0.4,[0]);
  newer.papers[0].startedAt=new Date(start+1000).toISOString();for(const id of newer.papers[0].ids)newer.papers[0].choices[id]=qmap.get(id).accepted[0].split('');
  newer.papers[0]=finishMockPaper(newer.papers[0],qmap,start+2000);
- assert.equal(latestMockScores([...runs,newer]).average,25);
- assert.equal(latestMockScores([...runs,...resetMockRuns([newer])]).average,0);
+ assert.equal(latestMockScores([...runs,newer]).average,Math.round(((100+runs.slice(1).reduce((sum,r)=>sum+r.papers[0].score,0))/4+Number.EPSILON)*100)/100);
+ assert.equal(latestMockScores([...runs,...resetMockRuns([newer])]).average,baseline);
  assert.equal(latestMockScores(resetMockRuns(runs)).average,null);
 });
 
@@ -115,4 +115,38 @@ test('a partially seen legacy passage is drawn as a whole when it is the only re
  const paper=drawMockPaper(bank,1,runs,()=>0.4);
  for(const id of target)assert.ok(paper.ids.includes(id));
  const position=paper.ids.indexOf(target[0]);assert.deepEqual(paper.ids.slice(position,position+target.length),target);
+});
+
+test('all subjects group preceding references, multi-question chains and shared passages',()=>{
+ const blocks=buildQuestionBlocks(bank.questions);
+ for(const expected of [
+  ['113-0-26','113-0-27'],['111-0-29','111-0-30'],['111-0-31','111-0-32'],
+  ['100-0-31','100-0-32','100-0-33'],['099-0-1','099-0-2','099-0-3'],
+  ['114-1-11','114-1-12'],['097-1-26','097-1-27'],['099-1-13','099-1-14'],
+  ['115-2s-5','115-2s-6'],['115-2s-35','115-2s-36','115-2s-37'],['100-2s-23','100-2s-24','100-2s-25'],
+  ['108-3d-9','108-3d-10'],['104-3d-47','104-3d-48','104-3d-49','104-3d-50']
+ ])assert.deepEqual(blocks.find(group=>group.some(q=>q.id===expected.at(-1))).map(q=>q.id),expected);
+});
+
+test('dependent questions in every subject stay complete, consecutive and scored to 100',()=>{
+ const blocks=buildQuestionBlocks(bank.questions).filter(g=>g.length>1),runs=[];
+ let seed=9786;const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+ for(let round=0;round<10;round++){
+  const run=createMockRun(bank,runs,crypto.randomUUID(),start+round,random);
+  for(const paper of run.papers){
+   for(const group of blocks){const ids=group.map(q=>q.id);if(!ids.some(id=>paper.ids.includes(id)))continue;const position=paper.ids.indexOf(ids[0]);assert.ok(position>=0);assert.deepEqual(paper.ids.slice(position,position+ids.length),ids);}
+   assert.equal(new Set(paper.ids).size,paper.ids.length);
+   if(paper.subjectIndex===0){assert.equal(paper.ids.slice(0,35).filter(id=>qmap.get(id).multi).length,0);assert.equal(paper.ids.slice(35).filter(id=>qmap.get(id).multi).length,10);}
+   paper.startedAt=new Date(start).toISOString();paper.choices=Object.fromEntries(paper.ids.map(id=>[id,qmap.get(id).accepted[0].split('')]));
+   const completed=finishMockPaper(paper,qmap,start+1000);assert.equal(completed.score,100);assert.equal(completed.max,100);
+  }
+  runs.push(run);
+ }
+});
+
+test('the last unseen dependent item includes its already-seen prerequisites in every subject',()=>{
+ for(const [subject,ids] of [[0,['113-0-26','113-0-27']],[1,['114-1-11','114-1-12']],[2,['115-2s-35','115-2s-36','115-2s-37']],[3,['108-3d-9','108-3d-10']]]){
+  const history=[{papers:[{subjectIndex:subject,startedAt:new Date(start).toISOString(),ids:bank.questions.filter(q=>q.subjectIndex===subject&&q.id!==ids.at(-1)).map(q=>q.id)}]}];
+  const paper=drawMockPaper(bank,subject,history,()=>0.4),position=paper.ids.indexOf(ids[0]);assert.ok(position>=0);assert.deepEqual(paper.ids.slice(position,position+ids.length),ids);
+ }
 });

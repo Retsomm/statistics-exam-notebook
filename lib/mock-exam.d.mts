@@ -12,3 +12,5 @@ export function formatDuration(ms:number,roundUp?:boolean):string;
 
 export function resetMockRuns(runs:MockRun[],now?:number):MockRun[];
 export function latestMockScores(runs:MockRun[]):{papers:(MockPaper|null)[];average:number|null};
+
+export function buildQuestionBlocks(questions:Question[]):Question[][];

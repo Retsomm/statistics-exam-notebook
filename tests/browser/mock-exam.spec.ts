@@ -77,3 +77,26 @@ for(const width of [390,1440])test(`English mock passages stay together, ordered
  const stored=await page.evaluate(()=>JSON.parse(localStorage.getItem('yueri:next:v1:guest')!).mockRuns[0].papers[0]);expect(stored.ids).toEqual(ids);expect(stored.ids[stored.index]).toBe(lastId);
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
+
+for(const width of [390,1440])for(const [subject,linked] of [
+ [0,['113-0-26','113-0-27']],
+ [1,['114-1-11','114-1-12']],
+ [2,['115-2s-35','115-2s-36','115-2s-37']],
+ [3,['108-3d-9','108-3d-10']],
+] as [number,string[]][])test(`subject ${subject} retains preceding questions in order at ${width}px`,async({page})=>{
+ const bank=JSON.parse(readFileSync('data/bank.json','utf8')),questions=new Map<string,any>(bank.questions.map((q:any)=>[q.id,q]));
+ const covered=bank.questions.filter((q:any)=>q.subjectIndex===subject&&q.id!==linked.at(-1)).map((q:any)=>q.id),runs=[];
+ for(let i=0;i<covered.length;i+=40){const ids=covered.slice(i,i+40);runs.push({id:crypto.randomUUID(),createdAt:'2020-01-01T00:00:00Z',resetAt:'2020-01-02T00:00:00Z',papers:[{subjectIndex:subject,ids,choices:{},index:0,durationMs:3600000,points:100/ids.length,startedAt:'2020-01-01T00:00:00Z'}]});}
+ await page.addInitScript(mockRuns=>{const key='yueri:next:v1:guest';if(!localStorage.getItem(key))localStorage.setItem(key,JSON.stringify({version:1,bookmarks:[],history:[],notes:{},records:{},wrong:{},mockRuns}));},runs);
+ await page.setViewportSize({width,height:1000});await page.goto('/demo/');await open(page);
+ await page.getByRole('button',{name:`開始${bank.subjects[subject]}模擬考`,exact:true}).click();
+ const ids:string[]=await page.evaluate(()=>JSON.parse(localStorage.getItem('yueri:next:v1:guest')!).mockRuns.find((r:any)=>!r.resetAt).papers[0].ids);
+ const position=ids.indexOf(linked[0]);expect(position).toBeGreaterThanOrEqual(0);expect(ids.slice(position,position+linked.length)).toEqual(linked);
+ await page.locator('.question-navigation summary').click();await page.getByRole('button',{name:`跳到本回合第 ${position+1} 題`,exact:true}).click();
+ for(let i=0;i<linked.length;i++){
+  await expect(page.locator('.practice-head p')).toContainText(`第 ${questions.get(linked[i]).number} 題`);
+  if(i<linked.length-1){await page.getByRole('group',{name:/選項/}).getByRole('button').first().click();await page.getByRole('button',{name:'保存並下一題',exact:true}).click();}
+ }
+ await page.reload();await open(page);await expect(page.locator('.practice-head p')).toContainText(`第 ${questions.get(linked.at(-1)!).number} 題`);
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});
