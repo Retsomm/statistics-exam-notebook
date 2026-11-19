@@ -102,6 +102,26 @@ function optionExplanation(question,option,correct,topic){
  return `（${option.letter}）不選。${concept||`「${optionText}」沒有得到題幹條件支持；依題意應選「${correctText}」。`}本題問的結論是「${correctText}」，不能只看名詞相近就選它。`;
 }
 const checkedCalculations={
+ '106-2s-31':{
+  summary:'原卷的迴歸式為 ŷ = 1 + 5x。殘差是實際觀察值 y 減掉迴歸線預測值 ŷ；殘差平方和 SSE 則是逐筆將殘差平方後相加。\n\n資料點（2, 8）：ŷ=1+5×2=11，殘差為 8−11=−3，平方為 9。\n資料點（1, 5）：ŷ=1+5×1=6，殘差為 5−6=−1，平方為 1。\n資料點（2, 7）：ŷ=1+5×2=11，殘差為 7−11=−4，平方為 16。\n\nSSE=(8−11)²+(5−6)²+(7−11)²=9+1+16=26，所以選（C）。第一筆和第三筆雖然 x 都是 2，仍是兩筆不同的觀察值，必須各算一次殘差。',
+  options:{
+   A:'（A）20：不選。三筆資料的殘差平方分別為 9、1、16，應相加為 26，並非 20。',
+   B:'（B）28：不選。將 x=2、1、2 代入後，預測值為 11、6、11；逐筆計算後得到 9+1+16=26，並非 28。',
+   C:'（C）26：可以選。殘差平方和為 (8−11)²+(5−6)²+(7−11)²=9+1+16=26。',
+   D:'（D）30：不選。必須把每筆 y 與其預測值 ŷ 的差平方後相加，本題合計為 26，與 30 不符。'
+  },
+  sources:[{title:'106 年統計學大意官方原卷第 3 頁，第 31 題',url:'https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=106010&c=508&s=0602&q=1&t=Q#page=3'},{title:'106 年統計學大意官方標準答案：第 31 題 C',url:'https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=106010&c=508&s=0602&q=1&t=S'}]
+ },
+ '106-2s-25':{
+  summary:'這題要先用「平方和 ÷ 均方」算出自由度，再加 1 得到處理種類或集區的個數。自由度不是組數本身。\n\n設處理數為 t、集區數為 b。隨機集區設計中，處理自由度是 t−1，集區自由度是 b−1。\n\n處理部分：MSTR=SSTR/(t−1)，所以 t−1=150÷50=3，得到 t=4 種處理。\n\n集區部分：MSB=SSB/(b−1)，所以 b−1=100÷25=4，得到 b=5 個集區。\n\n因此答案是（B）4 種處理，5 個集區。題目的 SST=350 是總平方和，求這兩個個數時不必使用。',
+  options:{
+   A:'（A）3 種處理，5 個集區：不選。集區數 5 正確，但 150÷50=3 是處理自由度 t−1，還要加 1 才得到 4 種處理，不能把自由度直接當成處理種類數。',
+   B:'（B）4 種處理，5 個集區：可以選。處理數為 150÷50+1=4，集區數為 100÷25+1=5，兩者都符合題目給定的平方和與均方。',
+   C:'（C）5 種處理，4 個集區：不選。5 種處理應有 4 個處理自由度，4 個集區應有 3 個集區自由度；但本題算出的自由度分別是 3 與 4，兩者都不符。',
+   D:'（D）5 種處理，3 個集區：不選。5 種處理、3 個集區對應的自由度是 4 與 2，與本題由平方和除以均方得到的 3 與 4 不符。'
+  },
+  sources:[{title:'106 年統計學大意官方原卷第 3 頁，第 25 題',url:'https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=106010&c=508&s=0602&q=1&t=Q#page=3'},{title:'106 年統計學大意官方標準答案：第 25 題 B',url:'https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=106010&c=508&s=0602&q=1&t=S'}]
+ },
  '115-2s-25':{
   summary:'先算三組平均數：A 組 23、B 組 27.25、C 組 20.75；全部 12 筆資料的總平均為 23.67。處理間平方和 SSTR = 4×[(23−23.67)²+(27.25−23.67)²+(20.75−23.67)²]，約為 87.17。三組的處理自由度為 3−1=2，因此處理間均方 MSTR = 87.17÷2，約為 43.58，選 A。',
   options:{A:'43.58 是處理間平方和約 87.17 除以自由度 2 的結果。',B:'7.33 不是由三組平均數計得的處理間均方。',C:'5.94 不符合以組間平方和除以 2 的結果。',D:'53.51 不是本題組間均方；計算時須先將各組平均與總平均的差平方，再乘各組樣本數。'}
@@ -122,7 +142,7 @@ const checkedCalculations={
 function explanationFor(question,exam){
  const reviewed=reviewedProfessionalExplanation(question,exam);if(reviewed)return reviewed;
  const checked=checkedCalculations[question.id];
- if(checked)return {summary:checked.summary.replace('。','。\n\n'),options:checked.options,optionVerdicts:Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)?'可以選。':'不選。'])),sources:[{title:`${exam.year} 年初等考試統計學大意官方試題與答案`,url:exam.source}]};
+ if(checked)return {summary:checked.summary.replace('。','。\n\n'),options:checked.options,optionVerdicts:Object.fromEntries(question.options.map(option=>[option.letter,question.accepted.includes(option.letter)?'可以選。':'不選。'])),sources:checked.sources||[{title:`${exam.year} 年初等考試統計學大意官方試題與答案`,url:exam.source}]};
  const topic=topicFor(question),correct=question.options.find(option=>question.accepted.includes(option.letter));
  if(!correct)throw Error(`Missing answer for ${question.id}`);
  const calculation=calculationNote(question,correct,topic),visualNote=question.hasVisual?'\n\n題目含表格、圖形或公式時，請同時開啟官方原卷核對原始版面與數值。':'';

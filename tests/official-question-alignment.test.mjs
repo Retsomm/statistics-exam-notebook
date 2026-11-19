@@ -42,3 +42,26 @@ test('grouped question passage follows its own questions rather than the precedi
  assert.doesNotMatch(get('108-2s-24').options[3].text,/請依下文回答/);
  for(const n of [25,26,27])assert.match(get(`108-2s-${n}`).passage,/中華職業籃球聯盟/);
 });
+
+test('106 statistics 25 keeps treatment/block counts with their proper options and derives the official B',async()=>{
+ const {questionScore}=await import('../lib/scoring.mjs');
+ const q=get('106-2s-25'),source=JSON.parse(readFileSync(new URL('../data/papers/106-2s.json',import.meta.url))).find(q=>q.id==='106-2s-25');
+ assert.deepEqual(q.options.map(o=>o.text),['3 種處理，5 個集區','4 種處理，5 個集區','5 種處理，4 個集區','5 種處理，3 個集區']);
+ assert.deepEqual(source.options,q.options);assert.deepEqual(q.accepted,['B']);assert.match(q.stem,/Block）？$/);assert.doesNotMatch(q.stem,/？\s*3$/);
+ const treatments=150/50+1,blocks=100/25+1;assert.equal(treatments,4);assert.equal(blocks,5);
+ for(const letter of ['A','B','C','D'])assert.equal(questionScore(q,[letter]),letter==='B'?2.5:0);
+ const explanation=JSON.parse(readFileSync(new URL('../data/explanations/106-2s.json',import.meta.url)))['106-2s-25'];
+ assert.match(explanation.summary,/t−1=150÷50=3/);assert.match(explanation.summary,/b−1=100÷25=4/);
+ for(const option of q.options)assert.ok(explanation.options[option.letter].includes(option.text));
+ assert.ok(explanation.sources.some(source=>source.url.includes('t=S')));
+});
+
+test('106 statistics 31 renders the regression formula and computes all three residuals',async()=>{
+ const {questionScore}=await import('../lib/scoring.mjs');const q=prepareQuestionText(get('106-2s-31'));
+ assert.match(q.stem,/ŷ = 1 \+ 5x/);assert.doesNotMatch(q.stem,/x y 5 1/);assert.equal(q.hasVisual,false);
+ assert.deepEqual(q.options.map(o=>o.text),['20','28','26','30']);assert.deepEqual(q.accepted,['C']);
+ const points=[[2,8],[1,5],[2,7]],residuals=points.map(([x,y])=>y-(1+5*x));assert.deepEqual(residuals,[-3,-1,-4]);assert.equal(residuals.reduce((sum,e)=>sum+e*e,0),26);
+ for(const letter of ['A','B','C','D'])assert.equal(questionScore(q,[letter]),letter==='C'?2.5:0);
+ const explanation=JSON.parse(readFileSync(new URL('../data/explanations/106-2s.json',import.meta.url)))['106-2s-31'];
+ assert.match(explanation.summary,/9\+1\+16=26/);assert.match(explanation.summary,/兩筆不同的觀察值/);
+});

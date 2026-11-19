@@ -12,3 +12,16 @@ for(const width of [390,1440])test(`reported explanations show concrete reasons 
  await page.getByRole('button',{name:'關閉解析',exact:true}).click();await page.getByRole('button',{name:'查看解析',exact:true}).click();await expect(page.getByRole('dialog').getByRole('button',{name:'取消收藏單字 talent',exact:true})).toBeVisible();
  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
 });
+
+for(const width of [390,1440])test(`106 statistics numerical options and regression formula render correctly at ${width}px`,async({page})=>{
+ await page.setViewportSize({width,height:1000});await page.goto('/demo/');
+ const bank=page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'歷屆題庫',exact:true});
+ const open=async(query:string)=>{await bank.click();await page.getByRole('combobox',{name:'選擇年度'}).selectOption('106');await page.getByRole('searchbox',{name:'搜尋題目'}).fill(query);await page.locator('.question-row').first().getByRole('button',{name:'練習 →',exact:true}).click();};
+ await open('SSTR');await expect(page.locator('.question-stem')).not.toHaveText(/？\s*3$/);
+ await expect(page.locator('.answer-text')).toHaveText(['3 種處理，5 個集區','4 種處理，5 個集區','5 種處理，4 個集區','5 種處理，3 個集區']);
+ await page.locator('.option').nth(1).click();await page.getByRole('button',{name:'確認答案',exact:true}).click();await expect(page.locator('.feedback')).toContainText('答對了');await expect(page.locator('.feedback')).toContainText('2.5 / 2.5');
+ await expect(page.getByRole('dialog')).toHaveCount(0);await page.getByRole('button',{name:'查看解析',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('t−1=150÷50=3');await expect(page.getByRole('dialog')).toContainText('b−1=100÷25=4');await page.getByRole('button',{name:'關閉解析',exact:true}).click();
+ await open('ŷ = 1 + 5x');await expect(page.locator('.question-stem')).toContainText('ŷ = 1 + 5x');await expect(page.locator('.figure-reference')).toHaveCount(0);
+ await page.locator('.option').nth(2).click();await page.getByRole('button',{name:'確認答案',exact:true}).click();await expect(page.locator('.feedback')).toContainText('答對了');
+ await expect(page.getByRole('dialog')).toHaveCount(0);await page.getByRole('button',{name:'查看解析',exact:true}).click();await expect(page.getByRole('dialog')).toContainText('9+1+16=26');expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBeTruthy();
+});
