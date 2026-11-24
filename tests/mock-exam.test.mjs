@@ -47,7 +47,7 @@ test('backup, offline queue, retry and two devices retain every completed score 
 test('mock explanations require an explicit click and a submitted paper',()=>{
  const selection={questionId:bank.questions[0].id,context:'mock'},base={questions:qmap,session:null,screen:'mock',result:false,savedIds:[]};
  assert.equal(resolveExplanation(null,base),null);assert.equal(resolveExplanation(selection,base),null);
- assert.equal(resolveExplanation(selection,{...base,mockReviewIds:[selection.questionId]}).question.id,selection.questionId);
+ assert.equal(resolveExplanation(selection,{...base,mockReviewIds:[selection.questionId],mockReviewIndex:0}).question.id,selection.questionId);
 });
 
 test('a subject can be completed and repeated without taking the other three',()=>{

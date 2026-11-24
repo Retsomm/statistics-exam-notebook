@@ -12,8 +12,8 @@ const QuestionPractice = ({mockReview=false,examMode=false,question:q,exam,sessi
   const questionCard=useRef<HTMLElement>(null);
 
   useLayoutEffect(()=>{
-    if(examMode)questionCard.current?.scrollIntoView({block:'start',behavior:'instant'});
-  },[examMode,q.id,s.index]);
+    if(examMode||mockReview)questionCard.current?.scrollIntoView({block:'start',behavior:'instant'});
+  },[examMode,mockReview,q.id,s.index]);
 
   const checked=Object.hasOwn(s.checked,q.id),selected=s.choices[q.id]||[],correct=s.checked[q.id];
   const answered=examMode?s.ids.filter(id=>s.choices[id]?.length).length:Object.keys(s.checked).length;

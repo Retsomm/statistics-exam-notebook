@@ -32,6 +32,16 @@ test('saved explanations and practice resolve the same question object and prese
  const last={...state,session:{...state.session,index:1,checked:{[ids[1]]:false}}};
  assert.equal(resolveExplanation({questionId:ids[1],context:'practice'},last).isLast,true);
 });
+test('mock explanations advance only within the reviewed paper and stop at the end',()=>{
+ const paperIds=[ids[1],ids[0]];
+ const reviewing={...state,screen:'mock',mockReviewIds:paperIds,mockReviewIndex:0};
+ const first={questionId:paperIds[0],context:'mock'};
+ const last={questionId:paperIds[1],context:'mock'};
+ assert.equal(resolveExplanation(first,reviewing).nextId,paperIds[1]);
+ assert.equal(resolveExplanation(last,reviewing),null);
+ assert.equal(resolveExplanation(last,{...reviewing,mockReviewIndex:1}).nextId,undefined);
+ assert.equal(resolveExplanation(first,{...reviewing,mockReviewIds:undefined}),null);
+});
 test('the app has one practice renderer, one explanation dialog host, and no inline explanation consumer',()=>{
  const consumers={QuestionPractice:[],ExplanationDialog:[],AnswerExplanation:[]};
  for(const file of readdirSync(new URL('../components/',import.meta.url)).filter(x=>x.endsWith('.tsx'))){

@@ -23,7 +23,7 @@ import {PageHeading as Heading,EmptyState,LoadingState,ProgressBar} from './stud
 import QuestionList from './question-list';
 import {useCloudStudy} from '@/lib/use-cloud-study';
 import QuestionPractice,{type QuestionPracticeProps} from './question-practice';
-import MockExam from './mock-exam';
+import MockExam,{type MockReview} from './mock-exam';
 import PersonalCenter,{isPersonalScreen} from './personal-center';
 import PersonalDashboard from './personal-dashboard';
 import {mergeVisitDays,taipeiDay} from '@/lib/visit-days.mjs';
@@ -50,6 +50,7 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   const [vocabularyError,setVocabularyError]=useState(false),[vocabularyRetry,setVocabularyRetry]=useState(0);
   const reports=useQuestionReports(accountKey,uid);
   const [reportQuestionId,setReportQuestionId]=useState<string|null>(null);
+  const [mockReview,setMockReview]=useState<MockReview|null>(null);
   const [explanation,setExplanation]=useState<ExplanationSelection|null>(null);
   const [message,setMessage]=useState(''),[error,setError]=useState(''),[saveError,setSaveError]=useState(false),[result,setResult]=useState(false);
   const cloud=useCloudStudy(uid,bank,loaded,study,setStudy,`yueri:next:v1:${accountKey}`,setSaveError);
@@ -101,7 +102,7 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
     tick();const timer=setInterval(tick,1000);window.addEventListener('focus',tick);document.addEventListener('visibilitychange',tick);
     return()=>{clearInterval(timer);window.removeEventListener('focus',tick);document.removeEventListener('visibilitychange',tick);};
   },[loaded,bank,cloud.ready,study.mockRuns,qmap,update]);
-  const go=(next:Screen)=>{if(next==='wrong'){next='favorites';setCollectionTab('wrong');}setReportQuestionId(null);setScreen(next);setExplanation(null);setResult(false);setSearch('');setYear('all');setSubject('all');setListPage(0);window.scrollTo({top:0});};
+  const go=(next:Screen)=>{setMockReview(null);if(next==='wrong'){next='favorites';setCollectionTab('wrong');}setReportQuestionId(null);setScreen(next);setExplanation(null);setResult(false);setSearch('');setYear('all');setSubject('all');setListPage(0);window.scrollTo({top:0});};
   const start=(qs:Question[],title:string,examId?:string)=>{setExplanation(null);if(!qs.length){setMessage('沒有符合條件的題目。');return;}update(s=>{s.session={...(examId?{examId,attemptId:crypto.randomUUID(),startedAt:new Date().toISOString()}:{}),ids:qs.map(q=>q.id),index:0,title,choices:{},checked:{}};});setScreen('practice');setResult(false);window.scrollTo({top:0});};
   const resumeIndex=sessionResumeIndex(study.session);
   const canResume=resumeIndex!==null;
@@ -145,7 +146,7 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   const renderPractice=(props:QuestionPracticeProps & {key?:string})=><QuestionPractice {...props}/>;
   let content:React.ReactNode;
   if(screen==='overview')content=<><Heading title="學習總覽"/><ExamCountdown/>{stats}<ScoreDashboard bank={bank} study={study} onPractice={startExam}/><div className="hero-grid"><section className="hero"><h2>{canResume?'接續練習':sessionComplete?'本回合已完成':'今日練習'}</h2>{canResume&&<p>{study.session!.title}</p>}<div className="data-art" aria-hidden="true"/><button className="btn light" onClick={resumePractice}>{canResume?'繼續練習':sessionComplete?'開始新的刷題':'開始今日練習'} →</button></section><section className="focus-card"><button className="link" onClick={activeWrong.length?()=>start(activeWrong.map(id=>qmap.get(id)!), '錯題重練'):random}>{activeWrong.length?'開始錯題複習':'隨機練習 10 題'} →</button></section></div><div className="section-head"><h2>依科目練習</h2></div><div className="subjects">{bank.subjects.map((s,i)=><button className="subject-card" key={s} onClick={()=>{go('bank');setSubject(String(i));}}><span className="subject-icon"><Icon name="chart"/></span><h3>{s}</h3><p>{bank.exams.filter(exam=>exam.subjectIndex===i).length} 份歷屆試卷 · {bank.questions.filter(question=>question.subjectIndex===i).length} 題</p><span className="link">進入題庫 →</span></button>)}</div><div className="section-head"><h2>最新年度 · 115 年</h2><button className="link" onClick={()=>go('bank')}>全部年度 →</button></div>{exams(bank.exams.filter(e=>e.year===115))}</>;
-  else if(screen==='mock')content=<MockExam renderPractice={renderPractice} bank={bank} study={study} update={update} onStar={star} onReport={setReportQuestionId} onViewExplanation={id=>setExplanation({questionId:id,context:'mock'})}/>;
+  else if(screen==='mock')content=<MockExam review={mockReview} setReview={setMockReview} renderPractice={renderPractice} bank={bank} study={study} update={update} onStar={star} onReport={setReportQuestionId} onViewExplanation={id=>setExplanation({questionId:id,context:'mock'})}/>;
   else if(screen==='bank')content=<><Heading title="歷屆題庫" sub={`${examYears.length} 個年度、${bank.exams.length} 份試卷，共 ${bank.questions.length.toLocaleString("zh-TW")} 題。${explanationProgress}。`}/>{filters}<div className="section-head"><h2>{deferredSearch?'搜尋結果':'依年度練習'}</h2><button className="btn primary" onClick={random}>隨機練習 10 題</button></div>{deferredSearch?list(filterQuestions(bank.questions)):exams(bank.exams.filter(e=>(year==='all'||e.year===+year)&&(subject==='all'||e.subjectIndex===+subject)))}</>;
   else if(screen==='notes')content=<StudyNotes progressStorageKey={key} canSaveMemory={cloud.ready} savedMemory={study.memoryBookmarks} onToggleMemory={memoryStar} bank={bank} vocabulary={vocabulary} vocabularyError={vocabularyError} onRetryWords={()=>setVocabularyRetry(value=>value+1)} savedWords={study.vocabularyBookmarks} savedIdioms={study.idiomBookmarks} onToggleWord={wordStar} onToggleIdiom={idiomStar} onPractice={start} onViewExplanation={id=>setExplanation({questionId:id,context:'notes'})}/>;
   else if(screen==='favorites'){
@@ -177,9 +178,18 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   else if(screen==='backup')content=<><Heading title="備份與資料"/><div className="settings-grid"><section className="settings-card"><h2>我的學習備份</h2><button className="btn primary" onClick={exportBackup}>匯出備份</button><button className="btn" onClick={()=>fileRef.current?.click()}>匯入備份</button></section><section className="settings-card"><h2>官方試題與答案</h2><a className="btn" href="https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx" target="_blank" rel="noopener noreferrer">考選部試題查詢 ↗</a></section></div><section className="settings-card" style={{marginTop:20}}><h2>題目問題回報</h2><button className="btn" onClick={()=>go('reports')}>查看待處理回報 · {reports.reports.filter(report=>report.status!=='resolved').length} 筆</button></section><section className="settings-card" style={{marginTop:20}}><h2>帳戶與來源</h2><p>{email}</p>{demo?<Link className="btn" href="/sign-in">Google 登入</Link>:signOutAction&&<button className="btn" onClick={()=>void signOutAction()}>登出</button>}<button className="btn" onClick={()=>go('history')}>查看學習紀錄</button>{examYears.map(y=><a key={y} className="btn ghost" href={`https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=${y}010&y=${y+1911}`} target="_blank" rel="noopener noreferrer">{y} 年官方來源 ↗</a>)}</section></>;
   else content=<PersonalDashboard bank={bank} study={study} now={activityNow} onNavigate={next=>{if(next==='favorites')setCollectionTab('questions');go(next);}} onWrong={()=>{go('favorites');setCollectionTab('wrong');}}/>;
   // Every entry point resolves through the same bank, session and dialog host.
-  const explanationTarget=resolveExplanation(explanation,{questions:qmap,session:study.session,screen,collectionTab,result,savedIds:savedExplanations.map(q=>q.id),mockReviewIds:study.mockRuns.filter(r=>!r.resetAt).flatMap(r=>r.papers.filter(p=>p.completedAt).flatMap(p=>p.ids))});
+  const mockReviewPaper=mockReview&&study.mockRuns.find(run=>run.id===mockReview.runId&&!run.resetAt)
+   ?.papers.find(paper=>paper.subjectIndex===mockReview.subject&&paper.completedAt);
+  const explanationTarget=resolveExplanation(explanation,{questions:qmap,session:study.session,screen,collectionTab,result,savedIds:savedExplanations.map(q=>q.id),mockReviewIds:mockReviewPaper?.ids,mockReviewIndex:mockReview?.index});
   const nextExplanation=()=>{
-    if(!explanationTarget||explanationTarget.context==='notes'||explanationTarget.context==='mock')return;
+    if(!explanationTarget||explanationTarget.context==='notes')return;
+    if(explanationTarget.context==='mock'){
+      if(mockReview&&explanationTarget.nextId){
+        setMockReview({...mockReview,index:mockReview.index+1});
+        setExplanation({questionId:explanationTarget.nextId,context:'mock'});
+      }
+      return;
+    }
     if(explanationTarget.context==='saved'){
       if(explanationTarget.nextId)setExplanation({questionId:explanationTarget.nextId,context:'saved'});
       return;
