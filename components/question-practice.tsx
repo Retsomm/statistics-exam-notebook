@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 import type { Question,StudySession,StudyState,Exam } from '@/lib/types';
 import Icon from './icons';
 import {QuestionBookmarkButton,ReportQuestionButton,ProgressBar} from './study-ui';
@@ -9,10 +9,16 @@ import {formatScore,questionScore,questionPoints,allowsMultipleChoices} from '..
 export type QuestionPracticeProps = {mockReview?:boolean;examMode?:boolean;question:Question;exam:Exam;session:StudySession;study:StudyState;onChoice:(letter:string)=>void;onSubmit:()=>void;onMove:(index:number)=>void;onFinish:()=>void;onStar:()=>void;onViewExplanation:()=>void;onReport:()=>void;onNote:(value:string)=>void};
 const QuestionPractice = ({mockReview=false,examMode=false,question:q,exam,session:s,study,onChoice,onSubmit,onMove,onFinish,onStar,onViewExplanation,onReport,onNote}:QuestionPracticeProps) => {
   const [fontSize,setFontSize]=useState(20);
+  const questionCard=useRef<HTMLElement>(null);
+
+  useLayoutEffect(()=>{
+    if(examMode)questionCard.current?.scrollIntoView({block:'start',behavior:'instant'});
+  },[examMode,q.id,s.index]);
+
   const checked=Object.hasOwn(s.checked,q.id),selected=s.choices[q.id]||[],correct=s.checked[q.id];
   const answered=examMode?s.ids.filter(id=>s.choices[id]?.length).length:Object.keys(s.checked).length;
   return <><div className="practice-head"><div><h1>{s.title}</h1><p>{q.year} 年 · {q.subject} · 第 {q.number} 題</p></div><div className="right"><ReportQuestionButton onClick={onReport}/><OfficialSourceLink className="btn" exam={exam} question={q} kind="question">官方原卷 PDF ↗</OfficialSourceLink><button className="btn" onClick={onFinish}>{examMode?'提前交卷':'本回合結果'}</button></div></div>
-    {exam.practiceNote&&<p className="notice">{exam.practiceNote}</p>}{exam.explanationStatus==='pending'&&<p className="notice">此為新收錄試卷，目前提供官方答案計分；逐題解析尚未編寫。{exam.subjectIndex===0&&'文言文翻譯與字詞說明可於「查看解析」閱讀。'}</p>}<div className="practice-layout"><section className="question-card"><header className="q-toolbar"><div className="left"><span className="num">{String(q.number).padStart(2,'0')}</span><span className="badge">{q.multi?'複選題 · 選出所有正確選項':allowsMultipleChoices(q)?'單選題 · 依更正公告可複記':'單選題'}</span></div><QuestionBookmarkButton bookmarked={study.bookmarks.includes(q.id)} onToggle={onStar}/></header>
+    {exam.practiceNote&&<p className="notice">{exam.practiceNote}</p>}{exam.explanationStatus==='pending'&&<p className="notice">此為新收錄試卷，目前提供官方答案計分；逐題解析尚未編寫。{exam.subjectIndex===0&&'文言文翻譯與字詞說明可於「查看解析」閱讀。'}</p>}<div className="practice-layout"><section className="question-card" ref={questionCard}><header className="q-toolbar"><div className="left"><span className="num">{String(q.number).padStart(2,'0')}</span><span className="badge">{q.multi?'複選題 · 選出所有正確選項':allowsMultipleChoices(q)?'單選題 · 依更正公告可複記':'單選題'}</span></div><QuestionBookmarkButton bookmarked={study.bookmarks.includes(q.id)} onToggle={onStar}/></header>
     <div className="q-content"><div className="reading-tools"><span>閱讀字級</span><button className="btn" aria-label="縮小文字" disabled={fontSize<=18} onClick={()=>setFontSize(n=>n-2)}>A−</button><span>{fontSize}</span><button className="btn" aria-label="放大文字" disabled={fontSize>=28} onClick={()=>setFontSize(n=>n+2)}>A＋</button></div>
       {q.passage && <section className="question-passage" style={{fontSize}} aria-label="閱讀題組文章"><QuestionText text={q.passage}/></section>}
       <QuestionText className="question-stem" style={{fontSize}} text={q.stem}/>
