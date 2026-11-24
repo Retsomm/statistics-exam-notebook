@@ -11,7 +11,7 @@ export default function ExamCountdown(){
  },[]);
  const countdown=now===null?null:examCountdown(now);
  return <section className="exam-countdown" aria-labelledby="exam-countdown-title">
-  <div className="countdown-intro"><p className="eyebrow">THE NEXT CHAPTER</p><h2 id="exam-countdown-title">向統計考生，再近一頁。</h2><p>{upcomingExam.name}</p><time dateTime={upcomingExam.date}>{upcomingExam.dateLabel}</time></div>
+  <div className="countdown-intro"><h2 id="exam-countdown-title">考試倒數</h2><p>{upcomingExam.name}</p><time dateTime={upcomingExam.date}>{upcomingExam.dateLabel}</time></div>
   <div className="countdown-time" aria-label="距考試日期倒數" role="timer">
    {!countdown?<p>正在計算剩餘天數…</p>:countdown.status==='upcoming'?<><span>距離考試日</span><strong>{countdown.days}<small>天</small></strong><p>把今天的努力，寫進下一章。</p></>:<><strong className="countdown-message">{countdown.status==='today'?'考試日到了':'本次考試日期已過'}</strong><p>{countdown.status==='today'?'帶著累積的每一頁，從容應試。':'請查看考選部公告，等待下一次考期。'}</p></>}
   </div>

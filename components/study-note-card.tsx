@@ -16,9 +16,9 @@ export default function StudyNoteCard({note,vocabularyContent,questions,exams,on
   {!related.length&&note.chapter&&<p className="text-muted">本節先建立基礎觀念，目前未選配現有題庫的直接對應題。</p>}
   <button className="btn primary" disabled={!related.length} onClick={()=>onPractice(related,`重點練習 · ${note.title}`)}>練習關聯考題 · {related.length} 題 →</button>
   <details className="note-sources"><summary>逐題對照、解析與官方來源 · {related.length} 題</summary>
-   <p className="text-muted">{note.chapter?'以下為編輯選配的關聯題，一題可能涉及多個章節；未收錄的考點不代表不考。題目選項與完整解析請點「查看原題解析」。':note.order?'同考點只整理一份；以下列出歸入本主題的每一題。題目特有的選項、例外與完整說明，可點「查看原題解析」。':'以下為編輯選出的關聯題目，不表示該主題的全部出題次數。'}</p>
+   
    {related.map(q=><StudyQuestionSource key={q.id} question={q} exam={exams.get(q.examId)} onPractice={onPractice} onViewExplanation={onViewExplanation}/>)}
-   {note.sources.length>0&&<details className="note-references"><summary>延伸查核資料 · {note.sources.length} 筆</summary><p className="text-muted">觀念與延伸查核資料；請留意歷史考題所指定的版本及條件。</p>{note.sources.map(source=><a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a>)}</details>}
+   {note.sources.length>0&&<details className="note-references"><summary>延伸查核資料 · {note.sources.length} 筆</summary>{note.sources.map(source=><a key={source.url} href={source.url} target="_blank" rel="noopener noreferrer">{source.title} ↗</a>)}</details>}
   </details>
  </article>;
 }

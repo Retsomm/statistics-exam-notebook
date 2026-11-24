@@ -35,8 +35,8 @@ export default function MemoryDeck({cards,saved,onToggle,canSave,onRead,progress
   <ProgressBar value={current+1} total={cards.length} label="記憶卡進度"/>
   <MemoryCard key={card.id} card={card} saved={saved.has(card.id)} onToggle={()=>onToggle(card.id)} canSave={canSave} revealed={revealed} onFlip={()=>{const next=revealed?null:card.id;setRevealedFor(next);persist(card.id,next,ratings);}} onRead={onRead?()=>onRead(card):undefined}/>
   <nav className="memory-deck-controls" aria-label="記憶卡操作"><button className="btn" disabled={current===0} onClick={()=>move(current-1)}>上一張</button><button className="btn memory-review" disabled={!revealed||!canSave} onClick={()=>rate('review')}>還不熟悉 · {reviewCount}</button><button className="btn memory-known" disabled={!revealed} onClick={()=>rate('known')}>記住了 · {knownCount}</button><button className="btn" disabled={current===cards.length-1} onClick={()=>move(current+1)}>下一張</button></nav>
-  <p className="memory-deck-help">點卡片翻面；左右方向鍵可換卡。「還不熟悉」會收藏並換下一張。「記住了」會保存自評，不會取消收藏。</p>
-  {progressKey&&<p className="text-muted">卡片位置、翻面狀態與自評會自動保存在此裝置的瀏覽器；回到相同科目和篩選條件時可接續。「重新複習」會重設此範圍的進度。</p>}
+  
+  {progressKey&&}
   {saveFailed&&<p className="notice" role="alert">無法讀取或儲存卡片進度，重新開啟後可能無法接續。</p>}
   {scopedRatings.length===cards.length&&<p className="notice" role="status">本輪已全部自評：記住 {knownCount} 張，還需複習 {reviewCount} 張。</p>}
  </section>;

@@ -12,7 +12,7 @@ export default function IdiomCard({entry,year,questions,exams,saved=false,onTogg
   {!!entry.aliases.length&&<p className="text-muted">異寫／對照詞形：{entry.aliases.join('、')}</p>}
   <IdiomLearning entry={entry}/>
   <details className="note-sources"><summary>查看歷屆出處 · {related.length} 題{year!=='all'?`（${year} 年）`:''}</summary>
-   <p className="text-muted">出現在題幹、選項或閱讀文章中；選項可能刻意誤用，請配合原題解析判斷。</p>
+   
    {related.map(q=><StudyQuestionSource key={q.id} question={q} exam={exams.get(q.examId)} onPractice={onPractice} onViewExplanation={onViewExplanation}/>)}
   </details>
  </article>;
