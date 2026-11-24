@@ -60,6 +60,19 @@ export default function StudyNotes({progressStorageKey,canSaveMemory,savedMemory
  function wordCards(entries:[string,SavedVocabulary][]){return <dl className="vocabulary-explanations saved-vocabulary">{entries.map(([id,item])=>{const q=questions.get(item.questionId);return <VocabularyCard key={id} item={item} saved={saved.has(id)} onToggle={()=>onToggleWord(q?.examId||'',item)} source={q?`${q.year} 年 · 第 ${q.number} 題 · 回到原題`:undefined} onSource={q?()=>onPractice([q],`單字練習 · ${item.word}`):undefined}/>;})}</dl>;}
  function topicWords(note:StudyNote){if(!note.vocabularyIds?.length)return undefined; const entries=note.vocabularyIds.flatMap(id=>vocabulary[id]?[[id,vocabulary[id]] as [string,SavedVocabulary]]:[]);return <details className="note-topic-words"><summary>本主題單字與片語 · {note.vocabularyIds.length} 張</summary><p className="text-muted">詞義、用法與收藏和原題解析共用。題組內重複出現的同義字卡只顯示一次。</p>{vocabularyError?<div role="alert"><p>單字內容暫時無法載入。</p><button className="btn" onClick={onRetryWords}>重新載入單字</button></div>:entries.length<note.vocabularyIds.length?<LoadingState inline message="正在載入本主題單字…"/>:wordCards(entries)}</details>;}
  function changeSubject(next:number){setChapter('all');setSubject(next);setGroup('all');setMode('notes');setSearch('');setPage(0);setWordYear('all');}
+ const renderPagination=(position:'上方'|'下方')=>pageCount>1&&<nav className="word-pagination" aria-label={`重點整理分頁（${position}）`} style={position==='上方'?{marginBottom:16}:undefined}>
+   {pageButtons.map(({number,label})=>{
+    const isCurrent=number===currentPage+1;
+    return <button
+      key={number}
+      type="button"
+      className={isCurrent?'btn primary':'btn'}
+      aria-label={`第 ${number} 頁`}
+      aria-current={isCurrent?'page':undefined}
+      onClick={()=>goToPage(number)}
+     >{label}</button>;
+   })}
+  </nav>;
  return <>
   <PageHeading title="重點整理" sub="一次記住一個觀念：先回想、再翻面，不熟悉就收藏。"/>
   {!isDictionary&&<div className="memory-mode" role="group" aria-label="重點閱讀方式"><button className={`btn ${presentation==='cards'?'primary':''}`} aria-pressed={presentation==='cards'} onClick={()=>{setPresentation('cards');setPage(0);}}>記憶卡片</button><button className={`btn ${presentation==='notes'?'primary':''}`} aria-pressed={presentation==='notes'} onClick={()=>{setPresentation('notes');setPage(0);}}>完整重點</button>{isCards&&<label className="checkbox"><input type="checkbox" checked={onlySaved} onChange={e=>{setOnlySaved(e.target.checked);setPage(0);}}/>只看收藏卡片</label>}</div>}
@@ -74,21 +87,10 @@ export default function StudyNotes({progressStorageKey,canSaveMemory,savedMemory
   <div className="notes-filters"><label>搜尋{isWords?'單字':isIdioms?'成語':'重點'}<input className="search" type="search" value={search} placeholder={isWords?'英文、中文意思、用法…':isIdioms?'成語、意思、例句，例如：別無長物…':'例如：平均數、SQL、115-3d-15…'} onChange={e=>{setChapter('all');setSearch(e.target.value);setPage(0);}}/></label>{isDictionary?<label>題目年度<select className="select" value={wordYear} onChange={e=>{setWordYear(e.target.value);setPage(0);}}><option value="all">全部年度</option>{[...new Set(bank.exams.map(e=>e.year))].map(year=><option key={year} value={year}>{year} 年</option>)}</select></label>:<label>主題分類<select className="select" value={group} onChange={e=>{setChapter('all');setGroup(e.target.value);setPage(0);}}><option value="all">全部主題</option>{groups.map(name=><option key={name}>{name}</option>)}</select></label>}</div>
   {(subject===2||subject===3)&&<label className="course-chapter-select">選擇{subject===2?'統計學':'資料處理'}章節<select className="select" value={chapter} onChange={e=>{setChapter(e.target.value);setGroup('all');setSearch('');setPage(0);}}><option value="all">全部 {activeCourse.notes.length} 節</option>{activeCourse.notes.map(note=><option key={note.id} value={note.chapter}>{note.title}</option>)}</select></label>}
   <p className="text-muted" role="status">{isWords?`找到 ${total} 筆單字／片語語境卡`:isIdioms?`找到 ${total} 筆成語／熟語（重複出題合併）`:isCards?`找到 ${total} 張記憶卡片`:`找到 ${total} 個重點主題`}{total>size?` · 第 ${currentPage+1} / ${pageCount} 頁`:''}</p>
+  {renderPagination('上方')}
   {isIdioms?<><p className="notice">依{idiomsData.scope}整理，共 {idiomsData.entries.length} 筆成語、熟語與題辭。意思和例句直接顯示；同詞跨年合併，依出現題數排序。{idiomsData.editorialNote}</p>{!idioms.length?<EmptyState title="沒有符合的成語" description="試試成語中的幾個字、中文意思，或切換全部年度。"/>:<div className="notes-grid">{idioms.slice(currentPage*size,(currentPage+1)*size).map(entry=><IdiomCard key={entry.term} entry={entry} year={wordYear} questions={questions} exams={exams} saved={savedIdiomSet.has(entry.term)} onToggleSave={()=>onToggleIdiom(entry.term)} onPractice={onPractice} onViewExplanation={onViewExplanation}/>)}</div>}<p className="text-muted">延伸查詢：<a href="https://dict.idioms.moe.edu.tw/" target="_blank" rel="noopener noreferrer">教育部成語典 ↗</a> · <a href="https://dict.revised.moe.edu.tw/" target="_blank" rel="noopener noreferrer">重編國語辭典修訂本 ↗</a> · 整理日期：{idiomsData.updatedAt}</p></>:isWords?<><p className="notice">彙整題庫解析已收錄的 {Object.keys(vocabulary).length} 筆單字與片語，不代表試卷每個英文詞都已收錄。同字在不同年度、詞義或搭配下可能保留不同語境卡；收藏與解析彈窗共用同一份單字資料。</p>{vocabularyError?<div role="alert"><p>單字內容暫時無法載入。</p><button className="btn" onClick={onRetryWords}>重新載入單字</button></div>:!Object.keys(vocabulary).length?<LoadingState inline message="正在載入單字重點…"/>:!words.length?<EmptyState title="沒有符合的單字" description="試試其他單字、中文意思或年度。"/>:wordCards(words.slice(currentPage*size,(currentPage+1)*size))}</>:
    isCards?(!memoryCards.length?<EmptyState title={onlySaved?'目前範圍沒有收藏卡片':'沒有符合的記憶卡片'} description="試試其他科目、章節或關鍵字；也可以取消「只看收藏卡片」。"/>:<MemoryDeck key={`${subject}:${mode}:${group}:${chapter}:${query}:${onlySaved}`} progressKey={`${progressStorageKey}:memory-deck:${JSON.stringify([subject,mode,group,chapter,query,onlySaved])}`} cards={memoryCards} saved={savedMemorySet} canSave={canSaveMemory} onToggle={onToggleMemory} onRead={card=>{const note=allNotes.find(n=>n.id===card.noteId);if(note){setPresentation('notes');setGroup('all');setChapter(note.chapter||'all');setSearch(note.chapter?'':note.title);setPage(0);}}}/>):
    !filtered.length?<EmptyState title="沒有符合的重點" description="換個關鍵字或選擇其他主題分類。"/>:<div className="notes-grid">{filtered.slice(currentPage*size,(currentPage+1)*size).map(note=><StudyNoteCard key={note.id} note={note} vocabularyContent={topicWords(note)} questions={questions} exams={exams} onPractice={onPractice} onViewExplanation={onViewExplanation}/>)}</div>}
-  {pageCount>1&&<nav className="word-pagination" aria-label="重點整理分頁">
-   {pageButtons.map(({number,label})=>{
-    const isCurrent=number===currentPage+1;
-    return <button
-      key={number}
-      type="button"
-      className={isCurrent?'btn primary':'btn'}
-      aria-label={`第 ${number} 頁`}
-      aria-current={isCurrent?'page':undefined}
-      onClick={()=>goToPage(number)}
-     >{label}</button>;
-   })}
-  </nav>}
+  {renderPagination('下方')}
  </>;
 }
