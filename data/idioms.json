@@ -2403,7 +2403,9 @@
     },
     {
       "term": "柳暗花明",
-      "aliases": [],
+      "aliases": [
+        "柳暗花明又一村"
+      ],
       "category": "成語與常用語",
       "meaning": "柳樹濃密、花朵明亮，常比喻困境中出現新的希望。",
       "example": "原以為資料全遺失了，找到備份後頓時柳暗花明。",
@@ -6099,13 +6101,23 @@
     },
     {
       "term": "潔身自好",
-      "aliases": [],
+      "aliases": [
+        "潔身自愛"
+      ],
       "category": "成語與常用語",
       "meaning": "保持自身品德清白，不隨人作惡；有時也含只顧自己的意思。",
       "example": "面對不良風氣，他堅持潔身自好，不參與造假。",
       "questionIds": [
-        "109-0-18"
-      ]
+        "109-0-18",
+        "103-0-8",
+        "103-0-18"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》「潔身自愛」",
+        "explanation": "兩種寫法都指保持自身品行端正，不與人一起做不正當的事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%BD%94%E8%BA%AB%E8%87%AA%E6%84%9B"
+      }
     },
     {
       "term": "濟濟一堂",
@@ -7262,7 +7274,9 @@
     },
     {
       "term": "有福同享，有難同當",
-      "aliases": [],
+      "aliases": [
+        "有福同享"
+      ],
       "category": "熟語與典故",
       "meaning": "共同分享好處，也共同承擔困難。",
       "example": "夥伴約定有福同享，有難同當，不讓任何人獨自承擔風險。",
@@ -7834,12 +7848,16 @@
     },
     {
       "term": "弄璋誌喜",
-      "aliases": [],
+      "aliases": [
+        "弄璋之喜"
+      ],
       "category": "題辭",
       "meaning": "慶賀生男孩；古人以玉璋給男孩玩，因而得名。",
       "example": "親友以弄璋誌喜，祝賀家中男嬰誕生。",
       "questionIds": [
-        "110-0-21"
+        "110-0-21",
+        "104-0-5",
+        "097-0-9"
       ],
       "origin": {
         "kind": "典故",
@@ -9087,6 +9105,4245 @@
         "explanation": "雛鳳指幼鳳，新聲是初次發出的聲音。常用題辭表將這句列為賀生子用語。",
         "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=11&la=0&page=8&powerMode=0"
       }
+    },
+    {
+      "term": "以身作則",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用自己的行為做榜樣。",
+      "example": "主管以身作則，開會從不遲到。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用自己的行為做榜樣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BB%A5%E8%BA%AB%E4%BD%9C%E5%89%87"
+      },
+      "questionIds": [
+        "100-0-19",
+        "103-0-21",
+        "104-0-20"
+      ]
+    },
+    {
+      "term": "不可思議",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "難以想像或理解。",
+      "example": "他只練了半年就完成全程馬拉松，真不可思議。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "難以想像或理解。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%8F%AF%E6%80%9D%E8%AD%B0"
+      },
+      "questionIds": [
+        "104-0-17"
+      ]
+    },
+    {
+      "term": "不辱使命",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "完成受託的任務，沒有辜負期待。",
+      "example": "救援隊不辱使命，把受困者平安帶下山。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "完成受託的任務，沒有辜負期待。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E8%BE%B1%E4%BD%BF%E5%91%BD"
+      },
+      "questionIds": [
+        "102-0-17",
+        "104-0-36"
+      ]
+    },
+    {
+      "term": "中道而廢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "事情進行到一半便停止。",
+      "example": "學一項新技能最怕中道而廢。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "事情進行到一半便停止。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%AD%E9%81%93%E8%80%8C%E5%BB%A2"
+      },
+      "questionIds": [
+        "102-0-43"
+      ]
+    },
+    {
+      "term": "嘔心瀝血",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "耗盡心力做一件事。",
+      "example": "團隊嘔心瀝血，終於完成這部紀錄片。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "耗盡心力做一件事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%98%94%E5%BF%83%E7%80%9D%E8%A1%80"
+      },
+      "questionIds": [
+        "104-0-31",
+        "104-0-32"
+      ]
+    },
+    {
+      "term": "增廣見聞",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "增加知識並拓展所見所聞。",
+      "example": "參訪不同產業能增廣見聞。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "增加知識並拓展所見所聞。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A2%9E%E5%BB%A3%E8%A6%8B%E8%81%9E"
+      },
+      "questionIds": [
+        "100-0-8",
+        "104-0-13"
+      ]
+    },
+    {
+      "term": "學無止境",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "學習永遠有可以精進的地方。",
+      "example": "即使從業多年，她仍覺得學無止境。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "學習永遠有可以精進的地方。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AD%B8%E7%84%A1%E6%AD%A2%E5%A2%83"
+      },
+      "questionIds": [
+        "103-0-41",
+        "112-0-7"
+      ]
+    },
+    {
+      "term": "小心謹慎",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "處理事情周密而不草率。",
+      "example": "核對帳款時要小心謹慎。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "處理事情周密而不草率。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B0%8F%E5%BF%83%E8%AC%B9%E6%85%8E"
+      },
+      "questionIds": [
+        "104-0-30",
+        "105-0-30"
+      ]
+    },
+    {
+      "term": "汲汲營營",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "忙著追逐名利或所求的事物。",
+      "example": "他日日汲汲營營，反而少有時間陪家人。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "忙著追逐名利或所求的事物。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B1%B2%E6%B1%B2%E7%87%9F%E7%87%9F"
+      },
+      "questionIds": [
+        "102-0-24",
+        "104-0-12"
+      ]
+    },
+    {
+      "term": "發憤忘食",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "專注努力到忘記用餐。",
+      "example": "學生們做實驗做到發憤忘食。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "專注努力到忘記用餐。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%99%BC%E6%86%A4%E5%BF%98%E9%A3%9F"
+      },
+      "questionIds": [
+        "102-0-15",
+        "105-0-25"
+      ]
+    },
+    {
+      "term": "知人善任",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "看得出人的長處，且能安排適合的職務。",
+      "example": "這位領隊知人善任，讓每個人負責擅長的工作。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "看得出人的長處，且能安排適合的職務。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9F%A5%E4%BA%BA%E5%96%84%E4%BB%BB"
+      },
+      "questionIds": [
+        "100-0-37",
+        "112-0-14"
+      ]
+    },
+    {
+      "term": "自尋煩惱",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "因自己的想法或行為找來不必要的困擾。",
+      "example": "一直猜測別人的心思，只會自尋煩惱。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "因自己的想法或行為找來不必要的困擾。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%87%AA%E5%B0%8B%E7%85%A9%E6%83%B1"
+      },
+      "questionIds": [
+        "104-0-16",
+        "112-0-18"
+      ]
+    },
+    {
+      "term": "一丘之貉",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻同樣低劣的一群人。",
+      "example": "這兩人互相包庇，根本是一丘之貉。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻同樣低劣的一群人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%80%E4%B8%98%E4%B9%8B%E8%B2%89"
+      },
+      "questionIds": [
+        "105-0-1"
+      ]
+    },
+    {
+      "term": "一意孤行",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不理會旁人的意見，執意照自己的想法行事。",
+      "example": "他一意孤行，連基本的安全檢查也略過了。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不理會旁人的意見，執意照自己的想法行事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%80%E6%84%8F%E5%AD%A4%E8%A1%8C"
+      },
+      "questionIds": [
+        "101-0-31"
+      ]
+    },
+    {
+      "term": "一目十行",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "讀得非常快。",
+      "example": "她閱讀速度極快，幾乎能一目十行。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "讀得非常快。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%80%E7%9B%AE%E5%8D%81%E8%A1%8C"
+      },
+      "questionIds": [
+        "104-0-42"
+      ]
+    },
+    {
+      "term": "一諾千金",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容非常重視承諾。",
+      "example": "她一諾千金，答應接送就一定到場。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容非常重視承諾。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%80%E8%AB%BE%E5%8D%83%E9%87%91"
+      },
+      "questionIds": [
+        "102-0-13"
+      ]
+    },
+    {
+      "term": "不修邊幅",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不講究衣著或外表。",
+      "example": "他平日不修邊幅，出席典禮才特地換上西裝。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不講究衣著或外表。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E4%BF%AE%E9%82%8A%E5%B9%85"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不倫不類",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容樣子不合體例、難以歸類。",
+      "example": "把兩種截然不同的格式混用，整份報告顯得不倫不類。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容樣子不合體例、難以歸類。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%80%AB%E4%B8%8D%E9%A1%9E"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不卑不亢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "態度得體，自信而不傲慢。",
+      "example": "她面對質疑時不卑不亢，逐一說明理由。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "態度得體，自信而不傲慢。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%8D%91%E4%B8%8D%E4%BA%A2"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不學無術",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "欠缺學問或本領。",
+      "example": "只靠唬弄過關，終究會暴露不學無術。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "欠缺學問或本領。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%AD%B8%E7%84%A1%E8%A1%93"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不恥下問",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不以向地位或資歷較低的人請教為羞恥。",
+      "example": "即使已是資深工程師，她仍不恥下問，向新人學習工具。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不以向地位或資歷較低的人請教為羞恥。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E6%81%A5%E4%B8%8B%E5%95%8F"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不愧屋漏",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "即使沒人在場，行為也無愧於心。",
+      "example": "他獨自保管公款，始終不愧屋漏。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "即使沒人在場，行為也無愧於心。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E6%84%A7%E5%B1%8B%E6%BC%8F"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不拘小節",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不被細枝末節的禮法或形式束縛。",
+      "example": "他不拘小節，聚餐時常和大家隨意聊天。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不被細枝末節的禮法或形式束縛。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E6%8B%98%E5%B0%8F%E7%AF%80"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不求甚解",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "只求大致了解，沒有深入探究。",
+      "example": "如果讀公式只求背起來、不求甚解，遇到變形題就容易卡住。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "只求大致了解，沒有深入探究。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E6%B1%82%E7%94%9A%E8%A7%A3"
+      },
+      "questionIds": [
+        "098-0-2"
+      ]
+    },
+    {
+      "term": "不知所云",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "說話缺乏條理，讓人不明白在說什麼。",
+      "example": "簡報東拉西扯，聽眾不知所云。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "說話缺乏條理，讓人不明白在說什麼。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E7%9F%A5%E6%89%80%E4%BA%91"
+      },
+      "questionIds": [
+        "102-0-16"
+      ]
+    },
+    {
+      "term": "不知所以",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不明白發生的原因。",
+      "example": "警報突然響起，大家面面相覷，不知所以。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不明白發生的原因。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E7%9F%A5%E6%89%80%E4%BB%A5"
+      },
+      "questionIds": [
+        "102-0-16"
+      ]
+    },
+    {
+      "term": "不知進退",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "舉止沒有分寸，也可指拿不定主意。",
+      "example": "主人已表明要休息，他仍不知進退地繼續逗留。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "舉止沒有分寸，也可指拿不定主意。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E7%9F%A5%E9%80%B2%E9%80%80"
+      },
+      "questionIds": [
+        "102-0-16"
+      ]
+    },
+    {
+      "term": "不舞之鶴",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻本領不如傳聞，也可自謙自己不堪任用。",
+      "example": "他謙稱自己是不舞之鶴，不敢在名家面前獻技。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻本領不如傳聞，也可自謙自己不堪任用。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E8%88%9E%E4%B9%8B%E9%B6%B4"
+      },
+      "questionIds": [
+        "105-0-1"
+      ]
+    },
+    {
+      "term": "不落俗套",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "有自身特色，不沿用老套。",
+      "example": "這篇文章切入的角度不落俗套。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "有自身特色，不沿用老套。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E8%90%BD%E4%BF%97%E5%A5%97"
+      },
+      "questionIds": [
+        "112-0-44"
+      ]
+    },
+    {
+      "term": "不費吹灰之力",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容幾乎不必費力。",
+      "example": "熟悉快捷鍵後，她不費吹灰之力便整理好文件。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容幾乎不必費力。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E8%B2%BB%E5%90%B9%E7%81%B0%E4%B9%8B%E5%8A%9B"
+      },
+      "questionIds": [
+        "112-0-23"
+      ]
+    },
+    {
+      "term": "不辭勞苦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "樂意承擔辛苦的工作。",
+      "example": "志工不辭勞苦，輪流到偏遠村落送物資。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "樂意承擔辛苦的工作。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E8%BE%AD%E5%8B%9E%E8%8B%A6"
+      },
+      "questionIds": [
+        "105-0-27"
+      ]
+    },
+    {
+      "term": "中規中矩",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "行事符合規範，也可形容表現穩妥。",
+      "example": "這份設計中規中矩，能滿足基本需求。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "行事符合規範，也可形容表現穩妥。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%AD%E8%A6%8F%E4%B8%AD%E7%9F%A9"
+      },
+      "questionIds": [
+        "102-0-15"
+      ]
+    },
+    {
+      "term": "久別重逢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "分開很久以後再見面。",
+      "example": "兩位老同學久別重逢，聊了整個下午。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "分開很久以後再見面。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B9%85%E5%88%A5%E9%87%8D%E9%80%A2"
+      },
+      "questionIds": [
+        "105-0-19"
+      ]
+    },
+    {
+      "term": "五光十色",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容色彩繁多、景象亮麗。",
+      "example": "入夜後，街上的燈飾五光十色。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容色彩繁多、景象亮麗。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BA%94%E5%85%89%E5%8D%81%E8%89%B2"
+      },
+      "questionIds": [
+        "100-0-27"
+      ]
+    },
+    {
+      "term": "人言可畏",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "流言或輿論具有令人畏懼的力量。",
+      "example": "人言可畏，轉發傳聞前應先確認真偽。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "流言或輿論具有令人畏懼的力量。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BA%BA%E8%A8%80%E5%8F%AF%E7%95%8F"
+      },
+      "questionIds": [
+        "104-0-30"
+      ]
+    },
+    {
+      "term": "以德報怨",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用善意回應曾經受到的傷害。",
+      "example": "對方曾出言傷人，她仍以德報怨，在他困難時伸出援手。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用善意回應曾經受到的傷害。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BB%A5%E5%BE%B7%E5%A0%B1%E6%80%A8"
+      },
+      "questionIds": [
+        "104-0-24"
+      ]
+    },
+    {
+      "term": "以貌取人",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "僅由外貌判斷別人的能力或品格。",
+      "example": "面試官若以貌取人，可能錯過有才華的應徵者。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "僅由外貌判斷別人的能力或品格。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BB%A5%E8%B2%8C%E5%8F%96%E4%BA%BA"
+      },
+      "questionIds": [
+        "104-0-25"
+      ]
+    },
+    {
+      "term": "冰清玉潔",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻品行純潔高尚。",
+      "example": "地方居民敬重她冰清玉潔的操守。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻品行純潔高尚。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%86%B0%E6%B8%85%E7%8E%89%E6%BD%94"
+      },
+      "questionIds": [
+        "104-0-9"
+      ]
+    },
+    {
+      "term": "切磋琢磨",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "彼此研討，以求改進。",
+      "example": "讀書會成員每週切磋琢磨，寫作都有進步。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "彼此研討，以求改進。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%88%87%E7%A3%8B%E7%90%A2%E7%A3%A8"
+      },
+      "questionIds": [
+        "112-0-24"
+      ]
+    },
+    {
+      "term": "別鶴孤鸞",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻夫妻離散。",
+      "example": "戲曲以別鶴孤鸞寫戰亂中的夫妻離別。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻夫妻離散。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%88%A5%E9%B6%B4%E5%AD%A4%E9%B8%9E"
+      },
+      "questionIds": [
+        "105-0-1"
+      ]
+    },
+    {
+      "term": "刮目相看",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用新的眼光看待一個人。",
+      "example": "他的進步讓同事刮目相看。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用新的眼光看待一個人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%88%AE%E7%9B%AE%E7%9B%B8%E7%9C%8B"
+      },
+      "questionIds": [
+        "103-0-3"
+      ]
+    },
+    {
+      "term": "剛愎自用",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "性情固執，自以為是而不聽勸。",
+      "example": "他剛愎自用，連專家的建議都置之不理。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "性情固執，自以為是而不聽勸。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%89%9B%E6%84%8E%E8%87%AA%E7%94%A8"
+      },
+      "questionIds": [
+        "103-0-14"
+      ]
+    },
+    {
+      "term": "勞民傷財",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "徒然耗費人力和財力。",
+      "example": "反覆拆建同一條路，既擾民又勞民傷財。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "徒然耗費人力和財力。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8B%9E%E6%B0%91%E5%82%B7%E8%B2%A1"
+      },
+      "questionIds": [
+        "103-0-20"
+      ]
+    },
+    {
+      "term": "千鈞一髮",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻情勢十分危急。",
+      "example": "在千鈞一髮之際，救生員把孩童拉上岸。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻情勢十分危急。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8D%83%E9%88%9E%E4%B8%80%E9%AB%AE"
+      },
+      "questionIds": [
+        "099-0-17"
+      ]
+    },
+    {
+      "term": "危如累卵",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形勢像堆疊的蛋一樣岌岌可危。",
+      "example": "資金一旦中斷，這家公司的處境便危如累卵。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形勢像堆疊的蛋一樣岌岌可危。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8D%B1%E5%A6%82%E7%B4%AF%E5%8D%B5"
+      },
+      "questionIds": [
+        "099-0-17"
+      ]
+    },
+    {
+      "term": "反客為主",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "被動的一方反過來取得主導權。",
+      "example": "對手上半場領先，下半場卻讓我們反客為主。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "被動的一方反過來取得主導權。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8F%8D%E5%AE%A2%E7%82%BA%E4%B8%BB"
+      },
+      "questionIds": [
+        "105-0-12"
+      ]
+    },
+    {
+      "term": "口若懸河",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容說話流暢而滔滔不絕。",
+      "example": "講者一上台便口若懸河，聽眾聽得十分投入。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容說話流暢而滔滔不絕。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8F%A3%E8%8B%A5%E6%87%B8%E6%B2%B3"
+      },
+      "questionIds": [
+        "098-0-3"
+      ]
+    },
+    {
+      "term": "咄咄逼人",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "氣勢凌厲，讓人感到壓迫。",
+      "example": "他的提問咄咄逼人，對方一時不知如何回應。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "氣勢凌厲，讓人感到壓迫。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%92%84%E5%92%84%E9%80%BC%E4%BA%BA"
+      },
+      "questionIds": [
+        "104-0-28"
+      ]
+    },
+    {
+      "term": "和而不同",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "彼此相處和睦，同時保有不同看法。",
+      "example": "團隊成員和而不同，討論時可以坦率表達意見。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "彼此相處和睦，同時保有不同看法。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%92%8C%E8%80%8C%E4%B8%8D%E5%90%8C"
+      },
+      "questionIds": [
+        "101-0-13"
+      ]
+    },
+    {
+      "term": "因勢利導",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "順著情勢發展加以引導。",
+      "example": "老師因勢利導，把孩子的好奇心轉化成學習動力。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "順著情勢發展加以引導。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%9B%A0%E5%8B%A2%E5%88%A9%E5%B0%8E"
+      },
+      "questionIds": [
+        "112-0-27"
+      ]
+    },
+    {
+      "term": "囫圇吞棗",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻學習時一知半解，未細加辨析。",
+      "example": "閱讀時若囫圇吞棗，就容易誤解作者的意思。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻學習時一知半解，未細加辨析。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%9B%AB%E5%9C%87%E5%90%9E%E6%A3%97"
+      },
+      "questionIds": [
+        "104-0-42"
+      ]
+    },
+    {
+      "term": "圍魏救趙",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "攻擊對方必須回救之處，以解除另一處的危機。",
+      "example": "棋手用圍魏救趙的策略，迫使對方回守。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "攻擊對方必須回救之處，以解除另一處的危機。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%9C%8D%E9%AD%8F%E6%95%91%E8%B6%99"
+      },
+      "questionIds": [
+        "105-0-12"
+      ]
+    },
+    {
+      "term": "壯士斷腕",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "遇到危機時果決地捨棄一部分，以保全大局。",
+      "example": "公司用壯士斷腕的決心停掉連年虧損的業務。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "遇到危機時果決地捨棄一部分，以保全大局。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A3%AF%E5%A3%AB%E6%96%B7%E8%85%95"
+      },
+      "questionIds": [
+        "105-0-23"
+      ]
+    },
+    {
+      "term": "夙夜匪懈",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "從早到晚勤勉不懈。",
+      "example": "團隊夙夜匪懈，終於如期完成工程。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "從早到晚勤勉不懈。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%99%E5%A4%9C%E5%8C%AA%E6%87%88"
+      },
+      "questionIds": [
+        "112-0-2"
+      ]
+    },
+    {
+      "term": "天懸地隔",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容差距極大。",
+      "example": "同一件事的兩個版本天懸地隔，必須再次查證。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容差距極大。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A9%E6%87%B8%E5%9C%B0%E9%9A%94"
+      },
+      "questionIds": [
+        "099-0-44"
+      ]
+    },
+    {
+      "term": "妙筆生花",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容寫作者文采出眾。",
+      "example": "她妙筆生花，把尋常的街景寫得令人神往。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容寫作者文采出眾。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A6%99%E7%AD%86%E7%94%9F%E8%8A%B1"
+      },
+      "questionIds": [
+        "101-0-43"
+      ]
+    },
+    {
+      "term": "子虛烏有",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "指憑空捏造、根本不存在。",
+      "example": "調出錄影後，才知道那些指控都是子虛烏有。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "指憑空捏造、根本不存在。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AD%90%E8%99%9B%E7%83%8F%E6%9C%89"
+      },
+      "questionIds": [
+        "102-0-11"
+      ]
+    },
+    {
+      "term": "守望相助",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "彼此照看、相互協助。",
+      "example": "颱風過後，鄰居守望相助，一起清理街道。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "彼此照看、相互協助。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%88%E6%9C%9B%E7%9B%B8%E5%8A%A9"
+      },
+      "questionIds": [
+        "101-0-17",
+        "099-0-11"
+      ]
+    },
+    {
+      "term": "安身立命",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "生活有所依託，心志也有所寄託。",
+      "example": "她靠教書安身立命，同時培養更多人才。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "生活有所依託，心志也有所寄託。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%89%E8%BA%AB%E7%AB%8B%E5%91%BD"
+      },
+      "questionIds": [
+        "103-0-30"
+      ]
+    },
+    {
+      "term": "寄人籬下",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "依靠別人生活，無法完全自主。",
+      "example": "經過多年寄人籬下，他終於能自己租房。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "依靠別人生活，無法完全自主。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AF%84%E4%BA%BA%E7%B1%AC%E4%B8%8B"
+      },
+      "questionIds": [
+        "105-0-8"
+      ]
+    },
+    {
+      "term": "尊師重道",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "尊敬老師並重視所傳授的道理。",
+      "example": "校方以公開感謝師長的方式提倡尊師重道。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "尊敬老師並重視所傳授的道理。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B0%8A%E5%B8%AB%E9%87%8D%E9%81%93"
+      },
+      "questionIds": [
+        "103-0-19"
+      ]
+    },
+    {
+      "term": "少不更事",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "年紀輕，缺乏處世經驗。",
+      "example": "他當時少不更事，遇到爭執便急著下結論。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "年紀輕，缺乏處世經驗。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B0%91%E4%B8%8D%E6%9B%B4%E4%BA%8B"
+      },
+      "questionIds": [
+        "104-0-12"
+      ]
+    },
+    {
+      "term": "左右逢源",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "處事順利，能靈活因應各種情況。",
+      "example": "她善於協調，在不同部門之間左右逢源。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "處事順利，能靈活因應各種情況。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B7%A6%E5%8F%B3%E9%80%A2%E6%BA%90"
+      },
+      "questionIds": [
+        "112-0-44"
+      ]
+    },
+    {
+      "term": "巧言令色",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用好聽的話和討好的神情取悅他人。",
+      "example": "他只會巧言令色，碰到責任便找藉口推託。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用好聽的話和討好的神情取悅他人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B7%A7%E8%A8%80%E4%BB%A4%E8%89%B2"
+      },
+      "questionIds": [
+        "102-0-13"
+      ]
+    },
+    {
+      "term": "幡然悔悟",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "徹底醒悟，明白自己先前有錯。",
+      "example": "看見自己的決定傷害了朋友，他終於幡然悔悟。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "徹底醒悟，明白自己先前有錯。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B9%A1%E7%84%B6%E6%82%94%E6%82%9F"
+      },
+      "questionIds": [
+        "104-0-43"
+      ]
+    },
+    {
+      "term": "庸人自擾",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "沒有事情卻給自己添煩惱。",
+      "example": "事情明明已處理妥當，再三猜疑只是庸人自擾。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "沒有事情卻給自己添煩惱。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BA%B8%E4%BA%BA%E8%87%AA%E6%93%BE"
+      },
+      "questionIds": [
+        "098-0-8"
+      ]
+    },
+    {
+      "term": "徒勞無功",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "付出力氣卻沒有成果。",
+      "example": "沒有先確認資料格式，反覆重跑也只是徒勞無功。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "付出力氣卻沒有成果。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BE%92%E5%8B%9E%E7%84%A1%E5%8A%9F"
+      },
+      "questionIds": [
+        "103-0-23"
+      ]
+    },
+    {
+      "term": "從善如流",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "欣然接受他人的良好意見。",
+      "example": "主編從善如流，採納讀者提出的改版建議。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "欣然接受他人的良好意見。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BE%9E%E5%96%84%E5%A6%82%E6%B5%81"
+      },
+      "questionIds": [
+        "104-0-2",
+        "104-0-43"
+      ]
+    },
+    {
+      "term": "從容就義",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "為正義或原則而毫不畏懼地赴死。",
+      "example": "史家記載這名義士面對威脅仍從容就義。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "為正義或原則而毫不畏懼地赴死。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BE%9E%E5%AE%B9%E5%B0%B1%E7%BE%A9"
+      },
+      "questionIds": [
+        "100-0-23"
+      ]
+    },
+    {
+      "term": "心不在焉",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "精神不集中，注意力在其他地方。",
+      "example": "他上課時心不在焉，連老師的提問都沒聽到。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "精神不集中，注意力在其他地方。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%83%E4%B8%8D%E5%9C%A8%E7%84%89"
+      },
+      "questionIds": [
+        "098-0-8"
+      ]
+    },
+    {
+      "term": "心曠神怡",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "心情開朗，精神舒暢。",
+      "example": "站在海邊吹風，讓人心曠神怡。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "心情開朗，精神舒暢。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%83%E6%9B%A0%E7%A5%9E%E6%80%A1"
+      },
+      "questionIds": [
+        "100-0-8"
+      ]
+    },
+    {
+      "term": "心灰意冷",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "因失望而喪失熱情。",
+      "example": "連續受到挫折使他心灰意冷。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "因失望而喪失熱情。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%83%E7%81%B0%E6%84%8F%E5%86%B7"
+      },
+      "questionIds": [
+        "104-0-9"
+      ]
+    },
+    {
+      "term": "志同道合",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "彼此理念與志向相合。",
+      "example": "兩人志同道合，決定一起成立讀書會。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "彼此理念與志向相合。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%97%E5%90%8C%E9%81%93%E5%90%88"
+      },
+      "questionIds": [
+        "105-0-1"
+      ]
+    },
+    {
+      "term": "忘年之交",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不受年齡差距限制的友誼。",
+      "example": "她和社區的老書店主人是忘年之交。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不受年齡差距限制的友誼。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%98%E5%B9%B4%E4%B9%8B%E4%BA%A4"
+      },
+      "questionIds": [
+        "100-0-6"
+      ]
+    },
+    {
+      "term": "怙惡不悛",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "一再為惡而不肯改過。",
+      "example": "被勸導多次仍怙惡不悛，最後只得依法處理。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "一再為惡而不肯改過。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%80%99%E6%83%A1%E4%B8%8D%E6%82%9B"
+      },
+      "questionIds": [
+        "099-0-38"
+      ]
+    },
+    {
+      "term": "怨聲載道",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "群眾普遍怨恨不滿。",
+      "example": "施工毫無預告，讓附近居民怨聲載道。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "群眾普遍怨恨不滿。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%80%A8%E8%81%B2%E8%BC%89%E9%81%93"
+      },
+      "questionIds": [
+        "102-0-24"
+      ]
+    },
+    {
+      "term": "恃才傲物",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "仗著才華而看不起人。",
+      "example": "他雖有專業能力，但恃才傲物，很難與同事合作。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "仗著才華而看不起人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%81%83%E6%89%8D%E5%82%B2%E7%89%A9"
+      },
+      "questionIds": [
+        "104-0-25"
+      ]
+    },
+    {
+      "term": "意氣風發",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "精神振奮、志氣高昂。",
+      "example": "比賽獲勝後，她意氣風發地展望下一個目標。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "精神振奮、志氣高昂。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%84%8F%E6%B0%A3%E9%A2%A8%E7%99%BC"
+      },
+      "questionIds": [
+        "100-0-23"
+      ]
+    },
+    {
+      "term": "戶限為穿",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "踏破門檻，形容來訪的人非常多。",
+      "example": "畫家新作展出，參觀者幾乎戶限為穿。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "踏破門檻，形容來訪的人非常多。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%88%B6%E9%99%90%E7%82%BA%E7%A9%BF"
+      },
+      "questionIds": [
+        "100-0-6"
+      ]
+    },
+    {
+      "term": "才大難用",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "才幹很高卻難得適當任用。",
+      "example": "作者以才大難用感嘆這位人物未遇知己。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "才幹很高卻難得適當任用。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%89%8D%E5%A4%A7%E9%9B%A3%E7%94%A8"
+      },
+      "questionIds": [
+        "103-0-14"
+      ]
+    },
+    {
+      "term": "抑揚頓挫",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "聲音或文字節奏有高低起伏與停頓轉折。",
+      "example": "她朗讀得抑揚頓挫，讓故事更有感染力。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "聲音或文字節奏有高低起伏與停頓轉折。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8A%91%E6%8F%9A%E9%A0%93%E6%8C%AB"
+      },
+      "questionIds": [
+        "099-0-19"
+      ]
+    },
+    {
+      "term": "持之以恆",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以恆心長久做一件事。",
+      "example": "每天複習十分鐘，持之以恆才有累積。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以恆心長久做一件事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8C%81%E4%B9%8B%E4%BB%A5%E6%81%86"
+      },
+      "questionIds": [
+        "112-0-15"
+      ]
+    },
+    {
+      "term": "掩耳盜鈴",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻自己掩飾真相，以為別人也不會知道。",
+      "example": "把警示訊息關掉卻不處理問題，只是掩耳盜鈴。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻自己掩飾真相，以為別人也不會知道。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8E%A9%E8%80%B3%E7%9B%9C%E9%88%B4"
+      },
+      "questionIds": [
+        "104-0-4"
+      ]
+    },
+    {
+      "term": "敝帚自珍",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "自家的東西即使不值錢，自己仍十分珍愛。",
+      "example": "舊底片畫質不佳，我卻敝帚自珍，一直好好收藏。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "自家的東西即使不值錢，自己仍十分珍愛。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%95%9D%E5%B8%9A%E8%87%AA%E7%8F%8D"
+      },
+      "questionIds": [
+        "103-0-26"
+      ]
+    },
+    {
+      "term": "旁觀者清",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "置身事外的人較容易看清局面。",
+      "example": "兩方僵持不下，或許旁觀者清，能找出折衷方案。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "置身事外的人較容易看清局面。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%97%81%E8%A7%80%E8%80%85%E6%B8%85"
+      },
+      "questionIds": [
+        "105-0-17"
+      ]
+    },
+    {
+      "term": "暴虎馮河",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "徒手搏虎、徒步渡河，比喻有勇無謀。",
+      "example": "不看水勢就下去救人，無異於暴虎馮河。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "徒手搏虎、徒步渡河，比喻有勇無謀。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9A%B4%E8%99%8E%E9%A6%AE%E6%B2%B3"
+      },
+      "questionIds": [
+        "100-0-23",
+        "101-0-15"
+      ]
+    },
+    {
+      "term": "江郎才盡",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻原有的創作才華逐漸耗盡。",
+      "example": "他連續寫不出新作，一度擔心自己江郎才盡。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻原有的創作才華逐漸耗盡。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B1%9F%E9%83%8E%E6%89%8D%E7%9B%A1"
+      },
+      "questionIds": [
+        "102-0-11"
+      ]
+    },
+    {
+      "term": "沆瀣一氣",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻氣味相投的人相互勾結。",
+      "example": "承包商與審查人員沆瀣一氣，事後遭到查辦。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻氣味相投的人相互勾結。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B2%86%E7%80%A3%E4%B8%80%E6%B0%A3"
+      },
+      "questionIds": [
+        "105-0-1"
+      ]
+    },
+    {
+      "term": "洛陽紙貴",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻作品廣受歡迎，流傳甚廣。",
+      "example": "新刊一上市便搶購一空，有洛陽紙貴之勢。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻作品廣受歡迎，流傳甚廣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B4%9B%E9%99%BD%E7%B4%99%E8%B2%B4"
+      },
+      "questionIds": [
+        "102-0-11"
+      ]
+    },
+    {
+      "term": "浮光掠影",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "觀察或理解沒有深入，只留下片面印象。",
+      "example": "一天走完五座博物館，所見難免只是浮光掠影。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "觀察或理解沒有深入，只留下片面印象。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B5%AE%E5%85%89%E6%8E%A0%E5%BD%B1"
+      },
+      "questionIds": [
+        "104-0-42"
+      ]
+    },
+    {
+      "term": "狐假虎威",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "借用別人的權勢來欺壓他人。",
+      "example": "他仗著認識老闆狐假虎威，動輒命令同事。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "借用別人的權勢來欺壓他人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8B%90%E5%81%87%E8%99%8E%E5%A8%81"
+      },
+      "questionIds": [
+        "101-0-35"
+      ]
+    },
+    {
+      "term": "獨善其身",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "維持自身品德，也可指只顧自己。",
+      "example": "面對不合理的制度，她不願獨善其身，而選擇出面協助。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "維持自身品德，也可指只顧自己。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8D%A8%E5%96%84%E5%85%B6%E8%BA%AB"
+      },
+      "questionIds": [
+        "102-0-15"
+      ]
+    },
+    {
+      "term": "珠聯璧合",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "美好的人或事物相聚，彼此相得益彰。",
+      "example": "這對搭檔一人擅長設計，一人專精製作，真是珠聯璧合。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "美好的人或事物相聚，彼此相得益彰。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8F%A0%E8%81%AF%E7%92%A7%E5%90%88"
+      },
+      "questionIds": [
+        "105-0-5"
+      ]
+    },
+    {
+      "term": "瓜瓞綿綿",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以大瓜小瓜相續，比喻子孫繁衍。",
+      "example": "長輩以「瓜瓞綿綿」寄託家族代代興旺的祝願。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以大瓜小瓜相續，比喻子孫繁衍。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%93%9C%E7%93%9E%E7%B6%BF%E7%B6%BF"
+      },
+      "questionIds": [
+        "103-0-10"
+      ]
+    },
+    {
+      "term": "畫蛇添足",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "做了多餘的事，反而破壞成果。",
+      "example": "這段結論已經完整，硬加一段反而畫蛇添足。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "做了多餘的事，反而破壞成果。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%95%AB%E8%9B%87%E6%B7%BB%E8%B6%B3"
+      },
+      "questionIds": [
+        "102-0-43"
+      ]
+    },
+    {
+      "term": "百折不撓",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "遇到多次挫折也不退縮。",
+      "example": "他百折不撓，屢次修改設計直到成功。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "遇到多次挫折也不退縮。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%99%BE%E6%8A%98%E4%B8%8D%E6%92%93"
+      },
+      "questionIds": [
+        "105-0-23"
+      ]
+    },
+    {
+      "term": "禍起蕭牆",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "災禍出自內部。",
+      "example": "兩派為爭權而互相攻擊，終致禍起蕭牆。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "災禍出自內部。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A6%8D%E8%B5%B7%E8%95%AD%E7%89%86"
+      },
+      "questionIds": [
+        "103-0-7"
+      ]
+    },
+    {
+      "term": "節衣縮食",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "節省衣食開銷。",
+      "example": "為了攢學費，她一度節衣縮食。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "節省衣食開銷。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%AF%80%E8%A1%A3%E7%B8%AE%E9%A3%9F"
+      },
+      "questionIds": [
+        "104-0-24"
+      ]
+    },
+    {
+      "term": "精衛填海",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻立志堅定，即使事情極難也不放棄。",
+      "example": "團隊抱著精衛填海的精神，一點一滴修復老屋。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻立志堅定，即使事情極難也不放棄。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%B2%BE%E8%A1%9B%E5%A1%AB%E6%B5%B7"
+      },
+      "questionIds": [
+        "104-0-10"
+      ]
+    },
+    {
+      "term": "自不量力",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "沒有衡量自己的能力就貿然行事。",
+      "example": "毫無登山經驗就獨自挑戰高山，未免自不量力。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "沒有衡量自己的能力就貿然行事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%87%AA%E4%B8%8D%E9%87%8F%E5%8A%9B"
+      },
+      "questionIds": [
+        "101-0-38"
+      ]
+    },
+    {
+      "term": "蕭規曹隨",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "沿用前任建立的規章或做法。",
+      "example": "新主任蕭規曹隨，延續已運作良好的制度。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "沿用前任建立的規章或做法。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%95%AD%E8%A6%8F%E6%9B%B9%E9%9A%A8"
+      },
+      "questionIds": [
+        "098-0-1"
+      ]
+    },
+    {
+      "term": "道貌岸然",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "神情外表看似正經莊重，常用以諷刺表裡不一。",
+      "example": "他在人前道貌岸然，私下卻挪用公款。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "神情外表看似正經莊重，常用以諷刺表裡不一。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%81%93%E8%B2%8C%E5%B2%B8%E7%84%B6"
+      },
+      "questionIds": [
+        "101-0-35"
+      ]
+    },
+    {
+      "term": "遠交近攻",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "聯結遠方勢力以對付近處的對手。",
+      "example": "秦國以遠交近攻為策略，逐步擴張勢力。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "聯結遠方勢力以對付近處的對手。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%81%A0%E4%BA%A4%E8%BF%91%E6%94%BB"
+      },
+      "questionIds": [
+        "105-0-12"
+      ]
+    },
+    {
+      "term": "青出於藍",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻學生或後輩超過老師或前輩。",
+      "example": "學生的作品在比賽得獎，老師稱讚她青出於藍。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻學生或後輩超過老師或前輩。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9D%92%E5%87%BA%E6%96%BC%E8%97%8D"
+      },
+      "questionIds": [
+        "101-0-5",
+        "101-0-11"
+      ]
+    },
+    {
+      "term": "革故鼎新",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "革除舊弊，建立新制度或方法。",
+      "example": "學校革故鼎新，改以實作評量學生的能力。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "革除舊弊，建立新制度或方法。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9D%A9%E6%95%85%E9%BC%8E%E6%96%B0"
+      },
+      "questionIds": [
+        "098-0-1"
+      ]
+    },
+    {
+      "term": "韜光養晦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "收斂才華或鋒芒，等待適當時機。",
+      "example": "他初到新單位先韜光養晦，了解情況再提出改革。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "收斂才華或鋒芒，等待適當時機。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9F%9C%E5%85%89%E9%A4%8A%E6%99%A6"
+      },
+      "questionIds": [
+        "112-0-44"
+      ]
+    },
+    {
+      "term": "一片冰心",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻心地純潔、操守清白。",
+      "example": "即使受到誤會，他仍願以一片冰心面對眾人。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻心地純潔、操守清白。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%80%E7%89%87%E5%86%B0%E5%BF%83"
+      },
+      "questionIds": [
+        "104-0-9"
+      ]
+    },
+    {
+      "term": "不共戴天",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容仇恨極深，難以共存。",
+      "example": "小說中的兩個家族世代結仇，聲稱不共戴天。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容仇恨極深，難以共存。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%85%B1%E6%88%B4%E5%A4%A9"
+      },
+      "questionIds": [
+        "099-0-23"
+      ]
+    },
+    {
+      "term": "之乎者也",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "指文言常用虛詞，常代稱艱深或文縐縐的表達。",
+      "example": "他一開口便是之乎者也，小朋友完全聽不懂。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "指文言常用虛詞，常代稱艱深或文縐縐的表達。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B9%8B%E4%B9%8E%E8%80%85%E4%B9%9F"
+      },
+      "questionIds": [
+        "104-0-15"
+      ]
+    },
+    {
+      "term": "似是而非",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "看起來正確，其實有錯。",
+      "example": "這個解釋似是而非，忽略了公式成立的條件。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "看起來正確，其實有錯。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BC%BC%E6%98%AF%E8%80%8C%E9%9D%9E"
+      },
+      "questionIds": [
+        "112-0-44"
+      ]
+    },
+    {
+      "term": "包羞忍恥",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "忍受羞辱，將羞憤放在心裡。",
+      "example": "他包羞忍恥地回鄉，打算重新磨練本領。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "忍受羞辱，將羞憤放在心裡。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8C%85%E7%BE%9E%E5%BF%8D%E6%81%A5"
+      },
+      "questionIds": [
+        "099-0-22"
+      ]
+    },
+    {
+      "term": "嗤之以鼻",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用鼻子發出輕蔑聲，表示看不起。",
+      "example": "對於沒有證據的指控，她嗤之以鼻。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用鼻子發出輕蔑聲，表示看不起。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%97%A4%E4%B9%8B%E4%BB%A5%E9%BC%BB"
+      },
+      "questionIds": [
+        "099-0-23"
+      ]
+    },
+    {
+      "term": "孟母三遷",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻重視環境對孩子學習和品行的影響。",
+      "example": "父母為孩子尋找適合的學習環境，頗有孟母三遷的用心。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻重視環境對孩子學習和品行的影響。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AD%9F%E6%AF%8D%E4%B8%89%E9%81%B7"
+      },
+      "questionIds": [
+        "100-0-20"
+      ]
+    },
+    {
+      "term": "家喻戶曉",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "每家每戶都知道。",
+      "example": "那首老歌傳唱多年，早已家喻戶曉。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "每家每戶都知道。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%B6%E5%96%BB%E6%88%B6%E6%9B%89"
+      },
+      "questionIds": [
+        "103-0-35"
+      ]
+    },
+    {
+      "term": "康莊大道",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "原指寬廣平坦的大路，也比喻順利的前途。",
+      "example": "把基礎打穩，往後才有機會走上康莊大道。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "原指寬廣平坦的大路，也比喻順利的前途。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BA%B7%E8%8E%8A%E5%A4%A7%E9%81%93"
+      },
+      "questionIds": [
+        "103-0-39"
+      ]
+    },
+    {
+      "term": "如釋重負",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "像放下沉重的擔子，形容壓力解除。",
+      "example": "確認資料都已復原後，他如釋重負。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "像放下沉重的擔子，形容壓力解除。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A6%82%E9%87%8B%E9%87%8D%E8%B2%A0"
+      },
+      "questionIds": [
+        "103-0-37"
+      ]
+    },
+    {
+      "term": "忿然作色",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "憤怒到臉色明顯改變。",
+      "example": "聽到有人誣指同仁，他立刻忿然作色。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "憤怒到臉色明顯改變。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%BF%E7%84%B6%E4%BD%9C%E8%89%B2"
+      },
+      "questionIds": [
+        "104-0-27",
+        "104-0-28"
+      ]
+    },
+    {
+      "term": "應接不暇",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "事物接連出現，來不及應付或觀賞。",
+      "example": "展覽內容太多，令人應接不暇。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "事物接連出現，來不及應付或觀賞。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%87%89%E6%8E%A5%E4%B8%8D%E6%9A%87"
+      },
+      "questionIds": [
+        "104-0-42"
+      ]
+    },
+    {
+      "term": "捲土重來",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "失敗後重新集結力量，再次出發。",
+      "example": "首場落敗後，隊伍加強訓練，明年準備捲土重來。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "失敗後重新集結力量，再次出發。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8D%B2%E5%9C%9F%E9%87%8D%E4%BE%86"
+      },
+      "questionIds": [
+        "099-0-22"
+      ]
+    },
+    {
+      "term": "整裝待發",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "整理好裝備，等候出發。",
+      "example": "登山隊天剛亮就整裝待發。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "整理好裝備，等候出發。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%95%B4%E8%A3%9D%E5%BE%85%E7%99%BC"
+      },
+      "questionIds": [
+        "103-0-42"
+      ]
+    },
+    {
+      "term": "汗牛充棟",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容書籍極多，多到搬運使牛出汗，存放能堆滿屋宇。",
+      "example": "老教授的藏書汗牛充棟。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容書籍極多，多到搬運使牛出汗，存放能堆滿屋宇。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B1%97%E7%89%9B%E5%85%85%E6%A3%9F"
+      },
+      "questionIds": [
+        "102-0-42"
+      ]
+    },
+    {
+      "term": "漫不經心",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "對事情隨便，沒有用心。",
+      "example": "他漫不經心地核對資料，漏掉一整列數字。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "對事情隨便，沒有用心。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%BC%AB%E4%B8%8D%E7%B6%93%E5%BF%83"
+      },
+      "questionIds": [
+        "104-0-13"
+      ]
+    },
+    {
+      "term": "目不暇給",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "可看的東西太多，眼睛來不及一一觀看。",
+      "example": "展場的燈飾接連亮起，令人目不暇給。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "可看的東西太多，眼睛來不及一一觀看。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9B%AE%E4%B8%8D%E6%9A%87%E7%B5%A6"
+      },
+      "questionIds": [
+        "102-0-31"
+      ]
+    },
+    {
+      "term": "莫名其妙",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不明白發生的原因，或形容事情難以理解。",
+      "example": "會議毫無預警地取消了，大家都覺得莫名其妙。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不明白發生的原因，或形容事情難以理解。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8E%AB%E5%90%8D%E5%85%B6%E5%A6%99"
+      },
+      "questionIds": [
+        "112-0-45"
+      ]
+    },
+    {
+      "term": "過目成誦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "看過就能背出來，形容記憶力很強。",
+      "example": "她記性極好，讀詩常能過目成誦。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "看過就能背出來，形容記憶力很強。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%81%8E%E7%9B%AE%E6%88%90%E8%AA%A6"
+      },
+      "questionIds": [
+        "104-0-42"
+      ]
+    },
+    {
+      "term": "雞犬相聞",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "村落相近，可以聽到彼此的雞鳴狗叫。",
+      "example": "沿著小路望去，田邊的村舍雞犬相聞。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "村落相近，可以聽到彼此的雞鳴狗叫。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9B%9E%E7%8A%AC%E7%9B%B8%E8%81%9E"
+      },
+      "questionIds": [
+        "101-0-35"
+      ]
+    },
+    {
+      "term": "韋編三絕",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻讀書勤奮，反覆研讀。",
+      "example": "他治學認真，一本經書反覆翻閱，幾近韋編三絕。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻讀書勤奮，反覆研讀。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9F%8B%E7%B7%A8%E4%B8%89%E7%B5%95"
+      },
+      "questionIds": [
+        "104-0-42"
+      ]
+    },
+    {
+      "term": "氣象維新",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容景象一新，可用作祝賀新居落成的題辭。",
+      "example": "朋友搬進新屋，我在賀卡上題了「氣象維新」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容景象一新，可用作祝賀新居落成的題辭。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B0%A3%E8%B1%A1%E7%B6%AD%E6%96%B0"
+      },
+      "questionIds": [
+        "113-0-36"
+      ]
+    },
+    {
+      "term": "昌宜五世",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用於祝賀婚嫁，祝願後代昌盛。",
+      "example": "長輩在新婚賀卡上題了「昌宜五世」，祝福新人。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用於祝賀婚嫁，祝願後代昌盛。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%98%8C%E5%AE%9C%E4%BA%94%E4%B8%96"
+      },
+      "questionIds": [
+        "113-0-36"
+      ]
+    },
+    {
+      "term": "宜其家室",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "語出《詩經．桃夭》，祝女子出嫁後家庭和順。",
+      "example": "婚禮賀卡上寫著「宜其家室」，取家庭和睦之意。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "語出《詩經．桃夭》，祝女子出嫁後家庭和順。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%9C%E5%85%B6%E5%AE%B6%E5%AE%A4"
+      },
+      "questionIds": [
+        "113-0-36",
+        "099-0-28"
+      ]
+    },
+    {
+      "term": "壯志克伸",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "祝願遠大的志向能得以實現，可用於祝賀升遷。",
+      "example": "他接下新職務，同事們題了「壯志克伸」相賀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "祝願遠大的志向能得以實現，可用於祝賀升遷。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A3%AF%E5%BF%97%E5%85%8B%E4%BC%B8"
+      },
+      "questionIds": [
+        "101-0-44"
+      ]
+    },
+    {
+      "term": "初展鴻猷",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "指剛開始施展遠大的計畫，可用於祝賀新任。",
+      "example": "新任主管就職，大家題「初展鴻猷」祝賀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "指剛開始施展遠大的計畫，可用於祝賀新任。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%88%9D%E5%B1%95%E9%B4%BB%E7%8C%B7"
+      },
+      "questionIds": [
+        "101-0-44"
+      ]
+    },
+    {
+      "term": "壽比松齡",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用松樹年壽長久來祝賀長者長壽。",
+      "example": "爺爺過生日，我們在壽卡上寫下「壽比松齡」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用松樹年壽長久來祝賀長者長壽。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A3%BD%E6%AF%94%E6%9D%BE%E9%BD%A1"
+      },
+      "questionIds": [
+        "102-0-10"
+      ]
+    },
+    {
+      "term": "南極星輝",
+      "aliases": [
+        "星輝南極"
+      ],
+      "category": "成語與常用語",
+      "meaning": "以南極老人星象徵長壽，多用於祝賀男性長輩壽辰。",
+      "example": "伯父八十大壽，親友送來「南極星輝」的壽匾。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以南極老人星象徵長壽，多用於祝賀男性長輩壽辰。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8D%97%E6%A5%B5%E6%98%9F%E8%BC%9D"
+      },
+      "questionIds": [
+        "102-0-10",
+        "104-0-5"
+      ]
+    },
+    {
+      "term": "嵩壽無疆",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "祝賀長者高壽綿長。",
+      "example": "祖父的百歲壽卡題有「嵩壽無疆」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "祝賀長者高壽綿長。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%B5%A9%E5%A3%BD%E7%84%A1%E7%96%86"
+      },
+      "questionIds": [
+        "102-0-10"
+      ]
+    },
+    {
+      "term": "彤管揚芬",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "稱頌女子的德行與美名，常用於女喪輓辭。",
+      "example": "學生在輓聯上題「彤管揚芬」，追念女老師的德行。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "稱頌女子的德行與美名，常用於女喪輓辭。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BD%A4%E7%AE%A1%E6%8F%9A%E8%8A%AC"
+      },
+      "questionIds": [
+        "103-0-10"
+      ]
+    },
+    {
+      "term": "彩鳳新雛",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以新生的小鳳象徵喜得女兒。",
+      "example": "友人添了女兒，我以「彩鳳新雛」祝賀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以新生的小鳳象徵喜得女兒。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BD%A9%E9%B3%B3%E6%96%B0%E9%9B%9B"
+      },
+      "questionIds": [
+        "103-0-10"
+      ]
+    },
+    {
+      "term": "弄瓦徵祥",
+      "aliases": [
+        "弄瓦之喜"
+      ],
+      "category": "成語與常用語",
+      "meaning": "用於祝賀生女。「弄瓦」是古代用來指稱生女的說法。",
+      "example": "親友在彌月禮卡上寫下「弄瓦徵祥」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用於祝賀生女。「弄瓦」是古代用來指稱生女的說法。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BC%84%E7%93%A6%E5%BE%B5%E7%A5%A5"
+      },
+      "questionIds": [
+        "104-0-5",
+        "105-0-6",
+        "097-0-9"
+      ]
+    },
+    {
+      "term": "明珠在抱",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "把女兒比作懷中的明珠，用於賀生女。",
+      "example": "同事喜得千金，大家送上「明珠在抱」的賀卡。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "把女兒比作懷中的明珠，用於賀生女。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%98%8E%E7%8F%A0%E5%9C%A8%E6%8A%B1"
+      },
+      "questionIds": [
+        "105-0-5"
+      ]
+    },
+    {
+      "term": "關雎之喜",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "取《詩經．關雎》中的婚戀寓意，祝賀結婚。",
+      "example": "友人結婚，我在卡片上寫「關雎之喜」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "取《詩經．關雎》中的婚戀寓意，祝賀結婚。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%97%9C%E9%9B%8E%E4%B9%8B%E5%96%9C"
+      },
+      "questionIds": [
+        "105-0-6"
+      ]
+    },
+    {
+      "term": "花萼相輝",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以花朵和萼片相映比喻兄弟和睦。",
+      "example": "這對兄弟總是相互扶持，堪稱花萼相輝。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以花朵和萼片相映比喻兄弟和睦。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8A%B1%E8%90%BC%E7%9B%B8%E8%BC%9D"
+      },
+      "questionIds": [
+        "105-0-6"
+      ]
+    },
+    {
+      "term": "松柏相輝",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以長青的松柏祝願長者康健長壽。",
+      "example": "兩位長輩同日做壽，晚輩敬題「松柏相輝」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以長青的松柏祝願長者康健長壽。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9D%BE%E6%9F%8F%E7%9B%B8%E8%BC%9D"
+      },
+      "questionIds": [
+        "105-0-6"
+      ]
+    },
+    {
+      "term": "喜獲麟兒",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "祝賀人家喜得男孩。",
+      "example": "親友在彌月賀卡上題「喜獲麟兒」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "祝賀人家喜得男孩。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%96%9C%E7%8D%B2%E9%BA%9F%E5%85%92"
+      },
+      "questionIds": [
+        "097-0-9"
+      ]
+    },
+    {
+      "term": "熊夢徵祥",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用夢熊象徵生男的傳統典故，祝賀生子。",
+      "example": "得知友人喜得男孩，長輩以「熊夢徵祥」祝賀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用夢熊象徵生男的傳統典故，祝賀生子。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%86%8A%E5%A4%A2%E5%BE%B5%E7%A5%A5"
+      },
+      "questionIds": [
+        "097-0-9"
+      ]
+    },
+    {
+      "term": "天降石麟",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "石麟是對有才德的男孩的讚稱，這句可用於賀生子。",
+      "example": "友人得子，我們送上題著「天降石麟」的賀卡。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "石麟是對有才德的男孩的讚稱，這句可用於賀生子。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A9%E9%99%8D%E7%9F%B3%E9%BA%9F"
+      },
+      "questionIds": [
+        "099-0-31"
+      ]
+    },
+    {
+      "term": "喜締鴛鴦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以鴛鴦象徵夫妻成雙，用於祝賀結婚。",
+      "example": "新人收到寫著「喜締鴛鴦」的賀禮。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以鴛鴦象徵夫妻成雙，用於祝賀結婚。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%96%9C%E7%B7%A0%E9%B4%9B%E9%B4%A6"
+      },
+      "questionIds": [
+        "099-0-31"
+      ]
+    },
+    {
+      "term": "堂構增輝",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "頌祝新居落成、家宅添光。",
+      "example": "鄰居新屋落成，我們贈上「堂構增輝」的匾額。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "頌祝新居落成、家宅添光。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A0%82%E6%A7%8B%E5%A2%9E%E8%BC%9D"
+      },
+      "questionIds": [
+        "099-0-31"
+      ]
+    },
+    {
+      "term": "其新孔嘉",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "「孔」是很，「嘉」是美好。用於賀婚，祝新人婚姻美滿。",
+      "example": "好友結婚，收到題有「其新孔嘉」的賀卡。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "「孔」是很，「嘉」是美好。用於賀婚，祝新人婚姻美滿。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%85%B6%E6%96%B0%E5%AD%94%E5%98%89"
+      },
+      "questionIds": [
+        "099-0-31"
+      ]
+    },
+    {
+      "term": "教澤長存",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "讚揚教誨與恩澤長久留在受教者心中，可用於追念師長。",
+      "example": "校友以「教澤長存」追念老師一生的付出。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "讚揚教誨與恩澤長久留在受教者心中，可用於追念師長。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%95%99%E6%BE%A4%E9%95%B7%E5%AD%98"
+      },
+      "questionIds": [
+        "112-0-36"
+      ]
+    },
+    {
+      "term": "春暉廣被",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻關愛與恩澤像春日陽光一般廣布。",
+      "example": "校友以「春暉廣被」感念師長多年培育。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻關愛與恩澤像春日陽光一般廣布。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%98%A5%E6%9A%89%E5%BB%A3%E8%A2%AB"
+      },
+      "questionIds": [
+        "112-0-36"
+      ]
+    },
+    {
+      "term": "忠孝傳家",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "用忠誠、孝親的價值教育後代，可用於表揚模範父親。",
+      "example": "表揚大會贈給模範父親一面「忠孝傳家」的匾額。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "用忠誠、孝親的價值教育後代，可用於表揚模範父親。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%A0%E5%AD%9D%E5%82%B3%E5%AE%B6"
+      },
+      "questionIds": [
+        "112-0-36"
+      ]
+    },
+    {
+      "term": "壽元無量",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "祝人壽命長久，用於祝壽。",
+      "example": "親友在壽宴上致贈「壽元無量」的賀聯。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "祝人壽命長久，用於祝壽。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A3%BD%E5%85%83%E7%84%A1%E9%87%8F"
+      },
+      "questionIds": [
+        "112-0-36"
+      ]
+    },
+    {
+      "term": "明倫教孝",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "闡明倫理並教導孝行，可用於表揚以身作則的父親。",
+      "example": "主辦單位以「明倫教孝」表揚模範父親。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "闡明倫理並教導孝行，可用於表揚以身作則的父親。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%98%8E%E5%80%AB%E6%95%99%E5%AD%9D"
+      },
+      "questionIds": [
+        "112-0-36"
+      ]
+    },
+    {
+      "term": "德業長昭",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "德行與功業長久受到世人稱頌，多用於男喪輓辭。",
+      "example": "鄉親以「德業長昭」追念地方耆老。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "德行與功業長久受到世人稱頌，多用於男喪輓辭。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BE%B7%E6%A5%AD%E9%95%B7%E6%98%AD"
+      },
+      "questionIds": [
+        "112-0-7"
+      ]
+    },
+    {
+      "term": "名山事業",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "指有價值、足以流傳後世的著述。",
+      "example": "他多年整理地方文獻，志在成就一件名山事業。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "指有價值、足以流傳後世的著述。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%8D%E5%B1%B1%E4%BA%8B%E6%A5%AD"
+      },
+      "questionIds": [
+        "112-0-7"
+      ]
+    },
+    {
+      "term": "大業千秋",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "祝願事業長久興旺，可用作商家賀詞。",
+      "example": "朋友的新店開幕，她送上題有「大業千秋」的賀禮。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "祝願事業長久興旺，可用作商家賀詞。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A7%E6%A5%AD%E5%8D%83%E7%A7%8B"
+      },
+      "questionIds": [
+        "112-0-6"
+      ]
+    },
+    {
+      "term": "近悅遠來",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "施政或服務讓近處的人高興，遠處的人也願意前來。",
+      "example": "商家用心經營、服務周到，真正做到近悅遠來。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "施政或服務讓近處的人高興，遠處的人也願意前來。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%BF%91%E6%82%85%E9%81%A0%E4%BE%86"
+      },
+      "questionIds": [
+        "099-0-30"
+      ]
+    },
+    {
+      "term": "為民喉舌",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "替民眾表達意見、反映處境。",
+      "example": "這份報紙以為民喉舌為宗旨，持續報導地方議題。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "替民眾表達意見、反映處境。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%82%BA%E6%B0%91%E5%96%89%E8%88%8C"
+      },
+      "questionIds": [
+        "099-0-30"
+      ]
+    },
+    {
+      "term": "聖手佛心",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "稱讚醫者醫術高明且仁慈，可用於醫界題辭。",
+      "example": "康復後，病人致贈「聖手佛心」的匾額向醫師致謝。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "稱讚醫者醫術高明且仁慈，可用於醫界題辭。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%81%96%E6%89%8B%E4%BD%9B%E5%BF%83"
+      },
+      "questionIds": [
+        "099-0-30"
+      ]
+    },
+    {
+      "term": "杏壇之光",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "讚揚教育界的傑出人士。「杏壇」指教育界。",
+      "example": "校方以「杏壇之光」表揚資深教師。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "讚揚教育界的傑出人士。「杏壇」指教育界。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9D%8F%E5%A3%87%E4%B9%8B%E5%85%89"
+      },
+      "questionIds": [
+        "099-0-30"
+      ]
+    },
+    {
+      "term": "功著杏林",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "稱頌醫者在醫療領域的貢獻。「杏林」指醫界。",
+      "example": "醫院以「功著杏林」表揚長年服務偏鄉的醫師。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "稱頌醫者在醫療領域的貢獻。「杏林」指醫界。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8A%9F%E8%91%97%E6%9D%8F%E6%9E%97"
+      },
+      "questionIds": [
+        "112-0-6"
+      ]
+    },
+    {
+      "term": "猛著先鞭",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻積極搶先奮發。",
+      "example": "同學鼓勵她猛著先鞭，及早著手準備考試。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻積極搶先奮發。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8C%9B%E8%91%97%E5%85%88%E9%9E%AD"
+      },
+      "questionIds": [
+        "101-0-44"
+      ]
+    },
+    {
+      "term": "面面相覷",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "彼此對看，形容驚訝或不知如何是好。",
+      "example": "突然停電，與會者面面相覷。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "彼此對看，形容驚訝或不知如何是好。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9D%A2%E9%9D%A2%E7%9B%B8%E8%A6%B7"
+      },
+      "questionIds": [
+        "102-0-16"
+      ]
+    },
+    {
+      "term": "窮凶極惡",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容兇狠惡毒到了極點。",
+      "example": "小說把反派寫成窮凶極惡的人物。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容兇狠惡毒到了極點。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%AA%AE%E5%87%B6%E6%A5%B5%E6%83%A1"
+      },
+      "questionIds": [
+        "101-0-35"
+      ]
+    },
+    {
+      "term": "奪門而出",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "急忙衝出門。",
+      "example": "一聽說外頭有人受傷，他立即奪門而出。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "急忙衝出門。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%AA%E9%96%80%E8%80%8C%E5%87%BA"
+      },
+      "questionIds": [
+        "102-0-16"
+      ]
+    },
+    {
+      "term": "不堪其擾",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "無法忍受造成的干擾。",
+      "example": "施工噪音日夜不停，住戶不堪其擾。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "無法忍受造成的干擾。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%A0%AA%E5%85%B6%E6%93%BE"
+      },
+      "questionIds": [
+        "101-0-35"
+      ]
+    },
+    {
+      "term": "眼不見為淨",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "認為看不見令人煩惱的事，就能少受困擾。",
+      "example": "她把雜物關進櫃子，心想眼不見為淨。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "認為看不見令人煩惱的事，就能少受困擾。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9C%BC%E4%B8%8D%E8%A6%8B%E7%82%BA%E6%B7%A8"
+      },
+      "questionIds": [
+        "101-0-35"
+      ]
+    },
+    {
+      "term": "橫槊賦詩",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "拿著長矛吟詩，形容文才與勇武兼備的豪氣。",
+      "example": "詩人回想曹操橫槊賦詩的氣概。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "拿著長矛吟詩，形容文才與勇武兼備的豪氣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A9%AB%E6%A7%8A%E8%B3%A6%E8%A9%A9"
+      },
+      "questionIds": [
+        "100-0-23"
+      ]
+    },
+    {
+      "term": "載舟覆舟",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "水能載船也能翻船，比喻民眾既能擁戴也能推翻統治者。",
+      "example": "為政者應明白載舟覆舟的道理，重視民意。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "水能載船也能翻船，比喻民眾既能擁戴也能推翻統治者。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%BC%89%E8%88%9F%E8%A6%86%E8%88%9F"
+      },
+      "questionIds": [
+        "101-0-14"
+      ]
+    },
+    {
+      "term": "追根究柢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "追查事情的根本原因。",
+      "example": "為了找出資料不一致的原因，他決定追根究柢。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "追查事情的根本原因。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%BF%BD%E6%A0%B9%E7%A9%B6%E6%9F%A2"
+      },
+      "questionIds": [
+        "112-0-21"
+      ]
+    },
+    {
+      "term": "珠圓玉潤",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容歌聲圓潤，或文字流暢秀美。",
+      "example": "她的歌聲珠圓玉潤，讓聽眾久久難忘。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容歌聲圓潤，或文字流暢秀美。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8F%A0%E5%9C%93%E7%8E%89%E6%BD%A4"
+      },
+      "questionIds": [
+        "102-0-7"
+      ]
+    },
+    {
+      "term": "苦盡甘來",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "苦日子結束後迎來好轉。",
+      "example": "熬過幾次失敗後，他終於苦盡甘來。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "苦日子結束後迎來好轉。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8B%A6%E7%9B%A1%E7%94%98%E4%BE%86"
+      },
+      "questionIds": [
+        "102-0-45"
+      ]
+    },
+    {
+      "term": "門可羅雀",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "門前冷清得可以張網捕雀。",
+      "example": "新商場開幕後，原本熱鬧的老街漸漸門可羅雀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "門前冷清得可以張網捕雀。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%96%80%E5%8F%AF%E7%BE%85%E9%9B%80"
+      },
+      "questionIds": [
+        "103-0-7"
+      ]
+    },
+    {
+      "term": "門庭若市",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "門庭像市集一樣熱鬧，形容來訪者眾多。",
+      "example": "義診開始不到半小時就門庭若市。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "門庭像市集一樣熱鬧，形容來訪者眾多。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%96%80%E5%BA%AD%E8%8B%A5%E5%B8%82"
+      },
+      "questionIds": [
+        "100-0-6"
+      ]
+    },
+    {
+      "term": "退避三舍",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "主動退讓，避免直接衝突。",
+      "example": "面對對方咄咄逼人的態度，他選擇退避三舍。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "主動退讓，避免直接衝突。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%80%80%E9%81%BF%E4%B8%89%E8%88%8D"
+      },
+      "questionIds": [
+        "103-0-7"
+      ]
+    },
+    {
+      "term": "雞鳴狗盜",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻不起眼的小技藝，也指使用這類手段的人。",
+      "example": "故事裡不起眼的雞鳴狗盜之徒，反而在危急時救了眾人。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻不起眼的小技藝，也指使用這類手段的人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%9B%9E%E9%B3%B4%E7%8B%97%E7%9B%9C"
+      },
+      "questionIds": [
+        "112-0-4"
+      ]
+    },
+    {
+      "term": "飲水思源",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "獲益時記得根源或曾經幫助自己的人。",
+      "example": "畢業多年，她飲水思源，回校感謝老師。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "獲益時記得根源或曾經幫助自己的人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A3%B2%E6%B0%B4%E6%80%9D%E6%BA%90"
+      },
+      "questionIds": [
+        "102-0-45"
+      ]
+    },
+    {
+      "term": "高瞻遠矚",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "看得長遠，能考量未來發展。",
+      "example": "好的城市規劃需要高瞻遠矚。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "看得長遠，能考量未來發展。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%AB%98%E7%9E%BB%E9%81%A0%E7%9F%9A"
+      },
+      "questionIds": [
+        "112-0-39"
+      ]
+    },
+    {
+      "term": "顧此失彼",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "顧到這一邊卻忽略另一邊。",
+      "example": "工作同時接太多，容易顧此失彼。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "顧到這一邊卻忽略另一邊。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A1%A7%E6%AD%A4%E5%A4%B1%E5%BD%BC"
+      },
+      "questionIds": [
+        "104-0-29"
+      ]
+    },
+    {
+      "term": "風馬牛不相及",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻兩者毫無關聯。",
+      "example": "這兩件事風馬牛不相及，不能硬湊成因果關係。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻兩者毫無關聯。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A2%A8%E9%A6%AC%E7%89%9B%E4%B8%8D%E7%9B%B8%E5%8F%8A"
+      },
+      "questionIds": [
+        "099-0-42"
+      ]
+    },
+    {
+      "term": "見機行事",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "視情勢變化採取合適的行動。",
+      "example": "戶外活動可能遇雨，我們會見機行事。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "視情勢變化採取合適的行動。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A6%8B%E6%A9%9F%E8%A1%8C%E4%BA%8B"
+      },
+      "questionIds": [
+        "098-0-1"
+      ]
+    },
+    {
+      "term": "言而無信",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "說過的話不遵守，沒有信用。",
+      "example": "他多次答應卻做不到，難免被認為言而無信。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "說過的話不遵守，沒有信用。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A8%80%E8%80%8C%E7%84%A1%E4%BF%A1"
+      },
+      "questionIds": [
+        "102-0-40"
+      ]
+    },
+    {
+      "term": "言過其實",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "言論誇張，超過實際情況。",
+      "example": "廣告稱產品能立即見效，難免言過其實。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "言論誇張，超過實際情況。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A8%80%E9%81%8E%E5%85%B6%E5%AF%A6"
+      },
+      "questionIds": [
+        "102-0-40"
+      ]
+    },
+    {
+      "term": "精益求精",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "已有良好成果，仍力求更好。",
+      "example": "她每次演出後都檢討細節，力求精益求精。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "已有良好成果，仍力求更好。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%B2%BE%E7%9B%8A%E6%B1%82%E7%B2%BE"
+      },
+      "questionIds": [
+        "101-0-20",
+        "105-0-30"
+      ]
+    },
+    {
+      "term": "自娛娛人",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "自己得到樂趣，也讓別人開心。",
+      "example": "她在社區演奏吉他，自娛娛人。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "自己得到樂趣，也讓別人開心。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%87%AA%E5%A8%9B%E5%A8%9B%E4%BA%BA"
+      },
+      "questionIds": [
+        "114-0-36",
+        "111-0-40",
+        "102-0-17"
+      ]
+    },
+    {
+      "term": "中庸之道",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "處理事情力求合宜，避免偏頗或走極端。",
+      "example": "他調解爭議時講求中庸之道。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "處理事情力求合宜，避免偏頗或走極端。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%AD%E5%BA%B8%E4%B9%8B%E9%81%93"
+      },
+      "questionIds": [
+        "102-0-43",
+        "104-0-29"
+      ]
+    },
+    {
+      "term": "循規蹈矩",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "依照規範行事。",
+      "example": "她循規蹈矩，在每一步都遵照作業規範。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "依照規範行事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BE%AA%E8%A6%8F%E8%B9%88%E7%9F%A9"
+      },
+      "questionIds": [
+        "112-0-4",
+        "099-0-45"
+      ]
+    },
+    {
+      "term": "一言喪邦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "一句不當的話也可能使國家敗亡。",
+      "example": "古人以一言喪邦提醒君主慎言。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "一句不當的話也可能使國家敗亡。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%80%E8%A8%80%E5%96%AA%E9%82%A6"
+      },
+      "questionIds": [
+        "105-0-41"
+      ]
+    },
+    {
+      "term": "一言興邦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "一句得當的話也可能使國家興盛。",
+      "example": "古人以一言興邦說明良言對治國的影響。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "一句得當的話也可能使國家興盛。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%80%E8%A8%80%E8%88%88%E9%82%A6"
+      },
+      "questionIds": [
+        "105-0-41"
+      ]
+    },
+    {
+      "term": "入幕之賓",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "指受到信任、能參與機要的人。",
+      "example": "他受地方官器重，成為幕府的入幕之賓。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "指受到信任、能參與機要的人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%85%A5%E5%B9%95%E4%B9%8B%E8%B3%93"
+      },
+      "questionIds": [
+        "098-0-6"
+      ]
+    },
+    {
+      "term": "公忠體國",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "秉持公心、忠誠地為國家服務。",
+      "example": "紀念館用公忠體國表彰他任公職時的操守。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "秉持公心、忠誠地為國家服務。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%85%AC%E5%BF%A0%E9%AB%94%E5%9C%8B"
+      },
+      "questionIds": [
+        "105-0-20"
+      ]
+    },
+    {
+      "term": "功名利祿",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "名位和財利。",
+      "example": "她專注研究，對功名利祿看得很淡。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "名位和財利。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8A%9F%E5%90%8D%E5%88%A9%E7%A5%BF"
+      },
+      "questionIds": [
+        "103-0-28"
+      ]
+    },
+    {
+      "term": "口說無憑",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "僅用言語陳述，缺乏可供查證的依據。",
+      "example": "口說無憑，請把當初的合約找出來。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "僅用言語陳述，缺乏可供查證的依據。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%8F%A3%E8%AA%AA%E7%84%A1%E6%86%91"
+      },
+      "questionIds": [
+        "102-0-40"
+      ]
+    },
+    {
+      "term": "名利雙收",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "同時獲得聲望和財利。",
+      "example": "新書叫好又叫座，讓這位作者名利雙收。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "同時獲得聲望和財利。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%8D%E5%88%A9%E9%9B%99%E6%94%B6"
+      },
+      "questionIds": [
+        "105-0-23"
+      ]
+    },
+    {
+      "term": "吞吞吐吐",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "說話猶豫、不肯直說。",
+      "example": "一問起遺失的鑰匙，他便吞吞吐吐。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "說話猶豫、不肯直說。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%90%9E%E5%90%9E%E5%90%90%E5%90%90"
+      },
+      "questionIds": [
+        "102-0-13"
+      ]
+    },
+    {
+      "term": "喜上眉梢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "喜悅從表情上流露出來。",
+      "example": "收到錄取通知，她當場喜上眉梢。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "喜悅從表情上流露出來。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%96%9C%E4%B8%8A%E7%9C%89%E6%A2%A2"
+      },
+      "questionIds": [
+        "104-0-39"
+      ]
+    },
+    {
+      "term": "器小易盈",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻見識或度量狹小，容易自滿。",
+      "example": "老師提醒學生，稍有成績便自誇，難免器小易盈。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻見識或度量狹小，容易自滿。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%99%A8%E5%B0%8F%E6%98%93%E7%9B%88"
+      },
+      "questionIds": [
+        "097-0-5"
+      ]
+    },
+    {
+      "term": "好學不倦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "喜愛學習而不覺得疲倦。",
+      "example": "她年過六十仍好學不倦，開始學習程式設計。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "喜愛學習而不覺得疲倦。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A5%BD%E5%AD%B8%E4%B8%8D%E5%80%A6"
+      },
+      "questionIds": [
+        "103-0-21"
+      ]
+    },
+    {
+      "term": "安貧守道",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "即使生活清苦，仍堅守自己的道德原則。",
+      "example": "這位先生安貧守道，始終拒收來路不明的饋贈。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "即使生活清苦，仍堅守自己的道德原則。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AE%89%E8%B2%A7%E5%AE%88%E9%81%93"
+      },
+      "questionIds": [
+        "101-0-28"
+      ]
+    },
+    {
+      "term": "後悔莫及",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "事後雖然懊悔，卻已經來不及補救。",
+      "example": "沒有按時備份，資料遺失後才後悔莫及。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "事後雖然懊悔，卻已經來不及補救。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BE%8C%E6%82%94%E8%8E%AB%E5%8F%8A"
+      },
+      "questionIds": [
+        "102-0-28"
+      ]
+    },
+    {
+      "term": "怡然自樂",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "心情自在安適，自得其樂。",
+      "example": "她在院子裡種花、讀書，怡然自樂。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "心情自在安適，自得其樂。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%80%A1%E7%84%B6%E8%87%AA%E6%A8%82"
+      },
+      "questionIds": [
+        "104-0-7"
+      ]
+    },
+    {
+      "term": "慎思明辨",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "仔細思考，清楚辨別是非。",
+      "example": "面對轉傳訊息，應先慎思明辨再決定是否分享。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "仔細思考，清楚辨別是非。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%85%8E%E6%80%9D%E6%98%8E%E8%BE%A8"
+      },
+      "questionIds": [
+        "112-0-44"
+      ]
+    },
+    {
+      "term": "戰戰兢兢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容因畏懼或謹慎而格外小心。",
+      "example": "他第一次上台，戰戰兢兢地說出開場白。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容因畏懼或謹慎而格外小心。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%88%B0%E6%88%B0%E5%85%A2%E5%85%A2"
+      },
+      "questionIds": [
+        "102-0-15"
+      ]
+    },
+    {
+      "term": "手舞足蹈",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "手腳舞動，形容非常高興。",
+      "example": "聽到放假的消息，孩子們高興得手舞足蹈。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "手腳舞動，形容非常高興。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%89%8B%E8%88%9E%E8%B6%B3%E8%B9%88"
+      },
+      "questionIds": [
+        "104-0-7"
+      ]
+    },
+    {
+      "term": "掩旗息鼓",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "放倒旗幟並停止擊鼓，指隱藏行跡或停止行動。",
+      "example": "巡兵掩旗息鼓，趁夜移往另一處營地。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "放倒旗幟並停止擊鼓，指隱藏行跡或停止行動。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8E%A9%E6%97%97%E6%81%AF%E9%BC%93"
+      },
+      "questionIds": [
+        "104-0-4"
+      ]
+    },
+    {
+      "term": "掩目捕雀",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "蒙住自己的眼睛去捉麻雀，比喻自己騙自己。",
+      "example": "關掉告警卻不修正錯誤，等同掩目捕雀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "蒙住自己的眼睛去捉麻雀，比喻自己騙自己。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8E%A9%E7%9B%AE%E6%8D%95%E9%9B%80"
+      },
+      "questionIds": [
+        "104-0-4"
+      ]
+    },
+    {
+      "term": "掩鼻偷香",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻用無效的方法欺瞞他人，結果欺騙了自己。",
+      "example": "以為刪掉一筆紀錄就沒有證據，只是掩鼻偷香。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻用無效的方法欺瞞他人，結果欺騙了自己。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8E%A9%E9%BC%BB%E5%81%B7%E9%A6%99"
+      },
+      "questionIds": [
+        "104-0-4"
+      ]
+    },
+    {
+      "term": "改過遷善",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "改正過失，走向良善。",
+      "example": "他承認錯誤，並以實際行動改過遷善。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "改正過失，走向良善。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%94%B9%E9%81%8E%E9%81%B7%E5%96%84"
+      },
+      "questionIds": [
+        "102-0-15"
+      ]
+    },
+    {
+      "term": "日理萬機",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "每日處理許多重大事務。",
+      "example": "負責統籌整個計畫後，她幾乎日理萬機。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "每日處理許多重大事務。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%97%A5%E7%90%86%E8%90%AC%E6%A9%9F"
+      },
+      "questionIds": [
+        "100-0-37"
+      ]
+    },
+    {
+      "term": "晴天霹靂",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻突然發生的重大變故。",
+      "example": "突如其來的停業通知，對員工如晴天霹靂。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻突然發生的重大變故。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%99%B4%E5%A4%A9%E9%9C%B9%E9%9D%82"
+      },
+      "questionIds": [
+        "103-0-8"
+      ]
+    },
+    {
+      "term": "杞人憂天",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻為不必擔心的事過分憂慮。",
+      "example": "出門前一再擔心根本不可能發生的事故，未免杞人憂天。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻為不必擔心的事過分憂慮。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9D%9E%E4%BA%BA%E6%86%82%E5%A4%A9"
+      },
+      "questionIds": [
+        "103-0-7"
+      ]
+    },
+    {
+      "term": "格格不入",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "彼此不相容，難以融入。",
+      "example": "這張插圖的色調和全書格格不入。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "彼此不相容，難以融入。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A0%BC%E6%A0%BC%E4%B8%8D%E5%85%A5"
+      },
+      "questionIds": [
+        "099-0-17"
+      ]
+    },
+    {
+      "term": "梁上君子",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "古代對竊賊的婉稱。",
+      "example": "主人察覺家中有異，猜想是梁上君子上門。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "古代對竊賊的婉稱。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A2%81%E4%B8%8A%E5%90%9B%E5%AD%90"
+      },
+      "questionIds": [
+        "098-0-6"
+      ]
+    },
+    {
+      "term": "欲言又止",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "想開口，最後又停住。",
+      "example": "她看了看眾人，欲言又止。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "想開口，最後又停住。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%AC%B2%E8%A8%80%E5%8F%88%E6%AD%A2"
+      },
+      "questionIds": [
+        "102-0-13"
+      ]
+    },
+    {
+      "term": "波詭雲譎",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻事情的變化難以預料。",
+      "example": "故事情節波詭雲譎，讓人猜不到結局。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻事情的變化難以預料。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B3%A2%E8%A9%AD%E9%9B%B2%E8%AD%8E"
+      },
+      "questionIds": [
+        "099-0-38"
+      ]
+    },
+    {
+      "term": "洋洋得意",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "因自覺成功而流露得意神情。",
+      "example": "他贏了一場球就洋洋得意，忘了還有決賽。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "因自覺成功而流露得意神情。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B4%8B%E6%B4%8B%E5%BE%97%E6%84%8F"
+      },
+      "questionIds": [
+        "102-0-40"
+      ]
+    },
+    {
+      "term": "源遠流長",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "源頭久遠，後續發展綿延不絕。",
+      "example": "這座地方的工藝傳統源遠流長。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "源頭久遠，後續發展綿延不絕。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%BA%90%E9%81%A0%E6%B5%81%E9%95%B7"
+      },
+      "questionIds": [
+        "112-0-11"
+      ]
+    },
+    {
+      "term": "獨斷獨行",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不與別人商量，自己作決定且自行其是。",
+      "example": "他獨斷獨行，直到計畫要執行才告知團隊。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不與別人商量，自己作決定且自行其是。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8D%A8%E6%96%B7%E7%8D%A8%E8%A1%8C"
+      },
+      "questionIds": [
+        "105-0-20"
+      ]
+    },
+    {
+      "term": "獨當一面",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "能單獨負責一方面的工作。",
+      "example": "經過實務磨練，她已能獨當一面。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "能單獨負責一方面的工作。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%8D%A8%E7%95%B6%E4%B8%80%E9%9D%A2"
+      },
+      "questionIds": [
+        "102-0-38"
+      ]
+    },
+    {
+      "term": "甘井先竭",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "水味甘美的井更早被汲乾，比喻才華出眾者容易因頻繁被用而耗損。",
+      "example": "甘井先竭，管理者也要留意最能幹的同事是否工作過量。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "水味甘美的井更早被汲乾，比喻才華出眾者容易因頻繁被用而耗損。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%94%98%E4%BA%95%E5%85%88%E7%AB%AD"
+      },
+      "questionIds": [
+        "105-0-41"
+      ]
+    },
+    {
+      "term": "當局者迷",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "身在事情之中，有時反而看不清全局。",
+      "example": "當局者迷，找個未涉入爭執的人聽聽也好。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "身在事情之中，有時反而看不清全局。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%95%B6%E5%B1%80%E8%80%85%E8%BF%B7"
+      },
+      "questionIds": [
+        "105-0-17"
+      ]
+    },
+    {
+      "term": "盛氣凌人",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以傲慢的氣勢壓迫別人。",
+      "example": "他盛氣凌人，連別人把話說完都不肯。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以傲慢的氣勢壓迫別人。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9B%9B%E6%B0%A3%E5%87%8C%E4%BA%BA"
+      },
+      "questionIds": [
+        "102-0-17"
+      ]
+    },
+    {
+      "term": "相見恨晚",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "相識後情投意合，惋惜沒有更早相遇。",
+      "example": "兩人聊起共同興趣，都有相見恨晚的感覺。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "相識後情投意合，惋惜沒有更早相遇。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9B%B8%E8%A6%8B%E6%81%A8%E6%99%9A"
+      },
+      "questionIds": [
+        "105-0-9"
+      ]
+    },
+    {
+      "term": "矜功恃寵",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "自誇功勞，仰仗受到的寵信。",
+      "example": "故事中的大臣矜功恃寵，漸漸失去同僚支持。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "自誇功勞，仰仗受到的寵信。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%9F%9C%E5%8A%9F%E6%81%83%E5%AF%B5"
+      },
+      "questionIds": [
+        "103-0-26"
+      ]
+    },
+    {
+      "term": "稍縱即逝",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "只要稍不留神，就迅速消失。",
+      "example": "拍攝飛鳥時，精彩的畫面往往稍縱即逝。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "只要稍不留神，就迅速消失。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A8%8D%E7%B8%B1%E5%8D%B3%E9%80%9D"
+      },
+      "questionIds": [
+        "105-0-9"
+      ]
+    },
+    {
+      "term": "積少成多",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "把少量的東西逐步累積成大量。",
+      "example": "每天存下一點錢，久了就能積少成多。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "把少量的東西逐步累積成大量。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A9%8D%E5%B0%91%E6%88%90%E5%A4%9A"
+      },
+      "questionIds": [
+        "103-0-23"
+      ]
+    },
+    {
+      "term": "空空如也",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容空無所有。",
+      "example": "他打開抽屜找筆，裡頭竟空空如也。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容空無所有。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E7%A9%BA%E7%A9%BA%E5%A6%82%E4%B9%9F"
+      },
+      "questionIds": [
+        "104-0-45"
+      ]
+    },
+    {
+      "term": "聞過則喜",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "聽到別人指出過錯時，樂於接受。",
+      "example": "她聞過則喜，總會仔細聽同事指出問題。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "聽到別人指出過錯時，樂於接受。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%81%9E%E9%81%8E%E5%89%87%E5%96%9C"
+      },
+      "questionIds": [
+        "100-0-19"
+      ]
+    },
+    {
+      "term": "胸無點墨",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容沒有學問或文化修養。",
+      "example": "他自謙胸無點墨，不敢妄評古文。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容沒有學問或文化修養。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%83%B8%E7%84%A1%E9%BB%9E%E5%A2%A8"
+      },
+      "questionIds": [
+        "101-0-32"
+      ]
+    },
+    {
+      "term": "自得其樂",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "自己從生活或活動中得到樂趣。",
+      "example": "她週末獨自在家畫畫，也能自得其樂。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "自己從生活或活動中得到樂趣。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%87%AA%E5%BE%97%E5%85%B6%E6%A8%82"
+      },
+      "questionIds": [
+        "101-0-32"
+      ]
+    },
+    {
+      "term": "自高自大",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "自視過高，以為自己比別人了不起。",
+      "example": "一點成就就自高自大，容易看不見還需要改進的地方。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "自視過高，以為自己比別人了不起。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%87%AA%E9%AB%98%E8%87%AA%E5%A4%A7"
+      },
+      "questionIds": [
+        "101-0-38"
+      ]
+    },
+    {
+      "term": "與時俱進",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "隨時代變化持續調整與進步。",
+      "example": "圖書館推動電子借閱，讓服務與時俱進。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "隨時代變化持續調整與進步。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%88%87%E6%99%82%E4%BF%B1%E9%80%B2"
+      },
+      "questionIds": [
+        "112-0-27"
+      ]
+    },
+    {
+      "term": "苗而不秀",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "禾苗生長卻未抽穗，比喻有良好的開端卻未取得成果。",
+      "example": "有天分卻不練習，難免苗而不秀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "禾苗生長卻未抽穗，比喻有良好的開端卻未取得成果。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8B%97%E8%80%8C%E4%B8%8D%E7%A7%80"
+      },
+      "questionIds": [
+        "105-0-13"
+      ]
+    },
+    {
+      "term": "華而不實",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "外表漂亮，實際內容或成效不足。",
+      "example": "那份企畫書華而不實，沒有說明預算與時程。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "外表漂亮，實際內容或成效不足。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%8F%AF%E8%80%8C%E4%B8%8D%E5%AF%A6"
+      },
+      "questionIds": [
+        "105-0-13"
+      ]
+    },
+    {
+      "term": "落拓不羈",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "性情豪放，不受俗規或形式拘束。",
+      "example": "他落拓不羈，常獨自四處旅行。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "性情豪放，不受俗規或形式拘束。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%90%BD%E6%8B%93%E4%B8%8D%E7%BE%88"
+      },
+      "questionIds": [
+        "100-0-23"
+      ]
+    },
+    {
+      "term": "薪火相傳",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "學問、技藝或精神代代延續。",
+      "example": "這項傳統技藝靠師徒相授，才得以薪火相傳。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "學問、技藝或精神代代延續。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%96%AA%E7%81%AB%E7%9B%B8%E5%82%B3"
+      },
+      "questionIds": [
+        "103-0-41"
+      ]
+    },
+    {
+      "term": "裝聾作啞",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "假裝沒有聽見或不會說話，借指故意不理會。",
+      "example": "大家提出疑問時，他卻裝聾作啞。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "假裝沒有聽見或不會說話，借指故意不理會。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A3%9D%E8%81%BE%E4%BD%9C%E5%95%9E"
+      },
+      "questionIds": [
+        "103-0-37"
+      ]
+    },
+    {
+      "term": "誨人不倦",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "教導他人而不感厭倦。",
+      "example": "退休後，她仍在社區誨人不倦地教孩子閱讀。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "教導他人而不感厭倦。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%AA%A8%E4%BA%BA%E4%B8%8D%E5%80%A6"
+      },
+      "questionIds": [
+        "102-0-15"
+      ]
+    },
+    {
+      "term": "貴耳賤目",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "重視耳聞，輕視親眼所見。",
+      "example": "只信傳聞卻不看現場資料，容易貴耳賤目。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "重視耳聞，輕視親眼所見。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%B2%B4%E8%80%B3%E8%B3%A4%E7%9B%AE"
+      },
+      "questionIds": [
+        "104-0-25"
+      ]
+    },
+    {
+      "term": "賞罰分明",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "獎勵和處罰各有明確原則。",
+      "example": "規則公開、賞罰分明，隊員才願意遵守。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "獎勵和處罰各有明確原則。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%B3%9E%E7%BD%B0%E5%88%86%E6%98%8E"
+      },
+      "questionIds": [
+        "104-0-28"
+      ]
+    },
+    {
+      "term": "閃爍其詞",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "言語含糊，刻意避開重點。",
+      "example": "一問到支出的去向，他便閃爍其詞。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "言語含糊，刻意避開重點。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%96%83%E7%88%8D%E5%85%B6%E8%A9%9E"
+      },
+      "questionIds": [
+        "102-0-13"
+      ]
+    },
+    {
+      "term": "開卷有益",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "閱讀能帶來收穫。",
+      "example": "即使每天只讀一小段，也能體會開卷有益。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "閱讀能帶來收穫。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%96%8B%E5%8D%B7%E6%9C%89%E7%9B%8A"
+      },
+      "questionIds": [
+        "104-0-13"
+      ]
+    },
+    {
+      "term": "餘音繞梁",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "形容歌聲優美，結束後仍令人回味。",
+      "example": "歌手離場許久，觀眾仍覺餘音繞梁。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "形容歌聲優美，結束後仍令人回味。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A4%98%E9%9F%B3%E7%B9%9E%E6%A2%81"
+      },
+      "questionIds": [
+        "099-0-19"
+      ]
+    },
+    {
+      "term": "驚鴻一瞥",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "匆匆看了一眼，卻留下鮮明的印象。",
+      "example": "穿過車窗的夕照只驚鴻一瞥，卻令她難忘。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "匆匆看了一眼，卻留下鮮明的印象。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%A9%9A%E9%B4%BB%E4%B8%80%E7%9E%A5"
+      },
+      "questionIds": [
+        "102-0-45"
+      ]
+    },
+    {
+      "term": "點石成金",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻把平凡事物化為有價值的成果。",
+      "example": "她擅長運用回收材料，總能點石成金。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻把平凡事物化為有價值的成果。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%BB%9E%E7%9F%B3%E6%88%90%E9%87%91"
+      },
+      "questionIds": [
+        "104-0-41"
+      ]
+    },
+    {
+      "term": "乾坤定矣",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "借乾坤比喻夫妻，祝賀婚配已定。",
+      "example": "親友在婚禮賀聯上題了「乾坤定矣」。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "借乾坤比喻夫妻，祝賀婚配已定。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B9%BE%E5%9D%A4%E5%AE%9A%E7%9F%A3"
+      },
+      "questionIds": [
+        "113-0-36"
+      ]
+    },
+    {
+      "term": "于歸之喜",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "「于歸」指女子出嫁，用來祝賀婚事。",
+      "example": "親友帶來賀禮，向她家人道賀于歸之喜。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "「于歸」指女子出嫁，用來祝賀婚事。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BA%8E%E6%AD%B8%E4%B9%8B%E5%96%9C"
+      },
+      "questionIds": [
+        "110-0-21"
+      ]
+    },
+    {
+      "term": "高賢蒞止",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "敬稱德才出眾的人到來，可用作歡迎題辭。",
+      "example": "學會迎接專程來訪的講者，題「高賢蒞止」表示敬意。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "敬稱德才出眾的人到來，可用作歡迎題辭。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E9%AB%98%E8%B3%A2%E8%92%9E%E6%AD%A2"
+      },
+      "questionIds": [
+        "109-0-6"
+      ]
+    },
+    {
+      "term": "桑梓流光",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "桑梓指故鄉，這句頌揚聲望或貢獻使家鄉增光。",
+      "example": "學校致贈「桑梓流光」的匾額，表揚這位為故鄉服務多年的校友。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "桑梓指故鄉，這句頌揚聲望或貢獻使家鄉增光。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%A1%91%E6%A2%93%E6%B5%81%E5%85%89"
+      },
+      "questionIds": [
+        "109-0-6"
+      ]
+    },
+    {
+      "term": "杏壇春暖",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以杏壇指教育界，稱頌老師春風化雨、培育學生。",
+      "example": "校友致贈「杏壇春暖」的匾額，感謝老師多年教導。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以杏壇指教育界，稱頌老師春風化雨、培育學生。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%9D%8F%E5%A3%87%E6%98%A5%E6%9A%96"
+      },
+      "questionIds": [
+        "101-0-43"
+      ]
+    },
+    {
+      "term": "孟母遺風",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "以孟母善於教子作典範，追念有教養之德的母親，可作女喪輓辭。",
+      "example": "晚輩題下「孟母遺風」，追念長輩教養子女的用心。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "以孟母善於教子作典範，追念有教養之德的母親，可作女喪輓辭。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%AD%9F%E6%AF%8D%E9%81%BA%E9%A2%A8"
+      },
+      "questionIds": [
+        "112-0-7"
+      ]
+    },
+    {
+      "term": "天真無邪",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "性情自然真誠，毫無惡意或做作。",
+      "example": "孩子天真無邪地說出心裡的想法。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "性情自然真誠，毫無惡意或做作。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%A4%A9%E7%9C%9F%E7%84%A1%E9%82%AA"
+      },
+      "questionIds": [
+        "105-0-16"
+      ]
+    },
+    {
+      "term": "海水不可斗量",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "不能用小量器衡量整片海，常用以勸人別憑外貌妄下判斷。",
+      "example": "看他安靜便小看他，你可別忘了海水不可斗量。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "不能用小量器衡量整片海，常用以勸人別憑外貌妄下判斷。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%B5%B7%E6%B0%B4%E4%B8%8D%E5%8F%AF%E6%96%97%E9%87%8F"
+      },
+      "questionIds": [
+        "101-0-33",
+        "112-0-20"
+      ]
+    },
+    {
+      "term": "井水不犯河水",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "比喻雙方各守界線，互不干涉。",
+      "example": "兩組各做各的工作，平時井水不犯河水。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "比喻雙方各守界線，互不干涉。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BA%95%E6%B0%B4%E4%B8%8D%E7%8A%AF%E6%B2%B3%E6%B0%B4"
+      },
+      "questionIds": [
+        "101-0-33"
+      ]
+    },
+    {
+      "term": "人各有志",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "每個人的志向與追求各不相同。",
+      "example": "有人想留在故鄉，有人想去海外，人各有志。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "每個人的志向與追求各不相同。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BA%BA%E5%90%84%E6%9C%89%E5%BF%97"
+      },
+      "questionIds": [
+        "099-0-7"
+      ]
+    },
+    {
+      "term": "人生如夢",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "感嘆人生短暫，往事像夢一般。",
+      "example": "多年後重返老家，她不禁感嘆人生如夢。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "感嘆人生短暫，往事像夢一般。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BA%BA%E7%94%9F%E5%A6%82%E5%A4%A2"
+      },
+      "questionIds": [
+        "101-0-24"
+      ]
+    },
+    {
+      "term": "引喻失義",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "援引的比喻或例子不貼合要表達的道理。",
+      "example": "他拿完全不同的案例作證，反而引喻失義。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "援引的比喻或例子不貼合要表達的道理。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BC%95%E5%96%BB%E5%A4%B1%E7%BE%A9"
+      },
+      "questionIds": [
+        "101-0-15"
+      ]
+    },
+    {
+      "term": "親朋好友",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "親戚與朋友的合稱。",
+      "example": "婚禮只有少數親朋好友到場。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "親戚與朋友的合稱。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E8%A6%AA%E6%9C%8B%E5%A5%BD%E5%8F%8B"
+      },
+      "questionIds": [
+        "114-0-29",
+        "102-0-25"
+      ]
+    },
+    {
+      "term": "不吝指教",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "請人不必客氣，願意指出問題或給予建議。",
+      "example": "初稿已寄出，還請老師不吝指教。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "請人不必客氣，願意指出問題或給予建議。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%B8%8D%E5%90%9D%E6%8C%87%E6%95%99"
+      },
+      "questionIds": [
+        "105-0-38"
+      ]
+    },
+    {
+      "term": "在所不惜",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "即使要付出代價，也不覺得可惜。",
+      "example": "為了及時救出受困者，再辛苦也在所不惜。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "即使要付出代價，也不覺得可惜。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%9C%A8%E6%89%80%E4%B8%8D%E6%83%9C"
+      },
+      "questionIds": [
+        "100-0-9"
+      ]
+    },
+    {
+      "term": "忠貞不渝",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "忠誠堅定，始終不改。",
+      "example": "他對當初的承諾忠貞不渝。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "忠誠堅定，始終不改。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E5%BF%A0%E8%B2%9E%E4%B8%8D%E6%B8%9D"
+      },
+      "questionIds": [
+        "105-0-23"
+      ]
+    },
+    {
+      "term": "感恩圖報",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "感激所受的恩惠，並設法回報。",
+      "example": "她得到獎助後感恩圖報，也幫助下一屆學生。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "感激所受的恩惠，並設法回報。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%84%9F%E6%81%A9%E5%9C%96%E5%A0%B1"
+      },
+      "questionIds": [
+        "099-0-17"
+      ]
+    },
+    {
+      "term": "捨本逐末",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "忽略根本問題，追求枝節。",
+      "example": "資料還沒核對就忙著調版面，未免捨本逐末。",
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》詞語查詢",
+        "explanation": "忽略根本問題，追求枝節。",
+        "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E6%8D%A8%E6%9C%AC%E9%80%90%E6%9C%AB"
+      },
+      "questionIds": [
+        "112-0-33"
+      ]
     }
   ]
 }
