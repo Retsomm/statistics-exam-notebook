@@ -41,8 +41,16 @@ export default function StudyNotes({progressStorageKey,canSaveMemory,savedMemory
  const pageCount=Math.ceil(total/size);
  const currentPage=Math.min(page,Math.max(0,pageCount-1));
  const pageNumbers=[...new Set([
-  1,2,currentPage-1,currentPage,currentPage+1,currentPage+2,currentPage+3,pageCount-1,pageCount,
+  ...(currentPage===0?[1]:[1,2,currentPage,currentPage+1,currentPage+2]),pageCount-1,pageCount,
  ].filter(number=>number>=1&&number<=pageCount))].sort((a,b)=>a-b);
+
+ const pageButtons=pageNumbers.flatMap((number,index)=>{
+  const previous=pageNumbers[index-1];
+  const button={number,label:String(number)};
+  if(index===0||number-previous===1)return [button];
+  const skippedPage=number<=currentPage+1?number-1:previous+1;
+  return [{number:skippedPage,label:'…'},button];
+ });
 
  function goToPage(number:number){
   if(number===currentPage+1)return;
@@ -70,7 +78,7 @@ export default function StudyNotes({progressStorageKey,canSaveMemory,savedMemory
    isCards?(!memoryCards.length?<EmptyState title={onlySaved?'目前範圍沒有收藏卡片':'沒有符合的記憶卡片'} description="試試其他科目、章節或關鍵字；也可以取消「只看收藏卡片」。"/>:<MemoryDeck key={`${subject}:${mode}:${group}:${chapter}:${query}:${onlySaved}`} progressKey={`${progressStorageKey}:memory-deck:${JSON.stringify([subject,mode,group,chapter,query,onlySaved])}`} cards={memoryCards} saved={savedMemorySet} canSave={canSaveMemory} onToggle={onToggleMemory} onRead={card=>{const note=allNotes.find(n=>n.id===card.noteId);if(note){setPresentation('notes');setGroup('all');setChapter(note.chapter||'all');setSearch(note.chapter?'':note.title);setPage(0);}}}/>):
    !filtered.length?<EmptyState title="沒有符合的重點" description="換個關鍵字或選擇其他主題分類。"/>:<div className="notes-grid">{filtered.slice(currentPage*size,(currentPage+1)*size).map(note=><StudyNoteCard key={note.id} note={note} vocabularyContent={topicWords(note)} questions={questions} exams={exams} onPractice={onPractice} onViewExplanation={onViewExplanation}/>)}</div>}
   {pageCount>1&&<nav className="word-pagination" aria-label="重點整理分頁">
-   {pageNumbers.map(number=>{
+   {pageButtons.map(({number,label})=>{
     const isCurrent=number===currentPage+1;
     return <button
       key={number}
@@ -79,7 +87,7 @@ export default function StudyNotes({progressStorageKey,canSaveMemory,savedMemory
       aria-label={`第 ${number} 頁`}
       aria-current={isCurrent?'page':undefined}
       onClick={()=>goToPage(number)}
-     >{number}</button>;
+     >{label}</button>;
    })}
   </nav>}
  </>;
