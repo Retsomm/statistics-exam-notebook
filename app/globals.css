@@ -143,7 +143,8 @@ button:focus-visible,a:focus-visible,select:focus-visible,input:focus-visible,te
 .vocabulary-card .word-save{min-height:44px;flex-shrink:0;font-size:12px;padding:8px 10px;margin:0}
 .vocabulary-card .word-reveal{min-height:44px;margin:6px 0 12px;font-size:13px}
 .vocabulary-card .word-source{display:block;margin-top:18px;text-align:left;font-size:12px;min-height:32px}
-.word-pagination{display:flex;align-items:center;justify-content:center;gap:16px;margin-top:24px}
+.word-pagination{display:flex;flex-wrap:nowrap;justify-content:center;gap:4px;margin-top:24px}
+.word-pagination>.btn{flex:1 1 44px;min-width:0;max-width:44px;min-height:44px;padding-inline:0;font-variant-numeric:tabular-nums}
 @media(max-width:620px){.sidebar nav{grid-template-columns:repeat(5,minmax(0,1fr))}.favorites-tabs{gap:6px}.favorites-tabs [role=tab]{font-size:13px;gap:5px;padding:10px 5px}.vocabulary-card dt{gap:8px}.saved-vocabulary{grid-template-columns:1fr}}
 
 .score-dashboard{margin:28px 0;padding:26px;border:1px solid #8d7956;border-radius:12px;background:linear-gradient(140deg,#243047,#172237);min-width:0}
