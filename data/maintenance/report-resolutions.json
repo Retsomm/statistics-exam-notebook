@@ -249,6 +249,20 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=109010&c=508&s=0701&q=1&t=S",
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=109010&y=2020"
       ]
+    },
+    {
+      "key": "3d7539fc2f54020674ef69f1006797133c9d7e372642daf291581c3233dc7532",
+      "questionId": "102-0-3",
+      "kind": "other",
+      "fixCommit": "e23abc2a7b724621c34e8eb64159ffe59abab93b",
+      "resolution": "原卷題幹與四個選項均與網站一致。考選部標準答案為 B，統計類科國文未列更正答案，網站計分及既有逐選項解析正確。已於歷屆成語庫補收英聲驚座、調和鼎鼐、麟趾呈祥與雛鳳新聲，並加上釋義、例句、辭典來源及原題連結。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=Q&code=102010&c=507&s=0102&q=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?t=S&code=102010&c=507&s=0102&q=1",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=102010&y=2013",
+        "https://dict.revised.moe.edu.tw/appendix.jsp?ID=11&la=0&page=8&powerMode=0",
+        "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=24205&la=0&webMd=2"
+      ]
     }
   ]
 }
