@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02",
+  "updatedAt": "2026-11-24",
   "scope": "現有 106–111、113–115 年初等考試國文題庫（題幹、選項及閱讀文章）",
   "reviewedQuestionIds": [
     "115-0-1",
@@ -9021,6 +9021,71 @@
         "reference": "字義與用法說明；未據此宣稱最早典源",
         "explanation": "信口是隨口，重不負責任地亂講，不能拿來讚演說口才。",
         "url": "https://dict.revised.moe.edu.tw/search.jsp?la=0&powerMode=0&word=%E4%BF%A1%E5%8F%A3%E9%96%8B%E6%B2%B3"
+      }
+    },
+    {
+      "term": "英聲驚座",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "傳統賀生子的題辭，借出眾的聲音引起滿座注意來祝賀喜得男孩。",
+      "example": "表哥喜得男孩，親友在賀卡上寫下「英聲驚座」。",
+      "questionIds": [
+        "102-0-3"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》常用題辭表",
+        "explanation": "驚座有使滿座注目之意。常用題辭表將這句列為賀生子用語。",
+        "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=11&la=0&page=8&powerMode=0"
+      }
+    },
+    {
+      "term": "調和鼎鼐",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "本指在鼎、鼐中調味，引申為宰相協調百官、治理國政。",
+      "example": "這篇頌文以「調和鼎鼐」讚譽宰相善於協調百官。",
+      "questionIds": [
+        "102-0-3"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《成語典》修訂本參考資料",
+        "explanation": "鼎與鼐都是古代的炊器。把食物調味得當，比喻宰輔協調各方、妥善處理國政。",
+        "url": "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=24205&la=0&webMd=2"
+      }
+    },
+    {
+      "term": "麟趾呈祥",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "讚譽子孫良善昌盛，也用作賀生子的題辭。",
+      "example": "朋友喜得男孩，她寫下「麟趾呈祥」祝賀一家人。",
+      "questionIds": [
+        "102-0-3",
+        "103-0-10"
+      ],
+      "origin": {
+        "kind": "典故",
+        "reference": "《詩經．周南．麟之趾》",
+        "explanation": "《麟之趾》以麒麟比喻賢良的子孫，後來用「麟趾呈祥」祝賀得子或稱頌子孫良善。",
+        "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=64664&la=0&powerMode=0"
+      }
+    },
+    {
+      "term": "雛鳳新聲",
+      "aliases": [],
+      "category": "成語與常用語",
+      "meaning": "傳統賀生子的題辭，以幼鳳初鳴象徵新生兒帶來的喜訊。",
+      "example": "得知同事喜得男孩，大家送上一張寫有「雛鳳新聲」的賀卡。",
+      "questionIds": [
+        "102-0-3"
+      ],
+      "origin": {
+        "kind": "構詞",
+        "reference": "教育部《重編國語辭典修訂本》常用題辭表",
+        "explanation": "雛鳳指幼鳳，新聲是初次發出的聲音。常用題辭表將這句列為賀生子用語。",
+        "url": "https://dict.revised.moe.edu.tw/appendix.jsp?ID=11&la=0&page=8&powerMode=0"
       }
     }
   ]
