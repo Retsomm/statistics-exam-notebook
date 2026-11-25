@@ -19,6 +19,10 @@ try{
   const response=await fetch(base+'/brand/'+file);assert.equal(response.status,200);assert.match(response.headers.get('content-type'),/image\/png/);
   const png=Buffer.from(await response.arrayBuffer());assert.equal(png.subarray(1,4).toString(),'PNG');assert.equal(png.readUInt32BE(16),size);assert.equal(png.readUInt32BE(20),size);
  }
+ for(const file of ['study-friends.webp','score-friends.webp','bear-friends.webp','flower-vase.webp','claw-friends.webp','alpaca-friend.webp']){
+  const response=await fetch(base+'/stickers/'+file);assert.equal(response.status,200,file);assert.match(response.headers.get('content-type'),/image\/webp/);
+  const webp=Buffer.from(await response.arrayBuffer());assert.equal(webp.subarray(0,4).toString(),'RIFF',file);assert.equal(webp.subarray(8,12).toString(),'WEBP',file);
+ }
  const svg=await fetch(base+'/brand/statistics-mark.svg');assert.equal(svg.status,200);assert.match(svg.headers.get('content-type'),/image\/svg\+xml/);
  const ico=Buffer.from(await(await fetch(base+'/favicon.ico')).arrayBuffer());assert.equal(ico.readUInt16LE(2),1);assert.equal(ico.readUInt16LE(4),3);
 
