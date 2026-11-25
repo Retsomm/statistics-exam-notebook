@@ -34,3 +34,19 @@ test('custom dark themes preserve readable text and distinguishable control bord
   }
  }
 });
+
+test('theme changes sync across devices and legacy preferences cannot overwrite the cloud',async()=>{
+ const {emptyState,validateBackup}=await import('../lib/study.mjs');
+ const {applyStudyMutation,cloudState,stateChanges,vocabularyMigration}=await import('../lib/sync-model.mjs');
+ const local=validateBackup({...emptyState(),siteTheme:'slate'},new Set());
+ assert.equal(local.siteTheme,'charcoal');
+ const [migration]=vocabularyMigration(local,undefined);
+ const before=applyStudyMutation(undefined,migration.patch,migration.mode);
+ assert.equal(cloudState(new Map(),before,[]).siteTheme,'charcoal');
+ const [change]=stateChanges(local,{...local,siteTheme:'forest'});
+ const after=applyStudyMutation(before,change.patch,change.mode);
+ assert.equal(cloudState(new Map(),after,[]).siteTheme,'forest');
+ assert.deepEqual(vocabularyMigration(local,after),[]);
+ assert.equal(cloudState(new Map(),applyStudyMutation(after,migration.patch,migration.mode),[]).siteTheme,'forest');
+ assert.equal(validateBackup({...emptyState(),siteTheme:'invalid'},new Set()).siteTheme,undefined);
+});
