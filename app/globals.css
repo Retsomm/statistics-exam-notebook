@@ -527,3 +527,29 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
 /* Clear the browser's button padding so the account icon centers in its circle. */
 .avatar{padding:0;flex-shrink:0;line-height:1;}
 .avatar svg{display:block;}
+
+.study-corner-sticker{
+ position:absolute;inset:auto 18px 18px auto;width:clamp(80px,20%,144px);aspect-ratio:1;
+ background:url('/stickers/study-friends.webp') center/contain no-repeat;pointer-events:none;
+}
+.hero:has(.study-corner-sticker){padding-inline-end:clamp(112px,26%,182px)}
+.practice-score-board,.mock-score-board{
+ display:grid;grid-template-columns:minmax(0,1fr) minmax(64px,28%);
+ align-items:center;gap:12px;padding:16px;border:1px solid var(--line);
+ border-radius:16px;background:var(--bg);color:var(--ink);text-align:start;
+}
+.practice-score-board{margin:0 auto 22px;max-width:540px}
+.practice-score-board h2{margin:0 0 8px}
+.practice-score-board p{margin-bottom:8px}
+.practice-score-board .big{color:var(--green);margin:0;overflow-wrap:anywhere}
+.mock-score-board{width:100%}
+.mock-score-board strong{color:var(--green);font-size:clamp(24px,4vw,38px);overflow-wrap:anywhere}
+.score-sticker{
+ display:block;width:100%;max-width:150px;aspect-ratio:16/9;
+ background:url('/stickers/score-friends.webp') center/contain no-repeat;pointer-events:none;
+}
+@media(max-width:480px){
+ .hero:has(.study-corner-sticker){padding-inline-end:108px}
+ .study-corner-sticker{right:12px;width:76px}
+ .practice-score-board .big{font-size:clamp(29px,10vw,48px)}
+}
