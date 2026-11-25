@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import './globals.css';
+import './site-themes.css';
 import {brand} from '@/lib/brand.mjs';
 export const metadata: Metadata = {
   title: `${brand.name}｜初等統計練習`,
