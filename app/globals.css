@@ -565,3 +565,18 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
  .subject-sticker{height:72px;margin-bottom:11px}
  .practice-score-board .big{font-size:clamp(29px,10vw,48px)}
 }
+
+/* Keep subject cards legible on desktop and stack them on phones. */
+.subject-card h3{
+ min-height:24px;font-size:clamp(16px,1.2vw,18px);line-height:1.5;
+}
+.subject-card p{font-size:13px;line-height:1.75;margin:8px 0 16px}
+.subject-card .link{font-size:14px;line-height:1.5}
+@media(max-width:620px){
+ .subjects{grid-template-columns:minmax(0,1fr)}
+ .subject-card{padding:20px}
+ .subject-card h3{min-height:auto;font-size:18px}
+ .subject-card p{font-size:14px}
+ .subject-card .link{font-size:15px}
+ .subject-sticker{height:clamp(96px,30vw,120px);margin-bottom:14px}
+}
