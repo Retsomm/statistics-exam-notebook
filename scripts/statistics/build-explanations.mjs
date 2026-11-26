@@ -2377,6 +2377,766 @@ const checkedCalculations={
   summary:'先由條件機率算 P(A ∩ B)=P(A | B)P(B)=0.4×0.6=0.24。已知 P(A ∩ Bᶜ)=0.2，因此 A 在 B 外的部分為 0.2；聯集可視為整個 B 加上 A 在 B 外的部分，P(A ∪ B)=0.6+0.2=0.8，選 C。',
   options:{A:'0.6 只算了事件 B，漏掉 A 在 B 之外的 0.2。',B:'0.7 不是 0.6 加 0.2 的結果。',C:'聯集為 P(B)+P(A ∩ Bᶜ)=0.6+0.2=0.8。',D:'0.9 高於依題意算出的聯集機率 0.8。'}
  },
+ '110-2s-1':{
+   "summary": "柴比雪夫不等式給 P(∣X−μ∣≥kσ)≤1/k²。不論分布是否對稱，代 k=3 得區間外至多 1/9≈11.11%，官方採 D，把上限取為約 11%。原題有措辭疑義：若嚴格把 11% 當上限，不能由定理推出；C 的 25% 雖比真正下限 75% 弱，字面上仍成立。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）只要平均與有限變異數存在，偏斜分配也適用。",
+     "B": "（B）約 68% 是常態分配的經驗法則，不能套到所有分配。",
+     "C": "（C）兩個標準差內至少 1−1/4=75%，所以至少 25% 也成立，只是較弱的下限。",
+     "D": "（D）三個標準差外至多 1/9，約為 11.11%。此項是官方採計的近似敘述。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=1"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-2':{
+   "summary": "條件式乘上 P(E)，得 P(E∩F)=P(E)P(F)，即獨立。聯集公式還要減掉交集，所以錯誤的是 B。題目也默認 P(F)>0，這樣 D 的條件機率才有定義。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）直接將 P(F∣E)=P(F) 乘 P(E)，就是交集公式。",
+     "B": "（B）相加會把交集算兩次，應扣掉 P(E∩F)。",
+     "C": "（C）知道 E 發生後，F 的機率維持不變，正是獨立。",
+     "D": "（D）在 P(F)>0 時，將交集機率除以 P(F)，得到 P(E)。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=1"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-3':{
+   "summary": "以 1000 人為例，男 550 人中約 330 人投共和黨，女 450 人中約 180 人投共和黨。已知投共和黨，只看這 510 人，男性占 330/510≈0.647，選 C。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）0.605 不符合男性投該黨的 330 人除以該黨 510 票。",
+     "B": "（B）0.736 高於 330/510，分母需包括女性的 180 票。",
+     "C": "（C）用 0.55×0.60 除以 0.55×0.60+0.45×0.40，得到約 0.647。",
+     "D": "（D）0.338 接近全體中男性且投共和黨的 0.33，還要除以投該黨的 0.51。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=1"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-4':{
+   "summary": "中位數 m 左右各有一半機率。指數分配右尾為 e^(−0.5m)，令其為 0.5，得 m=ln(2)/0.5≈1.386，選 C。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）2.008 代入後右尾約 0.366，不是 0.5；它接近平均 2。",
+     "B": "（B）1.649 代入後右尾約 0.438，小於 0.5。",
+     "C": "（C）e^(−0.5×1.386) 約為 0.5，兩側各半。",
+     "D": "（D）2.685 的右尾約 0.261，遠少於一半。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=1"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-5':{
+   "summary": "從原圖讀取盒子兩端：左邊 Q₁ 約 30，右邊 Q₃ 約 71。第 75 與第 25 百分位數之差為 71−30=41 分，選 B。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）22 接近中位線與左側盒邊的距離，只走過半邊盒子。",
+     "B": "（B）把兩個百分位數讀在同一分數軸上相減，約為 41。",
+     "C": "（C）需要的是盒子本體寬度，67 明顯大於圖中的兩個盒邊之差。",
+     "D": "（D）90 幾乎是整條分數軸的長度，與盒邊位置不符。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=1"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-6':{
+   "summary": "累積次數 8、17、24、30、36 相鄰相減，得各組 8、9、7、6、6 人。最高頻是 23 到 28 歲組；第 18、19 人落在 28 到 33 歲組，分組內插的中位數約 28.71 歲。用組中點加權估計平均約 29.53 歲。因此最可能為眾數 < 中位數 < 平均數，選 A。分組表只能估計位置。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）最高頻組比中位組低，中位數估計值也低於加權平均。",
+     "B": "（B）以組中點算的平均接近 30，不會低於最高頻組的典型位置。",
+     "C": "（C）平均估計約 29.53，大於中位數估計約 28.71。",
+     "D": "（D）高齡組拉高平均，方向與題目這個排序相反。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=1"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-7':{
+   "summary": "前 3% 表示左側累積達 97%。標準常態第 97 百分位約 1.881，換回 610+1.881×160≈910.5，整數門檻選 911（B）。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）932 對應 z≈2.01，右尾約 2.2%，門檻設得過高。",
+     "B": "（B）911 約對應 z=1.88，右尾約 3%。",
+     "C": "（C）895 對應 z≈1.78，右尾約 3.7%，門檻偏低。",
+     "D": "（D）876 對應 z≈1.66，右尾約 4.8%，接近前 5%。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=1"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-8':{
+   "summary": "常態樣本的離均差因加總為零而少一個獨立方向，故 (n−1)S²/σ²∼χ²(n−1)。A 寫成 n，因此錯誤。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）估計平均數用掉一個自由度，卡方自由度應是 n−1。",
+     "B": "（B）有限樣本時該比值為 t(n−1)，自由度增加時趨近標準常態。",
+     "C": "（C）此式是 t(n−1) 的平方，所以為 F(1,n−1)。",
+     "D": "（D）常態母體下，樣本平均和樣本變異數獨立。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 2 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=2"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-9':{
+   "summary": "來自常態母體的獨立樣本，在 σ 未知時，即使樣本數小也能用 t 分配建立平均數的區間，故 C 是不必具備的條件。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）常態母體使樣本平均精確常態；大樣本近似則靠中央極限定理。",
+     "B": "（B）σ 未知，用樣本 s 代替，才採 t 臨界值。",
+     "C": "（C）小樣本只要符合常態母體等假定，也可使用 t 區間。",
+     "D": "（D）抽樣互相獨立是標準誤 s/√n 的基本前提。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 2 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=2"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-10':{
+   "summary": "未給支持率的先驗估計，保守取 p=0.5，讓 p(1−p)=0.25 最大。n≥1.96²×0.25/0.05²=384.16，向上取整為 385，選 B。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）297 在 p=0.5 時的誤差約 5.69%，超過 5%。",
+     "B": "（B）385 是達到 5% 誤差上限的最小整數。",
+     "C": "（C）897 可以達標，但超過最小樣本數。",
+     "D": "（D）1067 也可達標，題目要找最低需求。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 2 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=2"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-11':{
+   "summary": "先假定 H₀ 成立，依 H₁ 的方向求觀察統計量或更極端結果的機率，這就是 p 值。α 只在事後用來決策，所以 A 錯。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）只要資料、假設和檢定方法固定，調整 α 不會改變 p 值。",
+     "B": "（B）尾端機率依 H₀ 下的抽樣分配計算。",
+     "C": "（C）樣本算出的統計量決定從哪個位置起算尾端面積。",
+     "D": "（D）p 越小，這類資料在 H₀ 下越罕見，越容易達到拒絕的門檻。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 2 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=2"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-12':{
+   "summary": "在兩組獨立且近似常態的條件下，用樣本變異數比 F=9.11/2.25≈4.049。兩組自由度皆 10−1=9。雙尾 5% 檢定在較大的比值方向查 2.5% 右尾界 4.03，故 B 工廠變異較大，選 C。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）較大的樣本變異數在 B 組，且檢定也支持這個方向。",
+     "B": "（B）4.049 稍高於雙尾上側界 4.03，按題給數值達顯著。",
+     "C": "（C）F 超過上側界，而且分子來自 B 工廠。",
+     "D": "（D）題給兩組變異數、樣本數及臨界值，足以完成檢定。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 2 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=2"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-13':{
+   "summary": "每個學生提供一個前後差 D。八個差的平均為 5，離均差平方和為 350，sD=√(350/7)=√50。檢定系統後是否進步，用右尾配對 t，統計量為 D̄/(sD/√8)，自由度 7，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）將兩次測量當分開樣本，且直接相加兩個標準誤，忽略同一學生的配對。",
+     "B": "（B）分母和自由度是等變異的獨立兩樣本做法。",
+     "C": "（C）Welch 類型的分母仍以兩組獨立為出發點，沒利用每人的前後差。",
+     "D": "（D）將每位學生先變成一個差，八個差只留下 7 個自由度。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 2 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=2"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-14':{
+   "summary": "小期望次數使 Pearson 卡方統計量的卡方近似可能失準。官方選 A，反映在某些情況下實際型一錯誤率可能高過設定的 α。偏差方向會依機率與樣本數改變，不能無條件說一律更易拒絕。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）這是官方採計的可能影響；嚴格來說，近似誤差未必總朝這個方向。",
+     "B": "（B）檢定力取決於實際對立分布和決策規則，不能只由期望次數少就判定下降。",
+     "C": "（C）只要類別與估計參數數量未改，自由度不因期望次數小而自動變少。",
+     "D": "（D）近似品質會受影響，必要時可改用精確或模擬方法。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 3 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=3"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-15':{
+   "summary": "原表三家分別 4、6、5 筆，共 N=15。單因子 ANOVA 的分子自由度 3−1=2、分母自由度 15−3=12。差異大才使 F 增大，因此查右尾 0.05 的 F(2,12)，選 A。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）3 組總共 15 筆，用組間 2、組內 12，右尾放 5%。",
+     "B": "（B）ANOVA 的拒絕域在右尾，不把 0.05 除為兩尾。",
+     "C": "（C）3 是組數，14 是總自由度，兩者都不是分子和分母的配對。",
+     "D": "（D）自由度應是 (2,12)，尾端面積也不應減半。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 3 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=3"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-16':{
+   "summary": "交互作用自由度為 (4−1)(5−1)=12，均方 270/12=22.5。總自由度 59 減掉 A 的 3、B 的 4 和交互作用的 12，誤差自由度為 40，誤差均方 480/40=12。F=22.5/12=1.875，選 B。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）0.5625 是 270/480，直接除平方和漏了自由度。",
+     "B": "（B）分別把交互作用和誤差的平方和換成均方，再相除。",
+     "C": "（C）3.608 接近 A 主效果的 (130/3)/12，題目問交互作用。",
+     "D": "（D）2.50 是 B 主效果的 [(1000−130−270−480)/4]/12。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 3 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=3"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-17':{
+   "summary": "散布點呈倒 U 形：左半上升、右半下降。Pearson r 衡量整體線性方向，兩側的共變異貢獻大致抵銷，因此最可能接近零，選 −0.016（D）。缺少座標不能精算 r。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）0.498 需要全圖仍有中度正線性傾向；圖中的右半明顯下彎。",
+     "B": "（B）0.867 代表強正線性，點應集中在往右上方的帶狀區域。",
+     "C": "（C）−0.762 代表強負線性，但左半的點明顯上升。",
+     "D": "（D）很小的相關係數可與明顯曲線關係同時存在。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 3 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=3"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-18':{
+   "summary": "可以解釋的變異是迴歸平方和 300；總變異是總平方和 900。R²=300/900≈33.3%，選 A。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）分子用模型解釋的 300，分母用全部的 900。",
+     "B": "（B）300/600 等於 50%，但 600 是未解釋變異，並非總數。",
+     "C": "（C）66.7% 是 600/900，代表仍未解釋的比例。",
+     "D": "（D）90% 與迴歸表中 300 占 900 的比例不符。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 3 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=3"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-19':{
+   "summary": "原圖中預測值小時，殘差擠在 0 附近；預測值增加後，殘差上下散布加大，形成漏斗。這指出誤差變異數隨預測值改變，選 C。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）若殘差中心隨預測值呈彎曲，才直接提示線性形式不合。",
+     "B": "（B）常態性通常用殘差 Q–Q 圖檢查；漏斗主要反映散布寬度。",
+     "C": "（C）同變異數應呈現大致等寬的散點帶，圖中不是如此。",
+     "D": "（D）獨立性通常看觀測順序或殘差自相關；這張圖按預測值排列。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 3 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=3"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-20':{
+   "summary": "μ=13 不符合 H₀ 的 μ≤10。型 II 錯誤是在 H₀ 假時沒有拒絕。既然拒絕域是 X̄>15，所求就是在 μ=13 時 X̄≤15 的機率，選 C。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）在 μ=13 時拒絕是假設檢定做對了，機率是檢定力。",
+     "B": "（B）μ=10 是 H₀ 的邊界，若拒絕屬於型 I 錯誤。",
+     "C": "（C）真值 13 落在對立假設，卻因樣本平均未過門檻而沒拒絕。",
+     "D": "（D）在 μ=10 時不拒絕 H₀ 是正確決策。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-21':{
+   "summary": "用離均差平方和計算 SSE=Syy−Sxy²/Sxx=48−36²/30=4.8。15 筆資料已估截距和斜率，殘差自由度為 13，估計標準誤 √(4.8/13)≈0.608，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）0.891 平方後約 0.794，與本題均方 4.8/13 不符。",
+     "B": "（B）1.254 暗示殘差均方超過 1，實際只有約 0.369。",
+     "C": "（C）0.207 不是殘差均方 0.369，也不是它的平方根。",
+     "D": "（D）先扣模型解釋的平方和，除以 13 後開根號。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-22':{
+   "summary": "同一樣本、含截距的巢狀最小平方法中，加入新變數至少可以把它的係數設為 0，舊模型仍是候選解。因此 SSE 不會增加，普通 R² 不會下降，選 B。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）完全共線時，常用的反矩陣公式失效，係數沒有唯一解；仍可找出最小平方配適。",
+     "B": "（B）普通 R² 不會下降；有參數數量懲罰的調整後 R² 才可能下降。",
+     "C": "（C）高度共線使單個係數的效果難以分離，容易誤解控制其他變數後的關係。",
+     "D": "（D）新變數會改變比較時固定的條件，共線也讓估計不穩定，係數可能變號。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-23':{
+   "summary": "交叉整理收入 3 類與年齡 4 類，得到 3×4 列聯表。獨立性檢定自由度是 (3−1)(4−1)=6，選 A。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）固定列總數與欄總數後，可自由變動的格數為 2×3。",
+     "B": "（B）3+4=7 只是兩個變數的類別數加總。",
+     "C": "（C）8 只符合部分維度扣減的乘法，兩個維度都要先減 1。",
+     "D": "（D）12 是總格數，未扣列與欄的限制。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-24':{
+   "summary": "官方選 B。Spearman 是對秩次求相關，通常用置換、精確分布或大樣本近似檢定。卡方可檢驗分類次數；殘差的序列相依則要指明如 Ljung–Box 的卡方近似檢定，普通列聯表卡方不能直接套在任意殘差上。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）先把數值分成相同區間，再形成「組別×區間」列聯表，可檢驗各組在這些區間的比例是否相同。",
+     "B": "（B）檢定秩相關係數的顯著性通常不用 Pearson 列聯表卡方。",
+     "C": "（C）性別、支持政黨都屬類別資料，可建列聯表檢驗獨立性。",
+     "D": "（D）時間排序的殘差可在模型條件下用 Ljung–Box 等近似卡方統計量檢驗多階自相關。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-25':{
+   "summary": "依題附換算，Y′=(Y−32)×5/9。截距變 (0.5−32)×5/9=−17.5，斜率變 0.006×5/9≈0.00333。SSE 與 SST 同乘 (5/9)²，故 R² 仍為 0.92，選 B。若把溫度視為純溫差，也只需乘比例，R² 結論相同。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）−31.5 只減了 32，還漏掉乘 5/9。",
+     "B": "（B）R²=1−SSE/SST，分子分母同比縮放，數值不變。",
+     "C": "（C）0.0108 是把斜率乘 9/5，換算方向相反。",
+     "D": "（D）依題附公式應先從華氏截距減 32，結果不會是 32.9。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-26':{
+   "summary": "移動平均以固定窗口平滑短期波動，方便看長期趨勢。官方把一般性「可以移除季節變動」列為 D。只有當窗口涵蓋完整季節週期、各期適當加權等條件成立時，季節效果才可能抵銷，故本題應區分「不保證」與「完全不能」。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）平滑後短期起伏較不明顯，較容易辨識長期方向。",
+     "B": "（B）短期不規則波動可經平均而減弱；不代表每個隨機衝擊都恰好消失。",
+     "C": "（C）窗口加大一般會使各期權重分散，平滑後的短期波動較小。",
+     "D": "（D）任意窗口不能去除固定季節效果；例如季度資料常需涵蓋四季才有機會抵銷。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-27':{
+   "summary": "2018 年春 t=2，2019 年春 t=6，2020 年春 t=10。先用趨勢式求去季節化預測 98+6×10=158，再乘春季指數 0.8，得 126.4，約 126 筆，選 A。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）158×0.8=126.4，已把春季效果補回。",
+     "B": "（B）158 只算到趨勢線，尚未乘季節指數。",
+     "C": "（C）185 高於 158，但春季指數 0.8 應讓預測下降。",
+     "D": "（D）158÷0.8=197.5，約 198；除是去季節化的方向，這裡要乘。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-28':{
+   "summary": "17 筆已排序，第 9 筆是中位數 70。依本卷採用的上下半部法，排除中位數後各有 8 筆。Q₁=(46+48)/2=47，Q₃=(78+80)/2=79，四分位距為 79−47=32，選 B。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）22 是 70−48，沒有涵蓋從 Q₁ 到 Q₃ 的整段。",
+     "B": "（B）以兩半各自的中位數相減，79−47=32。",
+     "C": "（C）70 是整組的中位數，代表位置，並非盒子寬度。",
+     "D": "（D）77 是原資料中的一個分數，不能用單一名次代替兩個四分位數之差。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 4 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=4"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-29':{
+   "summary": "x=−1、0、1 的機率依序為 4/9、1/9、4/9。9X² 的值依序為 9、0、9，期望 9×4/9+0×1/9+9×4/9=8，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）4/9 只是一側非零結果的機率。",
+     "B": "（B）4 只有一側結果的加權貢獻，−1 和 +1 都要納入。",
+     "C": "（C）8/9 是 E(X²)，還沒再乘 9。",
+     "D": "（D）平方讓兩個非零值都成為 1，再乘 9，得到總期望 8。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-30':{
+   "summary": "將 200 個錯誤分到 500 頁，估計每頁卜瓦松平均數 λ=200/500=0.4。P(X=0)=e^(−0.4)×0.4⁰/0!=e^(−0.4)，選 A。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）卜瓦松分配的零次機率就是 e^(−λ)。",
+     "B": "（B）e^0.4 大於 1，無法是機率，負號不可漏。",
+     "C": "（C）0.4 是每頁錯誤個數的平均，不是零個錯誤的機率。",
+     "D": "（D）1−0.4=0.6 把平均數當機率，卜瓦松每頁可能有多個錯誤。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-31':{
+   "summary": "檢定門檻 p₀=0.75，樣本比例 p̂=320/400=0.80。H₀ 下標準誤 √(0.75×0.25/400)≈0.02165。Z=0.05/0.02165≈2.3094，選 B。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）1.1547 只有正確 z 值的一半，分母不需要乘 2。",
+     "B": "（B）以虛無假設的比例計算標準誤，得到 2.3094。",
+     "C": "（C）2.50 會在用樣本比例 0.8 算出標準誤 0.02 時出現；本檢定應用 p₀。",
+     "D": "（D）3.1254 對應的標準誤比 H₀ 下的 0.02165 小。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-32':{
+   "summary": "個別分數標準差 20，16 人平均的標準誤為 20/√16=5。z=(210−200)/5=2，所求右尾為 1−Φ(2)≈0.0228，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）0.9772 是低於 210 分的左側機率。",
+     "B": "（B）0.6915 是直接用個別標準差 20 算 z=0.5 再取左側的結果。",
+     "C": "（C）0.3085 用的是個別分數大於 210 的機率，未處理樣本平均。",
+     "D": "（D）平均的標準誤縮至 5 分，右尾是 z=2 外的 0.0228。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-33':{
+   "summary": "在題目設定的對立情境下，β=0.05 表示 H₀ 為假卻沒拒絕。改問 H₀ 為假時成功拒絕的機率，就是檢定力 1−β=0.95，選 C。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）0.01 是 H₀ 為真時錯拒絕的顯著水準。",
+     "B": "（B）0.05 是漏掉真正效果的機率，與題目問的決策相反。",
+     "C": "（C）同樣在 H₀ 為假的條件下，以 1 減去未拒絕機率。",
+     "D": "（D）0.99 是 1−α，對應 H₀ 邊界為真時正確不拒絕的機率。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-34':{
+   "summary": "男、女樣本比例為 0.60、0.50。H₀ 下合併比例為 440/800=0.55。Z=0.10/√[0.55×0.45×(1/400+1/400)]≈2.843，雙尾 p≈0.0045，低於 0.01，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）p 同時低於 0.10 和 0.05，因此兩個水準都拒絕。",
+     "B": "（B）0.05 和 0.025 都比 p 大，不能在後者改為不拒絕。",
+     "C": "（C）p≈0.0045 也低於 0.01，後半句不成立。",
+     "D": "（D）即使採 1% 的雙尾門檻，Z 的絕對值 仍超過約 2.576。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-35':{
+   "summary": "兩列各 400 人，曾撒謊共 440 人，未曾共 360 人。獨立時每列的期望值是 220、180，四格的偏差絕對值皆 20。χ²=2×400/220+2×400/180≈8.08，選 A。\n\n官方計分選項為（A）。",
+   "options": {
+     "A": "（A）四格各除以對應的期望值再加總，也等於前題合併比例 Z 的平方。",
+     "B": "（B）8.16 近似使用兩組各自比例標準誤的 z 平方；Pearson 卡方使用 H₀ 下的期望值。",
+     "C": "（C）400 是單格離差 20 的平方，還沒除以期望次數。",
+     "D": "（D）1600 是四格未標準化的離差平方總和。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-36':{
+   "summary": "檢定是否更長是右尾。未知母體標準差，用 t=(335−290)/(48/√16)=3.75，自由度 15。1% 右尾臨界值約 2.602，統計量超過臨界值，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）3.75 也高於 5% 右尾界約 1.753，所以 5% 仍拒絕。",
+     "B": "（B）2.5% 右尾界約 2.131，仍低於 3.75。",
+     "C": "（C）在最嚴格的 1% 水準，3.75 也超過臨界值。",
+     "D": "（D）3.75>2.602，樣本支持該出版社的平均頁數較長。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-37':{
+   "summary": "代 x=6 得 ŷ=−1.2+2.8×6=15.6 分鐘。殘差按實際減預測，為 14−15.6=−1.6，選 B。\n\n官方計分選項為（B）。",
+   "options": {
+     "A": "（A）1.6 是預測減實際，殘差符號相反。",
+     "B": "（B）實際時間比模型預測短 1.6 分鐘，故殘差為負。",
+     "C": "（C）15.6 是預測時間，還要用 14 減去它。",
+     "D": "（D）只加負號會得到負預測值，仍漏了觀察時間 14。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-38':{
+   "summary": "含截距的模型先各留一個基準類別：收入用 3−1=2 個虛擬變數，年齡群用 4−1=3 個。交互作用將兩組虛擬變數兩兩相乘，需 2×3=6 個，共 2+3+6=11，選 C。\n\n官方計分選項為（C）。",
+   "options": {
+     "A": "（A）7 未完整計入兩組主效果及全部六個乘積。",
+     "B": "（B）9 比 2+3+6 少 2 個參數，不能表示所有交互作用。",
+     "C": "（C）若只數自變數，不含截距，總數是 11。",
+     "D": "（D）12 是包含截距的參數總數，也是 3×4 的組合數。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-39':{
+   "summary": "各組人數相同，總平均 (33+29+28)/3=30。組間平方和按各組樣本數加權：5(33−30)²+5(29−30)²+5(28−30)²=70，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）14 是三個組平均離差的平方和，少乘各組樣本數 5。",
+     "B": "（B）30 是三組合併的總平均。",
+     "C": "（C）35 是 70 除以組間自由度 2，代表組間均方。",
+     "D": "（D）每個組平均代表五家經銷商，所以三項平方離差各乘 5。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
+ '110-2s-40':{
+   "summary": "至少一人喜歡的補事件是五人都不喜歡。依獨立抽樣的模型，P(都不喜歡)=0.4⁵=0.01024，所求為 1−0.01024=0.98976，選 D。\n\n官方計分選項為（D）。",
+   "options": {
+     "A": "（A）0.07776=0.6⁵，是五人全都喜歡的機率。",
+     "B": "（B）0.2 不能代表五次獨立抽取中至少一次成功。",
+     "C": "（C）0.92224=1−0.6⁵，是至少一人不喜歡的機率。",
+     "D": "（D）1−0.4⁵ 正好扣除沒有任何人喜歡的情況。"
+   },
+   "sources": [
+     {
+       "title": "110 年統計學大意官方原卷第 5 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=Q#page=5"
+     },
+     {
+       "title": "110 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?c=510&code=110010&q=1&s=0603&t=S"
+     }
+   ]
+ },
 };
 function explanationFor(question,exam){
  const reviewed=reviewedProfessionalExplanation(question,exam);if(reviewed)return reviewed;
