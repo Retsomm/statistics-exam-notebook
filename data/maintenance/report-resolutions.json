@@ -263,6 +263,18 @@
         "https://dict.revised.moe.edu.tw/appendix.jsp?ID=11&la=0&page=8&powerMode=0",
         "https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=24205&la=0&webMd=2"
       ]
+    },
+    {
+      "key": "4c745c8dab96138e1c883b871207bdea9023606481a207c39a22182de77f3a0c",
+      "questionId": "115-2s-1",
+      "kind": "scan",
+      "fixCommit": "b79a9f8f549ad893b177785890990a1818184618",
+      "resolution": "原卷第 1 頁題幹與選項和網站一致。考選部標準答案及網站均為 D（0.70），官方查詢頁未列本科更正。已重寫解析，提供獨立事件交集 0.4 × 0.5 = 0.20、聯集 0.4 + 0.5 − 0.20 = 0.70、補事件驗算及四個選項的個別說明。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
+      ]
     }
   ]
 }
