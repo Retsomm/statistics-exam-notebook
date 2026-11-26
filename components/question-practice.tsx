@@ -5,6 +5,7 @@ import Icon from './icons';
 import {QuestionBookmarkButton,ReportQuestionButton,ProgressBar} from './study-ui';
 import OfficialSourceLink from './official-source-link';
 import QuestionText from './question-text';
+import StatisticsReferenceLookup from './statistics-reference-lookup';
 import {formatScore,questionScore,questionPoints,allowsMultipleChoices} from '../lib/scoring.mjs';
 export type QuestionPracticeProps = {mockReview?:boolean;examMode?:boolean;question:Question;exam:Exam;session:StudySession;study:StudyState;onChoice:(letter:string)=>void;onSubmit:()=>void;onMove:(index:number)=>void;onFinish:()=>void;onStar:()=>void;onViewExplanation:()=>void;onReport:()=>void;onNote:(value:string)=>void};
 const QuestionPractice = ({mockReview=false,examMode=false,question:q,exam,session:s,study,onChoice,onSubmit,onMove,onFinish,onStar,onViewExplanation,onReport,onNote}:QuestionPracticeProps) => {
@@ -23,6 +24,7 @@ const QuestionPractice = ({mockReview=false,examMode=false,question:q,exam,sessi
       {q.passage && <section className="question-passage" style={{fontSize}} aria-label="閱讀題組文章"><QuestionText text={q.passage}/></section>}
       <QuestionText className="question-stem" style={{fontSize}} text={q.stem}/>
       {q.hasVisual && <div className="figure-reference"><p>本題涉及圖表，請對照考選部原題確認圖形與排版。</p><OfficialSourceLink className="btn" exam={exam} question={q} kind="question">開啟官方圖表（第 {q.page+1} 頁）↗</OfficialSourceLink></div>}
+      <StatisticsReferenceLookup key={q.id} exam={exam} question={q}/>
       <div className="answer-list" role="group" aria-label={q.multi?'複選題選項':allowsMultipleChoices(q)?'可複記題選項':'單選題選項'}>{q.options.map(o=><button key={o.letter} style={{fontSize}} className={`option ${selected.includes(o.letter)?'selected':''} ${checked&&q.accepted.some(a=>a.includes(o.letter))?'correct':''} ${checked&&selected.includes(o.letter)&&!q.accepted.some(a=>a.includes(o.letter))?'wrong':''}`} onClick={()=>onChoice(o.letter)} disabled={checked&&!examMode} aria-pressed={selected.includes(o.letter)}><span className="letter">{o.letter}</span><QuestionText className="answer-text" text={o.text}/></button>)}</div>
       {checked && <div className={`feedback ${correct?'':'wrong'}`} role="status"><strong><Icon name={correct?'check':'wrong'}/>{correct?'答對了，繼續累積。':mockReview?'這題還需要複習。':'這題已收進錯題本。'}</strong><p>你的答案：{selected.join('、')||'未作答'}　正確答案：{q.allCredit?'本題一律給分':q.accepted.map(a=>a.split('').join('、')).join(' 或 ')}</p>{q.correction&&<p>官方更正：{q.correction}</p>}<p>本題得分：{formatScore(questionScore(q,selected))} / {questionPoints(q)} 分</p>{q.multi&&<p>{mockReview?'複選題已套用部分給分。':'複選題已套用部分給分；未完全選對仍保留在錯題本。'}</p>}<div className="official-links"><OfficialSourceLink exam={exam} question={q} kind="answer">官方標準答案 PDF ↗</OfficialSourceLink><OfficialSourceLink exam={exam} question={q} kind="correction">更正答案 ↗</OfficialSourceLink></div></div>}
       {checked&&<div className="explanation-launch"><button className="btn" onClick={onViewExplanation} aria-haspopup="dialog">查看解析</button><small>點開白話詳解與逐選項說明</small></div>}

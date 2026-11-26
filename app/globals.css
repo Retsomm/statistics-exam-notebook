@@ -370,6 +370,15 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
 .feedback .official-links{flex-wrap:wrap;row-gap:12px;}
 .explanation-dialog-content>.action-row{margin-top:24px;}
 .report-dialog .explanation-dialog-content{gap:16px;}
+.statistics-reference{margin:16px 0}
+.statistics-reference .btn{min-height:44px;white-space:normal}
+.statistics-reference-dialog .question-table-wrap{margin:0;overflow:auto;max-height:100%}
+.statistics-reference-dialog .question-table th{position:sticky;z-index:1}
+.statistics-reference-dialog .question-table thead th{top:0}
+.statistics-reference-dialog .question-table th:first-child{left:0}
+.statistics-reference-dialog .question-table thead th:first-child{z-index:2}
+.statistics-reference-dialog .question-table td{text-align:right;font-variant-numeric:tabular-nums}
+.statistics-reference-dialog .explanation-dialog-footer{display:flex}
 .report-dialog .report-field{margin-block:0;}
 .report-dialog .notice,.report-dialog .report-source-links{margin-block:0;}
 @media(max-width:620px){
