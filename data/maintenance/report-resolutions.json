@@ -275,6 +275,18 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
       ]
+    },
+    {
+      "key": "09c07481fb02791d97b82719a643c20db05563e903fed86d258d3d9fe1904775",
+      "questionId": "115-2s-3",
+      "kind": "explanation",
+      "fixCommit": "3c87690a19a0763710887afb809fe66117aeecc2",
+      "resolution": "已對照考選部原卷與標準答案，網站計分為 C（75%）。新版解析說明兩端各距平均數 2 個標準差、區間外至多 25% 與區間內至少 75%，並逐項解釋四個選項。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
+        "https://www.itl.nist.gov/div898/handbook/prc/section2/prc261.htm"
+      ]
     }
   ]
 }
