@@ -335,6 +335,19 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
       ]
+    },
+    {
+      "key": "9280215b34b59bb53dc8762c259fc161c1dc5636f6871ca1db0a7b20cc3d841b",
+      "questionId": "115-2s-39",
+      "kind": "scan",
+      "fixCommit": "4e651089b2f4f2b22d58fd4f0b587fc86f9316f7",
+      "resolution": "核對考選部原卷第 5 頁，網站題幹、飲料列聯表及選項均相符。標準答案與網站計分皆為 B，官方查詢頁未列本卷更正。問題是作答頁缺少查表功能。已加入可於作答前開啟的卡方分配臨界值表彈窗，並補上自由度 3 查右尾 0.050 得 7.8147 的步驟及四個選項的查表位置。附表連結指向官方原卷第 7 頁。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=5",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=7",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
+      ]
     }
   ]
 }
