@@ -5,13 +5,14 @@ import {createRequire} from 'node:module';
 import ts from 'typescript';
 import {createElement as h} from 'react';
 import {renderToStaticMarkup as render} from 'react-dom/server';
+import {prepareQuestionText} from '../lib/question-text.mjs';
 const require=createRequire(import.meta.url),modules=new Map();
 function component(name){
  if(modules.has(name))return modules.get(name);
  const source=readFileSync(new URL(`../components/${name}.tsx`,import.meta.url),'utf8');
  const js=ts.transpileModule(source,{compilerOptions:{jsx:ts.JsxEmit.ReactJSX,module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2022}}).outputText;
  const module={exports:{}};
- new Function('require','module','exports',js)(id=>id.startsWith('./')?component(id.slice(2)):require(id),module,module.exports);
+ new Function('require','module','exports',js)(id=>id.startsWith('./')?component(id.slice(2)):require(id.startsWith('@/')?'../'+id.slice(2):id),module,module.exports);
  modules.set(name,module.exports);return module.exports;
 }
 const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));
@@ -91,4 +92,13 @@ test('memory cards start hidden, expose persistent save state and disable saves 
  const card={id:'memory-0123456789abcdef',term:'測試觀念',front:'問題',back:'回答',sourceTitle:'章節'};
  const html=render(h(Card,{card,saved:true,onToggle:noop,canSave:false}));
  assert.match(html,/memory-flip-rotor/);assert.match(html,/memory-front[^>]*aria-hidden="false"/);assert.match(html,/memory-back[^>]*aria-hidden="true"/);assert.doesNotMatch(html,/aria-expanded/);assert.match(html,/aria-pressed="true"/);assert.match(html,/disabled=""/);assert.match(html,/正在讀取雲端收藏/);
+});
+
+test('a study note question uses the same table renderer as practice',()=>{
+ const Source=component('study-question-source').default;
+ const question=prepareQuestionText(bank.questions.find(q=>q.id==='115-2s-29'));
+ const html=render(h(Source,{question,onPractice:noop,onViewExplanation:noop}));
+ assert.match(html,/<table class="question-table">/);
+ assert.match(html,/<td>x<\/td><td>1<\/td><td>2<\/td>/);
+ assert.match(html,/<td>y<\/td><td>3<\/td><td>2<\/td>/);
 });

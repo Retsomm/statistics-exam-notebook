@@ -24,7 +24,7 @@ test('non-keyword C statements ending in semicolons remain code',()=>{
  assert.deepEqual(layout.filter(block=>block.type==='code').map(block=>block.lines.join('\n')),['processArray(arr + 2, 3);\nfoo();']);
 });
 
-import {prepareQuestionText} from '../lib/question-text.mjs';
+import {prepareQuestionText,questionTextPreview} from '../lib/question-text.mjs';
 test('108 civics question 31 keeps each year aligned with country and data',()=>{
  const q=prepareQuestionText(bank.questions.find(q=>q.id==='108-1-31'));
  const table=questionLayout(q.stem).find(block=>block.type==='table');
@@ -121,4 +121,10 @@ test('regression pairs, blank cells and related observations retain their own ro
  assert.deepEqual(sample.rows.map(row=>row.slice(1).filter(Boolean).length),[4,6,5]);
  assert.equal(layoutFor('113-2s-39').filter(block=>block.type==='table').length,2);
  assert.deepEqual(layoutFor('115-2s-37','passage').find(block=>block.type==='table').rows.at(-1),['總數','330','100','70','500']);
+});
+
+test('a compact question heading ends before the table markup',()=>{
+ const question=prepareQuestionText(bank.questions.find(q=>q.id==='111-2s-24'));
+ assert.match(questionTextPreview(question.stem,500),/在一迴歸分析中/);
+ assert.doesNotMatch(questionTextPreview(question.stem,500),/\|/);
 });
