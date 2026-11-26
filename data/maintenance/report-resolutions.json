@@ -299,6 +299,42 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
       ]
+    },
+    {
+      "questionId": "115-2s-11",
+      "key": "8f01adf893e6ef9829798d686915a92566b87b02e5c4e2ed68f292d3c5c8b740",
+      "kind": "scan",
+      "fixCommit": "aa88057046e7421a3acbaaefee31460a77218bd4",
+      "resolution": "原卷與網站題目一致，官方採 D。補上 10 組等可能的樣本平均及其加權計算，並用線性期望驗算 5。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
+      ]
+    },
+    {
+      "questionId": "115-2s-12",
+      "key": "d8ea727937bb30471daf66c3e1fa7ab7de93723cc726428ab6ccf394a183e82e",
+      "kind": "scan",
+      "fixCommit": "aa88057046e7421a3acbaaefee31460a77218bd4",
+      "resolution": "原卷與網站題目一致，官方採 C。解析拆成從平均等待 4 分鐘求 λ=0.25、改寫為等待時間大於 2 分鐘、代入右尾公式得 0.60653。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
+      ]
+    },
+    {
+      "questionId": "115-2s-13",
+      "key": "d8cd53f506af90608dcdc5a6cf8045a528d55fa4fb830820e639747d029006cf",
+      "kind": "explanation",
+      "fixCommit": "aa88057046e7421a3acbaaefee31460a77218bd4",
+      "resolution": "原卷與網站題目一致。補上機率正規化 a=1/6 與期望值加權計算 E(X)=7/3，註明原卷選項無精確值，考選部採 A（2），網站依官方答案計分。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
+      ]
     }
   ]
 }
