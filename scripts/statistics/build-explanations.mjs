@@ -83,7 +83,6 @@ function noteFor(text){
 function calculationNote(question,correct,topic){
  const stem=normalise(question.stem);
  if(/P\(A∪B\)/.test(stem))return '因為 A、B 獨立，聯集機率是 P(A)+P(B)-P(A)P(B)=0.4+0.5-0.2=0.7。這裡要扣掉同時發生的部分，避免重複計算。';
- if(/Chebyshev/.test(stem)&&/4.5 與 9.3/.test(stem))return '區間離平均數 2.4 小時，剛好是 2 個標準差。柴比雪夫定理指出，落在平均數正負 2 個標準差內的比例至少為 1-1/2²=75%。';
  if(/4 個燈泡中至少 1 個/.test(stem))return '「至少 1 個」可改算補事件：先求 4 個都沒有瑕疵的機率，再用 1 減掉它。這比逐一列出 1、2、3、4 個瑕疵更不容易漏算。';
  if(/平均長度為 4 分鐘/.test(stem)&&/2 分鐘內沒有/.test(stem))return '平均等待時間為 4 分鐘，所以指數分配速率 λ=1/4。2 分鐘內沒有人到達的機率是 e^{-λt}=e^{-0.5}，約 0.607。';
  if(/P\(X=x\)=ax/.test(stem))return '先讓所有機率加總為 1：a(1+2+3)=1，所以 a=1/6；再依 E(X)=ΣxP(X=x) 把每個可能值乘上它的機率後加總。';
@@ -134,6 +133,29 @@ const checkedCalculations={
    {title:'115 年統計學大意官方原卷第 1 頁',url:'https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=1'},
    {title:'115 年統計學大意官方標準答案',url:'https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S'}
   ]
+ },
+ '115-2s-3':{
+   "summary": "題目要用柴比雪夫定理求區間內比例的下限。先看兩個端點離平均數多遠。\n\n6.9 − 4.5 = 2.4 小時，9.3 − 6.9 = 2.4 小時。每個標準差是 1.2 小時，所以兩側各距平均數 2.4 ÷ 1.2 = 2 個標準差。\n\n柴比雪夫定理指出，距離平均數達 k 個標準差或更遠的比例最多是 1/k²。代入 k = 2，得到 1/2² = 1/4 = 25%。因此區間內的比例至少為 1 − 25% = 75%，選（C）。實際比例可能更高，光靠平均數和標準差無法得知精確比例。",
+   "options": {
+     "A": "（A）31%，錯誤。若只有 31% 在區間內，就有 69% 在區間外，超過定理容許的 25% 上限。",
+     "B": "（B）69%，錯誤。若有 69% 在區間內，就有 31% 在區間外，仍超過 25% 上限。區間內至少有 75%。",
+     "C": "（C）75%，正確。兩端各距平均數 2 個標準差，區間內比例的下限為 1 − 1/2² = 75%。",
+     "D": "（D）25%，錯誤。25% 是區間外比例的上限。題目問區間內，應算 100% − 25% = 75%。"
+   },
+   "sources": [
+     {
+       "title": "115 年統計學大意官方原卷第 1 頁",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=1"
+     },
+     {
+       "title": "115 年統計學大意官方標準答案",
+       "url": "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S"
+     },
+     {
+       "title": "NIST 統計手冊，柴比雪夫定理",
+       "url": "https://www.itl.nist.gov/div898/handbook/prc/section2/prc261.htm"
+     }
+   ]
  },
  '115-2s-25':{
   summary:'先算三組平均數：A 組 23、B 組 27.25、C 組 20.75；全部 12 筆資料的總平均為 23.67。處理間平方和 SSTR = 4×[(23−23.67)²+(27.25−23.67)²+(20.75−23.67)²]，約為 87.17。三組的處理自由度為 3−1=2，因此處理間均方 MSTR = 87.17÷2，約為 43.58，選 A。',
