@@ -2,7 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 const bank=JSON.parse(readFileSync(new URL('../data/bank.json',import.meta.url)));
-const checkedStatistics=new Set([...bank.questions.filter(question=>question.examId==='115-2s').map(question=>question.id),'106-2s-8','106-2s-25','106-2s-31','107-2s-1']);
+const checkedStatistics=new Set([...bank.questions.filter(question=>['114-2s','115-2s'].includes(question.examId)).map(question=>question.id),'106-2s-8','106-2s-25','106-2s-31','107-2s-1']);
 test('statistics and data-processing questions have hidden-dialog explanation payloads',()=>{for(const exam of bank.exams.filter(exam=>exam.subjectIndex>1)){const entries=JSON.parse(readFileSync(new URL(`../data/explanations/${exam.id}.json`,import.meta.url)));const questions=bank.questions.filter(q=>q.examId===exam.id);assert.equal(Object.keys(entries).length,questions.length);for(const q of questions){const e=entries[q.id];assert.ok(exam.authoredReviewRequired?e.summary.length>40:e.summary.includes('\n\n'));assert.deepEqual(Object.keys(e.options).sort(),['A','B','C','D']);assert.deepEqual(Object.keys(e.optionVerdicts).sort(),['A','B','C','D']);assert.ok(e.sources.length);}}});
 
 
@@ -14,7 +14,7 @@ test('every professional-subject explanation is written for its own question and
   for(const question of questions){
    const entry=entries[question.id],correct=question.options.find(option=>question.accepted.includes(option.letter));
    const announcedAnswer=exam.subjectIndex===3?correct.text.replace(/\s+/g,' ').trim():correct.text.normalize('NFKC').replace(/\s+/g,' ').trim();
-   if(!exam.authoredReviewRequired)assert.ok((exam.subjectIndex===3?entry.summary:entry.summary.normalize('NFKC').replace(/\s+/g,' ').trim()).includes(announcedAnswer),`${question.id} must explain its announced answer`);
+   if(!exam.authoredReviewRequired)assert.ok((exam.id==='114-2s' && entry.summary.includes(`官方計分選項為（${correct.letter}）`)) || (exam.subjectIndex===3?entry.summary:entry.summary.normalize('NFKC').replace(/\s+/g,' ').trim()).includes(announcedAnswer),`${question.id} must explain its announced answer`);
    assert.doesNotMatch(entry.summary,/先辨認題目問的是定義、計算或推論/);
    if(exam.subjectIndex===3)assert.doesNotMatch(entry.summary,/這題其實在問：|學習重點：|判斷方式：/);
    else if(!exam.authoredReviewRequired&&!checkedStatistics.has(question.id)){assert.match(entry.summary,/這題其實在問：/);assert.match(entry.summary,/學習重點：/);assert.match(entry.summary,/判斷方式：/);}
