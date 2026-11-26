@@ -287,6 +287,18 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
         "https://www.itl.nist.gov/div898/handbook/prc/section2/prc261.htm"
       ]
+    },
+    {
+      "key": "842149c76a5f69b804da35a58eb45aa49703f14f0975dfea9dcab40f52014c20",
+      "questionId": "115-2s-8",
+      "kind": "scan",
+      "fixCommit": "6b146df7b6e3fd98c5067a94ff034db2a151f604",
+      "resolution": "已核對考選部原卷與標準答案，網站依官方 B 計分。解析補上眾數只能為 0 的反證，並逐項列出 A、B 兩種配對都符合左偏排序及甲乙各錯一項，原題條件無法唯一作答。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=Q#page=2",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
+      ]
     }
   ]
 }
