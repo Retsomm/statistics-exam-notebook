@@ -93,3 +93,32 @@ test('Chinese indentation and spacing between numbered alternatives do not becom
  const prose={...original,id:'test-chinese-prose',stem:'第一段文字。\n     第二行繼續。'};
  assert.equal(prepareQuestionText(prose).stem.includes('＿＿＿＿'),false);
 });
+
+test('reviewed statistics data reaches the shared renderer as complete tables',()=>{
+ const reviewed=JSON.parse(readFileSync(new URL('../data/statistics-question-tables.json',import.meta.url)));
+ const questions=new Map(bank.questions.map(question=>[question.id,question]));
+ for(const [id,edits] of Object.entries(reviewed)){
+  const question=prepareQuestionText(questions.get(id));
+  for(const {field,blocks} of edits){
+   const actual=questionLayout(question[field]).filter(block=>block.type==='table');
+   assert.deepEqual(actual,blocks.map(({rows,header=true})=>({type:'table',rows,columnHeaders:header})),id);
+  }
+  assert.deepEqual(prepareQuestionText(question),question,id+' keeps table boundaries on reflow');
+ }
+});
+
+test('regression pairs, blank cells and related observations retain their own rows',()=>{
+ const layoutFor=(id,field='stem')=>questionLayout(prepareQuestionText(bank.questions.find(q=>q.id===id))[field]);
+ const regression=layoutFor('115-2s-29');
+ assert.deepEqual(regression.map(block=>block.type),['text','table']);
+ assert.deepEqual(regression[1].rows,[['x','1','2','3','4','5'],['y','3','2','4','5','8']]);
+ assert.equal(regression[1].columnHeaders,false);
+
+ const anova=layoutFor('110-2s-16').find(block=>block.type==='table');
+ assert.deepEqual(anova.rows[2],['因子 B','','','','']);
+ assert.deepEqual(anova.rows.at(-1),['總和','1000','59','','']);
+ const sample=layoutFor('110-2s-15').find(block=>block.type==='table');
+ assert.deepEqual(sample.rows.map(row=>row.slice(1).filter(Boolean).length),[4,6,5]);
+ assert.equal(layoutFor('113-2s-39').filter(block=>block.type==='table').length,2);
+ assert.deepEqual(layoutFor('115-2s-37','passage').find(block=>block.type==='table').rows.at(-1),['總數','330','100','70','500']);
+});
