@@ -67,10 +67,14 @@ test('changed questions, answers or official sources stop both builders instead 
 });
 
 test('official exceptions distinguish double marks, alternative single answers and universal credit',()=>{
+ const corrected=questions.get('109-2s-4');
+ assert.equal(corrected.allCredit,true);
+ assert.equal(questionScore(corrected,[]),corrected.points);
  for(const [id,allowed,rejected] of [
   ['097-2s-30',[['A'],['D'],['A','D']],[[],['B'],['A','B']]],
   ['101-3d-33',[['A'],['B'],['B','A']],[[],['C'],['A','B','C']]],
   ['099-2s-38',[['B'],['C']],[[],['A'],['B','C']]],
+  ['109-2s-36',[['B'],['D']],[[],['A'],['B','D']]],
   ['099-3d-47',[['A'],['B']],[[],['A','B']]],
   ['098-3d-6',[['A'],['B'],['C'],['D']],[[],['A','B']]],
  ]){
