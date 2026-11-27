@@ -360,6 +360,19 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0605&q=1&t=S",
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114010&y=2025"
       ]
+    },
+    {
+      "key": "7418c1f8eecb415c3f6c220481f2c02789fed12cbff318a8d9db93a4cd7659d6",
+      "questionId": "114-2s-3",
+      "kind": "scan",
+      "fixCommit": "ab4d301ab7d32d799732e3d1316af9adc807d47e",
+      "resolution": "已對照原卷第 1 頁，還原觀看時間 x、母體平均數 μ、兩個加總符號及其上下限。四個選項和原卷一致。考選部採 D，查詢頁未列本科更正，網站依 D 計分。依題面用單一樣本 t 區間約為 (4.6894, 7.3106)，D 為最接近的選項。新版解析明示數值差距。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0605&q=1&t=Q#page=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114010&y=2025",
+        "https://www.nist.gov/system/files/documents/2019/05/13/section-8-statistics-techniques-20190506.pdf"
+      ]
     }
   ]
 }
