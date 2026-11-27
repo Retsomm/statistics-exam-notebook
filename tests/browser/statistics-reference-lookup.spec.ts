@@ -1,12 +1,29 @@
 import {expect,test,type Page} from '@playwright/test';
 
-async function openQuestion(page:Page,search:string){
+async function openQuestion(page:Page,search:string,year='115'){
  await page.goto('/demo/');
  await page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'歷屆題庫',exact:true}).click();
- await page.getByRole('combobox',{name:'選擇年度'}).selectOption('115');
+ await page.getByRole('combobox',{name:'選擇年度'}).selectOption(year);
  await page.getByRole('searchbox',{name:'搜尋題目'}).fill(search);
  await page.locator('.question-row').getByRole('button',{name:'練習 →',exact:true}).click();
 }
+
+test('114 confidence interval questions use the corresponding appendix before scoring',async({page})=>{
+ await openQuestion(page,'某電視公司從客戶中隨機抽出','114');
+ await page.getByRole('button',{name:'查表：t 分配臨界值表'}).click();
+ const studentT=page.getByRole('dialog',{name:'t 分配臨界值表'});
+ const df49=studentT.getByRole('row').filter({has:page.getByRole('rowheader',{name:'49',exact:true})});
+ await expect(df49.getByRole('cell').nth(2)).toHaveText('2.010');
+ await expect(studentT.getByRole('link')).toHaveAttribute('href',/#page=6$/);
+ await studentT.getByRole('button',{name:'關閉查表'}).click();
+
+ await openQuestion(page,'玩具商最近一批出廠','114');
+ await page.getByRole('button',{name:'查表：標準常態分配表'}).click();
+ const normal=page.getByRole('dialog',{name:'標準常態分配表'});
+ const z19=normal.getByRole('row').filter({has:page.getByRole('rowheader',{name:'1.9',exact:true})});
+ await expect(z19.getByRole('cell').nth(6)).toHaveText('0.4750');
+ await expect(normal.getByRole('link')).toHaveAttribute('href',/#page=5$/);
+});
 
 for(const width of [390,1440])test(`Chi-square critical values are available before scoring at ${width}px`,async({page})=>{
  await page.setViewportSize({width,height:820});
