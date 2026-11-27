@@ -348,6 +348,18 @@
         "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=115010&c=511&s=0605&q=1&t=S",
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=115010&y=2026"
       ]
+    },
+    {
+      "key": "fd0f0c8ad51b6eb7d037bb237bfcdd5c8a51ab0680b03a05b99110d7ff1f69a9",
+      "questionId": "114-2s-1",
+      "kind": "scan",
+      "fixCommit": "3e1bbff8da65e2f9df15f6d4ee7d35cfb9a72343",
+      "resolution": "已核對原卷第 1 頁，修復匯入時遺失的 X、Y 與四個選項的公式。考選部標準答案採 B，查詢頁未列本科更正，網站保留 B 計分。解析補上 Y＝X² 的反例，並拆解獨立可推出共變異數為 0 的理由。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0605&q=1&t=Q#page=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114010&y=2025"
+      ]
     }
   ]
 }
