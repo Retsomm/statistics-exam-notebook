@@ -25,8 +25,8 @@ test('unreviewed question text is preserved and numeric question content is not 
 });
 
 test('statistics formulas with unrecovered symbol-font glyphs expose their official page',()=>{
- const q=bank.questions.find(item=>item.id==='111-2s-20');
- assert.match(q.stem,/[\uE000-\uF8FF]/u);assert.equal(q.hasVisual,true);
+ const q=bank.questions.find(item=>item.id==='114-2s-4');
+ assert.equal(cleanExamQuestion({...q,stem:'\uF061 = 0.05',hasVisual:false}).hasVisual,true);
 });
 
 test('verified 114 statistics formulas arrive in the practice bank in reading order',()=>{
@@ -34,7 +34,7 @@ test('verified 114 statistics formulas arrive in the practice bank in reading or
  assert.match(q.stem,/型 I 誤差\s*α.*型 II 誤差\s*β/u);
  assert.match(q.options[1].text,/α 增加，則 β 減少/u);
  assert.deepEqual(q.accepted,['B']);
- const paper=bank.questions.filter(item=>item.examId==='114-2s');
+ const paper=bank.questions.filter(item=>item.subjectIndex===2);
  for(const question of paper){
   for(const field of [question.stem,...question.options.map(option=>option.text)]){
    assert.doesNotMatch(field,/[\uE000-\uF8FF\uFFFD]/u,question.id);
