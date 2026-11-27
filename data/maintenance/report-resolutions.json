@@ -373,6 +373,18 @@
         "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114010&y=2025",
         "https://www.nist.gov/system/files/documents/2019/05/13/section-8-statistics-techniques-20190506.pdf"
       ]
+    },
+    {
+      "key": "3de21a92906d32777d5f1f8051acaf560024e16cd7802e5da8b744ee53e2efc8",
+      "questionId": "114-2s-4",
+      "kind": "scan",
+      "fixCommit": "2f955cf12d222c2353e843f6cb20509799763118",
+      "resolution": "核對官方原卷第 1 頁，網站匯入的 α、β 成為亂碼。已修正題幹及四個選項，考選部標準答案與網站計分均為 B，官方查詢頁未列本科更正。既有解析正確，固定樣本數並提高 α 時，拒絕域擴大，在指定對立情況下 β 會降低。",
+      "evidence": [
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0605&q=1&t=Q#page=1",
+        "https://wwwq.moex.gov.tw/exam/wHandExamQandA_File.ashx?code=114010&c=512&s=0605&q=1&t=S",
+        "https://wwwq.moex.gov.tw/exam/wFrmExamQandASearch.aspx?e=114010&y=2025"
+      ]
     }
   ]
 }
