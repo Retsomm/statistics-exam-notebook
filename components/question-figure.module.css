@@ -1,0 +1,9 @@
+.figure{width:100%;margin:18px 0 22px;border:1px solid var(--line);border-radius:10px;background:var(--paper);color:var(--ink)}
+.figure svg{display:block;width:100%;height:auto;font-size:14px;line-height:1}
+.figure path{fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.figure .dashed{stroke-dasharray:4 3}
+.figure .grid{stroke-opacity:.27;stroke-width:1}
+.figure .shaded{fill:currentColor;fill-opacity:.23}
+.figure .filled{fill:currentColor;stroke:none}
+.figure .outline{fill:var(--paper);stroke:currentColor;stroke-width:1.4}
+.figure text{fill:currentColor}

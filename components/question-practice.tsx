@@ -4,9 +4,11 @@ import type { Question,StudySession,StudyState,Exam } from '@/lib/types';
 import Icon from './icons';
 import {QuestionBookmarkButton,ReportQuestionButton,ProgressBar} from './study-ui';
 import OfficialSourceLink from './official-source-link';
+import QuestionFigure from './question-figure';
 import QuestionText from './question-text';
 import StatisticsReferenceLookup from './statistics-reference-lookup';
 import {formatScore,questionScore,questionPoints,allowsMultipleChoices} from '../lib/scoring.mjs';
+import {questionFigures} from '@/lib/question-figures.mjs';
 export type QuestionPracticeProps = {mockReview?:boolean;examMode?:boolean;question:Question;exam:Exam;session:StudySession;study:StudyState;onChoice:(letter:string)=>void;onSubmit:()=>void;onMove:(index:number)=>void;onFinish:()=>void;onStar:()=>void;onViewExplanation:()=>void;onReport:()=>void;onNote:(value:string)=>void};
 const QuestionPractice = ({mockReview=false,examMode=false,question:q,exam,session:s,study,onChoice,onSubmit,onMove,onFinish,onStar,onViewExplanation,onReport,onNote}:QuestionPracticeProps) => {
   const [fontSize,setFontSize]=useState(20);
@@ -18,12 +20,13 @@ const QuestionPractice = ({mockReview=false,examMode=false,question:q,exam,sessi
 
   const checked=Object.hasOwn(s.checked,q.id),selected=s.choices[q.id]||[],correct=s.checked[q.id];
   const answered=examMode?s.ids.filter(id=>s.choices[id]?.length).length:Object.keys(s.checked).length;
+  const figure=questionFigures[q.id];
   return <><div className="practice-head"><div><h1>{s.title}</h1><p>{q.year} 年 · {q.subject} · 第 {q.number} 題</p></div><div className="right"><ReportQuestionButton onClick={onReport}/><OfficialSourceLink className="btn" exam={exam} question={q} kind="question">官方原卷 PDF ↗</OfficialSourceLink><button className="btn" onClick={onFinish}>{examMode?'提前交卷':'本回合結果'}</button></div></div>
     {exam.practiceNote&&<p className="notice">{exam.practiceNote}</p>}{exam.explanationStatus==='pending'&&<p className="notice">此為新收錄試卷，目前提供官方答案計分；逐題解析尚未編寫。{exam.subjectIndex===0&&'文言文翻譯與字詞說明可於「查看解析」閱讀。'}</p>}<div className="practice-layout"><section className="question-card" ref={questionCard}><header className="q-toolbar"><div className="left"><span className="num">{String(q.number).padStart(2,'0')}</span><span className="badge">{q.multi?'複選題 · 選出所有正確選項':allowsMultipleChoices(q)?'單選題 · 依更正公告可複記':'單選題'}</span></div><QuestionBookmarkButton bookmarked={study.bookmarks.includes(q.id)} onToggle={onStar}/></header>
     <div className="q-content"><div className="reading-tools"><span>閱讀字級</span><button className="btn" aria-label="縮小文字" disabled={fontSize<=18} onClick={()=>setFontSize(n=>n-2)}>A−</button><span>{fontSize}</span><button className="btn" aria-label="放大文字" disabled={fontSize>=28} onClick={()=>setFontSize(n=>n+2)}>A＋</button></div>
       {q.passage && <section className="question-passage" style={{fontSize}} aria-label="閱讀題組文章"><QuestionText text={q.passage}/></section>}
       <QuestionText className="question-stem" style={{fontSize}} text={q.stem}/>
-      {q.hasVisual && <div className="figure-reference"><p>本題涉及圖表，請對照考選部原題確認圖形與排版。</p><OfficialSourceLink className="btn" exam={exam} question={q} kind="question">開啟官方圖表（第 {q.page+1} 頁）↗</OfficialSourceLink></div>}
+      {figure?<QuestionFigure figure={figure}/>:q.hasVisual&&<div className="figure-reference"><p>如需確認原卷的排版或符號，可對照考選部試題。</p><OfficialSourceLink className="btn" exam={exam} question={q} kind="question">開啟官方原題（第 {q.page+1} 頁）</OfficialSourceLink></div>}
       <StatisticsReferenceLookup key={q.id} exam={exam} question={q}/>
       <div className="answer-list" role="group" aria-label={q.multi?'複選題選項':allowsMultipleChoices(q)?'可複記題選項':'單選題選項'}>{q.options.map(o=><button key={o.letter} style={{fontSize}} className={`option ${selected.includes(o.letter)?'selected':''} ${checked&&q.accepted.some(a=>a.includes(o.letter))?'correct':''} ${checked&&selected.includes(o.letter)&&!q.accepted.some(a=>a.includes(o.letter))?'wrong':''}`} onClick={()=>onChoice(o.letter)} disabled={checked&&!examMode} aria-pressed={selected.includes(o.letter)}><span className="letter">{o.letter}</span><QuestionText className="answer-text" text={o.text}/></button>)}</div>
       {checked && <div className={`feedback ${correct?'':'wrong'}`} role="status"><strong><Icon name={correct?'check':'wrong'}/>{correct?'答對了，繼續累積。':mockReview?'這題還需要複習。':'這題已收進錯題本。'}</strong><p>你的答案：{selected.join('、')||'未作答'}　正確答案：{q.allCredit?'本題一律給分':q.accepted.map(a=>a.split('').join('、')).join(' 或 ')}</p>{q.correction&&<p>官方更正：{q.correction}</p>}<p>本題得分：{formatScore(questionScore(q,selected))} / {questionPoints(q)} 分</p>{q.multi&&<p>{mockReview?'複選題已套用部分給分。':'複選題已套用部分給分；未完全選對仍保留在錯題本。'}</p>}<div className="official-links"><OfficialSourceLink exam={exam} question={q} kind="answer">官方標準答案 PDF ↗</OfficialSourceLink><OfficialSourceLink exam={exam} question={q} kind="correction">更正答案 ↗</OfficialSourceLink></div></div>}
