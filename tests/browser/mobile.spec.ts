@@ -1,8 +1,53 @@
 import {openPersonalSection} from './personal-navigation';
 import {test,expect} from '@playwright/test';
+
+test('history-paper progress resumes after wrong-question practice and a reload',async({page})=>{
+ const overview=page.getByRole('navigation',{name:'主要導覽'}).getByRole('button',{name:'學習總覽'});
+ const hero=page.getByRole('region',{name:'歷屆試題進度'});
+ const paper=page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'統計學大意',exact:true})});
+ await page.goto('/demo/');
+ await paper.getByRole('button',{name:'開始練習'}).click();
+ await page.locator('.answer-list .option').first().click();
+ await page.getByRole('button',{name:'確認答案'}).click();
+ await expect(page.locator('.feedback')).toContainText('錯題本');
+ await page.getByRole('button',{name:'下一題'}).click();
+ await page.locator('.answer-list .option').nth(1).click();
+ await overview.click();
+ await page.getByRole('button',{name:'開始錯題複習'}).click();
+ await expect(page.getByRole('heading',{name:'錯題重練'})).toBeVisible();
+ await page.reload();
+ await expect(hero).toContainText('115 年 · 統計學大意');
+ await expect(hero).toContainText('已作答 1 / 40 題');
+ await expect(page.getByRole('button',{name:'繼續錯題重練'})).toBeVisible();
+ await hero.getByRole('button',{name:'接續歷屆試題'}).click();
+ await expect(page.getByText('115 年 · 統計學大意 · 第 2 題',{exact:true})).toBeVisible();
+ await expect(page.locator('.answer-list .option').nth(1)).toHaveAttribute('aria-pressed','true');
+ await expect(page.getByRole('dialog')).toHaveCount(0);
+ await page.getByRole('button',{name:'上一題'}).click();
+ await expect(page.locator('.feedback')).toContainText('錯題本');
+ await page.getByRole('button',{name:'查看解析'}).click();
+ await expect(page.getByRole('dialog')).toBeVisible();
+});
+
+test('an overwritten legacy round can resume from the historical paper card',async({page})=>{
+ await page.addInitScript(()=>{
+  localStorage.setItem('yueri:next:v1:guest',JSON.stringify({
+   version:1,bookmarks:[],history:[],notes:{},wrong:{},
+   records:{'115-2s-1':{answer:'D',correct:true,attempts:1,time:'2026-11-27T08:00:00.000Z'}},
+   session:{ids:['115-0-1'],index:0,title:'錯題重練',choices:{},checked:{}},
+  }));
+ });
+ await page.goto('/demo/');
+ await expect(page.getByRole('region',{name:'歷屆試題進度'})).toContainText('依已提交紀錄接續');
+ const paper=page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'統計學大意',exact:true})});
+ await paper.getByRole('button',{name:'接續作答'}).click();
+ await expect(page.getByText('115 年 · 統計學大意 · 第 2 題',{exact:true})).toBeVisible();
+ await expect(page.getByRole('heading',{name:'本回合進度 1 / 40'})).toBeVisible();
+});
+
 test('mobile practice, wrong answers, bookmarks and readable text',async({page})=>{
   await page.goto('/demo');
-  await page.getByRole('button',{name:'開始今日練習'}).click();
+  await page.getByRole('button',{name:'前往歷屆題庫'}).click();
   await page.locator('.exam-card').filter({has:page.getByRole('heading',{name:'國文',exact:true})}).first().getByRole('button',{name:/開始練習/}).click();
   await expect(page.locator('.question-stem')).toBeVisible();
   expect(await page.locator('.question-stem').evaluate(el=>parseFloat(getComputedStyle(el).fontSize))).toBeGreaterThanOrEqual(20);

@@ -4,7 +4,7 @@ import {mergeMockRun} from './mock-exam.mjs';
 import {mergeVisitDays,readVisitDays} from './visit-days.mjs';
 import { mergeAttempts } from './attempts.mjs';
 import { firebaseAuth } from './firebase-client';
-import {applyStudyMutation,vocabularyMigration,bookmarkMigration,applyQuestionMutation,canCoalesceStudyMutations,cloudState,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
+import {applyStudyMutation,vocabularyMigration,bookmarkMigration,applyQuestionMutation,canCoalesceStudyMutations,cloudState,coalesceExamSessionChanges,migrationChanges,mergeHistory,type Mutation,type CloudQuestion} from './sync-model.mjs';
 import {syncErrorMessage} from './sync-errors.mjs';
 import type {Question,StudyState} from './types';
 export type SyncStatus='connecting'|'synced'|'saving'|'offline'|'error';
@@ -73,7 +73,7 @@ export class CloudSync {
   if(this.disposed)return;
   for(const change of changes){
    const previous=[...this.queue].reverse().find(m=>m.docId===change.docId);
-   if(previous&&previous.mode===change.mode&&!this.inflight.has(previous.id)&&(change.docId!=='_session'||canCoalesceStudyMutations(previous.patch,change.patch))){previous.patch={...previous.patch,...change.patch,...(change.patch.visitDays?{visitDays:mergeVisitDays(previous.patch.visitDays,change.patch.visitDays)}:{}),...(Object.hasOwn(previous.patch,'baseSessionJSON')?{baseSessionJSON:previous.patch.baseSessionJSON}:{}),...(change.patch.mockRun?{mockRun:mergeMockRun(previous.patch.mockRun,change.patch.mockRun)}:{}),...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.memoryBookmarks?{memoryBookmarks:{...previous.patch.memoryBookmarks,...change.patch.memoryBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
+   if(previous&&previous.mode===change.mode&&!this.inflight.has(previous.id)&&(change.docId!=='_session'||canCoalesceStudyMutations(previous.patch,change.patch))){previous.patch={...previous.patch,...change.patch,...(change.patch.visitDays?{visitDays:mergeVisitDays(previous.patch.visitDays,change.patch.visitDays)}:{}),...(Object.hasOwn(previous.patch,'baseSessionJSON')?{baseSessionJSON:previous.patch.baseSessionJSON}:{}),...(change.patch.mockRun?{mockRun:mergeMockRun(previous.patch.mockRun,change.patch.mockRun)}:{}),...(change.patch.attempts?{attempts:mergeAttempts(previous.patch.attempts,change.patch.attempts)}:{}),...(change.patch.examSessions?{examSessions:coalesceExamSessionChanges(previous.patch.examSessions,change.patch.examSessions)}:{}),...(change.patch.history?{history:mergeHistory(previous.patch.history,change.patch.history)}:{}),...(change.patch.vocabularyBookmarks?{vocabularyBookmarks:{...previous.patch.vocabularyBookmarks,...change.patch.vocabularyBookmarks}}:{}),...(change.patch.memoryBookmarks?{memoryBookmarks:{...previous.patch.memoryBookmarks,...change.patch.memoryBookmarks}}:{}),...(change.patch.idiomBookmarks?{idiomBookmarks:{...previous.patch.idiomBookmarks,...change.patch.idiomBookmarks}}:{})};}
    else this.queue.push({...change,id:crypto.randomUUID()});
   }
   if(changes.length){this.persist();this.status(navigator.onLine?'saving':'offline');this.schedule();}

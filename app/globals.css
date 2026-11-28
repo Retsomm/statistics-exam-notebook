@@ -542,6 +542,17 @@ body{background:radial-gradient(circle at 85% 4%,#1d60724a,transparent 34%),line
  background:url('/stickers/study-friends.webp') center/contain no-repeat;pointer-events:none;
 }
 .hero:has(.study-corner-sticker){padding-inline-end:clamp(112px,26%,182px)}
+.exam-resume-card p{max-width:none;font-size:14px}
+.other-exam-progress{position:relative;margin-top:12px;font-size:14px}
+.other-exam-progress summary{cursor:pointer}
+.other-exam-progress ul{margin:8px 0 0;padding:0;list-style:none}
+.other-exam-progress li{display:grid;gap:4px;padding:8px 0}
+.other-exam-progress .link{color:inherit;font-size:inherit;text-align:start;text-decoration:underline}
+.review-resume-card{justify-content:flex-start;align-items:flex-start;gap:12px}
+.review-resume-card h2{font-size:18px}
+.review-resume-card p,.review-resume-card .link{font-size:14px}
+.review-resume-card .link{margin-top:0}
+@media(max-width:620px){.review-resume-card{min-height:0}}
 .subject-card:has(.subject-sticker){display:flex;flex-direction:column}
 .subject-sticker{
  display:block;width:100%;height:clamp(72px,7vw,96px);margin:0 0 14px;

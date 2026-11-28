@@ -1,11 +1,11 @@
 'use client';
 import {allowsMultipleChoices} from '@/lib/scoring.mjs';
-import {sessionResumeIndex} from '@/lib/session-progress.mjs';
+import {sessionResumeIndex,trackExamSessions,unfinishedExamSessions,type ExamProgress} from '@/lib/session-progress.mjs';
 import {prepareQuestionText} from '@/lib/question-text.mjs';
 import { useDeferredValue, useEffect, useMemo, useRef, useState } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import { emptyState, grade, recordAnswer, validateBackup, mergeStates } from '@/lib/study.mjs';
+import { emptyState, recordAnswer, validateBackup, mergeStates } from '@/lib/study.mjs';
 import type { Bank,Question,StudyState,Screen,Exam,CollectionTab,Vocabulary,SavedVocabulary } from '@/lib/types';
 import Icon from './icons';
 import FavoritesTabs from './favorites-tabs';
@@ -62,11 +62,13 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   const key=`yueri:next:v1:${accountKey}`;
   const qmap=useMemo(()=>new Map(bank?.questions.map(q=>[q.id,q])||[]),[bank]);
   const emap=useMemo(()=>new Map(bank?.exams.map(e=>[e.id,e])||[]),[bank]);
+  const examProgress=useMemo(()=>bank?unfinishedExamSessions(bank,study):[],[bank,study]);
+  const progressByExam=useMemo(()=>new Map(examProgress.map(progress=>[progress.exam.id,progress])),[examProgress]);
   useEffect(()=>{
     const controller=new AbortController();
     fetch('/bank.json',{signal:controller.signal}).then(async r=>{if(!r.ok)throw Error(r.status===401?'登入已失效，請重新登入。':'題庫暫時無法載入。');const data:Bank=await r.json();setBank({...data,questions:data.questions.map(prepareQuestionText)});
-      const known=new Set(data.questions.map(q=>q.id));
-      try{const raw=localStorage.getItem(key);const legacyTheme=normalizeSiteTheme(localStorage.getItem('statistics-studio:theme'));if(raw||legacyTheme){const parsed=raw?JSON.parse(raw):emptyState();const restored=validateBackup(parsed,known);if(!restored.siteTheme&&legacyTheme)restored.siteTheme=legacyTheme;if(restored.session&&parsed.session){const map=new Map(data.questions.map(q=>[q.id,q]));for(const id of restored.session.ids){const choice=parsed.session.choices?.[id];if(Array.isArray(choice)&&choice.length&&choice.every(x=>typeof x==='string'&&/^[A-E]$/.test(x))){restored.session.choices[id]=[...new Set<string>(choice)];if(Object.hasOwn(parsed.session.checked||{},id))restored.session.checked[id]=grade(map.get(id)!,choice);}}}setStudy(restored);}}
+      const known=new Map(data.questions.map(q=>[q.id,q]));
+      try{const raw=localStorage.getItem(key);const legacyTheme=normalizeSiteTheme(localStorage.getItem('statistics-studio:theme'));if(raw||legacyTheme){const restored=validateBackup(raw?JSON.parse(raw):emptyState(),known);if(!restored.siteTheme&&legacyTheme)restored.siteTheme=legacyTheme;setStudy(restored);}}
       catch{setMessage('無法讀取本機舊紀錄，請使用備份檔還原。');}setLoaded(true);
     }).catch(e=>{if(e.name!=='AbortError')setError(e.message);});return()=>controller.abort();
   },[demo,key]);
@@ -83,7 +85,11 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
     document.documentElement.dataset.siteTheme=siteTheme;
     return()=>{delete document.documentElement.dataset.siteTheme;};
   },[siteTheme]);
-  const update=cloud.mutate;
+  const update=(recipe:(state:StudyState)=>void)=>cloud.replace(previous=>{
+    const next=structuredClone(previous);
+    recipe(next);
+    return trackExamSessions(previous,next);
+  });
   useEffect(()=>{
     const tick=()=>{if(document.visibilityState==='visible')setActivityNow(Date.now());};
     tick();const timer=setInterval(tick,60000);window.addEventListener('focus',tick);document.addEventListener('visibilitychange',tick);
@@ -111,18 +117,25 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   },[loaded,bank,cloud.ready,study.mockRuns,qmap,update]);
   const go=(next:Screen)=>{setMockReview(null);if(next==='wrong'){next='favorites';setCollectionTab('wrong');}setReportQuestionId(null);setScreen(next);setExplanation(null);setResult(false);setSearch('');setYear('all');setSubject('all');setListPage(0);window.scrollTo({top:0});};
   const start=(qs:Question[],title:string,examId?:string)=>{setExplanation(null);if(!qs.length){setMessage('沒有符合條件的題目。');return;}update(s=>{s.session={...(examId?{examId,attemptId:crypto.randomUUID(),startedAt:new Date().toISOString()}:{}),ids:qs.map(q=>q.id),index:0,title,choices:{},checked:{}};});setScreen('practice');setResult(false);window.scrollTo({top:0});};
-  const resumeIndex=sessionResumeIndex(study.session);
-  const canResume=resumeIndex!==null;
-  const sessionComplete=!!study.session?.ids.length&&!canResume;
+  const resumeIndex=study.session?.examId?null:sessionResumeIndex(study.session);
   const resumePractice=()=>{
     if(uid&&cloud.status==='connecting'){setMessage('正在讀取雲端練習進度，請稍候再繼續作答。');return;}
-    if(study.session){
-      if(resumeIndex===null){go('bank');return;}
-      update(s=>{if(s.session)s.session.index=resumeIndex;});
-      go('practice');
-    }else go('bank');
+    if(resumeIndex===null)return;
+    update(s=>{if(s.session&&!s.session.examId)s.session.index=resumeIndex;});
+    go('practice');
   };
-  const startExam=(e:Exam)=>start(bank!.questions.filter(q=>q.examId===e.id),`${e.year} 年 · ${e.subject}`,e.id);
+  const resumeExam=({session}:ExamProgress)=>{
+    if(uid&&cloud.status==='connecting'){setMessage('正在讀取雲端練習進度，請稍候再繼續作答。');return;}
+    const index=sessionResumeIndex(session);
+    if(index===null)return;
+    update(s=>{s.session={...session,index,attemptId:session.attemptId??crypto.randomUUID()};});
+    go('practice');
+  };
+  const openExam=(exam:Exam)=>{
+    const progress=progressByExam.get(exam.id);
+    if(progress)resumeExam(progress);
+    else start(bank!.questions.filter(q=>q.examId===exam.id),`${exam.year} 年 · ${exam.subject}`,exam.id);
+  };
   const star=(id:string)=>update(s=>{s.bookmarks=s.bookmarks.includes(id)?s.bookmarks.filter(x=>x!==id):[...s.bookmarks,id];});
   const explanationStar=(id:string)=>{update(s=>{s.explanationBookmarks=(s.explanationBookmarks||[]).includes(id)?s.explanationBookmarks.filter(x=>x!==id):[...(s.explanationBookmarks||[]),id];});setMessage((study.explanationBookmarks||[]).includes(id)?'已取消收藏解析。':'已加入「收藏解析」，可隨時回看。');};
   const wordStar=(examId:string,item:Vocabulary)=>{const id=vocabularyId(examId,item);update(s=>{s.vocabularyBookmarks=s.vocabularyBookmarks.includes(id)?s.vocabularyBookmarks.filter(word=>word!==id):[...s.vocabularyBookmarks,id];});};
@@ -134,7 +147,7 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   const activeWrong=Object.keys(study.wrong).filter(id=>study.wrong[id].active&&qmap.has(id));
   const random=()=>{const qs=filterQuestions(bank!.questions);for(let i=qs.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[qs[i],qs[j]]=[qs[j],qs[i]];}start(qs.slice(0,10),'隨機練習');};
   const exportBackup=()=>{const url=URL.createObjectURL(new Blob([JSON.stringify({...study,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download=`${brand.name}_學習備份_${new Date().toISOString().slice(0,10)}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);setMessage('已匯出學習備份。');};
-  const importBackup=async(file:File)=>{try{if(file.size>10*1024*1024)throw Error('請選擇 10 MB 以下的統計研習所 JSON 備份。');const incoming=validateBackup(JSON.parse(await file.text()),new Set(qmap.keys()));cloud.replace(s=>mergeStates(s,incoming));setMessage('已合併備份、題目收藏、解析收藏、記憶卡片、成語收藏、單字收藏、錯題與筆記。');}catch(e){setMessage(e instanceof Error?e.message:'備份匯入失敗。');}};
+  const importBackup=async(file:File)=>{try{if(file.size>10*1024*1024)throw Error('請選擇 10 MB 以下的統計研習所 JSON 備份。');const incoming=validateBackup(JSON.parse(await file.text()),qmap);cloud.replace(s=>mergeStates(s,incoming));setMessage('已合併備份、題目收藏、解析收藏、記憶卡片、成語收藏、單字收藏、錯題與筆記。');}catch(e){setMessage(e instanceof Error?e.message:'備份匯入失敗。');}};
   if(error)return <main className="loading"><h1>{error}</h1><Link className="btn" href="/sign-in">回到登入頁</Link><button className="btn" onClick={()=>location.reload()}>重新載入</button></main>;
   if(!bank||!loaded)return <LoadingState message="正在載入統計練習資料…"/>;
   if(uid&&!cloud.ready)return <main className="loading" aria-live="polite"><h1>{cloud.status==='error'?'無法讀取雲端進度':cloud.status==='offline'?'目前離線，尚未取得最新進度':'正在讀取雲端最新進度…'}</h1><p>讀取完成後才會顯示練習紀錄，避免接續此裝置的舊回合。本機未同步的作答仍會保留。</p>{cloud.syncError&&<p role="alert">{cloud.syncError}</p>}{(cloud.status==='error'||cloud.status==='offline')&&<button className="btn" onClick={cloud.retry}>重新讀取雲端進度</button>}</main>;
@@ -148,11 +161,55 @@ const StudyApp=({accountKey,email,demo=false,signOutAction,uid}:{accountKey:stri
   ].map(([label,value,unit,sub])=><section className="stat" key={label}><p className="label">{label}</p><strong>{value}<small>{unit}</small></strong><p>{sub}</p></section>)}</div>;
   const filters=<div className="filters"><div className="tabs" aria-label="科目篩選">{['全部科目',...bank.subjects].map((label,i)=><button key={label} className={`tab ${subject===(i===0?'all':String(i-1))?'active':''}`} onClick={()=>{setSubject(i===0?'all':String(i-1));setListPage(0);}}>{label}</button>)}</div><select className="select" aria-label="選擇年度" value={year} onChange={e=>{setYear(e.target.value);setListPage(0);}}><option value="all">全部年度</option>{examYears.map(y=><option key={y} value={y}>{y} 年</option>)}</select><input className="search" type="search" aria-label="搜尋題目" placeholder="搜尋題目、單字或觀念…" value={search} onChange={e=>{setSearch(e.target.value);setListPage(0);}}/>{screen==='favorites'&&collectionTab==='wrong'&&<label className="checkbox"><input type="checkbox" checked={includeMastered} onChange={e=>setIncludeMastered(e.target.checked)}/>包含已掌握</label>}</div>;
   const list=(questions:Question[],mode:'questions'|'wrong'|'explanations'='questions')=><QuestionList questions={questions} mode={mode} study={study} page={listPage} onPageChange={setListPage} onReport={setReportQuestionId} onBookmark={star} onExplanationBookmark={explanationStar} onViewExplanation={id=>setExplanation({questionId:id,context:'saved'})} onMastered={id=>update(s=>{s.wrong[id].active=!s.wrong[id].active;})} onPractice={q=>start([q],`${q.year} 年 · ${q.subject} · 第 ${q.number} 題`)} onOpenBank={()=>go('bank')}/>;
-  const exams=(items:Exam[])=><div className="exam-cards">{items.map(e=>{const done=bank.questions.filter(q=>q.examId===e.id&&study.records[q.id]).length;return <article className="exam-card" key={e.id}><div className="exam-meta"><span className="exam-year">{e.year}</span><span className="text-muted">年公務人員初等考試</span></div><h3>{e.subject}</h3><p className="text-muted">{e.count} 題 {e.explanationCount===e.count?' · 逐題解析已完成':` · 已有 ${e.explanationCount||0} 題解析`} {e.correctionPdf?' · 已套用官方更正':''}</p>{e.practiceNote&&<p className="notice">{e.practiceNote}</p>}{e.explanationStatus==='pending'&&<p className="notice">新收錄試卷：可依官方答案作答與計分，逐題解析尚未編寫。{e.subjectIndex===0&&'文言文翻譯與字詞說明可於「查看解析」閱讀。'}</p>}<ProgressBar value={done} total={e.count} label={`${e.year} 年 ${e.subject} 練習進度`}/><footer><small>已練習 {done} / {e.count} 題</small><button className="btn" onClick={()=>startExam(e)}>開始練習 →</button></footer></article>;})}</div>;
+  const exams=(items:Exam[])=><div className="exam-cards">{items.map(exam=>{
+    const progress=progressByExam.get(exam.id);
+    const done=progress?.answered??bank.questions.filter(q=>q.examId===exam.id&&study.records[q.id]).length;
+    return <article className="exam-card" key={exam.id}>
+      <div className="exam-meta"><span className="exam-year">{exam.year}</span><span className="text-muted">年公務人員初等考試</span></div>
+      <h3>{exam.subject}</h3>
+      <p className="text-muted">{exam.count} 題 {exam.explanationCount===exam.count?' · 逐題解析已完成':` · 已有 ${exam.explanationCount||0} 題解析`} {exam.correctionPdf?' · 已套用官方更正':''}</p>
+      {exam.practiceNote&&<p className="notice">{exam.practiceNote}</p>}
+      {exam.explanationStatus==='pending'&&<p className="notice">新收錄試卷：可依官方答案作答與計分，逐題解析尚未編寫。{exam.subjectIndex===0&&'文言文翻譯與字詞說明可於「查看解析」閱讀。'}</p>}
+      <ProgressBar value={done} total={exam.count} label={`${exam.year} 年 ${exam.subject} 練習進度`}/>
+      <footer><small>{progress?'本回合已作答':'已練習'} {done} / {exam.count} 題</small><button className="btn" onClick={()=>openExam(exam)}>{progress?'接續作答':'開始練習'}</button></footer>
+    </article>;
+  })}</div>;
   const savedExplanations=filterQuestions([...(study.explanationBookmarks||[])].reverse().map(id=>qmap.get(id)).filter((q):q is Question=>!!q));
   const renderPractice=(props:QuestionPracticeProps & {key?:string})=><QuestionPractice {...props}/>;
   let content:React.ReactNode;
-  if(screen==='overview')content=<><Heading title="學習總覽"/><ExamCountdown/>{stats}<ScoreDashboard bank={bank} study={study} onPractice={startExam}/><div className="hero-grid"><section className="hero"><h2>{canResume?'接續練習':sessionComplete?'本回合已完成':'今日練習'}</h2>{canResume&&<p>{study.session!.title}</p>}<span className="study-corner-sticker" aria-hidden="true"/><button className="btn light" onClick={resumePractice}>{canResume?'繼續練習':sessionComplete?'開始新的刷題':'開始今日練習'} →</button></section><section className="focus-card"><button className="link" onClick={activeWrong.length?()=>start(activeWrong.map(id=>qmap.get(id)!), '錯題重練'):random}>{activeWrong.length?'開始錯題複習':'隨機練習 10 題'} →</button></section></div><div className="section-head"><h2>依科目練習</h2></div><div className="subjects">{bank.subjects.map((s,i)=><button className="subject-card" key={s} onClick={()=>{go('bank');setSubject(String(i));}}><span className={`subject-sticker subject-sticker-${i}`} aria-hidden="true"/><h3>{s}</h3><p>{bank.exams.filter(exam=>exam.subjectIndex===i).length} 份歷屆試卷 · {bank.questions.filter(question=>question.subjectIndex===i).length} 題</p><span className="link">進入題庫 →</span></button>)}</div><div className="section-head"><h2>最新年度 · 115 年</h2><button className="link" onClick={()=>go('bank')}>全部年度 →</button></div>{exams(bank.exams.filter(e=>e.year===115))}</>;
+  const latestExamProgress=examProgress[0];
+  const reviewingWrong=study.session?.title==='錯題重練'||study.session?.title==='本回合錯題';
+  if(screen==='overview')content=<>
+    <Heading title="學習總覽"/><ExamCountdown/>{stats}
+    <div className="hero-grid">
+      <section className="hero exam-resume-card" aria-labelledby="exam-resume-title">
+        <h2 id="exam-resume-title">歷屆試題進度</h2>
+        {latestExamProgress&&<>
+          <p>{latestExamProgress.session.title}</p>
+          <p>已作答 {latestExamProgress.answered} / {latestExamProgress.exam.count} 題{latestExamProgress.recovered?' · 依已提交紀錄接續':''}</p>
+        </>}
+        <span className="study-corner-sticker" aria-hidden="true"/>
+        <button className="btn light" onClick={latestExamProgress?()=>resumeExam(latestExamProgress):()=>go('bank')}>{latestExamProgress?'接續歷屆試題':'前往歷屆題庫'}</button>
+        {examProgress.length>1&&<details className="other-exam-progress">
+          <summary>其他未完成試卷</summary>
+          <ul>{examProgress.slice(1).map(progress=><li key={progress.exam.id}>
+            <button className="link" onClick={()=>resumeExam(progress)}>{progress.session.title}</button>
+            <small>已作答 {progress.answered} / {progress.exam.count} 題</small>
+          </li>)}</ul>
+        </details>}
+      </section>
+      <section className="focus-card review-resume-card" aria-labelledby="review-resume-title">
+        <h2 id="review-resume-title">錯題與其他練習</h2>
+        {resumeIndex!==null&&<>
+          <p>{study.session?.title}</p>
+          <button className="link" onClick={resumePractice}>{reviewingWrong?'繼續錯題重練':'繼續練習'}</button>
+        </>}
+        {!(resumeIndex!==null&&reviewingWrong)&&<button className="link" onClick={activeWrong.length?()=>start(activeWrong.map(id=>qmap.get(id)!), '錯題重練'):random}>{activeWrong.length?'開始錯題複習':'隨機練習 10 題'}</button>}
+      </section>
+    </div>
+    <ScoreDashboard bank={bank} study={study} progressByExam={progressByExam} onPractice={openExam}/>
+    <div className="section-head"><h2>依科目練習</h2></div><div className="subjects">{bank.subjects.map((s,i)=><button className="subject-card" key={s} onClick={()=>{go('bank');setSubject(String(i));}}><span className={`subject-sticker subject-sticker-${i}`} aria-hidden="true"/><h3>{s}</h3><p>{bank.exams.filter(exam=>exam.subjectIndex===i).length} 份歷屆試卷 · {bank.questions.filter(question=>question.subjectIndex===i).length} 題</p><span className="link">進入題庫 →</span></button>)}</div><div className="section-head"><h2>最新年度 · 115 年</h2><button className="link" onClick={()=>go('bank')}>全部年度 →</button></div>{exams(bank.exams.filter(e=>e.year===115))}
+  </>;
   else if(screen==='mock')content=<MockExam review={mockReview} setReview={setMockReview} renderPractice={renderPractice} bank={bank} study={study} update={update} onStar={star} onReport={setReportQuestionId} onViewExplanation={id=>setExplanation({questionId:id,context:'mock'})}/>;
   else if(screen==='bank')content=<><Heading title="歷屆題庫" sub={`${examYears.length} 個年度、${bank.exams.length} 份試卷，共 ${bank.questions.length.toLocaleString("zh-TW")} 題。${explanationProgress}。`}/>{filters}<div className="section-head"><h2>{deferredSearch?'搜尋結果':'依年度練習'}</h2><button className="btn primary" onClick={random}>隨機練習 10 題</button></div>{deferredSearch?list(filterQuestions(bank.questions)):exams(bank.exams.filter(e=>(year==='all'||e.year===+year)&&(subject==='all'||e.subjectIndex===+subject)))}</>;
   else if(screen==='notes')content=<StudyNotes progressStorageKey={key} canSaveMemory={cloud.ready} savedMemory={study.memoryBookmarks} onToggleMemory={memoryStar} bank={bank} vocabulary={vocabulary} vocabularyError={vocabularyError} onRetryWords={()=>setVocabularyRetry(value=>value+1)} savedWords={study.vocabularyBookmarks} savedIdioms={study.idiomBookmarks} onToggleWord={wordStar} onToggleIdiom={idiomStar} onPractice={start} onViewExplanation={id=>setExplanation({questionId:id,context:'notes'})}/>;
