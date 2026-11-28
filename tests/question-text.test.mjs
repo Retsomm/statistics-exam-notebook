@@ -31,7 +31,8 @@ test('108 civics question 31 keeps each year aligned with country and data',()=>
  assert.deepEqual(table.rows,[['國家','2013 年','2014 年','2015 年'],['甲國','100','125','155'],['乙國','100','160','200'],['丙國','100','175','229'],['丁國','100','110','143']]);
 });
 test('ambiguous missing cells do not become a misleading table',()=>{
- const q=prepareQuestionText(bank.questions.find(q=>q.id==='111-1-25'));
+ const raw=bank.questions.find(q=>q.id==='111-1-25');
+ const q=prepareQuestionText({...raw,id:'unreviewed-civics-table'});
  assert.equal(questionLayout(q.stem).some(block=>block.type==='table'),false);
 });
 
@@ -94,8 +95,8 @@ test('Chinese indentation and spacing between numbered alternatives do not becom
  assert.equal(prepareQuestionText(prose).stem.includes('＿＿＿＿'),false);
 });
 
-test('reviewed statistics data reaches the shared renderer as complete tables',()=>{
- const reviewed=JSON.parse(readFileSync(new URL('../data/statistics-question-tables.json',import.meta.url)));
+test('reviewed data reaches the shared renderer as complete tables',()=>{
+ const reviewed=Object.assign({},...['statistics','civics'].map(subject=>JSON.parse(readFileSync(new URL(`../data/${subject}-question-tables.json`,import.meta.url)))));
  const questions=new Map(bank.questions.map(question=>[question.id,question]));
  for(const [id,edits] of Object.entries(reviewed)){
   const question=prepareQuestionText(questions.get(id));
